@@ -170,7 +170,7 @@
     "top_provider": "SpaceX"
    },
    {
-    "count": 8,
+    "count": 7,
     "last_net": "2026-09-11T03:28:00Z",
     "lat": -39.262833,
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -638,6 +638,16 @@
     "name": "81/24 (81P)",
     "spacex": false,
     "top_provider": "Khrunichev State Research and Production Space Center"
+   },
+   {
+    "count": 1,
+    "last_net": "2026-09-30T00:00:00Z",
+    "lat": 67.877368,
+    "location": "Esrange Space Center",
+    "lon": 21.165001,
+    "name": "Launch Complex 3B",
+    "spacex": false,
+    "top_provider": "European Space Agency"
    }
   ],
   "passengers": [
@@ -1924,27 +1934,6 @@
   },
   "upcoming": [
    {
-    "description": "Note: Payload and customer identities were not publicly announced.\r\n\r\n5th of the BlackSky Gen-3 high resolution Earth-imaging satellites.",
-    "id": "b81156da-c0b8-46c8-aebd-8af8d2be83cd",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
-    "lat": -39.262833,
-    "lon": 177.864469,
-    "mission": "Happily Ever Faster (BlackSky Gen-3 5)",
-    "mission_type": "Earth Science",
-    "name": "Electron | Happily Ever Faster (BlackSky Gen-3 5)",
-    "net": "2026-09-11T03:28:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Rocket Lab Launch Complex 1A",
-    "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "rocket": "Electron",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/b81156da-c0b8-46c8-aebd-8af8d2be83cd",
-    "webcast_live": false
-   },
-   {
     "description": "3 high-throughput communications satellites in Medium Earth Orbit (MEO) built by Boeing and operated by SES.",
     "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
@@ -2342,8 +2331,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/548df42c-ae26-4cc9-921a-f0042941911a",
     "webcast_live": false
+   },
+   {
+    "description": "First low-altitude hop test of a Themis demonstrator, with a targeted altitude up to 100 m.",
+    "id": "3b94ad50-3505-496e-8a95-b0bc4c0dadc6",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/themis_t1h_on_t_image_thumbnail_20250919095336.jpeg",
+    "lat": 67.877368,
+    "lon": 21.165001,
+    "mission": "T1H-1",
+    "mission_type": "Test Flight",
+    "name": "Themis Demonstrator | T1H-1",
+    "net": "2026-09-30T00:00:00Z",
+    "net_precision": "Q3",
+    "orbit": "Sub",
+    "pad": "Launch Complex 3B",
+    "pad_location": "Esrange Space Center",
+    "provider": "European Space Agency",
+    "rocket": "Themis Demonstrator",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/3b94ad50-3505-496e-8a95-b0bc4c0dadc6",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-09-12T01:46:43.355747+00:00"
+ "fetched_at": "2026-09-12T08:28:40.961676+00:00"
 }
