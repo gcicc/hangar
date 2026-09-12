@@ -1,0 +1,46 @@
+name: HANGAR Refresh
+
+# Every 2 hours. Note that GitHub Actions cron is UTC year-round and does not
+# follow DST, so this drifts by an hour relative to local time twice a year.
+#
+# This workflow only *generates content* and commits it to the branch. Pages is
+# served from the /docs folder on main, not built by a workflow - see
+# project-management/docs/PUBLISHING-PROTOCOL.md for why that distinction is
+# load-bearing (five sites served a silent 404 for 137 days).
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install feedparser requests jinja2
+
+      # Not every source is refreshed on every run: each declares a max_age in
+      # hangar/cache.py, so this stays inside Launch Library's 15 requests/hour
+      # free tier even though the job itself fires twelve times a day.
+      - name: Refresh and render
+        env:
+          SEC_CONTACT: ${{ secrets.SEC_CONTACT }}
+        run: python run.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "HANGAR Bot"
+          git config user.email "action@github.com"
+          git add docs/index.html data/
+          git diff --cached --quiet || git commit -m "chore: refresh $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

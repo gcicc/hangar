@@ -1,0 +1,86 @@
+{
+ "_schema": {
+  "_comment": "The curated half of the commitments board. Every row must carry a real source URL and the date the statement was made - this register is never populated from recollection. The CLAIMED lane on the page fills itself from live headlines and needs no maintenance; this file is for promises worth tracking properly.",
+  "id": "stable slug, kept identifiable across edits",
+  "company": "SpaceX | Tesla",
+  "statement": "what was said, as close to verbatim as possible",
+  "said_by": "who said it",
+  "said_on": "YYYY-MM-DD the statement was made",
+  "source_url": "REQUIRED - primary source, or the report of it",
+  "target_value": "numeric goal, or null when the goal is an event rather than a quantity",
+  "unit": "satellites | vehicles | GWh | flights/day | acres | null",
+  "target_date": "YYYY-MM-DD deadline; the END of the stated window",
+  "date_precision": "day | month | quarter | year",
+  "metric": "key in the live metrics dict that measures this, or null if unmeasurable",
+  "notes": "context, prior slips, why it matters"
+ },
+ "_available_metrics": [
+  "starlink_in_orbit",
+  "spacex_launches_12mo",
+  "spacex_launches_per_month",
+  "people_in_space",
+  "supercharger_sites",
+  "supercharger_stalls",
+  "tsla_revenue_latest",
+  "tsla_net_income_latest",
+  "tsla_rnd_latest"
+ ],
+ "targets": [
+  {
+   "id": "starbase-la-construction",
+   "company": "SpaceX",
+   "statement": "Construction begins on Starbase Louisiana, a 125,000-acre spaceport at Pecan Island, Vermilion Parish",
+   "said_by": "SpaceX",
+   "said_on": "2026-08-27",
+   "source_url": "https://fortune.com/2026/08/27/spacex-largest-spaceport-100-billion-louisiana-expansion/",
+   "target_value": null,
+   "unit": null,
+   "target_date": "2027-12-31",
+   "date_precision": "year",
+   "metric": null,
+   "notes": "$100B committed, plus $20M upfront and $25M/yr for 25 years under a local PILOT agreement. Over 3,000 direct jobs projected across the decade."
+  },
+  {
+   "id": "starbase-la-first-launch",
+   "company": "SpaceX",
+   "statement": "First launch from Starbase Louisiana",
+   "said_by": "SpaceX",
+   "said_on": "2026-08-27",
+   "source_url": "https://fortune.com/2026/08/27/spacex-largest-spaceport-100-billion-louisiana-expansion/",
+   "target_value": null,
+   "unit": null,
+   "target_date": "2029-12-31",
+   "date_precision": "year",
+   "metric": null,
+   "notes": "Two years after the stated construction start. Watch this one against the Starbase Texas precedent."
+  },
+  {
+   "id": "starbase-la-flight-rate",
+   "company": "SpaceX",
+   "statement": "Over a dozen launch towers, enabling more than 30 Starship flights per day, making it the biggest launch site on Earth",
+   "said_by": "Elon Musk",
+   "said_on": "2026-08-27",
+   "source_url": "https://fortune.com/2026/08/27/spacex-largest-spaceport-100-billion-louisiana-expansion/",
+   "target_value": 30,
+   "unit": "flights/day",
+   "target_date": null,
+   "date_precision": "unknown",
+   "metric": null,
+   "notes": "No date attached to the flight-rate claim - only 'at full buildout'. For scale, SpaceX currently flies roughly 13 orbital launches per MONTH across all vehicles, so this is a claim about a different order of operation, not an increment. Deliberately left unmeasured rather than scored against a deadline nobody stated."
+  },
+  {
+   "id": "terafab-phase-1",
+   "company": "SpaceX",
+   "statement": "Terafab, a 100-million-square-foot semiconductor plant in Grimes County, Texas; $16.8B first phase",
+   "said_by": "Tesla and SpaceX",
+   "said_on": "2026-08-06",
+   "source_url": "https://www.statesman.com/business/article/elon-musk-terafab-spacex-grimes-county-22375537.php",
+   "target_value": null,
+   "unit": null,
+   "target_date": null,
+   "date_precision": "unknown",
+   "metric": null,
+   "notes": "Joint venture of Tesla, SpaceX, xAI and Intel. A SpaceX regulatory filing suggests the multi-phase total could reach $119B. No completion date stated in the announcement - add one here when the company gives one."
+  }
+ ]
+}

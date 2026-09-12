@@ -1,0 +1,48 @@
+{
+ "handle": "elonmusk",
+ "collected_at": "2026-09-05T21:40:00+00:00",
+ "note": "Logged-out profile view: only the most recent posts are visible and permalinks are not recoverable from the text rendering. Timestamps were relative at collection and resolved against collected_at.",
+ "source": "scrapling stealthy_fetch (manual seed, 2026-09-05)",
+ "posts": [
+  {
+   "text": "A Storm of Cybercabs",
+   "stamp": "Sep 3",
+   "posted_at": "2026-09-03T00:00:00+00:00",
+   "pinned": true,
+   "link": "https://x.com/elonmusk",
+   "engagement": {"replies": 5900, "reposts": 5300, "likes": 60000, "views": 12000000}
+  },
+  {
+   "text": "Cybercab",
+   "stamp": "1h",
+   "posted_at": "2026-09-05T20:40:00+00:00",
+   "quoting": "Dave Lee (@davelee): Cybercab is astounding. Truly incredible.",
+   "link": "https://x.com/elonmusk",
+   "engagement": {"replies": 676, "reposts": 623, "likes": 5600, "views": 1000000}
+  },
+  {
+   "text": "Grok",
+   "stamp": "1h",
+   "posted_at": "2026-09-05T20:40:00+00:00",
+   "quoting": "Polymarket: El Salvador's AI tutoring pilot in 171 public schools produced reading, math, & science results above the national average.",
+   "link": "https://x.com/elonmusk",
+   "engagement": {"replies": 546, "reposts": 528, "likes": 4300, "views": 724000}
+  },
+  {
+   "text": "Grok @bot usage limits reset",
+   "stamp": "5h",
+   "posted_at": "2026-09-05T16:40:00+00:00",
+   "quoting": "Grok Bot: We've reset usage limits for all Grok Bot users. Enjoy!",
+   "link": "https://x.com/elonmusk",
+   "engagement": {"replies": 1400, "reposts": 839, "likes": 8500, "views": 2700000}
+  },
+  {
+   "text": "He was right",
+   "stamp": "8h",
+   "posted_at": "2026-09-05T13:40:00+00:00",
+   "quoting": "Krzysztof Szczawinski: Antonio Gramsci - The Most Dangerous Intellectual of the Twentieth Century.",
+   "link": "https://x.com/elonmusk",
+   "engagement": {"replies": 1200, "reposts": 1700, "likes": 10000, "views": 3700000}
+  }
+ ]
+}

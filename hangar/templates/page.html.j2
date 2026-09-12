@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HANGAR — SpaceX &amp; Tesla range board</title>
+<meta name="description" content="Stated ambition against measured reality: launches, fleet, factory output and company timelines for SpaceX and Tesla.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<!-- Leaflet is loaded statically rather than injected on demand. The lazy
+     version saved two requests for readers who never scrolled to the map, and
+     cost a silently blank grey box when the injection did not fire - no error,
+     no tiles, nothing to debug from the page itself. Two requests is the
+     cheaper trade. -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<style>{{ styles }}</style>
+</head>
+<body>
+
+<header class="bar">
+  <h1>Hangar</h1>
+  <span class="sub" id="bar-sub">range board</span>
+  <nav>
+    <a href="#board">Schedule</a>
+    <a href="#growth">Growth</a>
+    <a href="#manifest">Manifest</a>
+    <a href="#range">Range</a>
+    <a href="#dispatch">Dispatch</a>
+    <a href="#" id="theme" role="button">Light</a>
+  </nav>
+</header>
+
+<div class="hero" id="hero">
+  <div>
+    <div class="clock-label" id="clock-label">Next launch</div>
+    <div class="clock" id="clock"></div>
+    <div class="precision" id="precision"></div>
+  </div>
+  <div class="mission" id="mission"></div>
+</div>
+
+<div class="rail" id="rail"></div>
+
+<section id="board">
+  <div class="head">
+    <h2>Schedule performance</h2>
+    <span class="n" id="board-n"></span>
+    <span class="stamp" id="board-stamp"></span>
+  </div>
+  <div id="board-body"></div>
+</section>
+
+<section id="growth">
+  <div class="head">
+    <h2>Growth</h2>
+    <span class="n" id="growth-n"></span>
+  </div>
+  <div id="growth-body"></div>
+</section>
+
+<section id="manifest">
+  <div class="head">
+    <h2>Manifest</h2>
+    <span class="n" id="manifest-n"></span>
+    <span class="stamp" id="manifest-stamp"></span>
+  </div>
+  <div class="rack" id="manifest-body"></div>
+</section>
+
+<section id="range">
+  <div class="head">
+    <h2>Range</h2>
+    <span class="n" id="range-n"></span>
+  </div>
+  <div id="map" style="height:520px;border:1px solid var(--rule);background:var(--rack)"></div>
+  <div class="legend" id="map-legend"></div>
+</section>
+
+<section id="dispatch">
+  <div class="head">
+    <h2>Dispatch</h2>
+    <span class="n" id="dispatch-n"></span>
+    <span class="stamp" id="dispatch-stamp"></span>
+  </div>
+  <div class="cols" id="dispatch-body"></div>
+</section>
+
+<footer>
+  <div>HANGAR — built {{ generated }} UTC. Refreshed on a schedule, not continuously.</div>
+  <div class="sources" id="sources"></div>
+</footer>
+
+<script id="payload" type="application/json">{{ payload }}</script>
+<script>{{ app }}</script>
+</body>
+</html>

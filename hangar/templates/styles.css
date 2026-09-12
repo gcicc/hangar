@@ -1,0 +1,576 @@
+/* HANGAR — range control board.
+ *
+ * Direction: a flight progress strip rack at a launch range, read at 4am.
+ * Real launch operations track each flight on a fixed-field paper strip in a
+ * physical rack; that is the structural device here, and the coloured left edge
+ * of a strip carries state rather than decoration.
+ *
+ * Colour tokens split into two families that must not be mixed:
+ *   - STATE colours (go / hold / sodium) mean something about status.
+ *   - SERIES colours are the validated categorical palette from the dataviz
+ *     reference, used only for chart marks. Company brand colours appear
+ *     nowhere except identity chips, never as data.
+ */
+
+:root {
+  color-scheme: dark;
+
+  /* ground and structure */
+  --ground: #101722;
+  --rack: #0b1017;
+  --strip: #18212e;
+  --strip-hot: #23303f;
+  --rule: #26313f;
+  --rule-bright: #3a4757;
+
+  /* ink */
+  --ink: #e9eef5;
+  --ink-2: #a3b0c0;
+  --ink-muted: #8d97a4;
+
+  /* state — semantic only */
+  --sodium: #ffa14a;   /* pad lighting; the page accent */
+  --go: #46d68a;       /* live, GO, fresh */
+  --hold: #ff6b60;     /* anomaly, NO-GO, stale */
+  --hold-dim: #7d3129;
+
+  /* series — categorical, validated, data marks only */
+  --series-1: #3987e5;
+  --series-2: #eb6834;
+  --series-3: #1baf7a;
+
+  /* topic edges */
+  --t-starship: #eb6834;
+  --t-starlink: #1baf7a;
+  --t-launch: #3987e5;
+  --t-optimus: #d9a441;
+  --t-autonomy: #a06ae0;
+  --t-production: #c2557f;
+  --t-energy: #2a9d8f;
+  --t-regulatory: #ff6b60;
+  --t-money: #8792a8;
+
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  --gutter: clamp(1rem, 3vw, 2.5rem);
+  --strip-h: 2px;
+}
+
+/* Daylight. The rack in a lit room: paper strips go pale, rules stay hairline. */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    color-scheme: light;
+    --ground: #eceef2;
+    --rack: #e2e5ea;
+    --strip: #ffffff;
+    --strip-hot: #fff6ec;
+    --rule: #ccd2db;
+    --rule-bright: #a8b2c0;
+    --ink: #131922;
+    --ink-2: #48525f;
+    --ink-muted: #636b77;
+    --sodium: #b85c00;
+    --go: #157a48;
+    --hold: #c0392f;
+    --hold-dim: #f3c9c5;
+    --series-1: #2a78d6;
+    --series-2: #d4531f;
+    --series-3: #158a60;
+  }
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --ground: #eceef2;
+  --rack: #e2e5ea;
+  --strip: #ffffff;
+  --strip-hot: #fff6ec;
+  --rule: #ccd2db;
+  --rule-bright: #a8b2c0;
+  --ink: #131922;
+  --ink-2: #48525f;
+  --ink-muted: #636b77;
+  --sodium: #b85c00;
+  --go: #157a48;
+  --hold: #c0392f;
+  --hold-dim: #f3c9c5;
+  --series-1: #2a78d6;
+  --series-2: #d4531f;
+  --series-3: #158a60;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+/* ---------- masthead ---------------------------------------------------- */
+
+.bar {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 0.7rem var(--gutter);
+  border-bottom: 1px solid var(--rule);
+  background: var(--rack);
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+.bar h1 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 1.05rem;
+  font-weight: 800;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+.bar .sub {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--ink-muted);
+  letter-spacing: 0.06em;
+}
+
+.bar nav { margin-left: auto; display: flex; gap: 0.15rem; }
+
+.bar nav a {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  text-decoration: none;
+  padding: 0.3rem 0.55rem;
+  border: 1px solid transparent;
+}
+
+.bar nav a:hover, .bar nav a:focus-visible {
+  color: var(--ink);
+  border-color: var(--rule-bright);
+}
+
+/* ---------- hero: the precision clock ----------------------------------- */
+
+.hero {
+  padding: clamp(2rem, 6vw, 4.5rem) var(--gutter) clamp(1.5rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--rule);
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: end;
+}
+
+.clock-label {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--sodium);
+  margin-bottom: 0.6rem;
+}
+
+.clock {
+  display: flex;
+  align-items: baseline;
+  gap: clamp(0.5rem, 1.6vw, 1.1rem);
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  line-height: 0.9;
+}
+
+.clock .unit { display: flex; flex-direction: column; align-items: flex-start; }
+
+.clock .n {
+  font-size: clamp(2.6rem, 8.5vw, 5.6rem);
+  font-weight: 600;
+  letter-spacing: -0.03em;
+}
+
+.clock .u {
+  font-size: 0.6rem;
+  letter-spacing: 0.22em;
+  color: var(--ink-muted);
+  margin-top: 0.55rem;
+}
+
+.clock .sep {
+  font-size: clamp(1.6rem, 5vw, 3.4rem);
+  color: var(--rule-bright);
+  font-weight: 300;
+  align-self: flex-start;
+}
+
+/* Units the source data cannot actually support are shown, but visibly
+   derated — the clock never displays more precision than it has. */
+.clock .unit.derated .n { color: var(--ink-muted); opacity: 0.35; }
+.clock .unit.derated .u { opacity: 0.4; }
+
+.precision {
+  margin-top: 1rem;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--ink-muted);
+  border-left: 2px solid var(--rule-bright);
+  padding-left: 0.7rem;
+  max-width: 46ch;
+}
+
+.precision b { color: var(--ink-2); font-weight: 500; }
+
+.mission h2 {
+  font-family: var(--display);
+  font-size: clamp(1.15rem, 2.6vw, 1.7rem);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  margin: 0 0 0.35rem;
+  text-wrap: balance;
+}
+
+.mission .meta {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--ink-2);
+  line-height: 1.75;
+}
+
+.mission .meta span { color: var(--ink-muted); }
+
+.tag {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.15rem 0.45rem;
+  border: 1px solid currentColor;
+  margin-right: 0.3rem;
+}
+
+.tag.go { color: var(--go); }
+.tag.hold { color: var(--hold); }
+
+/* ---------- stat rail --------------------------------------------------- */
+
+.rail {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 190px), 1fr));
+  border-bottom: 1px solid var(--rule);
+}
+
+.stat {
+  padding: 1.1rem var(--gutter);
+  border-right: 1px solid var(--rule);
+}
+
+.stat:last-child { border-right: none; }
+
+.stat .v {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  font-size: clamp(1.5rem, 3.4vw, 2.1rem);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1;
+}
+
+.stat .k {
+  font-family: var(--mono);
+  font-size: 0.64rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-top: 0.5rem;
+}
+
+.stat .note { font-size: 0.7rem; color: var(--ink-muted); margin-top: 0.3rem; }
+
+/* ---------- sections ---------------------------------------------------- */
+
+section { padding: clamp(1.8rem, 4vw, 3rem) var(--gutter); border-bottom: 1px solid var(--rule); }
+.hero, .rail, section > *, footer > * { max-width: 1400px; margin-left: auto; margin-right: auto; }
+.hero { max-width: none; }
+.hero > * { max-width: none; }
+
+.head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.9rem;
+  margin-bottom: 1.1rem;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.5rem;
+}
+
+.head h2 {
+  font-family: var(--display);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.26em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.head .n {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--ink-muted);
+}
+
+.head .stamp {
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 0.65rem;
+  color: var(--ink-muted);
+  letter-spacing: 0.06em;
+}
+
+.head .stamp.stale { color: var(--hold); }
+
+/* ---------- flight progress strips -------------------------------------- */
+
+.rack { display: flex; flex-direction: column; gap: 2px; }
+
+.strip {
+  display: grid;
+  grid-template-columns: 8.5rem 1fr auto;
+  gap: 0 1rem;
+  align-items: baseline;
+  background: var(--strip);
+  border-left: 3px solid var(--rule-bright);
+  padding: 0.6rem 0.9rem;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+
+.strip:hover, .strip:focus-visible {
+  background: var(--strip-hot);
+  border-left-color: var(--sodium);
+  outline: none;
+}
+
+.strip:focus-visible { box-shadow: inset 0 0 0 1px var(--sodium); }
+
+.strip .when {
+  font-family: var(--mono);
+  font-size: 0.72rem;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-muted);
+  white-space: nowrap;
+}
+
+.strip .what { font-size: 0.92rem; line-height: 1.35; }
+
+.strip .who {
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  white-space: nowrap;
+  text-align: right;
+}
+
+/* The one hot strip: whatever is next in the rack. */
+.strip.next {
+  background: var(--strip-hot);
+  border-left-color: var(--sodium);
+}
+
+.badge {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 0.58rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  border: 1px solid var(--rule-bright);
+  padding: 0 0.3rem;
+  margin-left: 0.4rem;
+  vertical-align: 0.1em;
+  white-space: nowrap;
+}
+
+/* Topic edge colours. The edge is the only place topic colour appears. */
+.t-starship { border-left-color: var(--t-starship); }
+.t-starlink { border-left-color: var(--t-starlink); }
+.t-launch { border-left-color: var(--t-launch); }
+.t-optimus { border-left-color: var(--t-optimus); }
+.t-autonomy { border-left-color: var(--t-autonomy); }
+.t-production { border-left-color: var(--t-production); }
+.t-energy { border-left-color: var(--t-energy); }
+.t-regulatory { border-left-color: var(--t-regulatory); }
+.t-money { border-left-color: var(--t-money); }
+
+/* ---------- cadence chart ----------------------------------------------- */
+
+/* preserveAspectRatio="none" means the viewBox does not imply a height, so
+   one is set explicitly. Without it the SVG expands to fill whatever the
+   layout gives it and swamps the page. */
+.cadence { width: 100%; height: auto; max-height: 230px; overflow: visible; display: block; }
+.cadence text { font-family: var(--mono); font-size: 11px; fill: var(--ink-muted); }
+.cadence .bar-sx { fill: var(--series-1); }
+.cadence .bar-ot { fill: var(--rule-bright); }
+.cadence .partial { opacity: 0.42; }
+.cadence .axis { stroke: var(--rule); stroke-width: 1; }
+
+.legend {
+  display: flex;
+  gap: 1.1rem;
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  color: var(--ink-muted);
+  margin-top: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.legend i {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  margin-right: 0.35rem;
+  vertical-align: -1px;
+}
+
+/* ---------- columns ----------------------------------------------------- */
+
+.cols {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 330px), 1fr));
+  gap: 1.6rem;
+}
+
+.col > h3 {
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--sodium);
+  margin: 0 0 0.6rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+/* ---------- footer ------------------------------------------------------ */
+
+footer {
+  padding: 2rem var(--gutter) 3rem;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--ink-muted);
+  line-height: 1.8;
+}
+
+footer a { color: var(--ink-2); }
+
+.sources { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%,230px),1fr)); gap: 0.3rem 1.5rem; margin-top: 0.8rem; }
+.sources .stale { color: var(--hold); }
+
+/* ---------- responsive -------------------------------------------------- */
+
+@media (max-width: 760px) {
+  .hero { grid-template-columns: 1fr; align-items: start; }
+  .strip { grid-template-columns: 1fr; gap: 0.2rem; }
+  .strip .who { text-align: left; }
+  .stat { border-right: none; border-bottom: 1px solid var(--rule); }
+}
+
+/* ---------- motion ------------------------------------------------------ */
+
+/* One orchestrated moment: the rack fills on load, top strip first. */
+@media (prefers-reduced-motion: no-preference) {
+  .rack .strip {
+    animation: settle 0.32s cubic-bezier(0.2, 0.7, 0.3, 1) backwards;
+    animation-delay: calc(var(--i, 0) * 26ms);
+  }
+  @keyframes settle {
+    from { opacity: 0; transform: translateX(-6px); }
+    to { opacity: 1; transform: none; }
+  }
+}
+
+/* ---------- stat trends -------------------------------------------------
+   A number on this page is not allowed to appear without its history, or
+   without saying it has none yet. */
+
+.stat .trend {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.45rem;
+  color: var(--series-1);
+}
+
+.stat .spark { flex: 0 0 auto; overflow: visible; }
+
+.stat .delta {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.stat .delta.up { color: var(--go); }
+.stat .delta.down { color: var(--hold); }
+/* No direction implied, so no directional colour. */
+.stat .delta.flat { color: var(--ink-muted); }
+.stat .note.nohist { color: var(--ink-muted); font-style: italic; opacity: 0.85; }
+
+/* ---------- Leaflet chrome ----------------------------------------------
+   Leaflet ships its own light-only control styling, which sits in a dark page
+   like a lightbox. Re-skin it onto the page tokens so the map reads as part of
+   the board rather than an embed. */
+
+.leaflet-container { background: var(--rack); font-family: var(--mono); }
+
+.leaflet-control-layers,
+.leaflet-bar a,
+.leaflet-control-attribution {
+  background: var(--strip) !important;
+  color: var(--ink-2) !important;
+  border-color: var(--rule) !important;
+}
+
+.leaflet-control-layers { padding: 0.5rem 0.7rem; border-radius: 0; }
+
+.leaflet-control-layers label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--ink-2);
+  line-height: 1.7;
+}
+
+.leaflet-bar a { border-bottom-color: var(--rule) !important; }
+.leaflet-bar a:hover { background: var(--strip-hot) !important; color: var(--ink) !important; }
+
+.leaflet-control-attribution {
+  font-size: 0.62rem;
+  padding: 0 0.35rem;
+}
+
+.leaflet-control-attribution a { color: var(--ink-muted) !important; }
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: var(--strip);
+  color: var(--ink);
+  border-radius: 0;
+  box-shadow: 0 2px 14px rgba(0, 0, 0, 0.4);
+}
+
+.leaflet-popup-content { font-family: var(--mono); font-size: 0.72rem; line-height: 1.6; }
+.leaflet-popup-content b { font-family: var(--body); font-size: 0.85rem; }
+.leaflet-container a.leaflet-popup-close-button { color: var(--ink-muted); }

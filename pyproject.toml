@@ -1,0 +1,27 @@
+[project]
+name = "hangar"
+version = "0.1.0"
+description = "HANGAR - SpaceX/Tesla operations and market tracker, refreshed on a schedule"
+requires-python = ">=3.11"
+dependencies = [
+    "feedparser>=6.0",
+    "requests>=2.31",
+    "jinja2>=3.1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.4",
+    "pytest>=8.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["hangar"]
