@@ -4,12 +4,13 @@ type: maintain
 category: building
 tier: 02-Maintain
 updated: 2026-09-12
+url: https://gcicc.github.io/hangar/
 note: moved from 01-Active-Projects 2026-09-07
 ---
 # HANGAR — next steps
 
 **Type:** Maintain (moved from 01-Active-Projects 2026-09-07)
-**Phase:** 1 — working page, Tier 0 local
+**Phase:** 2 — published, Tier 2 (GitHub Pages)
 **Started:** 2026-09-05
 **Capability:** A single page tracking SpaceX and Tesla as *cadence machines* —
 stated ambition against measured reality, refreshed on a schedule.
@@ -40,12 +41,13 @@ cached weekly. Nothing is unpopulated.
 
 ## Next task
 
-Give the page a remote. The repo is local-only on branch `master`, so the
-refresh workflow described below has never run. See blocker 3.
+Confirm the first scheduled refresh commits cleanly. The workflow fires every
+two hours on `main`; check that the bot commit lands and `docs/index.html`
+updates without a push failure.
 
 ## Blockers
 
-Three decisions are Greg's:
+Two decisions are Greg's:
 
 1. **Where the X collector runs.** X needs a real browser, which GitHub Actions
    can't give cheaply. Default assumed: an optional local Windows scheduled task
@@ -55,16 +57,15 @@ Three decisions are Greg's:
    rendering `@elonmusk collected 148h ago — STALE` in red.
 2. **Rule 19a freeze gate.** This is a new project bootstrap and trips the gate.
    Recommend explicit unfreeze.
-3. **No git remote.** `git remote -v` is empty and the branch is `master`, while
-   `.github/workflows/refresh.yml` targets `main`. The scheduled refresh cannot
-   fire and Pages has nothing to serve, which is why the page is absent from the
-   Web Ledger. Needs a GitHub repo created, the branch reconciled with the
-   workflow, and Pages pointed at `/docs`.
+
+Resolved 2026-09-12: the repo now has a remote at github.com/gcicc/hangar and
+publishes from `/docs` on `main`.
 
 ## What keeps this current
 
 `.github/workflows/refresh.yml`, cron `0 */2 * * *`, commits `docs/` and `data/`
-back to main. Pages serves from `/docs` on the branch — never a Pages build
+back to main. The SEC contact address is supplied by the `SEC_CONTACT`
+repository secret rather than hardcoded (see `hangar/financials.py`). Pages serves from `/docs` on the branch — never a Pages build
 workflow (`project-management/docs/PUBLISHING-PROTOCOL.md`).
 
 Per-source cadence is enforced by `max_age` in `hangar/cache.py`, so the job
@@ -75,8 +76,10 @@ stale in red.
 
 ## Reach and finish
 
-Tier 0 (local) now, and blocked there by the missing remote (blocker 3).
-Target Tier 2 (Pages) after the Crafted pass.
+Tier 2 (Pages) as of 2026-09-12: https://gcicc.github.io/hangar/
+
+Verified on publish — the page renders, the manifest and range map populate, and
+the ArcGIS basemap tiles load over HTTPS.
 
 **Tier 1 (Artifact) is not available to this page** and never will be: the map
 needs tile requests, which the Artifact CSP blocks silently — the map renders and
