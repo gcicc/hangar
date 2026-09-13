@@ -137,23 +137,23 @@
   "superchargers": {
    "by_status": {
     "CLOSED_PERM": 276,
-    "CLOSED_TEMP": 67,
-    "CONSTRUCTION": 368,
-    "EXPANDING": 22,
-    "OPEN": 8915,
-    "PERMIT": 191,
-    "PLAN": 986,
-    "VOTING": 133
+    "CLOSED_TEMP": 69,
+    "CONSTRUCTION": 366,
+    "EXPANDING": 19,
+    "OPEN": 8936,
+    "PERMIT": 190,
+    "PLAN": 1000,
+    "VOTING": 132
    },
    "clusters": [
     {
      "lat": 30.639,
-     "lon": 120.605,
+     "lon": 120.603,
      "regions": [
       "Asia Pacific"
      ],
-     "sites": 840,
-     "stalls": 4431
+     "sites": 843,
+     "stalls": 4441
     },
     {
      "lat": 40.23,
@@ -165,13 +165,13 @@
      "stalls": 4727
     },
     {
-     "lat": 35.118,
-     "lon": -119.342,
+     "lat": 35.121,
+     "lon": -119.345,
      "regions": [
       "North America"
      ],
-     "sites": 350,
-     "stalls": 6298
+     "sites": 349,
+     "stalls": 6282
     },
     {
      "lat": 23.151,
@@ -192,31 +192,31 @@
      "stalls": 1497
     },
     {
-     "lat": 38.517,
-     "lon": -121.449,
+     "lat": 38.514,
+     "lon": -121.451,
      "regions": [
       "North America"
      ],
-     "sites": 221,
-     "stalls": 3030
+     "sites": 222,
+     "stalls": 3058
     },
     {
-     "lat": 49.696,
-     "lon": 9.8,
+     "lat": 49.694,
+     "lon": 9.795,
      "regions": [
       "Europe"
      ],
-     "sites": 220,
-     "stalls": 2704
+     "sites": 221,
+     "stalls": 2712
     },
     {
-     "lat": 24.615,
-     "lon": 119.913,
+     "lat": 24.613,
+     "lon": 119.916,
      "regions": [
       "Asia Pacific"
      ],
-     "sites": 203,
-     "stalls": 1096
+     "sites": 204,
+     "stalls": 1102
     },
     {
      "lat": 30.077,
@@ -228,22 +228,22 @@
      "stalls": 923
     },
     {
-     "lat": 29.94,
-     "lon": 114.714,
+     "lat": 29.934,
+     "lon": 114.701,
      "regions": [
       "Asia Pacific"
      ],
-     "sites": 181,
-     "stalls": 815
+     "sites": 183,
+     "stalls": 821
     },
     {
-     "lat": 34.263,
-     "lon": -116.11,
+     "lat": 34.273,
+     "lon": -116.103,
      "regions": [
       "North America"
      ],
-     "sites": 171,
-     "stalls": 3138
+     "sites": 172,
+     "stalls": 3150
     },
     {
      "lat": 50.737,
@@ -255,31 +255,31 @@
      "stalls": 1919
     },
     {
-     "lat": 50.624,
-     "lon": 5.315,
+     "lat": 50.613,
+     "lon": 5.299,
      "regions": [
       "Europe"
      ],
-     "sites": 151,
-     "stalls": 2365
+     "sites": 152,
+     "stalls": 2373
     },
     {
-     "lat": 35.256,
-     "lon": -80.092,
+     "lat": 35.282,
+     "lon": -80.093,
      "regions": [
       "North America"
      ],
-     "sites": 142,
-     "stalls": 1696
+     "sites": 144,
+     "stalls": 1728
     },
     {
-     "lat": 34.549,
+     "lat": 34.551,
      "lon": -84.973,
      "regions": [
       "North America"
      ],
-     "sites": 139,
-     "stalls": 1857
+     "sites": 140,
+     "stalls": 1865
     },
     {
      "lat": 35.0,
@@ -327,6 +327,24 @@
      "stalls": 498
     },
     {
+     "lat": 45.215,
+     "lon": 5.281,
+     "regions": [
+      "Europe"
+     ],
+     "sites": 112,
+     "stalls": 1736
+    },
+    {
+     "lat": 45.695,
+     "lon": 9.789,
+     "regions": [
+      "Europe"
+     ],
+     "sites": 111,
+     "stalls": 1349
+    },
+    {
      "lat": 40.458,
      "lon": -85.051,
      "regions": [
@@ -336,49 +354,31 @@
      "stalls": 1206
     },
     {
-     "lat": 45.232,
-     "lon": 5.272,
-     "regions": [
-      "Europe"
-     ],
-     "sites": 111,
-     "stalls": 1728
-    },
-    {
-     "lat": 45.681,
-     "lon": 9.774,
-     "regions": [
-      "Europe"
-     ],
-     "sites": 110,
-     "stalls": 1345
-    },
-    {
-     "lat": 40.782,
-     "lon": -89.119,
+     "lat": 40.771,
+     "lon": -89.13,
      "regions": [
       "North America"
      ],
-     "sites": 108,
-     "stalls": 1221
+     "sites": 107,
+     "stalls": 1217
     },
     {
-     "lat": 26.28,
-     "lon": -80.587,
+     "lat": 26.278,
+     "lon": -80.583,
      "regions": [
       "North America"
      ],
-     "sites": 96,
-     "stalls": 1252
+     "sites": 97,
+     "stalls": 1264
     },
     {
-     "lat": 34.063,
-     "lon": -96.2,
+     "lat": 34.077,
+     "lon": -96.213,
      "regions": [
       "North America"
      ],
-     "sites": 93,
-     "stalls": 1035
+     "sites": 94,
+     "stalls": 1039
     },
     {
      "lat": 59.958,
@@ -390,13 +390,13 @@
      "stalls": 1750
     },
     {
-     "lat": 30.454,
-     "lon": -95.774,
+     "lat": 30.442,
+     "lon": -95.769,
      "regions": [
       "North America"
      ],
-     "sites": 86,
-     "stalls": 1232
+     "sites": 88,
+     "stalls": 1252
     },
     {
      "lat": 54.83,
@@ -525,22 +525,22 @@
      "stalls": 712
     },
     {
-     "lat": 30.112,
-     "lon": -84.044,
+     "lat": 30.078,
+     "lon": -84.024,
      "regions": [
       "North America"
      ],
-     "sites": 64,
-     "stalls": 696
+     "sites": 65,
+     "stalls": 720
     },
     {
-     "lat": 53.622,
-     "lon": -1.422,
+     "lat": 53.637,
+     "lon": -1.416,
      "regions": [
       "Europe"
      ],
-     "sites": 61,
-     "stalls": 595
+     "sites": 62,
+     "stalls": 603
     },
     {
      "lat": 41.969,
@@ -624,15 +624,6 @@
      "stalls": 573
     },
     {
-     "lat": 54.574,
-     "lon": -3.87,
-     "regions": [
-      "Europe"
-     ],
-     "sites": 48,
-     "stalls": 435
-    },
-    {
      "lat": 34.256,
      "lon": -111.411,
      "regions": [
@@ -640,6 +631,15 @@
      ],
      "sites": 48,
      "stalls": 651
+    },
+    {
+     "lat": 54.534,
+     "lon": -3.887,
+     "regions": [
+      "Europe"
+     ],
+     "sites": 47,
+     "stalls": 427
     },
     {
      "lat": 34.91,
@@ -669,13 +669,13 @@
      "stalls": 210
     },
     {
-     "lat": 43.876,
-     "lon": -89.445,
+     "lat": 43.849,
+     "lon": -89.435,
      "regions": [
       "North America"
      ],
-     "sites": 42,
-     "stalls": 367
+     "sites": 43,
+     "stalls": 379
     },
     {
      "lat": -34.324,
@@ -768,6 +768,15 @@
      "stalls": 380
     },
     {
+     "lat": 55.072,
+     "lon": 13.979,
+     "regions": [
+      "Europe"
+     ],
+     "sites": 32,
+     "stalls": 512
+    },
+    {
      "lat": 44.485,
      "lon": 125.53,
      "regions": [
@@ -777,13 +786,13 @@
      "stalls": 119
     },
     {
-     "lat": 55.012,
-     "lon": 14.026,
+     "lat": 50.581,
+     "lon": -3.467,
      "regions": [
       "Europe"
      ],
-     "sites": 31,
-     "stalls": 492
+     "sites": 29,
+     "stalls": 330
     },
     {
      "lat": 24.913,
@@ -793,15 +802,6 @@
      ],
      "sites": 29,
      "stalls": 223
-    },
-    {
-     "lat": 50.544,
-     "lon": -3.495,
-     "regions": [
-      "Europe"
-     ],
-     "sites": 28,
-     "stalls": 322
     },
     {
      "lat": 43.991,
@@ -867,15 +867,6 @@
      "stalls": 279
     },
     {
-     "lat": -37.982,
-     "lon": 144.806,
-     "regions": [
-      "Asia Pacific"
-     ],
-     "sites": 25,
-     "stalls": 157
-    },
-    {
      "lat": 63.45,
      "lon": 10.358,
      "regions": [
@@ -912,6 +903,15 @@
      "stalls": 230
     },
     {
+     "lat": -37.986,
+     "lon": 144.798,
+     "regions": [
+      "Asia Pacific"
+     ],
+     "sites": 24,
+     "stalls": 153
+    },
+    {
      "lat": 31.48,
      "lon": 35.027,
      "regions": [
@@ -921,13 +921,13 @@
      "stalls": 194
     },
     {
-     "lat": 39.831,
-     "lon": 29.316,
+     "lat": 39.873,
+     "lon": 29.341,
      "regions": [
       "Europe"
      ],
-     "sites": 21,
-     "stalls": 200
+     "sites": 22,
+     "stalls": 212
     },
     {
      "lat": 39.684,
@@ -1305,7 +1305,7 @@
       "Europe"
      ],
      "sites": 7,
-     "stalls": 42
+     "stalls": 46
     },
     {
      "lat": 50.467,
@@ -2257,11 +2257,11 @@
     "added": [
      7,
      55,
-     201,
+     202,
      200,
      183,
      321,
-     283,
+     284,
      320,
      348,
      1045,
@@ -2269,42 +2269,42 @@
      1313,
      1095,
      1318,
-     750
+     769
     ],
     "caveat": "Sites open today, by the year each opened. A site that has since closed is not counted, so earlier years are slightly understated.",
     "cumulative": [
      7,
      62,
-     263,
-     463,
-     646,
-     967,
-     1250,
-     1570,
-     1918,
-     2963,
-     4439,
-     5752,
-     6847,
-     8165,
-     8915
+     264,
+     464,
+     647,
+     968,
+     1252,
+     1572,
+     1920,
+     2965,
+     4441,
+     5754,
+     6849,
+     8167,
+     8936
     ],
     "cumulative_stalls": [
      82,
      699,
-     2780,
-     4683,
-     6441,
-     9767,
-     13113,
-     16657,
-     20581,
-     29978,
-     42863,
-     55277,
-     65864,
-     78055,
-     84102
+     2800,
+     4703,
+     6457,
+     9783,
+     13141,
+     16685,
+     20609,
+     30006,
+     42895,
+     55333,
+     65920,
+     78111,
+     84324
     ],
     "years": [
      "2012",
@@ -2325,9 +2325,9 @@
     ]
    },
    "note": "Open sites only, aggregated into ~5-degree cells for the map. Counts are exact; circle positions are the mean of the sites in a cell.",
-   "open_sites": 8915,
-   "total_stalls": 84102
+   "open_sites": 8936,
+   "total_stalls": 84324
   }
  },
- "fetched_at": "2026-09-06T13:43:46.303900+00:00"
+ "fetched_at": "2026-09-13T14:09:31.526900+00:00"
 }
