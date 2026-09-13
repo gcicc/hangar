@@ -146,7 +146,7 @@
    "status": "Go",
    "status_name": "Go for Launch",
    "url": "https://nextspaceflight.com/launches/details/ad358a4d-c541-409b-9366-9c2f2da4aeb9",
-   "webcast_live": false
+   "webcast_live": true
   },
   "pads": [
    {
@@ -1952,7 +1952,7 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/ad358a4d-c541-409b-9366-9c2f2da4aeb9",
-    "webcast_live": false
+    "webcast_live": true
    },
    {
     "description": "Sentinel-3C is the third satellite in the Sentinel-3 constellation, which provides high-accuracy optical, radar and altimetry data for marine and land services.\r\n\r\nThe Fluorescence Explorer (FLEX) satellite is a part of ESA's Earth Explorer program. The satellite will map vegetation fluorescence to quantify photosynthetic activity.",
@@ -2355,5 +2355,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-13T14:09:28.788589+00:00"
+ "fetched_at": "2026-09-13T18:36:06.047991+00:00"
 }
