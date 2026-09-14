@@ -160,7 +160,7 @@
     "top_provider": "SpaceX"
    },
    {
-    "count": 43,
+    "count": 42,
     "last_net": "2026-09-30T00:00:00Z",
     "lat": 28.56194122,
     "location": "Cape Canaveral SFS, FL, USA",
@@ -231,6 +231,16 @@
    },
    {
     "count": 5,
+    "last_net": "2026-10-07T00:00:00Z",
+    "lat": 5.256319,
+    "location": "Guiana Space Centre, French Guiana",
+    "lon": -52.786838,
+    "name": "Ariane Launch Area 4",
+    "spacex": false,
+    "top_provider": "Arianespace"
+   },
+   {
+    "count": 5,
     "last_net": "2026-08-10T12:02:00Z",
     "lat": 19.618452,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -238,16 +248,6 @@
     "name": "201",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 4,
-    "last_net": "2026-08-27T20:11:00Z",
-    "lat": 5.256319,
-    "location": "Guiana Space Centre, French Guiana",
-    "lon": -52.786838,
-    "name": "Ariane Launch Area 4",
-    "spacex": false,
-    "top_provider": "Arianespace"
    },
    {
     "count": 4,
@@ -1934,27 +1934,6 @@
   },
   "upcoming": [
    {
-    "description": "3 high-throughput communications satellites in Medium Earth Orbit (MEO) built by Boeing and operated by SES.",
-    "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-    "lat": 28.56194122,
-    "lon": -80.57735736,
-    "mission": "O3b mPower 11-13",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | O3b mPower 11-13",
-    "net": "2026-09-13T18:49:00Z",
-    "net_precision": "MIN",
-    "orbit": "MEO",
-    "pad": "Space Launch Complex 40",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/ad358a4d-c541-409b-9366-9c2f2da4aeb9",
-    "webcast_live": false
-   },
-   {
     "description": "Sentinel-3C is the third satellite in the Sentinel-3 constellation, which provides high-accuracy optical, radar and altimetry data for marine and land services.\r\n\r\nThe Fluorescence Explorer (FLEX) satellite is a part of ESA's Earth Explorer program. The satellite will map vegetation fluorescence to quantify photosynthetic activity.",
     "id": "8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193950.jpeg",
@@ -2352,8 +2331,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/3b94ad50-3505-496e-8a95-b0bc4c0dadc6",
     "webcast_live": false
+   },
+   {
+    "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
+    "id": "7bdc412b-c965-4517-a131-f57a01189803",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_thumbnail_20260618063419.jpeg",
+    "lat": 5.256319,
+    "lon": -52.786838,
+    "mission": "Amazon Leo (LE-04)",
+    "mission_type": "Communications",
+    "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+    "net": "2026-10-07T00:00:00Z",
+    "net_precision": "DAY",
+    "orbit": "LEO",
+    "pad": "Ariane Launch Area 4",
+    "pad_location": "Guiana Space Centre, French Guiana",
+    "provider": "Arianespace",
+    "rocket": "Ariane 64 Block 2",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/7bdc412b-c965-4517-a131-f57a01189803",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-09-14T16:13:22.472093+00:00"
+ "fetched_at": "2026-09-14T21:37:11.234998+00:00"
 }
