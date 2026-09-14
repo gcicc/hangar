@@ -301,7 +301,7 @@
    },
    {
     "count": 3,
-    "last_net": "2026-09-18T12:15:00Z",
+    "last_net": "2026-09-22T12:15:00Z",
     "lat": 25.99677,
     "location": "SpaceX Starbase, TX, USA",
     "lon": -97.15799,
@@ -2102,27 +2102,6 @@
     "webcast_live": false
    },
    {
-    "description": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites) into stable Low Earth Orbit.",
-    "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
-    "lat": 25.99677,
-    "lon": -97.15799,
-    "mission": "Flight 14",
-    "mission_type": "Test Flight",
-    "name": "Starship | Flight 14",
-    "net": "2026-09-18T12:15:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Orbital Launch Pad 2",
-    "pad_location": "SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "rocket": "Starship V3",
-    "status": "TBC",
-    "status_name": "To Be Confirmed",
-    "url": "https://nextspaceflight.com/launches/details/7d1afb26-6f9c-429b-9ccf-29012fd1e519",
-    "webcast_live": false
-   },
-   {
     "description": "Details TBD.",
     "id": "a527b585-f01f-4ecc-9230-711dcef72ef1",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
@@ -2162,6 +2141,27 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/d1471f9d-e9d0-4146-8e97-90863e48bfc8",
+    "webcast_live": false
+   },
+   {
+    "description": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites) into stable Low Earth Orbit.",
+    "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
+    "lat": 25.99677,
+    "lon": -97.15799,
+    "mission": "Flight 14",
+    "mission_type": "Test Flight",
+    "name": "Starship | Flight 14",
+    "net": "2026-09-22T12:15:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Orbital Launch Pad 2",
+    "pad_location": "SpaceX Starbase, TX, USA",
+    "provider": "SpaceX",
+    "rocket": "Starship V3",
+    "status": "TBC",
+    "status_name": "To Be Confirmed",
+    "url": "https://nextspaceflight.com/launches/details/7d1afb26-6f9c-429b-9ccf-29012fd1e519",
     "webcast_live": false
    },
    {
@@ -2355,5 +2355,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-14T09:40:20.926389+00:00"
+ "fetched_at": "2026-09-14T16:13:22.472093+00:00"
 }
