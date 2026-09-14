@@ -1,6 +1,6 @@
 {
  "data": {
-  "corpus_size": 1247,
+  "corpus_size": 1243,
   "labels": {
    "market": "Markets & Filings",
    "spacex": "SpaceX",
@@ -14,9 +14,19 @@
   "sections": {
    "market": [
     {
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxORHRMWVk5OVIwQzJRTkJvdUJiQjViU2RWVWxJbk44SE83Sk9HWUQyYWt4ZFAyenNaaTQ0emZrR3dBLXd5UmpuMHNPT2VUVzZjcmxzMmFSLWpiQ2d1eUx6cHZydTBrUFJncER0dXM4MEoyWGpHQUJvYjFGMHJQM09Cbm1kSG1xSV9DNlNzUzJMSWFFZ01SaXdhN1VDVXpqT00yTTc4bQ?oc=5",
+     "published": "2026-09-14T09:13:35+00:00",
+     "score": 2.963,
+     "source": "SPCX",
+     "title": "Anthropic\u2019s Nasdaq IPO could rival SpaceX as Claude revenue races past $65B - techfundingnews.com",
+     "topics": [
+      "money"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5VTVE5eUJEM1BuQ0V2dXN6YUtNTUdDbGN3M2F3MWh1ZE5tTVFFenU1OWZrSDZPZ2ZfRFpwbGFNb0JwRUFiT3ZpMUt0cEUwSWtaY2pnUUNocnUwNWVWajRsSU1kNHp1LUlqSHc?oc=5",
      "published": "2026-09-13T15:54:35+00:00",
-     "score": 2.666,
+     "score": 2.027,
      "source": "Musk",
      "title": "Elon Musk\u2019s quietest investor has built a $40B SpaceX stake - The Next Web",
      "topics": []
@@ -24,17 +34,9 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPczNicjE3VEpvb19VdVVQS2diNVk4OWtZcUNOQTFOVnl0MkxxYVI1MnlrQUVWQmlkV0M2cnpPUkVlbzNDdEZZeFBlZjJjWmk0ZzZjbDlxNnVtWm4tcXJRX0hsQkdXeGRIRlk0SnJzLVdzandsa3F1TEYzeER2QUNGZXdjRE9FS2Nma0Q2VFdyZ3pZWVpBa3VxSWdueTExTWEwb3ZUemhja0hxTVhxQnRDOHhUSlNJMmtv?oc=5",
      "published": "2026-09-13T10:41:30+00:00",
-     "score": 2.608,
+     "score": 1.809,
      "source": "SPCX",
      "title": "SpaceX: Taking Flight And Defying Lock-Ups Ahead Of Q4, Communacopia Takeaways - Seeking Alpha",
-     "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMS1SM04wYWdkM0JGdVl0a2pyTk90Q0NIaC1lUmw1LXhkSlpxR215eWxPdXUzMkFVUmJEeExseDZOazd6RkQ3SVBPeFpURkpkMjVuUnJPblBDMG0tR0VNaGxwS0tRZ2YxTVp2VnNiYjl5OGpTQW9hcEtfT1djTnJubGYzZ0U?oc=5",
-     "published": "2026-09-13T08:26:18+00:00",
-     "score": 1.836,
-     "source": "Musk",
-     "title": "Elon Musk\u2019s secretive backer builds $40bn SpaceX stake - ft.com",
      "topics": []
     },
     {
@@ -48,83 +50,77 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaGRpeV9TcmZZZnBjQUxyQThaRk1rWGJsRDdBUVJGZ21jVjNSQ3B1X0d1NXpRMWMwUzRJcWItYUUtcU9jMUN3dDA5QmpUck1pcDBXX2p5bkZfelU5a2xSUDkyYnpxRFIxeEV3Wm9GMVJCcmdkc0d4cmFSMW5tdTJpN1dSZ01MWmRsMFF0bU10YXZqUQ?oc=5",
-     "published": "2026-09-12T21:20:00+00:00",
-     "score": 0.904,
-     "source": "SPCX",
-     "title": "Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call - Yahoo Finance",
-     "topics": [
-      "money"
-     ]
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPV3dfVXBDbkJPdV9OaFowdkduTHZEVUFiU2FBb25xQzl3NDBwclc3QVVQLXlXemJHT1VLR3BJb0JpbWFDODRIRmJuakdMYTVaN296bG9oWnppbW1tejZPb3hJOC1tVFRCZUwtcUZuSElLRERMT3JKUWZ3cUR3b05sMjQ1aDYzR2RaN1ozV0dEaTkyZWl1?oc=5",
+     "published": "2026-09-13T10:18:11+00:00",
+     "score": 1.404,
+     "source": "Musk",
+     "title": "Vy Capital reaches $50bn AUM and builds $40bn SpaceX stake - Dealroom",
+     "topics": []
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOHJTNVJMU1lBSHd3ZnVjUE5CWVhGS1NTRWJwN2ZKRnRFWmRRYzVsSE5Bb1dwY2l6a0VkQl9uSGxWX21UNEVVQ3lzUWFKRlNVU1VoN1FnUXBjcWpvVGRzM25TSUxmODljdmQyVGVHcUl1TUxVTWhNQjV3QjRpeXNES2pQdTBielJpOGhjd3JqX0lOT091LUxoMHJRR1hkS0lUWUh5NWpzRXFGckR1RDVmeUJJNA?oc=5",
-     "published": "2026-09-11T17:05:28+00:00",
-     "score": 0.9,
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMS1SM04wYWdkM0JGdVl0a2pyTk90Q0NIaC1lUmw1LXhkSlpxR215eWxPdXUzMkFVUmJEeExseDZOazd6RkQ3SVBPeFpURkpkMjVuUnJPblBDMG0tR0VNaGxwS0tRZ2YxTVp2VnNiYjl5OGpTQW9hcEtfT1djTnJubGYzZ0U?oc=5",
+     "published": "2026-09-13T08:26:18+00:00",
+     "score": 1.197,
+     "source": "Musk",
+     "title": "Elon Musk\u2019s secretive backer builds $40bn SpaceX stake - Financial Times",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5nT044R0tzT1FKaUhpYXZCeGtSelZaM3VmYl8zQmZFbzRyMDVPRUxDZWhDajd4eUJoOXFrTEUtT2ltN3I3WGM4UE5zX2wwZ2hHUk1Wek9yb0E5M3A1YjNfWFFaXzZ3X2UzajZodFluUnh1LUZnNlhmeXJxMmg?oc=5",
+     "published": "2026-09-14T09:07:06+00:00",
+     "score": 0.985,
      "source": "TSLA",
-     "title": "Is Tesla Stock Priced For Its Earnings Or Its Robots? - Trefis",
+     "title": "Is SpaceX stock the next Tesla? - The Twelfth Magpie",
      "topics": [
       "money"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPU2ZqUUpucmdCa0pRemNyMzRvWWc0UExTbklkbkpzN1dIRDI1bnh2OHI2dzNvVDJlWHVsN2hfeDBOZWQxdUtoV2N2STAxbWVEWHNZU1BtV2VrQWxXMTdaU0FKc29GOWNPdmhCOWl0bDU1WmZrNURiTEQ0WlVNX1ZxTDg1MlU2UEJMb2ZTMG5MYTMzNHNa?oc=5",
-     "published": "2026-09-11T15:16:00+00:00",
-     "score": 0.9,
-     "source": "TSLA",
-     "title": "Tesla Semi Gets Boost From $6 Diesel; Morgan Stanley Says Earnings Potential 'Underappreciated' - Investor's Business Daily",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObmRUck5rVFFWSmhQWUpvVWtqcXdXLUdweWFnY0x5MmVKc3MwODQ4YTZPYWdSX2VRVGhHS3JPLUlEOXBSS2p2dFhGT2FhOElubW5rR05RcFliQnlUd3g4dlZWaVN3eFd5M01udjVfdlFUNXBKT1NKdHA0OXZvTmUwZnBnSGtYNnotdjlONzRHVFhXOXBLX0dWMWRpQ2ZSS3RNWmw4Ulh5ZHc?oc=5",
-     "published": "2026-09-09T17:31:00+00:00",
-     "score": 0.9,
-     "source": "TSLA",
-     "title": "Tesla stock rebounds from drop following Cybercab launch - USA Today",
-     "topics": [
-      "autonomy",
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOakU3TmMzdURTRF9zRjRKSjNRcnIxOG5RRXd3cmcxVi1YRk9RWnk0X3dxd1k2NkJib3pMUklDdGwxTTNJNUk2RFlMVUpoSEtyWXRfS2xzWFB1WkU1S2dPdTNlWWhBbUtKYnZVWlludl82Zk1tMWFCVEZNLXM2Qm9rT2tBRV8yd0lQUWZHODJn?oc=5",
-     "published": "2026-08-24T07:00:00+00:00",
-     "score": 0.9,
-     "source": "TSLA",
-     "title": "Tesla Stock: Why Nevada Robo-Taxi Launch Can\u2019t Stop Shares From Sinking - Barron's",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZmUwSl9BTy10cUFvYXNhR3dRRzFkNklKNF9rT1c3X3lzTERxRHhDWV9JQ3E1cmk5NUpqWUV2M3pVT0VhUUxFWlVRSWFxdzhtYk5Lek1DY0JKUkV0OUtOY0tqcm1PNHZrbFRVZmlzOUd4cjk1MzJVZV8xSjNaeV9BQVVMY2FITWxfUzZkcnN1aw?oc=5",
-     "published": "2026-09-10T20:25:00+00:00",
-     "score": 0.9,
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcnI4TUhDckphOGRuT2RhWDViYTU5OGk1WkJKTExJU1hTOUlaVGx0NG4tZTJxY2kwZWswMnREYXN4YnowVDAteDh4Z2FLNl82UUo4dEJnUTRiQzl5U3Y2TVdyRzkyeDhzMHhzM3Fsb095RHExSE5lZlNTV1FYdlVyc1NxR0V3YTRYQXg0dkpObU15VXJCWU1iTmlTU0tFZXFrUEZrMmpzQUZ5YUdtY3BQbmJqa0dVYjBmTjBB?oc=5",
+     "published": "2026-09-14T08:12:28+00:00",
+     "score": 0.959,
      "source": "SPCX",
-     "title": "SpaceX Stock Rises After Classified Launch for Space Force - Barron's",
+     "title": "SpaceX Stock Price Forecast: How Much Upside Is Left for SPCX as Shares Return to $150? - tradingkey.com",
      "topics": [
-      "launch",
       "money"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOV1M4YzBGZ0hjdHNZLUwxNUE2cmZkQkpkVV90U2VEZUtYYlhRU0NhZ2xTN2RmN2puWldfSTZKS2FaN2xkbXNhbHBKckoxbjZaMGpuZHF1YTFMRkJsZHVSZ3hVeWVYOHhFSUVySmFPUktTZHVaUVhWN3dhd2ZETDczeWdLTHJoVGVTMnhGUXYzZ19TYnBIT1Z2WUZHX0xHQmRfTzkzYk5mMEVXbG5GOHpXMndOd25MQ3pBVUl4SWhsS3lxdXZuTGxKVGUza2w2cXZFT2ZNM3gxeEhoQQ?oc=5",
-     "published": "2026-09-11T17:03:46+00:00",
-     "score": 0.9,
-     "source": "SPCX",
-     "title": "SpaceX just revealed an important timeline for launching data centers in space - Yahoo Finance",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxONy1EX2VCNHJxVjBEbjRuaEcyNmFkTGFiRDZQS0lSTGVqaDROSERrNGNRd2lveUVnaU13X004VnJkQ3pjbENMMEhRV0NmcDJTUGJtTFNxWGlYU2lDejVRa0tNeHhmbnFISlFkM2l4aHh4Z2ZkZl9aWVF1bm1KUlRtSWYwYzc3TDNIblVwWWNRU1N2bWRwS25VZC13UHJIX0dCZFFQTzZJams1NVZtaHFkT1FXbnIxT1V0S0RoRzFPeHptQlU?oc=5",
+     "published": "2026-09-14T08:04:51+00:00",
+     "score": 0.956,
+     "source": "TSLA",
+     "title": "Shah Wealth Advisors LLC Acquires Shares of 30,288 Tesla, Inc. $TSLA - MarketBeat",
      "topics": [
-      "launch"
+      "money"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZGgyRGVVS2hrRXcwSGlkUVoyalpLTm8xczFSeUFFbk44eHctYmZVcXVTcmd3bkNzLTA4cDFsQjJ3S2VqXzFfN3FsNTVUcWdaUTJ4MGZXUFlZUUdJb0YxWGs4emg5ckRvamMycFNKMmlSRXNrVGZHSElkZmZfSXMySlV3?oc=5",
-     "published": "2026-08-27T07:00:00+00:00",
-     "score": 0.9,
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNS09DcnRiMi1NMUVzeHhlM0o5NnlGclR4ZzlxMmZuMkl2OGdNZG5TdTBiT2N6eHhGdk41R2V1LWRhZjJENFZXRmFEbEZsNU1pUnpzTVV4a2hrS0Nsb2hnSDNpdkotQ01fSlNuX25uNHdyWDhXejJQUFJ6S0puS3hkMmxuaXVJYzVYOGZ1NUNXMkZlbjZPTm9xaTNYem9mZ0ZPY2NTVWtDaHE?oc=5",
+     "published": "2026-09-14T07:55:58+00:00",
+     "score": 0.952,
+     "source": "TSLA",
+     "title": "Tesla Stock Analysis: Key Momentum & Resistance Levels Today - The Cryptonomist",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSVdRX3ltYjJRWnFfdkduU21WamZfWS11ME9ZZ0N5cFBBRThraTZPLS1qNXh5U0JHbUNtdDJEQTl4UG1RR1JYUTJ5ZFpLNDl6RWlGUkVWS3ozMDBxa2RWWDktNnVDOFktTmc4dEZiS2ZnSjgzeEFfVUFWLURobHY1Z1JybHY3aU5LRWt4Z0FGX1lsZw?oc=5",
+     "published": "2026-09-14T07:30:00+00:00",
+     "score": 0.94,
      "source": "SPCX",
-     "title": "3 Things Nvidia Said About SpaceX on Its Earnings Call\u2014and Why They Matter - Barron's",
+     "title": "This penny stock\u2019s tipped to massively outperform SpaceX over the next 12 months! - Yahoo Finance UK",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbktoUEptQjFpazJ3elhnNW0tRGkzSU12TVlFMzlMLUVnbFVKM0ZEejhQemNrX0dNNG5YUThyellMOUpWZnRBWW9Hekk1MlhrdXVXYWo0d2ZSYlRPb010dUNsSEk4UFFlM2RpUS1CUkhkQXY2bnlld3FOVnV0TnRDeG1YOA?oc=5",
+     "published": "2026-09-14T06:27:00+00:00",
+     "score": 0.911,
+     "source": "SPCX",
+     "title": "Why I\u2019m avoiding SpaceX shares until the AI spend makes sense - Yahoo Finance UK",
      "topics": [
       "money"
      ]
@@ -134,7 +130,7 @@
     {
      "link": "https://spaceflightnow.com/2026/09/13/live-coverage-spacex-to-launch-final-3-o3b-mpower-satellites-for-ses/",
      "published": "2026-09-13T16:45:33+00:00",
-     "score": 6.903,
+     "score": 5.303,
      "source": "Spaceflight Now",
      "title": "SpaceX launches 700th Falcon rocket, carries final 3 O3b mPOWER satellites to orbit for SES",
      "topics": [
@@ -144,7 +140,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mX3lxRmp0Z3FxMHQyOXBWOWRtY3hKaFI3WEtIUUtaQUZpeVJKRmlSUU1LVmtXUXlLM1hRdDd1YmJybVJBeVZrVjZVQUVXRlFzLTFsNFlTRlJPbGVlcjdzc1h2Uk1mdVk?oc=5",
      "published": "2026-09-13T23:42:02+00:00",
-     "score": 5.298,
+     "score": 4.339,
      "source": "SpaceX",
      "title": "SpaceX - Launches - SpaceX",
      "topics": [
@@ -154,7 +150,7 @@
     {
      "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-3-telecom-satellites-to-orbit-on-700th-falcon-mission-of-all-time-video",
      "published": "2026-09-13T21:41:26+00:00",
-     "score": 4.963,
+     "score": 4.004,
      "source": "Space.com",
      "title": "SpaceX launches 3 telecom satellites to orbit on 700th Falcon mission of all time (video)",
      "topics": [
@@ -164,7 +160,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSnV4UzVKQ3A3YzJJMHNNYkJvNkdIdnRQNTkyS2RUc0FCRDQ0MXVhZmlwdzFka2tuam44eEtIaXhJRll5TmFLV3d0QVBhang1WlY5T0ZvTVU2LUtIVEVmdkVDQXZ2MkJUWFdHSF9mZ3Q4ZVA5a1Q2eF91THBuM3dock9Cd0VTZG5VQVFuS2ZtUHBoNGRQRFZiTENOOHdncWRxZHgyTTlNUk43a2s?oc=5",
      "published": "2026-09-13T20:33:55+00:00",
-     "score": 4.776,
+     "score": 3.816,
      "source": "Falcon",
      "title": "All of a sudden a rare event, SpaceX launches from Space Coast - Orlando Sentinel",
      "topics": [
@@ -174,7 +170,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRUc1OXUwZmxka1ZCOWxVNmlfQUJkbExoWWFfSTBLQ3RBLVByMTlFY2lMSDlOZGdRUkwtMHZUM3kzTk1Hak44eU1jSXY3NFNCelJxUXhJbmRlTGpyMHppejk5WElLWmZBM2JseC1ocG9pRFhWZkg5SFJBdmIzZXFkdW9kemxWOEdadEJfbVdIX3hrVV91a2JtczVoaURyUVRyTnBkX1BEeUJXalk1bVZVWFZGOUJNVXlTejctOUhlRTVPeGpSYzBReTJFYzljSTdhWXhqaUxmeW9RRndROFhjQ2NUSVhoT3huZnc?oc=5",
      "published": "2026-09-13T19:58:00+00:00",
-     "score": 4.676,
+     "score": 3.717,
      "source": "Falcon",
      "title": "SpaceX launches SES O3b mPOWER mission from Cape Canaveral, Florida - Florida Today",
      "topics": [
@@ -184,7 +180,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQa0ozRjRselExRUpCaTlpSGdiTTh4M3hhdHZtck1EdmRiNVVCLXNkelFDNEJEaVFNX3VLRDcteTE2b0hBLWQ0RFN2cGxyUVJZMVdqazQ2M1RxbGhkYTNCMWFWeVV5bzRyZzZadWlHSzg0RDJrX2VqZHdMVlcxYWJWSWJxSDBkUDhRUzJDVEtrOEw?oc=5",
      "published": "2026-09-13T19:11:00+00:00",
-     "score": 4.546,
+     "score": 3.586,
      "source": "Falcon",
      "title": "SpaceX launches Falcon 9 rocket from Cape Canaveral - WESH",
      "topics": [
@@ -192,11 +188,23 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWG9sVFBhTlZXMmVrT2dBaEIzVDhRdXY2ZDBiOHZrVFdHX3ZCWlNEQnZ1NUJKQ3dTRWNXRGd6VEtES1NLNk56WjVXWTlrTVZpRWt3bmhJbkJ4b2l5dmVsb2ZwYlhpSkt5WWpQYUhuVGdsOUZjMUFxWnRKdjlET0s1ME9IUW51bEE0NWl0Ulo5bjFnYjdsS3Jhc3pTek42bER3OVZKeWM2OWYxRF94SjNpQ1hTVVhtZHhza1I4UU1seG85ZDB2Ym5oX3hOTEZKMzlBQmRrX3pOZHhNWDgzXzdr?oc=5",
+     "published": "2026-09-14T09:01:03+00:00",
+     "score": 3.535,
+     "source": "Starship",
+     "title": "SpaceX Hits 700 Falcon Launches as Starship Countdown and Analyst Upgrades Converge - ad-hoc-news.de",
+     "topics": [
+      "starship",
+      "launch",
+      "money"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQczBMbUdaNFhsODNLSm16aHN0dDYyMG1iZ2t3WUhNUkxhM2JubG5jTWljUnkzY1JCenVLck94SmJ5UmlxOWFvbTNNeDBBbUFpeU9Fa1h3OTFqSEhsaEJlVFBPWmNBUkZaaEtQVkJUT3ZRV2Jua2Q1bHNpQWZZdGpOODJnUHdfUWZIY2lzWjJSX2Y3UQ?oc=5",
      "published": "2026-09-13T17:05:27+00:00",
-     "score": 4.197,
+     "score": 3.237,
      "source": "Falcon",
-     "title": "SpaceX Falcon 9 Preps for SES O3b mPOWER Launch Today - basenor.com",
+     "title": "SpaceX Falcon 9 Preps for SES O3b mPOWER Launch Today - BASENOR - Tesla Accessories",
      "topics": [
       "launch"
      ]
@@ -287,66 +295,34 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT2RTT29FdVg4ZU81WHJseDZqWG1sNkwxTWFqTnM2N0g5ek1mXy12R094S29wYUx2ZW0wSUZ0X0NnbVJNdXQ1U0xfbVFfM3FLU0JBLTNBUG9kQjJvbmd1T05MZjR1WmUzZ0R6bGMzMzEwYW1qd0pWM3k2RTdDUEFjOWgwWWlLTTRDazZwOFpWM0pwMFQ4Y29PNnlOd1ZxQQ?oc=5",
-     "published": "2026-09-14T01:18:00+00:00",
-     "score": 0.928,
-     "source": "Falcon",
-     "title": "Musk congratulates SpaceX Falcon team on 700 flights - breakingthenews.net",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE93WUdnSjk4dlN5SzJ4MVJIaVpYTGFGUWJpUm1HMm5hTlpEcDdfaHgxMExCMXJyMWNCNGR1c1FoRmVQQjVySEJyalJmbTNieVAxS3M0bjN2SXA4MHNQYndmRklvV2dCT2pIYzBBNHR2RFVlREFLNmxzb253Yw?oc=5",
+     "published": "2026-09-14T09:24:20+00:00",
+     "score": 0.993,
+     "source": "Starlink",
+     "title": "Korean Air Switches On Free Starlink Wifi From 15 September - Business Traveller",
+     "topics": [
+      "starlink"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIYUsyVG9uT19hQ3VRelpYX3RvZUVkclgxbXJFdGtvSFJGa0pqU0dxbnBnX1N0b3pKNTh0V3BjSFVROXFDMkQ5Zk43SU9sc0o2alE?oc=5",
+     "published": "2026-09-14T07:56:53+00:00",
+     "score": 0.952,
+     "source": "SpaceX",
+     "title": "O3b mPOWER Mission - SpaceX",
      "topics": []
-    },
-    {
-     "link": "https://www.nasaspaceflight.com/2026/09/roman-commissioning-update/",
-     "published": "2026-09-10T22:24:00+00:00",
-     "score": 0.9,
-     "source": "NASASpaceflight",
-     "title": "Roman telescope deploys solar array and communication systems, powers on Coronagraph Instrument",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
-     "link": "https://www.nasaspaceflight.com/2026/09/launch-preview-090726/",
-     "published": "2026-09-07T22:15:34+00:00",
-     "score": 0.9,
-     "source": "NASASpaceflight",
-     "title": "Launch Preview: Soyuz, CZ-8A, and Falcon 9 to launch from sites around the world",
-     "topics": [
-      "launch"
-     ]
     }
    ],
    "tesla": [
     {
-     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55TGVxdDBjN0JXMWZrZ2l4R185YzQ0WnoxN1FfdHB4c01sQlpNc2ttdEZyWERyU0JMUEZ3NkNKcVAySjlvcWhac2FSaUg5LUFsNVRYY2VhVG8ybTNEU181bkdUVTk5Zw?oc=5",
-     "published": "2026-09-13T13:32:35+00:00",
-     "score": 6.009,
-     "source": "Autonomy",
-     "title": "Tesla launched Cybercab in Austin. Hours later, the feds launched an investigation. - Mashable",
-     "topics": [
-      "autonomy",
-      "regulatory"
-     ]
-    },
-    {
      "link": "https://www.teslarati.com/spacex-ses-03b-network-vs-starlink/",
      "published": "2026-09-13T19:37:48+00:00",
-     "score": 4.62,
+     "score": 3.66,
      "source": "Teslarati",
      "title": "Why SpaceX is finishing another space-internet system that isn\u2019t Starlink",
      "topics": [
       "starlink",
       "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOREdWRGMtZVFqbXNnYzZheWI0WU9jQjBRQkhnblFJTjhsSE14d1d0SUNJaWxMeHVVY2xFUG9ubmFyelpoVmlUdFN0LVpQZWMxTmN4MmJqRXNtblF6YV9oVjJUVVhRVmd6MFNnWHhldjI5dnVoMlU4N2FJVS1TeDJzZkVvdzBSR1hENzI3MklXaktfVTdVazJCWGZJZ0xiSTZQVzdGblNmU0hXUUpqaVUyS1ZiTXc5MzhhZlN5U0kwOUk4SHlxajRFUXppaVVvUEVwQWdEMGVoTy0wc2xhal9QSDJR?oc=5",
-     "published": "2026-09-13T10:00:17+00:00",
-     "score": 2.01,
-     "source": "Production",
-     "title": "This Week in Tesla: Democratic Lawmaker Demands Self-Driving Scrutiny, Cybercab Production, and More - Benzinga",
-     "topics": [
-      "autonomy",
-      "production"
      ]
     },
     {
@@ -383,6 +359,28 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE55TGVxdDBjN0JXMWZrZ2l4R185YzQ0WnoxN1FfdHB4c01sQlpNc2ttdEZyWERyU0JMUEZ3NkNKcVAySjlvcWhac2FSaUg5LUFsNVRYY2VhVG8ybTNEU181bkdUVTk5Zw?oc=5",
+     "published": "2026-09-04T22:33:57+00:00",
+     "score": 1.5,
+     "source": "Autonomy",
+     "title": "Tesla launched Cybercab in Austin. Hours later, the feds launched an investigation. - Mashable",
+     "topics": [
+      "autonomy",
+      "regulatory"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOREdWRGMtZVFqbXNnYzZheWI0WU9jQjBRQkhnblFJTjhsSE14d1d0SUNJaWxMeHVVY2xFUG9ubmFyelpoVmlUdFN0LVpQZWMxTmN4MmJqRXNtblF6YV9oVjJUVVhRVmd6MFNnWHhldjI5dnVoMlU4N2FJVS1TeDJzZkVvdzBSR1hENzI3MklXaktfVTdVazJCWGZJZ0xiSTZQVzdGblNmU0hXUUpqaVUyS1ZiTXc5MzhhZlN5U0kwOUk4SHlxajRFUXppaVVvUEVwQWdEMGVoTy0wc2xhal9QSDJR?oc=5",
+     "published": "2026-09-13T10:00:17+00:00",
+     "score": 1.371,
+     "source": "Production",
+     "title": "This Week in Tesla: Democratic Lawmaker Demands Self-Driving Scrutiny, Cybercab Production, and More - Benzinga",
+     "topics": [
+      "autonomy",
+      "production"
+     ]
+    },
+    {
      "link": "https://electrek.co/2026/09/11/tesla-european-semi-specs-550-km-800-kw/",
      "published": "2026-09-11T15:43:33+00:00",
      "score": 1.35,
@@ -398,17 +396,6 @@
      "score": 1.35,
      "source": "Autonomy",
      "title": "Tesla\u2019s Cybercab launch triggers federal safety probe - Los Angeles Times",
-     "topics": [
-      "autonomy",
-      "regulatory"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSkpVNEtDdk9JS2Z4LWxZNzlWUWphY1V3R2EzZWFWVU1kY2U3X2JkSmdyQkNLRHFrNHJIbUhBRUQxdkIxMnNOMEI1amVhVnQ0RmlSWE1jSENzZXlKVGZDeWVsTE5IQzRXcEJITHFORU1oa1UzQzFTT0E2SUR0ZWVNMUJxc2wzNllwd1UyVkpaOW1iaWlKNFFaMl9xOVRHMFgxZjJHdG9FQlRIaURx0gGyAUFVX3lxTE9Mc2FlSVVTTkhPZGlzWjJUcTUtU0IxVkFjY2lNQVBsVHNsaXV3dVpfSGFHTDFtZDdWVE1SUDdDNzh1UW1JTnl5RlZlRDBDNmtyaG9WLTNDYkN2bWlWaGx6MWNUWC1qbkR3NXRRT2RUdUNvQV9xUnNnMTZJcERqQ0xNaU5JTjlNY280NzV6WVhobHkxV0VDWDBIeWdQX3Z4S05MOE50TlBSLWlBOUtFOW1JMmc?oc=5",
-     "published": "2026-09-04T07:00:00+00:00",
-     "score": 1.35,
-     "source": "Autonomy",
-     "title": "Feds launch probe into Tesla's deployment of Cybercab vehicles with no brakes and steering wheels - ABC News - Breaking News, Latest News and Videos",
      "topics": [
       "autonomy",
       "regulatory"
@@ -438,60 +425,68 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVGEwN256dXBqdjNoejk1UVl3d0dKMmdhaklOamRERkJzVzlSbzFrMGIzVVdkWlIzR1ZoQXVPc3l4RlJZeDZudkk4aWpvdmpwZVpVUkkzOHR2T2xHZmlNLWZnN25Ic2FFdlB1UlotUVNmREQxckg5eUQ3LTlBUUZkYnozc1lGSGhQa2lFYm9ETWdtanhsUmExbllpcDE?oc=5",
-     "published": "2026-09-11T21:03:41+00:00",
-     "score": 1.05,
-     "source": "Production",
-     "title": "Tesla ramps up Semi production in the US amid record diesel prices - UA.NEWS",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWXc2aU1BdHBlc0J3QldadTlrWTlZNDluOEg1TFc2dnZZcFR4THpydnhlNDJ5OG45Nm9QZFRmZ2s4VXZSQzBMUXhqOHBFaW9GZVhXWGt1bmFHckRDNUdvQ2hmOVJkQTRDVmU1aEpueUFVRVdqNXlhZU9EQW1JUE8ycg?oc=5",
+     "published": "2026-09-14T09:18:52+00:00",
+     "score": 0.99,
+     "source": "Autonomy",
+     "title": "Tesla admits HW3 Teslas will not get unsupervised FSD - AutoNext.co",
      "topics": [
-      "production"
+      "autonomy"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcXl4ajRKdzJuMVZmb05MYVJRaS1vaGJqbmxMWUpnUnRoV0FTTXRzcFBXSzNxeVdIOW9qS0RpeUEzUkdjbFlydDZaMmEtRTFOYlB3TmhFaHVRNGZRTHhYczVXc1Q4YzRlbjBNZzhmT09yNmhwSU1ITUhETkdtajNtc19ab3NrcVIxOEJYaWxmLW9OMmY5ODIwUEFHOXpQSWV0SkR3?oc=5",
-     "published": "2026-09-14T02:39:40+00:00",
-     "score": 0.965,
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQS01TSWFIS3RFV2l2Rmg1aW9mdUFORnFtMXRmMjF2aEJsT1FlME01MGM1Wmd2cXl3c2N0LVJLbTJlVUNEd3ExbjJZMi14eVpxYTRrLW1rM2lRSjZIeTdEbkJ2eFlIbHdQcXp0dVVLMXdDbHlEWE1JNFZjbWRVWEhYbGVDcXpJR0ZjVjdRd1NRelpkWmIzejBRbmFVa3F4R2xUVGJ3OXUtbHVUZlE0UjBIa2lMUmI5S1BUSmI3ZTFqQ00?oc=5",
+     "published": "2026-09-14T09:17:46+00:00",
+     "score": 0.99,
      "source": "Autonomy",
-     "title": "Tesla\u2019s new Cybercab robo-taxi lands in Australia, spotted under wraps - The Driven IO",
+     "title": "Tesla Cybercab set for static displays in Beijing and Shanghai - Gasgoo",
+     "topics": [
+      "autonomy"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWkdpbV80WldRc2l3Z214R19NWXkxWXI5MWk1VnhpOC1HYWowMEtiVDJoSVV1YUMyck1WbWNmS0xhNGduUE5rOERpWXpYOFNFb2VzamJqamc5aXR6VmF5TkVYVmlhNHZfSUg0eldOejY1ajBvQy15dXlQRjdzRG5PU2JxQjRNZS16Z0J6MXc4RTdHQ3dySHZLSQ?oc=5",
+     "published": "2026-09-14T09:14:56+00:00",
+     "score": 0.988,
+     "source": "Autonomy",
+     "title": "Zurich Cuts Tesla Premiums in Australia for Cars With FSD - eletric-vehicles.com",
+     "topics": [
+      "autonomy"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONjVoUkhCZGFNWXQwaEx3OTZGTkRRUG1xQ091X0dsQ2tWQ0ZkNHVwbTNHMVNvQ2FOd3cxSmxUc1lCT0ttQlBNOTZ1QnVSejU3bmlaS0lRUkJDYldSQjh1WTZ3UWt6X19FaVYtODBYWUloeFkzTDg1d1czX2o2Zk1kRFdYNXNVRHRnOEN3YUlR?oc=5",
+     "published": "2026-09-14T08:45:33+00:00",
+     "score": 0.975,
+     "source": "Autonomy",
+     "title": "Tesla to display Cybercab in Beijing and Shanghai this week - CnEVPost",
      "topics": [
       "autonomy"
      ]
     },
     {
      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE80Z0FJRXp0OF95UDNLWllfa2lISjB1NWdQWUhfQUppajVNSkdfeVh1ZEhQb0ZTNWt4NmR0NWJQMUFBZktyRExvTUdfMnNFU2M?oc=5",
-     "published": "2026-09-14T02:09:13+00:00",
-     "score": 0.951,
+     "published": "2026-09-14T08:11:22+00:00",
+     "score": 0.959,
      "source": "Tesla",
-     "title": "- Tesla",
+     "title": "- ownership.tesla.com",
      "topics": []
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNNHFNSzVaNmp2RmpzOTM4WXhoTVhDZXlIS0tkQm5sM3YzTk9KZEZGSlluNmFqaVhNVngzQmZXZ0g1Q3hNbk8wSk1PZ0dQSjNNWjZtaVdIa2Y5UWloNjV0T3RuYmpDall4VHhNSmV0UF9LMWJrSE9ySUhxVzQyZkFKVU13?oc=5",
-     "published": "2026-09-14T02:07:56+00:00",
-     "score": 0.951,
-     "source": "Autonomy",
-     "title": "Cybercab rollout puts US regulations to test - China Daily Global Edition",
-     "topics": [
-      "autonomy"
-     ]
+     "link": "https://insideevs.com/news/808111/tesla-semi-europe-launch-specs-official/",
+     "published": "2026-09-14T07:24:14+00:00",
+     "score": 0.937,
+     "source": "InsideEVs",
+     "title": "Tesla Semi Is Heading To Europe With One Big Advantage\u2014And One Major Weakness",
+     "topics": []
     },
     {
      "link": "https://www.teslarati.com/tesla-roadster-event-date-spacex-package-demo/",
      "published": "2026-09-12T21:23:21+00:00",
-     "score": 0.913,
+     "score": 0.9,
      "source": "Teslarati",
      "title": "Tesla gives the Roadster an official \u201cGo for launch\u201d demonstration date",
      "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOEJLN1JocjV0NWVOblJlWElMRU1hX3JYcnZtdFN4VVpZN0ZZVWtTUkVfQkhyOXUwN3JNbHpiYTZGdExDN21fQjFYZFk2a3J1MHpYVjZYUnNaMlJMRml6bk1GU01QSVNLNi1tb3A1ZVlaRXB5blB0ci1QRHBSeUNPUU02ZWVBRzJQbndHTlk5UU04dHF3ZXl0Y3B3?oc=5",
-     "published": "2026-09-14T00:36:00+00:00",
-     "score": 0.908,
-     "source": "Production",
-     "title": "The gap between the monthly cost of charging a Tesla Cybertruck vs filling a Ford Maverick in the US is nothing short of staggering - supercarblondie.com",
-     "topics": [
-      "production"
-     ]
     },
     {
      "link": "https://electrek.co/2026/09/12/tesla-roadster-october-1-reveal-teaser/",
@@ -506,5 +501,5 @@
    ]
   }
  },
- "fetched_at": "2026-09-14T03:54:42.247776+00:00"
+ "fetched_at": "2026-09-14T09:40:10.488051+00:00"
 }

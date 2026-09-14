@@ -16,7 +16,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-14",
-  "times_seen": 17
+  "times_seen": 18
  },
  {
   "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
@@ -34,7 +34,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-14",
-  "times_seen": 17
+  "times_seen": 18
  },
  {
   "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - eletric-vehicles.com",
@@ -52,7 +52,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-14",
-  "times_seen": 17
+  "times_seen": 18
  },
  {
   "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
@@ -87,7 +87,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-14",
-  "times_seen": 17
+  "times_seen": 18
  },
  {
   "statement": "SpaceX's Starship Set for First Revenue Flight This Month, CFO Says - finance.biggo.com",
@@ -105,7 +105,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-14",
-  "times_seen": 11
+  "times_seen": 12
  },
  {
   "statement": "SpaceX CFO: Starship to Launch Upgraded Starlink Satellites This Month, Set to Begin Generating Revenue - finance.biggo.com",
@@ -125,7 +125,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-14",
-  "times_seen": 11
+  "times_seen": 12
  },
  {
   "statement": "Tesla unveils European Semi with cameras for side mirrors, deliveries start next year - driveteslacanada.ca",
@@ -142,7 +142,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-14",
-  "times_seen": 11
+  "times_seen": 12
  },
  {
   "statement": "SpaceX Exec Says Starship Will Generate Revenue for First Time \u2018Later This Month\u2019 - Benzinga",
@@ -160,7 +160,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-14",
-  "times_seen": 9
+  "times_seen": 10
  },
  {
   "statement": "SpaceX shares hold steady with strong Q2 growth and ambitious $100B revenue target by 2026. - Pluang",
@@ -177,7 +177,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-14",
-  "times_seen": 4
+  "times_seen": 5
  },
  {
   "statement": "Elon Musk\u2019s plans to colonize space launches this year, and Tesla robots will be the first residents - nypost.com",
@@ -212,23 +212,6 @@
   "times_seen": 1
  },
  {
-  "statement": "Elon Musk Says SpaceX Will Try to Catch a Returning Starship This Month - The Motley Fool",
-  "entity": "Musk",
-  "horizon_phrase": "This Month",
-  "horizon": null,
-  "horizon_precision": "unknown",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdHM1OWNURnd6YmYxRldXOXA2dXpMTnZYeDFVMmh0c2g5c1kwU3hjalg2Z2ViSkVBTlhwclc2eklUUFU0dDZQcDVPZnJYSWZ4VFZ1U0FQa0FoTWRPUVFCczBNX2FiWU9YOXB0Z0VpWkxhYWlRZmZ2TWpHVFpSd0d4SlpIMjd6aE5POUN4U3FxSjRJMnp3RzNxSw?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "starship"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-13",
-  "times_seen": 13
- },
- {
   "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
   "entity": "Musk",
   "horizon_phrase": "next year",
@@ -242,8 +225,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-09-13",
-  "times_seen": 11
+  "last_seen": "2026-09-14",
+  "times_seen": 12
  },
  {
   "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - BASENOR - Tesla Accessories",
@@ -259,8 +242,43 @@
    "energy"
   ],
   "primary": false,
+  "last_seen": "2026-09-14",
+  "times_seen": 11
+ },
+ {
+  "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - electrek.co",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus Features",
+  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHpreThLR3FVa1J6bWtuNmg3MXNHVUFqT1BaSzJMdTJvVTlPdHVKTHBpOUtKUklMTlA2ak9YbklTaTZRZUZ6NDdCS3llSlN2MWNXWmgtbmY2Yy1ydmlVRVRRWmxXWlhrbVNaUzF3TjUyTGZMVmprQVctbzlLZl9XY0JIZWdvUQ?oc=5",
+  "first_seen": "2026-09-14",
+  "topics": [
+   "optimus",
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-14",
+  "times_seen": 1
+ },
+ {
+  "statement": "Elon Musk Says SpaceX Will Try to Catch a Returning Starship This Month - The Motley Fool",
+  "entity": "Musk",
+  "horizon_phrase": "This Month",
+  "horizon": null,
+  "horizon_precision": "unknown",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdHM1OWNURnd6YmYxRldXOXA2dXpMTnZYeDFVMmh0c2g5c1kwU3hjalg2Z2ViSkVBTlhwclc2eklUUFU0dDZQcDVPZnJYSWZ4VFZ1U0FQa0FoTWRPUVFCczBNX2FiWU9YOXB0Z0VpWkxhYWlRZmZ2TWpHVFpSd0d4SlpIMjd6aE5POUN4U3FxSjRJMnp3RzNxSw?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "starship"
+  ],
+  "primary": false,
   "last_seen": "2026-09-13",
-  "times_seen": 10
+  "times_seen": 13
  },
  {
   "statement": "SpaceX Stock Price Forecast: As Stock Lockups Intensify, Can SPCX Peak at $225 by 2027? - TradingKey",
