@@ -15,8 +15,201 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-09-13",
-  "times_seen": 16
+  "last_seen": "2026-09-14",
+  "times_seen": 17
+ },
+ {
+  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
+  "entity": "SpaceX",
+  "horizon_phrase": "this month",
+  "horizon": null,
+  "horizon_precision": "unknown",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "starship",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-14",
+  "times_seen": 17
+ },
+ {
+  "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - eletric-vehicles.com",
+  "entity": "Tesla",
+  "horizon_phrase": "This Year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjVidnZtaUtWNVdOUGlQaUNBS1phbDduR3ZDMWJJa0ludjV2MkdMNEZrOTB0TUsyYTBGSTQ3UWVOOUpyeU1LMTdNQUllUXJFZzIyZ3R3NjQ3RmlyRm00QnVPSHRxLVFlU2FadjlZTmtud2Z5cEZKQU5fZy1PRFdXNTRneHB0YTR6djVILXZ2cEFwcmg3X2ktTnlybmM1dTNITXJ4RUxURVVfSFgzRmZrVENLLWo?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "optimus",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-14",
+  "times_seen": 17
+ },
+ {
+  "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHpreThLR3FVa1J6bWtuNmg3MXNHVUFqT1BaSzJMdTJvVTlPdHVKTHBpOUtKUklMTlA2ak9YbklTaTZRZUZ6NDdCS3llSlN2MWNXWmgtbmY2Yy1ydmlVRVRRWmxXWlhrbVNaUzF3TjUyTGZMVmprQVctbzlLZl9XY0JIZWdvUQ?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "optimus",
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-14",
+  "times_seen": 17
+ },
+ {
+  "statement": "Tesla energy storage deployments jumped in \u2018crucial AI transformation year'; company expects margin compression in 2026 - Energy-Storage.News",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2026",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Energy",
+  "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNX2dkTDM3VzFxQ0F1RFhVRE5vRzlLTWg0aVYzalVqaVZCckVqdF9HeW5VM0duOVozbG90Y2VqMk4ybGlBNTlGY0lqckJUTDJXZXgzZUhBNWpYRFhMOGc1eTBuLUM0QkJ5bXdHazVmM2xVck1wNFpuRllWUGt3aG9jcFRVcDdPZmlZZ2U2d24tY0I0MTh6WmFUcWUtdUhvZDF4NVltbXcyUlgyTy1Dem1pWVBTbDljOUdTamM5MUVPaDZfblAzWDN3VGNQU3FnNWdObk9YcTlvWGtsTWtIYmR6RHJzRQ?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "energy"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-14",
+  "times_seen": 17
+ },
+ {
+  "statement": "SpaceX's Starship Set for First Revenue Flight This Month, CFO Says - finance.biggo.com",
+  "entity": "SpaceX",
+  "horizon_phrase": "This Month",
+  "horizon": null,
+  "horizon_precision": "unknown",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IMUY2SFhFLWttVFBJVHlLZ3lLUDBPcmVDU0tYLV8yYkJRU2dsMlNkZWp3RENVLU56bXU1LWFxMGRNTDNFbXowa0wyVG5JTmlrbUQzTkFyUkJla1I5dXk4T3RraDVoWHQxdzA3NEVpN2tKZlNFSXc?oc=5",
+  "first_seen": "2026-09-12",
+  "topics": [
+   "starship",
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-14",
+  "times_seen": 11
+ },
+ {
+  "statement": "SpaceX CFO: Starship to Launch Upgraded Starlink Satellites This Month, Set to Begin Generating Revenue - finance.biggo.com",
+  "entity": "SpaceX",
+  "horizon_phrase": "This Month",
+  "horizon": null,
+  "horizon_precision": "unknown",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96S2MwODBLaFFhWWxPR0xMXzRpQ2ROUWFhYklZUkx4c2xSNlVyUF82RjdaMlpmUFVwRVBXR0FxbmFQVk5odmlFWnpSQjJVelJIMlJxMTlESkY0bFFfbVB0NGtteXpzQl83QUZYaDFUc2pxRGYwamc?oc=5",
+  "first_seen": "2026-09-12",
+  "topics": [
+   "starship",
+   "starlink",
+   "launch",
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-14",
+  "times_seen": 11
+ },
+ {
+  "statement": "Tesla unveils European Semi with cameras for side mirrors, deliveries start next year - driveteslacanada.ca",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRVlwZmdIMzZyT0JDa2hXSzlWWFZmOXJkel9rajJTSVdXM1dxVHU2TEcyM0ZydkJlNktyUE5NTmRKOUF2VGxQZVlVVWRQTG1MeHJrZmFfckF5OW9BSzdnYnNOdEk1RGRzTWpvSFFpZWRUYTRDQloxVE4zUkhTYXhNdnZGbmIxb1U?oc=5",
+  "first_seen": "2026-09-12",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-14",
+  "times_seen": 11
+ },
+ {
+  "statement": "SpaceX Exec Says Starship Will Generate Revenue for First Time \u2018Later This Month\u2019 - Benzinga",
+  "entity": "SpaceX",
+  "horizon_phrase": "This Month",
+  "horizon": null,
+  "horizon_precision": "unknown",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVEhNYkNOTDJZeU14SXo3S0JoLV9reWNxM0dGekRYakVGUFBlUExOV29qR1J3eF9ldkJjM2RDZ1NzZEtzZE4tUG9mRVBacksta1laQzJiNEpGcVRrVHJvRnNXNFFJRW50eEZNMzJCdFhxb29QTVJJaF8ycVY3V0lVeGN3NWZ2S0lSU3g5aGdtMEdZLUY0eWVLSmJYTVROTENEd0E?oc=5",
+  "first_seen": "2026-09-12",
+  "topics": [
+   "starship",
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-14",
+  "times_seen": 9
+ },
+ {
+  "statement": "SpaceX shares hold steady with strong Q2 growth and ambitious $100B revenue target by 2026. - Pluang",
+  "entity": "SpaceX",
+  "horizon_phrase": "by 2026",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQU2o4RzVzSUFqUDVueGp5TUR1bV9UVXVlX201RnQ1dDRSWEU0LWRvSjJTZHozb3dHQ1ZMUFUweWZQOU0yM09EcVotT3Y2XzlHQjYxSVkyeVk1SHc0Vi00RVpzNmxHZHR4X3BGMXhiSnl0QWtpM1lITzhhNjlLVUh0eUFmMEdaOS1EQzA0?oc=5",
+  "first_seen": "2026-09-13",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-14",
+  "times_seen": 4
+ },
+ {
+  "statement": "Elon Musk\u2019s plans to colonize space launches this year, and Tesla robots will be the first residents - nypost.com",
+  "entity": "Musk",
+  "horizon_phrase": "this year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYU1DVlRGN2ppQ0V0WU5sdlZzNk1qaEtJZ3JINDVJcXZOTWl5Q2JQV2J4ZFR1Z01iR056QnBZczNlNmU1Wm50TWNIR09YMExsVld0eU9GcERjckdNOFV4eVVZTjNXeV85aTFSeUlNVWtxVjZIMGYwTEdRREc3TFI4a29VVndEZXdTbnJRY1E2Um1PWjBnQVowVWxsQUd1U09paTliR3cwS3l2QUhRLUllUG9uZ0dpUDRJSDdvU0Z1bDc0cmRENmR3bDJ5TzJzNXQ0STZIeA?oc=5",
+  "first_seen": "2026-09-14",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-09-14",
+  "times_seen": 1
+ },
+ {
+  "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - basenor.com",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2025",
+  "horizon": "2025-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Energy",
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPekx2OHM1aUxNdHRwRVVfdmZEeVp6UXJwa0N0VzNYUkYzTU14V2JtTnZsUnI0SWV5Q1VsZHFob0FYczltQlg2V0dtQ0xsZHFHS196TUpOU29zY2cxazZjM3NTd0lPaXVHMXBYekppVUFxSkRLQjBOMjNEZkhNTkE0eWZ0T2E3NWczNUNyQUJ3TzNuOGJ0bWJKeWpmcTJzNVhJeGFzS1pFdw?oc=5",
+  "first_seen": "2026-09-14",
+  "topics": [
+   "energy"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-14",
+  "times_seen": 1
  },
  {
   "statement": "Elon Musk Says SpaceX Will Try to Catch a Returning Starship This Month - The Motley Fool",
@@ -36,60 +229,6 @@
   "times_seen": 13
  },
  {
-  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
-  "entity": "SpaceX",
-  "horizon_phrase": "this month",
-  "horizon": null,
-  "horizon_precision": "unknown",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "starship",
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-13",
-  "times_seen": 16
- },
- {
-  "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - eletric-vehicles.com",
-  "entity": "Tesla",
-  "horizon_phrase": "This Year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjVidnZtaUtWNVdOUGlQaUNBS1phbDduR3ZDMWJJa0ludjV2MkdMNEZrOTB0TUsyYTBGSTQ3UWVOOUpyeU1LMTdNQUllUXJFZzIyZ3R3NjQ3RmlyRm00QnVPSHRxLVFlU2FadjlZTmtud2Z5cEZKQU5fZy1PRFdXNTRneHB0YTR6djVILXZ2cEFwcmg3X2ktTnlybmM1dTNITXJ4RUxURVVfSFgzRmZrVENLLWo?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "optimus",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-13",
-  "times_seen": 16
- },
- {
-  "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHpreThLR3FVa1J6bWtuNmg3MXNHVUFqT1BaSzJMdTJvVTlPdHVKTHBpOUtKUklMTlA2ak9YbklTaTZRZUZ6NDdCS3llSlN2MWNXWmgtbmY2Yy1ydmlVRVRRWmxXWlhrbVNaUzF3TjUyTGZMVmprQVctbzlLZl9XY0JIZWdvUQ?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "optimus",
-   "autonomy"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-13",
-  "times_seen": 16
- },
- {
   "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
   "entity": "Musk",
   "horizon_phrase": "next year",
@@ -105,78 +244,6 @@
   "primary": false,
   "last_seen": "2026-09-13",
   "times_seen": 11
- },
- {
-  "statement": "Tesla energy storage deployments jumped in \u2018crucial AI transformation year'; company expects margin compression in 2026 - Energy-Storage.News",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2026",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Energy",
-  "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNX2dkTDM3VzFxQ0F1RFhVRE5vRzlLTWg0aVYzalVqaVZCckVqdF9HeW5VM0duOVozbG90Y2VqMk4ybGlBNTlGY0lqckJUTDJXZXgzZUhBNWpYRFhMOGc1eTBuLUM0QkJ5bXdHazVmM2xVck1wNFpuRllWUGt3aG9jcFRVcDdPZmlZZ2U2d24tY0I0MTh6WmFUcWUtdUhvZDF4NVltbXcyUlgyTy1Dem1pWVBTbDljOUdTamM5MUVPaDZfblAzWDN3VGNQU3FnNWdObk9YcTlvWGtsTWtIYmR6RHJzRQ?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "energy"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-13",
-  "times_seen": 16
- },
- {
-  "statement": "SpaceX's Starship Set for First Revenue Flight This Month, CFO Says - finance.biggo.com",
-  "entity": "SpaceX",
-  "horizon_phrase": "This Month",
-  "horizon": null,
-  "horizon_precision": "unknown",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IMUY2SFhFLWttVFBJVHlLZ3lLUDBPcmVDU0tYLV8yYkJRU2dsMlNkZWp3RENVLU56bXU1LWFxMGRNTDNFbXowa0wyVG5JTmlrbUQzTkFyUkJla1I5dXk4T3RraDVoWHQxdzA3NEVpN2tKZlNFSXc?oc=5",
-  "first_seen": "2026-09-12",
-  "topics": [
-   "starship",
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-13",
-  "times_seen": 10
- },
- {
-  "statement": "SpaceX CFO: Starship to Launch Upgraded Starlink Satellites This Month, Set to Begin Generating Revenue - finance.biggo.com",
-  "entity": "SpaceX",
-  "horizon_phrase": "This Month",
-  "horizon": null,
-  "horizon_precision": "unknown",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96S2MwODBLaFFhWWxPR0xMXzRpQ2ROUWFhYklZUkx4c2xSNlVyUF82RjdaMlpmUFVwRVBXR0FxbmFQVk5odmlFWnpSQjJVelJIMlJxMTlESkY0bFFfbVB0NGtteXpzQl83QUZYaDFUc2pxRGYwamc?oc=5",
-  "first_seen": "2026-09-12",
-  "topics": [
-   "starship",
-   "starlink",
-   "launch",
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-13",
-  "times_seen": 10
- },
- {
-  "statement": "Tesla unveils European Semi with cameras for side mirrors, deliveries start next year - driveteslacanada.ca",
-  "entity": "Tesla",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRVlwZmdIMzZyT0JDa2hXSzlWWFZmOXJkel9rajJTSVdXM1dxVHU2TEcyM0ZydkJlNktyUE5NTmRKOUF2VGxQZVlVVWRQTG1MeHJrZmFfckF5OW9BSzdnYnNOdEk1RGRzTWpvSFFpZWRUYTRDQloxVE4zUkhTYXhNdnZGbmIxb1U?oc=5",
-  "first_seen": "2026-09-12",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-13",
-  "times_seen": 10
  },
  {
   "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - BASENOR - Tesla Accessories",
@@ -231,24 +298,6 @@
   "times_seen": 1
  },
  {
-  "statement": "SpaceX Exec Says Starship Will Generate Revenue for First Time \u2018Later This Month\u2019 - Benzinga",
-  "entity": "SpaceX",
-  "horizon_phrase": "This Month",
-  "horizon": null,
-  "horizon_precision": "unknown",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVEhNYkNOTDJZeU14SXo3S0JoLV9reWNxM0dGekRYakVGUFBlUExOV29qR1J3eF9ldkJjM2RDZ1NzZEtzZE4tUG9mRVBacksta1laQzJiNEpGcVRrVHJvRnNXNFFJRW50eEZNMzJCdFhxb29QTVJJaF8ycVY3V0lVeGN3NWZ2S0lSU3g5aGdtMEdZLUY0eWVLSmJYTVROTENEd0E?oc=5",
-  "first_seen": "2026-09-12",
-  "topics": [
-   "starship",
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-13",
-  "times_seen": 8
- },
- {
   "statement": "Elon Musk\u2019s plans to colonize space launches this year, and Tesla robots will be the first residents - New York Post",
   "entity": "Musk",
   "horizon_phrase": "this year",
@@ -262,23 +311,6 @@
   "primary": false,
   "last_seen": "2026-09-13",
   "times_seen": 2
- },
- {
-  "statement": "SpaceX shares hold steady with strong Q2 growth and ambitious $100B revenue target by 2026. - Pluang",
-  "entity": "SpaceX",
-  "horizon_phrase": "by 2026",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQU2o4RzVzSUFqUDVueGp5TUR1bV9UVXVlX201RnQ1dDRSWEU0LWRvSjJTZHozb3dHQ1ZMUFUweWZQOU0yM09EcVotT3Y2XzlHQjYxSVkyeVk1SHc0Vi00RVpzNmxHZHR4X3BGMXhiSnl0QWtpM1lITzhhNjlLVUh0eUFmMEdaOS1EQzA0?oc=5",
-  "first_seen": "2026-09-13",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-13",
-  "times_seen": 3
  },
  {
   "statement": "Elon Musk Says SpaceX Will Try to Catch a Returning Starship This Month - fool.com",
