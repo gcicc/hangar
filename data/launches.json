@@ -2123,13 +2123,13 @@
     "webcast_live": false
    },
    {
-    "description": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites) into stable Low Earth Orbit.",
+    "description": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites) into stable Low Earth Orbit.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete approximately 6 orbits around the planet for nearly 10 hours, with splashdown targeted in the Pacific Ocean we",
     "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
     "lat": 25.99677,
     "lon": -97.15799,
     "mission": "Flight 14",
-    "mission_type": "Test Flight",
+    "mission_type": "Communications",
     "name": "Starship | Flight 14",
     "net": "2026-09-22T12:15:00Z",
     "net_precision": "MIN",
@@ -2355,5 +2355,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-15T18:00:46.725459+00:00"
+ "fetched_at": "2026-09-15T21:14:38.027764+00:00"
 }
