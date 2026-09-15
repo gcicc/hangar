@@ -103,7 +103,7 @@
     15,
     14,
     12,
-    6
+    8
    ],
    "partial": [
     false,
@@ -128,24 +128,24 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "Sentinel-3C is the third satellite in the Sentinel-3 constellation, which provides high-accuracy optical, radar and altimetry data for marine and land services.\r\n\r\nThe Fluorescence Explorer (FLEX) satellite is a part of ESA's Earth Explorer program. The satellite will map vegetation fluorescence to quantify photosynthetic activity.",
-   "id": "8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193950.jpeg",
-   "lat": 5.236,
-   "lon": -52.775,
-   "mission": "Sentinel-3C & FLEX",
-   "mission_type": "Earth Science",
-   "name": "Vega-C | Sentinel-3C & FLEX",
-   "net": "2026-09-15T01:21:07Z",
-   "net_precision": "SEC",
-   "orbit": "SSO",
-   "pad": "Ariane Launch Area 1 (ELV)",
-   "pad_location": "Guiana Space Centre, French Guiana",
-   "provider": "Avio S.p.A",
-   "rocket": "Vega-C",
+   "description": "Possibly launch of a batch of SpaceSail LEO communication satellites. Details TBD.",
+   "id": "767f7827-53d8-4621-803b-f456a1e6b512",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193637.jpeg",
+   "lat": 31.2,
+   "lon": 123.7,
+   "mission": "Unknown Payload",
+   "mission_type": "Unknown",
+   "name": "Gravity-1 | Unknown Payload",
+   "net": "2026-09-15T21:55:00Z",
+   "net_precision": "HR",
+   "orbit": "N/A",
+   "pad": "Yellow Sea (launch location 5)",
+   "pad_location": "Haiyang Oriental Spaceport",
+   "provider": "Orienspace Technology",
+   "rocket": "Gravity-1",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
+   "url": "https://nextspaceflight.com/launches/details/767f7827-53d8-4621-803b-f456a1e6b512",
    "webcast_live": false
   },
   "pads": [
@@ -160,7 +160,7 @@
     "top_provider": "SpaceX"
    },
    {
-    "count": 42,
+    "count": 41,
     "last_net": "2026-09-30T00:00:00Z",
     "lat": 28.56194122,
     "location": "Cape Canaveral SFS, FL, USA",
@@ -168,16 +168,6 @@
     "name": "Space Launch Complex 40",
     "spacex": true,
     "top_provider": "SpaceX"
-   },
-   {
-    "count": 7,
-    "last_net": "2026-09-11T03:28:00Z",
-    "lat": -39.262833,
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "lon": 177.864469,
-    "name": "Rocket Lab Launch Complex 1A",
-    "spacex": false,
-    "top_provider": "Rocket Lab"
    },
    {
     "count": 7,
@@ -198,6 +188,16 @@
     "name": "Commercial LC-1",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 6,
+    "last_net": "2026-09-11T03:28:00Z",
+    "lat": -39.262833,
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "lon": 177.864469,
+    "name": "Rocket Lab Launch Complex 1A",
+    "spacex": false,
+    "top_provider": "Rocket Lab"
    },
    {
     "count": 6,
@@ -251,6 +251,16 @@
    },
    {
     "count": 4,
+    "last_net": "2026-09-15T06:26:00Z",
+    "lat": 40.91491,
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "lon": 100.245488,
+    "name": "Launch Area 96A",
+    "spacex": false,
+    "top_provider": "LandSpace"
+   },
+   {
+    "count": 4,
     "last_net": "2026-09-17T00:30:00Z",
     "lat": 19.59755,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -291,6 +301,16 @@
    },
    {
     "count": 3,
+    "last_net": "2026-09-15T01:21:07Z",
+    "lat": 5.236,
+    "location": "Guiana Space Centre, French Guiana",
+    "lon": -52.775,
+    "name": "Ariane Launch Area 1 (ELV)",
+    "spacex": false,
+    "top_provider": "Avio S.p.A"
+   },
+   {
+    "count": 3,
     "last_net": "2026-09-19T10:50:00Z",
     "lat": 38.863128,
     "location": "Taiyuan Satellite Launch Center, People's Republic of China",
@@ -328,16 +348,6 @@
     "name": "Rocket Lab Launch Complex 2 (Launch Area 0 C)",
     "spacex": false,
     "top_provider": "Rocket Lab"
-   },
-   {
-    "count": 3,
-    "last_net": "2026-09-15T06:25:00Z",
-    "lat": 40.91491,
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.245488,
-    "name": "Launch Area 96A",
-    "spacex": false,
-    "top_provider": "LandSpace"
    },
    {
     "count": 3,
@@ -438,16 +448,6 @@
     "name": "Launch Area 91 (SLS-1 / 921)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 2,
-    "last_net": "2026-09-15T01:21:07Z",
-    "lat": 5.236,
-    "location": "Guiana Space Centre, French Guiana",
-    "lon": -52.775,
-    "name": "Ariane Launch Area 1 (ELV)",
-    "spacex": false,
-    "top_provider": "Avio S.p.A"
    },
    {
     "count": 2,
@@ -661,6 +661,48 @@
    }
   ],
   "previous": [
+   {
+    "description": "10 Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacesail Technologies with funding backed by the Shanghai local government.\r\n\r\nInitial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 12000 satellites.",
+    "id": "de446468-057f-4c9d-a6a1-af99c93b541e",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-2e_y6_la_image_thumbnail_20260609122826.jpeg",
+    "lat": 40.91491,
+    "lon": 100.245488,
+    "mission": "SpaceSail Polar Group #15",
+    "mission_type": "Communications",
+    "name": "Zhuque-2E Block 2 | SpaceSail Polar Group #15",
+    "net": "2026-09-15T06:26:00Z",
+    "net_precision": "MIN",
+    "orbit": "PO",
+    "pad": "Launch Area 96A",
+    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "LandSpace",
+    "rocket": "Zhuque-2E Block 2",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/de446468-057f-4c9d-a6a1-af99c93b541e",
+    "webcast_live": false
+   },
+   {
+    "description": "Sentinel-3C is the third satellite in the Sentinel-3 constellation, which provides high-accuracy optical, radar and altimetry data for marine and land services.\r\n\r\nThe Fluorescence Explorer (FLEX) satellite is a part of ESA's Earth Explorer program. The satellite will map vegetation fluorescence to quantify photosynthetic activity.",
+    "id": "8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193950.jpeg",
+    "lat": 5.236,
+    "lon": -52.775,
+    "mission": "Sentinel-3C & FLEX",
+    "mission_type": "Earth Science",
+    "name": "Vega-C | Sentinel-3C & FLEX",
+    "net": "2026-09-15T01:21:07Z",
+    "net_precision": "SEC",
+    "orbit": "SSO",
+    "pad": "Ariane Launch Area 1 (ELV)",
+    "pad_location": "Guiana Space Centre, French Guiana",
+    "provider": "Avio S.p.A",
+    "rocket": "Vega-C",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
+    "webcast_live": false
+   },
    {
     "description": "3 high-throughput communications satellites in Medium Earth Orbit (MEO) built by Boeing and operated by SES.",
     "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
@@ -1878,58 +1920,16 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/1ef27ca1-af91-48bb-b934-3da5abd9f711",
     "webcast_live": false
-   },
-   {
-    "description": "18 Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacesail Technologies with funding backed by the Shanghai local government.\r\n\r\nInitial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 12000 satellites.",
-    "id": "9e0f6efb-4742-4ba3-9fd4-4ea218576c71",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
-    "lat": 38.8583,
-    "lon": 111.5802,
-    "mission": "SpaceSail Polar Group #13",
-    "mission_type": "Communications",
-    "name": "Long March 6A | SpaceSail Polar Group #13",
-    "net": "2026-07-04T09:30:00Z",
-    "net_precision": "MIN",
-    "orbit": "PO",
-    "pad": "Launch Complex 9A",
-    "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "rocket": "Long March 6A",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/9e0f6efb-4742-4ba3-9fd4-4ea218576c71",
-    "webcast_live": false
-   },
-   {
-    "description": "Contracted by NASA under the Small Business Innovation Research Phase 3 contract, Katalyst Space Technologies' LINK servicing spacecraft will rendezvous and attach to NASA\u2019s Neil Gehrels Swift Observatory to re-boost its orbit. This aims to demonstrate a key capability for the future of space exploration and extending the Swift mission\u2019s science lifetime in gamma ray astronomy.",
-    "id": "f596ad48-881e-47d6-806d-113c6dd97427",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_thumbnail_20240307124328.jpeg",
-    "lat": 8.716667,
-    "lon": 167.733333,
-    "mission": "Swift Boost Mission",
-    "mission_type": "Mission Extension",
-    "name": "Pegasus XL | Swift Boost Mission",
-    "net": "2026-07-03T08:36:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Kwajalein Atoll",
-    "pad_location": "Air launch to orbit",
-    "provider": "Northrop Grumman Space Systems",
-    "rocket": "Pegasus XL",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/f596ad48-881e-47d6-806d-113c6dd97427",
-    "webcast_live": false
    }
   ],
   "totals": {
    "previous_sampled": 200,
    "share_caveat": "Share of the most recent orbital launches fetched, over the window shown. Not a share of all launches, and not a fixed calendar period - the window moves with every refresh.",
-   "spacex_sampled": 97,
-   "spacex_share": 0.485,
+   "spacex_sampled": 96,
+   "spacex_share": 0.48,
    "window": {
-    "from": "2026-01-30",
-    "to": "2026-09-13"
+    "from": "2026-01-31",
+    "to": "2026-09-15"
    }
   },
   "upcoming": [
@@ -1949,29 +1949,29 @@
     "pad_location": "Guiana Space Centre, French Guiana",
     "provider": "Avio S.p.A",
     "rocket": "Vega-C",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
     "webcast_live": false
    },
    {
-    "description": "Possibly launch of a batch of SpaceSail LEO communication satellites. Details TBD.",
+    "description": "10 Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacesail Technologies with funding backed by the Shanghai local government.\r\n\r\nInitial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 12000 satellites.",
     "id": "de446468-057f-4c9d-a6a1-af99c93b541e",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-2e_y6_la_image_thumbnail_20260609122826.jpeg",
     "lat": 40.91491,
     "lon": 100.245488,
-    "mission": "Unknown Payload",
-    "mission_type": "Unknown",
-    "name": "Zhuque-2E Block 2 | Unknown Payload",
-    "net": "2026-09-15T06:25:00Z",
-    "net_precision": "HR",
-    "orbit": "N/A",
+    "mission": "SpaceSail Polar Group #15",
+    "mission_type": "Communications",
+    "name": "Zhuque-2E Block 2 | SpaceSail Polar Group #15",
+    "net": "2026-09-15T06:26:00Z",
+    "net_precision": "MIN",
+    "orbit": "PO",
     "pad": "Launch Area 96A",
     "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
     "provider": "LandSpace",
     "rocket": "Zhuque-2E Block 2",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/de446468-057f-4c9d-a6a1-af99c93b541e",
     "webcast_live": false
    },
@@ -2355,5 +2355,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-15T00:22:54.672267+00:00"
+ "fetched_at": "2026-09-15T07:22:09.670333+00:00"
 }
