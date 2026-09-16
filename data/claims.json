@@ -15,8 +15,8 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-09-15",
-  "times_seen": 25
+  "last_seen": "2026-09-16",
+  "times_seen": 26
  },
  {
   "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
@@ -33,8 +33,8 @@
    "launch"
   ],
   "primary": false,
-  "last_seen": "2026-09-15",
-  "times_seen": 24
+  "last_seen": "2026-09-16",
+  "times_seen": 25
  },
  {
   "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - eletric-vehicles.com",
@@ -51,8 +51,8 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-09-15",
-  "times_seen": 25
+  "last_seen": "2026-09-16",
+  "times_seen": 26
  },
  {
   "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
@@ -69,8 +69,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-09-15",
-  "times_seen": 21
+  "last_seen": "2026-09-16",
+  "times_seen": 22
  },
  {
   "statement": "Tesla energy storage deployments jumped in \u2018crucial AI transformation year'; company expects margin compression in 2026 - Energy-Storage.News",
@@ -86,8 +86,8 @@
    "energy"
   ],
   "primary": false,
-  "last_seen": "2026-09-15",
-  "times_seen": 25
+  "last_seen": "2026-09-16",
+  "times_seen": 26
  },
  {
   "statement": "SpaceX's Starship Set for First Revenue Flight This Month, CFO Says - finance.biggo.com",
@@ -104,8 +104,8 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-09-15",
-  "times_seen": 19
+  "last_seen": "2026-09-16",
+  "times_seen": 20
  },
  {
   "statement": "SpaceX CFO: Starship to Launch Upgraded Starlink Satellites This Month, Set to Begin Generating Revenue - finance.biggo.com",
@@ -124,8 +124,8 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-09-15",
-  "times_seen": 19
+  "last_seen": "2026-09-16",
+  "times_seen": 20
  },
  {
   "statement": "SpaceX Exec Says Starship Will Generate Revenue for First Time \u2018Later This Month\u2019 - Benzinga",
@@ -142,8 +142,74 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-09-15",
-  "times_seen": 16
+  "last_seen": "2026-09-16",
+  "times_seen": 17
+ },
+ {
+  "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - BASENOR - Tesla Accessories",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2025",
+  "horizon": "2025-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Energy",
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPekx2OHM1aUxNdHRwRVVfdmZEeVp6UXJwa0N0VzNYUkYzTU14V2JtTnZsUnI0SWV5Q1VsZHFob0FYczltQlg2V0dtQ0xsZHFHS196TUpOU29zY2cxazZjM3NTd0lPaXVHMXBYekppVUFxSkRLQjBOMjNEZkhNTkE0eWZ0T2E3NWczNUNyQUJ3TzNuOGJ0bWJKeWpmcTJzNVhJeGFzS1pFdw?oc=5",
+  "first_seen": "2026-09-12",
+  "topics": [
+   "energy"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-16",
+  "times_seen": 19
+ },
+ {
+  "statement": "Elon Musk Plans New Tesla Roadster Unveiling In October; The Stock Slips - Investor's Business Daily",
+  "entity": "Musk",
+  "horizon_phrase": "In October",
+  "horizon": "2026-10-31",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "TSLA",
+  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yUU1peWVXdlFieFFBTFRzUnBwcnZYU18xd3cwTTdha25kUlhrVlR3QmxiRGJFTzBOdjZiX0JFZWhXWDI0cXpxZU1hTDREUk5ZTzQ3Sk5oMUU3RkRmdFZyOWpJUjJLZGhjaUdMMHYyMGkyWTVMOW9vM0RXblVLUE0?oc=5",
+  "first_seen": "2026-09-14",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-16",
+  "times_seen": 8
+ },
+ {
+  "statement": "Hyundai Group Says It Will Overtake Tesla in Self-Driving Data Within 5 Years - eletric-vehicles.com",
+  "entity": "Tesla",
+  "horizon_phrase": "Within 5 Years",
+  "horizon": "2031-09-14",
+  "horizon_precision": "approx",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOEc5VDlRTU96eWszVHNuVTZTYk8wbUlmTTB3NGlxcnlZb2UwelU5OWV1bmNsZFlPVlJLdzFnb0NzMnVWcWhLMGd0LTc4Qy1aUUR2TDF3OWpXVGdMbjU2UlZSclFHaDl0TDN0dWVVTW9ITnlKV2kyYzFxOFpCQkZpeWxNM05DMFFmdmxHTHpRZVBPZ3oxaElFMDBRVkM4MG5KVjMxb0pQNF9RaTBIZW1LeFV3?oc=5",
+  "first_seen": "2026-09-15",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-09-16",
+  "times_seen": 5
+ },
+ {
+  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - foxbusiness.com",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-16",
+  "times_seen": 4
  },
  {
   "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
@@ -163,40 +229,6 @@
   "times_seen": 19
  },
  {
-  "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - BASENOR - Tesla Accessories",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2025",
-  "horizon": "2025-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Energy",
-  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPekx2OHM1aUxNdHRwRVVfdmZEeVp6UXJwa0N0VzNYUkYzTU14V2JtTnZsUnI0SWV5Q1VsZHFob0FYczltQlg2V0dtQ0xsZHFHS196TUpOU29zY2cxazZjM3NTd0lPaXVHMXBYekppVUFxSkRLQjBOMjNEZkhNTkE0eWZ0T2E3NWczNUNyQUJ3TzNuOGJ0bWJKeWpmcTJzNVhJeGFzS1pFdw?oc=5",
-  "first_seen": "2026-09-12",
-  "topics": [
-   "energy"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-15",
-  "times_seen": 18
- },
- {
-  "statement": "Elon Musk Plans New Tesla Roadster Unveiling In October; The Stock Slips - Investor's Business Daily",
-  "entity": "Musk",
-  "horizon_phrase": "In October",
-  "horizon": "2026-10-31",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "TSLA",
-  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yUU1peWVXdlFieFFBTFRzUnBwcnZYU18xd3cwTTdha25kUlhrVlR3QmxiRGJFTzBOdjZiX0JFZWhXWDI0cXpxZU1hTDREUk5ZTzQ3Sk5oMUU3RkRmdFZyOWpJUjJLZGhjaUdMMHYyMGkyWTVMOW9vM0RXblVLUE0?oc=5",
-  "first_seen": "2026-09-14",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-15",
-  "times_seen": 7
- },
- {
   "statement": "Tesla's fully autonomous Cybercab is coming to New Zealand next year - Driven Car Guide",
   "entity": "Tesla",
   "horizon_phrase": "next year",
@@ -212,21 +244,6 @@
   "primary": false,
   "last_seen": "2026-09-15",
   "times_seen": 3
- },
- {
-  "statement": "Hyundai Group Says It Will Overtake Tesla in Self-Driving Data Within 5 Years - eletric-vehicles.com",
-  "entity": "Tesla",
-  "horizon_phrase": "Within 5 Years",
-  "horizon": "2031-09-14",
-  "horizon_precision": "approx",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOEc5VDlRTU96eWszVHNuVTZTYk8wbUlmTTB3NGlxcnlZb2UwelU5OWV1bmNsZFlPVlJLdzFnb0NzMnVWcWhLMGd0LTc4Qy1aUUR2TDF3OWpXVGdMbjU2UlZSclFHaDl0TDN0dWVVTW9ITnlKV2kyYzFxOFpCQkZpeWxNM05DMFFmdmxHTHpRZVBPZ3oxaElFMDBRVkM4MG5KVjMxb0pQNF9RaTBIZW1LeFV3?oc=5",
-  "first_seen": "2026-09-15",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-09-15",
-  "times_seen": 4
  },
  {
   "statement": "Elon Musk Says SpaceX Will Try to Catch a Returning Starship This Month - The Motley Fool",
@@ -466,22 +483,5 @@
   "primary": false,
   "last_seen": "2026-09-06",
   "times_seen": 6
- },
- {
-  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - foxbusiness.com",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-06",
-  "times_seen": 3
  }
 ]

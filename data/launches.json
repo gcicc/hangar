@@ -85,7 +85,6 @@
   "astronauts_count": 10,
   "cadence": {
    "labels": [
-    "2026-02",
     "2026-03",
     "2026-04",
     "2026-05",
@@ -96,17 +95,15 @@
    ],
    "note": "Current month is incomplete; earliest sampled month omitted.",
    "other": [
-    7,
     15,
     21,
     11,
     15,
     14,
     12,
-    8
+    9
    ],
    "partial": [
-    false,
     false,
     false,
     false,
@@ -116,7 +113,6 @@
     true
    ],
    "spacex": [
-    12,
     15,
     12,
     12,
@@ -128,24 +124,24 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "Possibly launch of a batch of SpaceSail LEO communication satellites. Details TBD.",
-   "id": "767f7827-53d8-4621-803b-f456a1e6b512",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193637.jpeg",
-   "lat": 31.2,
-   "lon": 123.7,
-   "mission": "Unknown Payload",
-   "mission_type": "Unknown",
-   "name": "Gravity-1 | Unknown Payload",
-   "net": "2026-09-15T21:55:00Z",
-   "net_precision": "HR",
-   "orbit": "N/A",
-   "pad": "Yellow Sea (launch location 5)",
-   "pad_location": "Haiyang Oriental Spaceport",
-   "provider": "Orienspace Technology",
-   "rocket": "Gravity-1",
+   "description": "USSF-259 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
+   "id": "17c71937-dd80-406f-bb47-0c9ee9a24276",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
+   "lat": 34.632,
+   "lon": -120.611,
+   "mission": "USSF-259",
+   "mission_type": "Government/Top Secret",
+   "name": "Falcon 9 Block 5 | USSF-259",
+   "net": "2026-09-16T02:18:38Z",
+   "net_precision": "SEC",
+   "orbit": "PO",
+   "pad": "Space Launch Complex 4E",
+   "pad_location": "Vandenberg SFB, CA, USA",
+   "provider": "SpaceX",
+   "rocket": "Falcon 9 Block 5",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/767f7827-53d8-4621-803b-f456a1e6b512",
+   "url": "https://nextspaceflight.com/launches/details/17c71937-dd80-406f-bb47-0c9ee9a24276",
    "webcast_live": false
   },
   "pads": [
@@ -211,16 +207,6 @@
    },
    {
     "count": 5,
-    "last_net": "2026-09-10T09:00:00Z",
-    "lat": 40.960482,
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.298059,
-    "name": "Launch Area 94 (SLS-2 / 603)",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 5,
     "last_net": "2026-09-02T12:01:00Z",
     "lat": -39.262833,
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -248,6 +234,16 @@
     "name": "Launch Area 96A",
     "spacex": false,
     "top_provider": "LandSpace"
+   },
+   {
+    "count": 4,
+    "last_net": "2026-09-10T09:00:00Z",
+    "lat": 40.960482,
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "lon": 100.298059,
+    "name": "Launch Area 94 (SLS-2 / 603)",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 4,
@@ -298,6 +294,26 @@
     "name": "31/6",
     "spacex": false,
     "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
+   },
+   {
+    "count": 4,
+    "last_net": "2026-09-30T00:00:00Z",
+    "lat": -39.260881,
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "lon": 177.865826,
+    "name": "Unknown Pad",
+    "spacex": false,
+    "top_provider": "Rocket Lab"
+   },
+   {
+    "count": 3,
+    "last_net": "2026-09-15T22:00:00Z",
+    "lat": 31.2,
+    "location": "Haiyang Oriental Spaceport",
+    "lon": 123.7,
+    "name": "Yellow Sea (launch location 5)",
+    "spacex": false,
+    "top_provider": "Orienspace Technology"
    },
    {
     "count": 3,
@@ -360,16 +376,6 @@
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
-    "count": 3,
-    "last_net": "2026-09-30T00:00:00Z",
-    "lat": -39.260881,
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "lon": 177.865826,
-    "name": "Unknown Pad",
-    "spacex": false,
-    "top_provider": "Rocket Lab"
-   },
-   {
     "count": 2,
     "last_net": "2026-08-30T11:26:04Z",
     "lat": 28.60822681,
@@ -418,16 +424,6 @@
     "name": "Launch Complex 2 (LC-2)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 2,
-    "last_net": "2026-09-15T21:55:00Z",
-    "lat": 31.2,
-    "location": "Haiyang Oriental Spaceport",
-    "lon": 123.7,
-    "name": "Yellow Sea (launch location 5)",
-    "spacex": false,
-    "top_provider": "Orienspace Technology"
    },
    {
     "count": 2,
@@ -638,16 +634,6 @@
     "name": "81/24 (81P)",
     "spacex": false,
     "top_provider": "Khrunichev State Research and Production Space Center"
-   },
-   {
-    "count": 1,
-    "last_net": "2026-09-30T00:00:00Z",
-    "lat": 67.877368,
-    "location": "Esrange Space Center",
-    "lon": 21.165001,
-    "name": "Launch Complex 3B",
-    "spacex": false,
-    "top_provider": "European Space Agency"
    }
   ],
   "passengers": [
@@ -661,6 +647,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "9 Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacesail Technologies with funding backed by the Shanghai local government.\r\n\r\nInitial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 12000 satellites.",
+    "id": "767f7827-53d8-4621-803b-f456a1e6b512",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193637.jpeg",
+    "lat": 31.2,
+    "lon": 123.7,
+    "mission": "SpaceSail Polar Group #16",
+    "mission_type": "Communications",
+    "name": "Gravity-1 | SpaceSail Polar Group #16",
+    "net": "2026-09-15T22:00:00Z",
+    "net_precision": "MIN",
+    "orbit": "PO",
+    "pad": "Yellow Sea (launch location 5)",
+    "pad_location": "Haiyang Oriental Spaceport",
+    "provider": "Orienspace Technology",
+    "rocket": "Gravity-1",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/767f7827-53d8-4621-803b-f456a1e6b512",
+    "webcast_live": false
+   },
    {
     "description": "10 Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacesail Technologies with funding backed by the Shanghai local government.\r\n\r\nInitial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 12000 satellites.",
     "id": "de446468-057f-4c9d-a6a1-af99c93b541e",
@@ -1899,27 +1906,6 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/888e0de3-ce4d-4daf-8140-bb0d3a4c8245",
     "webcast_live": false
-   },
-   {
-    "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.\r\n\r\nThe Falcon 9 1st stage carries 2 customer payload from Besxar Space Industries for testing their Fabships pilot reusable semiconductor wafers manufacturing pods in launch and re-entry environments.",
-    "id": "1ef27ca1-af91-48bb-b934-3da5abd9f711",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 28.56194122,
-    "lon": -80.57735736,
-    "mission": "Starlink Group 10-50",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 10-50",
-    "net": "2026-07-05T10:50:00Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 40",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/1ef27ca1-af91-48bb-b934-3da5abd9f711",
-    "webcast_live": false
    }
   ],
   "totals": {
@@ -1928,7 +1914,7 @@
    "spacex_sampled": 96,
    "spacex_share": 0.48,
    "window": {
-    "from": "2026-01-31",
+    "from": "2026-02-02",
     "to": "2026-09-15"
    }
   },
@@ -1976,23 +1962,23 @@
     "webcast_live": false
    },
    {
-    "description": "Possibly launch of a batch of SpaceSail LEO communication satellites. Details TBD.",
+    "description": "9 Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacesail Technologies with funding backed by the Shanghai local government.\r\n\r\nInitial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 12000 satellites.",
     "id": "767f7827-53d8-4621-803b-f456a1e6b512",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193637.jpeg",
     "lat": 31.2,
     "lon": 123.7,
-    "mission": "Unknown Payload",
-    "mission_type": "Unknown",
-    "name": "Gravity-1 | Unknown Payload",
-    "net": "2026-09-15T21:55:00Z",
-    "net_precision": "HR",
-    "orbit": "N/A",
+    "mission": "SpaceSail Polar Group #16",
+    "mission_type": "Communications",
+    "name": "Gravity-1 | SpaceSail Polar Group #16",
+    "net": "2026-09-15T22:00:00Z",
+    "net_precision": "MIN",
+    "orbit": "PO",
     "pad": "Yellow Sea (launch location 5)",
     "pad_location": "Haiyang Oriental Spaceport",
     "provider": "Orienspace Technology",
     "rocket": "Gravity-1",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/767f7827-53d8-4621-803b-f456a1e6b512",
     "webcast_live": false
    },
@@ -2005,7 +1991,7 @@
     "mission": "USSF-259",
     "mission_type": "Government/Top Secret",
     "name": "Falcon 9 Block 5 | USSF-259",
-    "net": "2026-09-16T01:29:18Z",
+    "net": "2026-09-16T02:18:38Z",
     "net_precision": "SEC",
     "orbit": "PO",
     "pad": "Space Launch Complex 4E",
@@ -2078,6 +2064,27 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/71aa4d56-0ce9-4c7d-a808-cc22f2ac5a84",
+    "webcast_live": false
+   },
+   {
+    "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
+    "id": "f4c720ce-0cfd-43e6-b8dd-00273073bc01",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+    "lat": -39.260881,
+    "lon": 177.865826,
+    "mission": "Owl By The Dozen (StriX Launch 12)",
+    "mission_type": "Earth Science",
+    "name": "Electron | Owl By The Dozen (StriX Launch 12)",
+    "net": "2026-09-19T03:15:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Unknown Pad",
+    "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "rocket": "Electron",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/f4c720ce-0cfd-43e6-b8dd-00273073bc01",
     "webcast_live": false
    },
    {
@@ -2331,29 +2338,8 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/548df42c-ae26-4cc9-921a-f0042941911a",
     "webcast_live": false
-   },
-   {
-    "description": "First low-altitude hop test of a Themis demonstrator, with a targeted altitude up to 100 m.",
-    "id": "3b94ad50-3505-496e-8a95-b0bc4c0dadc6",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/themis_t1h_on_t_image_thumbnail_20250919095336.jpeg",
-    "lat": 67.877368,
-    "lon": 21.165001,
-    "mission": "T1H-1",
-    "mission_type": "Test Flight",
-    "name": "Themis Demonstrator | T1H-1",
-    "net": "2026-09-30T00:00:00Z",
-    "net_precision": "Q3",
-    "orbit": "Sub",
-    "pad": "Launch Complex 3B",
-    "pad_location": "Esrange Space Center",
-    "provider": "European Space Agency",
-    "rocket": "Themis Demonstrator",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/3b94ad50-3505-496e-8a95-b0bc4c0dadc6",
-    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-09-15T21:14:38.027764+00:00"
+ "fetched_at": "2026-09-16T00:02:01.609914+00:00"
 }
