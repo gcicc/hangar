@@ -124,24 +124,24 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "USSF-259 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
-   "id": "17c71937-dd80-406f-bb47-0c9ee9a24276",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
-   "lat": 34.632,
-   "lon": -120.611,
-   "mission": "USSF-259",
-   "mission_type": "Government/Top Secret",
-   "name": "Falcon 9 Block 5 | USSF-259",
-   "net": "2026-09-16T02:18:38Z",
+   "description": "Progress resupply mission to the International Space Station.",
+   "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
+   "lat": 45.996034,
+   "lon": 63.564003,
+   "mission": "Progress MS-35 (96P)",
+   "mission_type": "Resupply",
+   "name": "Soyuz 2.1b | Progress MS-35 (96P)",
+   "net": "2026-09-16T13:33:53Z",
    "net_precision": "SEC",
-   "orbit": "PO",
-   "pad": "Space Launch Complex 4E",
-   "pad_location": "Vandenberg SFB, CA, USA",
-   "provider": "SpaceX",
-   "rocket": "Falcon 9 Block 5",
+   "orbit": "LEO",
+   "pad": "31/6",
+   "pad_location": "Baikonur Cosmodrome, Republic of Kazakhstan",
+   "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+   "rocket": "Soyuz 2.1b",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/17c71937-dd80-406f-bb47-0c9ee9a24276",
+   "url": "https://nextspaceflight.com/launches/details/d793ba47-faf5-4bab-a386-39a9ccc49c90",
    "webcast_live": false
   },
   "pads": [
@@ -226,14 +226,14 @@
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
-    "count": 4,
-    "last_net": "2026-09-15T06:26:00Z",
-    "lat": 40.91491,
+    "count": 5,
+    "last_net": "2026-09-20T04:00:00Z",
+    "lat": 40.8182,
     "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.245488,
-    "name": "Launch Area 96A",
+    "lon": 100.22514,
+    "name": "Launch Area 130",
     "spacex": false,
-    "top_provider": "LandSpace"
+    "top_provider": "CAS Space"
    },
    {
     "count": 4,
@@ -264,16 +264,6 @@
     "name": "Commercial LC-2",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 4,
-    "last_net": "2026-07-23T23:33:00Z",
-    "lat": 40.8182,
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.22514,
-    "name": "Launch Area 130",
-    "spacex": false,
-    "top_provider": "CAS Space"
    },
    {
     "count": 4,
@@ -317,13 +307,13 @@
    },
    {
     "count": 3,
-    "last_net": "2026-09-15T01:21:07Z",
-    "lat": 5.236,
-    "location": "Guiana Space Centre, French Guiana",
-    "lon": -52.775,
-    "name": "Ariane Launch Area 1 (ELV)",
+    "last_net": "2026-09-15T06:26:00Z",
+    "lat": 40.91491,
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "lon": 100.245488,
+    "name": "Launch Area 96A",
     "spacex": false,
-    "top_provider": "Avio S.p.A"
+    "top_provider": "LandSpace"
    },
    {
     "count": 3,
@@ -374,6 +364,16 @@
     "name": "Launch Complex 3 (LC-3/LA-1)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-09-15T01:21:07Z",
+    "lat": 5.236,
+    "location": "Guiana Space Centre, French Guiana",
+    "lon": -52.775,
+    "name": "Ariane Launch Area 1 (ELV)",
+    "spacex": false,
+    "top_provider": "Avio S.p.A"
    },
    {
     "count": 2,
@@ -634,6 +634,16 @@
     "name": "81/24 (81P)",
     "spacex": false,
     "top_provider": "Khrunichev State Research and Production Space Center"
+   },
+   {
+    "count": 1,
+    "last_net": "2026-09-30T00:00:00Z",
+    "lat": 67.877368,
+    "location": "Esrange Space Center",
+    "lon": 21.165001,
+    "name": "Launch Complex 3B",
+    "spacex": false,
+    "top_provider": "European Space Agency"
    }
   ],
   "passengers": [
@@ -1920,48 +1930,6 @@
   },
   "upcoming": [
    {
-    "description": "Sentinel-3C is the third satellite in the Sentinel-3 constellation, which provides high-accuracy optical, radar and altimetry data for marine and land services.\r\n\r\nThe Fluorescence Explorer (FLEX) satellite is a part of ESA's Earth Explorer program. The satellite will map vegetation fluorescence to quantify photosynthetic activity.",
-    "id": "8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193950.jpeg",
-    "lat": 5.236,
-    "lon": -52.775,
-    "mission": "Sentinel-3C & FLEX",
-    "mission_type": "Earth Science",
-    "name": "Vega-C | Sentinel-3C & FLEX",
-    "net": "2026-09-15T01:21:07Z",
-    "net_precision": "SEC",
-    "orbit": "SSO",
-    "pad": "Ariane Launch Area 1 (ELV)",
-    "pad_location": "Guiana Space Centre, French Guiana",
-    "provider": "Avio S.p.A",
-    "rocket": "Vega-C",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
-    "webcast_live": false
-   },
-   {
-    "description": "10 Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacesail Technologies with funding backed by the Shanghai local government.\r\n\r\nInitial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 12000 satellites.",
-    "id": "de446468-057f-4c9d-a6a1-af99c93b541e",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-2e_y6_la_image_thumbnail_20260609122826.jpeg",
-    "lat": 40.91491,
-    "lon": 100.245488,
-    "mission": "SpaceSail Polar Group #15",
-    "mission_type": "Communications",
-    "name": "Zhuque-2E Block 2 | SpaceSail Polar Group #15",
-    "net": "2026-09-15T06:26:00Z",
-    "net_precision": "MIN",
-    "orbit": "PO",
-    "pad": "Launch Area 96A",
-    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "LandSpace",
-    "rocket": "Zhuque-2E Block 2",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/de446468-057f-4c9d-a6a1-af99c93b541e",
-    "webcast_live": false
-   },
-   {
     "description": "9 Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacesail Technologies with funding backed by the Shanghai local government.\r\n\r\nInitial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 12000 satellites.",
     "id": "767f7827-53d8-4621-803b-f456a1e6b512",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193637.jpeg",
@@ -1980,27 +1948,6 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/767f7827-53d8-4621-803b-f456a1e6b512",
-    "webcast_live": false
-   },
-   {
-    "description": "USSF-259 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
-    "id": "17c71937-dd80-406f-bb47-0c9ee9a24276",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "USSF-259",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | USSF-259",
-    "net": "2026-09-16T02:18:38Z",
-    "net_precision": "SEC",
-    "orbit": "PO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
-    "url": "https://nextspaceflight.com/launches/details/17c71937-dd80-406f-bb47-0c9ee9a24276",
     "webcast_live": false
    },
    {
@@ -2043,6 +1990,27 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/898f7df0-b6ce-4a5c-80b4-67e81842124e",
+    "webcast_live": false
+   },
+   {
+    "description": "USSF-259 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
+    "id": "17c71937-dd80-406f-bb47-0c9ee9a24276",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "USSF-259",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | USSF-259",
+    "net": "2026-09-17T01:00:00Z",
+    "net_precision": "MIN",
+    "orbit": "PO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/17c71937-dd80-406f-bb47-0c9ee9a24276",
     "webcast_live": false
    },
    {
@@ -2127,6 +2095,27 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/d1471f9d-e9d0-4146-8e97-90863e48bfc8",
+    "webcast_live": false
+   },
+   {
+    "description": "Details TBD.",
+    "id": "5af31461-bce5-4cfb-a0ee-b527cf285d90",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
+    "lat": 40.8182,
+    "lon": 100.22514,
+    "mission": "Unknown Payload",
+    "mission_type": "Unknown",
+    "name": "Kinetica 1 | Unknown Payload",
+    "net": "2026-09-20T04:00:00Z",
+    "net_precision": "HR",
+    "orbit": "N/A",
+    "pad": "Launch Area 130",
+    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "CAS Space",
+    "rocket": "Kinetica 1",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/5af31461-bce5-4cfb-a0ee-b527cf285d90",
     "webcast_live": false
    },
    {
@@ -2338,8 +2327,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/548df42c-ae26-4cc9-921a-f0042941911a",
     "webcast_live": false
+   },
+   {
+    "description": "First low-altitude hop test of a Themis demonstrator, with a targeted altitude up to 100 m.",
+    "id": "3b94ad50-3505-496e-8a95-b0bc4c0dadc6",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/themis_t1h_on_t_image_thumbnail_20250919095336.jpeg",
+    "lat": 67.877368,
+    "lon": 21.165001,
+    "mission": "T1H-1",
+    "mission_type": "Test Flight",
+    "name": "Themis Demonstrator | T1H-1",
+    "net": "2026-09-30T00:00:00Z",
+    "net_precision": "Q3",
+    "orbit": "Sub",
+    "pad": "Launch Complex 3B",
+    "pad_location": "Esrange Space Center",
+    "provider": "European Space Agency",
+    "rocket": "Themis Demonstrator",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/3b94ad50-3505-496e-8a95-b0bc4c0dadc6",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-09-16T00:02:01.609914+00:00"
+ "fetched_at": "2026-09-16T07:23:06.130944+00:00"
 }
