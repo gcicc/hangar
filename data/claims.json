@@ -34,7 +34,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-17",
-  "times_seen": 31
+  "times_seen": 32
  },
  {
   "statement": "Tesla energy storage deployments jumped in \u2018crucial AI transformation year'; company expects margin compression in 2026 - Energy-Storage.News",
@@ -51,7 +51,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-17",
-  "times_seen": 30
+  "times_seen": 31
  },
  {
   "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - BASENOR - Tesla Accessories",
@@ -85,7 +85,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-17",
-  "times_seen": 13
+  "times_seen": 14
  },
  {
   "statement": "Hyundai Group Says It Will Overtake Tesla in Self-Driving Data Within 5 Years - eletric-vehicles.com",
@@ -135,7 +135,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-17",
-  "times_seen": 4
+  "times_seen": 5
  },
  {
   "statement": "Tesla Tanked This Year: One Of Tech\u2019s Biggest Bulls Says 70% Are On The Horizon - 24/7 Wall St.",
@@ -150,7 +150,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-09-17",
-  "times_seen": 3
+  "times_seen": 4
  },
  {
   "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - reuters.com",
@@ -185,8 +185,58 @@
    "launch"
   ],
   "primary": false,
-  "last_seen": "2026-09-16",
-  "times_seen": 29
+  "last_seen": "2026-09-17",
+  "times_seen": 30
+ },
+ {
+  "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - basenor.com",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2025",
+  "horizon": "2025-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Energy",
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPekx2OHM1aUxNdHRwRVVfdmZEeVp6UXJwa0N0VzNYUkYzTU14V2JtTnZsUnI0SWV5Q1VsZHFob0FYczltQlg2V0dtQ0xsZHFHS196TUpOU29zY2cxazZjM3NTd0lPaXVHMXBYekppVUFxSkRLQjBOMjNEZkhNTkE0eWZ0T2E3NWczNUNyQUJ3TzNuOGJ0bWJKeWpmcTJzNVhJeGFzS1pFdw?oc=5",
+  "first_seen": "2026-09-14",
+  "topics": [
+   "energy"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-17",
+  "times_seen": 2
+ },
+ {
+  "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - electrek.co",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus Features",
+  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHpreThLR3FVa1J6bWtuNmg3MXNHVUFqT1BaSzJMdTJvVTlPdHVKTHBpOUtKUklMTlA2ak9YbklTaTZRZUZ6NDdCS3llSlN2MWNXWmgtbmY2Yy1ydmlVRVRRWmxXWlhrbVNaUzF3TjUyTGZMVmprQVctbzlLZl9XY0JIZWdvUQ?oc=5",
+  "first_seen": "2026-09-14",
+  "topics": [
+   "optimus",
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-17",
+  "times_seen": 2
+ },
+ {
+  "statement": "Elon Musk\u2019s plans to colonize space launches this year, and Tesla robots will be the first residents - New York Post",
+  "entity": "Musk",
+  "horizon_phrase": "this year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYU1DVlRGN2ppQ0V0WU5sdlZzNk1qaEtJZ3JINDVJcXZOTWl5Q2JQV2J4ZFR1Z01iR056QnBZczNlNmU1Wm50TWNIR09YMExsVld0eU9GcERjckdNOFV4eVVZTjNXeV85aTFSeUlNVWtxVjZIMGYwTEdRREc3TFI4a29VVndEZXdTbnJRY1E2Um1PWjBnQVowVWxsQUd1U09paTliR3cwS3l2QUhRLUllUG9uZ0dpUDRJSDdvU0Z1bDc0cmRENmR3bDJ5TzJzNXQ0STZIeA?oc=5",
+  "first_seen": "2026-09-13",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-09-17",
+  "times_seen": 3
  },
  {
   "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
@@ -382,41 +432,6 @@
   "times_seen": 1
  },
  {
-  "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - basenor.com",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2025",
-  "horizon": "2025-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Energy",
-  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPekx2OHM1aUxNdHRwRVVfdmZEeVp6UXJwa0N0VzNYUkYzTU14V2JtTnZsUnI0SWV5Q1VsZHFob0FYczltQlg2V0dtQ0xsZHFHS196TUpOU29zY2cxazZjM3NTd0lPaXVHMXBYekppVUFxSkRLQjBOMjNEZkhNTkE0eWZ0T2E3NWczNUNyQUJ3TzNuOGJ0bWJKeWpmcTJzNVhJeGFzS1pFdw?oc=5",
-  "first_seen": "2026-09-14",
-  "topics": [
-   "energy"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-14",
-  "times_seen": 1
- },
- {
-  "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - electrek.co",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus Features",
-  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHpreThLR3FVa1J6bWtuNmg3MXNHVUFqT1BaSzJMdTJvVTlPdHVKTHBpOUtKUklMTlA2ak9YbklTaTZRZUZ6NDdCS3llSlN2MWNXWmgtbmY2Yy1ydmlVRVRRWmxXWlhrbVNaUzF3TjUyTGZMVmprQVctbzlLZl9XY0JIZWdvUQ?oc=5",
-  "first_seen": "2026-09-14",
-  "topics": [
-   "optimus",
-   "autonomy"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-14",
-  "times_seen": 1
- },
- {
   "statement": "SpaceX Stock Price Forecast: As Stock Lockups Intensify, Can SPCX Peak at $225 by 2027? - TradingKey",
   "entity": "SpaceX",
   "horizon_phrase": "by 2027",
@@ -449,21 +464,6 @@
   ],
   "primary": false,
   "last_seen": "2026-09-14",
-  "times_seen": 2
- },
- {
-  "statement": "Elon Musk\u2019s plans to colonize space launches this year, and Tesla robots will be the first residents - New York Post",
-  "entity": "Musk",
-  "horizon_phrase": "this year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYU1DVlRGN2ppQ0V0WU5sdlZzNk1qaEtJZ3JINDVJcXZOTWl5Q2JQV2J4ZFR1Z01iR056QnBZczNlNmU1Wm50TWNIR09YMExsVld0eU9GcERjckdNOFV4eVVZTjNXeV85aTFSeUlNVWtxVjZIMGYwTEdRREc3TFI4a29VVndEZXdTbnJRY1E2Um1PWjBnQVowVWxsQUd1U09paTliR3cwS3l2QUhRLUllUG9uZ0dpUDRJSDdvU0Z1bDc0cmRENmR3bDJ5TzJzNXQ0STZIeA?oc=5",
-  "first_seen": "2026-09-13",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-09-13",
   "times_seen": 2
  },
  {
