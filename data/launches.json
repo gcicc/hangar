@@ -217,16 +217,6 @@
    },
    {
     "count": 5,
-    "last_net": "2026-09-16T13:33:54Z",
-    "lat": 45.996034,
-    "location": "Baikonur Cosmodrome, Republic of Kazakhstan",
-    "lon": 63.564003,
-    "name": "31/6",
-    "spacex": false,
-    "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
-   },
-   {
-    "count": 5,
     "last_net": "2026-09-02T12:01:00Z",
     "lat": -39.262833,
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -277,6 +267,16 @@
    },
    {
     "count": 4,
+    "last_net": "2026-09-16T13:33:54Z",
+    "lat": 45.996034,
+    "location": "Baikonur Cosmodrome, Republic of Kazakhstan",
+    "lon": 63.564003,
+    "name": "31/6",
+    "spacex": false,
+    "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
+   },
+   {
+    "count": 4,
     "last_net": "2026-09-10T09:00:00Z",
     "lat": 40.960482,
     "location": "Jiuquan Satellite Launch Center, People's Republic of China",
@@ -317,7 +317,7 @@
    },
    {
     "count": 3,
-    "last_net": "2026-09-22T12:15:00Z",
+    "last_net": "2026-09-28T13:15:00Z",
     "lat": 25.99677,
     "location": "SpaceX Starbase, TX, USA",
     "lon": -97.15799,
@@ -654,6 +654,16 @@
     "name": "Launch Complex 3B",
     "spacex": false,
     "top_provider": "European Space Agency"
+   },
+   {
+    "count": 1,
+    "last_net": "2026-10-07T03:23:00Z",
+    "lat": 34.431867,
+    "location": "Naro Space Center, South Korea",
+    "lon": 127.535069,
+    "name": "LC-2",
+    "spacex": false,
+    "top_provider": "Korea Aerospace Research Institute"
    }
   ],
   "passengers": [
@@ -1940,27 +1950,6 @@
   },
   "upcoming": [
    {
-    "description": "Progress resupply mission to the International Space Station.",
-    "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
-    "lat": 45.996034,
-    "lon": 63.564003,
-    "mission": "Progress MS-35 (96P)",
-    "mission_type": "Resupply",
-    "name": "Soyuz 2.1b | Progress MS-35 (96P)",
-    "net": "2026-09-16T13:33:54Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "31/6",
-    "pad_location": "Baikonur Cosmodrome, Republic of Kazakhstan",
-    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-    "rocket": "Soyuz 2.1b",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/d793ba47-faf5-4bab-a386-39a9ccc49c90",
-    "webcast_live": false
-   },
-   {
     "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
     "id": "898f7df0-b6ce-4a5c-80b4-67e81842124e",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
@@ -2108,27 +2097,6 @@
     "webcast_live": false
    },
    {
-    "description": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-1) into stable Low Earth Orbit.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete approximately 6 orbits around the planet for nearly 10 hours, with splashdown tar",
-    "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
-    "lat": 25.99677,
-    "lon": -97.15799,
-    "mission": "Starlink Group 31-1 (Starship Flight 14)",
-    "mission_type": "Communications",
-    "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
-    "net": "2026-09-22T12:15:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Orbital Launch Pad 2",
-    "pad_location": "SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "rocket": "Starship V3",
-    "status": "Go",
-    "status_name": "Go for Launch",
-    "url": "https://nextspaceflight.com/launches/details/7d1afb26-6f9c-429b-9ccf-29012fd1e519",
-    "webcast_live": false
-   },
-   {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
     "id": "7330d83b-c478-426c-8859-f9e3a335876d",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
@@ -2147,6 +2115,27 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/7330d83b-c478-426c-8859-f9e3a335876d",
+    "webcast_live": false
+   },
+   {
+    "description": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-1) into stable Low Earth Orbit.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete approximately 6 orbits around the planet for nearly 10 hours, with splashdown tar",
+    "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
+    "lat": 25.99677,
+    "lon": -97.15799,
+    "mission": "Starlink Group 31-1 (Starship Flight 14)",
+    "mission_type": "Communications",
+    "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+    "net": "2026-09-28T13:15:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Orbital Launch Pad 2",
+    "pad_location": "SpaceX Starbase, TX, USA",
+    "provider": "SpaceX",
+    "rocket": "Starship V3",
+    "status": "TBC",
+    "status_name": "To Be Confirmed",
+    "url": "https://nextspaceflight.com/launches/details/7d1afb26-6f9c-429b-9ccf-29012fd1e519",
     "webcast_live": false
    },
    {
@@ -2358,8 +2347,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/7bdc412b-c965-4517-a131-f57a01189803",
     "webcast_live": false
+   },
+   {
+    "description": "NeonSat-2 to 6 are part of the South Korean government's Earth observation micro-satellite constellation NeonSat (New-space Earth Observation Satellite). The NeonSat constellation is the first satellite system developed by the government using a mass-production approach for precise monitoring of the Korean Peninsula.",
+    "id": "e0741415-6c63-4236-9736-24a6c04485bc",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nuri_liftoff_2_image_thumbnail_20240820080542.jpeg",
+    "lat": 34.431867,
+    "lon": 127.535069,
+    "mission": "NeonSat-2 to 6",
+    "mission_type": "Earth Science",
+    "name": "Nuri | NeonSat-2 to 6",
+    "net": "2026-10-07T03:23:00Z",
+    "net_precision": "MIN",
+    "orbit": "SSO",
+    "pad": "LC-2",
+    "pad_location": "Naro Space Center, South Korea",
+    "provider": "Korea Aerospace Research Institute",
+    "rocket": "KSLV-2 Nuri",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/e0741415-6c63-4236-9736-24a6c04485bc",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-09-17T13:08:49.923028+00:00"
+ "fetched_at": "2026-09-17T17:58:59.723775+00:00"
 }
