@@ -297,16 +297,6 @@
    },
    {
     "count": 3,
-    "last_net": "2026-09-15T22:00:00Z",
-    "lat": 31.2,
-    "location": "Haiyang Oriental Spaceport",
-    "lon": 123.7,
-    "name": "Yellow Sea (launch location 5)",
-    "spacex": false,
-    "top_provider": "Orienspace Technology"
-   },
-   {
-    "count": 3,
     "last_net": "2026-09-15T06:26:00Z",
     "lat": 40.91491,
     "location": "Jiuquan Satellite Launch Center, People's Republic of China",
@@ -364,6 +354,16 @@
     "name": "Launch Complex 3 (LC-3/LA-1)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-09-15T22:00:00Z",
+    "lat": 31.2,
+    "location": "Haiyang Oriental Spaceport",
+    "lon": 123.7,
+    "name": "Yellow Sea (launch location 5)",
+    "spacex": false,
+    "top_provider": "Orienspace Technology"
    },
    {
     "count": 2,
@@ -634,6 +634,16 @@
     "name": "81/24 (81P)",
     "spacex": false,
     "top_provider": "Khrunichev State Research and Production Space Center"
+   },
+   {
+    "count": 1,
+    "last_net": "2026-09-30T00:00:00Z",
+    "lat": 62.925556,
+    "location": "Plesetsk Cosmodrome, Russian Federation",
+    "lon": 40.577778,
+    "name": "Unknown Pad",
+    "spacex": false,
+    "top_provider": "Russian Space Forces"
    },
    {
     "count": 1,
@@ -1930,27 +1940,6 @@
   },
   "upcoming": [
    {
-    "description": "9 Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacesail Technologies with funding backed by the Shanghai local government.\r\n\r\nInitial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 12000 satellites.",
-    "id": "767f7827-53d8-4621-803b-f456a1e6b512",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193637.jpeg",
-    "lat": 31.2,
-    "lon": 123.7,
-    "mission": "SpaceSail Polar Group #16",
-    "mission_type": "Communications",
-    "name": "Gravity-1 | SpaceSail Polar Group #16",
-    "net": "2026-09-15T22:00:00Z",
-    "net_precision": "MIN",
-    "orbit": "PO",
-    "pad": "Yellow Sea (launch location 5)",
-    "pad_location": "Haiyang Oriental Spaceport",
-    "provider": "Orienspace Technology",
-    "rocket": "Gravity-1",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/767f7827-53d8-4621-803b-f456a1e6b512",
-    "webcast_live": false
-   },
-   {
     "description": "Progress resupply mission to the International Space Station.",
     "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
@@ -2245,6 +2234,27 @@
     "webcast_live": false
    },
    {
+    "description": "Note: Launch vehicle and payload identities highly uncertain.\r\n\r\nUnknown classified satellite(s) for the Russian military.",
+    "id": "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
+    "lat": 62.925556,
+    "lon": 40.577778,
+    "mission": "Kosmos (Unknown Payload)",
+    "mission_type": "Government/Top Secret",
+    "name": "Soyuz 2.1b/Fregat | Kosmos (Unknown Payload)",
+    "net": "2026-09-30T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "N/A",
+    "pad": "Unknown Pad",
+    "pad_location": "Plesetsk Cosmodrome, Russian Federation",
+    "provider": "Russian Space Forces",
+    "rocket": "Soyuz 2.1b Fregat-M",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
+    "webcast_live": false
+   },
+   {
     "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
     "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg",
@@ -2351,5 +2361,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-16T21:14:04.582555+00:00"
+ "fetched_at": "2026-09-17T00:11:22.695189+00:00"
 }
