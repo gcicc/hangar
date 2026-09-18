@@ -14,7 +14,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-18",
-  "times_seen": 36
+  "times_seen": 37
  },
  {
   "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - BASENOR - Tesla Accessories",
@@ -31,7 +31,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-18",
-  "times_seen": 27
+  "times_seen": 28
  },
  {
   "statement": "Elon Musk Plans New Tesla Roadster Unveiling In October; The Stock Slips - Investor's Business Daily",
@@ -48,7 +48,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-18",
-  "times_seen": 19
+  "times_seen": 20
  },
  {
   "statement": "Cathie Wood Projects $10 Trillion In SpaceX Starship Revenue By 2030 - Investor's Business Daily",
@@ -66,7 +66,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-18",
-  "times_seen": 10
+  "times_seen": 11
  },
  {
   "statement": "Tesla Tanked This Year: One Of Tech\u2019s Biggest Bulls Says 70% Are On The Horizon - 24/7 Wall St.",
@@ -81,7 +81,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-09-18",
-  "times_seen": 9
+  "times_seen": 10
  },
  {
   "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
@@ -116,7 +116,25 @@
   ],
   "primary": false,
   "last_seen": "2026-09-18",
-  "times_seen": 26
+  "times_seen": 27
+ },
+ {
+  "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - electrek.co",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus Features",
+  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHpreThLR3FVa1J6bWtuNmg3MXNHVUFqT1BaSzJMdTJvVTlPdHVKTHBpOUtKUklMTlA2ak9YbklTaTZRZUZ6NDdCS3llSlN2MWNXWmgtbmY2Yy1ydmlVRVRRWmxXWlhrbVNaUzF3TjUyTGZMVmprQVctbzlLZl9XY0JIZWdvUQ?oc=5",
+  "first_seen": "2026-09-14",
+  "topics": [
+   "optimus",
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-18",
+  "times_seen": 3
  },
  {
   "statement": "SpaceX wants to launch next Starship this month (and catch it, too), Elon Musk says in 1st earnings call since historic IPO - Space",
@@ -239,24 +257,6 @@
   "primary": false,
   "last_seen": "2026-09-17",
   "times_seen": 4
- },
- {
-  "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - electrek.co",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus Features",
-  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHpreThLR3FVa1J6bWtuNmg3MXNHVUFqT1BaSzJMdTJvVTlPdHVKTHBpOUtKUklMTlA2ak9YbklTaTZRZUZ6NDdCS3llSlN2MWNXWmgtbmY2Yy1ydmlVRVRRWmxXWlhrbVNaUzF3TjUyTGZMVmprQVctbzlLZl9XY0JIZWdvUQ?oc=5",
-  "first_seen": "2026-09-14",
-  "topics": [
-   "optimus",
-   "autonomy"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-17",
-  "times_seen": 2
  },
  {
   "statement": "Elon Musk\u2019s plans to colonize space launches this year, and Tesla robots will be the first residents - New York Post",
