@@ -156,7 +156,7 @@
     "top_provider": "SpaceX"
    },
    {
-    "count": 42,
+    "count": 43,
     "last_net": "2026-10-31T00:00:00Z",
     "lat": 28.56194122,
     "location": "Cape Canaveral SFS, FL, USA",
@@ -247,16 +247,6 @@
    },
    {
     "count": 4,
-    "last_net": "2026-09-17T16:50:00Z",
-    "lat": 62.9273,
-    "location": "Plesetsk Cosmodrome, Russian Federation",
-    "lon": 40.45,
-    "name": "43/3 (43L)",
-    "spacex": false,
-    "top_provider": "Russian Space Forces"
-   },
-   {
-    "count": 4,
     "last_net": "2026-09-17T00:32:00Z",
     "lat": 19.59755,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -284,6 +274,16 @@
     "name": "Launch Area 94 (SLS-2 / 603)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 3,
+    "last_net": "2026-09-17T16:50:00Z",
+    "lat": 62.9273,
+    "location": "Plesetsk Cosmodrome, Russian Federation",
+    "lon": 40.45,
+    "name": "43/3 (43L)",
+    "spacex": false,
+    "top_provider": "Russian Space Forces"
    },
    {
     "count": 3,
@@ -1940,27 +1940,6 @@
   },
   "upcoming": [
    {
-    "description": "Note: Satellite serial number and Cosmos designation not confirmed.\r\n\r\nGlonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and design life. Each satellite is unpressurized and weighs 935 kg,  and ha",
-    "id": "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
-    "lat": 62.9273,
-    "lon": 40.45,
-    "mission": "Glonass-K1 No. 20 (?)",
-    "mission_type": "Navigation",
-    "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 20 (?)",
-    "net": "2026-09-17T16:50:00Z",
-    "net_precision": "HR",
-    "orbit": "MEO",
-    "pad": "43/3 (43L)",
-    "pad_location": "Plesetsk Cosmodrome, Russian Federation",
-    "provider": "Russian Space Forces",
-    "rocket": "Soyuz 2.1b Fregat-M",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
-    "webcast_live": false
-   },
-   {
     "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
     "id": "f4c720ce-0cfd-43e6-b8dd-00273073bc01",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
@@ -2358,8 +2337,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/3b430f81-0ff1-4d85-8a1a-cef0de326198",
     "webcast_live": false
+   },
+   {
+    "description": "35th commercial resupply services mission to the International Space Station operated by SpaceX. The flight will be conducted under the second Commercial Resupply Services contract with NASA.\r\n\r\nCargo Dragon 2 brings supplies and payloads, including critical materials to directly support science and research investigations that occur onboard the orbiting laboratory.",
+    "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192619.jpeg",
+    "lat": 28.56194122,
+    "lon": -80.57735736,
+    "mission": "Dragon CRS-2 SpX-35",
+    "mission_type": "Resupply",
+    "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+    "net": "2026-10-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 40",
+    "pad_location": "Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/bf2c3027-a314-403e-a416-2bfd5d165ad1",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-09-18T16:02:07.320513+00:00"
+ "fetched_at": "2026-09-18T20:34:40.430360+00:00"
 }
