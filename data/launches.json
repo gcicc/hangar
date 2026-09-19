@@ -2151,6 +2151,27 @@
     "webcast_live": false
    },
    {
+    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+    "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "Starlink Group 15-25",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-25",
+    "net": "2026-09-30T14:00:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/97c6f5e1-299e-4652-b72d-9618ac047076",
+    "webcast_live": false
+   },
+   {
     "description": "SpaceX Crew-13 is the thirteenth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
     "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192609.jpeg",
@@ -2317,29 +2338,8 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
     "webcast_live": false
-   },
-   {
-    "description": "Dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
-    "id": "67213393-7983-4c06-8b44-b8c785a5ed79",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Transporter 18 (Dedicated SSO Rideshare)",
-    "mission_type": "Dedicated Rideshare",
-    "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
-    "net": "2026-10-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "SSO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/67213393-7983-4c06-8b44-b8c785a5ed79",
-    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-09-19T18:28:21.528447+00:00"
+ "fetched_at": "2026-09-19T22:12:53.558130+00:00"
 }
