@@ -101,7 +101,7 @@
     15,
     14,
     12,
-    13
+    14
    ],
    "partial": [
     false,
@@ -124,24 +124,24 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
-   "id": "f4c720ce-0cfd-43e6-b8dd-00273073bc01",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
-   "lat": -39.262833,
-   "lon": 177.864469,
-   "mission": "Owl By The Dozen (StriX Launch 12)",
-   "mission_type": "Earth Science",
-   "name": "Electron | Owl By The Dozen (StriX Launch 12)",
-   "net": "2026-09-19T03:15:00Z",
-   "net_precision": "MIN",
-   "orbit": "LEO",
-   "pad": "Rocket Lab Launch Complex 1B",
-   "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "provider": "Rocket Lab",
-   "rocket": "Electron",
+   "description": "Details TBD.",
+   "id": "a527b585-f01f-4ecc-9230-711dcef72ef1",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
+   "lat": 38.863128,
+   "lon": 111.589567,
+   "mission": "Unknown Payload",
+   "mission_type": "Unknown",
+   "name": "Long March 2D | Unknown Payload",
+   "net": "2026-09-19T10:50:00Z",
+   "net_precision": "HR",
+   "orbit": "N/A",
+   "pad": "Launch Complex 9",
+   "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "rocket": "Long March 2D",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/f4c720ce-0cfd-43e6-b8dd-00273073bc01",
+   "url": "https://nextspaceflight.com/launches/details/a527b585-f01f-4ecc-9230-711dcef72ef1",
    "webcast_live": false
   },
   "pads": [
@@ -177,6 +177,16 @@
    },
    {
     "count": 7,
+    "last_net": "2026-09-19T03:22:00Z",
+    "lat": -39.262833,
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "lon": 177.864469,
+    "name": "Rocket Lab Launch Complex 1B",
+    "spacex": false,
+    "top_provider": "Rocket Lab"
+   },
+   {
+    "count": 7,
     "last_net": "2026-09-23T13:30:00Z",
     "lat": 19.597275,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -192,16 +202,6 @@
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "lon": 177.864469,
     "name": "Rocket Lab Launch Complex 1A",
-    "spacex": false,
-    "top_provider": "Rocket Lab"
-   },
-   {
-    "count": 6,
-    "last_net": "2026-09-19T03:15:00Z",
-    "lat": -39.262833,
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "lon": 177.864469,
-    "name": "Rocket Lab Launch Complex 1B",
     "spacex": false,
     "top_provider": "Rocket Lab"
    },
@@ -436,16 +436,6 @@
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
-    "count": 2,
-    "last_net": "2026-04-11T11:32:00Z",
-    "lat": 21.366667,
-    "location": "Haiyang Oriental Spaceport",
-    "lon": 112.116667,
-    "name": "South China Sea (launch location 3)",
-    "spacex": false,
-    "top_provider": "China Rocket Co. Ltd."
-   },
-   {
     "count": 1,
     "last_net": "2026-09-05T20:12:00Z",
     "lat": 69.1084,
@@ -567,6 +557,16 @@
    },
    {
     "count": 1,
+    "last_net": "2026-04-11T11:32:00Z",
+    "lat": 21.366667,
+    "location": "Haiyang Oriental Spaceport",
+    "lon": 112.116667,
+    "name": "South China Sea (launch location 3)",
+    "spacex": false,
+    "top_provider": "China Rocket Co. Ltd."
+   },
+   {
+    "count": 1,
     "last_net": "2026-04-07T11:33:00Z",
     "lat": 34.57635,
     "location": "Vandenberg SFB, CA, USA",
@@ -667,6 +667,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
+    "id": "f4c720ce-0cfd-43e6-b8dd-00273073bc01",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+    "lat": -39.262833,
+    "lon": 177.864469,
+    "mission": "Owl By The Dozen (StriX Launch 12)",
+    "mission_type": "Earth Science",
+    "name": "Electron | Owl By The Dozen (StriX Launch 12)",
+    "net": "2026-09-19T03:22:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Rocket Lab Launch Complex 1B",
+    "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "rocket": "Electron",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
+    "url": "https://nextspaceflight.com/launches/details/f4c720ce-0cfd-43e6-b8dd-00273073bc01",
+    "webcast_live": true
+   },
    {
     "description": "Note: Satellite serial number and Cosmos designation not confirmed.\r\n\r\nGlonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and design life. Each satellite is unpressurized and weighs 935 kg,  and ha",
     "id": "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
@@ -1151,14 +1172,14 @@
     "webcast_live": false
    },
    {
-    "description": "Note: Satellite serial number and Cosmos designation not confirmed.\r\n\r\nGlonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and design life. Each satellite is unpressurized and weighs 935 kg,  and ha",
+    "description": "Glonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and design life. Each satellite is unpressurized and weighs 935 kg,  and has an operational lifetime of 10 years.",
     "id": "458e2e52-87b0-4707-96d8-6899f92e53ee",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
     "lat": 62.9273,
     "lon": 40.45,
-    "mission": "Glonass-K1 No. 19 (?)",
+    "mission": "Glonass-K1 No. 23 (Kosmos 2619)",
     "mission_type": "Navigation",
-    "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19 (?)",
+    "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 23 (Kosmos 2619)",
     "net": "2026-08-24T02:40:00Z",
     "net_precision": "MIN",
     "orbit": "MEO",
@@ -1905,27 +1926,6 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/9999a3a3-b15d-4ee3-b70f-acf00d10d912",
     "webcast_live": false
-   },
-   {
-    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "e09f254f-18bc-4985-963e-6075fa3d7a1c",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Starlink Group 15-14",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-14",
-    "net": "2026-07-14T01:28:17Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/e09f254f-18bc-4985-963e-6075fa3d7a1c",
-    "webcast_live": false
    }
   ],
   "totals": {
@@ -1935,7 +1935,7 @@
    "spacex_share": 0.47,
    "window": {
     "from": "2026-02-12",
-    "to": "2026-09-17"
+    "to": "2026-09-19"
    }
   },
   "upcoming": [
@@ -1948,17 +1948,17 @@
     "mission": "Owl By The Dozen (StriX Launch 12)",
     "mission_type": "Earth Science",
     "name": "Electron | Owl By The Dozen (StriX Launch 12)",
-    "net": "2026-09-19T03:15:00Z",
+    "net": "2026-09-19T03:22:00Z",
     "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Rocket Lab Launch Complex 1B",
     "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "rocket": "Electron",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
     "url": "https://nextspaceflight.com/launches/details/f4c720ce-0cfd-43e6-b8dd-00273073bc01",
-    "webcast_live": false
+    "webcast_live": true
    },
    {
     "description": "Details TBD.",
@@ -2361,5 +2361,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-18T23:57:25.002372+00:00"
+ "fetched_at": "2026-09-19T04:15:58.081724+00:00"
 }
