@@ -101,7 +101,7 @@
     15,
     14,
     12,
-    14
+    15
    ],
    "partial": [
     false,
@@ -124,24 +124,24 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "Details TBD.",
-   "id": "a527b585-f01f-4ecc-9230-711dcef72ef1",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
-   "lat": 38.863128,
-   "lon": 111.589567,
-   "mission": "Unknown Payload",
-   "mission_type": "Unknown",
-   "name": "Long March 2D | Unknown Payload",
-   "net": "2026-09-19T10:50:00Z",
-   "net_precision": "HR",
-   "orbit": "N/A",
-   "pad": "Launch Complex 9",
-   "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "rocket": "Long March 2D",
+   "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+   "id": "d1471f9d-e9d0-4146-8e97-90863e48bfc8",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+   "lat": 34.632,
+   "lon": -120.611,
+   "mission": "Starlink Group 15-27",
+   "mission_type": "Communications",
+   "name": "Falcon 9 Block 5 | Starlink Group 15-27",
+   "net": "2026-09-20T01:47:00Z",
+   "net_precision": "MIN",
+   "orbit": "LEO",
+   "pad": "Space Launch Complex 4E",
+   "pad_location": "Vandenberg SFB, CA, USA",
+   "provider": "SpaceX",
+   "rocket": "Falcon 9 Block 5",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/a527b585-f01f-4ecc-9230-711dcef72ef1",
+   "url": "https://nextspaceflight.com/launches/details/d1471f9d-e9d0-4146-8e97-90863e48bfc8",
    "webcast_live": false
   },
   "pads": [
@@ -247,6 +247,16 @@
    },
    {
     "count": 4,
+    "last_net": "2026-09-19T10:50:00Z",
+    "lat": 38.863128,
+    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "lon": 111.589567,
+    "name": "Launch Complex 9",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 4,
     "last_net": "2026-09-17T00:32:00Z",
     "lat": 19.59755,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -304,16 +314,6 @@
     "name": "Launch Area 96A",
     "spacex": false,
     "top_provider": "LandSpace"
-   },
-   {
-    "count": 3,
-    "last_net": "2026-09-19T10:50:00Z",
-    "lat": 38.863128,
-    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
-    "lon": 111.589567,
-    "name": "Launch Complex 9",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 3,
@@ -617,16 +617,6 @@
    },
    {
     "count": 1,
-    "last_net": "2026-02-12T08:52:15Z",
-    "lat": 46.071001,
-    "location": "Baikonur Cosmodrome, Republic of Kazakhstan",
-    "lon": 62.984999,
-    "name": "81/24 (81P)",
-    "spacex": false,
-    "top_provider": "Khrunichev State Research and Production Space Center"
-   },
-   {
-    "count": 1,
     "last_net": "2026-10-05T00:00:00Z",
     "lat": 60.8184,
     "location": "SaxaVord Spaceport",
@@ -658,6 +648,27 @@
   ],
   "previous": [
    {
+    "description": "4 X-band synthetic-aperture radar Earth observation satellites for the Chinese Earth observation satellite company PIESAT.",
+    "id": "a527b585-f01f-4ecc-9230-711dcef72ef1",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
+    "lat": 38.863128,
+    "lon": 111.589567,
+    "mission": "PIESAT-2 13-16",
+    "mission_type": "Earth Science",
+    "name": "Long March 2D | PIESAT-2 13-16",
+    "net": "2026-09-19T10:50:00Z",
+    "net_precision": "MIN",
+    "orbit": "SSO",
+    "pad": "Launch Complex 9",
+    "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 2D",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/a527b585-f01f-4ecc-9230-711dcef72ef1",
+    "webcast_live": false
+   },
+   {
     "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
     "id": "f4c720ce-0cfd-43e6-b8dd-00273073bc01",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
@@ -673,8 +684,8 @@
     "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "rocket": "Electron",
-    "status": "Deployed",
-    "status_name": "Payload Deployed",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/f4c720ce-0cfd-43e6-b8dd-00273073bc01",
     "webcast_live": false
    },
@@ -1895,27 +1906,6 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/a556b963-0f36-4660-95a8-fdffdba653e2",
     "webcast_live": false
-   },
-   {
-    "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "9999a3a3-b15d-4ee3-b70f-acf00d10d912",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 28.56194122,
-    "lon": -80.57735736,
-    "mission": "Starlink Group 10-45",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 10-45",
-    "net": "2026-07-14T09:10:12Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 40",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/9999a3a3-b15d-4ee3-b70f-acf00d10d912",
-    "webcast_live": false
    }
   ],
   "totals": {
@@ -1945,29 +1935,29 @@
     "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "rocket": "Electron",
-    "status": "Deployed",
-    "status_name": "Payload Deployed",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/f4c720ce-0cfd-43e6-b8dd-00273073bc01",
     "webcast_live": false
    },
    {
-    "description": "Details TBD.",
+    "description": "4 X-band synthetic-aperture radar Earth observation satellites for the Chinese Earth observation satellite company PIESAT.",
     "id": "a527b585-f01f-4ecc-9230-711dcef72ef1",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
     "lat": 38.863128,
     "lon": 111.589567,
-    "mission": "Unknown Payload",
-    "mission_type": "Unknown",
-    "name": "Long March 2D | Unknown Payload",
+    "mission": "PIESAT-2 13-16",
+    "mission_type": "Earth Science",
+    "name": "Long March 2D | PIESAT-2 13-16",
     "net": "2026-09-19T10:50:00Z",
-    "net_precision": "HR",
-    "orbit": "N/A",
+    "net_precision": "MIN",
+    "orbit": "SSO",
     "pad": "Launch Complex 9",
     "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "rocket": "Long March 2D",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/a527b585-f01f-4ecc-9230-711dcef72ef1",
     "webcast_live": false
    },
@@ -2351,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-19T10:29:42.915252+00:00"
+ "fetched_at": "2026-09-19T15:33:13.868462+00:00"
 }
