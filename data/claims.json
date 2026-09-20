@@ -14,7 +14,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-20",
-  "times_seen": 47
+  "times_seen": 48
  },
  {
   "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - BASENOR - Tesla Accessories",
@@ -31,7 +31,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-20",
-  "times_seen": 38
+  "times_seen": 39
  },
  {
   "statement": "Cathie Wood Projects $10 Trillion In SpaceX Starship Revenue By 2030 - Investor's Business Daily",
@@ -49,7 +49,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-20",
-  "times_seen": 21
+  "times_seen": 22
  },
  {
   "statement": "Tesla Tanked This Year: One Of Tech\u2019s Biggest Bulls Says 70% Are On The Horizon - 24/7 Wall St.",
@@ -64,7 +64,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-09-20",
-  "times_seen": 19
+  "times_seen": 20
  },
  {
   "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
@@ -82,7 +82,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-20",
-  "times_seen": 37
+  "times_seen": 38
  },
  {
   "statement": "Tesla Stock Fell After Its Last 4 Delivery Reports, Even a Big Beat. Here's What History Says to Expect in October. - The Motley Fool",
@@ -100,7 +100,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-20",
-  "times_seen": 10
+  "times_seen": 11
  },
  {
   "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
@@ -117,7 +117,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-20",
-  "times_seen": 8
+  "times_seen": 9
  },
  {
   "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - eletric-vehicles.com",
@@ -135,7 +135,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-20",
-  "times_seen": 40
+  "times_seen": 41
  },
  {
   "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - foxbusiness.com",
@@ -170,7 +170,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-20",
-  "times_seen": 32
+  "times_seen": 33
  },
  {
   "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
@@ -186,8 +186,27 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-09-19",
-  "times_seen": 35
+  "last_seen": "2026-09-20",
+  "times_seen": 36
+ },
+ {
+  "statement": "SpaceX wants to launch next Starship this month (and catch it, too), Elon Musk says in 1st earnings call since historic IPO - Space",
+  "entity": "SpaceX",
+  "horizon_phrase": "this month",
+  "horizon": null,
+  "horizon_precision": "unknown",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPUHUxR2UtWnZHMFVRZ3I4eVJNWHFHWVctUjlaRk5RcG9WbWxaTjVKWDMzQ2hseFF4bHByMUpxZ2lwME1jTHJWSExyMVZtLUlZUm14N0oyYlBjcU9aa2FQWE84RmVrcVVHVTZoZl9Mb0lRSklvRHF1STV5amZ4UFE2a19sZzRKYzF4SU1ybHFzamRYZkkxQTBqN21yQ2tlNWgyQkJNQ3J2aGlwR0xCWnZCYWdqN1ZYcHBLTzA4TEpLT2FKeEtpa2prSHJiUldhU0hLbzRSTndRaDJuNVJvenVORUhWZ3NCYUFBSXdIX2RmZGtUTVZlb2k0d0JhSkRrRFFvNXlqanVEdVo5ams?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "starship",
+   "launch",
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-20",
+  "times_seen": 32
  },
  {
   "statement": "Tesla Tanked This Year: One Of Tech\u2019s Biggest Bulls Says 70% Are On The Horizon - 247wallst.com",
@@ -238,25 +257,6 @@
   "primary": false,
   "last_seen": "2026-09-18",
   "times_seen": 3
- },
- {
-  "statement": "SpaceX wants to launch next Starship this month (and catch it, too), Elon Musk says in 1st earnings call since historic IPO - Space",
-  "entity": "SpaceX",
-  "horizon_phrase": "this month",
-  "horizon": null,
-  "horizon_precision": "unknown",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPUHUxR2UtWnZHMFVRZ3I4eVJNWHFHWVctUjlaRk5RcG9WbWxaTjVKWDMzQ2hseFF4bHByMUpxZ2lwME1jTHJWSExyMVZtLUlZUm14N0oyYlBjcU9aa2FQWE84RmVrcVVHVTZoZl9Mb0lRSklvRHF1STV5amZ4UFE2a19sZzRKYzF4SU1ybHFzamRYZkkxQTBqN21yQ2tlNWgyQkJNQ3J2aGlwR0xCWnZCYWdqN1ZYcHBLTzA4TEpLT2FKeEtpa2prSHJiUldhU0hLbzRSTndRaDJuNVJvenVORUhWZ3NCYUFBSXdIX2RmZGtUTVZlb2k0d0JhSkRrRFFvNXlqanVEdVo5ams?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "starship",
-   "launch",
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-17",
-  "times_seen": 31
  },
  {
   "statement": "Hyundai Group Says It Will Overtake Tesla in Self-Driving Data Within 5 Years - eletric-vehicles.com",

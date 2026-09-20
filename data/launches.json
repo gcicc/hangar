@@ -237,16 +237,6 @@
    },
    {
     "count": 4,
-    "last_net": "2026-09-19T10:50:00Z",
-    "lat": 38.863128,
-    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
-    "lon": 111.589567,
-    "name": "Launch Complex 9",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 4,
     "last_net": "2026-09-17T00:32:00Z",
     "lat": 19.59755,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -287,6 +277,16 @@
    },
    {
     "count": 3,
+    "last_net": "2026-09-19T10:50:00Z",
+    "lat": 38.863128,
+    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "lon": 111.589567,
+    "name": "Launch Complex 9",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 3,
     "last_net": "2026-09-17T16:50:00Z",
     "lat": 62.9273,
     "location": "Plesetsk Cosmodrome, Russian Federation",
@@ -314,6 +314,16 @@
     "name": "Launch Area 96A",
     "spacex": false,
     "top_provider": "LandSpace"
+   },
+   {
+    "count": 3,
+    "last_net": "2026-10-31T00:00:00Z",
+    "lat": 28.60822681,
+    "location": "Kennedy Space Center, FL, USA",
+    "lon": -80.60428186,
+    "name": "Launch Complex 39A",
+    "spacex": true,
+    "top_provider": "SpaceX"
    },
    {
     "count": 3,
@@ -384,16 +394,6 @@
     "name": "Ariane Launch Area 1 (ELV)",
     "spacex": false,
     "top_provider": "Avio S.p.A"
-   },
-   {
-    "count": 2,
-    "last_net": "2026-08-30T11:26:04Z",
-    "lat": 28.60822681,
-    "location": "Kennedy Space Center, FL, USA",
-    "lon": -80.60428186,
-    "name": "Launch Complex 39A",
-    "spacex": true,
-    "top_provider": "SpaceX"
    },
    {
     "count": 2,
@@ -1920,27 +1920,6 @@
   },
   "upcoming": [
    {
-    "description": "4 X-band synthetic-aperture radar Earth observation satellites for the Chinese Earth observation satellite company PIESAT.",
-    "id": "a527b585-f01f-4ecc-9230-711dcef72ef1",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
-    "lat": 38.863128,
-    "lon": 111.589567,
-    "mission": "PIESAT-2 13-16",
-    "mission_type": "Earth Science",
-    "name": "Long March 2D | PIESAT-2 13-16",
-    "net": "2026-09-19T10:50:00Z",
-    "net_precision": "MIN",
-    "orbit": "SSO",
-    "pad": "Launch Complex 9",
-    "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "rocket": "Long March 2D",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/a527b585-f01f-4ecc-9230-711dcef72ef1",
-    "webcast_live": false
-   },
-   {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
     "id": "d1471f9d-e9d0-4146-8e97-90863e48bfc8",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
@@ -2338,8 +2317,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/ef9850ad-1096-425b-9d27-f7bbd186e61a",
     "webcast_live": false
+   },
+   {
+    "description": "Classified payload for the US National Reconnaissance Office",
+    "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
+    "lat": 28.60822681,
+    "lon": -80.60428186,
+    "mission": "NROL-97",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon Heavy | NROL-97",
+    "net": "2026-10-31T00:00:00Z",
+    "net_precision": "Q4",
+    "orbit": "N/A",
+    "pad": "Launch Complex 39A",
+    "pad_location": "Kennedy Space Center, FL, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon Heavy",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-09-20T09:11:22.581070+00:00"
+ "fetched_at": "2026-09-20T13:59:59.324067+00:00"
 }
