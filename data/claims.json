@@ -13,8 +13,8 @@
    "energy"
   ],
   "primary": false,
-  "last_seen": "2026-09-19",
-  "times_seen": 45
+  "last_seen": "2026-09-20",
+  "times_seen": 46
  },
  {
   "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - BASENOR - Tesla Accessories",
@@ -30,8 +30,8 @@
    "energy"
   ],
   "primary": false,
-  "last_seen": "2026-09-19",
-  "times_seen": 36
+  "last_seen": "2026-09-20",
+  "times_seen": 37
  },
  {
   "statement": "Cathie Wood Projects $10 Trillion In SpaceX Starship Revenue By 2030 - Investor's Business Daily",
@@ -48,8 +48,8 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-09-19",
-  "times_seen": 19
+  "last_seen": "2026-09-20",
+  "times_seen": 20
  },
  {
   "statement": "Tesla Tanked This Year: One Of Tech\u2019s Biggest Bulls Says 70% Are On The Horizon - 24/7 Wall St.",
@@ -63,8 +63,8 @@
   "first_seen": "2026-09-16",
   "topics": [],
   "primary": false,
-  "last_seen": "2026-09-19",
-  "times_seen": 17
+  "last_seen": "2026-09-20",
+  "times_seen": 18
  },
  {
   "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
@@ -81,8 +81,96 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-09-19",
-  "times_seen": 35
+  "last_seen": "2026-09-20",
+  "times_seen": 36
+ },
+ {
+  "statement": "Tesla Stock Fell After Its Last 4 Delivery Reports, Even a Big Beat. Here's What History Says to Expect in October. - The Motley Fool",
+  "entity": "Tesla",
+  "horizon_phrase": "in October",
+  "horizon": "2026-10-31",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOOXk4WTd3eDlVQ09yMnJBUTJsNmlyTk5LTVlGT3VENjM0UEJFUTQ3dXJzXzZURFFhX2xqMmszTTF1Mm5KQmJQRTZScTQ4ampiWEJoUXREZkwySzNFLTB6LVVvRkJSY1N5dmU5c1REd1JrTkhUNXM0ak9URjVPaFRFS0lKMEo0TV9KN084eV9GTFIydmFyS2tyWGZCLWpUdFVPV3dKS2dHbUR5WDZGUEdpWXBzR2ptUDRHckRHUEdsQkZoY1dCN3NvSUpfUGdwMFB4N3B2QVJiU2g0SUUtZGJNUjVlZUtvckpNUGM0?oc=5",
+  "first_seen": "2026-09-18",
+  "topics": [
+   "production",
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-20",
+  "times_seen": 9
+ },
+ {
+  "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VQXRiT1ludzJQQkJQLWRUSjhPdkdsb183d3ozcXV1UnhwTDM2UUQ0QzN1N0NxQmdVbGZKSzVzTnRheU9CaGpwaG00SGhSWjZla1p0WDZFZkhPR0t4NXlBbXVRQ3Y2NTVhT3BxUHAwOUQ1OWQz?oc=5",
+  "first_seen": "2026-09-18",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-20",
+  "times_seen": 7
+ },
+ {
+  "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - eletric-vehicles.com",
+  "entity": "Tesla",
+  "horizon_phrase": "This Year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjVidnZtaUtWNVdOUGlQaUNBS1phbDduR3ZDMWJJa0ludjV2MkdMNEZrOTB0TUsyYTBGSTQ3UWVOOUpyeU1LMTdNQUllUXJFZzIyZ3R3NjQ3RmlyRm00QnVPSHRxLVFlU2FadjlZTmtud2Z5cEZKQU5fZy1PRFdXNTRneHB0YTR6djVILXZ2cEFwcmg3X2ktTnlybmM1dTNITXJ4RUxURVVfSFgzRmZrVENLLWo?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "optimus",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-20",
+  "times_seen": 39
+ },
+ {
+  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - foxbusiness.com",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-20",
+  "times_seen": 7
+ },
+ {
+  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
+  "entity": "SpaceX",
+  "horizon_phrase": "this month",
+  "horizon": null,
+  "horizon_precision": "unknown",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "starship",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-20",
+  "times_seen": 31
  },
  {
   "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
@@ -100,59 +188,6 @@
   "primary": false,
   "last_seen": "2026-09-19",
   "times_seen": 35
- },
- {
-  "statement": "Tesla Stock Fell After Its Last 4 Delivery Reports, Even a Big Beat. Here's What History Says to Expect in October. - The Motley Fool",
-  "entity": "Tesla",
-  "horizon_phrase": "in October",
-  "horizon": "2026-10-31",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOOXk4WTd3eDlVQ09yMnJBUTJsNmlyTk5LTVlGT3VENjM0UEJFUTQ3dXJzXzZURFFhX2xqMmszTTF1Mm5KQmJQRTZScTQ4ampiWEJoUXREZkwySzNFLTB6LVVvRkJSY1N5dmU5c1REd1JrTkhUNXM0ak9URjVPaFRFS0lKMEo0TV9KN084eV9GTFIydmFyS2tyWGZCLWpUdFVPV3dKS2dHbUR5WDZGUEdpWXBzR2ptUDRHckRHUEdsQkZoY1dCN3NvSUpfUGdwMFB4N3B2QVJiU2g0SUUtZGJNUjVlZUtvckpNUGM0?oc=5",
-  "first_seen": "2026-09-18",
-  "topics": [
-   "production",
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-19",
-  "times_seen": 8
- },
- {
-  "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VQXRiT1ludzJQQkJQLWRUSjhPdkdsb183d3ozcXV1UnhwTDM2UUQ0QzN1N0NxQmdVbGZKSzVzTnRheU9CaGpwaG00SGhSWjZla1p0WDZFZkhPR0t4NXlBbXVRQ3Y2NTVhT3BxUHAwOUQ1OWQz?oc=5",
-  "first_seen": "2026-09-18",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-19",
-  "times_seen": 6
- },
- {
-  "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - eletric-vehicles.com",
-  "entity": "Tesla",
-  "horizon_phrase": "This Year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjVidnZtaUtWNVdOUGlQaUNBS1phbDduR3ZDMWJJa0ludjV2MkdMNEZrOTB0TUsyYTBGSTQ3UWVOOUpyeU1LMTdNQUllUXJFZzIyZ3R3NjQ3RmlyRm00QnVPSHRxLVFlU2FadjlZTmtud2Z5cEZKQU5fZy1PRFdXNTRneHB0YTR6djVILXZ2cEFwcmg3X2ktTnlybmM1dTNITXJ4RUxURVVfSFgzRmZrVENLLWo?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "optimus",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-19",
-  "times_seen": 38
  },
  {
   "statement": "Tesla Tanked This Year: One Of Tech\u2019s Biggest Bulls Says 70% Are On The Horizon - 247wallst.com",
@@ -239,23 +274,6 @@
   "times_seen": 10
  },
  {
-  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - foxbusiness.com",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-17",
-  "times_seen": 6
- },
- {
   "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - reuters.com",
   "entity": "SpaceX",
   "horizon_phrase": "this month",
@@ -272,24 +290,6 @@
   "primary": false,
   "last_seen": "2026-09-17",
   "times_seen": 2
- },
- {
-  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
-  "entity": "SpaceX",
-  "horizon_phrase": "this month",
-  "horizon": null,
-  "horizon_precision": "unknown",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "starship",
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-17",
-  "times_seen": 30
  },
  {
   "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - basenor.com",
