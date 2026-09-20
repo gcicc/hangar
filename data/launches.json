@@ -101,7 +101,7 @@
     15,
     14,
     12,
-    15
+    16
    ],
    "partial": [
     false,
@@ -125,23 +125,23 @@
   "calls_used": 4,
   "next": {
    "description": "Details TBD.",
-   "id": "5af31461-bce5-4cfb-a0ee-b527cf285d90",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
-   "lat": 40.8182,
-   "lon": 100.22514,
+   "id": "63063b9d-ade9-4448-8717-6f910aa81188",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
+   "lat": 19.597275,
+   "lon": 110.930753,
    "mission": "Unknown Payload",
    "mission_type": "Unknown",
-   "name": "Kinetica 1 | Unknown Payload",
-   "net": "2026-09-20T04:00:00Z",
+   "name": "Long March 8A | Unknown Payload",
+   "net": "2026-09-23T13:30:00Z",
    "net_precision": "HR",
    "orbit": "N/A",
-   "pad": "Launch Area 130",
-   "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "provider": "CAS Space",
-   "rocket": "Kinetica 1",
+   "pad": "Commercial LC-1",
+   "pad_location": "Wenchang Space Launch Site, People's Republic of China",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "rocket": "Long March 8A",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/5af31461-bce5-4cfb-a0ee-b527cf285d90",
+   "url": "https://nextspaceflight.com/launches/details/63063b9d-ade9-4448-8717-6f910aa81188",
    "webcast_live": false
   },
   "pads": [
@@ -197,6 +197,16 @@
    },
    {
     "count": 6,
+    "last_net": "2026-09-20T04:03:00Z",
+    "lat": 40.8182,
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "lon": 100.22514,
+    "name": "Launch Area 130",
+    "spacex": false,
+    "top_provider": "CAS Space"
+   },
+   {
+    "count": 6,
     "last_net": "2026-09-11T03:28:00Z",
     "lat": -39.262833,
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -207,16 +217,6 @@
    },
    {
     "count": 5,
-    "last_net": "2026-10-07T00:00:00Z",
-    "lat": 5.256319,
-    "location": "Guiana Space Centre, French Guiana",
-    "lon": -52.786838,
-    "name": "Ariane Launch Area 4",
-    "spacex": false,
-    "top_provider": "Arianespace"
-   },
-   {
-    "count": 5,
     "last_net": "2026-08-10T12:02:00Z",
     "lat": 19.618452,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -224,16 +224,6 @@
     "name": "201",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 5,
-    "last_net": "2026-09-20T04:00:00Z",
-    "lat": 40.8182,
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.22514,
-    "name": "Launch Area 130",
-    "spacex": false,
-    "top_provider": "CAS Space"
    },
    {
     "count": 5,
@@ -284,6 +274,16 @@
     "name": "Launch Area 94 (SLS-2 / 603)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 4,
+    "last_net": "2026-10-07T00:00:00Z",
+    "lat": 5.256319,
+    "location": "Guiana Space Centre, French Guiana",
+    "lon": -52.786838,
+    "name": "Ariane Launch Area 4",
+    "spacex": false,
+    "top_provider": "Arianespace"
    },
    {
     "count": 3,
@@ -647,6 +647,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "Share-ride of 9 commercial Earth observation and technology demonstration satellites to SSO, details TBD.",
+    "id": "5af31461-bce5-4cfb-a0ee-b527cf285d90",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
+    "lat": 40.8182,
+    "lon": 100.22514,
+    "mission": "9 satellites",
+    "mission_type": "Earth Science",
+    "name": "Kinetica 1 | 9 satellites",
+    "net": "2026-09-20T04:03:00Z",
+    "net_precision": "MIN",
+    "orbit": "SSO",
+    "pad": "Launch Area 130",
+    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "CAS Space",
+    "rocket": "Kinetica 1",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/5af31461-bce5-4cfb-a0ee-b527cf285d90",
+    "webcast_live": false
+   },
    {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
     "id": "d1471f9d-e9d0-4146-8e97-90863e48bfc8",
@@ -1885,27 +1906,6 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/10fa7952-f00b-4292-80a2-4207e208844e",
     "webcast_live": false
-   },
-   {
-    "description": "Tranche 1 Transport Layer E is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellatio",
-    "id": "d9adedc4-8fa1-4a36-84f9-43b8893a6865",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "SDA Tranche 1 Transport Layer E",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer E",
-    "net": "2026-07-16T20:32:36Z",
-    "net_precision": "SEC",
-    "orbit": "PO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/d9adedc4-8fa1-4a36-84f9-43b8893a6865",
-    "webcast_live": false
    }
   ],
   "totals": {
@@ -1914,7 +1914,7 @@
    "spacex_sampled": 95,
    "spacex_share": 0.475,
    "window": {
-    "from": "2026-02-12",
+    "from": "2026-02-13",
     "to": "2026-09-20"
    }
   },
@@ -1962,23 +1962,23 @@
     "webcast_live": false
    },
    {
-    "description": "Details TBD.",
+    "description": "Share-ride of 9 commercial Earth observation and technology demonstration satellites to SSO, details TBD.",
     "id": "5af31461-bce5-4cfb-a0ee-b527cf285d90",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
     "lat": 40.8182,
     "lon": 100.22514,
-    "mission": "Unknown Payload",
-    "mission_type": "Unknown",
-    "name": "Kinetica 1 | Unknown Payload",
-    "net": "2026-09-20T04:00:00Z",
-    "net_precision": "HR",
-    "orbit": "N/A",
+    "mission": "9 satellites",
+    "mission_type": "Earth Science",
+    "name": "Kinetica 1 | 9 satellites",
+    "net": "2026-09-20T04:03:00Z",
+    "net_precision": "MIN",
+    "orbit": "SSO",
     "pad": "Launch Area 130",
     "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
     "provider": "CAS Space",
     "rocket": "Kinetica 1",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/5af31461-bce5-4cfb-a0ee-b527cf285d90",
     "webcast_live": false
    },
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-20T03:56:42.074464+00:00"
+ "fetched_at": "2026-09-20T09:11:22.581070+00:00"
 }
