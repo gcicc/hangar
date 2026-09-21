@@ -2067,6 +2067,27 @@
     "webcast_live": false
    },
    {
+    "description": "Dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
+    "id": "67213393-7983-4c06-8b44-b8c785a5ed79",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "Transporter 18 (Dedicated SSO Rideshare)",
+    "mission_type": "Dedicated Rideshare",
+    "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
+    "net": "2026-10-01T18:08:00Z",
+    "net_precision": "MIN",
+    "orbit": "SSO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBC",
+    "status_name": "To Be Confirmed",
+    "url": "https://nextspaceflight.com/launches/details/67213393-7983-4c06-8b44-b8c785a5ed79",
+    "webcast_live": false
+   },
+   {
     "description": "Test flight of HyImpulse's SR75 sounding rocket.",
     "id": "6b89cfc8-8880-4b5b-856c-0e547d45b639",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sr-75_liftoff__image_thumbnail_20240503065630.jpeg",
@@ -2214,27 +2235,6 @@
     "webcast_live": false
    },
    {
-    "description": "Dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
-    "id": "67213393-7983-4c06-8b44-b8c785a5ed79",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Transporter 18 (Dedicated SSO Rideshare)",
-    "mission_type": "Dedicated Rideshare",
-    "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
-    "net": "2026-10-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "SSO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/67213393-7983-4c06-8b44-b8c785a5ed79",
-    "webcast_live": false
-   },
-   {
     "description": "Second test launch of CASC/SAST\u2019s Long March 12A rocket. Payload identities are TBD.",
     "id": "dc570565-4dcf-4ab9-8174-bf88efef477f",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_12a__image_thumbnail_20251224005750.jpeg",
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-21T16:18:29.508033+00:00"
+ "fetched_at": "2026-09-21T21:47:47.163276+00:00"
 }
