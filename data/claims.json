@@ -14,7 +14,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-21",
-  "times_seen": 52
+  "times_seen": 53
  },
  {
   "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - BASENOR - Tesla Accessories",
@@ -31,7 +31,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-21",
-  "times_seen": 42
+  "times_seen": 43
  },
  {
   "statement": "Cathie Wood Projects $10 Trillion In SpaceX Starship Revenue By 2030 - Investor's Business Daily",
@@ -49,7 +49,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-21",
-  "times_seen": 26
+  "times_seen": 27
  },
  {
   "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
@@ -84,7 +84,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-21",
-  "times_seen": 13
+  "times_seen": 14
  },
  {
   "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - eletric-vehicles.com",
@@ -102,7 +102,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-21",
-  "times_seen": 45
+  "times_seen": 46
  },
  {
   "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
@@ -120,7 +120,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-21",
-  "times_seen": 37
+  "times_seen": 38
  },
  {
   "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
@@ -137,7 +137,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-21",
-  "times_seen": 40
+  "times_seen": 41
  },
  {
   "statement": "SpaceX wants to launch next Starship this month (and catch it, too), Elon Musk says in 1st earnings call since historic IPO - Space",
@@ -156,22 +156,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-21",
-  "times_seen": 36
- },
- {
-  "statement": "Tesla Tanked This Year: One Of Tech\u2019s Biggest Bulls Says 70% Are On The Horizon - 24/7 Wall St.",
-  "entity": "Tesla",
-  "horizon_phrase": "This Year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmtHajFPb25mUWZJSmdkTlU3XzYyNzNHbjlacUJpbWlNM0Izdi1hdmpXd3VRbWJTaTd1ckdSbjJmanRCU29JTDJaT2Ziam5IVW92MjVzcGNLY1RJUTF0ZTBpR0RmX0pCd1ZfSXRvSFpjQS1PeG5tbFZmazlzVFF3LWtHZFRfbnBkR1NHUVVYbVVfcFhjVmt4SlBhQ0VPZjJTUFhyUFFuNjhjV0otVDRNQXRCRTJtMlpEQzRZcA?oc=5",
-  "first_seen": "2026-09-16",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-09-20",
-  "times_seen": 22
+  "times_seen": 37
  },
  {
   "statement": "Tesla Stock Fell After Its Last 4 Delivery Reports, Even a Big Beat. Here's What History Says to Expect in October. - The Motley Fool",
@@ -188,8 +173,41 @@
    "money"
   ],
   "primary": false,
+  "last_seen": "2026-09-21",
+  "times_seen": 14
+ },
+ {
+  "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - electrek.co",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus Features",
+  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHpreThLR3FVa1J6bWtuNmg3MXNHVUFqT1BaSzJMdTJvVTlPdHVKTHBpOUtKUklMTlA2ak9YbklTaTZRZUZ6NDdCS3llSlN2MWNXWmgtbmY2Yy1ydmlVRVRRWmxXWlhrbVNaUzF3TjUyTGZMVmprQVctbzlLZl9XY0JIZWdvUQ?oc=5",
+  "first_seen": "2026-09-14",
+  "topics": [
+   "optimus",
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-21",
+  "times_seen": 5
+ },
+ {
+  "statement": "Tesla Tanked This Year: One Of Tech\u2019s Biggest Bulls Says 70% Are On The Horizon - 24/7 Wall St.",
+  "entity": "Tesla",
+  "horizon_phrase": "This Year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUmtHajFPb25mUWZJSmdkTlU3XzYyNzNHbjlacUJpbWlNM0Izdi1hdmpXd3VRbWJTaTd1ckdSbjJmanRCU29JTDJaT2Ziam5IVW92MjVzcGNLY1RJUTF0ZTBpR0RmX0pCd1ZfSXRvSFpjQS1PeG5tbFZmazlzVFF3LWtHZFRfbnBkR1NHUVVYbVVfcFhjVmt4SlBhQ0VPZjJTUFhyUFFuNjhjV0otVDRNQXRCRTJtMlpEQzRZcA?oc=5",
+  "first_seen": "2026-09-16",
+  "topics": [],
+  "primary": false,
   "last_seen": "2026-09-20",
-  "times_seen": 13
+  "times_seen": 22
  },
  {
   "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - foxbusiness.com",
@@ -224,24 +242,6 @@
   "primary": false,
   "last_seen": "2026-09-20",
   "times_seen": 5
- },
- {
-  "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - electrek.co",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus Features",
-  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHpreThLR3FVa1J6bWtuNmg3MXNHVUFqT1BaSzJMdTJvVTlPdHVKTHBpOUtKUklMTlA2ak9YbklTaTZRZUZ6NDdCS3llSlN2MWNXWmgtbmY2Yy1ydmlVRVRRWmxXWlhrbVNaUzF3TjUyTGZMVmprQVctbzlLZl9XY0JIZWdvUQ?oc=5",
-  "first_seen": "2026-09-14",
-  "topics": [
-   "optimus",
-   "autonomy"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-20",
-  "times_seen": 4
  },
  {
   "statement": "Tesla Tanked This Year: One Of Tech\u2019s Biggest Bulls Says 70% Are On The Horizon - 247wallst.com",

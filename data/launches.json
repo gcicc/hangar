@@ -197,16 +197,6 @@
    },
    {
     "count": 6,
-    "last_net": "2026-09-20T04:03:00Z",
-    "lat": 40.8182,
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.22514,
-    "name": "Launch Area 130",
-    "spacex": false,
-    "top_provider": "CAS Space"
-   },
-   {
-    "count": 6,
     "last_net": "2026-09-11T03:28:00Z",
     "lat": -39.262833,
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -217,6 +207,16 @@
    },
    {
     "count": 5,
+    "last_net": "2026-09-20T04:03:00Z",
+    "lat": 40.8182,
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "lon": 100.22514,
+    "name": "Launch Area 130",
+    "spacex": false,
+    "top_provider": "CAS Space"
+   },
+   {
+    "count": 5,
     "last_net": "2026-11-24T05:03:00Z",
     "lat": 45.996034,
     "location": "Baikonur Cosmodrome, Republic of Kazakhstan",
@@ -224,6 +224,16 @@
     "name": "31/6",
     "spacex": false,
     "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
+   },
+   {
+    "count": 5,
+    "last_net": "2026-11-30T00:00:00Z",
+    "lat": 5.256319,
+    "location": "Guiana Space Centre, French Guiana",
+    "lon": -52.786838,
+    "name": "Ariane Launch Area 4",
+    "spacex": false,
+    "top_provider": "Arianespace"
    },
    {
     "count": 5,
@@ -264,16 +274,6 @@
     "name": "Launch Area 94 (SLS-2 / 603)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 4,
-    "last_net": "2026-10-07T00:00:00Z",
-    "lat": 5.256319,
-    "location": "Guiana Space Centre, French Guiana",
-    "lon": -52.786838,
-    "name": "Ariane Launch Area 4",
-    "spacex": false,
-    "top_provider": "Arianespace"
    },
    {
     "count": 3,
@@ -1920,27 +1920,6 @@
   },
   "upcoming": [
    {
-    "description": "Share-ride of 9 commercial Earth observation and technology demonstration satellites to SSO, details TBD.",
-    "id": "5af31461-bce5-4cfb-a0ee-b527cf285d90",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
-    "lat": 40.8182,
-    "lon": 100.22514,
-    "mission": "9 satellites",
-    "mission_type": "Earth Science",
-    "name": "Kinetica 1 | 9 satellites",
-    "net": "2026-09-20T04:03:00Z",
-    "net_precision": "MIN",
-    "orbit": "SSO",
-    "pad": "Launch Area 130",
-    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "CAS Space",
-    "rocket": "Kinetica 1",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/5af31461-bce5-4cfb-a0ee-b527cf285d90",
-    "webcast_live": false
-   },
-   {
     "description": "Details TBD.",
     "id": "63063b9d-ade9-4448-8717-6f910aa81188",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
@@ -2338,8 +2317,29 @@
     "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/8dd5de11-831b-445f-86f0-bffefe0550d9",
     "webcast_live": false
+   },
+   {
+    "description": "Second of EUMETSAT's second generation of Metop weather satellites.",
+    "id": "22e117bf-041c-49d5-9d09-7b180036e143",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg",
+    "lat": 5.256319,
+    "lon": -52.786838,
+    "mission": "Metop-SG B1",
+    "mission_type": "Earth Science",
+    "name": "Ariane 62 | Metop-SG B1",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "SSO",
+    "pad": "Ariane Launch Area 4",
+    "pad_location": "Guiana Space Centre, French Guiana",
+    "provider": "Arianespace",
+    "rocket": "Ariane 62",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/22e117bf-041c-49d5-9d09-7b180036e143",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-09-21T03:56:19.131322+00:00"
+ "fetched_at": "2026-09-21T09:47:00.033290+00:00"
 }
