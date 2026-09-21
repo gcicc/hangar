@@ -146,7 +146,7 @@
   },
   "pads": [
    {
-    "count": 56,
+    "count": 55,
     "last_net": "2026-10-31T00:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -217,6 +217,16 @@
    },
    {
     "count": 5,
+    "last_net": "2026-11-24T05:03:00Z",
+    "lat": 45.996034,
+    "location": "Baikonur Cosmodrome, Republic of Kazakhstan",
+    "lon": 63.564003,
+    "name": "31/6",
+    "spacex": false,
+    "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
+   },
+   {
+    "count": 5,
     "last_net": "2026-08-10T12:02:00Z",
     "lat": 19.618452,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -244,16 +254,6 @@
     "name": "Commercial LC-2",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 4,
-    "last_net": "2026-09-16T13:33:54Z",
-    "lat": 45.996034,
-    "location": "Baikonur Cosmodrome, Republic of Kazakhstan",
-    "lon": 63.564003,
-    "name": "31/6",
-    "spacex": false,
-    "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
    },
    {
     "count": 4,
@@ -1920,27 +1920,6 @@
   },
   "upcoming": [
    {
-    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "d1471f9d-e9d0-4146-8e97-90863e48bfc8",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Starlink Group 15-27",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-27",
-    "net": "2026-09-20T01:47:00Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/d1471f9d-e9d0-4146-8e97-90863e48bfc8",
-    "webcast_live": false
-   },
-   {
     "description": "Share-ride of 9 commercial Earth observation and technology demonstration satellites to SSO, details TBD.",
     "id": "5af31461-bce5-4cfb-a0ee-b527cf285d90",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
@@ -2338,8 +2317,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
     "webcast_live": false
+   },
+   {
+    "description": "Progress resupply mission to the International Space Station.",
+    "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
+    "lat": 45.996034,
+    "lon": 63.564003,
+    "mission": "Progress MS-36 (97P)",
+    "mission_type": "Resupply",
+    "name": "Soyuz 2.1b | Progress MS-36 (97P)",
+    "net": "2026-11-24T05:03:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "31/6",
+    "pad_location": "Baikonur Cosmodrome, Republic of Kazakhstan",
+    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+    "rocket": "Soyuz 2.1b",
+    "status": "TBC",
+    "status_name": "To Be Confirmed",
+    "url": "https://nextspaceflight.com/launches/details/8dd5de11-831b-445f-86f0-bffefe0550d9",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-09-20T23:55:36.868036+00:00"
+ "fetched_at": "2026-09-21T03:56:19.131322+00:00"
 }
