@@ -2138,15 +2138,15 @@
     "mission": "Starlink Group 15-25",
     "mission_type": "Communications",
     "name": "Falcon 9 Block 5 | Starlink Group 15-25",
-    "net": "2026-10-10T00:00:00Z",
-    "net_precision": "DAY",
+    "net": "2026-10-10T16:00:00Z",
+    "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
+    "status": "Go",
+    "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/97c6f5e1-299e-4652-b72d-9618ac047076",
     "webcast_live": false
    },
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-22T00:38:32.405430+00:00"
+ "fetched_at": "2026-09-22T07:26:58.045463+00:00"
 }
