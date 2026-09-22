@@ -2025,27 +2025,6 @@
     "webcast_live": false
    },
    {
-    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Starlink Group 15-25",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-25",
-    "net": "2026-09-30T16:00:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
-    "url": "https://nextspaceflight.com/launches/details/97c6f5e1-299e-4652-b72d-9618ac047076",
-    "webcast_live": false
-   },
-   {
     "description": "SpaceX Crew-13 is the thirteenth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
     "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192609.jpeg",
@@ -2148,6 +2127,27 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/e0741415-6c63-4236-9736-24a6c04485bc",
+    "webcast_live": false
+   },
+   {
+    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+    "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "Starlink Group 15-25",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-25",
+    "net": "2026-10-10T00:00:00Z",
+    "net_precision": "DAY",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/97c6f5e1-299e-4652-b72d-9618ac047076",
     "webcast_live": false
    },
    {
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-21T21:47:47.163276+00:00"
+ "fetched_at": "2026-09-22T00:38:32.405430+00:00"
 }

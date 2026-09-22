@@ -13,8 +13,8 @@
    "energy"
   ],
   "primary": false,
-  "last_seen": "2026-09-21",
-  "times_seen": 55
+  "last_seen": "2026-09-22",
+  "times_seen": 56
  },
  {
   "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - BASENOR - Tesla Accessories",
@@ -30,8 +30,8 @@
    "energy"
   ],
   "primary": false,
-  "last_seen": "2026-09-21",
-  "times_seen": 45
+  "last_seen": "2026-09-22",
+  "times_seen": 46
  },
  {
   "statement": "Cathie Wood Projects $10 Trillion In SpaceX Starship Revenue By 2030 - Investor's Business Daily",
@@ -48,8 +48,8 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-09-21",
-  "times_seen": 29
+  "last_seen": "2026-09-22",
+  "times_seen": 30
  },
  {
   "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
@@ -66,8 +66,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-09-21",
-  "times_seen": 43
+  "last_seen": "2026-09-22",
+  "times_seen": 44
  },
  {
   "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
@@ -83,8 +83,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-09-21",
-  "times_seen": 16
+  "last_seen": "2026-09-22",
+  "times_seen": 17
  },
  {
   "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - eletric-vehicles.com",
@@ -101,8 +101,8 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-09-21",
-  "times_seen": 48
+  "last_seen": "2026-09-22",
+  "times_seen": 49
  },
  {
   "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
@@ -119,25 +119,8 @@
    "launch"
   ],
   "primary": false,
-  "last_seen": "2026-09-21",
-  "times_seen": 39
- },
- {
-  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-21",
-  "times_seen": 43
+  "last_seen": "2026-09-22",
+  "times_seen": 40
  },
  {
   "statement": "SpaceX wants to launch next Starship this month (and catch it, too), Elon Musk says in 1st earnings call since historic IPO - Space",
@@ -155,8 +138,60 @@
    "money"
   ],
   "primary": false,
+  "last_seen": "2026-09-22",
+  "times_seen": 40
+ },
+ {
+  "statement": "Tesla Optimus sales revenue unlikely before 2029, Oppenheimer says - Investing.com",
+  "entity": "Tesla",
+  "horizon_phrase": "before 2029",
+  "horizon": "2029-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbXpiNkJHN2RVczNKU0RxUnd1cWRKRGVNTWRWRi0zcTNTUlgzUWY1TFY5TEpaUWZaamtSRzU4eVVpNVZNRDZGX0xiNXJpSy10aEdTdTlQNE1DVVZWRng3a3ZVZjhiQWo1VHdkaFhYRG9sWElWMWljNlZjX2NMZEpHWnR3R3dCT2k3Vkh1S2JHazNXX1dPWFZUNTZldWRicEdMR3RjVlRxbXhzbnZuYjMwT2tVS0d5aC0zTWI0eFZLTQ?oc=5",
+  "first_seen": "2026-09-21",
+  "topics": [
+   "optimus",
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-22",
+  "times_seen": 3
+ },
+ {
+  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - foxbusiness.com",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-22",
+  "times_seen": 9
+ },
+ {
+  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
   "last_seen": "2026-09-21",
-  "times_seen": 39
+  "times_seen": 43
  },
  {
   "statement": "Tesla Stock Fell After Its Last 4 Delivery Reports, Even a Big Beat. Here's What History Says to Expect in October. - The Motley Fool",
@@ -195,24 +230,6 @@
   "times_seen": 5
  },
  {
-  "statement": "Tesla Optimus sales revenue unlikely before 2029, Oppenheimer says - Investing.com",
-  "entity": "Tesla",
-  "horizon_phrase": "before 2029",
-  "horizon": "2029-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbXpiNkJHN2RVczNKU0RxUnd1cWRKRGVNTWRWRi0zcTNTUlgzUWY1TFY5TEpaUWZaamtSRzU4eVVpNVZNRDZGX0xiNXJpSy10aEdTdTlQNE1DVVZWRng3a3ZVZjhiQWo1VHdkaFhYRG9sWElWMWljNlZjX2NMZEpHWnR3R3dCT2k3Vkh1S2JHazNXX1dPWFZUNTZldWRicEdMR3RjVlRxbXhzbnZuYjMwT2tVS0d5aC0zTWI0eFZLTQ?oc=5",
-  "first_seen": "2026-09-21",
-  "topics": [
-   "optimus",
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-21",
-  "times_seen": 2
- },
- {
   "statement": "Tesla Tanked This Year: One Of Tech\u2019s Biggest Bulls Says 70% Are On The Horizon - 24/7 Wall St.",
   "entity": "Tesla",
   "horizon_phrase": "This Year",
@@ -226,23 +243,6 @@
   "primary": false,
   "last_seen": "2026-09-20",
   "times_seen": 22
- },
- {
-  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - foxbusiness.com",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-20",
-  "times_seen": 8
  },
  {
   "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - basenor.com",
