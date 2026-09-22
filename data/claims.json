@@ -14,7 +14,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-22",
-  "times_seen": 56
+  "times_seen": 57
  },
  {
   "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - BASENOR - Tesla Accessories",
@@ -49,7 +49,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-22",
-  "times_seen": 32
+  "times_seen": 33
  },
  {
   "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
@@ -67,7 +67,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-22",
-  "times_seen": 46
+  "times_seen": 47
  },
  {
   "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
@@ -84,7 +84,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-22",
-  "times_seen": 19
+  "times_seen": 20
  },
  {
   "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - eletric-vehicles.com",
@@ -102,7 +102,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-22",
-  "times_seen": 51
+  "times_seen": 52
  },
  {
   "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
@@ -120,7 +120,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-22",
-  "times_seen": 42
+  "times_seen": 43
  },
  {
   "statement": "SpaceX wants to launch next Starship this month (and catch it, too), Elon Musk says in 1st earnings call since historic IPO - Space",
@@ -139,7 +139,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-22",
-  "times_seen": 42
+  "times_seen": 43
  },
  {
   "statement": "Tesla Optimus sales revenue unlikely before 2029, Oppenheimer says - Investing.com",
@@ -157,7 +157,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-22",
-  "times_seen": 5
+  "times_seen": 6
  },
  {
   "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - foxbusiness.com",
@@ -174,7 +174,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-22",
-  "times_seen": 9
+  "times_seen": 10
  },
  {
   "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
@@ -209,7 +209,39 @@
   ],
   "primary": false,
   "last_seen": "2026-09-22",
-  "times_seen": 17
+  "times_seen": 18
+ },
+ {
+  "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - basenor.com",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2025",
+  "horizon": "2025-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Energy",
+  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPekx2OHM1aUxNdHRwRVVfdmZEeVp6UXJwa0N0VzNYUkYzTU14V2JtTnZsUnI0SWV5Q1VsZHFob0FYczltQlg2V0dtQ0xsZHFHS196TUpOU29zY2cxazZjM3NTd0lPaXVHMXBYekppVUFxSkRLQjBOMjNEZkhNTkE0eWZ0T2E3NWczNUNyQUJ3TzNuOGJ0bWJKeWpmcTJzNVhJeGFzS1pFdw?oc=5",
+  "first_seen": "2026-09-14",
+  "topics": [
+   "energy"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-22",
+  "times_seen": 6
+ },
+ {
+  "statement": "Musk Says NVIDIA (NVDA) AI Chips Are Headed to Space With SpaceX (SPCX) Next Year - Yahoo Finance",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQVVFbnV1TjFYcGsyM3hGN2o3Z2htMERMS1Q4T1BfeWxhQ1lXT0tQT2FWTTYtUUh4S3d5ZGk1Q0hWanJuNGRLc3pTeTRHWEtWRW1hUFBKMGc5enpiYjVRczJNVGdxdFR2dHZxWUZVYms1TW5RVWVZUjNZd0NSc0Rxa1E0YWQ3SS1wN2ZKY0lqRzN5Zw?oc=5",
+  "first_seen": "2026-09-22",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-09-22",
+  "times_seen": 1
  },
  {
   "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - electrek.co",
@@ -243,23 +275,6 @@
   "primary": false,
   "last_seen": "2026-09-20",
   "times_seen": 22
- },
- {
-  "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - basenor.com",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2025",
-  "horizon": "2025-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Energy",
-  "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPekx2OHM1aUxNdHRwRVVfdmZEeVp6UXJwa0N0VzNYUkYzTU14V2JtTnZsUnI0SWV5Q1VsZHFob0FYczltQlg2V0dtQ0xsZHFHS196TUpOU29zY2cxazZjM3NTd0lPaXVHMXBYekppVUFxSkRLQjBOMjNEZkhNTkE0eWZ0T2E3NWczNUNyQUJ3TzNuOGJ0bWJKeWpmcTJzNVhJeGFzS1pFdw?oc=5",
-  "first_seen": "2026-09-14",
-  "topics": [
-   "energy"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-20",
-  "times_seen": 5
  },
  {
   "statement": "Tesla Tanked This Year: One Of Tech\u2019s Biggest Bulls Says 70% Are On The Horizon - 247wallst.com",
