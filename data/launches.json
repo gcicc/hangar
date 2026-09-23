@@ -101,7 +101,7 @@
     15,
     14,
     12,
-    16
+    17
    ],
    "partial": [
     false,
@@ -125,24 +125,24 @@
   "calls_used": 4,
   "next": {
    "description": "Details TBD.",
-   "id": "63063b9d-ade9-4448-8717-6f910aa81188",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
-   "lat": 19.597275,
-   "lon": 110.930753,
+   "id": "aed67837-b567-43e0-8071-c3ccc24aa496",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
+   "lat": 38.8583,
+   "lon": 111.5802,
    "mission": "Unknown Payload",
    "mission_type": "Unknown",
-   "name": "Long March 8A | Unknown Payload",
-   "net": "2026-09-23T13:30:00Z",
+   "name": "Long March 6A | Unknown Payload",
+   "net": "2026-09-24T08:45:00Z",
    "net_precision": "HR",
    "orbit": "N/A",
-   "pad": "Commercial LC-1",
-   "pad_location": "Wenchang Space Launch Site, People's Republic of China",
+   "pad": "Launch Complex 9A",
+   "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
    "provider": "China Aerospace Science and Technology Corporation",
-   "rocket": "Long March 8A",
+   "rocket": "Long March 6A",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/63063b9d-ade9-4448-8717-6f910aa81188",
-   "webcast_live": true
+   "url": "https://nextspaceflight.com/launches/details/aed67837-b567-43e0-8071-c3ccc24aa496",
+   "webcast_live": false
   },
   "pads": [
    {
@@ -156,7 +156,7 @@
     "top_provider": "SpaceX"
    },
    {
-    "count": 43,
+    "count": 42,
     "last_net": "2026-10-31T00:00:00Z",
     "lat": 28.56194122,
     "location": "Cape Canaveral SFS, FL, USA",
@@ -164,6 +164,16 @@
     "name": "Space Launch Complex 40",
     "spacex": true,
     "top_provider": "SpaceX"
+   },
+   {
+    "count": 8,
+    "last_net": "2026-09-23T13:32:00Z",
+    "lat": 19.597275,
+    "location": "Wenchang Space Launch Site, People's Republic of China",
+    "lon": 110.930753,
+    "name": "Commercial LC-1",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 8,
@@ -184,16 +194,6 @@
     "name": "Rocket Lab Launch Complex 1B",
     "spacex": false,
     "top_provider": "Rocket Lab"
-   },
-   {
-    "count": 7,
-    "last_net": "2026-09-23T13:30:00Z",
-    "lat": 19.597275,
-    "location": "Wenchang Space Launch Site, People's Republic of China",
-    "lon": 110.930753,
-    "name": "Commercial LC-1",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 6,
@@ -647,6 +647,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
+    "id": "63063b9d-ade9-4448-8717-6f910aa81188",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
+    "lat": 19.597275,
+    "lon": 110.930753,
+    "mission": "SatNet LEO Group 26",
+    "mission_type": "Communications",
+    "name": "Long March 8A | SatNet LEO Group 26",
+    "net": "2026-09-23T13:32:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Commercial LC-1",
+    "pad_location": "Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 8A",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/63063b9d-ade9-4448-8717-6f910aa81188",
+    "webcast_live": false
+   },
    {
     "description": "Share-ride of 9 commercial Earth observation and technology demonstration satellites to SSO, details TBD.",
     "id": "5af31461-bce5-4cfb-a0ee-b527cf285d90",
@@ -1885,60 +1906,39 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/aafe107e-46d8-420c-bcb9-192069d80893",
     "webcast_live": false
-   },
-   {
-    "description": "First launch of Skyroot Aerospace's Vikram-I launch vehicle. \r\n\r\nThis first launch will carry 4 payloads:\r\n- Grahaa Space's SOLARAS S3 satellite\r\n- Cosmoserve Space's in-orbit robotic arm Embrace\r\n- An in-orbit demonstration from DCUBED\r\n- Skyroot's own SCOPE satellite",
-    "id": "10fa7952-f00b-4292-80a2-4207e208844e",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_on_lau_image_thumbnail_20260717052523.jpeg",
-    "lat": 13.733,
-    "lon": 80.235,
-    "mission": "Demo Flight",
-    "mission_type": "Test Flight",
-    "name": "Vikram-I | Demo Flight",
-    "net": "2026-07-18T06:35:30Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Satish Dhawan Space Centre First Launch Pad",
-    "pad_location": "Satish Dhawan Space Centre, India",
-    "provider": "Skyroot Aerospace",
-    "rocket": "Vikram-I",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/10fa7952-f00b-4292-80a2-4207e208844e",
-    "webcast_live": false
    }
   ],
   "totals": {
    "previous_sampled": 200,
    "share_caveat": "Share of the most recent orbital launches fetched, over the window shown. Not a share of all launches, and not a fixed calendar period - the window moves with every refresh.",
-   "spacex_sampled": 95,
-   "spacex_share": 0.475,
+   "spacex_sampled": 94,
+   "spacex_share": 0.47,
    "window": {
-    "from": "2026-02-13",
-    "to": "2026-09-20"
+    "from": "2026-02-15",
+    "to": "2026-09-23"
    }
   },
   "upcoming": [
    {
-    "description": "Details TBD.",
+    "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
     "id": "63063b9d-ade9-4448-8717-6f910aa81188",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
     "lat": 19.597275,
     "lon": 110.930753,
-    "mission": "Unknown Payload",
-    "mission_type": "Unknown",
-    "name": "Long March 8A | Unknown Payload",
-    "net": "2026-09-23T13:30:00Z",
-    "net_precision": "HR",
-    "orbit": "N/A",
+    "mission": "SatNet LEO Group 26",
+    "mission_type": "Communications",
+    "name": "Long March 8A | SatNet LEO Group 26",
+    "net": "2026-09-23T13:32:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
     "pad": "Commercial LC-1",
     "pad_location": "Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "rocket": "Long March 8A",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/63063b9d-ade9-4448-8717-6f910aa81188",
-    "webcast_live": true
+    "webcast_live": false
    },
    {
     "description": "Details TBD.",
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-23T13:26:11.598612+00:00"
+ "fetched_at": "2026-09-23T18:18:20.902653+00:00"
 }
