@@ -227,16 +227,6 @@
    },
    {
     "count": 5,
-    "last_net": "2026-11-30T00:00:00Z",
-    "lat": 5.256319,
-    "location": "Guiana Space Centre, French Guiana",
-    "lon": -52.786838,
-    "name": "Ariane Launch Area 4",
-    "spacex": false,
-    "top_provider": "Arianespace"
-   },
-   {
-    "count": 5,
     "last_net": "2026-08-10T12:02:00Z",
     "lat": 19.618452,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -274,6 +264,16 @@
     "name": "Launch Area 94 (SLS-2 / 603)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 4,
+    "last_net": "2026-10-07T00:00:00Z",
+    "lat": 5.256319,
+    "location": "Guiana Space Centre, French Guiana",
+    "lon": -52.786838,
+    "name": "Ariane Launch Area 4",
+    "spacex": false,
+    "top_provider": "Arianespace"
    },
    {
     "count": 3,
@@ -397,6 +397,16 @@
    },
    {
     "count": 2,
+    "last_net": "2026-10-15T00:00:00Z",
+    "lat": 13.7199,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.2304,
+    "name": "Satish Dhawan Space Centre Second Launch Pad",
+    "spacex": false,
+    "top_provider": "Indian Space Research Organization"
+   },
+   {
+    "count": 2,
     "last_net": "2026-08-05T02:38:00Z",
     "lat": 36.631333,
     "location": "Haiyang Oriental Spaceport",
@@ -434,16 +444,6 @@
     "name": "Orbital Launch Pad",
     "spacex": false,
     "top_provider": "Isar Aerospace"
-   },
-   {
-    "count": 1,
-    "last_net": "2026-09-03T21:25:00Z",
-    "lat": 13.7199,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.2304,
-    "name": "Satish Dhawan Space Centre Second Launch Pad",
-    "spacex": false,
-    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 1,
@@ -2040,8 +2040,8 @@
     "pad_location": "Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "TBC",
-    "status_name": "To Be Confirmed",
+    "status": "Go",
+    "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/18441371-8b2e-457c-afb5-1ec1b11ab630",
     "webcast_live": false
    },
@@ -2148,6 +2148,27 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/97c6f5e1-299e-4652-b72d-9618ac047076",
+    "webcast_live": false
+   },
+   {
+    "description": "This is a replacement satellite for the Indian Regional Navigation Satellite System. The constellation will provide India with an alternative to GPS and will be used for military and civilian use. Located at a geosynchronous orbit, the system will be operated by the Indian government.",
+    "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192851.jpeg",
+    "lat": 13.7199,
+    "lon": 80.2304,
+    "mission": "IRNSS-1L (NVS-03)",
+    "mission_type": "Navigation",
+    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
+    "net": "2026-10-15T00:00:00Z",
+    "net_precision": "DAY",
+    "orbit": "GTO",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad",
+    "pad_location": "Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "rocket": "GSLV Mk. II",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/20d5676e-111b-40e3-8923-b218c3665ca2",
     "webcast_live": false
    },
    {
@@ -2317,29 +2338,8 @@
     "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/8dd5de11-831b-445f-86f0-bffefe0550d9",
     "webcast_live": false
-   },
-   {
-    "description": "Second of EUMETSAT's second generation of Metop weather satellites.",
-    "id": "22e117bf-041c-49d5-9d09-7b180036e143",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg",
-    "lat": 5.256319,
-    "lon": -52.786838,
-    "mission": "Metop-SG B1",
-    "mission_type": "Earth Science",
-    "name": "Ariane 62 | Metop-SG B1",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "SSO",
-    "pad": "Ariane Launch Area 4",
-    "pad_location": "Guiana Space Centre, French Guiana",
-    "provider": "Arianespace",
-    "rocket": "Ariane 62",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/22e117bf-041c-49d5-9d09-7b180036e143",
-    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-09-22T21:13:04.818740+00:00"
+ "fetched_at": "2026-09-23T00:06:16.522048+00:00"
 }
