@@ -32,7 +32,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-23",
-  "times_seen": 38
+  "times_seen": 39
  },
  {
   "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
@@ -67,7 +67,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-23",
-  "times_seen": 25
+  "times_seen": 26
  },
  {
   "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - eletric-vehicles.com",
@@ -85,7 +85,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-23",
-  "times_seen": 57
+  "times_seen": 58
  },
  {
   "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
@@ -122,7 +122,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-23",
-  "times_seen": 48
+  "times_seen": 49
  },
  {
   "statement": "Tesla Optimus sales revenue unlikely before 2029, Oppenheimer says - Investing.com",
@@ -157,7 +157,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-23",
-  "times_seen": 49
+  "times_seen": 50
  },
  {
   "statement": "Tesla Stock Fell After Its Last 4 Delivery Reports, Even a Big Beat. Here's What History Says to Expect in October. - The Motley Fool",
@@ -192,7 +192,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-23",
-  "times_seen": 61
+  "times_seen": 62
  },
  {
   "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - basenor.com",
@@ -226,7 +226,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-23",
-  "times_seen": 1
+  "times_seen": 2
  },
  {
   "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - foxbusiness.com",
@@ -246,21 +246,6 @@
   "times_seen": 11
  },
  {
-  "statement": "Musk Says NVIDIA (NVDA) AI Chips Are Headed to Space With SpaceX (SPCX) Next Year - Yahoo Finance",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQVVFbnV1TjFYcGsyM3hGN2o3Z2htMERMS1Q4T1BfeWxhQ1lXT0tQT2FWTTYtUUh4S3d5ZGk1Q0hWanJuNGRLc3pTeTRHWEtWRW1hUFBKMGc5enpiYjVRczJNVGdxdFR2dHZxWUZVYms1TW5RVWVZUjNZd0NSc0Rxa1E0YWQ3SS1wN2ZKY0lqRzN5Zw?oc=5",
-  "first_seen": "2026-09-22",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-09-22",
-  "times_seen": 1
- },
- {
   "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - electrek.co",
   "entity": "Tesla",
   "horizon_phrase": "in 2027",
@@ -275,8 +260,23 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-09-21",
-  "times_seen": 5
+  "last_seen": "2026-09-23",
+  "times_seen": 6
+ },
+ {
+  "statement": "Musk Says NVIDIA (NVDA) AI Chips Are Headed to Space With SpaceX (SPCX) Next Year - Yahoo Finance",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQVVFbnV1TjFYcGsyM3hGN2o3Z2htMERMS1Q4T1BfeWxhQ1lXT0tQT2FWTTYtUUh4S3d5ZGk1Q0hWanJuNGRLc3pTeTRHWEtWRW1hUFBKMGc5enpiYjVRczJNVGdxdFR2dHZxWUZVYms1TW5RVWVZUjNZd0NSc0Rxa1E0YWQ3SS1wN2ZKY0lqRzN5Zw?oc=5",
+  "first_seen": "2026-09-22",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-09-22",
+  "times_seen": 1
  },
  {
   "statement": "Tesla Tanked This Year: One Of Tech\u2019s Biggest Bulls Says 70% Are On The Horizon - 24/7 Wall St.",
