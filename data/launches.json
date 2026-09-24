@@ -101,7 +101,7 @@
     15,
     14,
     12,
-    17
+    18
    ],
    "partial": [
     false,
@@ -124,29 +124,29 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "Details TBD.",
-   "id": "aed67837-b567-43e0-8071-c3ccc24aa496",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
-   "lat": 38.8583,
-   "lon": 111.5802,
-   "mission": "Unknown Payload",
-   "mission_type": "Unknown",
-   "name": "Long March 6A | Unknown Payload",
-   "net": "2026-09-24T08:45:00Z",
-   "net_precision": "HR",
-   "orbit": "N/A",
-   "pad": "Launch Complex 9A",
-   "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "rocket": "Long March 6A",
+   "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
+   "id": "9e24bef7-c44b-4fdc-ba52-68545ce9457e",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+   "lat": -39.262833,
+   "lon": 177.864469,
+   "mission": "Owlright, Owlright, Owlright (StriX Launch 13)",
+   "mission_type": "Earth Science",
+   "name": "Electron | Owlright, Owlright, Owlright (StriX Launch 13)",
+   "net": "2026-09-26T00:15:00Z",
+   "net_precision": "MIN",
+   "orbit": "LEO",
+   "pad": "Rocket Lab Launch Complex 1B",
+   "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "provider": "Rocket Lab",
+   "rocket": "Electron",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/aed67837-b567-43e0-8071-c3ccc24aa496",
+   "url": "https://nextspaceflight.com/launches/details/9e24bef7-c44b-4fdc-ba52-68545ce9457e",
    "webcast_live": false
   },
   "pads": [
    {
-    "count": 55,
+    "count": 54,
     "last_net": "2026-10-31T00:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -166,22 +166,22 @@
     "top_provider": "SpaceX"
    },
    {
+    "count": 9,
+    "last_net": "2026-09-24T08:45:00Z",
+    "lat": 38.8583,
+    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "lon": 111.5802,
+    "name": "Launch Complex 9A",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
     "count": 8,
     "last_net": "2026-09-23T13:32:00Z",
     "lat": 19.597275,
     "location": "Wenchang Space Launch Site, People's Republic of China",
     "lon": 110.930753,
     "name": "Commercial LC-1",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 8,
-    "last_net": "2026-09-24T08:45:00Z",
-    "lat": 38.8583,
-    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
-    "lon": 111.5802,
-    "name": "Launch Complex 9A",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
@@ -647,6 +647,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "Details TBD.",
+    "id": "aed67837-b567-43e0-8071-c3ccc24aa496",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
+    "lat": 38.8583,
+    "lon": 111.5802,
+    "mission": "Unknown Payload",
+    "mission_type": "Unknown",
+    "name": "Long March 6A | Unknown Payload",
+    "net": "2026-09-24T08:45:00Z",
+    "net_precision": "HR",
+    "orbit": "N/A",
+    "pad": "Launch Complex 9A",
+    "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 6A",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/aed67837-b567-43e0-8071-c3ccc24aa496",
+    "webcast_live": false
+   },
    {
     "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
     "id": "63063b9d-ade9-4448-8717-6f910aa81188",
@@ -1885,37 +1906,16 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/e1079d3a-c0a6-4b42-bc1d-92e48a5a78fc",
     "webcast_live": false
-   },
-   {
-    "description": "Note: Payload identities uncertain.\r\n\r\nBatch of 16 Rassvet-3 Low Earth Orbit communication satellites for the Russian Byuro-1440 (Bureau 1440) constellation for broadband high-speed internet access in Russia.",
-    "id": "aafe107e-46d8-420c-bcb9-192069d80893",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
-    "lat": 62.92883,
-    "lon": 40.457098,
-    "mission": "16 x Rassvet-3",
-    "mission_type": "Communications",
-    "name": "Soyuz 2.1b | 16 x Rassvet-3",
-    "net": "2026-07-19T17:51:00Z",
-    "net_precision": "MIN",
-    "orbit": "PO",
-    "pad": "43/4 (43R)",
-    "pad_location": "Plesetsk Cosmodrome, Russian Federation",
-    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-    "rocket": "Soyuz 2.1b",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/aafe107e-46d8-420c-bcb9-192069d80893",
-    "webcast_live": false
    }
   ],
   "totals": {
    "previous_sampled": 200,
    "share_caveat": "Share of the most recent orbital launches fetched, over the window shown. Not a share of all launches, and not a fixed calendar period - the window moves with every refresh.",
-   "spacex_sampled": 94,
-   "spacex_share": 0.47,
+   "spacex_sampled": 93,
+   "spacex_share": 0.465,
    "window": {
-    "from": "2026-02-15",
-    "to": "2026-09-23"
+    "from": "2026-02-16",
+    "to": "2026-09-24"
    }
   },
   "upcoming": [
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-24T03:41:20.460931+00:00"
+ "fetched_at": "2026-09-24T09:05:25.576756+00:00"
 }
