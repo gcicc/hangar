@@ -1,6 +1,6 @@
 {
  "data": {
-  "corpus_size": 1226,
+  "corpus_size": 1229,
   "labels": {
    "market": "Markets & Filings",
    "spacex": "SpaceX",
@@ -14,9 +14,37 @@
   "sections": {
    "market": [
     {
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTkFtcTE0YXFZY3dYYTlhV29sX0g5aUx5LUMzcHAwZi1vWXZNbHREeVhmNzNvSFJ4ZXFGZWtuaUdHWVhrM2p1S3Y5Q2JhcTFYU3ZLQWc5V21vLWVFVzBfXzZJWGZpaHdVWjQtdjREdDdPbEFQdDBja0dKZnBTbFdGS0ZtQnFucUlnQkJXZXZQYw?oc=5",
+     "published": "2026-09-25T14:15:00+00:00",
+     "score": 5.866,
+     "source": "TSLA",
+     "title": "Tesla Launches the Semi Truck. The New Roadster Is Up Next. - Barron's",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPeTJHeXYzXzloUzhuTEl5Q3BOT1g5Vkd6RjlrQ3FBX2ttM1kyak5kc2NxQzNSY0Q3NnM1Rk90ZVlRMjliSHVOcDNNSzY2Y1JxbUFCdnNNNnd1bFdpNmJoSy1faDVIdEpUc2kxYmEtZWNjOG9Va0ZoakNZWUhNTUV2VjJoYldjaURYb2Jr?oc=5",
+     "published": "2026-09-25T14:33:26+00:00",
+     "score": 4.931,
+     "source": "SPCX",
+     "title": "SpaceX stock expected to rise 35% in 12 months on strong revenue contracts and premium pricing. - Pluang",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWm0yem9ZUWhKRktiZWt2WjROZ1NvS2tBNmFLM3J4akZlRDlaMlBqMDNfY0tkMFA0aHZYbVRoLXNyVTZWYlIwQ1hER3lnMXZkNUxIU3pRZE1mM3FCQ0EyMU5ZLVJFODlmdndST3E2bkhPREo5YWVLaGNqVVFaUjV0Y2lZdnprQ2xvUmIxWGs5NFZFLV9zMk5Kck1ZUnZ2WFVBbkZrYQ?oc=5",
+     "published": "2026-09-25T11:17:00+00:00",
+     "score": 4.477,
+     "source": "SPCX",
+     "title": "Vivian Tu\u2019s IPO warning lands as SpaceX buyers split by $1,851 - thestreet.com",
+     "topics": [
+      "money"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1XNWp1ck81WFBobWxIOVRxVnkxX0hSRGRsd1RsU1NRV0F5SW9kRGl1UXZUelR6MGVrbVljcGlJTHpOMEk1bU1uel9RVEEtQ0xMaFo1bzdrdmJNemYwa2l3XzdWQ2FJdEpHLVlLV1ZSMXJCYjA2ZnhZMjhWOFEyVkE?oc=5",
      "published": "2026-09-25T08:53:40+00:00",
-     "score": 4.911,
+     "score": 4.145,
      "source": "SPCX",
      "title": "SpaceX COO sells $52.5M in shares amid cautious investor sentiment post-IPO - Pluang",
      "topics": [
@@ -24,31 +52,11 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YaTdqSElIajlOMTR6MV9QOU5Dd0FmeGh0ODFrNXVnR3hVWUVtTzM2bnhaZ0lhd2doalF6akFhNjFyS01zLXM3aDNscVlfLVFLLUVxLUpBSHZCX0ZWOXA0REJxNjdJYWFXWUN3TTliaVhTRzIxVmc?oc=5",
-     "published": "2026-09-24T13:34:35+00:00",
-     "score": 2.228,
-     "source": "SPCX",
-     "title": "President Trump bought SpaceX stock weeks after its IPO, raising political risk questions for investors. - Pluang",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX1g3WHBNcWJIU2lhWGJxVlp4enNpMjFuY2dLU1hMR3NDUjVtY08zczZyVUg1ekxLTm9vOVJqS01zMFVwejJTTHlBbUVQdHNWRk5yQTByMFRVTTZ6T1NuRnM1dnBkNUhwSC1wWjhvc3VVY1BqT2g2OVJHVTdqWEZzX2RLOW9kVmpwaUJraHB1dHlUMU9FVmNmU053cjA?oc=5",
-     "published": "2026-09-24T13:20:22+00:00",
-     "score": 2.195,
-     "source": "SPCX",
-     "title": "Trump Bought SpaceX Stock Weeks After the IPO, Filing Shows - Yahoo Finance",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRUNXLUhGTkVZSDlNcFZjZjN0QVQ0cnBvUlVFa1ljcEJ5bUZMR0ZvMmtLcEc0Q3hKMjQ1QW82ZHEtTFIxVUYtVFkxc2ZzemtOUW5TRzJwdmVVUVFsX00yXzlxZ3UtZFFPdk5QMS0zTWZBNjc4SS1jUHZnbTViOUN3WnJqdmlIWC1nbEpXWURyZ1NmN3YxTk12MHVqMGotMFhPZW5pYTdndHUzZUpLY2dZ?oc=5",
-     "published": "2026-09-24T08:28:00+00:00",
-     "score": 1.518,
-     "source": "SPCX",
-     "title": "SpaceX: What The IPO Revealed About Managing The Private To Public Portfolio Transition - Seeking Alpha",
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUEhoQXhjUC0xLWJQRS1zdWVVU3pqUVh5NzBqZVJKSGtUc0NQUUs2X0VMd3gxQk1paF9NVWRoTDhhcTFtXzhpTGU1aU1fcVZYYi1DRnBieU8tMklCeWE2UG52MmVjc1BOSnpwdGlXbUtMSzUyNm1CWjhFb3JKdFFLTlhhRnZ0SWhGRnRPcXNVRjdZd1lzOGhITFAzYXBKT1Vfbzc2Zi1rQWtSTVRZemdGX3d1elVvTF9aUnppajZaRTZuYmxnOXc?oc=5",
+     "published": "2026-09-25T05:41:16+00:00",
+     "score": 2.96,
+     "source": "Musk",
+     "title": "SpaceX Stock Rises Overnight: Elon Musk\u2019s Stake Tops $900B \u2014 But Billions In Shares Still Depend On \u2018Extremely Crazy Good\u2019 Outcomes - Stocktwits",
      "topics": [
       "money"
      ]
@@ -58,7 +66,27 @@
      "published": "2026-09-11T07:00:00+00:00",
      "score": 1.5,
      "source": "TSLA",
-     "title": "Tesla Shares Suffer Slow Summer After SpaceX IPO, Earnings Rout - Bloomberg",
+     "title": "Tesla Shares Suffer Slow Summer After SpaceX IPO, Earnings Rout - Bloomberg.com",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YaTdqSElIajlOMTR6MV9QOU5Dd0FmeGh0ODFrNXVnR3hVWUVtTzM2bnhaZ0lhd2doalF6akFhNjFyS01zLXM3aDNscVlfLVFLLUVxLUpBSHZCX0ZWOXA0REJxNjdJYWFXWUN3TTliaVhTRzIxVmc?oc=5",
+     "published": "2026-09-24T13:34:35+00:00",
+     "score": 1.462,
+     "source": "SPCX",
+     "title": "President Trump bought SpaceX stock weeks after its IPO, raising political risk questions for investors. - Pluang",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX1g3WHBNcWJIU2lhWGJxVlp4enNpMjFuY2dLU1hMR3NDUjVtY08zczZyVUg1ekxLTm9vOVJqS01zMFVwejJTTHlBbUVQdHNWRk5yQTByMFRVTTZ6T1NuRnM1dnBkNUhwSC1wWjhvc3VVY1BqT2g2OVJHVTdqWEZzX2RLOW9kVmpwaUJraHB1dHlUMU9FVmNmU053cjA?oc=5",
+     "published": "2026-09-24T13:20:22+00:00",
+     "score": 1.429,
+     "source": "SPCX",
+     "title": "Trump Bought SpaceX Stock Weeks After the IPO, Filing Shows - Yahoo Finance",
      "topics": [
       "money"
      ]
@@ -66,67 +94,37 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQTWtwVVU5N3pLNFNuT2twbk9UX1ByOWk2bFdILWRxZUVlRHZtSERyVjUwUTQyMkFUcG1FaVBDNEVTX2pxRUNxQ1J3WGowVm5tNlFLYVZfRzEzOTk1enpZdVVGZEF6NnBOU0JkWnl1M084UnU5VXd2Y2gyb2lUcU8zcUhYeEdsM1NtSWdGM3VVTG92alYxb2JRQUlfWDlJa0FxLU1xeXBwQUdua1Q3VVF0OElSVjg1ZFVQdk5fYnZCMzA3Zw?oc=5",
      "published": "2026-09-24T19:17:08+00:00",
-     "score": 1.45,
+     "score": 1.082,
      "source": "Musk",
      "title": "Elon Musk Could Gain a Stake in CNN and CBS. A Media Scholar Says the Biggest Risk Isn't Direct Control - inc.com",
      "topics": []
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rZy1YT3ZFV3k3M2p1OHVkUld4RG1yWU80QnVXUzdabXZVUWtDem5Hd3BKOWtwQjJXaWo4ZFRvbTNzWGtvamt1MXY4TkR6VkE0Y0lYZ1E1eGl2SWhNQVY2Tmg3eldVS1RxZWdEOUt0cHNCRzdMU2c?oc=5",
-     "published": "2026-09-25T08:36:12+00:00",
-     "score": 0.974,
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBNMGNrdFpvWVh2MzRBQXBXd2dLUElZajkya0lPWnl1Nk9WSGZtUkZ3NGwzZnVNbVBtTmF0dTFpLVJReUJvbEc4ZU5OLUJlWUVYejdJX2lBbFhaR2N5am5xZ0tEMllrV1E0djdnbXVRR2U3blRONVpRT21rYks?oc=5",
+     "published": "2026-09-25T14:00:00+00:00",
+     "score": 0.971,
      "source": "SPCX",
-     "title": "Monster insider trading alert for SpaceX stock - Finbold",
+     "title": "Can You Buy SpaceX Stock in Canada? - Yahoo! Finance Canada",
      "topics": [
       "money"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPdTZxMFRjRElBYzBiUkVvOWQxUGhSUVFoTW5xaDVOeTY1bmR3d3o4Y2t0eGlmUGNmck11T0F2VnZ4UzQ0d0Mtd3NlazI0MVgwOF9xdnRUZk02T2FOdmJLLVVrdmt4VEVxRkowSzFJb0ZhSlpLQ1ZncmZ4dWQ0dXdaWHlUc0V2Mk1xX2d5OWJjVWpyekR2Rm5fNXkzb1IzTE5YcjQ5S1RjbFlsQXNweWVMOVE3dEFYMzh1Z1NicWdNWDVvV3FTZnVEUA?oc=5",
-     "published": "2026-09-25T08:04:00+00:00",
-     "score": 0.959,
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUVJfaTZpSkxiY2JmcnBXaWhPMm9DZzdvUHlrS2NWY1BkTy1xNTNsWEd2eERfb1Z1X253d0hhSmVySmowXzEzYW54eEtadjlBZkZnZnV5VkYxLUEtMEVISTVsMkx0M3BNU0NSLWUydXNmVU40N1Q3SWFmM1RkeE5sLU85Z0tTei1naTVWVXMwaEctX3dnaXNfZUpqakg5ZVZCQVNr?oc=5",
+     "published": "2026-09-25T13:49:45+00:00",
+     "score": 0.966,
      "source": "SPCX",
-     "title": "SPCX Stock Climbs Premarket As Musk Teases 3 Nvidia Chip Waves \u2014 Google Books SpaceX Ride For Orbital AI Test - Stocktwits",
+     "title": "SpaceX AI Will Be Better Than Anthropic and OpenAI in 6 Months, Musk Says. What It Means for the Stock. - Barron's",
      "topics": [
       "money"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeWE0WmNNYUM5NHpOSlZLaDREZ2lqLXB2XzhkUW0tSEplY1pUNWdMamhlRmlGOGpEWW1pb2ZUdVlmU2dZSjVBaHB0WHJzSlV0LUo1Y3oxSTQzY09tYTY1Zm9CbVJoMXBKckNrU1hNRUpqX1BRa1NKWnVYT2o2MllJaFlFY1JnaU9CT0RneVpuSWhHZ3RIc3pZQw?oc=5",
-     "published": "2026-09-25T07:50:21+00:00",
-     "score": 0.953,
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdlY0aWtCTnJDMFROMk9pcEtqZ0NIS3pnaWZZVjVvU09SZFB3X2FlRmpkQVVyMmVqNkkzY0JqeTNXLTl0bE9HcksxQmZJRWtNaE9sMlk5VG9PYzhiaTJfdXNyTzNRYzlHN3lsanRBN29rLWc2T3k0THU4bU9xOXEySDRueHZlZzhqTHp3Y25zRzU4THNiVTBmUnhTTUtFZDVRMDBPZGtGNzRrME9jaWtOdTNsV0VES0hDMkw4c0lQcWdteUVh?oc=5",
+     "published": "2026-09-25T12:27:47+00:00",
+     "score": 0.928,
      "source": "SPCX",
-     "title": "Is SpaceX Stock a Buy, Sell, or Hold Right Now? Here's What I'm Doing. - The Motley Fool",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZDItVmlSc3NRX0JzUnVSbHRNdWp0RkVaZXdZQmVWMUhENmZ6OG5tMUVNLWdvbzJSOTctdUF4SHZJT194NDBzSi1QNmVSWVI5bmFVNlpGSy1NOENZS3Zxd0xLX3NtUFZMY2I3YmhRYm94U1l4RTVEVVptUXY2bVVoOXdLU3JXNGRrbksyUVgyQUx1LXhmck9oUXVQNE1URWtaSVhGd1I1a01JSjU3aEVfOE44X09XaENYMy1fQnZQeWp0Snh6Y3c?oc=5",
-     "published": "2026-09-25T07:44:40+00:00",
-     "score": 0.95,
-     "source": "SPCX",
-     "title": "50,520 Shares of SpaceX $SPCX Acquired by QRG Capital Management Inc. - MarketBeat",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOHJTNVJMU1lBSHd3ZnVjUE5CWVhGS1NTRWJwN2ZKRnRFWmRRYzVsSE5Bb1dwY2l6a0VkQl9uSGxWX21UNEVVQ3lzUWFKRlNVU1VoN1FnUXBjcWpvVGRzM25TSUxmODljdmQyVGVHcUl1TUxVTWhNQjV3QjRpeXNES2pQdTBielJpOGhjd3JqX0lOT091LUxoMHJRR1hkS0lUWUh5NWpzRXFGckR1RDVmeUJJNA?oc=5",
-     "published": "2026-09-11T07:00:00+00:00",
-     "score": 0.9,
-     "source": "TSLA",
-     "title": "Is Tesla Stock Priced For Its Earnings Or Its Robots? - Trefis",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUHc4XzVnQ1ZxZlJoSUI2ZzVabENPODNKLWhXZEhsbUg4ZVRkbUpNV09uQVNXSVUwRk1LYk83dmZNUWVZZnJYVkNaUlBXVTV2SWEzU0w0ZkRqRGhmRWQxUURyblptcmNzbEZ0VWMtbmhwOWVmXzlBdFM3VS04UmVRV0c5WjRHSk9SdUgwTnluS2JzTjdZeXphc1pCRQ?oc=5",
-     "published": "2026-09-20T21:20:00+00:00",
-     "score": 0.9,
-     "source": "SPCX",
-     "title": "Should You Buy SpaceX Stock Before Its Next Earnings Report? - Yahoo Finance",
+     "title": "Mizuho reiterates Outperform on SpaceX stock, $200 target on pricing - Investing.com",
      "topics": [
       "money"
      ]
@@ -134,9 +132,62 @@
    ],
    "spacex": [
     {
+     "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOUzV1Y19XMG1aWHMzOWtWeC1Mc0s5U3lJSkd2aFdJd1piMERqWEpnZ0hMaHk3ZXpaYi1qNG04ZVB5NFkyWll6R3RNVkhfNS1iUDkzdTRveVVWNVNjVDNvVzdUYkliNHZlT01feV9aaEV3UzJUeERNUTg3anQyN1p4QzlqZTNta0JkNVM1N2Q5SjhobGVLOHRXNXI2YTVtaEU1UVpycHA2Yjg1NWFSNGRET3c0WGRmbXJpaGpjTDhHcUVLZHlYUXp5OFBRRGNsQnkzdEFpSHYzMERXWDVoUHBYY2FQVTdOOW5zaG5YZk5YT3F1RVJqeXlEaEZCRjZuUkEzQUE?oc=5",
+     "published": "2026-09-25T13:53:00+00:00",
+     "score": 9.677,
+     "source": "Starship",
+     "title": "SpaceX sets up 3 big launches in 4 days, starting with Starship liftoff - Florida Today",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBYalFrTWdEejRzQW9mYXM1V05MYXhzSmJ4LWg5a0tXeGNtSVlXMElDQXZkSVlFVzV2cnRVUXlSby1IaFYwR0VuR01PV2NiZko4cVZDWEV1c0ZlZTNQc0prbFJMemZQcFY1SzdEVFlwOFRJdmJOM2R6TUlCaEVOTTQ?oc=5",
+     "published": "2026-09-25T14:51:04+00:00",
+     "score": 5.967,
+     "source": "Starship",
+     "title": "SpaceX Preparing for Most Important Launch in Company History on Monday - Futurism",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM3N3SnJPazZRNWFZVTliT2gzUDdrNTFtN3hRSVFnUVNvblNCUXBSSVlsa0tzU3BGNXRrZ1hEd0gzRWlrX1FvLUx4SzBwcS12RHcxRE8tazR4YjZ3UXpsRzJCUXM1LTdQTTlmUHk0R18tWl9hdF8ydnA5ZXNBaENTT3RYU0ktVmduMTBXQ2pKTzAxQkhxT3V5WTc1eE9ZSzFyd2FiTHM0TDZkUjRnZXdsMUpfMmY?oc=5",
+     "published": "2026-09-25T14:00:39+00:00",
+     "score": 5.827,
+     "source": "Falcon",
+     "title": "SpaceX\u2019s Falcon 9 Phaseout Spurs Hunt for New Ways to Launch Payloads - WSJ",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMDMtam9Rd0gwWV9iUVROUTFMcTBKYVV2ZHAtRFJHaWQ1a2ptS1d6cWRzSXhBS0I3dEwzdWh0cFNtbEFLWG5KTVZSel9NRnNDWjRWaUdrb0I2Q1JEdWlRZGIwVW5vTHozMzZmSXBKdFdFajgyVDVWNi1CdXF1U2wyTWV0d0kxT29iUUZPZ2hZaDdkMnM3aFE?oc=5",
+     "published": "2026-09-25T12:01:50+00:00",
+     "score": 5.497,
+     "source": "Starship",
+     "title": "SpaceX Starship completes launch rehearsal ahead of flight 14 - Yahoo",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObTNYSms3VzlobS1Ya1ZTZHFKaVNReEhSblNnNWRWdDhsMTh0eFNURHh2MThzeWR1clExQnduLWpDT3ZYQnh4OWVDYm84Z3pmNlI3LVl1NWNib01xeTVpX015eEd1VGlYdjVZb2lRRTNHMzh5TjE3ZVVCRXFrV1IwUWEwNlJNUC0yZk9oMEVvbEZyWWs?oc=5",
+     "published": "2026-09-25T11:55:23+00:00",
+     "score": 5.479,
+     "source": "Starship",
+     "title": "SpaceX Starship's First Orbital Flight Test On Track After Successful Launch Rehearsal - Engadget",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mX3lxRmp0Z3FxMHQyOXBWOWRtY3hKaFI3WEtIUUtaQUZpeVJKRmlSUU1LVmtXUXlLM1hRdDd1YmJybVJBeVZrVjZVQUVXRlFzLTFsNFlTRlJPbGVlcjdzc1h2Uk1mdVk?oc=5",
      "published": "2026-09-25T04:44:17+00:00",
-     "score": 5.201,
+     "score": 4.282,
      "source": "SpaceX",
      "title": "SpaceX - Launches - SpaceX",
      "topics": [
@@ -146,7 +197,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZi1GWllYSnFCTy1SU3JmeWxoUnRONEF5V0Jac2RCMmxQV1dWU3JxNk5GWDJ5VElzTkRqU2FsUVpXMDhEaXA5VGNid09GYnAtOU1nX2dtZjJ6TTlxX2pCUk1UMHRVY2syTXJocHI5ZFA1Q3p3eXFaby04VHFmTDhfaTBiNHluWlpIV0x4enJZTWgzcVRGa3NmSnkya19iYlBsQ09uSm05WWtXSHM?oc=5",
      "published": "2026-09-25T04:31:38+00:00",
-     "score": 5.166,
+     "score": 4.247,
      "source": "Starlink",
      "title": "Minister Lumumba launches Airtel Uganda-Starlink satellite-to-mobile service - The Independent Uganda",
      "topics": [
@@ -155,9 +206,30 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbGVnLVZmcFl1NkJkMWdzOGk0X0ZOVWZScE5FNllnM05xQmVFcXVZN3l6RkRaUGVwbVU2d3RZV1hyQ0QtZnc5RUNRV3RCLWlMcWRnSDhuTlg4d04zbE1VdEtBNHFncVhLeHdpbGVFeWFtaldQVGtWUnJTUThQWjkwT29HamFJZThudkJjQkpUbmJjSktwcTFxdjJpZ3pNTXBqUXRMZ0plYnN3WUE?oc=5",
+     "published": "2026-09-25T04:17:36+00:00",
+     "score": 4.208,
+     "source": "Starlink",
+     "title": "Banglalink gets BTRC nod to launch Starlink Direct-to-Cell service - thefinancialexpress.com.bd",
+     "topics": [
+      "starlink",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQcmMxb2owTldRTVBERF9aTEFPM3llZFpYNXRadG1zdTJ5VnU5UzhrSDQ4XzBnOXdfVTRhYkVXM29aNjZ1NHBRNjFmRnM2QWdLSjh2R2JHWFNmUmtXU0RncmdxeDJDUzFjTldFVkJIaVdPZlM4U29aa0txZE0zdlE3WEVadVdfRzBOVUVURWp3NUY0RHB2YVoxWmFXakdNZTVIT0psWGQ4Rmo0SU5CajdycEJn?oc=5",
+     "published": "2026-09-25T11:05:08+00:00",
+     "score": 3.56,
+     "source": "Starlink",
+     "title": "Starlink passes 27,000 subscribers in Kenya and holds 99.7% of satellite internet - tech-ish.com",
+     "topics": [
+      "starlink"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNQVk4TE1yS1JBNlh0d0tZVWVLUl90YWpEbGVneFd6MFgzUXZlQ3VhR3lpbzEza0FOdGpyWDdCNUx3T29WV2RyNEd3ZE9yaTBlT1lZOU1fLTFqNFJvUHA5b0dURHJJYm5RMWRQUkQzLTBBdHMwbk9HX2djVXRJMW0wN0RZbjRuTHI0QlpZRVRnOEF1MEx2ckF0WVZuQmZVLTFxcUltZk5KWkJvSXgzaDR3MEVrNFc2S2s5ODdmZHItQ0pTSXk5ZlFNZWl0RV9mUEhwWWtWMlg3eTBOVGNuQVVPcFVR?oc=5",
      "published": "2026-09-24T22:24:39+00:00",
-     "score": 4.146,
+     "score": 3.227,
      "source": "Starship",
      "title": "SpaceX's Starship megarocket aces launch rehearsal ahead of 1st orbital test flight (video) - Space",
      "topics": [
@@ -166,9 +238,32 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQy1KY0tWN1hHUTRDdmUxWnJSVVc2MEZvMEd3dERwb2hLZk1ZV184clJnaThPUkZjRUNHREVpR3lRWlh5WmlYcmFQOHgxSmxKcHBJX3g1R0UtOFBTeWlfUzYtVUJIUy1uT0R0ZkU3bUNDamI3X2Mwb0xfQVl5LUV6S3JyeExFVFBQZ1ZFQmxZX18taWRwd3RzMG55VQ?oc=5",
+     "published": "2026-09-25T11:14:02+00:00",
+     "score": 3.219,
+     "source": "Starship",
+     "title": "SpaceX's Starship Flight 13 success didn't stop stock drop; Flight 14 launch could spark new rally. - Pluang",
+     "topics": [
+      "starship",
+      "launch",
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeGVJeklENWNRaXVkb013Q2prWmNkQmNLYXBNQUl3YjNNcVI1SVJEaTRkY0I0bGJmdFZpbWZpZDU4VnA5aFhwUHcxMFYtbHBVaHRMVHh2YkZyaktDal8wc3FWbDB6aFd3NTFEWC04aHFsbEJXLVY4TE9SZGZzbk01cnhESTB6T1l2aU9LckswN2l3c1B1VXp5SENHWnRXTzNVLUt3V2tVUUpENFNNbGhyaXBpWnM2VkwtWG94T00xU1RjS2hEc1RFelBmcThhbzFYWmNjUjgyeVRZZw?oc=5",
+     "published": "2026-09-24T20:01:05+00:00",
+     "score": 2.357,
+     "source": "Starship",
+     "title": "SpaceX's Starship Assembly Reaches Pad as Lock-Up Expiry Weighs on the Stock - AD HOC NEWS",
+     "topics": [
+      "starship",
+      "money"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYndObnRKNzJRQ1NGRjF6bXFaYW5hOUwyaGgxcURqN1NUdDhKc2gxWUZoNlpXMHJCbERESzhybmdfNm9UVXhmeW0ya2J3M3dtazhfSkVJUWtKOV9MMDVjZ2RtNW1wVUpFMmVkWXNNVzdCS29oVEY5WFZ2dmJMem9Ra1k0bkp6OWxCY0JxbnR3bi05R2tzZnFhY3ZxMFNjb0E?oc=5",
      "published": "2026-09-24T17:02:24+00:00",
-     "score": 3.251,
+     "score": 2.332,
      "source": "Starship",
      "title": "No Pressure: A Massive Starlink Upgrade Hinges on SpaceX's Next Starship Launch - PCMag",
      "topics": [
@@ -179,68 +274,14 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPeGVJeklENWNRaXVkb013Q2prWmNkQmNLYXBNQUl3YjNNcVI1SVJEaTRkY0I0bGJmdFZpbWZpZDU4VnA5aFhwUHcxMFYtbHBVaHRMVHh2YkZyaktDal8wc3FWbDB6aFd3NTFEWC04aHFsbEJXLVY4TE9SZGZzbk01cnhESTB6T1l2aU9LckswN2l3c1B1VXp5SENHWnRXTzNVLUt3V2tVUUpENFNNbGhyaXBpWnM2VkwtWG94T00xU1RjS2hEc1RFelBmcThhbzFYWmNjUjgyeVRZZw?oc=5",
-     "published": "2026-09-24T20:01:05+00:00",
-     "score": 3.123,
-     "source": "Starship",
-     "title": "SpaceX's Starship Assembly Reaches Pad as Lock-Up Expiry Weighs on the Stock - AD HOC NEWS",
-     "topics": [
-      "starship",
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNV3hzZUxHWnY5LWl2RkMwM005ZXB1Q1Ewb3lKRks1dnBGSW5jQVN0VWRZbkZGeWN5NTZrU0hOT2dNcUxYZDlQQlQyOEpLdXE5VHVtdUtyV0huQ2ZEVnE0ZG1HRDl0RV96R25SS1J0b0psbDRQVEQ5MFN6V21taHR3cUlqbVFidw?oc=5",
-     "published": "2026-09-24T13:52:13+00:00",
-     "score": 2.723,
-     "source": "Starlink",
-     "title": "Airtel Africa Launches Starlink Mobile in Uganda - PC Tech Magazine",
-     "topics": [
-      "starlink",
-      "launch"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ONFFTZm1RdUFUSGl1RmVxRlNoWHdTTllKZEtzaGV4TEo4NmJjS2JhWTNxZ096bXNpWV9Bc3RMWmZIbTFza1FJRWFkaF9jQVhHdVB5Yl9TZUVoOXZRY1BJajN0WlQxd2ZzZTJrSWVaUk9zX1JkbkE?oc=5",
      "published": "2026-09-24T18:15:00+00:00",
-     "score": 2.302,
+     "score": 1.689,
      "source": "Starship",
      "title": "SpaceX Shares Sink 4% as Shotwell Files to Sell $52 Million Stake Before Starship Debut - finance.biggo.com",
      "topics": [
       "starship",
       "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRjdfOEVXT3duVmxzMkR1cDhJQmlEUzBOWW5oUWpJTktMMWZOSVNfZEg5ZGVHX1MzSHpQcG9GZWpSLXJ2cjk2S3JxUGt2VlMwc2E2YWxSSEkwNWpEOGdzcEpfbTd0S2FsVjk3YXVzU2NNc1p5b1RLNHY2SnV1aWJhWW5MN3BFZGhTclVhRjhBZVU3LVNqaTBRSGZVTE8wc25HbFV6bF9KX0U2R0NhdHc?oc=5",
-     "published": "2026-09-24T10:44:30+00:00",
-     "score": 2.201,
-     "source": "Starlink",
-     "title": "Banglalink to launch direct mobile-to-satellite service with Starlink - The Business Standard",
-     "topics": [
-      "starlink",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQnhPRlNLN1pzWm12TGhQWlRoa2xlYjBfQ3VEN3FOMGoyclFuellqRjJrY2NOZEpWVURmVW5LNzRfaWNEamlLeW82MXlJQUsyYWNaWFlGcXFUbk9BLXpFbnFscXpvM2ItRjJYTUhfTE54LS1PcF9hTTd4OTNoRzBxTC1FVlFZMFA4dmt4TEQ5QzFNc080TEVOdmYtcHRXSWxUcVpTTFNZNTlfcU02eE1SMG51eUstVS14aWRaYTFLOA?oc=5",
-     "published": "2026-09-24T10:41:48+00:00",
-     "score": 2.194,
-     "source": "Starlink",
-     "title": "Banglalink launching direct mobile-to-satellite services with Starlink - daily-sun.com",
-     "topics": [
-      "starlink",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM21rdnJOYUE2dDdvbTJBby1pOF9GVEI2UUpwbUJkUGo2WDViOFMzVVdjNlRFbGlGbFJ5eVEwZWxYRE10UmVURTd6YXFBNWwyU1E5bENqcW5yd09wMUI1ajNsdmNJRVpwU2EwazhrYWNXT0poMlBWd2w5cHVySEFRM24yZV9CeGJsYXZYalM2SlNpM2NLeWVtNFByWUJFdw?oc=5",
-     "published": "2026-09-24T15:07:45+00:00",
-     "score": 1.955,
-     "source": "Starlink",
-     "title": "Wells Fargo's Starlink Forecast: 47M Subscribers and $51B by 2028 - BASENOR",
-     "topics": [
-      "starlink"
      ]
     },
     {
@@ -287,54 +328,23 @@
      "topics": [
       "launch"
      ]
-    },
-    {
-     "link": "https://spaceflightnow.com/2026/09/13/live-coverage-spacex-to-launch-final-3-o3b-mpower-satellites-for-ses/",
-     "published": "2026-09-13T16:45:33+00:00",
-     "score": 1.5,
-     "source": "Spaceflight Now",
-     "title": "SpaceX launches 700th Falcon rocket, carries final 3 O3b mPOWER satellites to orbit for SES",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
-     "link": "https://spaceflightnow.com/2026/09/09/live-coverage-spacex-to-launch-classified-payload-for-the-u-s-space-force/",
-     "published": "2026-09-09T22:32:04+00:00",
-     "score": 1.5,
-     "source": "Spaceflight Now",
-     "title": "SpaceX launches classified payload for the U.S. Space Force",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcjVTWEJSSS1Ja05hSEFFWktnS19tLVo5UC1kV0NRVnl3b3JPU0dLRU5kb1BPazNpYnVMZWRVcVFjdXpEeHRTdFJaYWNnRUZQdy1LOHI5ejFBdmo0RGZMUGVXXzJXWllwcndrVTNOc0hrX0hRLWVKNmdFSFVnSUxQOFVyNGxpUWU3R0JlQm1PX09ncERaWnNFNHctTEUzUTRyUVY0RkZsNDZKTWhqRjc3VUQ5dEpEdGh4ZHN0X1ZKM3NhTEN4aERJ?oc=5",
-     "published": "2026-09-23T13:00:00+00:00",
-     "score": 1.2,
-     "source": "Starship",
-     "title": "SpaceX's next astronaut launch for NASA now set for Oct. 1 after delay - Space",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPWkJKNVl0YVM5ZVAzeVpKeTF3QzFveHhzYjVSaGU0c3NxUHg0dHZIM0gtM1g1Y3FfRFk3cm1NTTVNNTh4YnRvQzVZemZBb2QtcVVXdTNra2NZbEVoUFFNMFpNa21xdjdCWEpFTjFmOUxWazl0dW1OZDlYUnl6cU5KZTI0cEY3d3ZjMDBPVW8yWWpwTWx0cmJrRkQwcEppbzBRRGVZaUJzU1hEbDBuNVluWHU1dmllbkJMR3o5Zjl2b0x0T1k?oc=5",
-     "published": "2026-09-17T18:20:46+00:00",
-     "score": 1.2,
-     "source": "Starship",
-     "title": "SpaceX pushes next Starship launch back to Sept. 28, a 6-day delay for megarocket's 1st orbital flight - Space",
-     "topics": [
-      "starship",
-      "launch"
-     ]
     }
    ],
    "tesla": [
     {
+     "link": "https://electrek.co/2026/09/25/tesla-semi-volume-production-launch-nevada-factory/",
+     "published": "2026-09-25T12:31:37+00:00",
+     "score": 13.019,
+     "source": "Electrek",
+     "title": "Tesla Semi finally enters volume production, 7 years behind schedule",
+     "topics": [
+      "production"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdDQ2Uk1ZQUJvY2tYWURnOWI5RUNISHJyZTBsNXZFY1ZOVldrTkpJZ0QxSVM0emRVelE0WFU5QVp1RVMyLVNPb2dhdXA5T1pPSnZnclo2VFJIMElnNXBPYnRFYndmc0l5dkkzMFJxd0JLVU9YMmRYMFN5MmZqWkpEWg?oc=5",
      "published": "2026-09-25T09:07:32+00:00",
-     "score": 10.875,
+     "score": 9.19,
      "source": "Production",
      "title": "Tesla Launches Long-Awaited Semi Electric Truck Deliveries - European Business Magazine",
      "topics": [
@@ -344,9 +354,9 @@
     {
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMUJRQkhLSnVkUDk0UDNOTjZLOEhOaWZKV1Y4clE2UjFBckZYLWVlQ0JTNk5zcWtqb09WUF9aZzdRdkxhSVRoa3pNQkF2V19KdExjNTFLNFc5NlFtWTNvVi1iWURCOEFXRGRzMVZ5cV9HX0N1MVJLMmRUdktKRlUwcTdUS0h4blJ0T3pNanF3?oc=5",
      "published": "2026-09-25T06:09:46+00:00",
-     "score": 8.157,
+     "score": 6.778,
      "source": "Production",
-     "title": "Tesla Launches High-Volume Semi Production in Nevada - intellectia.ai",
+     "title": "Tesla Launches High-Volume Semi Production in Nevada - Intellectia AI",
      "topics": [
       "production"
      ]
@@ -354,9 +364,71 @@
     {
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPM05oZm93QTZqZHdWTmRuS1BLNHZyWFRKSXRjV2lVSVo2dS1yYk9nampIUVRpV1NsZDdDNXRmcDRsNUdGdmpBRXpnaWFIMXBfTndiQ2xMLXVDUnJDUHRqVzNLZjlNejVTNEswNkI0MERJdnBETFEzc1RBRGdjU3ItVFBtV2pXTnNRVXM4N1dnVQ?oc=5",
      "published": "2026-09-25T04:35:00+00:00",
-     "score": 7.762,
+     "score": 6.383,
      "source": "Production",
-     "title": "Tesla Semi launches in high volume production - shacknews.com",
+     "title": "Tesla Semi launches in high volume production - Shacknews",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT1ZTZ21MeTd6OUhydndNZmpLMnJTNWZWNC00RW41QTBEY3RUOTJnRXpBT0lDRWViTU1CdlREbkZmTHRkOE9lN2xfZWt4VkNVZlR5dzI2dUlsUG1sNnpZUzdlbmRKTndNX0RTYm44bDdPQ0xtSE9qckpSTHEzZEZhM3NXTWZaRjNmdmNqbktR?oc=5",
+     "published": "2026-09-25T14:36:00+00:00",
+     "score": 5.925,
+     "source": "Production",
+     "title": "Tesla Semi deliveries kick off in Nevada - Notebookcheck",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa0J1VEw0QkU5dU9JNXpMbnZ6S3pZeW9WRFlibHZfUlZTY0MtZTJDcHE3eVJ5WXpXZGgyM2dQNGNSM2xhVkxULUMwdzlpSDlGOE1VcGh4eWJVSVBRQmJKdEVqLTNSQzJjblc3SmlmYmZrcUlqTXBXNUhyWGtFbWdDaUZDWlRIdTA?oc=5",
+     "published": "2026-09-25T14:30:00+00:00",
+     "score": 5.908,
+     "source": "Production",
+     "title": "Tesla begins series deliveries of the Semi - electrive.com",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZmJncTduWE1Oa0dGUGZfbGhhRmhNcVIta0UzU1lIVHc2ZHQxZEF0aHBGSlFKN0k3R0dtNU1Pc21jS21vaTRMa0VtcGJGSEpNT0stci1uWTNuOGdQQThQbm9RV2loMFZKVnFxaDRJbUhvUndlNnQ2YVpDUFA0Zy1lNHROcm1nbjZVTlF1eWkzYndYeW1fYUZTalk4bkVQNDA?oc=5",
+     "published": "2026-09-25T13:54:00+00:00",
+     "score": 5.808,
+     "source": "Optimus",
+     "title": "Tesla Stock Falls as Optimus Hand Snags Overshadow Semi Launch - eletric-vehicles.com",
+     "topics": [
+      "optimus",
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFA5OE9zUHFNME9ZOWk4WllQeHkzd2VZc0lqTkM2elhmaXlwT0FYOUhLdGlNdW44ZER3SmpDTUpGVXJ2SkgxNnVVeTVEc18xNXVaTmhBNWRGTjNvR0ZZMmtRRmlOUmFDM2NwdzhuUkkxa1Y3a2Y5ZlJFVjF4d2Q2WWhiNmdBb2h5cWRkZ2dJVGxnOGNkWnJ1TnFVUFJBNDJoMmJr?oc=5",
+     "published": "2026-09-25T13:01:35+00:00",
+     "score": 5.663,
+     "source": "Production",
+     "title": "Tesla Starts Semi Deliveries Nearly Nine Years After Unveiling - GuruFocus",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPc1E3QVdRS1F1U0VYanFrX2tMRzlEVldGdHhRVWl6cVk4TDBJRHVLSDlsYUIwZUJ3UFVnb3M3VTk5QXotWC1wdXYtSF9ZWFJWSFRONk94cTd6TzlrcVVFcnE0c0dBZ0hEYmRLMm05dFNSdEJrcnYwOTV4YlZiRHladzlGOURBN3BWM1FDamNCQTltbVhQeGYzYXJXd3BVX2ZDckVWLTltekRpSzRoNzdlQk5zTFlwQUl5c3FHbEtka3dFRExq?oc=5",
+     "published": "2026-09-25T12:27:47+00:00",
+     "score": 5.569,
+     "source": "Production",
+     "title": "StoneX reiterates Buy rating on Tesla stock ahead of Q3 deliveries - Investing.com",
+     "topics": [
+      "production",
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSmxiOVVBWS02bzFMOWxpSWt5Q2MxLThEQjdPQk00VnpCTFJOeVVmUmlEdzMxQjFzZWRYN3RCUjFzZHNSdlFxVFZyWFNPSF9GdnlLenRKVjFleExZVm95amM5UGlROW9fUHJDMXlUTjhWejQ5NXdBSkZDblYwbG1BdWZ6Um1NSlZPLUZxZUtLUkZIcXk3TGlV?oc=5",
+     "published": "2026-09-25T12:18:37+00:00",
+     "score": 5.543,
+     "source": "Production",
+     "title": "Tesla begins Semi electric truck deliveries - Kursiv Media",
      "topics": [
       "production"
      ]
@@ -364,7 +436,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNTR4U0xzdnFrMHBacVVoak9FU0xfc3BycUpPYUdGdFFleWpnSTV5dzBQSVlFb0E0WWlGS1J3WWdCSWFzN2Q5QWFJZ01XT1A5Z1AtTHBIR2k1NVFWeWwtRmtOMW1wM2FBTHlPYUh6UkFEOFotclQ5RzRKNWVDTUVRMFlXWDlCX3FUWEZLdUZKVE5nRDNSdXVtVw?oc=5",
      "published": "2026-09-25T09:23:05+00:00",
-     "score": 5.975,
+     "score": 5.056,
      "source": "Production",
      "title": "Tesla begins Semi deliveries nine years after unveiling - Automotive World",
      "topics": [
@@ -372,19 +444,9 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZ1RIRThKQXdBWWVuTjh3MG1HbWFUd0NwUDUxV0phVVZfMFRucl9PektMcndmVGhyc1hsRmtaMERDTWtaZmdxdU16a205LURYeGdoRTAwTi1BNGJJSTBaQkFKdU9vU2lNY2YzdjVhdldUemowa294NWUtRU96OHdnelA4RjhVd3Q5b2hYbDlpbk5kTDBibjA5V1M1MUZVN0RFWmc?oc=5",
-     "published": "2026-09-25T09:10:46+00:00",
-     "score": 5.941,
-     "source": "Production",
-     "title": "Tesla Semi deliveries begin from new Nevada truck factory - t2online.in",
-     "topics": [
-      "production"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWWlvWjNuWnFwU1NWalBiZG5CY19rT2F1ZmdOdXc1MnZTMnUtcmdrNHAwMVhUQkZkTF9qN3FEb3dHbFFoRHdaX1ZQQVRsYzRsTm1OSkwxSzJJOUVkc3pUam00ZmNHZUxJZVByWTFDOTlwbENFckQ4ajcyYURSUmNjU3hieHpVMXp5YUVjVFptcHk1all2NWZzc1JBQk9McmJySFRySFFyMUJvQm9SOGxn?oc=5",
      "published": "2026-09-25T08:21:39+00:00",
-     "score": 5.804,
+     "score": 4.885,
      "source": "Production",
      "title": "UBS Sees Tesla Q3 Deliveries Falling 5% Year on Year, Keeps $385 Price Target - eletric-vehicles.com",
      "topics": [
@@ -394,7 +456,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZ1ltdEdGOU56eWtJRGpvZXlBcG9qYWREOGZfbFpNYzRQWXByWS13RlpscUVaMVV6a29zRTRXdFV1akZHTjExclVMall0ZnBQT3lJWHhsaTRMdmdNN1FVam5uejNwU3MwaU1RU3JHRFdKRHY5S3pidE8zdHFkQVJrcTN0MndLRG83ckMybnp6ampHRWhiUmo0amhHS3R2M3dDT01WWFM2a3NObnNETWdFTFVWNA?oc=5",
      "published": "2026-09-25T07:55:43+00:00",
-     "score": 5.732,
+     "score": 4.813,
      "source": "Production",
      "title": "Tesla Starts Semi Deliveries as Musk Teases Self-Driving for \u2018Very Near Future\u2019 - eletric-vehicles.com",
      "topics": [
@@ -402,9 +464,20 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQNUFtUXVkUWFPR0J6aS03cUxPbGIwT0wtczVSNk9saExCSk96X29MSTJnajk1RHZ5WXZlN0RqSXFPOE5ubEZaTHJ0ZF9yTnpUT3JIQXBWQ3ZPeU1ReE1GVm9lelp1U0hkQkhMMjJGNFhsR1k1bGhFcXlja29CZWR3OHlkTnBsY3JLb04xZEUwN0Itcjh3ZkRUVERsbWhpY3lMN1hCS0ZQUi1fLTdkVVdKNzEzY0Z1YUtKLTN1aVlXM1U2dw?oc=5",
+     "published": "2026-09-25T13:24:21+00:00",
+     "score": 4.772,
+     "source": "Autonomy",
+     "title": "EU vote on Tesla Full Self-Driving approval delayed to December - Investing.com",
+     "topics": [
+      "autonomy",
+      "regulatory"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQzBxaVVUaHZ2LThjc2g3SVVFNnBjWUp6TjFaSnE2VkVhWHMwcmlKTEtCcXdCRWdsVU5wUXBocmNWMlRBdGoyMlREVjdwOEhzQ2pHLXBwaldFWVM3MDgtY0hXekhrRGJlUDUtRjF4T1RzTUd6OXFUUll3bmt2OFBsVkRjVmZvSjg5Zk1JS2Y2cU41eFBzUXd3VVVCMThNVXZoVmNHd0ZsSURwUnQ5VUdadmJn?oc=5",
      "published": "2026-09-25T04:25:54+00:00",
-     "score": 5.149,
+     "score": 4.23,
      "source": "Production",
      "title": "Tesla commences semi-truck deliveries, reaffirms 50,000 annual output target (TSLA:NASDAQ) - Seeking Alpha",
      "topics": [
@@ -412,109 +485,38 @@
      ]
     },
     {
-     "link": "https://electrek.co/2026/09/24/tesla-fsd-belgium-test-speeding-30-kmh-eu-vote/",
-     "published": "2026-09-24T19:50:49+00:00",
-     "score": 4.958,
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVTNwNGtNQ1NzQU1CakVEMUFLWGtJNjZhVkdpbmYtRG1YbnlGdnh5bW8zaEhDNTlGVTdRbF9MV0Z5Q0paS25zTlVQUVF3RlNKaWpfY1U0YVVfVTRNRkFBWk9GQ3d2bFpGNTdBOGFuVjk5bXIzSzVmbkVBejFoWHNEdi1YVGhxMDVSN3JqNGRPNA?oc=5",
+     "published": "2026-09-25T14:59:45+00:00",
+     "score": 3.994,
+     "source": "Production",
+     "title": "Tesla starts high-volume production of Semi ele... - Pluang",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYlpvS2MtOUhTYjBBWERZRk9qWFRuX0FTU0hBTnhCekVZOEVJaEUxVU1CN0tJcVh2V0FLTWlLbHE3eHpiRUhQUXhGVlIxTTVFNHdDTURVUEVoT2d3SEhIVlhSaHFqZDREUklLS1FJdm5hRElISzFEWFhhT2JablhwLUFZZXRoZm1wNkdHWUpwMA?oc=5",
+     "published": "2026-09-25T14:54:56+00:00",
+     "score": 3.985,
+     "source": "Production",
+     "title": "The Tesla Semi Has Finally Entered Mass Production - Root-Nation.com",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://electrek.co/2026/09/25/tesla-optimus-production-ramp-hands-ai-generalization-problems/",
+     "published": "2026-09-25T14:45:34+00:00",
+     "score": 3.968,
      "source": "Electrek",
-     "title": "Tesla \u2018FSD\u2019 sped in 55% of Brussels 30 km/h zones ahead of EU vote",
+     "title": "Tesla ramps Optimus to hundreds a week, but the robots can\u2019t generalize",
      "topics": [
-      "autonomy"
-     ]
-    },
-    {
-     "link": "https://electrek.co/2026/09/24/comma-ai-openpilot-nhtsa-investigation-crashes/",
-     "published": "2026-09-24T19:12:57+00:00",
-     "score": 4.818,
-     "source": "Electrek",
-     "title": "NHTSA investigates comma.ai\u2019s openpilot over 5 crashes that killed 3",
-     "topics": [
-      "autonomy",
-      "regulatory"
-     ]
-    },
-    {
-     "link": "https://www.teslarati.com/google-suncatcher-spacex-orbital-ai/",
-     "published": "2026-09-24T23:21:14+00:00",
-     "score": 4.303,
-     "source": "Teslarati",
-     "title": "Google just picked SpaceX for its first step into orbital AI",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX0ZFLVRhWm80M1ZOV2VHUUNXQXJPVVRXVEVRSkExYjRqRERCZ09WeVVUZzJuMUZYaUNObjVCY3BKWHVEb1FGMlRFN0o5ZEJ3NEJkWU52akcwODE0V0lFLXdEZVFVZGp2VHNYOUJodEQ1QVBQZmhpd2YwSDZ5U1hoOTlqMzlEMjg1NnlIbVRlQlRhSzZ4VzlsYUhDR1lNemd5SU9aVGpKRFNnWVF2Ukl2TDRhc1VtMk5SMHZGbHdVY0pUdm54OGc?oc=5",
-     "published": "2026-09-24T23:09:00+00:00",
-     "score": 4.269,
-     "source": "Production",
-     "title": "Tesla is beginning Semi electric truck deliveries - Reuters",
-     "topics": [
+      "optimus",
       "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa1VMUmFVVDlPZ0l3VzVKb2VjaGtaNjRaeFZVd3A5TTQ3bUJVb09HOGQtMTZIRkZYZnNkdVR1NHItZ1dhS2NTN3lTckw3NUZmajVwNHBwUXZSdk5acjZJR3duYWU2WXFObTZKeGJ1b0VPYTNnRGZNWWExc2tWeDY2TzU3aklicHFiVzc0MHRXdlBqdG9zS0w2amtnUXh0LS0ycVROT3VjQm1YdjA1Sms0?oc=5",
-     "published": "2026-09-25T05:58:45+00:00",
-     "score": 3.605,
-     "source": "Production",
-     "title": "Tesla (TSLA.US) officially announces the start of mass production and delivery of its Semi electric truck, reaffirming its annual production target of 50,000 units. - moomoo.com",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc2htcy1lVmlsMExiLU1wYVJIUEhfZ0VKaUxfdkcyV2RHYnVWalkzNTdrdFluMkQtWXRKLVVLSDgwUGlGQWl6cVlKWG5lbjVBeHJlOHNvZ05rWTBlY0NRREJpR182S1d6YzRGT0FEZkl3SkQyamtVNW9DTWk2STJhMGtBakxrdEtSVGttWHcyb1RDeGFyWHJpVnhoMWh3YTRtMUg1Tk9JbFh1NHptTHVhNkdsYUNxckNqc3RUVQ?oc=5",
-     "published": "2026-09-25T05:32:09+00:00",
-     "score": 3.556,
-     "source": "Production",
-     "title": "Tesla starts up first dedicated Semi truck mass production plant in Nevada - \ub514\uc9c0\ud138\ud22c\ub370\uc774",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaUUwb25qX05WV3NydlFoR0NqRll0eUljV25VRlpwN2xWR3FQLUJqVV9Tc1lHeXd1YlBQLTIzOHVQVzBZb0xabWZpaFRBTTRxTE9vNVJRTHhVanppR0RSSEhqUTdES2RDYVVNdWUyWUs5ODhZNTREWmFTY0FSdjZLelplam4tckNnSjVQUGg4ZWFOb1Q3emExZFhFalh0Mjc2Q1NJclBlNF9USmxLQzJSOWk4REJtNTR2OGhN?oc=5",
-     "published": "2026-09-25T05:12:26+00:00",
-     "score": 3.519,
-     "source": "Production",
-     "title": "Tesla has begun \u2018high volume\u2019 production of semi truck, Musk says - Investing.com",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQbklmOVpJSlB0cDE4Q0ZXVkEzYWpMRFZzSWRrYVBoWTYyWU5DMEd6MXFmMVF1ZjFhaG81UktCZnF3dml2Rkh5UUp1OXdnU3dNN1d2VzJ5QV9RQ2gydTl3U0I0RjV2M1pJSjBDUlNlTjZVYVREUmZxOXpQODlvUXc4U3ZLd29PZ21OdzYyVnFEd0IxMDNxRjIzRDh0SFFuOVJNR19YOXhQMTZsV0tuam1HZFBqdUhxYkwwWVE5dXNDV1NFMTFvcGo5SmhFeDlFQTNrMkRVbzd0RVhINUt1Y3djY2lLYW1mZ1JweEE?oc=5",
-     "published": "2026-09-25T04:50:44+00:00",
-     "score": 3.479,
-     "source": "Production",
-     "title": "Tesla Drops New Roadster Teaser Ahead of Oct. 1 Reveal\u2014Elon Musk Says Semi Volume Production Has Begun - Benzinga",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTEFDNldJaGdnckJ4TlNoLWtMczBuNm5JcG1EQ1JOb1cwbzBoc3hENjhpY0hGRzBnM3ByOXBfWmd4NkU2OWRISmR6c21aYlR6ZUxvY1lfRTE4VU05VjFaaGdGeGc2MTl5TUE1OGlaYnFoWHlGUFhJZjByYkI3cUxVY0VjMm81TUIxdXlJX25Udw?oc=5",
-     "published": "2026-09-24T18:03:35+00:00",
-     "score": 3.421,
-     "source": "Autonomy",
-     "title": "Tesla FSD (Supervised) Moves Closer to Ireland Launch - BASENOR",
-     "topics": [
-      "autonomy"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZzB1a0tibFZUZGtvWTNjSlc5T0MxRVdNVXlIVk1sTnhjeVgwbTVaV2ZoOXJ0em1PeVBnY1JRc28wcVY3Ykx0bVdyRl9adWhVV2lKZzVVRTkyOTNfWmhLTzEteFd6bjlSRDU5WkFaU1pYb3E5TEF6NkJxOWVRWFZsYU1la3NXUmx4aFk4d2RDZkNXeWNvNS1SeDhxSndrVmpxTUVzUWVCSlZuNmJRelNQY3RwT1pKMVNvd1I2UGFJZlU?oc=5",
-     "published": "2026-09-24T14:41:32+00:00",
-     "score": 2.86,
-     "source": "Production",
-     "title": "UBS maintains Tesla stock neutral rating ahead of Q3 deliveries - Investing.com",
-     "topics": [
-      "production",
-      "money"
      ]
     }
    ]
   }
  },
- "fetched_at": "2026-09-25T09:32:06.902120+00:00"
+ "fetched_at": "2026-09-25T15:03:04.279632+00:00"
 }

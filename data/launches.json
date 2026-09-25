@@ -1949,8 +1949,8 @@
     "mission": "USSF-385",
     "mission_type": "Government/Top Secret",
     "name": "Falcon 9 Block 5 | USSF-385",
-    "net": "2026-09-26T11:56:00Z",
-    "net_precision": "MIN",
+    "net": "2026-09-26T12:56:13Z",
+    "net_precision": "SEC",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
     "pad_location": "Vandenberg SFB, CA, USA",
@@ -2067,27 +2067,6 @@
     "webcast_live": false
    },
    {
-    "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
-    "id": "7bdc412b-c965-4517-a131-f57a01189803",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_thumbnail_20260618063419.jpeg",
-    "lat": 5.256319,
-    "lon": -52.786838,
-    "mission": "Amazon Leo (LE-04)",
-    "mission_type": "Communications",
-    "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
-    "net": "2026-10-07T00:00:00Z",
-    "net_precision": "DAY",
-    "orbit": "LEO",
-    "pad": "Ariane Launch Area 4",
-    "pad_location": "Guiana Space Centre, French Guiana",
-    "provider": "Arianespace",
-    "rocket": "Ariane 64 Block 2",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/7bdc412b-c965-4517-a131-f57a01189803",
-    "webcast_live": false
-   },
-   {
     "description": "NeonSat-2 to 6 are part of the South Korean government's Earth observation micro-satellite constellation NeonSat (New-space Earth Observation Satellite). The NeonSat constellation is the first satellite system developed by the government using a mass-production approach for precise monitoring of the Korean Peninsula.",
     "id": "e0741415-6c63-4236-9736-24a6c04485bc",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nuri_liftoff_2_image_thumbnail_20240820080542.jpeg",
@@ -2169,6 +2148,27 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
+    "webcast_live": false
+   },
+   {
+    "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
+    "id": "7bdc412b-c965-4517-a131-f57a01189803",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_thumbnail_20260618063419.jpeg",
+    "lat": 5.256319,
+    "lon": -52.786838,
+    "mission": "Amazon Leo (LE-04)",
+    "mission_type": "Communications",
+    "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+    "net": "2026-10-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Ariane Launch Area 4",
+    "pad_location": "Guiana Space Centre, French Guiana",
+    "provider": "Arianespace",
+    "rocket": "Ariane 64 Block 2",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/7bdc412b-c965-4517-a131-f57a01189803",
     "webcast_live": false
    },
    {
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-25T09:32:15.072937+00:00"
+ "fetched_at": "2026-09-25T15:03:18.902832+00:00"
 }
