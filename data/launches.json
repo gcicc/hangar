@@ -147,7 +147,7 @@
   "pads": [
    {
     "count": 54,
-    "last_net": "2026-10-31T00:00:00Z",
+    "last_net": "2026-10-10T16:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
     "lon": -120.611,
@@ -1949,7 +1949,7 @@
     "mission": "USSF-385",
     "mission_type": "Government/Top Secret",
     "name": "Falcon 9 Block 5 | USSF-385",
-    "net": "2026-09-26T12:56:13Z",
+    "net": "2026-09-26T14:00:54Z",
     "net_precision": "SEC",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
@@ -2064,6 +2064,27 @@
     "status": "TBD",
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/6b89cfc8-8880-4b5b-856c-0e547d45b639",
+    "webcast_live": false
+   },
+   {
+    "description": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellatio",
+    "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "SDA Tranche 1 Transport Layer A",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+    "net": "2026-10-05T08:06:00Z",
+    "net_precision": "MIN",
+    "orbit": "PO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBC",
+    "status_name": "To Be Confirmed",
+    "url": "https://nextspaceflight.com/launches/details/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
     "webcast_live": false
    },
    {
@@ -2214,27 +2235,6 @@
     "webcast_live": false
    },
    {
-    "description": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellatio",
-    "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "SDA Tranche 1 Transport Layer A",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-    "net": "2026-10-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "PO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
-    "webcast_live": false
-   },
-   {
     "description": "Second test launch of CASC/SAST\u2019s Long March 12A rocket. Payload identities are TBD.",
     "id": "dc570565-4dcf-4ab9-8174-bf88efef477f",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_12a__image_thumbnail_20251224005750.jpeg",
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-25T19:54:08.512216+00:00"
+ "fetched_at": "2026-09-25T23:09:56.333808+00:00"
 }
