@@ -119,34 +119,34 @@
     14,
     13,
     14,
-    6
+    7
    ]
   },
   "calls_used": 4,
   "next": {
-   "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
-   "id": "7330d83b-c478-426c-8859-f9e3a335876d",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
-   "lat": 34.632,
-   "lon": -120.611,
-   "mission": "USSF-385",
-   "mission_type": "Government/Top Secret",
-   "name": "Falcon 9 Block 5 | USSF-385",
-   "net": "2026-09-26T14:00:54Z",
-   "net_precision": "SEC",
+   "description": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-1) into stable Low Earth Orbit.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete approximately 6 orbits around the planet for nearly 10 hours, with splashdown tar",
+   "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
+   "lat": 25.99677,
+   "lon": -97.15799,
+   "mission": "Starlink Group 31-1 (Starship Flight 14)",
+   "mission_type": "Communications",
+   "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+   "net": "2026-09-28T12:15:00Z",
+   "net_precision": "MIN",
    "orbit": "LEO",
-   "pad": "Space Launch Complex 4E",
-   "pad_location": "Vandenberg SFB, CA, USA",
+   "pad": "Orbital Launch Pad 2",
+   "pad_location": "SpaceX Starbase, TX, USA",
    "provider": "SpaceX",
-   "rocket": "Falcon 9 Block 5",
-   "status": "Go",
-   "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/7330d83b-c478-426c-8859-f9e3a335876d",
+   "rocket": "Starship V3",
+   "status": "TBC",
+   "status_name": "To Be Confirmed",
+   "url": "https://nextspaceflight.com/launches/details/7d1afb26-6f9c-429b-9ccf-29012fd1e519",
    "webcast_live": false
   },
   "pads": [
    {
-    "count": 54,
+    "count": 55,
     "last_net": "2026-10-10T16:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -156,7 +156,7 @@
     "top_provider": "SpaceX"
    },
    {
-    "count": 41,
+    "count": 40,
     "last_net": "2026-10-31T00:00:00Z",
     "lat": 28.56194122,
     "location": "Cape Canaveral SFS, FL, USA",
@@ -276,16 +276,6 @@
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
-    "count": 4,
-    "last_net": "2026-11-30T00:00:00Z",
-    "lat": 28.60822681,
-    "location": "Kennedy Space Center, FL, USA",
-    "lon": -80.60428186,
-    "name": "Launch Complex 39A",
-    "spacex": true,
-    "top_provider": "SpaceX"
-   },
-   {
     "count": 3,
     "last_net": "2026-09-19T10:50:00Z",
     "lat": 38.863128,
@@ -324,6 +314,16 @@
     "name": "Launch Area 96A",
     "spacex": false,
     "top_provider": "LandSpace"
+   },
+   {
+    "count": 3,
+    "last_net": "2026-10-02T03:53:00Z",
+    "lat": 28.60822681,
+    "location": "Kennedy Space Center, FL, USA",
+    "lon": -80.60428186,
+    "name": "Launch Complex 39A",
+    "spacex": true,
+    "top_provider": "SpaceX"
    },
    {
     "count": 3,
@@ -428,6 +428,16 @@
    {
     "count": 2,
     "last_net": "2026-10-31T00:00:00Z",
+    "lat": 13.733,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.235,
+    "name": "Satish Dhawan Space Centre First Launch Pad",
+    "spacex": false,
+    "top_provider": "Skyroot Aerospace"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-10-31T00:00:00Z",
     "lat": 40.891596,
     "location": "Jiuquan Satellite Launch Center, People's Republic of China",
     "lon": 100.217289,
@@ -464,16 +474,6 @@
     "name": "Launch Area 96B",
     "spacex": false,
     "top_provider": "LandSpace"
-   },
-   {
-    "count": 1,
-    "last_net": "2026-07-18T06:35:30Z",
-    "lat": 13.733,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.235,
-    "name": "Satish Dhawan Space Centre First Launch Pad",
-    "spacex": false,
-    "top_provider": "Skyroot Aerospace"
    },
    {
     "count": 1,
@@ -647,6 +647,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
+    "id": "7330d83b-c478-426c-8859-f9e3a335876d",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "USSF-385",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | USSF-385",
+    "net": "2026-09-26T14:00:54Z",
+    "net_precision": "SEC",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
+    "url": "https://nextspaceflight.com/launches/details/7330d83b-c478-426c-8859-f9e3a335876d",
+    "webcast_live": false
+   },
    {
     "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
     "id": "9e24bef7-c44b-4fdc-ba52-68545ce9457e",
@@ -1885,27 +1906,6 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/d8eb4b68-5307-4b3b-b585-5598958defc2",
     "webcast_live": false
-   },
-   {
-    "description": "The Northrop Grumman/SpaceLogistics MRV-1 is a mission extension payload including a mission robotic vehicle (MRV) and multiple mission extension pods (MEPs). The MRV is designed to attach up to 30 MEPs (Mission Extension Pods) to various satellites in GEO over the course of its life, and the MEPs (Mission Extension Pods) are 400 kg spacecraft designed to be captured by the MRV and then attached t",
-    "id": "0f6780cf-edae-4d7c-99d6-ce7de784d140",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_at_slc_image_thumbnail_20260721192735.jpeg",
-    "lat": 28.56194122,
-    "lon": -80.57735736,
-    "mission": "MRV-1",
-    "mission_type": "Mission Extension",
-    "name": "Falcon 9 Block 5 | MRV-1",
-    "net": "2026-07-21T21:15:00Z",
-    "net_precision": "MIN",
-    "orbit": "GTO",
-    "pad": "Space Launch Complex 40",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/0f6780cf-edae-4d7c-99d6-ce7de784d140",
-    "webcast_live": false
    }
   ],
   "totals": {
@@ -1914,7 +1914,7 @@
    "spacex_sampled": 92,
    "spacex_share": 0.46,
    "window": {
-    "from": "2026-02-20",
+    "from": "2026-02-21",
     "to": "2026-09-26"
    }
   },
@@ -1956,8 +1956,8 @@
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
     "url": "https://nextspaceflight.com/launches/details/7330d83b-c478-426c-8859-f9e3a335876d",
     "webcast_live": false
    },
@@ -2256,6 +2256,27 @@
     "webcast_live": false
    },
    {
+    "description": "Ride-share launch of multiple satellites, including the in-orbit refueling demonstration satellite AayulSAT-1A from OrbitAID Aerospace. Other payload's identities TBD.",
+    "id": "e59ff9a4-f72f-4841-8546-3c94346ecdba",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193926.jpeg",
+    "lat": 13.733,
+    "lon": 80.235,
+    "mission": "AayulSAT-1A & others",
+    "mission_type": "Technology",
+    "name": "SSLV | AayulSAT-1A & others",
+    "net": "2026-10-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Satish Dhawan Space Centre First Launch Pad",
+    "pad_location": "Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "rocket": "SSLV",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/e59ff9a4-f72f-4841-8546-3c94346ecdba",
+    "webcast_live": false
+   },
+   {
     "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
     "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg",
@@ -2317,29 +2338,8 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/22e117bf-041c-49d5-9d09-7b180036e143",
     "webcast_live": false
-   },
-   {
-    "description": "Demonstration flight of the Astrobotic Griffin lander and its engines, initially contracted for the cancelled NASA VIPER (Volatiles Investigating Polar Exploration Rover) mission. The vacated payload spot will now host the FLIP (FLEX Lunar Innovation Platform) lunar rover from Astrolab.",
-    "id": "d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
-    "lat": 28.60822681,
-    "lon": -80.60428186,
-    "mission": "Griffin Mission One",
-    "mission_type": "Lunar Exploration",
-    "name": "Falcon Heavy | Griffin Mission One",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LO",
-    "pad": "Launch Complex 39A",
-    "pad_location": "Kennedy Space Center, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon Heavy",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
-    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-09-26T10:59:16.425151+00:00"
+ "fetched_at": "2026-09-26T15:59:18.402207+00:00"
 }

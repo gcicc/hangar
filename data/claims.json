@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 60
+  "times_seen": 61
  },
  {
   "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
@@ -32,7 +32,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 37
+  "times_seen": 38
  },
  {
   "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - eletric-vehicles.com",
@@ -50,7 +50,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 69
+  "times_seen": 70
  },
  {
   "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
@@ -68,7 +68,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 53
+  "times_seen": 54
  },
  {
   "statement": "SpaceX wants to launch next Starship this month (and catch it, too), Elon Musk says in 1st earnings call since historic IPO - Space",
@@ -87,7 +87,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 60
+  "times_seen": 61
  },
  {
   "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - BASENOR",
@@ -104,7 +104,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 13
+  "times_seen": 14
  },
  {
   "statement": "SpaceX plans 1 more California rocket launch this month. Track liftoff - Ventura County Star",
@@ -121,7 +121,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 3
+  "times_seen": 4
  },
  {
   "statement": "Exclusive: Tesla Optimus Commercialization Next Year Is \u2018Very Realistic,\u2019 Faraday Chairman Says - Benzinga",
@@ -138,7 +138,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 3
+  "times_seen": 4
  },
  {
   "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - reuters.com",
@@ -173,7 +173,41 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 1
+  "times_seen": 2
+ },
+ {
+  "statement": "Tesla energy storage deployments jumped in \u2018crucial AI transformation year'; company expects margin compression in 2026 - Energy-Storage.News",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2026",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Energy",
+  "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNX2dkTDM3VzFxQ0F1RFhVRE5vRzlLTWg0aVYzalVqaVZCckVqdF9HeW5VM0duOVozbG90Y2VqMk4ybGlBNTlGY0lqckJUTDJXZXgzZUhBNWpYRFhMOGc1eTBuLUM0QkJ5bXdHazVmM2xVck1wNFpuRllWUGt3aG9jcFRVcDdPZmlZZ2U2d24tY0I0MTh6WmFUcWUtdUhvZDF4NVltbXcyUlgyTy1Dem1pWVBTbDljOUdTamM5MUVPaDZfblAzWDN3VGNQU3FnNWdObk9YcTlvWGtsTWtIYmR6RHJzRQ?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "energy"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-26",
+  "times_seen": 66
+ },
+ {
+  "statement": "Wells Fargo's Starlink Forecast: 47M Subscribers and $51B by 2028 - BASENOR",
+  "entity": "Starlink",
+  "horizon_phrase": "by 2028",
+  "horizon": "2028-12-31",
+  "horizon_precision": "year",
+  "quantity": "47M Subscribers",
+  "source": "Starlink",
+  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM21rdnJOYUE2dDdvbTJBby1pOF9GVEI2UUpwbUJkUGo2WDViOFMzVVdjNlRFbGlGbFJ5eVEwZWxYRE10UmVURTd6YXFBNWwyU1E5bENqcW5yd09wMUI1ajNsdmNJRVpwU2EwazhrYWNXT0poMlBWd2w5cHVySEFRM24yZV9CeGJsYXZYalM2SlNpM2NLeWVtNFByWUJFdw?oc=5",
+  "first_seen": "2026-09-24",
+  "topics": [
+   "starlink"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-26",
+  "times_seen": 8
  },
  {
   "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
@@ -191,40 +225,6 @@
   "primary": false,
   "last_seen": "2026-09-25",
   "times_seen": 53
- },
- {
-  "statement": "Tesla energy storage deployments jumped in \u2018crucial AI transformation year'; company expects margin compression in 2026 - Energy-Storage.News",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2026",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Energy",
-  "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNX2dkTDM3VzFxQ0F1RFhVRE5vRzlLTWg0aVYzalVqaVZCckVqdF9HeW5VM0duOVozbG90Y2VqMk4ybGlBNTlGY0lqckJUTDJXZXgzZUhBNWpYRFhMOGc1eTBuLUM0QkJ5bXdHazVmM2xVck1wNFpuRllWUGt3aG9jcFRVcDdPZmlZZ2U2d24tY0I0MTh6WmFUcWUtdUhvZDF4NVltbXcyUlgyTy1Dem1pWVBTbDljOUdTamM5MUVPaDZfblAzWDN3VGNQU3FnNWdObk9YcTlvWGtsTWtIYmR6RHJzRQ?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "energy"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-25",
-  "times_seen": 65
- },
- {
-  "statement": "Wells Fargo's Starlink Forecast: 47M Subscribers and $51B by 2028 - BASENOR",
-  "entity": "Starlink",
-  "horizon_phrase": "by 2028",
-  "horizon": "2028-12-31",
-  "horizon_precision": "year",
-  "quantity": "47M Subscribers",
-  "source": "Starlink",
-  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM21rdnJOYUE2dDdvbTJBby1pOF9GVEI2UUpwbUJkUGo2WDViOFMzVVdjNlRFbGlGbFJ5eVEwZWxYRE10UmVURTd6YXFBNWwyU1E5bENqcW5yd09wMUI1ajNsdmNJRVpwU2EwazhrYWNXT0poMlBWd2w5cHVySEFRM24yZV9CeGJsYXZYalM2SlNpM2NLeWVtNFByWUJFdw?oc=5",
-  "first_seen": "2026-09-24",
-  "topics": [
-   "starlink"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-25",
-  "times_seen": 7
  },
  {
   "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - electrek.co",
