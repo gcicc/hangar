@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 59
+  "times_seen": 60
  },
  {
   "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
@@ -32,7 +32,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 36
+  "times_seen": 37
  },
  {
   "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - eletric-vehicles.com",
@@ -50,7 +50,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 68
+  "times_seen": 69
  },
  {
   "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
@@ -87,7 +87,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 59
+  "times_seen": 60
  },
  {
   "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - BASENOR",
@@ -104,7 +104,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 12
+  "times_seen": 13
  },
  {
   "statement": "SpaceX plans 1 more California rocket launch this month. Track liftoff - Ventura County Star",
@@ -121,7 +121,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 2
+  "times_seen": 3
  },
  {
   "statement": "Exclusive: Tesla Optimus Commercialization Next Year Is \u2018Very Realistic,\u2019 Faraday Chairman Says - Benzinga",
@@ -138,7 +138,42 @@
   ],
   "primary": false,
   "last_seen": "2026-09-26",
-  "times_seen": 2
+  "times_seen": 3
+ },
+ {
+  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - reuters.com",
+  "entity": "SpaceX",
+  "horizon_phrase": "this month",
+  "horizon": null,
+  "horizon_precision": "unknown",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
+  "first_seen": "2026-09-14",
+  "topics": [
+   "starship",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-26",
+  "times_seen": 4
+ },
+ {
+  "statement": "In 2018, He Was Sleeping On The Factory Floor As His Company Kept Missing Production Targets. Less Than 3 Years Later, Tesla Shareholders Had Made Over 13 Times Their Money, And Elon Musk Was The Richest Man In The World. - 24/7 Wall St.",
+  "entity": "Tesla",
+  "horizon_phrase": "In 2018",
+  "horizon": "2018-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNZHpxSzlsaWUxLWozRWYtV2Myb01kTzNGN3ZHTlpjS0RJU3U0c1drUXo3TkNPbkNJVmdRc3RKNVFvQ0M2RW9jb1BSdko2WTJncWFOWXBjSnpQbFhMXzN6S1JRdnBPa2hHVklvYUxmM2k5TnpnNnExblctMjhqa0o3V1VEWlBDbEh3a0FIMHV4aFZlM3poOFdHamZ0eGpuVndCa3p4eHJqNnFCQjJOZjhhRjF0M0Ztd1ZMQmFUMW5Db18tUl9yWFZzaWZPbk5ocnl2N3N2cHItYW5LRXI4Ynlob19fZkpWVDJPZVVpLWczVFZxS2ZxVnpWS0RjbUkyaWxIcnl6MG9ZeDJyR1AxUXhvRG1ZQW4yMnliSWtxVVpvTDhmMFIxMGZiZmNaTzNVWDZQbXRvVDBQbkRoZXFLOVE4VGF4SGI5OG04cEU5T3JhbFh6T1dlcW9pMmZBelM?oc=5",
+  "first_seen": "2026-09-26",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-26",
+  "times_seen": 1
  },
  {
   "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
@@ -208,24 +243,6 @@
   "primary": false,
   "last_seen": "2026-09-25",
   "times_seen": 9
- },
- {
-  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - reuters.com",
-  "entity": "SpaceX",
-  "horizon_phrase": "this month",
-  "horizon": null,
-  "horizon_precision": "unknown",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
-  "first_seen": "2026-09-14",
-  "topics": [
-   "starship",
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-25",
-  "times_seen": 3
  },
  {
   "statement": "Cathie Wood Projects $10 Trillion In SpaceX Starship Revenue By 2030 - Investor's Business Daily",
