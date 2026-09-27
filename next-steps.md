@@ -3,7 +3,7 @@ name: hangar
 type: maintain
 category: building
 tier: 02-Maintain
-updated: 2026-09-12
+updated: 2026-09-27
 url: https://gcicc.github.io/hangar/
 note: moved from 01-Active-Projects 2026-09-07
 ---
@@ -18,22 +18,23 @@ stated ambition against measured reality, refreshed on a schedule.
 ## Where it stands
 
 `python run.py` builds `docs/index.html` from six sources, each on its own
-refresh cadence. 31 tests pass, ruff clean. Last full build 2026-09-12.
+refresh cadence. 31 tests pass, ruff clean. Last refresh 2026-09-27 21:20 UTC
+(manual dispatch of the scheduled workflow).
 
-Working now:
+Working now (rows marked † last read 2026-09-12; the rest 2026-09-27):
 
 | Panel | Source | State |
 |---|---|---|
-| Precision clock / next launch | Launch Library 2 | Falcon 9 / O3b mPower 11-13, NET 2026-09-13 18:49Z, MIN precision |
-| Manifest | Launch Library 2 | 29 scheduled, 20 upcoming + 200 previous fetched |
-| Range map | LL2 pads + `sites.py` | 49 pads, 26 facilities, 8,915 Supercharger sites (84,102 stalls), 4 toggleable layers |
-| Commitments board — TRACKED lane | curated + live metric | 4 tracked, all currently UNMEASURED |
-| Commitments board — CLAIMED lane | headline regex + X posts | 15 claims detected from 1,243 headlines |
-| Starlink fleet + growth | CelesTrak | 11,130 in orbit, median 465.6 km, 2019–2026 curve |
-| Tesla filed financials | SEC XBRL | 19 quarters revenue, 66 net income, 64 R&D |
-| Quotes | Yahoo | SPCX 151.21, TSLA 365.44, 1-year series |
-| Dispatch (news) | 22 RSS feeds | 48 shown from 1,243 deduped |
-| Measured history | own ledger | 9 metrics, 2 observation days (2026-09-06, 2026-09-12) |
+| Precision clock / next launch | Launch Library 2 | Starship V3 / Flight 14 (Starlink Group 31-1), NET 2026-09-28 12:15Z, Go, MIN precision |
+| Manifest | Launch Library 2 | 20 upcoming + 200 previous fetched; SpaceX 46% of sampled orbital launches |
+| Range map | LL2 pads + `sites.py` | 50 pads, 16 facilities, 8,967 open Supercharger sites (84,653 stalls), 4 toggleable layers |
+| Commitments board — TRACKED lane | curated + live metric | 4 tracked, all UNMEASURED † |
+| Commitments board — CLAIMED lane | headline regex + X posts | 44 claims detected |
+| Starlink fleet + growth | CelesTrak | 11,131 in orbit, median 465.6 km, 2019–2026 curve |
+| Tesla filed financials | SEC XBRL | 19 quarters revenue, 66 net income, 64 R&D † |
+| Quotes | Yahoo | SPCX 151.21, TSLA 365.44, 1-year series † |
+| Dispatch (news) | 22 RSS feeds | 48 shown from 1,243 deduped † |
+| Measured history | own ledger | 9 metrics; 17 daily observations 2026-09-06 → 2026-09-27 |
 
 The 2026-09-06 Launch Library 429 outage has cleared. Launches, manifest, pad
 map and the precision clock all populate, and `sites.py` is written and
@@ -41,9 +42,14 @@ cached weekly. Nothing is unpopulated.
 
 ## Next task
 
-Confirm the first scheduled refresh commits cleanly. The workflow fires every
-two hours on `main`; check that the bot commit lands and `docs/index.html`
-updates without a push failure.
+Decide blocker 1 (X collector). Everything else is running unattended.
+
+Resolved 2026-09-27: the scheduled refresh commits cleanly. 77 of 79 runs since
+2026-09-12 succeeded; both failures (2026-09-13, 2026-09-24) were GitHub
+returning HTTP 500 on `git push`, and the next run recovered. GitHub throttles
+the `0 */2 * * *` cron: it actually fires 4–6 times a day, not 12. That is
+inside every source's `max_age` except news/launches/quotes (2h), which
+therefore refresh every ~4–5h in practice.
 
 ## Blockers
 
