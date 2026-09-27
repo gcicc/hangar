@@ -29,7 +29,7 @@ Working now (rows marked † last read 2026-09-12; the rest 2026-09-27):
 | Manifest | Launch Library 2 | 20 upcoming + 200 previous fetched; SpaceX 46% of sampled orbital launches |
 | Range map | LL2 pads + `sites.py` | 50 pads, 16 facilities, 8,967 open Supercharger sites (84,653 stalls), 4 toggleable layers |
 | Commitments board — TRACKED lane | curated + live metric | 4 tracked, all UNMEASURED † |
-| Commitments board — CLAIMED lane | headline regex + X posts | 44 claims detected |
+| Commitments board — CLAIMED lane | headline regex + X posts | 23 claims after dedupe (was 44: syndicated copies, retrospectives, third-party forecasts) |
 | Starlink fleet + growth | CelesTrak | 11,131 in orbit, median 465.6 km, 2019–2026 curve |
 | Tesla filed financials | SEC XBRL | 19 quarters revenue, 66 net income, 64 R&D † |
 | Quotes | Yahoo | SPCX 151.21, TSLA 365.44, 1-year series † |
@@ -42,7 +42,18 @@ cached weekly. Nothing is unpopulated.
 
 ## Next task
 
-Decide blocker 1 (X collector). Everything else is running unattended.
+Seed the TRACKED lane with sourced targets that resolve against metrics the
+page already measures (`starlink_in_orbit`, `spacex_launches_12mo`,
+`supercharger_sites`, `supercharger_stalls`, `people_in_space`). All 4 current
+rows are UNMEASURED, so the page's thesis panel has no measured row. Each entry
+needs a statement, who said it, when, and a source URL — Greg's to supply, never
+from recollection. Then decide blocker 1 (X collector).
+
+Done 2026-09-27 (portal pass): hero globe with the Starlink sample propagated
+in-browser (two-body + J2; median ~11 km from SGP4 at +24 h), promise horizon,
+final-24h bar, masthead source lights, headline ticker, command bar (`/`),
+boot sequence, HUD styling. Fixed: quote "today" was a 1-year change; claims
+duplicated per outlet; stat tiles clipped at 1440px; phone overflow.
 
 Resolved 2026-09-27: the scheduled refresh commits cleanly. 77 of 79 runs since
 2026-09-12 succeeded; both failures (2026-09-13, 2026-09-24) were GitHub
