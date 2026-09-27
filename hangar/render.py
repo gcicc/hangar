@@ -5,10 +5,10 @@ CSS, JavaScript and the data are all inlined so the page opens from a ``file://`
 URL with no server and no fetches of its own - which is also what lets the
 refresh job and the page be completely decoupled.
 
-The one external dependency is the map tile layer, loaded lazily and only when
-the map scrolls into view. That is deliberate and it is why this page targets
-GitHub Pages rather than a Claude Artifact: the Artifact CSP blocks tile
-requests silently.
+External requests are libraries and geography only - never data: map tiles
+(built when the map scrolls into view), the globe's d3/topojson scripts and
+coastline file, and fonts. The tiles are why this page targets GitHub Pages
+rather than a Claude Artifact: the Artifact CSP blocks tile requests silently.
 """
 
 from __future__ import annotations

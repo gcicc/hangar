@@ -15,6 +15,12 @@
      cheaper trade. -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<!-- The hero globe: d3-geo for the orthographic projection and horizon clipping,
+     topojson for the coastline file. Pinned versions. If any of these fail the
+     globe panel says so and the rest of the page is unaffected. -->
+<script src="https://cdn.jsdelivr.net/npm/d3-array@3.2.4/dist/d3-array.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-geo@3.1.1/dist/d3-geo.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
 <style>{{ styles }}</style>
 </head>
 <body>
@@ -22,6 +28,7 @@
 <header class="bar">
   <h1>Hangar</h1>
   <span class="sub" id="bar-sub">range board</span>
+  <div class="bus" id="bus" aria-label="Source status"></div>
   <nav>
     <a href="#board">Schedule</a>
     <a href="#growth">Growth</a>
@@ -29,16 +36,24 @@
     <a href="#range">Range</a>
     <a href="#dispatch">Dispatch</a>
     <a href="#" id="theme" role="button">Light</a>
+    <a href="#" id="cmd-open" role="button" title="Command bar (press /)">/</a>
   </nav>
 </header>
 
+<div class="ticker" id="ticker" aria-label="Latest headlines"></div>
+
 <div class="hero" id="hero">
-  <div>
+  <div class="hero-l">
     <div class="clock-label" id="clock-label">Next launch</div>
     <div class="clock" id="clock"></div>
+    <div class="window" id="window" hidden><div class="fill" id="window-fill"></div><span id="window-label"></span></div>
     <div class="precision" id="precision"></div>
+    <div class="mission" id="mission"></div>
   </div>
-  <div class="mission" id="mission"></div>
+  <div class="globe-wrap hud">
+    <div id="globe"></div>
+    <div class="globe-cap" id="globe-cap"></div>
+  </div>
 </div>
 
 <div class="rail" id="rail"></div>

@@ -53,9 +53,16 @@ Three kinds of row, never mixed:
   from recollection; a row without a source does not belong in it.
 - **CLAIMED** — detected automatically from headlines: a commitment verb, plus a
   time horizon, plus one of the two companies, minus anything reading as
-  speculation. Roughly 0.6% of headlines qualify. These are candidates, shown as
-  what somebody said, cited and linked — never as verified fact.
+  speculation, named third-party forecasts (Wedbush, Cathie Wood, ...), and
+  retrospectives whose date is already past. One story syndicated to several
+  outlets is one claim; the badge counts distinct outlets. These are candidates,
+  shown as what somebody said, cited and linked — never as verified fact.
 - **Nothing else.** No target is ever invented.
+
+The **promise horizon** puts every dated row on one square-root time axis, one
+lane per topic, with a NOW line. A deadline behind NOW is ringed red as
+"deadline passed — outcome unverified", never as missed: the page has no
+evidence either way.
 
 Zero LLM calls anywhere in the pipeline, matching GRUDGE and clintrialist-report:
 deterministic and free.
@@ -89,7 +96,26 @@ instead:
   cycle, so technical levels drawn from it are weak evidence.
 - **The countdown** — Launch Library reports how precisely a NET date is actually
   known. The clock never shows finer resolution than the data supports: a
-  month-precision NET does not get a ticking seconds readout.
+  month-precision NET does not get a ticking seconds readout. The final-24-hour
+  bar appears only for minute-or-better precision.
+- **Quotes "today"** — computed from the prior session's close in the series.
+  Yahoo's `chartPreviousClose` is the close before the *chart range* opens, a
+  year ago at `range=1y`; using it made a one-year change read as a daily one.
+- **The globe** — Starlink positions are propagated in the browser from the
+  CelesTrak element sets for a 600-satellite sample: two-body motion plus J2
+  node and perigee drift, not SGP4. Checked against SGP4 on 20 satellites:
+  median error ~11 km at epoch and at +24 h, ~43 km at +72 h; low-altitude
+  satellites where drag dominates reach thousands of km by +72 h. At globe
+  scale a pixel is ~40 km. The caption says it is not SGP4 and that the clock
+  runs at ×60 unless switched to real time.
+
+## External requests
+
+The data is inlined; the page never calls a data API. It does load, from CDNs:
+Leaflet and its basemap tiles (range map), d3-geo, d3-array and topojson-client
+(globe), the `world-atlas` 110m coastline file (globe), and Google Fonts. Every
+one fails soft: the panel that needed it says so and the rest of the page is
+unaffected.
 
 ## Layout
 

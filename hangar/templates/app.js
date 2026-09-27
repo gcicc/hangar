@@ -1,9 +1,9 @@
 /* HANGAR page script.
  *
  * Reads the inlined payload and renders. The page makes no data requests of its
- * own - the only network traffic is map tiles, loaded lazily when the map
- * scrolls into view, and web fonts. That is what lets a refresh job and the
- * page be completely decoupled.
+ * own - network traffic is libraries and geography only: map tiles, the globe's
+ * coastline file, CDN scripts and web fonts. That is what lets a refresh job
+ * and the page be completely decoupled.
  */
 (function () {
   "use strict";
@@ -112,6 +112,19 @@
         rem -= v * nd.k;
         nd.n.textContent = String(v).padStart(2, "0");
       });
+
+      // The final-24-hours bar drains toward T-0. Shown only when the NET is
+      // known to the minute or better - draining a bar toward a date that is
+      // only good to the day would be exactly the false precision the clock
+      // refuses elsewhere.
+      var win = $("window");
+      if (!past && diff < 86400000 && rank <= 1) {
+        win.hidden = false;
+        $("window-fill").style.width = (diff / 86400000 * 100).toFixed(2) + "%";
+        $("window-label").textContent = "final 24 h · " + Math.round(diff / 864000) + "% remaining";
+      } else {
+        win.hidden = true;
+      }
     }
     tick();
     // Ticking every second is honest only when the data resolves to seconds.
@@ -136,7 +149,11 @@
     var st = el("div");
     var tag = el("span", "tag " + (String(L.status || "").toLowerCase().indexOf("go") >= 0 ? "go" : ""), L.status_name || L.status || "status unknown");
     st.appendChild(tag);
-    if (L.webcast_live) st.appendChild(el("span", "tag go", "live"));
+    if (L.webcast_live) {
+      var live = el("a", "tag go pulse", "webcast live");
+      if (L.url) { live.href = L.url; live.target = "_blank"; live.rel = "noopener"; }
+      st.appendChild(live);
+    }
     meta.appendChild(st);
     row("VEHICLE", L.rocket);
     row("PAD", L.pad);
@@ -348,6 +365,8 @@
     intro.style.cssText = "max-width:70ch;color:var(--ink-2);margin:0 0 1.2rem;font-size:0.88rem";
     intro.textContent = "Stated ambition against measured reality. TRACKED rows are curated and carry a source plus a live metric, so status is computed. CLAIMED rows are detected automatically from headlines — they are what somebody said, cited and linked, not verified facts.";
     host.appendChild(intro);
+    var hz = horizonChart(B);
+    if (hz) host.appendChild(hz);
 
     if (B.tracked.length) {
       var t = el("div", "col");
@@ -424,6 +443,132 @@
     });
     c.appendChild(crack);
     host.appendChild(c);
+  }
+
+  /* ---------- the promise horizon --------------------------------------
+   * Every dated promise on one time axis, one lane per topic, with a NOW line.
+   * Deadlines crowd into the next few months while a handful sit years out,
+   * so the axis is square-root time: near-term stays legible and the far
+   * points still fit. Tick labels carry the real dates.
+   *
+   * A deadline behind NOW is ringed red and says "deadline passed - outcome
+   * unverified". It is never labelled missed: the page has no evidence either
+   * way, and a promise can be kept without a headline saying so.
+   */
+
+  var TOPIC_LABEL = {
+    starship: "Starship", starlink: "Starlink", launch: "Launch", optimus: "Optimus",
+    autonomy: "Autonomy", production: "Production", energy: "Energy",
+    regulatory: "Regulatory", money: "Money", other: "Other"
+  };
+
+  function horizonChart(B) {
+    var today = new Date(D.meta.generated.slice(0, 10) + "T00:00:00Z");
+    var pts = [];
+    (B.tracked || []).forEach(function (r) {
+      if (r.target_date) pts.push({ d: r.target_date, lane: "tracked", text: r.statement, link: r.source_url, tracked: true });
+    });
+    (B.claims || []).forEach(function (r) {
+      if (!r.horizon) return;
+      var t = (r.topics && r.topics[0]) || "other";
+      pts.push({ d: r.horizon, lane: t, text: r.statement, link: r.link });
+    });
+    if (pts.length < 2) return null;
+
+    var DAY = 86400000;
+    var start = new Date(today.getTime() - 45 * DAY);
+    var last = pts.reduce(function (m, p) { return p.d > m ? p.d : m; }, "");
+    var endY = Math.min(2032, Math.max(today.getUTCFullYear() + 2, Number(last.slice(0, 4)) + 1));
+    var end = new Date(Date.UTC(endY, 0, 1));
+    var span = end - start;
+
+    var lanes = [];
+    if (pts.some(function (p) { return p.tracked; })) lanes.push("tracked");
+    pts.forEach(function (p) { if (lanes.indexOf(p.lane) < 0) lanes.push(p.lane); });
+
+    var W = 1200, LX = 110, RX = 16, LH = 30, TOP = 26;
+    var H = TOP + lanes.length * LH + 30;
+    function x(dt) {
+      var f = Math.max(0, Math.min(1, (dt - start) / span));
+      return LX + Math.sqrt(f) * (W - LX - RX);
+    }
+
+    var svg = svgEl("svg", { viewBox: "0 0 " + W + " " + H, role: "img",
+      "aria-label": "Promised deadlines on a time axis, one lane per topic" });
+
+    // Year ticks, plus month ticks inside the first year where the axis is widest.
+    var ticks = [];
+    for (var m = 1; m <= 12; m += 1) {
+      var md = new Date(Date.UTC(today.getUTCFullYear(), today.getUTCMonth() + m, 1));
+      if (md.getUTCMonth() === 0) continue;
+      if (m <= 6 && m % 2 === 1) ticks.push({ d: md, label: md.toISOString().slice(0, 7) });
+    }
+    for (var y = today.getUTCFullYear() + 1; y <= endY; y++) {
+      ticks.push({ d: new Date(Date.UTC(y, 0, 1)), label: String(y) });
+    }
+    // Year ticks take priority; a month tick too close to any kept tick is
+    // dropped rather than drawn over it.
+    ticks.sort(function (a, b) { return (b.label.length === 4) - (a.label.length === 4); });
+    var kept = [];
+    ticks.forEach(function (t) {
+      var tx = x(t.d);
+      if (kept.some(function (k) { return Math.abs(k - tx) < 72; })) return;
+      kept.push(tx);
+      svg.appendChild(svgEl("line", { class: "tick", x1: tx, y1: TOP - 6, x2: tx, y2: H - 22 }));
+      var lab = svgEl("text", { x: tx, y: H - 6, "text-anchor": "middle" });
+      lab.textContent = t.label;
+      svg.appendChild(lab);
+    });
+
+    lanes.forEach(function (ln, i) {
+      var ly = TOP + i * LH + LH / 2;
+      svg.appendChild(svgEl("line", { class: "lane", x1: LX, y1: ly, x2: W - RX, y2: ly }));
+      var t = svgEl("text", { x: LX - 12, y: ly + 4, "text-anchor": "end" });
+      t.textContent = ln === "tracked" ? "TRACKED" : (TOPIC_LABEL[ln] || ln).toUpperCase();
+      if (ln === "tracked") t.setAttribute("fill", "var(--sodium)");
+      svg.appendChild(t);
+    });
+
+    var nx = x(today);
+    svg.appendChild(svgEl("line", { class: "now", x1: nx, y1: TOP - 10, x2: nx, y2: H - 22 }));
+    var nl = svgEl("text", { class: "now-l", x: nx + 5, y: TOP - 12 });
+    nl.textContent = "NOW";
+    svg.appendChild(nl);
+
+    // Several promises can share a lane and a deadline ("by end of 2027");
+    // they fan out vertically rather than stacking invisibly on one point.
+    var seen = {};
+    var passed = 0;
+    pts.forEach(function (p) {
+      var dt = new Date(p.d + "T00:00:00Z");
+      var li = lanes.indexOf(p.lane);
+      var key = li + "|" + p.d;
+      var k = seen[key] = (seen[key] || 0) + 1;
+      var off = k === 1 ? 0 : (k % 2 ? 1 : -1) * Math.ceil((k - 1) / 2) * 6;
+      var cx = x(dt), cy = TOP + li * LH + LH / 2 + off;
+      var isPast = dt < today;
+      if (isPast) passed++;
+      var a = svgEl("a", p.link ? { href: p.link, target: "_blank", rel: "noopener" } : {});
+      var colour = p.tracked ? "var(--sodium)" : "var(--t-" + p.lane + ", var(--ink-muted))";
+      var mark = p.tracked
+        ? svgEl("rect", { class: "pt", x: cx - 5, y: cy - 5, width: 10, height: 10,
+            transform: "rotate(45 " + cx + " " + cy + ")", fill: colour })
+        : svgEl("circle", { class: "pt" + (isPast ? " passed" : ""), cx: cx, cy: cy, r: 5.5, fill: colour });
+      var title = svgEl("title", {});
+      title.textContent = p.d + " — " + p.text + (isPast ? " (deadline passed — outcome unverified)" : "");
+      mark.appendChild(title);
+      a.appendChild(mark);
+      svg.appendChild(a);
+    });
+
+    var wrap = el("div", "horizon hud");
+    wrap.appendChild(el("h3", "", "Promise horizon"));
+    wrap.firstChild.style.cssText = "font-family:var(--mono);font-size:0.66rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--sodium);margin:0 0 0.6rem";
+    wrap.appendChild(svg);
+    wrap.appendChild(el("div", "cap",
+      pts.length + " dated promises · square-root time axis · hover for the headline, click for the source" +
+      (passed ? " · " + passed + " red-ringed: deadline passed, outcome unverified" : "")));
+    return wrap;
   }
 
   /* ---------- charts ---------------------------------------------------
@@ -574,7 +719,7 @@
   }
 
   function panel(title, node, note) {
-    var p = el("div", "col");
+    var p = el("div", "col hud");
     p.appendChild(el("h3", "", title));
     p.appendChild(node);
     if (note) {
@@ -865,6 +1010,440 @@
       (sc.note ? '<span style="flex-basis:100%;opacity:.75">' + sc.note + '</span>' : "");
   }
 
+  /* ---------- the globe ------------------------------------------------
+   * Orthographic Earth with the Starlink sample flying over it, launch pads
+   * and factories on the surface, and the next launch pad ringed.
+   *
+   * Satellite positions are propagated in the browser from the CelesTrak
+   * element sets already in the payload: two-body motion plus the J2 drift of
+   * the ascending node and perigee, which dominates for a LEO shell over a few
+   * days. It is not SGP4 - drag and higher harmonics are ignored - so positions
+   * are good for a picture of the constellation's geometry, not for tracking a
+   * particular satellite. The caption says so, and says the clock is sped up.
+   */
+
+  var LAND_URL = "https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/land-110m.json";
+  var MU = 398600.4418, RE = 6378.137, R_MEAN = 6371, J2 = 1.08263e-3;
+  var RAD = Math.PI / 180;
+
+  function orbitModel(s) {
+    var n = s.mm * 2 * Math.PI / 86400;
+    var a = Math.cbrt(MU / (n * n));
+    var inc = s.inc * RAD, e = s.ecc || 0;
+    var p = a * (1 - e * e);
+    var k = 1.5 * n * J2 * (RE / p) * (RE / p);
+    return {
+      // CelesTrak epochs carry no zone and six fractional digits; both trip
+      // Date.parse in some browsers.
+      t0: Date.parse(String(s.epoch).slice(0, 23) + "Z"),
+      n: n, a: a, inc: inc, e: e,
+      raan: s.raan * RAD, argp: s.argp * RAD, ma: s.ma * RAD,
+      dRaan: -k * Math.cos(inc),
+      dArgp: 0.5 * k * (5 * Math.cos(inc) * Math.cos(inc) - 1)
+    };
+  }
+
+  function gmst(ms) {
+    var d = ms / 86400000 + 2440587.5 - 2451545.0;
+    return ((280.46061837 + 360.98564736629 * d) % 360) * RAD;
+  }
+
+  // Sub-satellite point [lon, lat] in degrees, plus orbital radius in Earth radii.
+  function subpoint(o, ms, theta) {
+    var dt = (ms - o.t0) / 1000;
+    var M = o.ma + o.n * dt;
+    var u = o.argp + o.dArgp * dt + M + 2 * o.e * Math.sin(M);
+    var W = o.raan + o.dRaan * dt;
+    var cu = Math.cos(u), su = Math.sin(u), cW = Math.cos(W), sW = Math.sin(W);
+    var ci = Math.cos(o.inc), si = Math.sin(o.inc);
+    var x = cW * cu - sW * su * ci, y = sW * cu + cW * su * ci, z = su * si;
+    var lon = Math.atan2(y, x) - theta;
+    return [((lon / RAD) % 360 + 540) % 360 - 180, Math.asin(z) / RAD,
+      o.a * (1 - o.e * Math.cos(M)) / R_MEAN];
+  }
+
+  function renderGlobe() {
+    var host = $("globe"), cap = $("globe-cap");
+    if (!window.d3 || !d3.geoOrthographic || !d3.geoRotation) {
+      host.classList.add("off");
+      host.innerHTML = '<div style="padding:1.5rem;font-family:var(--mono);font-size:0.75rem;color:var(--ink-muted)">' +
+        "Globe library did not load, so the globe cannot draw. Pads, facilities and the " +
+        "Starlink fleet are all still in the Range map and Growth panels below.</div>";
+      return;
+    }
+
+    var con = D.constellation || {};
+    var orbits = (con.sample || []).filter(function (s) { return s.mm && s.epoch; }).map(orbitModel)
+      .filter(function (o) { return isFinite(o.t0) && isFinite(o.a); });
+    var lp = D.launches || {}, pads = lp.pads || [];
+    var facilities = (D.sites || {}).facilities || [];
+    var next = lp.next;
+    var reduced = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+    var speed = reduced ? 1 : 60;
+    var simBase = Date.now(), realBase = simBase;
+    function simNow() { return simBase + (Date.now() - realBase) * speed; }
+
+    var canvas = document.createElement("canvas");
+    canvas.setAttribute("role", "img");
+    canvas.setAttribute("aria-label", "Globe showing " + orbits.length +
+      " sampled Starlink satellites, launch pads and company facilities");
+    host.appendChild(canvas);
+    var ctx = canvas.getContext("2d");
+    var proj = d3.geoOrthographic().clipAngle(90).precision(0.6);
+    var path = d3.geoPath(proj, ctx);
+    var grat = d3.geoGraticule10();
+    var sphere = { type: "Sphere" };
+    var land = null, landFailed = !window.topojson;
+    var size = 0, R = 0, cx = 0, cy = 0, rotator = null;
+    var rot = [-(next && next.lon != null ? next.lon : -80), -22, 0];
+
+    var C = {};
+    function readColours() {
+      var cs = getComputedStyle(document.documentElement);
+      ["globe-ocean", "globe-land", "globe-coast", "globe-grat", "globe-limb", "sat", "sodium", "ink-muted"]
+        .forEach(function (k) { C[k] = cs.getPropertyValue("--" + k).trim(); });
+    }
+    readColours();
+
+    function resize() {
+      var w = host.clientWidth;
+      if (!w) return;
+      var dpr = Math.min(2, window.devicePixelRatio || 1);
+      size = w;
+      canvas.width = Math.round(w * dpr);
+      canvas.height = Math.round(w * dpr);
+      canvas.style.width = canvas.style.height = w + "px";
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      // 0.8 leaves room for the shell: Starlink flies at ~1.09 Earth radii.
+      R = w / 2 * 0.8;
+      cx = cy = w / 2;
+      proj.scale(R).translate([cx, cy]);
+    }
+
+    // Screen position of a point at `ratio` Earth radii. z > 0 is the near
+    // hemisphere; a far-side point is still visible if it clears the disk.
+    function place(lon, lat, ratio) {
+      var q = rotator([lon, lat]), l = q[0] * RAD, f = q[1] * RAD;
+      var x = Math.cos(f) * Math.sin(l), y = Math.sin(f), z = Math.cos(f) * Math.cos(l);
+      return { x: cx + R * ratio * x, y: cy - R * ratio * y, z: z,
+        rr: Math.sqrt(x * x + y * y) * ratio };
+    }
+
+    function draw() {
+      if (!size) return;
+      proj.rotate(rot);
+      rotator = d3.geoRotation(rot);
+      ctx.clearRect(0, 0, size, size);
+
+      var g = ctx.createRadialGradient(cx, cy, R * 0.97, cx, cy, R * 1.16);
+      g.addColorStop(0, C["globe-limb"]);
+      g.addColorStop(1, "rgba(0,0,0,0)");
+      ctx.fillStyle = g;
+      ctx.beginPath(); ctx.arc(cx, cy, R * 1.16, 0, 2 * Math.PI); ctx.fill();
+
+      ctx.beginPath(); path(sphere); ctx.fillStyle = C["globe-ocean"]; ctx.fill();
+      ctx.beginPath(); path(grat); ctx.strokeStyle = C["globe-grat"]; ctx.lineWidth = 1; ctx.stroke();
+      if (land) {
+        ctx.beginPath(); path(land);
+        ctx.fillStyle = C["globe-land"]; ctx.fill();
+        ctx.strokeStyle = C["globe-coast"]; ctx.lineWidth = 0.6; ctx.stroke();
+      }
+
+      var t = simNow(), th = gmst(t), near = [], far = [];
+      for (var i = 0; i < orbits.length; i++) {
+        var s = subpoint(orbits[i], t, th);
+        var p = place(s[0], s[1], s[2]);
+        if (p.z > 0) near.push(p); else if (p.rr > 1) far.push(p);
+      }
+      ctx.fillStyle = C.sat;
+      ctx.globalAlpha = 0.3;
+      far.forEach(function (p) { ctx.fillRect(p.x - 0.8, p.y - 0.8, 1.6, 1.6); });
+
+      ctx.globalAlpha = 1;
+      pads.forEach(function (pd) {
+        var p = place(pd.lon, pd.lat, 1);
+        if (p.z <= 0) return;
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, pd.spacex ? 3 : 2, 0, 2 * Math.PI);
+        ctx.fillStyle = pd.spacex ? "#ffa14a" : C["ink-muted"];
+        ctx.fill();
+      });
+      facilities.forEach(function (fc) {
+        var p = place(fc.lon, fc.lat, 1);
+        if (p.z <= 0) return;
+        ctx.fillStyle = fc.co === "SpaceX" ? "#8bd3ff" : "#ff8f6b";
+        ctx.fillRect(p.x - 2.5, p.y - 2.5, 5, 5);
+      });
+
+      if (next && next.lat != null) {
+        var np = place(next.lon, next.lat, 1);
+        if (np.z > 0) {
+          var ph = (Date.now() % 2000) / 2000;
+          ctx.strokeStyle = C.sodium;
+          ctx.lineWidth = 1.5;
+          ctx.globalAlpha = reduced ? 1 : 1 - ph;
+          ctx.beginPath(); ctx.arc(np.x, np.y, reduced ? 9 : 5 + ph * 14, 0, 2 * Math.PI); ctx.stroke();
+          ctx.globalAlpha = 1;
+          ctx.font = "10px 'IBM Plex Mono', monospace";
+          ctx.fillStyle = C.sodium;
+          ctx.fillText("NEXT · " + (next.pad_location || next.pad || "").split(",")[0], np.x + 12, np.y - 8);
+        }
+      }
+
+      ctx.fillStyle = C.sat;
+      ctx.globalAlpha = 0.9;
+      near.forEach(function (p) { ctx.fillRect(p.x - 1, p.y - 1, 2, 2); });
+      ctx.globalAlpha = 1;
+    }
+
+    // Caption: what is on the globe, how it was computed, and the sim clock.
+    var clockSpan = el("span");
+    var btn = el("button", "", "");
+    btn.type = "button";
+    function updateCap() {
+      btn.textContent = speed === 1 ? "speed up ×60" : "real time";
+    }
+    btn.addEventListener("click", function () {
+      simBase = simNow();
+      realBase = Date.now();
+      speed = speed === 1 ? 60 : 1;
+      updateCap();
+    });
+    cap.appendChild(document.createTextNode(
+      "STARLINK " + orbits.length + " of " + fmt(con.in_orbit) + " in orbit, evenly sampled · " +
+      "two-body + J2 from CelesTrak elements, not SGP4 · "));
+    cap.appendChild(clockSpan);
+    cap.appendChild(btn);
+    var lg = el("div");
+    lg.innerHTML = '<span style="color:#ffa14a">●</span> SpaceX pad &nbsp;<span>●</span> other pad &nbsp;' +
+      '<span style="color:#8bd3ff">■</span> SpaceX site &nbsp;<span style="color:#ff8f6b">■</span> Tesla site &nbsp;' +
+      '<span style="color:var(--sodium)">◯</span> next launch · drag to turn';
+    cap.appendChild(lg);
+    updateCap();
+    function tickCap() {
+      clockSpan.textContent = "sim " + new Date(simNow()).toISOString().slice(0, 19).replace("T", " ") +
+        "Z" + (speed === 1 ? " (live)" : " ×60") + " ";
+    }
+    tickCap();
+    setInterval(tickCap, 1000);
+
+    if (!landFailed) {
+      fetch(LAND_URL).then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+        .then(function (topo) { land = topojson.feature(topo, topo.objects.land); draw(); })
+        .catch(function () {
+          lg.appendChild(document.createTextNode(" · coastlines did not load"));
+        });
+    }
+
+    var dragging = false, idleUntil = 0, from = null;
+    host.addEventListener("pointerdown", function (e) {
+      dragging = true;
+      from = { x: e.clientX, y: e.clientY, r: rot.slice() };
+      try { host.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ }
+    });
+    host.addEventListener("pointermove", function (e) {
+      if (!dragging) return;
+      var k = 180 / (Math.PI * R);
+      rot[0] = from.r[0] + (e.clientX - from.x) * k;
+      rot[1] = Math.max(-80, Math.min(80, from.r[1] - (e.clientY - from.y) * k));
+      if (reduced) draw();
+    });
+    function release() { dragging = false; idleUntil = Date.now() + 5000; }
+    host.addEventListener("pointerup", release);
+    host.addEventListener("pointercancel", release);
+
+    document.addEventListener("hangar:theme", function () { readColours(); draw(); });
+    window.addEventListener("resize", function () { resize(); draw(); });
+    resize();
+    draw();
+
+    if (reduced) {
+      setInterval(draw, 1000);
+      return;
+    }
+    var last = performance.now();
+    function frame(now) {
+      var dt = Math.min(100, now - last);
+      last = now;
+      if (!document.hidden) {
+        var r = host.getBoundingClientRect();
+        if (r.bottom > 0 && r.top < window.innerHeight) {
+          if (!dragging && Date.now() > idleUntil) rot[0] += dt * 0.004;
+          draw();
+        }
+      }
+      requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
+  }
+
+  /* ---------- source bus and ticker ------------------------------------ */
+
+  function renderBus() {
+    var host = $("bus"), st = D.status || {};
+    Object.keys(st).forEach(function (k) {
+      var s = st[k];
+      var sp = el("span", s.stale ? "stale" : "");
+      sp.appendChild(el("i"));
+      sp.appendChild(document.createTextNode(k + " " + s.age));
+      sp.title = k + (s.stale ? " — STALE" : " — fresh") + ", last success " + s.age + " ago";
+      host.appendChild(sp);
+    });
+  }
+
+  function renderTicker() {
+    var host = $("ticker"), news = D.news;
+    var items = [];
+    if (news && news.sections) {
+      news.order.forEach(function (k) {
+        (news.sections[k] || []).forEach(function (e) { items.push(e); });
+      });
+    }
+    if (!items.length) { host.remove(); return; }
+    items.sort(function (a, b) { return String(b.published).localeCompare(String(a.published)); });
+    items = items.slice(0, 14);
+    var track = el("div", "track");
+    // Two copies make the crawl seamless: the track slides exactly half its width.
+    [0, 1].forEach(function (copy) {
+      items.forEach(function (e) {
+        var a = el("a", copy ? "dup" : "");
+        a.href = e.link; a.target = "_blank"; a.rel = "noopener";
+        if (copy) { a.tabIndex = -1; a.setAttribute("aria-hidden", "true"); }
+        a.appendChild(el("b", "", timeAgo(e.published).replace(" ago", "")));
+        a.appendChild(document.createTextNode(e.title));
+        track.appendChild(a);
+      });
+    });
+    track.style.setProperty("--dur", Math.max(60, items.length * 7) + "s");
+    host.appendChild(track);
+  }
+
+  /* ---------- boot sequence ---------------------------------------------
+   * Once per browser session, the board "comes online": each source reports
+   * in with its real age and state from the payload. Theatre, but every line
+   * is true. Skipped under reduced motion; any click or key dismisses it.
+   */
+
+  function boot() {
+    var reduced = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var done = false;
+    try { done = sessionStorage.getItem("hangar-booted") === "1"; } catch (e) { done = true; }
+    if (reduced || done) return;
+    try { sessionStorage.setItem("hangar-booted", "1"); } catch (e) { /* ignore */ }
+
+    var ov = el("div", "boot"), pre = el("pre");
+    ov.setAttribute("aria-hidden", "true");
+    ov.appendChild(pre);
+    document.body.appendChild(ov);
+
+    var st = D.status || {}, lines = [["hi", "HANGAR // RANGE BOARD"],
+      ["", "build " + D.meta.generated.replace("T", " ").slice(0, 19) + " UTC"]];
+    Object.keys(st).forEach(function (k) {
+      var s = st[k];
+      lines.push([s.stale ? "bad" : "ok",
+        "LINK " + (k + " ").padEnd(16, ".") + (s.stale ? " STALE " : " OK    ") + s.age]);
+    });
+    var c = D.constellation;
+    if (c && c.sample) lines.push(["", "TRACK starlink ... " + c.sample.length + " of " + fmt(c.in_orbit) + " element sets"]);
+    var n = D.launches && D.launches.next;
+    if (n) lines.push(["hi", "T-MINUS  " + (n.name || "")]);
+
+    function finish() {
+      if (ov.classList.contains("gone")) return;
+      ov.classList.add("gone");
+      setTimeout(function () { ov.remove(); }, 450);
+    }
+    ov.addEventListener("click", finish);
+    document.addEventListener("keydown", finish, { once: true });
+    var i = 0;
+    (function step() {
+      if (ov.classList.contains("gone")) return;
+      if (i < lines.length) {
+        pre.appendChild(el("span", lines[i][0], lines[i][1] + "\n"));
+        i++;
+        setTimeout(step, 110);
+      } else {
+        setTimeout(finish, 550);
+      }
+    })();
+  }
+
+  /* ---------- command bar ------------------------------------------------ */
+
+  function initCommand() {
+    var items = [
+      { label: "Next launch", hint: "top", href: "#hero" },
+      { label: "Schedule performance", hint: "promise horizon", href: "#board" },
+      { label: "Growth", hint: "charts", href: "#growth" },
+      { label: "Manifest", hint: "upcoming launches", href: "#manifest" },
+      { label: "Range", hint: "map", href: "#range" },
+      { label: "Dispatch", hint: "news", href: "#dispatch" },
+      { label: "Toggle theme", hint: "light / dark", run: function () { $("theme").click(); } }
+    ];
+    ((D.launches || {}).upcoming || []).forEach(function (L) {
+      if (L.url) items.push({ label: L.name, hint: shortDate(L.net).slice(0, 10), url: L.url });
+    });
+
+    var ov = el("div", "cmd");
+    ov.hidden = true;
+    var box = el("div", "box");
+    var input = el("input");
+    input.type = "text";
+    input.placeholder = "Jump to a section or search the manifest…";
+    input.setAttribute("aria-label", "Command bar");
+    var list = el("ul");
+    box.appendChild(input);
+    box.appendChild(list);
+    ov.appendChild(box);
+    document.body.appendChild(ov);
+
+    var shown = [], sel = 0;
+    function paint() {
+      var q = input.value.toLowerCase();
+      shown = items.filter(function (it) { return !q || it.label.toLowerCase().indexOf(q) >= 0; }).slice(0, 12);
+      sel = Math.min(sel, Math.max(0, shown.length - 1));
+      list.innerHTML = "";
+      shown.forEach(function (it, i) {
+        var li = el("li", i === sel ? "on" : "");
+        li.appendChild(el("span", "", it.label));
+        li.appendChild(el("small", "", it.hint || ""));
+        li.addEventListener("mousedown", function (e) { e.preventDefault(); sel = i; go(); });
+        list.appendChild(li);
+      });
+    }
+    function open() { ov.hidden = false; input.value = ""; sel = 0; paint(); input.focus(); }
+    function close() { ov.hidden = true; }
+    function go() {
+      var it = shown[sel];
+      close();
+      if (!it) return;
+      if (it.run) it.run();
+      else if (it.url) window.open(it.url, "_blank", "noopener");
+      else if (it.href) {
+        var t = document.querySelector(it.href);
+        if (t) t.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+    input.addEventListener("input", function () { sel = 0; paint(); });
+    input.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowDown") { sel = Math.min(shown.length - 1, sel + 1); paint(); e.preventDefault(); }
+      else if (e.key === "ArrowUp") { sel = Math.max(0, sel - 1); paint(); e.preventDefault(); }
+      else if (e.key === "Enter") { go(); e.preventDefault(); }
+      else if (e.key === "Escape") { close(); }
+    });
+    ov.addEventListener("mousedown", function (e) { if (e.target === ov) close(); });
+    document.addEventListener("keydown", function (e) {
+      var tag = (e.target && e.target.tagName) || "";
+      var typing = tag === "INPUT" || tag === "TEXTAREA" || (e.target && e.target.isContentEditable);
+      if (!typing && (e.key === "/" || ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k"))) {
+        e.preventDefault();
+        open();
+      }
+    });
+    $("cmd-open").addEventListener("click", function (e) { e.preventDefault(); open(); });
+  }
+
   /* ---------- source status -------------------------------------------- */
 
   function renderStatus() {
@@ -916,5 +1495,10 @@
   renderDispatch();
   renderMap();
   renderStatus();
+  renderBus();
+  renderTicker();
+  renderGlobe();
+  initCommand();
   initTheme();
+  boot();
 })();
