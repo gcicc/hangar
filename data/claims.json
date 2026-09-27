@@ -14,8 +14,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-09-26",
-  "times_seen": 62
+  "last_seen": "2026-09-27",
+  "times_seen": 63
  },
  {
   "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
@@ -31,8 +31,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-09-26",
-  "times_seen": 40
+  "last_seen": "2026-09-27",
+  "times_seen": 41
  },
  {
   "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - eletric-vehicles.com",
@@ -49,8 +49,8 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-09-26",
-  "times_seen": 72
+  "last_seen": "2026-09-27",
+  "times_seen": 73
  },
  {
   "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
@@ -67,8 +67,8 @@
    "launch"
   ],
   "primary": false,
-  "last_seen": "2026-09-26",
-  "times_seen": 55
+  "last_seen": "2026-09-27",
+  "times_seen": 56
  },
  {
   "statement": "SpaceX wants to launch next Starship this month (and catch it, too), Elon Musk says in 1st earnings call since historic IPO - Space",
@@ -86,8 +86,8 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-09-26",
-  "times_seen": 63
+  "last_seen": "2026-09-27",
+  "times_seen": 64
  },
  {
   "statement": "Tesla Megapack Captured 59% of Australia's New Battery Projects in 2025 - BASENOR",
@@ -103,8 +103,93 @@
    "energy"
   ],
   "primary": false,
-  "last_seen": "2026-09-26",
-  "times_seen": 16
+  "last_seen": "2026-09-27",
+  "times_seen": 17
+ },
+ {
+  "statement": "In 2018, He Was Sleeping On The Factory Floor As His Company Kept Missing Production Targets. Less Than 3 Years Later, Tesla Shareholders Had Made Over 13 Times Their Money, And Elon Musk Was The Richest Man In The World. - 24/7 Wall St.",
+  "entity": "Tesla",
+  "horizon_phrase": "In 2018",
+  "horizon": "2018-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNZHpxSzlsaWUxLWozRWYtV2Myb01kTzNGN3ZHTlpjS0RJU3U0c1drUXo3TkNPbkNJVmdRc3RKNVFvQ0M2RW9jb1BSdko2WTJncWFOWXBjSnpQbFhMXzN6S1JRdnBPa2hHVklvYUxmM2k5TnpnNnExblctMjhqa0o3V1VEWlBDbEh3a0FIMHV4aFZlM3poOFdHamZ0eGpuVndCa3p4eHJqNnFCQjJOZjhhRjF0M0Ztd1ZMQmFUMW5Db18tUl9yWFZzaWZPbk5ocnl2N3N2cHItYW5LRXI4Ynlob19fZkpWVDJPZVVpLWczVFZxS2ZxVnpWS0RjbUkyaWxIcnl6MG9ZeDJyR1AxUXhvRG1ZQW4yMnliSWtxVVpvTDhmMFIxMGZiZmNaTzNVWDZQbXRvVDBQbkRoZXFLOVE4VGF4SGI5OG04cEU5T3JhbFh6T1dlcW9pMmZBelM?oc=5",
+  "first_seen": "2026-09-26",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-27",
+  "times_seen": 5
+ },
+ {
+  "statement": "Tesla energy storage deployments jumped in \u2018crucial AI transformation year'; company expects margin compression in 2026 - Energy-Storage.News",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2026",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Energy",
+  "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNX2dkTDM3VzFxQ0F1RFhVRE5vRzlLTWg0aVYzalVqaVZCckVqdF9HeW5VM0duOVozbG90Y2VqMk4ybGlBNTlGY0lqckJUTDJXZXgzZUhBNWpYRFhMOGc1eTBuLUM0QkJ5bXdHazVmM2xVck1wNFpuRllWUGt3aG9jcFRVcDdPZmlZZ2U2d24tY0I0MTh6WmFUcWUtdUhvZDF4NVltbXcyUlgyTy1Dem1pWVBTbDljOUdTamM5MUVPaDZfblAzWDN3VGNQU3FnNWdObk9YcTlvWGtsTWtIYmR6RHJzRQ?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "energy"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-27",
+  "times_seen": 69
+ },
+ {
+  "statement": "Wells Fargo's Starlink Forecast: 47M Subscribers and $51B by 2028 - BASENOR",
+  "entity": "Starlink",
+  "horizon_phrase": "by 2028",
+  "horizon": "2028-12-31",
+  "horizon_precision": "year",
+  "quantity": "47M Subscribers",
+  "source": "Starlink",
+  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM21rdnJOYUE2dDdvbTJBby1pOF9GVEI2UUpwbUJkUGo2WDViOFMzVVdjNlRFbGlGbFJ5eVEwZWxYRE10UmVURTd6YXFBNWwyU1E5bENqcW5yd09wMUI1ajNsdmNJRVpwU2EwazhrYWNXT0poMlBWd2w5cHVySEFRM24yZV9CeGJsYXZYalM2SlNpM2NLeWVtNFByWUJFdw?oc=5",
+  "first_seen": "2026-09-24",
+  "topics": [
+   "starlink"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-27",
+  "times_seen": 11
+ },
+ {
+  "statement": "Exclusive: Tesla Optimus Commercialization Next Year Is \u2018Very Realistic,\u2019 Faraday Chairman Says - Yahoo Finance",
+  "entity": "Tesla",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWDl1cWFPRFhEbGtYMmFxa3ZZdThMZkRvZS1sQUQ1SHFpQXBoT1F3OXFtUkJWS2lJNjhWNjJyaDdfMDNLcXZGbFV2ckdpUkdfYnhCUi04ZE1YRWdBcWNCcERzN0tCUHhVZ3ZGU2c2SjEtcFVjWjZFTzlpTC1JRHFyc0xfUV82b2dBRHdLSktYVHNITV9ndHJ2Umt4UjhKWGhFQnlzNnpBd2RDVGUwTUlr?oc=5",
+  "first_seen": "2026-09-26",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-27",
+  "times_seen": 2
+ },
+ {
+  "statement": "SpaceX plans 1 more California rocket launch this month. Track liftoff - vcstar.com",
+  "entity": "SpaceX",
+  "horizon_phrase": "this month",
+  "horizon": null,
+  "horizon_precision": "unknown",
+  "quantity": null,
+  "source": "Falcon",
+  "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1p5c0RCSzJSOVhZT1Z4dU5LOFd5ZFFyZUxzM3F3aDlPcEZSTC1ZRzE2OG5YOU5iTExnNlY5RmlSYURvY0cwekt0bGhlNzI2SEhmUnlENE94TUhjYmI1VC1Wc1hINjRBOUJSQlpKNGxDNHNoaVFlaGVRb05RMk1sYk5LUVlXNEVTUXROQXZLOFA3ZGM5SEw0Y05SYkxYaGRnWlZDMS1VbTBJR0lwdXNPd1JNOWd1R0FBNzQwOVJZaFpfZ0E0REE?oc=5",
+  "first_seen": "2026-09-27",
+  "topics": [
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-27",
+  "times_seen": 1
  },
  {
   "statement": "SpaceX plans 1 more California rocket launch this month. Track liftoff - Ventura County Star",
@@ -159,57 +244,6 @@
   "times_seen": 4
  },
  {
-  "statement": "In 2018, He Was Sleeping On The Factory Floor As His Company Kept Missing Production Targets. Less Than 3 Years Later, Tesla Shareholders Had Made Over 13 Times Their Money, And Elon Musk Was The Richest Man In The World. - 24/7 Wall St.",
-  "entity": "Tesla",
-  "horizon_phrase": "In 2018",
-  "horizon": "2018-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNZHpxSzlsaWUxLWozRWYtV2Myb01kTzNGN3ZHTlpjS0RJU3U0c1drUXo3TkNPbkNJVmdRc3RKNVFvQ0M2RW9jb1BSdko2WTJncWFOWXBjSnpQbFhMXzN6S1JRdnBPa2hHVklvYUxmM2k5TnpnNnExblctMjhqa0o3V1VEWlBDbEh3a0FIMHV4aFZlM3poOFdHamZ0eGpuVndCa3p4eHJqNnFCQjJOZjhhRjF0M0Ztd1ZMQmFUMW5Db18tUl9yWFZzaWZPbk5ocnl2N3N2cHItYW5LRXI4Ynlob19fZkpWVDJPZVVpLWczVFZxS2ZxVnpWS0RjbUkyaWxIcnl6MG9ZeDJyR1AxUXhvRG1ZQW4yMnliSWtxVVpvTDhmMFIxMGZiZmNaTzNVWDZQbXRvVDBQbkRoZXFLOVE4VGF4SGI5OG04cEU5T3JhbFh6T1dlcW9pMmZBelM?oc=5",
-  "first_seen": "2026-09-26",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-26",
-  "times_seen": 4
- },
- {
-  "statement": "Tesla energy storage deployments jumped in \u2018crucial AI transformation year'; company expects margin compression in 2026 - Energy-Storage.News",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2026",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Energy",
-  "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNX2dkTDM3VzFxQ0F1RFhVRE5vRzlLTWg0aVYzalVqaVZCckVqdF9HeW5VM0duOVozbG90Y2VqMk4ybGlBNTlGY0lqckJUTDJXZXgzZUhBNWpYRFhMOGc1eTBuLUM0QkJ5bXdHazVmM2xVck1wNFpuRllWUGt3aG9jcFRVcDdPZmlZZ2U2d24tY0I0MTh6WmFUcWUtdUhvZDF4NVltbXcyUlgyTy1Dem1pWVBTbDljOUdTamM5MUVPaDZfblAzWDN3VGNQU3FnNWdObk9YcTlvWGtsTWtIYmR6RHJzRQ?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "energy"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-26",
-  "times_seen": 68
- },
- {
-  "statement": "Wells Fargo's Starlink Forecast: 47M Subscribers and $51B by 2028 - BASENOR",
-  "entity": "Starlink",
-  "horizon_phrase": "by 2028",
-  "horizon": "2028-12-31",
-  "horizon_precision": "year",
-  "quantity": "47M Subscribers",
-  "source": "Starlink",
-  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM21rdnJOYUE2dDdvbTJBby1pOF9GVEI2UUpwbUJkUGo2WDViOFMzVVdjNlRFbGlGbFJ5eVEwZWxYRE10UmVURTd6YXFBNWwyU1E5bENqcW5yd09wMUI1ajNsdmNJRVpwU2EwazhrYWNXT0poMlBWd2w5cHVySEFRM24yZV9CeGJsYXZYalM2SlNpM2NLeWVtNFByWUJFdw?oc=5",
-  "first_seen": "2026-09-24",
-  "topics": [
-   "starlink"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-26",
-  "times_seen": 10
- },
- {
   "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - electrek.co",
   "entity": "Tesla",
   "horizon_phrase": "in 2027",
@@ -226,23 +260,6 @@
   "primary": false,
   "last_seen": "2026-09-26",
   "times_seen": 10
- },
- {
-  "statement": "Exclusive: Tesla Optimus Commercialization Next Year Is \u2018Very Realistic,\u2019 Faraday Chairman Says - Yahoo Finance",
-  "entity": "Tesla",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWDl1cWFPRFhEbGtYMmFxa3ZZdThMZkRvZS1sQUQ1SHFpQXBoT1F3OXFtUkJWS2lJNjhWNjJyaDdfMDNLcXZGbFV2ckdpUkdfYnhCUi04ZE1YRWdBcWNCcERzN0tCUHhVZ3ZGU2c2SjEtcFVjWjZFTzlpTC1JRHFyc0xfUV82b2dBRHdLSktYVHNITV9ndHJ2Umt4UjhKWGhFQnlzNnpBd2RDVGUwTUlr?oc=5",
-  "first_seen": "2026-09-26",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-26",
-  "times_seen": 1
  },
  {
   "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
