@@ -770,16 +770,16 @@
     "raan": 261.525
    },
    {
-    "argp": 167.4066,
-    "bstar": 0.00062072096,
-    "ecc": 7.18e-05,
-    "epoch": "2026-09-26T11:36:31.231584",
+    "argp": 187.1633,
+    "bstar": 0.0005846,
+    "ecc": 9.19e-05,
+    "epoch": "2026-09-27T11:25:57.459072",
     "id": 52295,
-    "inc": 53.1538,
-    "ma": 192.6988,
-    "mm": 16.1024733,
+    "inc": 53.1543,
+    "ma": 172.9389,
+    "mm": 16.11472362,
     "name": "STARLINK-3765",
-    "raan": 247.9698
+    "raan": 242.7715
    },
    {
     "argp": 87.5036,
@@ -7275,5 +7275,5 @@
   ],
   "shells_caveat": "Altitude is derived from mean motion assuming a circular orbit, good to about +/-10 km, and grouped into 50 km bands. Counts are of the current fleet, not of any historical shell population."
  },
- "fetched_at": "2026-09-27T11:37:49.640682+00:00"
+ "fetched_at": "2026-09-27T21:02:52.570386+00:00"
 }
