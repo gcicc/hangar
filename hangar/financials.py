@@ -145,7 +145,9 @@ def fetch_quote(symbol: str) -> dict | None:
         closes = [c for c in result["indicators"]["quote"][0]["close"] if c is not None]
 
         price = meta["regularMarketPrice"]
-        prev = meta.get("chartPreviousClose") or price
+        # chartPreviousClose is the close before the *chart range* opens - a
+        # year ago with range=1y - so the prior session comes from the series.
+        prev = closes[-2] if len(closes) >= 2 else price
         return {
             "symbol": symbol,
             "name": meta.get("longName") or TICKERS.get(symbol, symbol),
