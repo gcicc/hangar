@@ -415,7 +415,9 @@
       what.textContent = r.statement;
       if (r.primary) what.appendChild(el("span", "badge", "primary"));
       if (r.quantity) what.appendChild(el("span", "badge", r.quantity));
-      if (r.times_seen > 1) what.appendChild(el("span", "badge", "repeated ×" + r.times_seen));
+      // times_seen counts refresh runs that still found the headline in a feed,
+      // not separate reports, so the badge shows distinct outlets instead.
+      if (r.outlets && r.outlets.length > 1) what.appendChild(el("span", "badge", r.outlets.length + " outlets"));
       a.appendChild(what);
       a.appendChild(el("div", "who", r.source || ""));
       crack.appendChild(a);

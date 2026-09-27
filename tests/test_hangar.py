@@ -143,6 +143,51 @@ def test_ignores_speculation_that_matches_the_grammar():
     assert claims == []
 
 
+def test_ignores_third_party_forecasts():
+    claims = targets.detect_claims(
+        [entry("Wells Fargo's Starlink Forecast: 47M Subscribers and $51B by 2028")]
+    )
+    assert claims == []
+
+
+def test_ignores_retrospective_dates():
+    claims = targets.detect_claims(
+        [entry("In 2018, Musk said Tesla would hit production targets")],
+        asof=date(2026, 9, 27),
+    )
+    assert claims == []
+
+
+def test_collapse_merges_one_story_across_outlets():
+    rows = [
+        {
+            "statement": "Tesla will sell Optimus in 2027 - Electrek",
+            "source": "Electrek",
+            "horizon": "2027-12-31",
+            "first_seen": "2026-09-10",
+            "last_seen": "2026-09-20",
+            "times_seen": 3,
+        },
+        {
+            "statement": "Tesla will sell Optimus in 2027 - electrek.co",
+            "source": "electrek.co",
+            "horizon": "2027-12-31",
+            "first_seen": "2026-09-12",
+            "last_seen": "2026-09-25",
+            "times_seen": 2,
+        },
+    ]
+    out = targets.collapse(rows)
+    assert len(out) == 1
+    assert out[0]["outlets"] == ["Electrek", "electrek.co"]
+    assert out[0]["first_seen"] == "2026-09-10" and out[0]["last_seen"] == "2026-09-25"
+
+
+def test_this_month_resolves_to_month_end():
+    horizon, precision = targets._resolve_horizon("this month", date(2026, 9, 13))
+    assert (horizon, precision) == ("2026-09-30", "month")
+
+
 def test_requires_a_time_horizon():
     assert targets.detect_claims([entry("Tesla plans to build more Optimus robots")]) == []
 

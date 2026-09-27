@@ -85,9 +85,22 @@ _RE_QTY = re.compile(_QUANTITY, re.IGNORECASE)
 # commitment rather than a commitment. Cheap, and it removes a lot of noise.
 _RE_SPECULATIVE = re.compile(
     r"\b(?:could|might|may|rumou?r|analyst|speculat|predicts?|bets?|"
-    r"here'?s why|what to know|opinion|why |should )",
+    r"here'?s why|what to know|opinion|why |should |history says)",
     re.IGNORECASE,
 )
+
+# Third parties forecasting about the companies. The grammar matches them
+# ("Wells Fargo forecasts 47M Starlink subscribers by 2028") but they are
+# somebody else's projection, not a commitment by either company.
+_RE_THIRD_PARTY = re.compile(
+    r"\b(?:Cathie Wood|Ark Invest|Wedbush|Dan Ives|Wells Fargo|Oppenheimer|"
+    r"Morgan Stanley|Goldman|Faraday|price target)",
+    re.IGNORECASE,
+)
+
+# Google News appends " - Outlet" to every headline, so the same story from
+# three outlets is three different strings. Stripped for identity only.
+_RE_OUTLET_SUFFIX = re.compile(r"\s+[-–|]\s+[^-–|]{2,60}$")
 
 _MONTHS = {
     m.lower(): i
@@ -144,6 +157,12 @@ def _resolve_horizon(phrase: str, asof: date) -> tuple[str | None, str]:
         return f"{asof.year + 1:04d}-12-31", "year"
     if "this year" in p or "end of the year" in p:
         return f"{asof.year:04d}-12-31", "year"
+    if "this month" in p or "next month" in p:
+        y, mo = asof.year, asof.month + (1 if "next month" in p else 0)
+        if mo > 12:
+            y, mo = y + 1, 1
+        last = [31, 29 if y % 4 == 0 else 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31][mo - 1]
+        return f"{y:04d}-{mo:02d}-{last:02d}", "month"
     if "next quarter" in p:
         nq = (asof.month - 1) // 3 + 2
         y = asof.year + (1 if nq > 4 else 0)
@@ -176,7 +195,7 @@ def detect_claims(entries: list[dict], asof: date | None = None) -> list[dict]:
 
     for entry in entries:
         text = entry.get("title", "")
-        if _RE_SPECULATIVE.search(text):
+        if _RE_SPECULATIVE.search(text) or _RE_THIRD_PARTY.search(text):
             continue
         if not _RE_ENTITY.search(text) or not _RE_VERB.search(text):
             continue
@@ -185,6 +204,10 @@ def detect_claims(entries: list[dict], asof: date | None = None) -> list[dict]:
             continue
 
         horizon, precision = _resolve_horizon(time_hit.group(), asof)
+        # A deadline already behind us in a fresh headline is a retrospective
+        # ("In 2018, he was sleeping on the factory floor"), not a commitment.
+        if horizon and horizon < asof.isoformat():
+            continue
         qty = _RE_QTY.search(text)
         entity = _RE_ENTITY.search(text).group()
 
@@ -206,9 +229,50 @@ def detect_claims(entries: list[dict], asof: date | None = None) -> list[dict]:
 
 
 def _claim_key(claim: dict) -> str:
-    """Normalised identity so the same promise re-reported does not duplicate."""
-    text = re.sub(r"[^a-z0-9 ]+", " ", claim["statement"].lower())
+    """Normalised identity so the same promise re-reported does not duplicate.
+
+    The outlet suffix is dropped first: one story syndicated to three outlets is
+    one claim, not three.
+    """
+    text = _RE_OUTLET_SUFFIX.sub("", claim["statement"])
+    text = re.sub(r"[^a-z0-9 ]+", " ", text.lower())
     return re.sub(r"\s+", " ", text).strip()[:110]
+
+
+def collapse(claims: list[dict]) -> list[dict]:
+    """Fold rows sharing a key into one, and drop retrospective rows.
+
+    Keeps the earliest ``first_seen`` and latest ``last_seen``, sums
+    ``times_seen``, and records every distinct outlet in ``outlets``. Rows
+    written before the outlet-suffix and retrospective rules existed are
+    cleaned here, so the ledger converges without a migration.
+    """
+    by_key: dict[str, dict] = {}
+    for claim in claims:
+        horizon, seen = claim.get("horizon"), claim.get("first_seen")
+        if horizon is None and claim.get("horizon_phrase") and seen:
+            horizon, precision = _resolve_horizon(claim["horizon_phrase"], date.fromisoformat(seen))
+            if horizon:
+                claim = {**claim, "horizon": horizon, "horizon_precision": precision}
+        if horizon and seen and horizon < seen:
+            continue
+        text = claim.get("statement", "")
+        if _RE_SPECULATIVE.search(text) or _RE_THIRD_PARTY.search(text):
+            continue
+        key = _claim_key(claim)
+        outlets = claim.get("outlets") or ([claim["source"]] if claim.get("source") else [])
+        row = by_key.get(key)
+        if row is None:
+            row = dict(claim)
+            row["outlets"] = list(dict.fromkeys(outlets))
+            by_key[key] = row
+            continue
+        row["times_seen"] = row.get("times_seen", 1) + claim.get("times_seen", 1)
+        row["first_seen"] = min(row.get("first_seen") or "9999", seen or "9999")
+        if (claim.get("last_seen") or "") > (row.get("last_seen") or ""):
+            row["last_seen"] = claim["last_seen"]
+        row["outlets"] = list(dict.fromkeys(row["outlets"] + outlets))
+    return list(by_key.values())
 
 
 def load_claims() -> list[dict]:
@@ -220,9 +284,10 @@ def load_claims() -> list[dict]:
     if not CLAIMS_FILE.exists():
         return []
     try:
-        return json.loads(CLAIMS_FILE.read_text(encoding="utf-8"))
+        rows = json.loads(CLAIMS_FILE.read_text(encoding="utf-8"))
     except (json.JSONDecodeError, OSError):
         return []
+    return sorted(collapse(rows), key=lambda c: c.get("last_seen", ""), reverse=True)
 
 
 def merge_claims(new: list[dict]) -> list[dict]:
@@ -239,7 +304,7 @@ def merge_claims(new: list[dict]) -> list[dict]:
         except (json.JSONDecodeError, OSError):
             existing = []
 
-    by_key = {_claim_key(c): c for c in existing}
+    by_key = {_claim_key(c): c for c in collapse(existing)}
     today = datetime.now(UTC).date().isoformat()
 
     for claim in new:
@@ -248,9 +313,12 @@ def merge_claims(new: list[dict]) -> list[dict]:
             row = by_key[key]
             row["last_seen"] = today
             row["times_seen"] = row.get("times_seen", 1) + 1
+            if claim.get("source") and claim["source"] not in row.setdefault("outlets", []):
+                row["outlets"].append(claim["source"])
         else:
             claim["last_seen"] = today
             claim["times_seen"] = 1
+            claim["outlets"] = [claim["source"]] if claim.get("source") else []
             by_key[key] = claim
 
     merged = sorted(by_key.values(), key=lambda c: c.get("last_seen", ""), reverse=True)
