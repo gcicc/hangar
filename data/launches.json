@@ -119,34 +119,34 @@
     14,
     13,
     14,
-    7
+    8
    ]
   },
   "calls_used": 4,
   "next": {
-   "description": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-1) into stable Low Earth Orbit.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete approximately 6 orbits around the planet for nearly 10 hours, with splashdown tar",
-   "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
-   "lat": 25.99677,
-   "lon": -97.15799,
-   "mission": "Starlink Group 31-1 (Starship Flight 14)",
-   "mission_type": "Communications",
-   "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
-   "net": "2026-09-28T12:15:00Z",
-   "net_precision": "MIN",
+   "description": "SpaceX Crew-13 is the thirteenth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
+   "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192609.jpeg",
+   "lat": 28.56194122,
+   "lon": -80.57735736,
+   "mission": "Crew-13",
+   "mission_type": "Human Exploration",
+   "name": "Falcon 9 Block 5 | Crew-13",
+   "net": "2026-10-01T15:10:06Z",
+   "net_precision": "SEC",
    "orbit": "LEO",
-   "pad": "Orbital Launch Pad 2",
-   "pad_location": "SpaceX Starbase, TX, USA",
+   "pad": "Space Launch Complex 40",
+   "pad_location": "Cape Canaveral SFS, FL, USA",
    "provider": "SpaceX",
-   "rocket": "Starship V3",
+   "rocket": "Falcon 9 Block 5",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/7d1afb26-6f9c-429b-9ccf-29012fd1e519",
+   "url": "https://nextspaceflight.com/launches/details/18441371-8b2e-457c-afb5-1ec1b11ab630",
    "webcast_live": false
   },
   "pads": [
    {
-    "count": 54,
+    "count": 53,
     "last_net": "2026-10-10T16:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -257,6 +257,16 @@
    },
    {
     "count": 4,
+    "last_net": "2026-09-28T12:48:59Z",
+    "lat": 25.99677,
+    "location": "SpaceX Starbase, TX, USA",
+    "lon": -97.15799,
+    "name": "Orbital Launch Pad 2",
+    "spacex": true,
+    "top_provider": "SpaceX"
+   },
+   {
+    "count": 4,
     "last_net": "2026-09-17T00:32:00Z",
     "lat": 19.59755,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -334,16 +344,6 @@
     "name": "Yoshinobu Launch Complex LP-2",
     "spacex": false,
     "top_provider": "Mitsubishi Heavy Industries"
-   },
-   {
-    "count": 3,
-    "last_net": "2026-09-28T12:15:00Z",
-    "lat": 25.99677,
-    "location": "SpaceX Starbase, TX, USA",
-    "lon": -97.15799,
-    "name": "Orbital Launch Pad 2",
-    "spacex": true,
-    "top_provider": "SpaceX"
    },
    {
     "count": 3,
@@ -657,6 +657,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-1) into stable Low Earth Orbit.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete approximately 6 orbits around the planet for nearly 10 hours, with splashdown tar",
+    "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
+    "lat": 25.99677,
+    "lon": -97.15799,
+    "mission": "Starlink Group 31-1 (Starship Flight 14)",
+    "mission_type": "Communications",
+    "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
+    "net": "2026-09-28T12:48:59Z",
+    "net_precision": "SEC",
+    "orbit": "LEO",
+    "pad": "Orbital Launch Pad 2",
+    "pad_location": "SpaceX Starbase, TX, USA",
+    "provider": "SpaceX",
+    "rocket": "Starship V3",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/7d1afb26-6f9c-429b-9ccf-29012fd1e519",
+    "webcast_live": false
+   },
    {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
     "id": "7330d83b-c478-426c-8859-f9e3a335876d",
@@ -1895,27 +1916,6 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/5421e43a-1623-40ac-9dac-201075064e24",
     "webcast_live": false
-   },
-   {
-    "description": "Carried 9 satellites on a share-ride to sun-synchronous orbit:\r\n\r\n* Dongpo 13 & 14\r\n* Dongpo 17 to 20\r\n* Tianyi 49 (Beiyou-4)\r\n* Xiguang-2-01\r\n* Zidingxiang-3 (Kaiyun-3)",
-    "id": "d8eb4b68-5307-4b3b-b585-5598958defc2",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193637.jpeg",
-    "lat": 31.2,
-    "lon": 123.7,
-    "mission": "9 satellites",
-    "mission_type": "Earth Science",
-    "name": "Gravity-1 | 9 satellites",
-    "net": "2026-07-22T02:54:00Z",
-    "net_precision": "MIN",
-    "orbit": "SSO",
-    "pad": "Yellow Sea (launch location 5)",
-    "pad_location": "Haiyang Oriental Spaceport",
-    "provider": "Orienspace Technology",
-    "rocket": "Gravity-1",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/d8eb4b68-5307-4b3b-b585-5598958defc2",
-    "webcast_live": false
    }
   ],
   "totals": {
@@ -1924,8 +1924,8 @@
    "spacex_sampled": 92,
    "spacex_share": 0.46,
    "window": {
-    "from": "2026-02-21",
-    "to": "2026-09-26"
+    "from": "2026-02-22",
+    "to": "2026-09-28"
    }
   },
   "upcoming": [
@@ -1938,15 +1938,15 @@
     "mission": "Starlink Group 31-1 (Starship Flight 14)",
     "mission_type": "Communications",
     "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
-    "net": "2026-09-28T12:15:00Z",
-    "net_precision": "MIN",
+    "net": "2026-09-28T12:48:59Z",
+    "net_precision": "SEC",
     "orbit": "LEO",
     "pad": "Orbital Launch Pad 2",
     "pad_location": "SpaceX Starbase, TX, USA",
     "provider": "SpaceX",
     "rocket": "Starship V3",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/7d1afb26-6f9c-429b-9ccf-29012fd1e519",
     "webcast_live": false
    },
@@ -2351,5 +2351,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-28T08:22:52.325970+00:00"
+ "fetched_at": "2026-09-28T18:00:00.505629+00:00"
 }
