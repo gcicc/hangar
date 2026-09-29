@@ -257,16 +257,6 @@
    },
    {
     "count": 4,
-    "last_net": "2026-09-28T12:48:59Z",
-    "lat": 25.99677,
-    "location": "SpaceX Starbase, TX, USA",
-    "lon": -97.15799,
-    "name": "Orbital Launch Pad 2",
-    "spacex": true,
-    "top_provider": "SpaceX"
-   },
-   {
-    "count": 4,
     "last_net": "2026-09-17T00:32:00Z",
     "lat": 19.59755,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -292,6 +282,16 @@
     "location": "Kennedy Space Center, FL, USA",
     "lon": -80.60428186,
     "name": "Launch Complex 39A",
+    "spacex": true,
+    "top_provider": "SpaceX"
+   },
+   {
+    "count": 3,
+    "last_net": "2026-09-28T12:48:59Z",
+    "lat": 25.99677,
+    "location": "SpaceX Starbase, TX, USA",
+    "lon": -97.15799,
+    "name": "Orbital Launch Pad 2",
     "spacex": true,
     "top_provider": "SpaceX"
    },
@@ -334,6 +334,16 @@
     "name": "Launch Area 96A",
     "spacex": false,
     "top_provider": "LandSpace"
+   },
+   {
+    "count": 3,
+    "last_net": "2026-11-30T00:00:00Z",
+    "lat": 13.7199,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.2304,
+    "name": "Satish Dhawan Space Centre Second Launch Pad",
+    "spacex": false,
+    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 3,
@@ -394,16 +404,6 @@
     "name": "Ariane Launch Area 1 (ELV)",
     "spacex": false,
     "top_provider": "Avio S.p.A"
-   },
-   {
-    "count": 2,
-    "last_net": "2026-10-13T17:00:00Z",
-    "lat": 13.7199,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.2304,
-    "name": "Satish Dhawan Space Centre Second Launch Pad",
-    "spacex": false,
-    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 2,
@@ -660,7 +660,7 @@
    {
     "description": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-1) into stable Low Earth Orbit.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete approximately 6 orbits around the planet for nearly 10 hours, with splashdown tar",
     "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_liftof_image_thumbnail_20260929153328.jpeg",
     "lat": 25.99677,
     "lon": -97.15799,
     "mission": "Starlink Group 31-1 (Starship Flight 14)",
@@ -1930,27 +1930,6 @@
   },
   "upcoming": [
    {
-    "description": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-1) into stable Low Earth Orbit.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete approximately 6 orbits around the planet for nearly 10 hours, with splashdown tar",
-    "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
-    "lat": 25.99677,
-    "lon": -97.15799,
-    "mission": "Starlink Group 31-1 (Starship Flight 14)",
-    "mission_type": "Communications",
-    "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
-    "net": "2026-09-28T12:48:59Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Orbital Launch Pad 2",
-    "pad_location": "SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "rocket": "Starship V3",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/7d1afb26-6f9c-429b-9ccf-29012fd1e519",
-    "webcast_live": false
-   },
-   {
     "description": "SpaceX Crew-13 is the thirteenth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
     "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192609.jpeg",
@@ -2348,8 +2327,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/7c891a0b-7194-4425-8cfd-2e8c75af2924",
     "webcast_live": false
+   },
+   {
+    "description": "First uncrewed orbital test flight of the Gaganyaan capsule.",
+    "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg",
+    "lat": 13.7199,
+    "lon": 80.2304,
+    "mission": "Gaganyaan-1",
+    "mission_type": "Test Flight",
+    "name": "LVM-3 | Gaganyaan-1",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad",
+    "pad_location": "Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "rocket": "Launch Vehicle Mark-3 (GSLV Mk III)",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/dfac5ab7-7017-454f-b6cf-eeed277a97b5",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-09-29T12:20:55.947869+00:00"
+ "fetched_at": "2026-09-29T19:11:15.009044+00:00"
 }
