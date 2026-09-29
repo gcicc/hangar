@@ -14,8 +14,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-09-28",
-  "times_seen": 80,
+  "last_seen": "2026-09-29",
+  "times_seen": 81,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -35,8 +35,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-09-28",
-  "times_seen": 48,
+  "last_seen": "2026-09-29",
+  "times_seen": 49,
   "outlets": [
    "Optimus"
   ]
@@ -56,8 +56,8 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-09-28",
-  "times_seen": 80,
+  "last_seen": "2026-09-29",
+  "times_seen": 81,
   "outlets": [
    "Optimus"
   ]
@@ -77,10 +77,30 @@
    "launch"
   ],
   "primary": false,
-  "last_seen": "2026-09-28",
-  "times_seen": 67,
+  "last_seen": "2026-09-29",
+  "times_seen": 68,
   "outlets": [
    "Starship",
+   "Falcon"
+  ]
+ },
+ {
+  "statement": "TakeMe2Space to launch India\u2019s first orbital data centre mission onboard SpaceX\u2019s Falcon 9 in 2028 - The Times of India",
+  "entity": "SpaceX",
+  "horizon_phrase": "in 2028",
+  "horizon": "2028-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Falcon",
+  "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQbTQyQzRlNklPeE5wbFNOMklxSkY5ZVAtdm9fSVRzS0xFRHE4Q2R6ZUY1VjM5bl9taU5HTTlCbXpxY0NVc05hQkdNR3NzcVdHMGFiS19DRjY3MDZBSEl3RTZNMDFHOFhNV2U0S3lVdEJQU3N4NGppUWhkUkJmendtdWdvLThWVVp0b1BoSFo4Vm1aRFNhMVZBckMtVm1YZFZPbDk0LTM4aE9FM0VHWE0xSldubWRKa1FyT1NuREl0WEJTRWtFUVo0Q0k5THF3MUcycUw5RG1GTTBPMENhcTVqVEw3QWd4dWJZOUI4bENwdnBVbWhubTVuVnlVU215ZEY2TEJj0gGIAkFVX3lxTE55YlRDbzIzU0Zsb1BBTHZsX2tNc0gzV0VQSzVRaktKSDZDYjFrTFhUWXFHVTdPR2xsQ1NweExRRzhOYkpQZ19kczI1c3JfVEE0b3EwTmg0aGtXVnplX0FvT0F2cnlTNkM1c1lKRmlKaFhwbWhmWHYzN1p3Q3B5TV9CSFNPR1U4a190UEVJTVo4dm5QS0ZxSXBqS3NYSEYyVUR4S2xjYmRMblhuUHN3S2pWOVdxSzZJOGtUd0tnN2IzeGZ0dTdfMExZREF6Mm5Nb3dwQ0t6TkJ6NmtnV3JqcU92MmJZZ05CbFZlWW1wcE1wWFhBZkNnVjVSekFzRU9yNWszYnoxM21LSQ?oc=5",
+  "first_seen": "2026-09-28",
+  "topics": [
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-29",
+  "times_seen": 4,
+  "outlets": [
    "Falcon"
   ]
  },
@@ -122,26 +142,6 @@
   "primary": false,
   "last_seen": "2026-09-28",
   "times_seen": 12,
-  "outlets": [
-   "Falcon"
-  ]
- },
- {
-  "statement": "TakeMe2Space to launch India\u2019s first orbital data centre mission onboard SpaceX\u2019s Falcon 9 in 2028 - The Times of India",
-  "entity": "SpaceX",
-  "horizon_phrase": "in 2028",
-  "horizon": "2028-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Falcon",
-  "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQbTQyQzRlNklPeE5wbFNOMklxSkY5ZVAtdm9fSVRzS0xFRHE4Q2R6ZUY1VjM5bl9taU5HTTlCbXpxY0NVc05hQkdNR3NzcVdHMGFiS19DRjY3MDZBSEl3RTZNMDFHOFhNV2U0S3lVdEJQU3N4NGppUWhkUkJmendtdWdvLThWVVp0b1BoSFo4Vm1aRFNhMVZBckMtVm1YZFZPbDk0LTM4aE9FM0VHWE0xSldubWRKa1FyT1NuREl0WEJTRWtFUVo0Q0k5THF3MUcycUw5RG1GTTBPMENhcTVqVEw3QWd4dWJZOUI4bENwdnBVbWhubTVuVnlVU215ZEY2TEJj0gGIAkFVX3lxTE55YlRDbzIzU0Zsb1BBTHZsX2tNc0gzV0VQSzVRaktKSDZDYjFrTFhUWXFHVTdPR2xsQ1NweExRRzhOYkpQZ19kczI1c3JfVEE0b3EwTmg0aGtXVnplX0FvT0F2cnlTNkM1c1lKRmlKaFhwbWhmWHYzN1p3Q3B5TV9CSFNPR1U4a190UEVJTVo4dm5QS0ZxSXBqS3NYSEYyVUR4S2xjYmRMblhuUHN3S2pWOVdxSzZJOGtUd0tnN2IzeGZ0dTdfMExZREF6Mm5Nb3dwQ0t6TkJ6NmtnV3JqcU92MmJZZ05CbFZlWW1wcE1wWFhBZkNnVjVSekFzRU9yNWszYnoxM21LSQ?oc=5",
-  "first_seen": "2026-09-28",
-  "topics": [
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-28",
-  "times_seen": 3,
   "outlets": [
    "Falcon"
   ]

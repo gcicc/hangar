@@ -1,6 +1,6 @@
 {
  "data": {
-  "corpus_size": 1205,
+  "corpus_size": 1203,
   "labels": {
    "market": "Markets & Filings",
    "spacex": "SpaceX",
@@ -14,9 +14,21 @@
   "sections": {
    "market": [
     {
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaFVhZ3VqbXc2dEF2X0RLbmJfRU1BWDJjOE9RMkZPUTBhSDVSdG02MHViSzNoMGx5YjltVHV2ZU5PMTkxekZsVEl0QjJJbEJpSkpMY09tLXlpaGhWakdHc1VvQUo1dXdLSk5yX0xqS2ZfeGZJZmpmcnFfSWtPV01GbW83RVBpMVQwVFIzOHgtYXdZT3l5TjgzM1h4cFZTWXVNTDNMelJYUWFLeXloQUZObXVfUUV2b1VfOXFYLVI3MUw5THlORkVrNVQtS01mZw?oc=5",
+     "published": "2026-09-29T04:00:54+00:00",
+     "score": 5.87,
+     "source": "SPCX",
+     "title": "SpaceX Stock Falls 2%, Gene Munster Says Starship Launch Underappreciated - SpaceX (NASDAQ:SPCX) - Benzinga",
+     "topics": [
+      "starship",
+      "launch",
+      "money"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeVZraF9HXy10ZnJPckhSM0w4Xzl6T1BYMHp1RzJhNDJra0lNY290bzdqczRMLW5oWEtQQ25LWl9ZTTZpVFVDeFRrWUJVem41bE9MVTRNLUpjRVRQUVBma1NGSDVVTDNhQWh5dENiUDlHdkwxX0Q0ejVuVHlKbi16WlNNT3dia1lJQmVFYzBxcDQ4NWpj?oc=5",
      "published": "2026-09-28T21:03:00+00:00",
-     "score": 5.641,
+     "score": 4.709,
      "source": "SPCX",
      "title": "Mizuho makes bold call on SpaceX stock before key launch - thestreet.com",
      "topics": [
@@ -25,9 +37,17 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRlhreHM5Q0p1X0RIS1pMcXdGMzBXWEJRallLUzh1MjR4SnMybWt1VmQxSUFLampJaHByT25SNzVpRHlYR2ZFTkkxOHpfaFhpbUhydklHcGRyNDloVEJCaFJlOXdxZHFmYUZBeUY2S0dzZGJta1dWY20yY09IUXFyRXo5dzVqV0xoREtYQVhFMHctV0ZndXNLTHpXSmt0X1FVdi13cDZqWFFXMUYyZGcydzBhU0hWNnpwZnc?oc=5",
+     "published": "2026-09-28T23:53:38+00:00",
+     "score": 4.319,
+     "source": "SPCX",
+     "title": "From SpaceX to Saudi Aramco: World's biggest IPOs as Anthropic's blockbuster listing looms - Reuters",
+     "topics": []
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5qRkVpeVUxWmx1LVphbXI3UFVCelNWU0YzUEdMV1oyY0VuX2NrRWlDVVl2OGVVZElGaUtWLVMxUGgyVG1UdzNWVDNUdmFJOWV2eFRNaThITV9EMlZ6dGVpRDJieDllRENndm4wdjJnSU02YmpkRTNj?oc=5",
      "published": "2026-09-28T17:32:00+00:00",
-     "score": 5.055,
+     "score": 4.123,
      "source": "SPCX",
      "title": "Why Did SpaceX Stock Drop After Starship\u2019s Successful Launch? - BeInCrypto",
      "topics": [
@@ -39,7 +59,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdHJURTFad1c3dnprS01SamtZd3JQeVBDa05MWkcwV21tYWk5bnIxWUF4d0JwUUZoOVBqaHBDWFNWbXdaZ0tMOXhRM3VReUR0SDcyNnFZWTc4cExWTkdfa0N1aXcyVUx1bTQ0ZlZjazNvTzFWdDdLUHNJZ3pCaVI0Wm5MbG03OXR2VXZjNVlkakF3RTR3UzFkdHRMT3NUazd2eHpNUXJmZjV2MFJVcUFGOEJyOUNSZTgtMjZCaHdLdHBlMkpNdGpnWg?oc=5",
      "published": "2026-09-28T15:13:18+00:00",
-     "score": 4.67,
+     "score": 3.737,
      "source": "SPCX",
      "title": "SpaceX stock rating reaffirmed by William Blair after Starship launch - Investing.com",
      "topics": [
@@ -51,9 +71,9 @@
     {
      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPTDdfVVhMb1FrWW9RanRMT0tJOVRIQVpSRGE3M2UxUmV3bk5mcWlKdkdBSDZhYWxpMlhQTzc4M2tuM1BUX1JHLUE4Ym5WVkQ0eE81dm5nNG12VzFfRFJlcjJrU1lXWGJQSlAzSHhPN21WT0VINHMzdWVySGY2Sk9SY3JEVFZrNzRmNkhuY2E5Qm1NOVlYR3ZDTWJyZFhtNGJ5QVFxUlczeFZDd1RxUndTUTY2ODA5aTYtME1QMTJ5bU1jY3l2QUN5VXpjbFctLTlBTmJjTGs1NTZqMnV0OUw2Q0ZJQS1xcmRGWGZfLTZ1OA?oc=5",
      "published": "2026-09-28T14:23:00+00:00",
-     "score": 4.53,
+     "score": 3.598,
      "source": "SPCX",
-     "title": "SpaceX Successfully Launches 'Most Powerful Rocket Ever Made' From Starbase, Texas. The Stock Price Did Not React Much - 247wallst.com",
+     "title": "SpaceX Successfully Launches 'Most Powerful Rocket Ever Made' From Starbase, Texas. The Stock Price Did Not React Much - 24/7 Wall St.",
      "topics": [
       "starship",
       "launch",
@@ -63,7 +83,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMV83dzRzQmpPMW1WekF1ZHRacWFTempnNmRWRnVmeTBtZ3l4cEdXb0ZnZHplMTJSTmJvM3R4dnBrM18xTnRqaDBVendnTXlzTE5fS25odGRmZzN5XzN1Mk5iNmZFYnFIei1VNEhrNDF6NTd1UHJ5cERlVGM3NXdjamtWSlRUMWNlZjVmOVJvV1J0MnRGLUowRW9jSHBDc0tVb3JiQlBB?oc=5",
      "published": "2026-09-28T14:18:00+00:00",
-     "score": 4.516,
+     "score": 3.584,
      "source": "SPCX",
      "title": "SpaceX Stock Rises After New Buy Rating and Starship Launch -- Barrons.com - Moomoo",
      "topics": [
@@ -75,7 +95,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNMnZuNm9acTE3ekN3aUk5ZWptRXBjQjdldDFaWVFyZ1ZVUmFGMi1rS2dCdTVhNXpUNW51THRlRlJMRURaX1NLcFA4MXI3SHdHWGFLYlAwR0VMR1hOWklpOXM4bHFwclB2SjRtYkxJSVhkWW5KdXZ2MnJ3V1c1cjFSREVOTzNNSENZSVdmRmJYZDQyQkllRk9mREg2LTl4aTVFWWt4ZFMydDVMdm1GTS1KR282Vkh5VlFxamZ0bk13aXVaQ1FjMVgwYlJha0E?oc=5",
      "published": "2026-09-28T13:21:31+00:00",
-     "score": 4.359,
+     "score": 3.427,
      "source": "SPCX",
      "title": "SpaceX Stock Price Forecast: Starship Flight 14 Launch Becomes Key Catalyst, Stock Expected to Reach $172 - TradingKey",
      "topics": [
@@ -87,7 +107,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYThGb09RX1VqMXp3XzBYMW1RSDc2U0ZodXlueEdfLVF0ZmluMmh5WEs2T0JBUFg5RTZEZmJQLWtwMUxOV0VNd0xuQ2JTdDZtX2RxeldnZ3VXR2doQXNKZzRndVlMTng0bEFEYW1HQ281YmVRamFVcndCQ1ZRbXVqMTZsMGo4N3J1LXNpeV9ZY0FkTnVDaUFtRlo4UXVTbWw1SmRfMDJUQmVldzFzOWlMMWNGTQ?oc=5",
      "published": "2026-09-28T20:02:08+00:00",
-     "score": 1.642,
+     "score": 1.362,
      "source": "SPCX",
      "title": "SPCX Stock Alert: What to Know as SpaceX Launches Starship Test Flight - Barchart.com",
      "topics": [
@@ -97,53 +117,33 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQM2JhbGI4OXRaajNUMjlCUDVkX0JZUTQzWEw5enBEdW9yVEVzV281Zml2eDZZYmt6M2w1el8yR205QVNYLXdKemRCb3M0dzk0SDRxWk5PMXlhb183a25Pb0k0U1cwNFUzMk9ydXYzN2duUnpLQmttVHVXZUhHVE9OdF9pSEtHOUNZQzFmOW5HMFA2VXZPMlhBUGVZNm95YWIxNUdwTjBqcnFSWS1pMklLejRDdHdUQ1lMTnM2VUR1Vm9ORXBtdGZvMjJKSGowRTJHVnVIOGhGRQ?oc=5",
-     "published": "2026-09-27T22:03:00+00:00",
-     "score": 1.507,
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNcWpyaUtrYVBiYVpPVlpqaFljVzhJcnpmT0xQdUdTVDNGRi1zeTJfUUMzTlRiMjNZZFRSNzh3M2J6bDRxUFZqMXN1Nkx2SFJVTlZLeXRUNVkyNDFCUHFRYW1ZQnNuUUtHbGNDS0NwMWcyeDBGTGI5cVIwSTR1NFE0UTZWWXFsRGs3MUR0R296UGsyS1BOMjhXTjlObURseDVqdTVMNWNMRmI2ZXJ1VXl5TXpiZVo2NWFncEtVNEQ5Z0xaUmhoNHNqSUFadE9YWEdrSnF5MXIxb0g4dXllRkVMakNjVjlXcS04blE?oc=5",
+     "published": "2026-09-29T03:55:06+00:00",
+     "score": 0.976,
      "source": "SPCX",
-     "title": "SpaceX top executive makes first major move since IPO - thestreet.com",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNzJzczZoSFN5aGUxVS1OUzRURnBzOU94UXJDNnVmZEJocC10X1B2ZnVCU3lXV1lkcmFfaURycUlRVElPdlZ4OUdkcDVWVU5FNmFBNDFuZ29QUlZuZWFIM29VUFBFNDFWa0k0empkX3lBLVAybnh1ODhJeUhvZG14Nkhlcnh3bGw4Qnd1WlVR?oc=5",
-     "published": "2026-09-28T23:10:23+00:00",
-     "score": 0.999,
-     "source": "SPCX",
-     "title": "Financial Complaints Surge 40% Led by Insurance, SpaceX Shares - \uc870\uc120\uc77c\ubcf4",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNktZS1NITGQzSTZfcThBVGNQR0I4cVhramE2YUxaTFRGV0FhREFhSE1wNXQxM2NrNnIxVVpUWmhMQ2ZBTHhiMzYwREp1ZGI2WGtNRlFsMUpQTmVjYTFTajRuS0N5MkdNdHhRUVk3ZVAySE1XR0V6SWQ1Q2phTHBBa01fd0RxOFJCWWZqejUwLUNjdkszcE5ZSUlIZnpLT0plYmFZWFJWZWZJdw?oc=5",
-     "published": "2026-09-28T21:58:42+00:00",
-     "score": 0.966,
-     "source": "SPCX",
-     "title": "SpaceX (NASDAQ:SPCX) Shares Down 2.2% - Time to Sell? - MarketBeat",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd2xseWVfcklwTGZMUU5NMDFqalVWbm9wWkUxRnBjTlM5NHV3MTlrVEFudzhnbkRzODRvVm03YkZrN0dQb0ZaaFJpU3dubm00bkFQc1RPdC0ybTJlUE1hNXUyOWRxZ0dYTjR2Z2RCQmVVMVUzUlJ6blNXTDQzazBxcmJ4Z01JbFh1eWd4T3JZb2VzRTZ6UmxBTw?oc=5",
-     "published": "2026-09-27T18:04:00+00:00",
-     "score": 0.953,
-     "source": "SPCX",
-     "title": "SpaceX IPO Volatility Is Coming: Why Patient Investors Should Wait Out the Lockup Roller Coaster - The Motley Fool",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbERpZUQwaWJXa0NEYlczeXVnTkhaa3NuUVJ1dGU2aU5SXzdGa29KSE9QS05uS245Y1ZmbVdZN1JsME0zeGZwVVpBMVRreFlSc1Y4SnhjOV9Hbm51SkhLOXB3SkVQTUcxb29HaHUxM2lybjA1MU02U291ci1uY1RzcnplRTdnMUQ2OFA0dDZCTnZVR1pyWlZiR09fZjVwZ0k?oc=5",
-     "published": "2026-09-28T21:20:34+00:00",
-     "score": 0.948,
-     "source": "SPCX",
-     "title": "SpaceX: Flight 14 Makes The Story Better, Not The Valuation (NASDAQ:SPCX) - Seeking Alpha",
+     "title": "SpaceX Starship Enters Orbit for the First Time and Deploys V3 Satellites: What Does It Mean for SPCX Stock Price? - TradingKey",
      "topics": [
       "starship",
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWWk2YThmRWdIMTQ0SWMxNEVnQ2haSFBKXzZqT0JmbG9rQ05DN2FoeU12RXJfb0Zjdm1jN3R2dWw2MGVlWFA3dUF3bGoyOGF6Vm55VWdsNWF5czlLVnlxZV9CUzZfLVNfakdnRnEwM25OaE9wTXFxanFHNXJOb3ZLdUdrdkdTTjJfdkVPT1h5UlR6dGpHSFFqc0N5UlVKNG9KNWsxMGhnZVJiVHJxZDI4YUt4MllQdktvX1JNM05ESUZ5cWM?oc=5",
+     "published": "2026-09-29T02:51:00+00:00",
+     "score": 0.946,
+     "source": "TSLA",
+     "title": "Dow Jones Futures: Trump Sparks Stock Market Losses; Elon Musk-Led SpaceX, Tesla Sell Off - Investor's Business Daily",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRFR3VGlTaWt1dVBiNXh2TkZpM3RhTFBkdzNIVHFsNlJIOFJIbklublQ0ZHMwSFd5dTF5V01NenNOUGZLVDNwYU8zeWNPZEJCb2ZqYVV4TjlwQnkxb3U3ejJUUmJwUXdaZnBzd3VucjN2Q2pKS0dZb29lSWJnSjM5aWNfeUFvU2pzRFpSRlkwOEJsQzVUQno3WGxjRWpMeU82bmJnbA?oc=5",
+     "published": "2026-09-25T20:34:00+00:00",
+     "score": 0.9,
+     "source": "TSLA",
+     "title": "Tesla\u2019s stock falls as launch of Semi truck fails to excite investors - MarketWatch",
+     "topics": [
       "money"
      ]
     }
@@ -152,7 +152,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPeGJtOFoyR0xlZnBQZGNRYTUwNEFfSmEyNl9zTWtxSk9FbmE4V20tNlRERXAyckNkcFNjNWRWazR5a0kzQmNIa1lnbXRUUEJ1b0JPWVI5VHdQVC1tWEh6UEZvV01qU2FhZ2s0Q2dPMm9zRkxtMHhtQ3c1Z05ISU1WeURibUE3c1lzVWNGd0pNY09xNFowMWdXRkswZDJGS25FcmRuNUFKRElHT0RrdHFiLVlDcmstN1IxVlAyRDRqVXFKbjRFQTJ4NU5COA?oc=5",
      "published": "2026-09-28T18:15:00+00:00",
-     "score": 8.625,
+     "score": 7.071,
      "source": "Starlink",
      "title": "SpaceX\u2019s starship explodes during splashdown after launching 26 Starlink satellites \u2013 Watch video - ProtoThema English",
      "topics": [
@@ -162,9 +162,53 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOOTIyWFNYZGJYQy1EcFhJc1VjdElJczdoM3BvSVoxbU01MllxUU9NeWVVTUVNVDBSWlJvMG9OcktsMkdUT2ZnY3FGR0djblRvZ25fVjBvY1JXV3M5NGw5Nlk0OC12MU5kN3daRHpNSWhxRUV0ZFBhRWdqaHJQbkdmTVVaRlhHNXltdWY3SUo5RnJMVnk1cXJ4YUVGM1I4QUk4dlZLYjdVQ0ZFUdIBvgFBVV95cUxOUEtXWVpacWNfTFNXT3ExeFctcE1iVmJEQ0pxU3RWcGNubUUtR3dJbjdSN0hMa2I5SWhqWk44SWpVclpPTi1BdFVybVcyZWFLYkpWSnU3QmRlLWl6ajJGTzNqS05pY2twM0ptcnRQTmJVdnEwemVIaV9KNHhMZUFqblhtOEFVeFZLYmdLQ3FrYi1IbTAxTDd3LWZIRWMwSjlDeUtwT1JmS1hHbUtKSE82d3ptdmJoNTllQjdrQXBn?oc=5",
+     "published": "2026-09-29T01:14:00+00:00",
+     "score": 5.406,
+     "source": "Starship",
+     "title": "SpaceX Starship launch in Texas offers glimpse of Acadiana\u2019s future - KATC",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNQTluREZOLTBVMEtTSW5QbVJWVVhHa0QwUEl3QTdZalVTdnNiajhFamtSRFNSeEtCNUY2My1qNEtScU01OV8xdWUzVjhJQUxkMlhyWE1QOHVqUWlyZEp0Zld3dklXRmI1V1RfdEUtNkJUYm1EVjBRbUZTWThnVnZZVTlpeHRkVDNkRjd6R19HZlpWME1lZWgxNThoUDFMZks5RExmbkkzVU9KWlJKZjgyNGdOdzVfOGhMT1Y5NEZWUjVRTDQ?oc=5",
+     "published": "2026-09-29T01:00:00+00:00",
+     "score": 5.367,
+     "source": "Starship",
+     "title": "LIVE: SpaceX Starship Flight 14 launch - San Mateo Daily Journal",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9oQmVUd2xOWUlrSEgxWHFtc3Z1NXlfOXQwLUJhNXdYT0t3cTVwVElXSVJQRndQRkprVmVMUVN3Z2JzN3pkNWZhZTI1WUlfRFhhdjdmWklR?oc=5",
+     "published": "2026-09-28T23:57:32+00:00",
+     "score": 5.194,
+     "source": "Starship",
+     "title": "SpaceX Starship reaches low Earth orbit in historic launch - Fox News",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNb01TeFlZT3ZMaDFXaGZJaVVqdi1aNWNGaGdNQ2ZfUUVWeGVXdUtCSWRYcXQ4N0dCdVNFTUhVSHpDbzYweng5RURpd25rSzA2TWhZcjJRTzlKOVBnLUN2eUM0NWdJTGxidGtySzNuYVJKYUt4QU83NzdlUkpWZ1lGNFJ1M0tJV3kzT1E?oc=5",
+     "published": "2026-09-28T23:07:00+00:00",
+     "score": 5.054,
+     "source": "Starship",
+     "title": "SpaceX's Starship, the biggest rocket ever built, launches into orbit - CBS News",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcllJRkpKbXRLVFhmUTJSS1c3SXJrUFpvNkZMcEFINW5SSWFsQnhFbnRpZTQ0RGRqMDFQa3VxeWdMVDBQWFFJaXZMMjQ2SVc0ejdYQ1VZcnZBM252UkQzSkhjcVdjd1UxNmZHYVNtMS1iU2FvU21QYkJ1M2R5QVNxaWkyOG9ZeW83V2NtUEJCQmwxakZyZ0wwZ2ppSHo0aEQ4dHphdW5QcC1jVXk1M2xr?oc=5",
      "published": "2026-09-28T22:35:00+00:00",
-     "score": 5.897,
+     "score": 4.965,
      "source": "Starship",
      "title": "SpaceX\u2019s Starship enters orbit, deploys satellites in landmark launch - Semafor",
      "topics": [
@@ -173,31 +217,21 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOY2pUbF82aUZZUndGSWEyMjJhSG8xVTAtTzBWc0JndGNyaFlTcVdaeEpyaHg5aVluNmJqcG5QTDhHZ25taVA1SDZoM0w1QXl1YkRDZlIzbDNRQm1oVTJkN0dGWk9fTHVaS0ZEc2xLQ2RXZ3VEYkdrTHhuckFrdlJ5elVsZHF1TDJRTkZVaWM5U09kakU0ZDRDYWN2cnRwbzQ0bDdhRWlpYWttX2FzbHk3dkRDRi14ODNhemZONklTU2V6bWpOM09hOE5ncUdkYjRsQnZv?oc=5",
-     "published": "2026-09-28T22:28:25+00:00",
-     "score": 5.879,
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaVRhMG1KOWZyTmRBVUxUeE5lakZDRVNKOG55NVh2ZGN2T2theGx0dzdhQU9SYUpLamdNWkJVcERKb05SM21vWDFoMmFZS2Q4ZUhESTA3VF9hVno0bGJnekhXeXdKM0VNcnZIaEliOXNERVhVczBMZ0pCN3k5TmdJNWxsUlZ6cDItbTJKNEowUlNIX0NCcXdYdGM0R3F1UQ?oc=5",
+     "published": "2026-09-28T20:55:00+00:00",
+     "score": 4.687,
      "source": "Starship",
-     "title": "SpaceX\u2019s Starship on Monday launched into orbit for the first time, but had to return to Earth early due to engine problems. Read more: https://nyti.ms/4ynmIWV - facebook.com",
+     "title": "SpaceX Launches Starship Flight 14, Deploys Starlink Satellites. - Investor's Business Daily",
      "topics": [
       "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ3Fsalc0ZlhsR1RyOTVxVkF2VDVXZFlBcFphNUFsbHZzY1VqWlpyZ3J1WkNIMlNQS1FYVWVaN2FNZm02a3lyTUg0QW5FWktYR2t6aHg3WGlCUnk1cTFvMXItNkkyTW5oNHBjS2cxQ2RjT0E4dF9OMF90Q0g4SGRLWjg5enZmVVZjRnVEcjkySk1Eb243eEpkYU1NU0dNdmFLOEJaZmhkV2NLdnZDTXMw?oc=5",
-     "published": "2026-09-28T21:26:19+00:00",
-     "score": 5.706,
-     "source": "Starship",
-     "title": "Starship's first orbital launch gives lift to SpaceX's next-gen Starlinks - Ars Technica",
-     "topics": [
-      "starship",
+      "starlink",
       "launch"
      ]
     },
     {
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcjNWb0xCanlSdllFdHJENU1SQ0xacUt1LUdCb2ZsQ1ljN19OQjJXMUhCSG00Wks3OVZaRHRfbEVyTkFET29YMUJZVDI5Q24xa05FUVdMeTFUekJ5OVd3RjBMQzJjSDhxZDZtUFZaSjlnUi1GX2VhVmwwa2YwZnhwdjFWRDd6QTF6?oc=5",
      "published": "2026-09-28T20:52:00+00:00",
-     "score": 5.611,
+     "score": 4.679,
      "source": "Starship",
      "title": "SpaceX\u2019s supersized Starship launches into orbit for the first time but flight ends early - AP News",
      "topics": [
@@ -208,7 +242,7 @@
     {
      "link": "https://spaceflightnow.com/2026/09/28/starship-returns-to-earth-rocket-splashes-down-north-of-hawaii-after-three-hour-flight/",
      "published": "2026-09-28T20:40:02+00:00",
-     "score": 5.578,
+     "score": 4.645,
      "source": "Spaceflight Now",
      "title": "Starship returns to Earth; rocket splashes down north of Hawaii after three-hour flight",
      "topics": [
@@ -219,7 +253,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPUXRJc2llMmFjb2tDREpwNnVWdFBlUGI5ZkhPZFdlY2YxX0NsN1RtUlJkejdOcE5xOWdpQnFCblVmVUc5eTYyZTZZUjB6aENDWHFjbC1BQUZMZWY0UG5XbmZGX0FoUHVRaUdkdHFkQ3ZjOWkxb1JmaDJNWVdCMkVubVMzekZQNlZPcVBCMTQ4RWRaUWFoX1FuYTkwMWwyTWwxRFMzOGVWZjVCZ0ZobXA2Sk5uN2FMX3R5RVA0UXp3Ni1USUZ3MkRwQTZVWHhLZWVUdGl4a2FXT3JiNmlMUzUxa2ZBMHh4LXkxX0d0LU1vdnM3THIzR2lURE5XLWVySFBSem11eWFESUJxZzhZdnJHY2Q1NkRkeDZaMW8tY0t4QUtDTEVmQUdIUWdORHFla2htbjJYdg?oc=5",
      "published": "2026-09-28T20:11:31+00:00",
-     "score": 5.499,
+     "score": 4.566,
      "source": "Starship",
      "title": "PHOTOS: SpaceX's Starship launches into orbit from Texas base - WBFF",
      "topics": [
@@ -228,11 +262,32 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOTBKYnhELTc0NHc5dVpYRkxZVDJhTThsU3dDdW9aLVd4WlY3azl2azl0QUkzX0ZseUJJRGFlamZkdVg3VXBKeU9OcTY4cnJnTW85dVJla2hkb3ZCMXZGdmlrYnBvS2VoOEE5eXZVbmFVZGU0RktqSnhFbEFqYVg1eDV0ZEtZOWhUZlpVUmNNVEhJdw?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOX0JUMWhaWjUtU0Vha1pnODYzTU1zbnpMbXBNaW04aElmdFdnM2lQQkhkNVBjLTFfd3NtVGYtUHVRLXRLUUVJYzk0czJUN0FnRU1hekRWblBCc20tMU5zX2RWdzJRZTV4U3FydTExM29tOFBSVnJQT2VCX1ZYR0dEenBQazZ6WVM3QUpYVDhQaEVwNWNqZWRKNFZ3b3prNjI0UTBGZk54NXJBVmwtU19OeUk5OU80UQ?oc=5",
+     "published": "2026-09-28T18:43:42+00:00",
+     "score": 4.322,
+     "source": "Falcon",
+     "title": "TakeMe2Space Prepares MOI-1A Orbital Computing Satellite for SpaceX Falcon 9 Launch - satnews.com",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZGtWYnIwSUpFV2Jaa0N1aVZmT09pQVRQYnh3cjhTZWtGYzY0TmVEa2VpOWJuUjJXY3hSYU14RE1Ydk1lYktTOE5XVkF4T1BfaDh3d00xbEp4eEtMdV9hUF9rN19ueTZHWW5EdmJmOE5sbS0yUkVldm9xcUFXNHgtV2JmLTdhVFEwSnZucnRhTQ?oc=5",
      "published": "2026-09-28T18:42:00+00:00",
-     "score": 5.25,
+     "score": 4.317,
      "source": "Starship",
-     "title": "SpaceX's Starship launches into orbit for the first time - KFVS12",
+     "title": "SpaceX's Starship launches into orbit for the first time - WIBW",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWkh0SHZsY3ZmanhGM19UODQxbEZZODV2cUtIaml1NURxQXlfZ01MWnlJWnNGZDJMZHFKRkEyVzR3X2otNmpmbFlJbnlfQlRfenFhd2xlc0t0M2t5T2JiWEg4dzY2dUJVMFlvS0ZYMXFrVEljcWlZSXEzeHFodG1lcUs3VkhQN2daS1BSSlpJMm4?oc=5",
+     "published": "2026-09-28T18:42:00+00:00",
+     "score": 4.317,
+     "source": "Starship",
+     "title": "SpaceX's Starship launches into orbit for the first time - K8 News | Jonesboro, Arkansas",
      "topics": [
       "starship",
       "launch"
@@ -241,7 +296,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORFd6TkhKRkdobkx3M1JUQ3NSQWNVeldvOERqQk9VeEJvZ2xYdkgyYkVIQWN1WS1ia0FzZnNybzVCZHVHRXdzaGtiU01RWVFSd1JxRndaQXNFbUM1UHAzbkNQdzVDY255ekJJNVhER3N0ZXpiR1hReWVmbkhwdmZFUldlS3pVcThMX1JPajRwcw?oc=5",
      "published": "2026-09-28T18:42:00+00:00",
-     "score": 5.25,
+     "score": 4.317,
      "source": "Starship",
      "title": "SpaceX's Starship launches into orbit for the first time - WDAM-TV",
      "topics": [
@@ -250,9 +305,20 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB3QTBSYkljMzRxbkFWM2JvcmUydUZoZUdFQ1pCQWgxeHB5VGhvUVpkcjJwUnlBY255VlFPcXpoR0s1b0RiUWpRb2g2WkVUd003Ml9oVi1oMWM4bXZSaHlfTGhXb1JEa3M?oc=5",
+     "published": "2026-09-28T23:29:07+00:00",
+     "score": 4.263,
+     "source": "Starship",
+     "title": "SpaceX's Starship ends mission with fiery splashdown - Reuters",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE55MjB6U3ZfRlJfZlhqMFplby1zS1RhOEVoTFBlTmNJdEZJLVhMTmZpY0l4YTkxaHdfWkJNY1RQeDVxQi1nMHFVaXNYLVJTR2RBM0RiaF9oZmZEUS1XdUFFNkxuUm8xY0F1M2NkYXhtY3F6WmpDbF9TVl96ckdSUQ?oc=5",
      "published": "2026-09-28T17:55:40+00:00",
-     "score": 5.121,
+     "score": 4.189,
      "source": "Starship",
      "title": "SpaceX Hits Major Milestone, Launching Starship Into Orbit for First Time - CNET",
      "topics": [
@@ -263,9 +329,9 @@
     {
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNam9WLU9UaTdCNzBFOThjSk42RURobDdhUXd4VC13WDBROV9SOGpyakNvbjE4OUxMd3R2ZHJwbDJTNVNHTHhCcDdLSFZ2aVpWWko0TDNBMmRwdklwVzZwZE1nMnhaZFBWMGdvRjdXd0VnUDVMWHdxVnI4dnhHd2IxMXVrb2NBQy1WODAtb0c3MmJmekVvMVhuZnpTbHdYY3dsLTdtX2JCUXpzWTJKVHdZ0gG0AUFVX3lxTE5JYks5OHdrWkRYNGdRTHEyOVJkRGdvdkNVOHZHcTVQMzNRbEtYMVJWbnpmNWFQSnowNHp6TFljalVPcS1US3J4VkFFM2d3aVduMUdaU1JaZFJsSmgzU1RhOS1PVmZjVGJJZ0FsR3dVM2EyWW9Sa1lPMjNUZTlDNnA4YUl1MkNwYVN0aGRLVm84ZVhPeUt6ZXc1T0U3VFl0V29uQV9fbWxldVF0OWJlLTcxd0RncQ?oc=5",
      "published": "2026-09-28T17:39:00+00:00",
-     "score": 5.075,
+     "score": 4.142,
      "source": "Starship",
-     "title": "SpaceX launches Starship into orbit for first time ever but cuts mission short - Fox Business",
+     "title": "SpaceX launches Starship into orbit for first time ever but cuts mission short - foxbusiness.com",
      "topics": [
       "starship",
       "launch"
@@ -274,76 +340,9 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPMWIyTzhQeWRlWUprSlY5ZlNjMEhqUEw3eFdZTXIwTS1iQllHc1JfbnkwenlCUWdWVENYcTFZWkpsSXpmM3JLWGo5N2Y5bnBjazhfOHFUVDY1ZWdONXpIRnVJbkwwUFVja0R6MEo4cm9JT0tEYTFpRUpWSGFTWnc0M2dCTkh0RWQycHRNWXJabjduZ3FZejgzQk5lbDl1YWg5cmYtWFNnNWFwSkNNbEZ2eEcxcjVqRVE0ZFlNdXdEWTNaOVlKZHp5WTN3?oc=5",
      "published": "2026-09-28T17:33:29+00:00",
-     "score": 5.06,
+     "score": 4.127,
      "source": "Starship",
      "title": "SpaceX starship rocket splashes down after successful launch and orbit around Earth - NBC News",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVGQwd1Z5bjAwczVCNERyVnVRdVpTTGcyLXhVVU14VUJIVUJoc1dPWEEwa09BSXgxNFJ3N2w4elpUYWdvTS1VZW51MHp5TnA1VVhJYXZMVzU3Nkx3b3hQWnhFY2ltT2pmcnJrVk5NNVdHLWFvUi14VkRQcmVlRkU1MGh4YnFQV19sZW9hX19ZVUo?oc=5",
-     "published": "2026-09-28T17:19:30+00:00",
-     "score": 5.021,
-     "source": "Starship",
-     "title": "SpaceX\u2019s Starship launches on 14th flight, first headed to orbit - Virginia Business",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaVRhMG1KOWZyTmRBVUxUeE5lakZDRVNKOG55NVh2ZGN2T2theGx0dzdhQU9SYUpLamdNWkJVcERKb05SM21vWDFoMmFZS2Q4ZUhESTA3VF9hVno0bGJnekhXeXdKM0VNcnZIaEliOXNERVhVczBMZ0pCN3k5TmdJNWxsUlZ6cDItbTJKNEowUlNIX0NCcXdYdGM0R3F1UQ?oc=5",
-     "published": "2026-09-28T16:39:00+00:00",
-     "score": 4.908,
-     "source": "Starship",
-     "title": "SpaceX Launches Starship Flight 14, Deploys Starlink Satellites. - Investor's Business Daily",
-     "topics": [
-      "starship",
-      "starlink",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPYmptNWw5X0w0ekQwNVV2ckNFMlY3Yzc1WkY1a1UzSXVyQ2lMWk5SMTdjMGNGTkhWYmhoZ2dtWGxGR0Ytb1U1cm9telNlNm52MHpRdDZwUGZhNnl0QzU2anliSENYUGFtYkJMdXl0Q3didUc1ZF8yTm9BNm1qeDdGQVBlRmREYktNeXNpVUE0cnJGWVp3QTd1M3UwX3FfUUpibGRQazdGZjJGeV9hZTZKS2prandDMWNjbHRySkItQnp6UnlMcHFrT0VTelc2QmlELXB5d0llYUFsSGNPQ2JFN2FGSEhLUjd2UGVr0gHzAUFVX3lxTFBZdVRWZllXeGlBeDFzTkJkYzIxdnJoOFdoVzZBalZGS0huZXdNU1pwbXRpM19qZUI1Vmw1TVFvbHpFdmtySHJhMDh3MDh4V09KTzMtMURVUm0wQUFOT3NueWZMVk9QU1VDZFRrNTRIRThhOGU0d1lCTERiRmlUcGs5U2tCbllVbC1sSnRVNmVQVlZ0am5qY2MyMUNsSHdwSElWSlFFYVNtVVdGNFlNT3NlWjVKSnoxSUdJenpLRmdKZlNFWEZXT0YxbUFDQnJINHUxeDNZNXVQczRORHBIaWpjTzhRemVZY2FFdmtrbm9WNzQ1NA?oc=5",
-     "published": "2026-09-28T16:23:50+00:00",
-     "score": 4.866,
-     "source": "Starship",
-     "title": "SpaceX\u2019s Starship launches from South Texas, returns to Earth with a thud - Houston Public Media",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPcTVvOHFqRzJINE9HWnItb2JxQVYwcnNrNG5YVFcwRjd6cWFXd0p1V056VEtsRmNVWHV5Y1c4eWdIdGJZUTFxa0lfbnNGbUlUV001LUJMb0lWUy1HdnpFeTZ2aDZDLS0tUGF2Z3FFQzZ1a3BXNFZtX0dTZXBhODFoVXZYeXVNTkRZeXc?oc=5",
-     "published": "2026-09-28T16:08:46+00:00",
-     "score": 4.824,
-     "source": "Starship",
-     "title": "Video: SpaceX Starship Launches Into Orbit for the First Time - The New York Times",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSTZqSndHY0k5cTNyM21NS2ZLdTkxcTFfcGFUTnpGV29KWl9TZjdEWWFFZ2ZnX2xGdzljLWhrSGd6TEFJa2xRQVRoXzE0LU5MZkhBWlozYXBESzBhSVZVdWpRd1oyQnZJcDNLejhpV2MzX0VSV0U3dEluZTFfSWE1Zl9JLVdvVFMyMVd0SHNqV3hJQWJpNmlEX0p4djJIQ0hxWWc?oc=5",
-     "published": "2026-09-28T21:45:00+00:00",
-     "score": 4.798,
-     "source": "Starship",
-     "title": "SpaceX \"Starship\" reaches orbit but ends in explosive splashdown - CBS News",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNekY2T0hhR3U4MFRhb1pmdXVPUFlYd3pncHpkZEJ5X0poVEhwQk5BeHZOTmlwbGdiSEJuTEJla0dJN2lMQmdZMWlqV1RqSzhxTjZpaml4djFqOGpsMFZmMzM4bEMzQ252UjViWUI2eHhFM2pPdkxNZXJjSkxrVjdrMVNycXNZRUo0YnNjZlVNb2dPOU12OW5FU2FOYVFXM1dEQW5TTzlvZ0Fxb3ZZejJrM3dIaEtacHc?oc=5",
-     "published": "2026-09-28T15:58:00+00:00",
-     "score": 4.794,
-     "source": "Starship",
-     "title": "SpaceX launches its massive Starship rocket into orbit for the first time: What you need to know - CNBC",
      "topics": [
       "starship",
       "launch"
@@ -354,9 +353,9 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBUM1FPeWhtY1cyQm0taVdGWU42bDdEXzlCdjFFS1I3UFNOZ3B1WFFXTUdHNndHNUlwSDJFOFpOZW1OTWZKYl9IV0JUWFU1cGlIcVV4cGJFazJab3BIWEc4Q0pjYzE?oc=5",
      "published": "2026-09-28T18:28:00+00:00",
-     "score": 7.816,
+     "score": 6.417,
      "source": "Production",
-     "title": "Tesla launches high-volume Semi production - ttnews.com",
+     "title": "Tesla launches high-volume Semi production - Transport Topics",
      "topics": [
       "production"
      ]
@@ -364,7 +363,7 @@
     {
      "link": "https://www.teslarati.com/tesla-semi-no-human-contact-approach-production/",
      "published": "2026-09-28T14:49:52+00:00",
-     "score": 6.907,
+     "score": 5.509,
      "source": "Teslarati",
      "title": "Tesla has a \u2018no human contact\u2019 approach for Semi production",
      "topics": [
@@ -372,9 +371,19 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNV8tdXNveVhfeTRaX3doV0t4anEyeUUzV2ZjVy1TVTM3TVdMUFN2ZEc1UUdCbG8zYlNUOTRQeTJUQndjOGhnc1kyRXlzRi01MTdUbDZqNktmdWItV09NMUlVNHp3dUhWb3FvUk1rWEVoOUI0U2J4andZSE9FV2UtNWR3?oc=5",
+     "published": "2026-09-29T00:20:37+00:00",
+     "score": 5.258,
+     "source": "Production",
+     "title": "Tesla Model Y L Deliveries Delayed to 2027 - Intellectia AI",
+     "topics": [
+      "production"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBqRTZwNlBIN2U0REY2M0JjU3lyNVF1NDNSQlBKb1FkdzQwR0RJN3pCVGlwUkNZR0QzdGc1eDI1QjF0cmt1QUk1dW5ldnlrWElXRlZMU1d2c0VVd3N3ZWQ0NHpIQ3k2OW1FZERFRTdRa0hsdkptOEE?oc=5",
      "published": "2026-09-28T18:27:00+00:00",
-     "score": 5.208,
+     "score": 4.276,
      "source": "Production",
      "title": "Tesla Faces Pivotal Week as Roadster Reveal and Q3 Deliveries Loom - finance.biggo.com",
      "topics": [
@@ -384,17 +393,17 @@
     {
      "link": "https://electrek.co/2026/09/28/anker-solix-early-prime-day-sale-s2000-400w-solar-bundle-lectric-e-bike-flash-sale-more/",
      "published": "2026-09-28T18:00:00+00:00",
-     "score": 5.133,
+     "score": 4.201,
      "source": "Electrek",
      "title": "Anker SOLIX Early Prime Day Sale drops S2000 400W solar bundle to exclusive $1,102, Lectric 3-day e-bike flash sale, more",
      "topics": []
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWi1OWmVWbGtIMW5zWG55Nmx5RFRzbXpKOWU4d2hrb1JpTUdsb2dESW9Kb3BEYlJMb3lVWFh5Zk1fWEJvRFlpbFpMNTdXVGhmVGtqNFNMdjFOZmlKRElJSnFuVU9kVUcwT1FMVE1PaHE2N2ZlR3JrN0pTclBFbk8zakF5QjRfQTNpdzdDNi10UGd5TTZET28wZXZvTFBvdVhxQUx1Yk9WdzVVU05MNk5VLVJwZ0xBVTJGTjhRVEtKQkpKVHBBWFNJ?oc=5",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQalZDM3NYWTdsMmFzU0F3T0syOEk5X2JSNE82NW1vOGcwRS1IMDZCSTVxNHI5R0puejdOQTRkT0VZSC1QWGV0NHhXVklxandTa3gxc3NSaWd3WEw3TmJ4eUwyQi04Qk9HWTlEN1VkTFpralNnTlRjdFJiVUdXR3ZPSGNYV29xbmR5TkdGRXJwQWo1cV9Pak1SSkhObTlqUExZZ1h4a05n?oc=5",
      "published": "2026-09-28T17:28:21+00:00",
-     "score": 5.045,
+     "score": 4.113,
      "source": "Production",
-     "title": "Tesla Begins Semitruck Deliveries Amid Slowing EV Sales. What It Means for TSLA Stock. - Barchart.com",
+     "title": "Tesla Begins Semitruck Deliveries Amid Slowing EV Sales. What It Means for TSLA Stock. - Yahoo Finance",
      "topics": [
       "production",
       "money"
@@ -403,7 +412,7 @@
     {
      "link": "https://electrek.co/2026/09/28/tesla-q3-2026-delivery-estimates-wall-street-split/",
      "published": "2026-09-28T16:33:05+00:00",
-     "score": 4.891,
+     "score": 3.959,
      "source": "Electrek",
      "title": "Tesla (TSLA) Q3 2026 delivery estimates range from 422,000 to 482,000",
      "topics": [
@@ -413,7 +422,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNHZEX2EyWGk0VXlSUm83XzROLUN0UUZ1YWVJdkxTWEV5cjF3M1lMV29JVmY5LUp1clZrb0VLakV1VXB0QlRtYmNWa0RzZHFIVlJQdU13bzl5QUc0ZzFpSXVfWl9IUzh0algwTDlHQ3poVGpuQi1yY2l4RGtYUkRNMGFlaUM4Mmd1cV9rUWdPaTcwQ2ZBOWxud0ZheDFZejVnR05saA?oc=5",
      "published": "2026-09-28T13:38:40+00:00",
-     "score": 4.407,
+     "score": 3.475,
      "source": "Production",
      "title": "Cantor Expects Tesla Q3 Deliveries 6% Below Visible Alpha Consensus - eletric-vehicles.com",
      "topics": [
@@ -423,7 +432,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTENaSGtqYnBZb21Jd1g3bGsxUDRCdnhWYVROWllUY1c5UzkwSmg3Yl9mSzVPdFQwTXJTRzVsemVlYW1wSURvSTNVM3AtV0h0UEh0TzZkdUNXVjI2NmcyeXo2UFRKdFFPcWk0ZnJpemZ5Z2VSUTZoSWNBZmtsbHI3ajF6LVJoX1UxU3BUbFRZd0FSZWNrRzY5QTFBOGFVcG8?oc=5",
      "published": "2026-09-28T12:34:51+00:00",
-     "score": 4.23,
+     "score": 3.297,
      "source": "Production",
      "title": "Tesla Deliveries Are Coming but the Stock Has a Bigger Catalyst First -- Barrons.com - Moomoo",
      "topics": [
@@ -432,9 +441,19 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQLUZhY2lTRXhadlVmay1JX2JjZjlVQjlNWEZsRnAwbTh3TjluU0FXN185OGdqc1YyaExKeE1YWTBJR05HYzBTTVdhb0hiWGxnc3FwRDlDXzRUYWRwLXJKOWU5VjZ1a1UyOE1XQzlFR0swdkhCSTRfbWFxRzlKbDZ2b3VPQ3FMQUFheTFsTl8zZE5GbzVYLWU5SWZwVkxTR2RRbGpLbnk0aTBIS1lVd2pWSnpvNE0wdVVJQllj?oc=5",
+     "published": "2026-09-28T21:58:44+00:00",
+     "score": 3.242,
+     "source": "Production",
+     "title": "Video: I Finally Drive a Fully Loaded Production Tesla Semi Truck \u2013 Here Are All the Details! - The Fast Lane Truck",
+     "topics": [
+      "production"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPblFKRzlpWjg2UjJDUEgxanF2MVpWcEVPWUhvTVJMTDNIbW5UX2lrU0RnQlg2dGJYczBpbG1vMWZkTTIxUTZxSXo0S1lqdTZmOXdRSGNZei10TkFvRFRyaXBFWXhRdU5DemZ0NkkzbHlwbDRDUTZRM3hqdDVjM1gzZUdCRDh4djlKYnpJNG9ZS19vYmc?oc=5",
      "published": "2026-09-28T19:17:49+00:00",
-     "score": 3.209,
+     "score": 2.65,
      "source": "Production",
      "title": "Analysts split on Tesla\u2019s Q3 deliveries ahead of Friday report - EVs & Beyond",
      "topics": [
@@ -444,7 +463,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdFJWRlR3bHlwTW50N1FrdWlBWHlnMjRmWmsyT1BEQWl3NmxKWmhnMWdmX0JzcDhTRVl5dVNRNUJidURlclltZm5zNGhNSmZNUnVlZWtFajFRcExEZE1KSDlpelk3MzZKbkQwQ0EwTDItV3Z1Z1NBT1FDR1FWWnppNXF3?oc=5",
      "published": "2026-09-28T19:03:04+00:00",
-     "score": 3.185,
+     "score": 2.625,
      "source": "Production",
      "title": "Tesla Q3 2026 Deliveries Expected To Decline As Analysts Forecast Slower Quarter - driveteslacanada.ca",
      "topics": [
@@ -454,41 +473,11 @@
     {
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5GZkFhYVNXNjdlT0NrdGt1Wkl0SkIxRGlLN1FjN2pvVVpXN3BMVXFHbzdqVDRfMHhycWMta3BlV0pTd3RRdWlnZzBaOUZTaG84WGFWamx4cGUzZFdoZmM1OFlxSW1wUjdUTlVPelpaNTFNUjRvQkxv?oc=5",
      "published": "2026-09-28T12:40:16+00:00",
-     "score": 2.83,
+     "score": 2.208,
      "source": "Optimus",
      "title": "Tesla\u2019s Optimus production is up tenfold but the robot hands lag - The Next Web",
      "topics": [
       "optimus",
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY3ZoZm1Ta2hRVDI1UC1aWUNHTnlCODRBRFRYZ2xUMWtobnJuM2g4YzlsSWN0ZVRfUzk3VFl2a2lEWkEtV3A0M3JFV1c0UGt3U1VGR0JiZEpGRmxLSk5nNm5KWmNUaDJkampWTVhNaFM0dWpaNVF6bWQzYlBHdHNBUmZINlhjb25GQW5r?oc=5",
-     "published": "2026-09-28T10:10:04+00:00",
-     "score": 2.552,
-     "source": "Production",
-     "title": "Tesla says Gigafactory Texas helps power Semi production milestone - Yahoo",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ndVB5elo5aGF1cmNEbDZnSlpkWlVuWHBEMUtab3BxUVFRdUtENWJoSzFxQ0lTR1B1c28yVDhfcUFDWjk4UlYyMFVod29zb0plVklCTUlWZUVyeGtFSGkxQWlNc09rS1V3MUtRbGN6bWs?oc=5",
-     "published": "2026-09-28T09:58:08+00:00",
-     "score": 2.53,
-     "source": "Production",
-     "title": "Tesla Semi 2026: Range, Price & Production Details - Techloy",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WdFRJeHFjV0dib0JCcDNFbm01NU4xSEI5WnYyaEw1REFiNTRkdkJpcjh5LXVsXzBjZ1ktemc0c1VUOG9zOHhsXzI3SXlBckxzcVlj?oc=5",
-     "published": "2026-09-28T06:10:49+00:00",
-     "score": 2.109,
-     "source": "Production",
-     "title": "After nearly a decade of delays, the Tesla Semi has finally entered mass production. - 36Kr",
-     "topics": [
       "production"
      ]
     },
@@ -503,11 +492,21 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPb0tYd2dwdHpGdTF5dnY0cHBHMmJjZ3RvOENmaXNQTE5WRVJqcDctWVBSdzE5aEhhVTlCNFRyWGhUSV95ZmdfaTJHdTJFakdxY2QyUDlTTHMyZUVpeTJJYlJoWlRCY3FSTGtMTWFKU2JPdzBNeHZlWklIZlc0T0VyOEVyQU1BWnIxaDNPZlJIVXo2SlpRMUpSMk9heUVMMXIzM0ZVMmRRTFhiRVZGSm1CamZKN1lkbTVNam84X3FXeHBZMXpWYzJYQngxeUhVMzZPbk5HMw?oc=5",
-     "published": "2026-09-28T04:01:00+00:00",
-     "score": 1.868,
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNY3ZoZm1Ta2hRVDI1UC1aWUNHTnlCODRBRFRYZ2xUMWtobnJuM2g4YzlsSWN0ZVRfUzk3VFl2a2lEWkEtV3A0M3JFV1c0UGt3U1VGR0JiZEpGRmxLSk5nNm5KWmNUaDJkampWTVhNaFM0dWpaNVF6bWQzYlBHdHNBUmZINlhjb25GQW5r?oc=5",
+     "published": "2026-09-28T10:10:04+00:00",
+     "score": 1.93,
      "source": "Production",
-     "title": "High-Volume Semi Production, Souped-Up Roadster Offer Jolt for Tesla Investors - The Daily Upside",
+     "title": "Tesla says Gigafactory Texas helps power Semi production milestone - Yahoo",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ndVB5elo5aGF1cmNEbDZnSlpkWlVuWHBEMUtab3BxUVFRdUtENWJoSzFxQ0lTR1B1c28yVDhfcUFDWjk4UlYyMFVod29zb0plVklCTUlWZUVyeGtFSGkxQWlNc09rS1V3MUtRbGN6bWs?oc=5",
+     "published": "2026-09-28T09:58:08+00:00",
+     "score": 1.908,
+     "source": "Production",
+     "title": "Tesla Semi 2026: Range, Price & Production Details - Techloy",
      "topics": [
       "production"
      ]
@@ -536,5 +535,5 @@
    ]
   }
  },
- "fetched_at": "2026-09-28T23:12:11.218125+00:00"
+ "fetched_at": "2026-09-29T04:47:50.674558+00:00"
 }
