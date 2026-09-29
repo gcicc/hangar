@@ -397,7 +397,7 @@
    },
    {
     "count": 2,
-    "last_net": "2026-10-15T00:00:00Z",
+    "last_net": "2026-10-13T17:00:00Z",
     "lat": 13.7199,
     "location": "Satish Dhawan Space Centre, India",
     "lon": 80.2304,
@@ -2106,15 +2106,15 @@
     "mission": "IRNSS-1L (NVS-03)",
     "mission_type": "Navigation",
     "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-    "net": "2026-10-15T00:00:00Z",
-    "net_precision": "DAY",
+    "net": "2026-10-13T17:00:00Z",
+    "net_precision": "HR",
     "orbit": "GTO",
     "pad": "Satish Dhawan Space Centre Second Launch Pad",
     "pad_location": "Satish Dhawan Space Centre, India",
     "provider": "Indian Space Research Organization",
     "rocket": "GSLV Mk. II",
-    "status": "TBD",
-    "status_name": "To Be Determined",
+    "status": "TBC",
+    "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/20d5676e-111b-40e3-8923-b218c3665ca2",
     "webcast_live": false
    },
@@ -2351,5 +2351,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-29T04:47:59.595850+00:00"
+ "fetched_at": "2026-09-29T12:20:55.947869+00:00"
 }
