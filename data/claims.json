@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-29",
-  "times_seen": 83,
+  "times_seen": 84,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -57,7 +57,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-29",
-  "times_seen": 83,
+  "times_seen": 84,
   "outlets": [
    "Optimus"
   ]
@@ -78,7 +78,7 @@
   ],
   "primary": false,
   "last_seen": "2026-09-29",
-  "times_seen": 69,
+  "times_seen": 70,
   "outlets": [
    "Starship",
    "Falcon"
@@ -102,6 +102,48 @@
   "times_seen": 4,
   "outlets": [
    "Falcon"
+  ]
+ },
+ {
+  "statement": "Musk: Starship Targets Weekly Launch Cadence in 2027 After V3 Starlink Deployment - BASENOR",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Starlink",
+  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNS0dSNVZyell1YmlWRklaSXdFNUlOR3k3YXgzV2dKeFhnZVBQbTI1TW8yZ3haRVg5N2Q2cmw1NWUzNmJJbE5EWncwQW1pQ2dQaDJpZm51dkdaMEF4bU5IT3NOd0JRTmt2Y2VvZEVhV3JzUUYyRmVQMzlGVVY1bk12ZU1MNTV5VmdjZHhnMDlVbWl6Z3EzRjlnXzFRRFg4OEpGaW9FajZNcThBVHVrU0FVZnIxSnZrQQ?oc=5",
+  "first_seen": "2026-09-29",
+  "topics": [
+   "starship",
+   "starlink",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-29",
+  "times_seen": 1,
+  "outlets": [
+   "Starlink"
+  ]
+ },
+ {
+  "statement": "Starlink Will Have Capacity for 20 Americas by 2030. For Telcos, One Is Enough. - Sebastian Barros Newsletter",
+  "entity": "Starlink",
+  "horizon_phrase": "by 2030",
+  "horizon": "2030-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Starlink",
+  "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1EcE0zRnVxWEs2NlRvZmhQMkhCR2l2Z3hBaUhGUjgtZGhRMkVwa21wSFUxSUgyOVVpeDA1TDJMSE9ST2FvWkY4Q3NfamtTOEw1SEV4bXpkd3pzWWNxb2NCMVUxQmNOcjlwWUdYaU1hNTFZUDlhZzNSaEFFdWM3dw?oc=5",
+  "first_seen": "2026-09-29",
+  "topics": [
+   "starlink"
+  ],
+  "primary": false,
+  "last_seen": "2026-09-29",
+  "times_seen": 1,
+  "outlets": [
+   "Starlink"
   ]
  },
  {
