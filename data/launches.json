@@ -147,7 +147,7 @@
   "pads": [
    {
     "count": 53,
-    "last_net": "2026-10-10T16:00:00Z",
+    "last_net": "2026-10-10T23:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
     "lon": -120.611,
@@ -2085,7 +2085,7 @@
     "mission": "Starlink Group 15-25",
     "mission_type": "Communications",
     "name": "Falcon 9 Block 5 | Starlink Group 15-25",
-    "net": "2026-10-10T16:00:00Z",
+    "net": "2026-10-10T23:00:00Z",
     "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
@@ -2351,5 +2351,5 @@
    }
   ]
  },
- "fetched_at": "2026-09-30T18:52:30.151735+00:00"
+ "fetched_at": "2026-09-30T23:32:54.504891+00:00"
 }
