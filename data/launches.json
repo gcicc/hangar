@@ -217,6 +217,16 @@
    },
    {
     "count": 5,
+    "last_net": "2026-10-09T19:25:00Z",
+    "lat": 19.59755,
+    "location": "Wenchang Space Launch Site, People's Republic of China",
+    "lon": 110.936481,
+    "name": "Commercial LC-2",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 5,
     "last_net": "2026-11-24T05:03:00Z",
     "lat": 45.996034,
     "location": "Baikonur Cosmodrome, Republic of Kazakhstan",
@@ -254,16 +264,6 @@
     "name": "Space Launch Complex 41",
     "spacex": false,
     "top_provider": "United Launch Alliance"
-   },
-   {
-    "count": 4,
-    "last_net": "2026-09-17T00:32:00Z",
-    "lat": 19.59755,
-    "location": "Wenchang Space Launch Site, People's Republic of China",
-    "lon": 110.936481,
-    "name": "Commercial LC-2",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 4,
@@ -337,16 +337,6 @@
    },
    {
     "count": 3,
-    "last_net": "2026-11-30T00:00:00Z",
-    "lat": 13.7199,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.2304,
-    "name": "Satish Dhawan Space Centre Second Launch Pad",
-    "spacex": false,
-    "top_provider": "Indian Space Research Organization"
-   },
-   {
-    "count": 3,
     "last_net": "2026-10-19T19:41:03Z",
     "lat": 30.400938,
     "location": "Tanegashima Space Center, Japan",
@@ -404,6 +394,16 @@
     "name": "Ariane Launch Area 1 (ELV)",
     "spacex": false,
     "top_provider": "Avio S.p.A"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-10-13T17:00:00Z",
+    "lat": 13.7199,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.2304,
+    "name": "Satish Dhawan Space Centre Second Launch Pad",
+    "spacex": false,
+    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 2,
@@ -2056,6 +2056,27 @@
     "webcast_live": false
    },
    {
+    "description": "Details TBD.",
+    "id": "a1bb0984-19d4-4b47-9bba-706d225573e2",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
+    "lat": 19.59755,
+    "lon": 110.936481,
+    "mission": "Unknown Payload",
+    "mission_type": "Unknown",
+    "name": "Long March 12 | Unknown Payload",
+    "net": "2026-10-09T19:25:00Z",
+    "net_precision": "HR",
+    "orbit": "N/A",
+    "pad": "Commercial LC-2",
+    "pad_location": "Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 12",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/a1bb0984-19d4-4b47-9bba-706d225573e2",
+    "webcast_live": false
+   },
+   {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
     "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
@@ -2327,29 +2348,8 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/7c891a0b-7194-4425-8cfd-2e8c75af2924",
     "webcast_live": false
-   },
-   {
-    "description": "First uncrewed orbital test flight of the Gaganyaan capsule.",
-    "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg",
-    "lat": 13.7199,
-    "lon": 80.2304,
-    "mission": "Gaganyaan-1",
-    "mission_type": "Test Flight",
-    "name": "LVM-3 | Gaganyaan-1",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad",
-    "pad_location": "Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "rocket": "Launch Vehicle Mark-3 (GSLV Mk III)",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/dfac5ab7-7017-454f-b6cf-eeed277a97b5",
-    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-09-29T23:31:44.707412+00:00"
+ "fetched_at": "2026-09-30T04:33:41.710140+00:00"
 }
