@@ -91,7 +91,8 @@
     "2026-06",
     "2026-07",
     "2026-08",
-    "2026-09"
+    "2026-09",
+    "2026-10"
    ],
    "note": "Current month is incomplete; earliest sampled month omitted.",
    "other": [
@@ -101,7 +102,8 @@
     15,
     14,
     12,
-    19
+    19,
+    0
    ],
    "partial": [
     false,
@@ -110,7 +112,8 @@
     false,
     false,
     false,
-    false
+    false,
+    true
    ],
    "spacex": [
     15,
@@ -119,34 +122,35 @@
     14,
     13,
     14,
-    8
+    8,
+    2
    ]
   },
   "calls_used": 4,
   "next": {
-   "description": "SpaceX Crew-13 is the thirteenth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
-   "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192609.jpeg",
-   "lat": 28.56194122,
-   "lon": -80.57735736,
-   "mission": "Crew-13",
-   "mission_type": "Human Exploration",
-   "name": "Falcon 9 Block 5 | Crew-13",
-   "net": "2026-10-01T15:10:06Z",
-   "net_precision": "SEC",
-   "orbit": "LEO",
-   "pad": "Space Launch Complex 40",
-   "pad_location": "Cape Canaveral SFS, FL, USA",
+   "description": "Classified payload for the US National Reconnaissance Office.",
+   "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
+   "lat": 28.60822681,
+   "lon": -80.60428186,
+   "mission": "NROL-97",
+   "mission_type": "Government/Top Secret",
+   "name": "Falcon Heavy | NROL-97",
+   "net": "2026-10-02T03:53:00Z",
+   "net_precision": "MIN",
+   "orbit": "N/A",
+   "pad": "Launch Complex 39A",
+   "pad_location": "Kennedy Space Center, FL, USA",
    "provider": "SpaceX",
-   "rocket": "Falcon 9 Block 5",
+   "rocket": "Falcon Heavy",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/18441371-8b2e-457c-afb5-1ec1b11ab630",
-   "webcast_live": true
+   "url": "https://nextspaceflight.com/launches/details/4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
+   "webcast_live": false
   },
   "pads": [
    {
-    "count": 53,
+    "count": 54,
     "last_net": "2026-10-10T23:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -156,7 +160,7 @@
     "top_provider": "SpaceX"
    },
    {
-    "count": 40,
+    "count": 39,
     "last_net": "2026-10-31T00:00:00Z",
     "lat": 28.56194122,
     "location": "Cape Canaveral SFS, FL, USA",
@@ -276,16 +280,6 @@
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
-    "count": 4,
-    "last_net": "2026-11-30T00:00:00Z",
-    "lat": 28.60822681,
-    "location": "Kennedy Space Center, FL, USA",
-    "lon": -80.60428186,
-    "name": "Launch Complex 39A",
-    "spacex": true,
-    "top_provider": "SpaceX"
-   },
-   {
     "count": 3,
     "last_net": "2026-09-28T12:48:59Z",
     "lat": 25.99677,
@@ -347,6 +341,16 @@
    },
    {
     "count": 3,
+    "last_net": "2026-10-02T03:53:00Z",
+    "lat": 28.60822681,
+    "location": "Kennedy Space Center, FL, USA",
+    "lon": -80.60428186,
+    "name": "Launch Complex 39A",
+    "spacex": true,
+    "top_provider": "SpaceX"
+   },
+   {
+    "count": 3,
     "last_net": "2026-10-19T19:41:03Z",
     "lat": 30.400938,
     "location": "Tanegashima Space Center, Japan",
@@ -364,6 +368,16 @@
     "name": "43/4 (43R)",
     "spacex": false,
     "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
+   },
+   {
+    "count": 3,
+    "last_net": "2026-11-30T00:00:00Z",
+    "lat": 13.733,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.235,
+    "name": "Satish Dhawan Space Centre First Launch Pad",
+    "spacex": false,
+    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 3,
@@ -424,16 +438,6 @@
     "name": "Launch Complex 2 (LC-2)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 2,
-    "last_net": "2026-10-31T00:00:00Z",
-    "lat": 13.733,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.235,
-    "name": "Satish Dhawan Space Centre First Launch Pad",
-    "spacex": false,
-    "top_provider": "Skyroot Aerospace"
    },
    {
     "count": 2,
@@ -647,6 +651,48 @@
    }
   ],
   "previous": [
+   {
+    "description": "Dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
+    "id": "67213393-7983-4c06-8b44-b8c785a5ed79",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "Transporter 18 (Dedicated SSO Rideshare)",
+    "mission_type": "Dedicated Rideshare",
+    "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
+    "net": "2026-10-01T18:32:00Z",
+    "net_precision": "SEC",
+    "orbit": "SSO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
+    "url": "https://nextspaceflight.com/launches/details/67213393-7983-4c06-8b44-b8c785a5ed79",
+    "webcast_live": true
+   },
+   {
+    "description": "SpaceX Crew-13 is the thirteenth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
+    "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192609.jpeg",
+    "lat": 28.56194122,
+    "lon": -80.57735736,
+    "mission": "Crew-13",
+    "mission_type": "Human Exploration",
+    "name": "Falcon 9 Block 5 | Crew-13",
+    "net": "2026-10-01T15:10:06Z",
+    "net_precision": "SEC",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 40",
+    "pad_location": "Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/18441371-8b2e-457c-afb5-1ec1b11ab630",
+    "webcast_live": false
+   },
    {
     "description": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-1) into stable Low Earth Orbit.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete approximately 6 orbits around the planet for nearly 10 hours, with splashdown tar",
     "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
@@ -1864,48 +1910,6 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
     "webcast_live": false
-   },
-   {
-    "description": "Share-ride of 5 commercial Earth observation and technology demonstration satellites to SSO, including SpaceTY's Tianyi-48:\r\n\r\n* Yinglong Fengguang-1\r\n* Zhonghang Hongwai 1/Xiguang 2-03\r\n* Tianyi-48 (Chenguang-1)\r\n* Gande 1-01\r\n* Jitianxing A-04",
-    "id": "fa42624c-1e30-4b4b-a06b-59b6153bc4e5",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
-    "lat": 40.8182,
-    "lon": 100.22514,
-    "mission": "5 satellites",
-    "mission_type": "Earth Science",
-    "name": "Kinetica 1 | 5 satellites",
-    "net": "2026-07-23T23:33:00Z",
-    "net_precision": "MIN",
-    "orbit": "SSO",
-    "pad": "Launch Area 130",
-    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "CAS Space",
-    "rocket": "Kinetica 1",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/fa42624c-1e30-4b4b-a06b-59b6153bc4e5",
-    "webcast_live": false
-   },
-   {
-    "description": "Tianlian is a Chinese data tracking and relay communications geostationary satellite series. The TL 2 (Tian Lian 2) satellites represent the second generation of this relay satellite network, and is based on the DFH-4 Bus, a three-axis-stabilized telecommunications satellite platform.\r\n\r\nTL 2 will be used to support real-time communications between orbiting satellites and ground control stations. ",
-    "id": "5421e43a-1623-40ac-9dac-201075064e24",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192932.jpeg",
-    "lat": 28.245504,
-    "lon": 102.026768,
-    "mission": "Tianlian 2-06",
-    "mission_type": "Communications",
-    "name": "Long March 3B/E | Tianlian 2-06",
-    "net": "2026-07-23T12:00:00Z",
-    "net_precision": "MIN",
-    "orbit": "GTO",
-    "pad": "Launch Complex 2 (LC-2)",
-    "pad_location": "Xichang Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "rocket": "Long March 3B/E",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/5421e43a-1623-40ac-9dac-201075064e24",
-    "webcast_live": false
    }
   ],
   "totals": {
@@ -1914,8 +1918,8 @@
    "spacex_sampled": 92,
    "spacex_share": 0.46,
    "window": {
-    "from": "2026-02-22",
-    "to": "2026-09-28"
+    "from": "2026-02-25",
+    "to": "2026-10-01"
    }
   },
   "upcoming": [
@@ -1935,10 +1939,10 @@
     "pad_location": "Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/18441371-8b2e-457c-afb5-1ec1b11ab630",
-    "webcast_live": true
+    "webcast_live": false
    },
    {
     "description": "Dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
@@ -1949,17 +1953,17 @@
     "mission": "Transporter 18 (Dedicated SSO Rideshare)",
     "mission_type": "Dedicated Rideshare",
     "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
-    "net": "2026-10-01T18:18:00Z",
-    "net_precision": "MIN",
+    "net": "2026-10-01T18:32:00Z",
+    "net_precision": "SEC",
     "orbit": "SSO",
     "pad": "Space Launch Complex 4E",
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
     "url": "https://nextspaceflight.com/launches/details/67213393-7983-4c06-8b44-b8c785a5ed79",
-    "webcast_live": false
+    "webcast_live": true
    },
    {
     "description": "Classified payload for the US National Reconnaissance Office.",
@@ -1991,7 +1995,7 @@
     "mission": "SDA Tranche 1 Transport Layer A",
     "mission_type": "Government/Top Secret",
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-    "net": "2026-10-05T08:16:00Z",
+    "net": "2026-10-05T08:17:00Z",
     "net_precision": "MIN",
     "orbit": "PO",
     "pad": "Space Launch Complex 4E",
@@ -2064,6 +2068,27 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/97c6f5e1-299e-4652-b72d-9618ac047076",
+    "webcast_live": false
+   },
+   {
+    "description": "35th commercial resupply services mission to the International Space Station operated by SpaceX. The flight will be conducted under the second Commercial Resupply Services contract with NASA.\r\n\r\nCargo Dragon 2 brings supplies and payloads, including critical materials to directly support science and research investigations that occur onboard the orbiting laboratory.",
+    "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192619.jpeg",
+    "lat": 28.56194122,
+    "lon": -80.57735736,
+    "mission": "Dragon CRS-2 SpX-35",
+    "mission_type": "Resupply",
+    "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+    "net": "2026-10-13T00:00:00Z",
+    "net_precision": "DAY",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 40",
+    "pad_location": "Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/bf2c3027-a314-403e-a416-2bfd5d165ad1",
     "webcast_live": false
    },
    {
@@ -2148,27 +2173,6 @@
     "status": "TBD",
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/3b430f81-0ff1-4d85-8a1a-cef0de326198",
-    "webcast_live": false
-   },
-   {
-    "description": "35th commercial resupply services mission to the International Space Station operated by SpaceX. The flight will be conducted under the second Commercial Resupply Services contract with NASA.\r\n\r\nCargo Dragon 2 brings supplies and payloads, including critical materials to directly support science and research investigations that occur onboard the orbiting laboratory.",
-    "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192619.jpeg",
-    "lat": 28.56194122,
-    "lon": -80.57735736,
-    "mission": "Dragon CRS-2 SpX-35",
-    "mission_type": "Resupply",
-    "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
-    "net": "2026-10-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 40",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/bf2c3027-a314-403e-a416-2bfd5d165ad1",
     "webcast_live": false
    },
    {
@@ -2277,27 +2281,6 @@
     "webcast_live": false
    },
    {
-    "description": "Demonstration flight of the Astrobotic Griffin lander and its engines, initially contracted for the cancelled NASA VIPER (Volatiles Investigating Polar Exploration Rover) mission. The vacated payload spot will now host the FLIP (FLEX Lunar Innovation Platform) lunar rover from Astrolab.",
-    "id": "d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
-    "lat": 28.60822681,
-    "lon": -80.60428186,
-    "mission": "Griffin Mission One",
-    "mission_type": "Lunar Exploration",
-    "name": "Falcon Heavy | Griffin Mission One",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LO",
-    "pad": "Launch Complex 39A",
-    "pad_location": "Kennedy Space Center, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon Heavy",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
-    "webcast_live": false
-   },
-   {
     "description": "Innospace's first in-house test satellite, 'InnoSat-0', will test various technologies for future development of satellites by Innospace themselves. The satellite will be deployed using Korean company SpaceBey\u2019s specialized deployer.",
     "id": "7c891a0b-7194-4425-8cfd-2e8c75af2924",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/hanbit-nano_spa_image_thumbnail_20251224011200.jpeg",
@@ -2338,8 +2321,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/dfac5ab7-7017-454f-b6cf-eeed277a97b5",
     "webcast_live": false
+   },
+   {
+    "description": "TDS-01 (Technology Demonstration Satellite-01) is an Indian geostationary orbit technology demonstration satellite carrying payloads for the Indian Space Research Organisation (ISRO)\u2019s Institute of Plasma Research, Gandhinagar and the CSIR-CEERI, Pilani. \r\n\r\nPayloads to be tested included an internally developed 300 mN electric powered thrusters, atomic clocks, travelling wave tube amplifiers (TWT",
+    "id": "b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193829.jpeg",
+    "lat": 13.733,
+    "lon": 80.235,
+    "mission": "TDS-01",
+    "mission_type": "Technology",
+    "name": "PSLV-XL | TDS-01",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "GTO",
+    "pad": "Satish Dhawan Space Centre First Launch Pad",
+    "pad_location": "Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "rocket": "PSLV XL",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-01T12:39:36.700770+00:00"
+ "fetched_at": "2026-10-01T19:19:30.342125+00:00"
 }
