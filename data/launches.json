@@ -142,7 +142,7 @@
    "status": "Go",
    "status_name": "Go for Launch",
    "url": "https://nextspaceflight.com/launches/details/18441371-8b2e-457c-afb5-1ec1b11ab630",
-   "webcast_live": false
+   "webcast_live": true
   },
   "pads": [
    {
@@ -337,6 +337,16 @@
    },
    {
     "count": 3,
+    "last_net": "2026-11-30T00:00:00Z",
+    "lat": 13.7199,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.2304,
+    "name": "Satish Dhawan Space Centre Second Launch Pad",
+    "spacex": false,
+    "top_provider": "Indian Space Research Organization"
+   },
+   {
+    "count": 3,
     "last_net": "2026-10-19T19:41:03Z",
     "lat": 30.400938,
     "location": "Tanegashima Space Center, Japan",
@@ -394,16 +404,6 @@
     "name": "Ariane Launch Area 1 (ELV)",
     "spacex": false,
     "top_provider": "Avio S.p.A"
-   },
-   {
-    "count": 2,
-    "last_net": "2026-10-13T17:00:00Z",
-    "lat": 13.7199,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.2304,
-    "name": "Satish Dhawan Space Centre Second Launch Pad",
-    "spacex": false,
-    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 2,
@@ -614,16 +614,6 @@
     "name": "Space One Launch Pad",
     "spacex": false,
     "top_provider": "Space One"
-   },
-   {
-    "count": 1,
-    "last_net": "2026-10-05T00:00:00Z",
-    "lat": 60.8184,
-    "location": "SaxaVord Spaceport",
-    "lon": -0.7692,
-    "name": "Unknown Pad",
-    "spacex": false,
-    "top_provider": "HyImpulse"
    },
    {
     "count": 1,
@@ -1948,7 +1938,7 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/18441371-8b2e-457c-afb5-1ec1b11ab630",
-    "webcast_live": false
+    "webcast_live": true
    },
    {
     "description": "Dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
@@ -1990,27 +1980,6 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
-    "webcast_live": false
-   },
-   {
-    "description": "Test flight of HyImpulse's SR75 sounding rocket.",
-    "id": "6b89cfc8-8880-4b5b-856c-0e547d45b639",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sr-75_liftoff__image_thumbnail_20240503065630.jpeg",
-    "lat": 60.8184,
-    "lon": -0.7692,
-    "mission": "Flight 2",
-    "mission_type": "Test Flight",
-    "name": "SR75 | Flight 2",
-    "net": "2026-10-05T00:00:00Z",
-    "net_precision": "DAY",
-    "orbit": "Sub",
-    "pad": "Unknown Pad",
-    "pad_location": "SaxaVord Spaceport",
-    "provider": "HyImpulse",
-    "rocket": "SR75",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/6b89cfc8-8880-4b5b-856c-0e547d45b639",
     "webcast_live": false
    },
    {
@@ -2348,8 +2317,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/7c891a0b-7194-4425-8cfd-2e8c75af2924",
     "webcast_live": false
+   },
+   {
+    "description": "First uncrewed orbital test flight of the Gaganyaan capsule.",
+    "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg",
+    "lat": 13.7199,
+    "lon": 80.2304,
+    "mission": "Gaganyaan-1",
+    "mission_type": "Test Flight",
+    "name": "LVM-3 | Gaganyaan-1",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad",
+    "pad_location": "Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "rocket": "Launch Vehicle Mark-3 (GSLV Mk III)",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/dfac5ab7-7017-454f-b6cf-eeed277a97b5",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-01T04:45:17.494171+00:00"
+ "fetched_at": "2026-10-01T12:39:36.700770+00:00"
 }
