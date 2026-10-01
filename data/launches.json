@@ -10,6 +10,22 @@
     "type": "Government"
    },
    {
+    "agency": "NASA",
+    "flights": 2,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190244.jpeg",
+    "name": "Jessica Watkins",
+    "status": "Active",
+    "type": "Government"
+   },
+   {
+    "agency": "CSA",
+    "flights": 1,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185947.jpeg",
+    "name": "Joshua Kutryk",
+    "status": "Active",
+    "type": "Government"
+   },
+   {
     "agency": "RFSA",
     "flights": 2,
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185904.jpeg",
@@ -22,6 +38,14 @@
     "flights": 2,
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185922.jpeg",
     "name": "Pyotr Dubrov",
+    "status": "Active",
+    "type": "Government"
+   },
+   {
+    "agency": "NASA",
+    "flights": 1,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190723.jpeg",
+    "name": "Luke Delaney",
     "status": "Active",
     "type": "Government"
    },
@@ -66,6 +90,14 @@
     "type": "Government"
    },
    {
+    "agency": "RFSA",
+    "flights": 1,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sergey_teteryat_image_thumbnail_20260424073411.jpeg",
+    "name": "Sergey Teteryatnikov",
+    "status": "Active",
+    "type": "Government"
+   },
+   {
     "agency": "CNSA",
     "flights": 1,
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhang_zhiyuan_o_image_thumbnail_20260524125922.png",
@@ -82,7 +114,7 @@
     "type": "Government"
    }
   ],
-  "astronauts_count": 10,
+  "astronauts_count": 14,
   "cadence": {
    "labels": [
     "2026-03",
@@ -667,10 +699,10 @@
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "In Flight",
-    "status_name": "Launch in Flight",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/67213393-7983-4c06-8b44-b8c785a5ed79",
-    "webcast_live": true
+    "webcast_live": false
    },
    {
     "description": "SpaceX Crew-13 is the thirteenth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
@@ -1960,10 +1992,10 @@
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "In Flight",
-    "status_name": "Launch in Flight",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/67213393-7983-4c06-8b44-b8c785a5ed79",
-    "webcast_live": true
+    "webcast_live": false
    },
    {
     "description": "Classified payload for the US National Reconnaissance Office.",
@@ -2079,37 +2111,16 @@
     "mission": "Dragon CRS-2 SpX-35",
     "mission_type": "Resupply",
     "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
-    "net": "2026-10-13T00:00:00Z",
-    "net_precision": "DAY",
+    "net": "2026-10-13T10:33:00Z",
+    "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Space Launch Complex 40",
     "pad_location": "Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/bf2c3027-a314-403e-a416-2bfd5d165ad1",
-    "webcast_live": false
-   },
-   {
-    "description": "This is a replacement satellite for the Indian Regional Navigation Satellite System. The constellation will provide India with an alternative to GPS and will be used for military and civilian use. Located at a geosynchronous orbit, the system will be operated by the Indian government.",
-    "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192851.jpeg",
-    "lat": 13.7199,
-    "lon": 80.2304,
-    "mission": "IRNSS-1L (NVS-03)",
-    "mission_type": "Navigation",
-    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-    "net": "2026-10-13T17:00:00Z",
-    "net_precision": "HR",
-    "orbit": "GTO",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad",
-    "pad_location": "Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "rocket": "GSLV Mk. II",
     "status": "TBC",
     "status_name": "To Be Confirmed",
-    "url": "https://nextspaceflight.com/launches/details/20d5676e-111b-40e3-8923-b218c3665ca2",
+    "url": "https://nextspaceflight.com/launches/details/bf2c3027-a314-403e-a416-2bfd5d165ad1",
     "webcast_live": false
    },
    {
@@ -2173,6 +2184,27 @@
     "status": "TBD",
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/3b430f81-0ff1-4d85-8a1a-cef0de326198",
+    "webcast_live": false
+   },
+   {
+    "description": "This is a replacement satellite for the Indian Regional Navigation Satellite System. The constellation will provide India with an alternative to GPS and will be used for military and civilian use. Located at a geosynchronous orbit, the system will be operated by the Indian government.",
+    "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192851.jpeg",
+    "lat": 13.7199,
+    "lon": 80.2304,
+    "mission": "IRNSS-1L (NVS-03)",
+    "mission_type": "Navigation",
+    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
+    "net": "2026-10-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "GTO",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad",
+    "pad_location": "Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "rocket": "GSLV Mk. II",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/20d5676e-111b-40e3-8923-b218c3665ca2",
     "webcast_live": false
    },
    {
@@ -2345,5 +2377,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-01T19:19:30.342125+00:00"
+ "fetched_at": "2026-10-01T23:45:37.272262+00:00"
 }
