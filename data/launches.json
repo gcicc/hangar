@@ -182,7 +182,7 @@
   },
   "pads": [
    {
-    "count": 53,
+    "count": 52,
     "last_net": "2026-10-10T23:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -193,7 +193,7 @@
    },
    {
     "count": 39,
-    "last_net": "2026-10-31T00:00:00Z",
+    "last_net": "2026-12-31T00:00:00Z",
     "lat": 28.56194122,
     "location": "Cape Canaveral SFS, FL, USA",
     "lon": -80.57735736,
@@ -660,6 +660,16 @@
     "name": "LC-2",
     "spacex": false,
     "top_provider": "Korea Aerospace Research Institute"
+   },
+   {
+    "count": 1,
+    "last_net": "2026-12-31T00:00:00Z",
+    "lat": 28.458,
+    "location": "Cape Canaveral SFS, FL, USA",
+    "lon": -80.528,
+    "name": "Unknown Pad",
+    "spacex": true,
+    "top_provider": "SpaceX"
    }
   ],
   "passengers": [
@@ -1946,48 +1956,6 @@
   },
   "upcoming": [
    {
-    "description": "SpaceX Crew-13 is the thirteenth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
-    "id": "18441371-8b2e-457c-afb5-1ec1b11ab630",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192609.jpeg",
-    "lat": 28.56194122,
-    "lon": -80.57735736,
-    "mission": "Crew-13",
-    "mission_type": "Human Exploration",
-    "name": "Falcon 9 Block 5 | Crew-13",
-    "net": "2026-10-01T15:10:06Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 40",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/18441371-8b2e-457c-afb5-1ec1b11ab630",
-    "webcast_live": false
-   },
-   {
-    "description": "Dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
-    "id": "67213393-7983-4c06-8b44-b8c785a5ed79",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Transporter 18 (Dedicated SSO Rideshare)",
-    "mission_type": "Dedicated Rideshare",
-    "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
-    "net": "2026-10-01T18:32:00Z",
-    "net_precision": "SEC",
-    "orbit": "SSO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/67213393-7983-4c06-8b44-b8c785a5ed79",
-    "webcast_live": false
-   },
-   {
     "description": "Classified payload for the US National Reconnaissance Office.",
     "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
@@ -2101,15 +2069,15 @@
     "mission": "Dragon CRS-2 SpX-35",
     "mission_type": "Resupply",
     "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
-    "net": "2026-10-13T10:33:00Z",
-    "net_precision": "MIN",
+    "net": "2026-10-13T10:33:44Z",
+    "net_precision": "SEC",
     "orbit": "LEO",
     "pad": "Space Launch Complex 40",
     "pad_location": "Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "TBC",
-    "status_name": "To Be Confirmed",
+    "status": "Go",
+    "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/bf2c3027-a314-403e-a416-2bfd5d165ad1",
     "webcast_live": false
    },
@@ -2364,8 +2332,50 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/07e945c1-2ec6-4d29-a500-1afbe920440f",
     "webcast_live": false
+   },
+   {
+    "description": "This is the 25th flight of the Orbital ATK's uncrewed resupply spacecraft Cygnus and its 24th flight to the International Space Station under the Commercial Resupply Services contract with NASA.",
+    "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+    "lat": 28.56194122,
+    "lon": -80.57735736,
+    "mission": "Cygnus CRS-2 NG-25",
+    "mission_type": "Resupply",
+    "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 40",
+    "pad_location": "Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/d74afbc7-0de5-491c-be05-4e9c31f736ac",
+    "webcast_live": false
+   },
+   {
+    "description": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Transport Layer.",
+    "id": "71df1dd0-d658-4762-b0bc-0fca6886aea7",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+    "lat": 28.458,
+    "lon": -80.528,
+    "mission": "SDA Tranche 2 Transport Layer D",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer D",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "PO",
+    "pad": "Unknown Pad",
+    "pad_location": "Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/71df1dd0-d658-4762-b0bc-0fca6886aea7",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-02T12:03:58.471510+00:00"
+ "fetched_at": "2026-10-02T19:03:06.084184+00:00"
 }
