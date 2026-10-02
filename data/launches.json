@@ -155,34 +155,34 @@
     13,
     14,
     8,
-    2
+    3
    ]
   },
   "calls_used": 4,
   "next": {
-   "description": "Classified payload for the US National Reconnaissance Office.",
-   "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
-   "lat": 28.60822681,
-   "lon": -80.60428186,
-   "mission": "NROL-97",
+   "description": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellatio",
+   "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+   "lat": 34.632,
+   "lon": -120.611,
+   "mission": "SDA Tranche 1 Transport Layer A",
    "mission_type": "Government/Top Secret",
-   "name": "Falcon Heavy | NROL-97",
-   "net": "2026-10-02T03:53:00Z",
+   "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+   "net": "2026-10-05T08:17:00Z",
    "net_precision": "MIN",
-   "orbit": "N/A",
-   "pad": "Launch Complex 39A",
-   "pad_location": "Kennedy Space Center, FL, USA",
+   "orbit": "PO",
+   "pad": "Space Launch Complex 4E",
+   "pad_location": "Vandenberg SFB, CA, USA",
    "provider": "SpaceX",
-   "rocket": "Falcon Heavy",
+   "rocket": "Falcon 9 Block 5",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
+   "url": "https://nextspaceflight.com/launches/details/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
    "webcast_live": false
   },
   "pads": [
    {
-    "count": 54,
+    "count": 53,
     "last_net": "2026-10-10T23:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -242,6 +242,16 @@
     "top_provider": "Rocket Lab"
    },
    {
+    "count": 6,
+    "last_net": "2026-12-31T00:00:00Z",
+    "lat": 28.58341025,
+    "location": "Cape Canaveral SFS, FL, USA",
+    "lon": -80.58303644,
+    "name": "Space Launch Complex 41",
+    "spacex": false,
+    "top_provider": "United Launch Alliance"
+   },
+   {
     "count": 5,
     "last_net": "2026-09-20T04:03:00Z",
     "lat": 40.8182,
@@ -292,14 +302,14 @@
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
-    "count": 5,
-    "last_net": "2026-10-31T00:00:00Z",
-    "lat": 28.58341025,
-    "location": "Cape Canaveral SFS, FL, USA",
-    "lon": -80.58303644,
-    "name": "Space Launch Complex 41",
-    "spacex": false,
-    "top_provider": "United Launch Alliance"
+    "count": 4,
+    "last_net": "2026-10-02T03:54:00Z",
+    "lat": 28.60822681,
+    "location": "Kennedy Space Center, FL, USA",
+    "lon": -80.60428186,
+    "name": "Launch Complex 39A",
+    "spacex": true,
+    "top_provider": "SpaceX"
    },
    {
     "count": 4,
@@ -370,16 +380,6 @@
     "name": "Satish Dhawan Space Centre Second Launch Pad",
     "spacex": false,
     "top_provider": "Indian Space Research Organization"
-   },
-   {
-    "count": 3,
-    "last_net": "2026-10-02T03:53:00Z",
-    "lat": 28.60822681,
-    "location": "Kennedy Space Center, FL, USA",
-    "lon": -80.60428186,
-    "name": "Launch Complex 39A",
-    "spacex": true,
-    "top_provider": "SpaceX"
    },
    {
     "count": 3,
@@ -660,16 +660,6 @@
     "name": "LC-2",
     "spacex": false,
     "top_provider": "Korea Aerospace Research Institute"
-   },
-   {
-    "count": 1,
-    "last_net": "2026-11-30T00:00:00Z",
-    "lat": -2.31698,
-    "location": "Alc\u00e2ntara Space Center, Federative Republic of Brazil",
-    "lon": -44.36873,
-    "name": "HANBIT Pad",
-    "spacex": false,
-    "top_provider": "Innospace"
    }
   ],
   "passengers": [
@@ -683,6 +673,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "Classified payload for the US National Reconnaissance Office.",
+    "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
+    "lat": 28.60822681,
+    "lon": -80.60428186,
+    "mission": "NROL-97",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon Heavy | NROL-97",
+    "net": "2026-10-02T03:54:00Z",
+    "net_precision": "MIN",
+    "orbit": "N/A",
+    "pad": "Launch Complex 39A",
+    "pad_location": "Kennedy Space Center, FL, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon Heavy",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
+    "url": "https://nextspaceflight.com/launches/details/4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
+    "webcast_live": false
+   },
    {
     "description": "Dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
     "id": "67213393-7983-4c06-8b44-b8c785a5ed79",
@@ -1921,27 +1932,6 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/5b2f05d7-9052-49fb-9bd7-2a05d4910576",
     "webcast_live": false
-   },
-   {
-    "description": "13th test flight of the two-stage Starship launch vehicle. Second flight of Starship V3.\r\n\r\nFor the first time, Starship will carry 20 V3 Starlink satellites to space, which will extend solar arrays and antennas and will attempt to connect with ground stations in South Africa and the larger Starlink constellation via high-capacity lasers. \r\n\r\n6 of the satellites have been modified with a suite of ",
-    "id": "ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
-    "lat": 25.99677,
-    "lon": -97.15799,
-    "mission": "Flight 13",
-    "mission_type": "Test Flight",
-    "name": "Starship | Flight 13",
-    "net": "2026-07-24T22:51:00Z",
-    "net_precision": "SEC",
-    "orbit": "Sub",
-    "pad": "Orbital Launch Pad 2",
-    "pad_location": "SpaceX Starbase, TX, USA",
-    "provider": "SpaceX",
-    "rocket": "Starship V3",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
-    "webcast_live": false
    }
   ],
   "totals": {
@@ -1950,8 +1940,8 @@
    "spacex_sampled": 92,
    "spacex_share": 0.46,
    "window": {
-    "from": "2026-02-25",
-    "to": "2026-10-01"
+    "from": "2026-02-27",
+    "to": "2026-10-02"
    }
   },
   "upcoming": [
@@ -2006,15 +1996,15 @@
     "mission": "NROL-97",
     "mission_type": "Government/Top Secret",
     "name": "Falcon Heavy | NROL-97",
-    "net": "2026-10-02T03:53:00Z",
+    "net": "2026-10-02T03:54:00Z",
     "net_precision": "MIN",
     "orbit": "N/A",
     "pad": "Launch Complex 39A",
     "pad_location": "Kennedy Space Center, FL, USA",
     "provider": "SpaceX",
     "rocket": "Falcon Heavy",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
     "url": "https://nextspaceflight.com/launches/details/4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
     "webcast_live": false
    },
@@ -2313,27 +2303,6 @@
     "webcast_live": false
    },
    {
-    "description": "Innospace's first in-house test satellite, 'InnoSat-0', will test various technologies for future development of satellites by Innospace themselves. The satellite will be deployed using Korean company SpaceBey\u2019s specialized deployer.",
-    "id": "7c891a0b-7194-4425-8cfd-2e8c75af2924",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/hanbit-nano_spa_image_thumbnail_20251224011200.jpeg",
-    "lat": -2.31698,
-    "lon": -44.36873,
-    "mission": "InnoSat-0",
-    "mission_type": "Technology",
-    "name": "HANBIT-Nano | InnoSat-0",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "HANBIT Pad",
-    "pad_location": "Alc\u00e2ntara Space Center, Federative Republic of Brazil",
-    "provider": "Innospace",
-    "rocket": "HANBIT-Nano",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/7c891a0b-7194-4425-8cfd-2e8c75af2924",
-    "webcast_live": false
-   },
-   {
     "description": "First uncrewed orbital test flight of the Gaganyaan capsule.",
     "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg",
@@ -2374,8 +2343,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
     "webcast_live": false
+   },
+   {
+    "description": "Starliner-1 is the first operational flight of a Starliner spacecraft to the International Space Station as part of NASA's Commercial Crew Program. Due to problems with the Starliner spacecraft's RCS attitude control system during the Crew Flight Test mission in 2024, this mission has been re-scoped to not carry a crew by NASA. It will instead deliver necessary cargo to the orbital laboratory and ",
+    "id": "07e945c1-2ec6-4d29-a500-1afbe920440f",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193538.jpeg",
+    "lat": 28.58341025,
+    "lon": -80.58303644,
+    "mission": "Starliner-1",
+    "mission_type": "Human Exploration",
+    "name": "Atlas V N22 | Starliner-1",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 41",
+    "pad_location": "Cape Canaveral SFS, FL, USA",
+    "provider": "United Launch Alliance",
+    "rocket": "Atlas V N22",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/07e945c1-2ec6-4d29-a500-1afbe920440f",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-01T23:45:37.272262+00:00"
+ "fetched_at": "2026-10-02T04:36:34.673230+00:00"
 }
