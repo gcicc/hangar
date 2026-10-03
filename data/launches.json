@@ -182,8 +182,8 @@
   },
   "pads": [
    {
-    "count": 52,
-    "last_net": "2026-10-10T23:00:00Z",
+    "count": 53,
+    "last_net": "2026-12-31T00:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
     "lon": -120.611,
@@ -303,16 +303,6 @@
    },
    {
     "count": 4,
-    "last_net": "2026-10-02T03:54:00Z",
-    "lat": 28.60822681,
-    "location": "Kennedy Space Center, FL, USA",
-    "lon": -80.60428186,
-    "name": "Launch Complex 39A",
-    "spacex": true,
-    "top_provider": "SpaceX"
-   },
-   {
-    "count": 4,
     "last_net": "2026-09-10T09:00:00Z",
     "lat": 40.960482,
     "location": "Jiuquan Satellite Launch Center, People's Republic of China",
@@ -320,6 +310,16 @@
     "name": "Launch Area 94 (SLS-2 / 603)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 3,
+    "last_net": "2026-10-02T03:54:00Z",
+    "lat": 28.60822681,
+    "location": "Kennedy Space Center, FL, USA",
+    "lon": -80.60428186,
+    "name": "Launch Complex 39A",
+    "spacex": true,
+    "top_provider": "SpaceX"
    },
    {
     "count": 3,
@@ -1956,27 +1956,6 @@
   },
   "upcoming": [
    {
-    "description": "Classified payload for the US National Reconnaissance Office.",
-    "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
-    "lat": 28.60822681,
-    "lon": -80.60428186,
-    "mission": "NROL-97",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon Heavy | NROL-97",
-    "net": "2026-10-02T03:54:00Z",
-    "net_precision": "MIN",
-    "orbit": "N/A",
-    "pad": "Launch Complex 39A",
-    "pad_location": "Kennedy Space Center, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon Heavy",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
-    "webcast_live": false
-   },
-   {
     "description": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellatio",
     "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
@@ -2374,8 +2353,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/71df1dd0-d658-4762-b0bc-0fca6886aea7",
     "webcast_live": false
+   },
+   {
+    "description": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Transport Layer.",
+    "id": "71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "SDA Tranche 2 Transport Layer E",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "PO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-02T23:36:19.124111+00:00"
+ "fetched_at": "2026-10-03T04:19:11.697275+00:00"
 }
