@@ -193,7 +193,7 @@
    },
    {
     "count": 39,
-    "last_net": "2026-12-31T00:00:00Z",
+    "last_net": "2026-11-30T00:00:00Z",
     "lat": 28.56194122,
     "location": "Cape Canaveral SFS, FL, USA",
     "lon": -80.57735736,
@@ -2250,6 +2250,27 @@
     "webcast_live": false
    },
    {
+    "description": "This is the 25th flight of the Orbital ATK's uncrewed resupply spacecraft Cygnus and its 24th flight to the International Space Station under the Commercial Resupply Services contract with NASA.",
+    "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+    "lat": 28.56194122,
+    "lon": -80.57735736,
+    "mission": "Cygnus CRS-2 NG-25",
+    "mission_type": "Resupply",
+    "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 40",
+    "pad_location": "Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/d74afbc7-0de5-491c-be05-4e9c31f736ac",
+    "webcast_live": false
+   },
+   {
     "description": "First uncrewed orbital test flight of the Gaganyaan capsule.",
     "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg",
@@ -2313,27 +2334,6 @@
     "webcast_live": false
    },
    {
-    "description": "This is the 25th flight of the Orbital ATK's uncrewed resupply spacecraft Cygnus and its 24th flight to the International Space Station under the Commercial Resupply Services contract with NASA.",
-    "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-    "lat": 28.56194122,
-    "lon": -80.57735736,
-    "mission": "Cygnus CRS-2 NG-25",
-    "mission_type": "Resupply",
-    "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 40",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/d74afbc7-0de5-491c-be05-4e9c31f736ac",
-    "webcast_live": false
-   },
-   {
     "description": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Transport Layer.",
     "id": "71df1dd0-d658-4762-b0bc-0fca6886aea7",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
@@ -2377,5 +2377,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-04T11:55:48.903432+00:00"
+ "fetched_at": "2026-10-04T16:38:51.600933+00:00"
 }
