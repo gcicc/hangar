@@ -1,28 +1,28 @@
 {
  "constellation": {
-  "last_attempt": "2026-10-05T08:34:17.749240+00:00",
+  "last_attempt": "2026-10-05T19:07:35.327831+00:00",
   "last_error": null,
   "last_error_at": "2026-10-04T11:56:48.993297+00:00",
-  "last_success": "2026-10-05T08:34:17.749247+00:00"
+  "last_success": "2026-10-05T19:07:35.327841+00:00"
  },
  "financials": {
-  "last_attempt": "2026-10-05T08:34:18.605600+00:00",
+  "last_attempt": "2026-10-05T19:07:36.356871+00:00",
   "last_error": null,
-  "last_success": "2026-10-05T08:34:18.605605+00:00"
+  "last_success": "2026-10-05T19:07:36.356878+00:00"
  },
  "launches": {
-  "last_attempt": "2026-10-05T08:34:12.848900+00:00",
-  "last_error": null,
-  "last_error_at": "2026-09-06T02:30:23.814763+00:00",
+  "last_attempt": "2026-10-05T19:07:34.599099+00:00",
+  "last_error": "ReadTimeout: HTTPSConnectionPool(host='ll.thespacedevs.com', port=443): Read timed out. (read timeout=30)",
+  "last_error_at": "2026-10-05T19:07:34.599113+00:00",
   "last_success": "2026-10-05T08:34:12.848905+00:00"
  },
  "news": {
-  "last_attempt": "2026-10-05T08:34:00.951833+00:00",
+  "last_attempt": "2026-10-05T19:07:04.445826+00:00",
   "last_error": null,
-  "last_success": "2026-10-05T08:34:00.951838+00:00"
+  "last_success": "2026-10-05T19:07:04.445832+00:00"
  },
  "sites": {
-  "last_attempt": "2026-10-05T08:34:18.606596+00:00",
+  "last_attempt": "2026-10-05T19:07:36.358197+00:00",
   "last_error": null,
   "last_success": "2026-10-05T00:31:31.894439+00:00"
  }
