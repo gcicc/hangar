@@ -14,8 +14,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-10-04",
-  "times_seen": 105,
+  "last_seen": "2026-10-05",
+  "times_seen": 106,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -36,10 +36,30 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-10-04",
-  "times_seen": 105,
+  "last_seen": "2026-10-05",
+  "times_seen": 106,
   "outlets": [
    "Optimus"
+  ]
+ },
+ {
+  "statement": "Forget Rolls-Royce and SpaceX! This forgotten FTSE 100 stock is forecast to rocket 53% in the next year - Yahoo Finance UK",
+  "entity": "SpaceX",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaEZ1VUhtdEJsMzluYmpsZi1hZjQ3TXRvNTM1WEZEdVFtMUJEUlFZVHN1NHlLSmt4UUF4dlV6dFNmQy1XNmxDOHJhanlLR2ZRRDNNUUw5TUQ2a0RuSV9iSWJvdWc0ZHFqTjdwUjZoRkRLT2tWWW05SVU4TEhwZTlac1MtMUREWUZtQ09aWA?oc=5",
+  "first_seen": "2026-10-04",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-05",
+  "times_seen": 2,
+  "outlets": [
+   "SPCX"
   ]
  },
  {
@@ -62,26 +82,6 @@
   "times_seen": 18,
   "outlets": [
    "Starlink"
-  ]
- },
- {
-  "statement": "Forget Rolls-Royce and SpaceX! This forgotten FTSE 100 stock is forecast to rocket 53% in the next year - Yahoo Finance UK",
-  "entity": "SpaceX",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaEZ1VUhtdEJsMzluYmpsZi1hZjQ3TXRvNTM1WEZEdVFtMUJEUlFZVHN1NHlLSmt4UUF4dlV6dFNmQy1XNmxDOHJhanlLR2ZRRDNNUUw5TUQ2a0RuSV9iSWJvdWc0ZHFqTjdwUjZoRkRLT2tWWW05SVU4TEhwZTlac1MtMUREWUZtQ09aWA?oc=5",
-  "first_seen": "2026-10-04",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-04",
-  "times_seen": 1,
-  "outlets": [
-   "SPCX"
   ]
  },
  {
