@@ -168,15 +168,15 @@
    "mission": "SDA Tranche 1 Transport Layer A",
    "mission_type": "Government/Top Secret",
    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-   "net": "2026-10-05T08:17:21Z",
-   "net_precision": "SEC",
+   "net": "2026-10-06T08:17:00Z",
+   "net_precision": "MIN",
    "orbit": "PO",
    "pad": "Space Launch Complex 4E",
    "pad_location": "Vandenberg SFB, CA, USA",
    "provider": "SpaceX",
    "rocket": "Falcon 9 Block 5",
-   "status": "Go",
-   "status_name": "Go for Launch",
+   "status": "TBC",
+   "status_name": "To Be Confirmed",
    "url": "https://nextspaceflight.com/launches/details/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
    "webcast_live": false
   },
@@ -1964,15 +1964,15 @@
     "mission": "SDA Tranche 1 Transport Layer A",
     "mission_type": "Government/Top Secret",
     "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-    "net": "2026-10-05T08:17:21Z",
-    "net_precision": "SEC",
+    "net": "2026-10-06T08:17:00Z",
+    "net_precision": "MIN",
     "orbit": "PO",
     "pad": "Space Launch Complex 4E",
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "TBC",
+    "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
     "webcast_live": false
    },
@@ -2377,5 +2377,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-05T00:31:28.771877+00:00"
+ "fetched_at": "2026-10-05T08:34:12.846914+00:00"
 }
