@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-06",
-  "times_seen": 110,
+  "times_seen": 111,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -57,9 +57,52 @@
   ],
   "primary": false,
   "last_seen": "2026-10-06",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "TSLA"
+  ]
+ },
+ {
+  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
+  "entity": "SpaceX",
+  "horizon_phrase": "this month",
+  "horizon": "2026-09-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "starship",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-06",
+  "times_seen": 71,
+  "outlets": [
+   "Starship",
+   "Falcon"
+  ]
+ },
+ {
+  "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - Electric Vehicles",
+  "entity": "Tesla",
+  "horizon_phrase": "This Year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjVidnZtaUtWNVdOUGlQaUNBS1phbDduR3ZDMWJJa0ludjV2MkdMNEZrOTB0TUsyYTBGSTQ3UWVOOUpyeU1LMTdNQUllUXJFZzIyZ3R3NjQ3RmlyRm00QnVPSHRxLVFlU2FadjlZTmtud2Z5cEZKQU5fZy1PRFdXNTRneHB0YTR6djVILXZ2cEFwcmg3X2ktTnlybmM1dTNITXJ4RUxURVVfSFgzRmZrVENLLWo?oc=5",
+  "first_seen": "2026-10-06",
+  "topics": [
+   "optimus",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-06",
+  "times_seen": 1,
+  "outlets": [
+   "Optimus"
   ]
  },
  {
@@ -142,28 +185,6 @@
   "times_seen": 49,
   "outlets": [
    "Optimus"
-  ]
- },
- {
-  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
-  "entity": "SpaceX",
-  "horizon_phrase": "this month",
-  "horizon": "2026-09-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "starship",
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-29",
-  "times_seen": 70,
-  "outlets": [
-   "Starship",
-   "Falcon"
   ]
  },
  {
