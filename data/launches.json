@@ -135,7 +135,7 @@
     14,
     12,
     19,
-    0
+    1
    ],
    "partial": [
     false,
@@ -160,30 +160,30 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "NeonSat-2 to 6 are part of the South Korean government's Earth observation micro-satellite constellation NeonSat (New-space Earth Observation Satellite). The NeonSat constellation is the first satellite system developed by the government using a mass-production approach for precise monitoring of the Korean Peninsula.\r\n\r\n10 ride-sharing small satellites from various Korean institutes and organizati",
-   "id": "e0741415-6c63-4236-9736-24a6c04485bc",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nuri_liftoff_2_image_thumbnail_20240820080542.jpeg",
-   "lat": 34.431867,
-   "lon": 127.535069,
-   "mission": "NeonSat-2 to 6",
-   "mission_type": "Earth Science",
-   "name": "Nuri | NeonSat-2 to 6",
-   "net": "2026-10-07T03:23:00Z",
+   "description": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellatio",
+   "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+   "lat": 34.632,
+   "lon": -120.611,
+   "mission": "SDA Tranche 1 Transport Layer A",
+   "mission_type": "Government/Top Secret",
+   "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+   "net": "2026-10-08T07:54:00Z",
    "net_precision": "MIN",
-   "orbit": "SSO",
-   "pad": "LC-2",
-   "pad_location": "Naro Space Center, South Korea",
-   "provider": "Korea Aerospace Research Institute",
-   "rocket": "KSLV-2 Nuri",
+   "orbit": "PO",
+   "pad": "Space Launch Complex 4E",
+   "pad_location": "Vandenberg SFB, CA, USA",
+   "provider": "SpaceX",
+   "rocket": "Falcon 9 Block 5",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/e0741415-6c63-4236-9736-24a6c04485bc",
+   "url": "https://nextspaceflight.com/launches/details/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
    "webcast_live": false
   },
   "pads": [
    {
-    "count": 53,
-    "last_net": "2026-10-15T23:44:00Z",
+    "count": 54,
+    "last_net": "2026-12-31T00:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
     "lon": -120.611,
@@ -192,7 +192,7 @@
     "top_provider": "SpaceX"
    },
    {
-    "count": 39,
+    "count": 38,
     "last_net": "2026-11-30T00:00:00Z",
     "lat": 28.56194122,
     "location": "Cape Canaveral SFS, FL, USA",
@@ -240,16 +240,6 @@
     "name": "Rocket Lab Launch Complex 1A",
     "spacex": false,
     "top_provider": "Rocket Lab"
-   },
-   {
-    "count": 6,
-    "last_net": "2026-12-31T00:00:00Z",
-    "lat": 28.58341025,
-    "location": "Cape Canaveral SFS, FL, USA",
-    "lon": -80.58303644,
-    "name": "Space Launch Complex 41",
-    "spacex": false,
-    "top_provider": "United Launch Alliance"
    },
    {
     "count": 5,
@@ -300,6 +290,16 @@
     "name": "201",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 5,
+    "last_net": "2026-10-31T00:00:00Z",
+    "lat": 28.58341025,
+    "location": "Cape Canaveral SFS, FL, USA",
+    "lon": -80.58303644,
+    "name": "Space Launch Complex 41",
+    "spacex": false,
+    "top_provider": "United Launch Alliance"
    },
    {
     "count": 4,
@@ -430,6 +430,16 @@
     "name": "Launch Complex 3 (LC-3/LA-1)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-10-07T03:25:00Z",
+    "lat": 34.431867,
+    "location": "Naro Space Center, South Korea",
+    "lon": 127.535069,
+    "name": "LC-2",
+    "spacex": false,
+    "top_provider": "Korea Aerospace Research Institute"
    },
    {
     "count": 2,
@@ -653,16 +663,6 @@
    },
    {
     "count": 1,
-    "last_net": "2026-10-07T03:23:00Z",
-    "lat": 34.431867,
-    "location": "Naro Space Center, South Korea",
-    "lon": 127.535069,
-    "name": "LC-2",
-    "spacex": false,
-    "top_provider": "Korea Aerospace Research Institute"
-   },
-   {
-    "count": 1,
     "last_net": "2026-12-31T00:00:00Z",
     "lat": 28.458,
     "location": "Cape Canaveral SFS, FL, USA",
@@ -683,6 +683,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "NeonSat-2 to 6 are part of the South Korean government's Earth observation micro-satellite constellation NeonSat (New-space Earth Observation Satellite). The NeonSat constellation is the first satellite system developed by the government using a mass-production approach for precise monitoring of the Korean Peninsula.\r\n\r\n10 ride-sharing small satellites from various Korean institutes and organizati",
+    "id": "e0741415-6c63-4236-9736-24a6c04485bc",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nuri_liftoff_2_image_thumbnail_20240820080542.jpeg",
+    "lat": 34.431867,
+    "lon": 127.535069,
+    "mission": "NeonSat-2 to 6",
+    "mission_type": "Earth Science",
+    "name": "Nuri | NeonSat-2 to 6",
+    "net": "2026-10-07T03:25:00Z",
+    "net_precision": "SEC",
+    "orbit": "SSO",
+    "pad": "LC-2",
+    "pad_location": "Naro Space Center, South Korea",
+    "provider": "Korea Aerospace Research Institute",
+    "rocket": "KSLV-2 Nuri",
+    "status": "Deployed",
+    "status_name": "Payload Deployed",
+    "url": "https://nextspaceflight.com/launches/details/e0741415-6c63-4236-9736-24a6c04485bc",
+    "webcast_live": true
+   },
    {
     "description": "Classified payload for the US National Reconnaissance Office.",
     "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
@@ -1921,37 +1942,16 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/beac6ac1-97dd-4eb2-912c-8b4d4d15cd4e",
     "webcast_live": false
-   },
-   {
-    "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "5b2f05d7-9052-49fb-9bd7-2a05d4910576",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Starlink Group 17-51",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 17-51",
-    "net": "2026-07-25T15:51:55Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/5b2f05d7-9052-49fb-9bd7-2a05d4910576",
-    "webcast_live": false
    }
   ],
   "totals": {
    "previous_sampled": 200,
    "share_caveat": "Share of the most recent orbital launches fetched, over the window shown. Not a share of all launches, and not a fixed calendar period - the window moves with every refresh.",
-   "spacex_sampled": 92,
-   "spacex_share": 0.46,
+   "spacex_sampled": 91,
+   "spacex_share": 0.455,
    "window": {
-    "from": "2026-02-27",
-    "to": "2026-10-02"
+    "from": "2026-02-28",
+    "to": "2026-10-07"
    }
   },
   "upcoming": [
@@ -1964,17 +1964,17 @@
     "mission": "NeonSat-2 to 6",
     "mission_type": "Earth Science",
     "name": "Nuri | NeonSat-2 to 6",
-    "net": "2026-10-07T03:23:00Z",
-    "net_precision": "MIN",
+    "net": "2026-10-07T03:25:00Z",
+    "net_precision": "SEC",
     "orbit": "SSO",
     "pad": "LC-2",
     "pad_location": "Naro Space Center, South Korea",
     "provider": "Korea Aerospace Research Institute",
     "rocket": "KSLV-2 Nuri",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Deployed",
+    "status_name": "Payload Deployed",
     "url": "https://nextspaceflight.com/launches/details/e0741415-6c63-4236-9736-24a6c04485bc",
-    "webcast_live": false
+    "webcast_live": true
    },
    {
     "description": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellatio",
@@ -2334,27 +2334,6 @@
     "webcast_live": false
    },
    {
-    "description": "Starliner-1 is the first operational flight of a Starliner spacecraft to the International Space Station as part of NASA's Commercial Crew Program. Due to problems with the Starliner spacecraft's RCS attitude control system during the Crew Flight Test mission in 2024, this mission has been re-scoped to not carry a crew by NASA. It will instead deliver necessary cargo to the orbital laboratory and ",
-    "id": "07e945c1-2ec6-4d29-a500-1afbe920440f",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193538.jpeg",
-    "lat": 28.58341025,
-    "lon": -80.58303644,
-    "mission": "Starliner-1",
-    "mission_type": "Human Exploration",
-    "name": "Atlas V N22 | Starliner-1",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 41",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "United Launch Alliance",
-    "rocket": "Atlas V N22",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/07e945c1-2ec6-4d29-a500-1afbe920440f",
-    "webcast_live": false
-   },
-   {
     "description": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Transport Layer.",
     "id": "71df1dd0-d658-4762-b0bc-0fca6886aea7",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
@@ -2374,8 +2353,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/71df1dd0-d658-4762-b0bc-0fca6886aea7",
     "webcast_live": false
+   },
+   {
+    "description": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Transport Layer.",
+    "id": "71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "SDA Tranche 2 Transport Layer E",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "PO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-06T22:27:39.843147+00:00"
+ "fetched_at": "2026-10-07T04:53:30.610797+00:00"
 }
