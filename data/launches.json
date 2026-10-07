@@ -699,10 +699,10 @@
     "pad_location": "Naro Space Center, South Korea",
     "provider": "Korea Aerospace Research Institute",
     "rocket": "KSLV-2 Nuri",
-    "status": "Deployed",
-    "status_name": "Payload Deployed",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/e0741415-6c63-4236-9736-24a6c04485bc",
-    "webcast_live": true
+    "webcast_live": false
    },
    {
     "description": "Classified payload for the US National Reconnaissance Office.",
@@ -1971,10 +1971,10 @@
     "pad_location": "Naro Space Center, South Korea",
     "provider": "Korea Aerospace Research Institute",
     "rocket": "KSLV-2 Nuri",
-    "status": "Deployed",
-    "status_name": "Payload Deployed",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/e0741415-6c63-4236-9736-24a6c04485bc",
-    "webcast_live": true
+    "webcast_live": false
    },
    {
     "description": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellatio",
@@ -2377,5 +2377,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-07T04:53:30.610797+00:00"
+ "fetched_at": "2026-10-07T12:51:29.980447+00:00"
 }
