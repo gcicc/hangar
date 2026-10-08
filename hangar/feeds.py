@@ -1,4 +1,4 @@
-"""Feed registry for SpaceX and Tesla.
+"""Feed registry for SpaceX, Tesla and the smaller Musk companies.
 
 Two mechanisms, both borrowed from clintrialist-report's ``feeds.py``:
 
@@ -24,12 +24,13 @@ def _gnews(query: str) -> str:
 SECTIONS = {
     "spacex": "SpaceX",
     "tesla": "Tesla",
+    "ventures": "xAI · X · Neuralink · Boring",
     "market": "Markets & Filings",
 }
 
 # Fetched in this order, and deduped against a shared `seen` set in that order,
 # so a story that could land in two sections stays in the more specific one.
-SECTION_ORDER = ["spacex", "tesla", "market"]
+SECTION_ORDER = ["spacex", "tesla", "ventures", "market"]
 
 SPACEX_FEEDS = [
     {"name": "SpaceX", "url": _gnews("site:spacex.com")},
@@ -84,6 +85,22 @@ TESLA_FEEDS = [
     {"name": "Energy", "url": _gnews('"Tesla" AND (Megapack OR Powerwall OR "energy storage")')},
 ]
 
+# The smaller companies share one column. None has a trade press of its own, so
+# all four are Google News searches. "X" alone is unsearchable, so the X query
+# names its products instead of the company. xAI and X became SpaceX
+# subsidiaries in 2026, but they are listed here rather than under SpaceX so
+# that rockets and chatbots do not compete for one column's 18 slots.
+VENTURES_FEEDS = [
+    {"name": "xAI", "url": _gnews('"xAI" AND (Grok OR Colossus OR Musk OR model)')},
+    {"name": "Grok", "url": _gnews('"Grok" AND (xAI OR release OR model OR Musk)')},
+    {"name": "X", "url": _gnews('"X Corp" OR "X Money" OR "XChat" OR "X Payments"')},
+    {"name": "Neuralink", "url": _gnews('"Neuralink" OR "Blindsight"')},
+    {
+        "name": "Boring",
+        "url": _gnews('"Boring Company" OR "Vegas Loop" OR "Music City Loop"'),
+    },
+]
+
 MARKET_FEEDS = [
     # Ticker-plus-context, not bare tickers - see module docstring.
     {
@@ -107,11 +124,12 @@ MARKET_FEEDS = [
 FEEDS_BY_SECTION = {
     "spacex": SPACEX_FEEDS,
     "tesla": TESLA_FEEDS,
+    "ventures": VENTURES_FEEDS,
     "market": MARKET_FEEDS,
 }
 
 # How many stories each section shows.
-SECTION_LIMITS = {"spacex": 18, "tesla": 18, "market": 12}
+SECTION_LIMITS = {"spacex": 18, "tesla": 18, "ventures": 18, "market": 12}
 
 # Dropped if the substring appears anywhere in the title (case-insensitive).
 # These are the recurring shapes of SEO filler that clear the relevance scorer
@@ -128,12 +146,14 @@ EXCLUDE_TITLES = [
 ]
 
 
-# Every story on this page must be about one of the two companies. The trade
+# Every story on this page must be about one of the companies. The trade
 # feeds (Electrek, InsideEVs, Space.com) carry the whole sector, so without this
 # the page fills with BYD sales events and Uber robotaxi launches - real news,
 # wrong page.
 RELEVANCE = (
     r"\b(Tesla|SpaceX|Musk|Starlink|Starship|Falcon|Dragon|Optimus|Cybertruck|"
     r"Cybercab|Megapack|Powerwall|Supercharger|Gigafactory|Megafactory|Starbase|"
-    r"Raptor|TSLA|SPCX|Roadster|Semi|FSD|Autopilot|Starshield)\b"
+    r"Raptor|TSLA|SPCX|Roadster|Semi|FSD|Autopilot|Starshield|"
+    r"xAI|Grok|Colossus|X Corp|X Money|XChat|Neuralink|Blindsight|"
+    r"Boring Company|Vegas Loop|Music City Loop)\b"
 )

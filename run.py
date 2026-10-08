@@ -165,6 +165,12 @@ def build_payload() -> dict:
         "status": cache.status_report(),
     }
 
+    # Facilities are a curated constant, so they are read from source at render
+    # time rather than from the weekly Supercharger cache - an added or corrected
+    # site should not wait up to seven days to appear.
+    if payload["sites"] is not None:
+        payload["sites"] = {**payload["sites"], "facilities": sites.FACILITIES}
+
     # --- commitments board -------------------------------------------------
     # Claims were detected and merged during the news fetch; this only reads the
     # persisted ledger, so rendering never mutates it.

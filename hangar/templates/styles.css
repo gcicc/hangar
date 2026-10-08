@@ -49,6 +49,9 @@
   --t-energy: #2a9d8f;
   --t-regulatory: #ff6b60;
   --t-money: #8792a8;
+  --t-ai: #d36be0;
+  --t-neurotech: #7fd4e8;
+  --t-tunnels: #a8a070;
 
   --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
   --body: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -452,6 +455,9 @@ section { padding: clamp(1.8rem, 4vw, 3rem) var(--gutter); border-bottom: 1px so
 .t-energy { border-left-color: var(--t-energy); }
 .t-regulatory { border-left-color: var(--t-regulatory); }
 .t-money { border-left-color: var(--t-money); }
+.t-ai { border-left-color: var(--t-ai); }
+.t-neurotech { border-left-color: var(--t-neurotech); }
+.t-tunnels { border-left-color: var(--t-tunnels); }
 
 /* ---------- cadence chart ----------------------------------------------- */
 
@@ -768,6 +774,63 @@ footer a { color: var(--ink-2); }
 }
 
 .globe-cap button:hover, .globe-cap button:focus-visible { color: var(--ink); border-color: var(--sodium); }
+
+/* Close-up: satellite imagery laid over the globe after a click-to-zoom. */
+.closeup {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.6rem;
+  right: 0.6rem;
+  aspect-ratio: 1 / 1;
+  border: 1px solid var(--rule-bright);
+  background: var(--rack);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 5;
+  overflow: hidden;
+}
+.closeup.on { opacity: 1; }
+.closeup-map { position: absolute; inset: 0; }
+.closeup-off { padding: 1.5rem; font-family: var(--mono); font-size: 0.75rem; color: var(--ink-muted); }
+.closeup-card {
+  position: absolute;
+  left: 0.6rem;
+  bottom: 1.6rem;
+  max-width: min(320px, calc(100% - 1.2rem));
+  z-index: 500;
+  background: var(--strip);
+  border-left: 3px solid var(--sodium);
+  padding: 0.55rem 0.75rem;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  color: var(--ink-2);
+}
+.closeup-card b { color: var(--ink); font-size: 0.9rem; }
+.closeup-card .st { font-family: var(--mono); font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.06em; }
+.closeup-card .st-operating { color: var(--go); }
+.closeup-card .st-building, .closeup-card .st-announced { color: var(--sodium); }
+.closeup-card .st-historic { color: var(--ink-muted); }
+.closeup-card .fine { font-family: var(--mono); font-size: 0.62rem; color: var(--ink-muted); margin-top: 0.3rem; }
+.closeup-card a { color: var(--ink-2); }
+.closeup-back {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  z-index: 500;
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  color: var(--ink);
+  background: var(--strip);
+  border: 1px solid var(--rule-bright);
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+.closeup-back:hover, .closeup-back:focus-visible { border-color: var(--sodium); }
+/* On a phone the full card would cover the imagery it describes. */
+@media (max-width: 560px) {
+  .closeup-card { font-size: 0.72rem; padding: 0.4rem 0.55rem; bottom: 1.9rem; }
+  .closeup-card .nt, .closeup-card .fine { display: none; }
+}
 
 /* ---------- promise horizon --------------------------------------------- */
 

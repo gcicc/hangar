@@ -459,7 +459,7 @@
   var TOPIC_LABEL = {
     starship: "Starship", starlink: "Starlink", launch: "Launch", optimus: "Optimus",
     autonomy: "Autonomy", production: "Production", energy: "Energy",
-    regulatory: "Regulatory", money: "Money", other: "Other"
+    ai: "AI", neurotech: "Neurotech", tunnels: "Tunnels", regulatory: "Regulatory", money: "Money", other: "Other"
   };
 
   function horizonChart(B) {
@@ -863,6 +863,23 @@
    * which is what makes this work from file:// as well as from Pages.
    */
 
+  // Identity colours per company, shared by the range map and the globe. Shape
+  // carries the kind of site (square facility, round pad); colour carries who
+  // owns it. Identity only - never used to encode a value.
+  var CO_COLOR = {
+    "SpaceX": "#8bd3ff", "Tesla": "#ff8f6b", "xAI": "#d36be0", "X": "#f2d45c",
+    "Neuralink": "#5fe0a0", "Boring Company": "#c0a878"
+  };
+  function coColor(co) { return CO_COLOR[co] || "#a3b0c0"; }
+
+  function coLegend(facilities) {
+    var seen = [];
+    facilities.forEach(function (f) { if (seen.indexOf(f.co) < 0) seen.push(f.co); });
+    return seen.map(function (co) {
+      return '<span><i style="background:' + coColor(co) + '"></i>' + co + " facility</span>";
+    }).join("");
+  }
+
   function loadLeaflet(cb) {
     // Leaflet is a static tag in <head>; see the comment there for why. If it
     // failed to load - offline, or the CDN blocked - say so in the panel rather
@@ -949,8 +966,8 @@
               className: "",
               iconSize: [11, 11],
               html: '<div style="width:11px;height:11px;background:' +
-                (building ? "transparent" : (f.co === "SpaceX" ? "#8bd3ff" : "#ff8f6b")) +
-                ";border:2px solid " + (f.co === "SpaceX" ? "#8bd3ff" : "#ff8f6b") +
+                (building ? "transparent" : coColor(f.co)) +
+                ";border:2px solid " + coColor(f.co) +
                 (building ? ";border-style:dashed" : "") + '"></div>'
             })
           }).bindPopup(
@@ -1002,8 +1019,7 @@
     $("map-legend").innerHTML =
       '<span><i style="background:#ffa14a;border-radius:50%"></i>SpaceX pad</span>' +
       '<span><i style="background:#4a5563;border-radius:50%"></i>Other provider</span>' +
-      '<span><i style="background:#8bd3ff"></i>SpaceX facility</span>' +
-      '<span><i style="background:#ff8f6b"></i>Tesla facility</span>' +
+      coLegend(facilities) +
       '<span><i style="background:transparent;border:1px dashed var(--ink-2)"></i>under construction</span>' +
       '<span><i style="background:#35b8a8;border-radius:50%"></i>Superchargers (clustered)</span>' +
       '<span>Circle area &#8733; count</span>' +
@@ -1062,6 +1078,9 @@
       o.a * (1 - o.e * Math.cos(M)) / R_MEAN];
   }
 
+  // Set by renderGlobe when the globe draws; the command bar uses it.
+  var globeFly = null;
+
   function renderGlobe() {
     var host = $("globe"), cap = $("globe-cap");
     if (!window.d3 || !d3.geoOrthographic || !d3.geoRotation) {
@@ -1095,7 +1114,8 @@
     var grat = d3.geoGraticule10();
     var sphere = { type: "Sphere" };
     var land = null, landFailed = !window.topojson;
-    var size = 0, R = 0, cx = 0, cy = 0, rotator = null;
+    var size = 0, R = 0, cx = 0, cy = 0, rotator = null, zoom = 1;
+    var hover = null, focus = null, flying = false;
     var rot = [-(next && next.lon != null ? next.lon : -80), -22, 0];
 
     var C = {};
@@ -1116,7 +1136,7 @@
       canvas.style.width = canvas.style.height = w + "px";
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       // 0.8 leaves room for the shell: Starlink flies at ~1.09 Earth radii.
-      R = w / 2 * 0.8;
+      R = w / 2 * 0.8 * zoom;
       cx = cy = w / 2;
       proj.scale(R).translate([cx, cy]);
     }
@@ -1172,9 +1192,22 @@
       facilities.forEach(function (fc) {
         var p = place(fc.lon, fc.lat, 1);
         if (p.z <= 0) return;
-        ctx.fillStyle = fc.co === "SpaceX" ? "#8bd3ff" : "#ff8f6b";
+        ctx.fillStyle = coColor(fc.co);
         ctx.fillRect(p.x - 2.5, p.y - 2.5, 5, 5);
       });
+
+      // Hover label for the site under the pointer.
+      if (hover && !focus) {
+        var hp = place(hover.lon, hover.lat, 1);
+        if (hp.z > 0) {
+          ctx.strokeStyle = C.sodium;
+          ctx.lineWidth = 1.5;
+          ctx.beginPath(); ctx.arc(hp.x, hp.y, 7, 0, 2 * Math.PI); ctx.stroke();
+          ctx.font = "11px 'IBM Plex Mono', monospace";
+          ctx.fillStyle = C.sodium;
+          ctx.fillText(hover.name + " · click to zoom", hp.x + 11, hp.y + 4);
+        }
+      }
 
       if (next && next.lat != null) {
         var np = place(next.lon, next.lat, 1);
@@ -1217,8 +1250,12 @@
     cap.appendChild(btn);
     var lg = el("div");
     lg.innerHTML = '<span style="color:#ffa14a">●</span> SpaceX pad &nbsp;<span>●</span> other pad &nbsp;' +
-      '<span style="color:#8bd3ff">■</span> SpaceX site &nbsp;<span style="color:#ff8f6b">■</span> Tesla site &nbsp;' +
-      '<span style="color:var(--sodium)">◯</span> next launch · drag to turn';
+      Object.keys(CO_COLOR).filter(function (co) {
+        return facilities.some(function (f) { return f.co === co; });
+      }).map(function (co) {
+        return '<span style="color:' + coColor(co) + '">■</span> ' + co + " &nbsp;";
+      }).join("") +
+      '<span style="color:var(--sodium)">◯</span> next launch · drag to turn · click a site to zoom in';
     cap.appendChild(lg);
     updateCap();
     function tickCap() {
@@ -1237,21 +1274,185 @@
     }
 
     var dragging = false, idleUntil = 0, from = null;
+
+    // Every clickable site, pads and facilities alike, in one list.
+    var sites = pads.map(function (pd) {
+      return { name: pd.name, lat: pd.lat, lon: pd.lon, pad: pd, z: 16 };
+    }).concat(facilities.map(function (fc) {
+      return { name: fc.name, lat: fc.lat, lon: fc.lon, fac: fc, z: fc.zoom || 15 };
+    }));
+
+    function siteAt(e) {
+      var b = canvas.getBoundingClientRect(), mx = e.clientX - b.left, my = e.clientY - b.top;
+      var best = null, bestD = 12 * 12;
+      sites.forEach(function (st) {
+        var p = place(st.lon, st.lat, 1);
+        if (p.z <= 0) return;
+        var d = (p.x - mx) * (p.x - mx) + (p.y - my) * (p.y - my);
+        if (d < bestD) { bestD = d; best = st; }
+      });
+      return best;
+    }
+
     host.addEventListener("pointerdown", function (e) {
+      if (focus || flying) return;
       dragging = true;
       from = { x: e.clientX, y: e.clientY, r: rot.slice() };
       try { host.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ }
     });
     host.addEventListener("pointermove", function (e) {
-      if (!dragging) return;
+      if (focus || flying) return;
+      if (!dragging) {
+        var h = siteAt(e);
+        if (h !== hover) {
+          hover = h;
+          host.style.cursor = h ? "pointer" : "";
+          if (reduced) draw();
+        }
+        return;
+      }
       var k = 180 / (Math.PI * R);
       rot[0] = from.r[0] + (e.clientX - from.x) * k;
       rot[1] = Math.max(-80, Math.min(80, from.r[1] - (e.clientY - from.y) * k));
       if (reduced) draw();
     });
-    function release() { dragging = false; idleUntil = Date.now() + 5000; }
+    function release(e) {
+      if (!dragging) return;
+      dragging = false;
+      idleUntil = Date.now() + 5000;
+      // A press that barely moved is a click, not a drag.
+      if (e.type === "pointerup" &&
+          Math.abs(e.clientX - from.x) + Math.abs(e.clientY - from.y) < 6) {
+        var st = siteAt(e);
+        if (st) flyTo(st);
+      }
+    }
     host.addEventListener("pointerup", release);
     host.addEventListener("pointercancel", release);
+    host.addEventListener("pointerleave", function () {
+      if (!dragging && hover) { hover = null; host.style.cursor = ""; }
+    });
+
+    /* ---- close-up ------------------------------------------------------
+     * Click a site: the globe turns and dives toward it, then hands over to
+     * satellite imagery, which continues the dive down to the site. The globe
+     * itself cannot do the last part - its coastline file is 110 m scale, so
+     * past continent level it is a grey polygon - so the close-up is Esri World
+     * Imagery in a Leaflet map laid over the globe. Imagery capture dates vary
+     * by place and can predate construction; the card says so.
+     */
+    var wrap = host.parentNode;
+    var closeEl = el("div", "closeup");
+    closeEl.hidden = true;
+    var closeMap = el("div", "closeup-map");
+    var card = el("div", "closeup-card");
+    var back = el("button", "closeup-back", "← globe");
+    back.type = "button";
+    closeEl.appendChild(closeMap);
+    closeEl.appendChild(card);
+    closeEl.appendChild(back);
+    wrap.appendChild(closeEl);
+    var lmap = null, lmarker = null;
+
+    function ease(t) { return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; }
+
+    function animate(toRot, toZoom, ms, done) {
+      var r0 = rot.slice(), z0 = zoom, t0 = performance.now();
+      // Turn the short way round.
+      var dl = ((toRot[0] - r0[0]) % 360 + 540) % 360 - 180;
+      flying = true;
+      function step(now) {
+        var t = reduced ? 1 : Math.min(1, (now - t0) / ms), k = ease(t);
+        rot[0] = r0[0] + dl * k;
+        rot[1] = r0[1] + (toRot[1] - r0[1]) * k;
+        zoom = z0 * Math.pow(toZoom / z0, k);
+        resize();
+        draw();
+        if (t < 1) requestAnimationFrame(step);
+        else { flying = false; if (done) done(); }
+      }
+      requestAnimationFrame(step);
+    }
+
+    function esc(x) {
+      var d = el("div");
+      d.textContent = x == null ? "" : String(x);
+      return d.innerHTML.replace(/"/g, "&quot;");
+    }
+
+    function cardHtml(st) {
+      var h = "<b>" + esc(st.name) + "</b>";
+      if (st.fac) {
+        var f = st.fac;
+        h += '<div><span style="color:' + coColor(f.co) + '">' + esc(f.co) + "</span> · " + esc(f.kind) + "</div>" +
+          '<div class="st st-' + esc(f.status) + '">' + esc(f.status) + "</div>" +
+          (f.note ? '<div class="nt">' + esc(f.note) + "</div>" : "") +
+          (f.source ? '<div><a href="' + esc(f.source) + '" target="_blank" rel="noopener">source</a></div>' : "");
+      } else {
+        var pd = st.pad;
+        h += "<div>" + esc(pd.location || "") + "</div>" +
+          "<div>" + esc(pd.count) + " launches sampled · " + esc(pd.top_provider || "") + "</div>";
+      }
+      var gm = "https://www.google.com/maps/@" + st.lat + "," + st.lon + ",900m/data=!3m1!1e3";
+      return h + '<div class="fine">' + st.lat.toFixed(4) + ", " + st.lon.toFixed(4) +
+        ' · <a href="' + gm + '" target="_blank" rel="noopener">Google Maps</a>' +
+        "<br>Esri World Imagery; capture date varies by site.</div>";
+    }
+
+    function openCloseUp(st) {
+      card.innerHTML = cardHtml(st);
+      closeEl.hidden = false;
+      void closeEl.offsetWidth;  // flush styles so the fade-in transition runs
+      closeEl.classList.add("on");
+      back.focus({ preventScroll: true });
+      if (!window.L) {
+        closeMap.innerHTML = '<div class="closeup-off">Imagery needs the map library, which did not load.</div>';
+        return;
+      }
+      if (!lmap) {
+        lmap = L.map(closeMap, { zoomControl: true, scrollWheelZoom: true });
+        L.tileLayer(
+          "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+          { maxZoom: 19, maxNativeZoom: 18, attribution: "Imagery &copy; Esri, Maxar, Earthstar Geographics" }
+        ).addTo(lmap);
+      }
+      lmap.invalidateSize();
+      lmap.setView([st.lat, st.lon], 5, { animate: false });
+      if (lmarker) lmap.removeLayer(lmarker);
+      lmarker = L.circleMarker([st.lat, st.lon], { radius: 10, color: "#ffa14a", weight: 2, fill: false })
+        .addTo(lmap);
+      if (reduced) lmap.setView([st.lat, st.lon], st.z, { animate: false });
+      else lmap.flyTo([st.lat, st.lon], st.z, { duration: 2.4 });
+    }
+
+    function flyTo(st) {
+      focus = st;
+      hover = null;
+      host.style.cursor = "";
+      animate([-st.lon, -st.lat, 0], 3.2, 1100, function () { openCloseUp(st); });
+    }
+
+    function closeUp() {
+      if (!focus || flying) return;
+      closeEl.classList.remove("on");
+      setTimeout(function () { closeEl.hidden = true; }, 300);
+      focus = null;
+      idleUntil = Date.now() + 4000;
+      animate([rot[0], -22, 0], 1, 900);
+    }
+    back.addEventListener("click", closeUp);
+    globeFly = function (name) {
+      var st = sites.filter(function (x) { return x.fac && x.fac.name === name; })[0];
+      if (!st || flying) return;
+      if (focus) {
+        // Already in a close-up: move the imagery rather than re-diving.
+        focus = st;
+        openCloseUp(st);
+        return;
+      }
+      flyTo(st);
+    };
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeUp(); });
 
     document.addEventListener("hangar:theme", function () { readColours(); draw(); });
     window.addEventListener("resize", function () { resize(); draw(); });
@@ -1269,8 +1470,8 @@
       if (!document.hidden) {
         var r = host.getBoundingClientRect();
         if (r.bottom > 0 && r.top < window.innerHeight) {
-          if (!dragging && Date.now() > idleUntil) rot[0] += dt * 0.004;
-          draw();
+          if (!dragging && !focus && !flying && Date.now() > idleUntil) rot[0] += dt * 0.004;
+          if (!flying) draw();
         }
       }
       requestAnimationFrame(frame);
@@ -1384,6 +1585,15 @@
     ((D.launches || {}).upcoming || []).forEach(function (L) {
       if (L.url) items.push({ label: L.name, hint: shortDate(L.net).slice(0, 10), url: L.url });
     });
+    // Every globe site, so a site on the far side of the globe is one search away.
+    if (globeFly) {
+      ((D.sites || {}).facilities || []).forEach(function (f) {
+        items.push({ label: "Zoom → " + f.name, hint: f.co, run: function () {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+          globeFly(f.name);
+        } });
+      });
+    }
 
     var ov = el("div", "cmd");
     ov.hidden = true;

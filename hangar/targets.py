@@ -67,13 +67,16 @@ _TIME = (
 
 _ENTITY = (
     r"Tesla|SpaceX|Musk|Optimus|Starship|Starlink|Cybercab|Cybertruck|Megapack|"
-    r"Robotaxi|Gigafactory|Megafactory|Semi|Roadster|Dragon|Falcon"
+    r"Robotaxi|Gigafactory|Megafactory|Semi|Roadster|Dragon|Falcon|"
+    r"xAI|Grok|Colossus|X Money|Neuralink|Blindsight|Boring Company|Vegas Loop|"
+    r"Music City Loop"
 )
 
 _QUANTITY = (
     r"\d[\d,]*(?:\.\d+)?\s*(?:million|billion|thousand|k|M|B)?\s*"
     r"(?:GWh|MWh|MW|GW|satellites?|vehicles?|cars?|units?|cities|robots?|"
-    r"flights?|launches?|deliveries|Megapacks?|users?|subscribers?|stores?|stalls?)"
+    r"flights?|launches?|deliveries|Megapacks?|users?|subscribers?|stores?|stalls?|"
+    r"GPUs?|patients?|implants?|miles?|stations?)"
 )
 
 _RE_VERB = re.compile(rf"\b(?:{_VERBS})\b", re.IGNORECASE)

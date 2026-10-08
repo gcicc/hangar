@@ -6,6 +6,11 @@ Both companies run on public promises with dates attached. The interesting
 question is never what they said, it is what happened to what they said. HANGAR
 puts the promises and the measurements on one page and lets them argue.
 
+xAI, X, Neuralink and The Boring Company are covered too, but lightly: their
+news, their claims and their sites. None of them publishes anything the page
+can measure, so their claims sit on the board as "deadline passed — outcome
+unverified" rather than being scored.
+
 ```
 python run.py             # refresh what has gone stale, then render
 python run.py --force     # refresh everything, ignoring cache age
@@ -108,11 +113,18 @@ instead:
   satellites where drag dominates reach thousands of km by +72 h. At globe
   scale a pixel is ~40 km. The caption says it is not SGP4 and that the clock
   runs at ×60 unless switched to real time.
+- **The close-up** — clicking a pad or facility on the globe (or `/` →
+  "Zoom → …") turns the globe to it and hands over to Esri satellite imagery.
+  Facility pins come from OpenStreetMap features or Wikipedia, checked
+  2026-10-08, to within ~200 m. Rows pinned only by address or nearby place say
+  so and open at a lower zoom. Imagery capture dates vary by site and can
+  predate construction, and the card says so.
 
 ## External requests
 
 The data is inlined; the page never calls a data API. It does load, from CDNs:
-Leaflet and its basemap tiles (range map), d3-geo, d3-array and topojson-client
+Leaflet and its basemap tiles (range map), Esri World Imagery tiles (globe
+close-up, only when a site is clicked), d3-geo, d3-array and topojson-client
 (globe), the `world-atlas` 110m coastline file (globe), and Google Fonts. Every
 one fails soft: the panel that needed it says so and the rest of the page is
 unaffected.

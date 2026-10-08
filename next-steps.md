@@ -3,7 +3,7 @@ name: hangar
 type: maintain
 category: building
 tier: 02-Maintain
-updated: 2026-09-27
+updated: 2026-10-08
 url: https://gcicc.github.io/hangar/
 note: moved from 01-Active-Projects 2026-09-07
 ---
@@ -15,7 +15,7 @@ note: moved from 01-Active-Projects 2026-09-07
 **Capability:** A single page tracking SpaceX and Tesla as *cadence machines* —
 stated ambition against measured reality, refreshed on a schedule.
 
-## Where it stands
+## Where this stands
 
 `python run.py` builds `docs/index.html` from six sources, each on its own
 refresh cadence. 31 tests pass, ruff clean. Last refresh 2026-09-27 21:20 UTC
@@ -48,6 +48,19 @@ page already measures (`starlink_in_orbit`, `spacex_launches_12mo`,
 rows are UNMEASURED, so the page's thesis panel has no measured row. Each entry
 needs a statement, who said it, when, and a source URL — Greg's to supply, never
 from recollection. Then decide blocker 1 (X collector).
+
+Done 2026-10-08 (other companies + globe close-up): xAI, X, Neuralink and
+Boring added at light depth: a fourth Dispatch column (5 Google News queries),
+claim entities, the topics AI / Neurotech / Tunnels, and 9 sourced facilities
+including Omelek Island (Falcon 1, Kwajalein Atoll). Clicking a globe site, or
+`/` → "Zoom → …", dives to Esri satellite imagery. All facility coordinates
+were re-checked against OSM/Wikipedia. Eight were 0.6–10 km off, among them
+Giga Shanghai, Bastrop, Terafab and Redmond, and Starbase now pins production
+rather than the launch mount. Facilities are now read from `sites.py` at render
+time, not the weekly cache. 38 tests pass.
+Open from that pass: the Shanghai Megafactory coordinate is still approximate
+(no published one), and Music City Loop is unpinned for the same reason. X HQ
+and the Neuralink Austin status rest on 2024 sources.
 
 Done 2026-09-27 (portal pass): hero globe with the Starlink sample propagated
 in-browser (two-body + J2; median ~11 km from SGP4 at +24 h), promise horizon,

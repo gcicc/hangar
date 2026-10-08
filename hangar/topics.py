@@ -123,6 +123,38 @@ TOPICS: dict[str, dict] = {
             r"\bNACS\b",
         ],
     },
+    "ai": {
+        "label": "AI",
+        "color": "#d36be0",
+        "patterns": [
+            r"\bxAI\b",
+            r"\bgrok\b",
+            r"\bcolossus\b",
+            r"\bdata cent(er|re)\b",
+            r"\bGPUs?\b",
+        ],
+    },
+    "neurotech": {
+        "label": "Neurotech",
+        "color": "#7fd4e8",
+        "patterns": [
+            r"\bneuralink\b",
+            r"\bblindsight\b",
+            r"\bbrain[- ]computer interface\b",
+            r"\bBCI\b",
+            r"\bbrain (chip|implant)\b",
+        ],
+    },
+    "tunnels": {
+        "label": "Tunnels",
+        "color": "#a8a070",
+        "patterns": [
+            r"\bboring company\b",
+            r"\b(vegas|music city) loop\b",
+            r"\btunnel(s|ing)?\b",
+            r"\bhyperloop\b",
+        ],
+    },
     "money": {
         "label": "Money",
         "color": "#184f95",
@@ -175,6 +207,9 @@ TOPIC_ORDER = [
     "autonomy",
     "production",
     "energy",
+    "ai",
+    "neurotech",
+    "tunnels",
     "regulatory",
     "money",
 ]

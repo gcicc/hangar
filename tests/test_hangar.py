@@ -83,6 +83,22 @@ def test_relevance_drops_sector_news_about_other_companies():
     assert [e["title"] for e in kept] == ["Tesla Cybercab begins public rides in Austin"]
 
 
+@pytest.mark.parametrize(
+    ("title", "topic"),
+    [
+        ("xAI plans to bring Colossus 2 online by end of 2027", "ai"),
+        ("Neuralink aims to implant 1,000 patients by 2027", "neurotech"),
+        ("Boring Company says Vegas Loop will open 10 new stations by 2027", "tunnels"),
+    ],
+)
+def test_smaller_companies_pass_relevance_tag_and_claim(title, topic):
+    """Each layer has its own vocabulary; missing one drops the company silently."""
+    e = entry(title)
+    assert require_relevance([e], RELEVANCE) == [e]
+    assert tag_entry(e)[0] == topic
+    assert targets.detect_claims([e], date(2026, 10, 8))
+
+
 def test_stale_high_keyword_story_is_dropped():
     """A 2023 quarterly report outscored fresh news before the age cap existed."""
     old = entry(
