@@ -4,14 +4,6 @@
    {
     "agency": "NASA",
     "flights": 2,
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190924.jpeg",
-    "name": "Jessica Meir",
-    "status": "Active",
-    "type": "Government"
-   },
-   {
-    "agency": "NASA",
-    "flights": 2,
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190244.jpeg",
     "name": "Jessica Watkins",
     "status": "Active",
@@ -52,32 +44,8 @@
    {
     "agency": "NASA",
     "flights": 1,
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190331.jpeg",
-    "name": "Jack Hathaway",
-    "status": "Active",
-    "type": "Government"
-   },
-   {
-    "agency": "NASA",
-    "flights": 1,
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190559.jpeg",
     "name": "Anil Menon",
-    "status": "Active",
-    "type": "Government"
-   },
-   {
-    "agency": "RFSA",
-    "flights": 2,
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190412.jpeg",
-    "name": "Andrei Fedyaev",
-    "status": "Active",
-    "type": "Government"
-   },
-   {
-    "agency": "ESA",
-    "flights": 1,
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185354.jpeg",
-    "name": "Sophie Adenot",
     "status": "Active",
     "type": "Government"
    },
@@ -114,7 +82,7 @@
     "type": "Government"
    }
   ],
-  "astronauts_count": 14,
+  "astronauts_count": 10,
   "cadence": {
    "labels": [
     "2026-03",
@@ -2006,7 +1974,7 @@
     "mission": "Starlink Group 15-25",
     "mission_type": "Communications",
     "name": "Falcon 9 Block 5 | Starlink Group 15-25",
-    "net": "2026-10-11T23:00:00Z",
+    "net": "2026-10-12T23:00:00Z",
     "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
@@ -2040,14 +2008,14 @@
     "webcast_live": false
    },
    {
-    "description": "Classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
+    "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
     "id": "df88cfbf-f504-4e11-8370-e33dd6280b5b",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
     "lat": 34.632,
     "lon": -120.611,
-    "mission": "USSF-xxx (\"TH-2\")",
+    "mission": "USSF-481",
     "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | USSF-xxx (\"TH-2\")",
+    "name": "Falcon 9 Block 5 | USSF-481",
     "net": "2026-10-15T23:44:00Z",
     "net_precision": "MIN",
     "orbit": "PO",
@@ -2055,8 +2023,8 @@
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "TBC",
-    "status_name": "To Be Confirmed",
+    "status": "Go",
+    "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/df88cfbf-f504-4e11-8370-e33dd6280b5b",
     "webcast_live": false
    },
@@ -2377,5 +2345,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-08T08:32:42.566034+00:00"
+ "fetched_at": "2026-10-08T17:15:28.056727+00:00"
 }
