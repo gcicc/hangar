@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-09",
-  "times_seen": 120,
+  "times_seen": 121,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -37,9 +37,50 @@
   ],
   "primary": false,
   "last_seen": "2026-10-09",
-  "times_seen": 10,
+  "times_seen": 11,
   "outlets": [
    "Optimus"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-09",
+  "times_seen": 65,
+  "outlets": [
+   "Optimus"
+  ]
+ },
+ {
+  "statement": "KLM to launch free Starlink Wi-Fi on long-haul flights in 2027 - TravelWires",
+  "entity": "Starlink",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Starlink",
+  "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVGZUOGlJTVVxMFV1UkdsWlZmbTVFT1Q3T0U1VTZkdkJnMkppdGZuLXZfenVWVTRnU0RYTktFaE5oODR2Qm04ZFU4bldmTkpHdTNTdF9sZjdFR0xrRmJJSDNvWHZaYlZwYWFhQ2hvME5uUF9ST0ZyNlJvaEhRa0FUWXhaQmtYR3YtbzNuckM5eFBlM2YyTGc?oc=5",
+  "first_seen": "2026-10-09",
+  "topics": [
+   "starlink",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-09",
+  "times_seen": 1,
+  "outlets": [
+   "Starlink"
   ]
  },
  {
@@ -288,26 +329,6 @@
   "times_seen": 69,
   "outlets": [
    "Energy"
-  ]
- },
- {
-  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-25",
-  "times_seen": 64,
-  "outlets": [
-   "Optimus"
   ]
  },
  {
