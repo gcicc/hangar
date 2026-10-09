@@ -99,6 +99,17 @@ def test_smaller_companies_pass_relevance_tag_and_claim(title, topic):
     assert targets.detect_claims([e], date(2026, 10, 8))
 
 
+def test_relevance_rejects_hyphenated_x_corp_lookalike():
+    kept = require_relevance(
+        [
+            entry("Form 13D/A Karbon-X Corp For: 9 October"),
+            entry("X Corp files suit over advertiser boycott"),
+        ],
+        RELEVANCE,
+    )
+    assert [e["title"] for e in kept] == ["X Corp files suit over advertiser boycott"]
+
+
 def test_stale_high_keyword_story_is_dropped():
     """A 2023 quarterly report outscored fresh news before the age cap existed."""
     old = entry(

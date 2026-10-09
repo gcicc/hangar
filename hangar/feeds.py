@@ -154,6 +154,7 @@ RELEVANCE = (
     r"\b(Tesla|SpaceX|Musk|Starlink|Starship|Falcon|Dragon|Optimus|Cybertruck|"
     r"Cybercab|Megapack|Powerwall|Supercharger|Gigafactory|Megafactory|Starbase|"
     r"Raptor|TSLA|SPCX|Roadster|Semi|FSD|Autopilot|Starshield|"
-    r"xAI|Grok|Colossus|X Corp|X Money|XChat|Neuralink|Blindsight|"
+    # The lookbehind stops "Karbon-X Corp" passing as X: a hyphen is a \b.
+    r"xAI|Grok|Colossus|(?<![\w-])X Corp|X Money|XChat|Neuralink|Blindsight|"
     r"Boring Company|Vegas Loop|Music City Loop)\b"
 )
