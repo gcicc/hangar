@@ -85,7 +85,6 @@
   "astronauts_count": 10,
   "cadence": {
    "labels": [
-    "2026-03",
     "2026-04",
     "2026-05",
     "2026-06",
@@ -96,17 +95,15 @@
    ],
    "note": "Current month is incomplete; earliest sampled month omitted.",
    "other": [
-    15,
     21,
     11,
     15,
     14,
     12,
     19,
-    1
+    2
    ],
    "partial": [
-    false,
     false,
     false,
     false,
@@ -116,7 +113,6 @@
     true
    ],
    "spacex": [
-    15,
     12,
     12,
     14,
@@ -128,24 +124,24 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "Details TBD.",
-   "id": "a1bb0984-19d4-4b47-9bba-706d225573e2",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
-   "lat": 19.59755,
-   "lon": 110.936481,
-   "mission": "Unknown Payload",
-   "mission_type": "Unknown",
-   "name": "Long March 12 | Unknown Payload",
-   "net": "2026-10-09T19:25:00Z",
-   "net_precision": "HR",
-   "orbit": "N/A",
-   "pad": "Commercial LC-2",
-   "pad_location": "Wenchang Space Launch Site, People's Republic of China",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "rocket": "Long March 12",
+   "description": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellatio",
+   "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+   "lat": 34.632,
+   "lon": -120.611,
+   "mission": "SDA Tranche 1 Transport Layer A",
+   "mission_type": "Government/Top Secret",
+   "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+   "net": "2026-10-10T07:39:00Z",
+   "net_precision": "MIN",
+   "orbit": "PO",
+   "pad": "Space Launch Complex 4E",
+   "pad_location": "Vandenberg SFB, CA, USA",
+   "provider": "SpaceX",
+   "rocket": "Falcon 9 Block 5",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/a1bb0984-19d4-4b47-9bba-706d225573e2",
+   "url": "https://nextspaceflight.com/launches/details/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
    "webcast_live": false
   },
   "pads": [
@@ -201,6 +197,16 @@
    },
    {
     "count": 6,
+    "last_net": "2026-10-09T19:27:00Z",
+    "lat": 19.59755,
+    "location": "Wenchang Space Launch Site, People's Republic of China",
+    "lon": 110.936481,
+    "name": "Commercial LC-2",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 6,
     "last_net": "2026-09-11T03:28:00Z",
     "lat": -39.262833,
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -218,16 +224,6 @@
     "name": "Launch Area 130",
     "spacex": false,
     "top_provider": "CAS Space"
-   },
-   {
-    "count": 5,
-    "last_net": "2026-10-09T19:25:00Z",
-    "lat": 19.59755,
-    "location": "Wenchang Space Launch Site, People's Republic of China",
-    "lon": 110.936481,
-    "name": "Commercial LC-2",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 5,
@@ -381,16 +377,6 @@
    },
    {
     "count": 3,
-    "last_net": "2026-06-11T08:00:00Z",
-    "lat": 37.833262,
-    "location": "Wallops Flight Facility, Virginia, USA",
-    "lon": -75.488235,
-    "name": "Rocket Lab Launch Complex 2 (Launch Area 0 C)",
-    "spacex": false,
-    "top_provider": "Rocket Lab"
-   },
-   {
-    "count": 3,
     "last_net": "2026-05-30T18:07:00Z",
     "lat": 28.247059,
     "location": "Xichang Satellite Launch Center, People's Republic of China",
@@ -438,6 +424,16 @@
     "name": "Launch Complex 2 (LC-2)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-06-11T08:00:00Z",
+    "lat": 37.833262,
+    "location": "Wallops Flight Facility, Virginia, USA",
+    "lon": -75.488235,
+    "name": "Rocket Lab Launch Complex 2 (Launch Area 0 C)",
+    "spacex": false,
+    "top_provider": "Rocket Lab"
    },
    {
     "count": 2,
@@ -651,6 +647,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
+    "id": "a1bb0984-19d4-4b47-9bba-706d225573e2",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
+    "lat": 19.59755,
+    "lon": 110.936481,
+    "mission": "SatNet LEO Group 27",
+    "mission_type": "Communications",
+    "name": "Long March 12 | SatNet LEO Group 27",
+    "net": "2026-10-09T19:27:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Commercial LC-2",
+    "pad_location": "Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 12",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/a1bb0984-19d4-4b47-9bba-706d225573e2",
+    "webcast_live": false
+   },
    {
     "description": "NeonSat-2 to 6 are part of the South Korean government's Earth observation micro-satellite constellation NeonSat (New-space Earth Observation Satellite). The NeonSat constellation is the first satellite system developed by the government using a mass-production approach for precise monitoring of the Korean Peninsula.\r\n\r\n10 ride-sharing small satellites from various Korean institutes and organizati",
     "id": "e0741415-6c63-4236-9736-24a6c04485bc",
@@ -1889,27 +1906,6 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/394d2745-610b-409e-b4ea-2071a35f8668",
     "webcast_live": false
-   },
-   {
-    "description": "Tianlian is a Chinese data tracking and relay communications geostationary satellite series. The TL-3 (Tian Lian 3) satellites are the 3rd generation of China's geostationary orbit data relay satellites, based on the DFH-4E geostationary satellite bus. They will be used to support real-time communications between orbiting satellites/rockets in-flight and ground control stations. \r\n\r\nThis system re",
-    "id": "beac6ac1-97dd-4eb2-912c-8b4d4d15cd4e",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_thumbnail_20251206093324.jpeg",
-    "lat": 19.618452,
-    "lon": 110.955356,
-    "mission": "Tianlian 3-01",
-    "mission_type": "Communications",
-    "name": "Long March 7A | Tianlian 3-01",
-    "net": "2026-07-29T11:50:00Z",
-    "net_precision": "MIN",
-    "orbit": "GTO",
-    "pad": "201",
-    "pad_location": "Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "rocket": "Long March 7A",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/beac6ac1-97dd-4eb2-912c-8b4d4d15cd4e",
-    "webcast_live": false
    }
   ],
   "totals": {
@@ -1918,29 +1914,29 @@
    "spacex_sampled": 91,
    "spacex_share": 0.455,
    "window": {
-    "from": "2026-02-28",
-    "to": "2026-10-07"
+    "from": "2026-03-01",
+    "to": "2026-10-09"
    }
   },
   "upcoming": [
    {
-    "description": "Details TBD.",
+    "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
     "id": "a1bb0984-19d4-4b47-9bba-706d225573e2",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
     "lat": 19.59755,
     "lon": 110.936481,
-    "mission": "Unknown Payload",
-    "mission_type": "Unknown",
-    "name": "Long March 12 | Unknown Payload",
-    "net": "2026-10-09T19:25:00Z",
-    "net_precision": "HR",
-    "orbit": "N/A",
+    "mission": "SatNet LEO Group 27",
+    "mission_type": "Communications",
+    "name": "Long March 12 | SatNet LEO Group 27",
+    "net": "2026-10-09T19:27:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
     "pad": "Commercial LC-2",
     "pad_location": "Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "rocket": "Long March 12",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/a1bb0984-19d4-4b47-9bba-706d225573e2",
     "webcast_live": false
    },
@@ -2345,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-09T18:05:46.229035+00:00"
+ "fetched_at": "2026-10-09T23:52:21.075877+00:00"
 }
