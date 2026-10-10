@@ -14,8 +14,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-10-09",
-  "times_seen": 123,
+  "last_seen": "2026-10-10",
+  "times_seen": 124,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -36,8 +36,8 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-10-09",
-  "times_seen": 13,
+  "last_seen": "2026-10-10",
+  "times_seen": 14,
   "outlets": [
    "Optimus"
   ]
@@ -56,10 +56,92 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-10-09",
-  "times_seen": 67,
+  "last_seen": "2026-10-10",
+  "times_seen": 68,
   "outlets": [
    "Optimus"
+  ]
+ },
+ {
+  "statement": "Neuralink plans 'high-volume' brain implant production by 2026, Musk says - Reuters",
+  "entity": "Neuralink",
+  "horizon_phrase": "by 2026",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Neuralink",
+  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMWEwLU1QOHU2WjNFeUM2MEVqSDU3Ujh1UnVFYW5jd0ZqelRCcGR5dlpMZ3pCd0UxaVVPYlRMN0ZQc0lDQ1RfNTJFaG5saTNHcE4ydDNrbEhxNjduWTBkenJiUjhvdnhKc2tRVTg1UXV4QzNiZGF3ZEQxZllLZV9OQ3BuMEtFcS1CMWI1TkZtS2pIZWRvUE1JTVdWSzhVellKQ3c2dkxCWUJGNnNQcjAtX3RqMlhLNVBxOGxjSExUN0tkbjJXSWlHRkJZX0R6ZzRLUkt0WTQ5UGdnQTBvemJJ?oc=5",
+  "first_seen": "2026-10-09",
+  "topics": [
+   "production",
+   "neurotech"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-10",
+  "times_seen": 3,
+  "outlets": [
+   "Neuralink"
+  ]
+ },
+ {
+  "statement": "Neuralink is set to begin trials of its Blindsight vision-restoring chip this year - Supercar Blondie",
+  "entity": "Neuralink",
+  "horizon_phrase": "this year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Neuralink",
+  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QR01TMGlKZDRZcllQVzBOeVNLc3dLMUVnT3pqTnhWMEJHWjJKMFZHbG9fZ0RBaTNJMGMtVUF4YVVwSjdKWTY3TW4yY2h1c2RnY0ZsUVBDSGZMZkxYWFhuS2swRW5yLVl5Y1hPcDQ0ZGEwSmpCbUQ0Vm9JMA?oc=5",
+  "first_seen": "2026-10-09",
+  "topics": [
+   "neurotech"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-10",
+  "times_seen": 3,
+  "outlets": [
+   "Neuralink"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Neuralink will ramp up production of brain-chip implants in 2026 - Business Insider",
+  "entity": "Musk",
+  "horizon_phrase": "in 2026",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Neuralink",
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOE1zb1VFcW9FVFRQRWhxWjlCd0g3djQzQVgwSWRxNGw2blpvdVlEQ2RNVk8xclE4QjA2eUlsWFRaSnZzTHUwblBfbDloejEtM2pwYURDSENOMVQweFFhQ2ZNMjFhMFZhS3NYT1RaLWkyclhYZHNMek5OUGNLdGVPRFBrX1NBTWFkSW04QWkyek11NW9YdHg2RDltUzdhT1ZKWjIwcGxEb1NKYnpRX3FkdQ?oc=5",
+  "first_seen": "2026-10-09",
+  "topics": [
+   "production",
+   "neurotech"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-10",
+  "times_seen": 3,
+  "outlets": [
+   "Neuralink"
+  ]
+ },
+ {
+  "statement": "AI forecasts Tesla stock to rise 42% by 2030, r... - Pluang",
+  "entity": "Tesla",
+  "horizon_phrase": "by 2030",
+  "horizon": "2030-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "TSLA",
+  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BdmtlWHcxWTBFWHBsNFIwanFrVGZIOEJWTWthWmZOU0VfZHFya1RwVWh3cDI2QVlVR3dnYzhsQVNDQTNNUDNPczVPaEpsbm03X1BiOXlrSC0wSEdQVlpjNGtGQVpaaTJLYmtCbTNnaW5WZzJHNTQ5NnJkRQ?oc=5",
+  "first_seen": "2026-10-09",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-10",
+  "times_seen": 3,
+  "outlets": [
+   "TSLA"
   ]
  },
  {
@@ -81,88 +163,6 @@
   "times_seen": 2,
   "outlets": [
    "Starlink"
-  ]
- },
- {
-  "statement": "Neuralink plans 'high-volume' brain implant production by 2026, Musk says - Reuters",
-  "entity": "Neuralink",
-  "horizon_phrase": "by 2026",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Neuralink",
-  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMWEwLU1QOHU2WjNFeUM2MEVqSDU3Ujh1UnVFYW5jd0ZqelRCcGR5dlpMZ3pCd0UxaVVPYlRMN0ZQc0lDQ1RfNTJFaG5saTNHcE4ydDNrbEhxNjduWTBkenJiUjhvdnhKc2tRVTg1UXV4QzNiZGF3ZEQxZllLZV9OQ3BuMEtFcS1CMWI1TkZtS2pIZWRvUE1JTVdWSzhVellKQ3c2dkxCWUJGNnNQcjAtX3RqMlhLNVBxOGxjSExUN0tkbjJXSWlHRkJZX0R6ZzRLUkt0WTQ5UGdnQTBvemJJ?oc=5",
-  "first_seen": "2026-10-09",
-  "topics": [
-   "production",
-   "neurotech"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-09",
-  "times_seen": 2,
-  "outlets": [
-   "Neuralink"
-  ]
- },
- {
-  "statement": "Neuralink is set to begin trials of its Blindsight vision-restoring chip this year - Supercar Blondie",
-  "entity": "Neuralink",
-  "horizon_phrase": "this year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Neuralink",
-  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QR01TMGlKZDRZcllQVzBOeVNLc3dLMUVnT3pqTnhWMEJHWjJKMFZHbG9fZ0RBaTNJMGMtVUF4YVVwSjdKWTY3TW4yY2h1c2RnY0ZsUVBDSGZMZkxYWFhuS2swRW5yLVl5Y1hPcDQ0ZGEwSmpCbUQ0Vm9JMA?oc=5",
-  "first_seen": "2026-10-09",
-  "topics": [
-   "neurotech"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-09",
-  "times_seen": 2,
-  "outlets": [
-   "Neuralink"
-  ]
- },
- {
-  "statement": "Elon Musk says Neuralink will ramp up production of brain-chip implants in 2026 - Business Insider",
-  "entity": "Musk",
-  "horizon_phrase": "in 2026",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Neuralink",
-  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOE1zb1VFcW9FVFRQRWhxWjlCd0g3djQzQVgwSWRxNGw2blpvdVlEQ2RNVk8xclE4QjA2eUlsWFRaSnZzTHUwblBfbDloejEtM2pwYURDSENOMVQweFFhQ2ZNMjFhMFZhS3NYT1RaLWkyclhYZHNMek5OUGNLdGVPRFBrX1NBTWFkSW04QWkyek11NW9YdHg2RDltUzdhT1ZKWjIwcGxEb1NKYnpRX3FkdQ?oc=5",
-  "first_seen": "2026-10-09",
-  "topics": [
-   "production",
-   "neurotech"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-09",
-  "times_seen": 2,
-  "outlets": [
-   "Neuralink"
-  ]
- },
- {
-  "statement": "AI forecasts Tesla stock to rise 42% by 2030, r... - Pluang",
-  "entity": "Tesla",
-  "horizon_phrase": "by 2030",
-  "horizon": "2030-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "TSLA",
-  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BdmtlWHcxWTBFWHBsNFIwanFrVGZIOEJWTWthWmZOU0VfZHFya1RwVWh3cDI2QVlVR3dnYzhsQVNDQTNNUDNPczVPaEpsbm03X1BiOXlrSC0wSEdQVlpjNGtGQVpaaTJLYmtCbTNnaW5WZzJHNTQ5NnJkRQ?oc=5",
-  "first_seen": "2026-10-09",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-09",
-  "times_seen": 2,
-  "outlets": [
-   "TSLA"
   ]
  },
  {
