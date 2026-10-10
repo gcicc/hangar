@@ -119,29 +119,29 @@
     13,
     14,
     8,
-    3
+    4
    ]
   },
   "calls_used": 4,
   "next": {
-   "description": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellatio",
-   "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+   "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+   "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
    "lat": 34.632,
    "lon": -120.611,
-   "mission": "SDA Tranche 1 Transport Layer A",
-   "mission_type": "Government/Top Secret",
-   "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-   "net": "2026-10-10T07:39:44Z",
-   "net_precision": "SEC",
-   "orbit": "PO",
+   "mission": "Starlink Group 15-25",
+   "mission_type": "Communications",
+   "name": "Falcon 9 Block 5 | Starlink Group 15-25",
+   "net": "2026-10-12T23:00:00Z",
+   "net_precision": "MIN",
+   "orbit": "LEO",
    "pad": "Space Launch Complex 4E",
    "pad_location": "Vandenberg SFB, CA, USA",
    "provider": "SpaceX",
    "rocket": "Falcon 9 Block 5",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+   "url": "https://nextspaceflight.com/launches/details/97c6f5e1-299e-4652-b72d-9618ac047076",
    "webcast_live": false
   },
   "pads": [
@@ -647,6 +647,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellatio",
+    "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "SDA Tranche 1 Transport Layer A",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
+    "net": "2026-10-10T07:39:44Z",
+    "net_precision": "SEC",
+    "orbit": "PO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
+    "url": "https://nextspaceflight.com/launches/details/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+    "webcast_live": false
+   },
    {
     "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
     "id": "a1bb0984-19d4-4b47-9bba-706d225573e2",
@@ -1885,27 +1906,6 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/24675e3d-2458-48a3-8c70-5196e44d4dc3",
     "webcast_live": false
-   },
-   {
-    "description": "2 Chinese classified satellites claimed to be for communication technology test purposes. Actual mission not known.",
-    "id": "394d2745-610b-409e-b4ea-2071a35f8668",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
-    "lat": 38.8583,
-    "lon": 111.5802,
-    "mission": "TJSW-27A & B",
-    "mission_type": "Government/Top Secret",
-    "name": "Long March 6A | TJSW-27A & B",
-    "net": "2026-07-30T01:00:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Launch Complex 9A",
-    "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "rocket": "Long March 6A",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/394d2745-610b-409e-b4ea-2071a35f8668",
-    "webcast_live": false
    }
   ],
   "totals": {
@@ -1914,8 +1914,8 @@
    "spacex_sampled": 91,
    "spacex_share": 0.455,
    "window": {
-    "from": "2026-03-01",
-    "to": "2026-10-09"
+    "from": "2026-03-02",
+    "to": "2026-10-10"
    }
   },
   "upcoming": [
@@ -1956,8 +1956,8 @@
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
     "url": "https://nextspaceflight.com/launches/details/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
     "webcast_live": false
    },
@@ -2030,9 +2030,9 @@
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_thumbnail_20251028184029.jpeg",
     "lat": 30.400938,
     "lon": 130.97564,
-    "mission": "Martian Moon eXplorer (MMX)",
+    "mission": "Martian Moons eXploration (MMX)",
     "mission_type": "Planetary Science",
-    "name": "H3-24 | Martian Moon eXplorer (MMX)",
+    "name": "H3-24 | Martian Moons eXploration (MMX)",
     "net": "2026-10-19T19:41:03Z",
     "net_precision": "SEC",
     "orbit": "Mars",
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-10T04:52:17.314200+00:00"
+ "fetched_at": "2026-10-10T12:04:59.062109+00:00"
 }
