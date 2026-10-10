@@ -197,16 +197,6 @@
    },
    {
     "count": 6,
-    "last_net": "2026-10-09T19:27:00Z",
-    "lat": 19.59755,
-    "location": "Wenchang Space Launch Site, People's Republic of China",
-    "lon": 110.936481,
-    "name": "Commercial LC-2",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 6,
     "last_net": "2026-09-11T03:28:00Z",
     "lat": -39.262833,
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -214,6 +204,16 @@
     "name": "Rocket Lab Launch Complex 1A",
     "spacex": false,
     "top_provider": "Rocket Lab"
+   },
+   {
+    "count": 5,
+    "last_net": "2026-10-09T19:27:00Z",
+    "lat": 19.59755,
+    "location": "Wenchang Space Launch Site, People's Republic of China",
+    "lon": 110.936481,
+    "name": "Commercial LC-2",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 5,
@@ -267,6 +267,16 @@
    },
    {
     "count": 4,
+    "last_net": "2026-12-31T00:00:00Z",
+    "lat": 28.60822681,
+    "location": "Kennedy Space Center, FL, USA",
+    "lon": -80.60428186,
+    "name": "Launch Complex 39A",
+    "spacex": true,
+    "top_provider": "SpaceX"
+   },
+   {
+    "count": 4,
     "last_net": "2026-09-10T09:00:00Z",
     "lat": 40.960482,
     "location": "Jiuquan Satellite Launch Center, People's Republic of China",
@@ -274,16 +284,6 @@
     "name": "Launch Area 94 (SLS-2 / 603)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 3,
-    "last_net": "2026-10-02T03:54:00Z",
-    "lat": 28.60822681,
-    "location": "Kennedy Space Center, FL, USA",
-    "lon": -80.60428186,
-    "name": "Launch Complex 39A",
-    "spacex": true,
-    "top_provider": "SpaceX"
    },
    {
     "count": 3,
@@ -1920,27 +1920,6 @@
   },
   "upcoming": [
    {
-    "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
-    "id": "a1bb0984-19d4-4b47-9bba-706d225573e2",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
-    "lat": 19.59755,
-    "lon": 110.936481,
-    "mission": "SatNet LEO Group 27",
-    "mission_type": "Communications",
-    "name": "Long March 12 | SatNet LEO Group 27",
-    "net": "2026-10-09T19:27:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Commercial LC-2",
-    "pad_location": "Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "rocket": "Long March 12",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/a1bb0984-19d4-4b47-9bba-706d225573e2",
-    "webcast_live": false
-   },
-   {
     "description": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellatio",
     "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
@@ -2338,8 +2317,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/ce1317de-ec94-4479-9b28-38ebf11f13ae",
     "webcast_live": false
+   },
+   {
+    "description": "Demonstration flight of the Astrobotic Griffin lander and its engines, initially contracted for the cancelled NASA VIPER (Volatiles Investigating Polar Exploration Rover) mission. The vacated payload spot will now host the FLIP (FLEX Lunar Innovation Platform) lunar rover from Astrolab.",
+    "id": "d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
+    "lat": 28.60822681,
+    "lon": -80.60428186,
+    "mission": "Griffin Mission One",
+    "mission_type": "Lunar Exploration",
+    "name": "Falcon Heavy | Griffin Mission One",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LO",
+    "pad": "Launch Complex 39A",
+    "pad_location": "Kennedy Space Center, FL, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon Heavy",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-10T18:16:32.307428+00:00"
+ "fetched_at": "2026-10-10T23:19:34.687282+00:00"
 }
