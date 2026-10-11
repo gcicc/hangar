@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-11",
-  "times_seen": 128,
+  "times_seen": 129,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -37,7 +37,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-11",
-  "times_seen": 18,
+  "times_seen": 19,
   "outlets": [
    "Optimus"
   ]
@@ -57,7 +57,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-11",
-  "times_seen": 72,
+  "times_seen": 73,
   "outlets": [
    "Optimus"
   ]
@@ -78,7 +78,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-11",
-  "times_seen": 7,
+  "times_seen": 8,
   "outlets": [
    "Neuralink"
   ]
@@ -98,7 +98,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-11",
-  "times_seen": 7,
+  "times_seen": 8,
   "outlets": [
    "Neuralink"
   ]
@@ -119,9 +119,29 @@
   ],
   "primary": false,
   "last_seen": "2026-10-11",
-  "times_seen": 7,
+  "times_seen": 8,
   "outlets": [
    "Neuralink"
+  ]
+ },
+ {
+  "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VQXRiT1ludzJQQkJQLWRUSjhPdkdsb183d3ozcXV1UnhwTDM2UUQ0QzN1N0NxQmdVbGZKSzVzTnRheU9CaGpwaG00SGhSWjZla1p0WDZFZkhPR0t4NXlBbXVRQ3Y2NTVhT3BxUHAwOUQ1OWQz?oc=5",
+  "first_seen": "2026-09-18",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-11",
+  "times_seen": 50,
+  "outlets": [
+   "Optimus"
   ]
  },
  {
@@ -309,26 +329,6 @@
   "times_seen": 3,
   "outlets": [
    "Starlink"
-  ]
- },
- {
-  "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VQXRiT1ludzJQQkJQLWRUSjhPdkdsb183d3ozcXV1UnhwTDM2UUQ0QzN1N0NxQmdVbGZKSzVzTnRheU9CaGpwaG00SGhSWjZla1p0WDZFZkhPR0t4NXlBbXVRQ3Y2NTVhT3BxUHAwOUQ1OWQz?oc=5",
-  "first_seen": "2026-09-18",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-29",
-  "times_seen": 49,
-  "outlets": [
-   "Optimus"
   ]
  },
  {
