@@ -146,7 +146,7 @@
   },
   "pads": [
    {
-    "count": 54,
+    "count": 53,
     "last_net": "2026-12-31T00:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -286,6 +286,16 @@
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
+    "count": 4,
+    "last_net": "2026-12-31T00:00:00Z",
+    "lat": 13.7199,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.2304,
+    "name": "Satish Dhawan Space Centre Second Launch Pad",
+    "spacex": false,
+    "top_provider": "Indian Space Research Organization"
+   },
+   {
     "count": 3,
     "last_net": "2026-09-28T12:48:59Z",
     "lat": 25.99677,
@@ -334,16 +344,6 @@
     "name": "Launch Area 96A",
     "spacex": false,
     "top_provider": "LandSpace"
-   },
-   {
-    "count": 3,
-    "last_net": "2026-11-30T00:00:00Z",
-    "lat": 13.7199,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.2304,
-    "name": "Satish Dhawan Space Centre Second Launch Pad",
-    "spacex": false,
-    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 3,
@@ -1920,27 +1920,6 @@
   },
   "upcoming": [
    {
-    "description": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellatio",
-    "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "SDA Tranche 1 Transport Layer A",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
-    "net": "2026-10-10T07:39:44Z",
-    "net_precision": "SEC",
-    "orbit": "PO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
-    "webcast_live": false
-   },
-   {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
     "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
@@ -2338,8 +2317,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
     "webcast_live": false
+   },
+   {
+    "description": "GSAT-32 is a geostationary communications satellite for the Indian Space Research Organization (ISRO). The spacecraft is a replacement for GSAT-6A that failed before reaching geostationary orbit after launch in 2018.",
+    "id": "0cf92611-82a8-4095-a0b4-dda2e74b1fff",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg",
+    "lat": 13.7199,
+    "lon": 80.2304,
+    "mission": "GSAT-32 (GSAT-N3)",
+    "mission_type": "Communications",
+    "name": "LVM-3 | GSAT-32 (GSAT-N3)",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "GTO",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad",
+    "pad_location": "Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "rocket": "Launch Vehicle Mark-3 (GSLV Mk III)",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/0cf92611-82a8-4095-a0b4-dda2e74b1fff",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-11T04:38:59.245003+00:00"
+ "fetched_at": "2026-10-11T12:20:19.577101+00:00"
 }
