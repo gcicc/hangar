@@ -4,124 +4,138 @@
    {
     "co": "SpaceX",
     "kind": "HQ / Falcon production",
-    "lat": 33.9207,
-    "lon": -118.3277,
+    "lat": 33.9205,
+    "lon": -118.3279,
     "name": "Hawthorne",
     "status": "operating"
    },
    {
     "co": "SpaceX",
-    "kind": "Starship production and launch",
-    "lat": 25.9971,
-    "lon": -97.1554,
+    "kind": "Starship production (Mega Bay / Gigabay)",
+    "lat": 25.9864,
+    "lon": -97.1883,
     "name": "Starbase",
     "status": "operating"
    },
    {
     "co": "SpaceX",
     "kind": "Engine test",
-    "lat": 31.4046,
-    "lon": -97.4636,
+    "lat": 31.4037,
+    "lon": -97.4618,
     "name": "McGregor",
     "status": "operating"
    },
    {
     "co": "SpaceX",
     "kind": "Starlink satellite production",
-    "lat": 47.674,
-    "lon": -122.1215,
+    "lat": 47.6955,
+    "lon": -122.035,
     "name": "Redmond",
+    "source": "https://cosmiclog.com/2021/04/07/spacex-expands-its-footprint-in-the-seattle-area/",
     "status": "operating"
    },
    {
     "co": "SpaceX",
     "kind": "Starlink terminal production",
-    "lat": 30.1105,
-    "lon": -97.3153,
+    "lat": 30.1569,
+    "lon": -97.4065,
     "name": "Bastrop",
     "status": "operating"
    },
    {
     "co": "SpaceX",
     "kind": "Starship facility, KSC",
-    "lat": 28.586,
-    "lon": -80.655,
+    "lat": 28.5428,
+    "lon": -80.6677,
     "name": "Roberts Road",
+    "source": "https://www.nasaspaceflight.com/2025/12/spacex-roberts-road-east-coast-starship/",
     "status": "building"
    },
    {
     "co": "SpaceX",
     "kind": "Spaceport, 125,000 acres",
-    "lat": 29.64,
-    "lon": -92.46,
+    "lat": 29.6466,
+    "lon": -92.4532,
     "name": "Starbase Louisiana",
-    "note": "Pecan Island, Vermilion Parish. $100B committed; construction 2027, first launch targeted 2029.",
+    "note": "Pecan Island, Vermilion Parish. $100B committed; construction 2027, first launch targeted 2029. Pinned to the hamlet: no site boundary is public.",
     "source": "https://fortune.com/2026/08/27/spacex-largest-spaceport-100-billion-louisiana-expansion/",
-    "status": "announced"
+    "status": "announced",
+    "zoom": 12
    },
    {
     "co": "SpaceX",
     "kind": "Semiconductor fab (Tesla/SpaceX JV)",
-    "lat": 30.54,
-    "lon": -95.98,
+    "lat": 30.6098,
+    "lon": -96.0352,
     "name": "Terafab",
     "note": "Grimes County, Texas. $16.8B first phase.",
     "source": "https://www.statesman.com/business/article/elon-musk-terafab-spacex-grimes-county-22375537.php",
     "status": "building"
    },
    {
+    "co": "SpaceX",
+    "kind": "Falcon 1 launch site, Kwajalein Atoll",
+    "lat": 9.0485,
+    "lon": 167.743,
+    "name": "Omelek Island",
+    "note": "All five Falcon 1 launches, 2006-2009, including the first privately developed liquid-fuel rocket to reach orbit (Flight 4, 2008).",
+    "source": "https://en.wikipedia.org/wiki/Omelek_Island",
+    "status": "historic",
+    "zoom": 16
+   },
+   {
     "co": "Tesla",
     "kind": "Vehicle assembly",
-    "lat": 37.4931,
-    "lon": -121.944,
+    "lat": 37.4935,
+    "lon": -121.9436,
     "name": "Fremont",
     "status": "operating"
    },
    {
     "co": "Tesla",
     "kind": "Vehicle assembly / HQ",
-    "lat": 30.2214,
-    "lon": -97.6169,
+    "lat": 30.2219,
+    "lon": -97.6188,
     "name": "Giga Texas",
     "status": "operating"
    },
    {
     "co": "Tesla",
     "kind": "Vehicle assembly",
-    "lat": 52.39,
-    "lon": 13.7986,
+    "lat": 52.3972,
+    "lon": 13.7948,
     "name": "Giga Berlin",
     "status": "operating"
    },
    {
     "co": "Tesla",
     "kind": "Vehicle assembly",
-    "lat": 30.96,
-    "lon": 121.84,
+    "lat": 30.8739,
+    "lon": 121.7694,
     "name": "Giga Shanghai",
     "status": "operating"
    },
    {
     "co": "Tesla",
     "kind": "Cells, packs, drive units",
-    "lat": 39.538,
-    "lon": -119.443,
+    "lat": 39.5404,
+    "lon": -119.4391,
     "name": "Giga Nevada",
     "status": "operating"
    },
    {
     "co": "Tesla",
     "kind": "Solar / Supercharger hardware",
-    "lat": 42.83,
-    "lon": -78.82,
+    "lat": 42.8592,
+    "lon": -78.8401,
     "name": "Buffalo",
     "status": "operating"
    },
    {
     "co": "Tesla",
     "kind": "Megapack production",
-    "lat": 37.822,
-    "lon": -121.276,
+    "lat": 37.7999,
+    "lon": -121.2872,
     "name": "Lathrop Megafactory",
     "status": "operating"
    },
@@ -131,38 +145,129 @@
     "lat": 30.89,
     "lon": 121.81,
     "name": "Shanghai Megafactory",
+    "note": "Location approximate: Lingang, beside Giga Shanghai.",
+    "source": "https://cnevpost.com/2025/02/11/tesla-shanghai-megafactory-starts-production/",
+    "status": "operating",
+    "zoom": 12
+   },
+   {
+    "co": "xAI",
+    "kind": "AI training data center",
+    "lat": 35.0601,
+    "lon": -90.1564,
+    "name": "Colossus",
+    "note": "Memphis. Former Electrolux plant.",
+    "source": "https://en.wikipedia.org/wiki/Colossus_(data_center)",
+    "status": "operating"
+   },
+   {
+    "co": "xAI",
+    "kind": "AI training data center",
+    "lat": 34.998,
+    "lon": -90.0349,
+    "name": "Colossus 2",
+    "note": "Memphis (Whitehaven). First cluster online ~January 2026; expansion ongoing.",
+    "source": "https://en.wikipedia.org/wiki/Colossus_(data_center)",
+    "status": "operating"
+   },
+   {
+    "co": "xAI",
+    "kind": "AI data center",
+    "lat": 34.9919,
+    "lon": -90.0344,
+    "name": "Colossus 3",
+    "note": "Southaven, Mississippi. Pinned by street address.",
+    "source": "https://en.wikipedia.org/wiki/Colossus_(data_center)",
+    "status": "building"
+   },
+   {
+    "co": "xAI",
+    "kind": "Gas turbine plant for Colossus",
+    "lat": 34.9844,
+    "lon": -90.0433,
+    "name": "Southaven power plant",
+    "note": "Permanent plant permitted March 2026. Pinned by street address.",
+    "source": "https://en.wikipedia.org/wiki/Colossus_(data_center)",
+    "status": "building"
+   },
+   {
+    "co": "X",
+    "kind": "Corporate HQ",
+    "lat": 30.1555,
+    "lon": -97.4026,
+    "name": "X HQ",
+    "note": "Bastrop, Texas, per 2024 filings; not reconfirmed for 2026.",
+    "source": "https://www.kxan.com/news/local/bastrop/social-media-company-x-cites-bastrop-address-as-its-official-headquarters/amp",
+    "status": "operating"
+   },
+   {
+    "co": "Neuralink",
+    "kind": "HQ and R&D",
+    "lat": 37.5474,
+    "lon": -122.0687,
+    "name": "Neuralink Fremont",
+    "source": "https://en.wikipedia.org/wiki/Neuralink",
+    "status": "operating"
+   },
+   {
+    "co": "Neuralink",
+    "kind": "Office and manufacturing campus",
+    "lat": 30.2162,
+    "lon": -97.5419,
+    "name": "Neuralink Austin",
+    "note": "Del Valle, Texas. Status from 2024 reporting; not reconfirmed for 2026.",
+    "source": "https://communityimpact.com/southwest-austin-dripping-springs/development/elon-musks-neuralink-to-expand-austin-offices/",
+    "status": "building"
+   },
+   {
+    "co": "Boring Company",
+    "kind": "HQ and engineering",
+    "lat": 30.153,
+    "lon": -97.4035,
+    "name": "Boring Company HQ",
+    "note": "Bastrop, Texas.",
+    "source": "https://en.wikipedia.org/wiki/The_Boring_Company",
+    "status": "operating"
+   },
+   {
+    "co": "Boring Company",
+    "kind": "Passenger tunnel (Central Station, LVCC)",
+    "lat": 36.1312,
+    "lon": -115.1527,
+    "name": "Vegas Loop",
+    "source": "https://en.wikipedia.org/wiki/Vegas_Loop",
     "status": "operating"
    }
   ],
   "superchargers": {
    "by_status": {
-    "CLOSED_PERM": 346,
+    "CLOSED_PERM": 345,
     "CLOSED_TEMP": 28,
-    "CONSTRUCTION": 376,
-    "EXPANDING": 19,
-    "OPEN": 8996,
-    "PERMIT": 190,
-    "PLAN": 1100,
-    "VOTING": 129
+    "CONSTRUCTION": 389,
+    "EXPANDING": 22,
+    "OPEN": 9013,
+    "PERMIT": 188,
+    "PLAN": 1191,
+    "VOTING": 128
    },
    "clusters": [
     {
-     "lat": 30.644,
-     "lon": 120.603,
+     "lat": 30.645,
+     "lon": 120.606,
      "regions": [
       "Asia Pacific"
      ],
-     "sites": 848,
-     "stalls": 4444
+     "sites": 850,
+     "stalls": 4450
     },
     {
      "lat": 40.217,
-     "lon": -75.111,
+     "lon": -75.109,
      "regions": [
       "North America"
      ],
-     "sites": 441,
-     "stalls": 4773
+     "sites": 442,
+     "stalls": 4789
     },
     {
      "lat": 35.125,
@@ -175,12 +280,12 @@
     },
     {
      "lat": 23.137,
-     "lon": 113.84,
+     "lon": 113.838,
      "regions": [
       "Asia Pacific"
      ],
-     "sites": 277,
-     "stalls": 1604
+     "sites": 278,
+     "stalls": 1607
     },
     {
      "lat": 39.469,
@@ -327,13 +432,13 @@
      "stalls": 490
     },
     {
-     "lat": 45.693,
-     "lon": 9.813,
+     "lat": 45.705,
+     "lon": 9.817,
      "regions": [
       "Europe"
      ],
-     "sites": 112,
-     "stalls": 1353
+     "sites": 113,
+     "stalls": 1361
     },
     {
      "lat": 40.454,
@@ -354,22 +459,22 @@
      "stalls": 1736
     },
     {
-     "lat": 40.771,
-     "lon": -89.13,
+     "lat": 40.782,
+     "lon": -89.117,
      "regions": [
       "North America"
      ],
-     "sites": 107,
-     "stalls": 1225
+     "sites": 108,
+     "stalls": 1241
     },
     {
-     "lat": 26.276,
-     "lon": -80.579,
+     "lat": 26.28,
+     "lon": -80.574,
      "regions": [
       "North America"
      ],
-     "sites": 98,
-     "stalls": 1276
+     "sites": 100,
+     "stalls": 1300
     },
     {
      "lat": 34.09,
@@ -381,13 +486,13 @@
      "stalls": 1059
     },
     {
-     "lat": 59.968,
-     "lon": 10.009,
+     "lat": 59.98,
+     "lon": 10.019,
      "regions": [
       "Europe"
      ],
-     "sites": 93,
-     "stalls": 1762
+     "sites": 92,
+     "stalls": 1738
     },
     {
      "lat": 30.427,
@@ -399,13 +504,13 @@
      "stalls": 1256
     },
     {
-     "lat": 54.87,
-     "lon": 10.172,
+     "lat": 54.877,
+     "lon": 10.196,
      "regions": [
       "Europe"
      ],
-     "sites": 83,
-     "stalls": 1332
+     "sites": 84,
+     "stalls": 1356
     },
     {
      "lat": 35.687,
@@ -471,6 +576,15 @@
      "stalls": 690
     },
     {
+     "lat": 48.862,
+     "lon": -121.118,
+     "regions": [
+      "North America"
+     ],
+     "sites": 71,
+     "stalls": 756
+    },
+    {
      "lat": 45.27,
      "lon": 0.143,
      "regions": [
@@ -489,22 +603,22 @@
      "stalls": 258
     },
     {
-     "lat": 48.871,
-     "lon": -121.126,
+     "lat": 30.116,
+     "lon": -98.553,
      "regions": [
       "North America"
      ],
-     "sites": 69,
-     "stalls": 742
+     "sites": 68,
+     "stalls": 805
     },
     {
-     "lat": 30.111,
-     "lon": -98.546,
+     "lat": 30.045,
+     "lon": -84.003,
      "regions": [
       "North America"
      ],
-     "sites": 69,
-     "stalls": 829
+     "sites": 66,
+     "stalls": 728
     },
     {
      "lat": 49.627,
@@ -523,15 +637,6 @@
      ],
      "sites": 66,
      "stalls": 261
-    },
-    {
-     "lat": 30.078,
-     "lon": -84.024,
-     "regions": [
-      "North America"
-     ],
-     "sites": 65,
-     "stalls": 720
     },
     {
      "lat": 53.637,
@@ -624,6 +729,15 @@
      "stalls": 672
     },
     {
+     "lat": 34.212,
+     "lon": -111.403,
+     "regions": [
+      "North America"
+     ],
+     "sites": 48,
+     "stalls": 647
+    },
+    {
      "lat": 34.905,
      "lon": 135.809,
      "regions": [
@@ -640,15 +754,6 @@
      ],
      "sites": 47,
      "stalls": 427
-    },
-    {
-     "lat": 34.241,
-     "lon": -111.438,
-     "regions": [
-      "North America"
-     ],
-     "sites": 47,
-     "stalls": 639
     },
     {
      "lat": 39.972,
@@ -840,6 +945,15 @@
      "stalls": 305
     },
     {
+     "lat": 35.322,
+     "lon": -89.644,
+     "regions": [
+      "North America"
+     ],
+     "sites": 26,
+     "stalls": 287
+    },
+    {
      "lat": 60.839,
      "lon": 24.705,
      "regions": [
@@ -858,13 +972,13 @@
      "stalls": 78
     },
     {
-     "lat": 35.252,
-     "lon": -89.682,
+     "lat": 49.696,
+     "lon": 19.745,
      "regions": [
-      "North America"
+      "Europe"
      ],
      "sites": 25,
-     "stalls": 279
+     "stalls": 236
     },
     {
      "lat": -37.969,
@@ -894,15 +1008,6 @@
      "stalls": 202
     },
     {
-     "lat": 49.67,
-     "lon": 19.772,
-     "regions": [
-      "Europe"
-     ],
-     "sites": 24,
-     "stalls": 230
-    },
-    {
      "lat": 31.48,
      "lon": 35.027,
      "regions": [
@@ -930,13 +1035,13 @@
      "stalls": 212
     },
     {
-     "lat": 1.36,
-     "lon": 103.816,
+     "lat": 1.359,
+     "lon": 103.822,
      "regions": [
       "Asia Pacific"
      ],
-     "sites": 21,
-     "stalls": 74
+     "sites": 22,
+     "stalls": 78
     },
     {
      "lat": 39.684,
@@ -1056,6 +1161,15 @@
      "stalls": 35
     },
     {
+     "lat": 44.917,
+     "lon": 24.848,
+     "regions": [
+      "Europe"
+     ],
+     "sites": 14,
+     "stalls": 128
+    },
+    {
      "lat": 64.545,
      "lon": -20.491,
      "regions": [
@@ -1063,6 +1177,15 @@
      ],
      "sites": 14,
      "stalls": 127
+    },
+    {
+     "lat": 46.153,
+     "lon": 19.809,
+     "regions": [
+      "Europe"
+     ],
+     "sites": 14,
+     "stalls": 146
     },
     {
      "lat": 19.776,
@@ -1092,15 +1215,6 @@
      "stalls": 101
     },
     {
-     "lat": 46.113,
-     "lon": 19.808,
-     "regions": [
-      "Europe"
-     ],
-     "sites": 13,
-     "stalls": 134
-    },
-    {
      "lat": 45.515,
      "lon": -65.209,
      "regions": [
@@ -1110,13 +1224,13 @@
      "stalls": 90
     },
     {
-     "lat": 44.768,
-     "lon": 24.538,
+     "lat": 43.781,
+     "lon": 87.814,
      "regions": [
-      "Europe"
+      "Asia Pacific"
      ],
      "sites": 12,
-     "stalls": 108
+     "stalls": 49
     },
     {
      "lat": 44.678,
@@ -1153,15 +1267,6 @@
      ],
      "sites": 12,
      "stalls": 132
-    },
-    {
-     "lat": 43.773,
-     "lon": 87.833,
-     "regions": [
-      "Asia Pacific"
-     ],
-     "sites": 11,
-     "stalls": 46
     },
     {
      "lat": 64.574,
@@ -1362,6 +1467,15 @@
      "stalls": 40
     },
     {
+     "lat": 53.625,
+     "lon": -8.285,
+     "regions": [
+      "Europe"
+     ],
+     "sites": 6,
+     "stalls": 50
+    },
+    {
      "lat": 44.85,
      "lon": -99.986,
      "regions": [
@@ -1452,15 +1566,6 @@
      "stalls": 17
     },
     {
-     "lat": 53.36,
-     "lon": -8.399,
-     "regions": [
-      "Europe"
-     ],
-     "sites": 5,
-     "stalls": 42
-    },
-    {
      "lat": 15.717,
      "lon": 103.371,
      "regions": [
@@ -1522,15 +1627,6 @@
      ],
      "sites": 5,
      "stalls": 42
-    },
-    {
-     "lat": 55.377,
-     "lon": 24.676,
-     "regions": [
-      "Europe"
-     ],
-     "sites": 4,
-     "stalls": 30
     },
     {
      "lat": 21.522,
@@ -1621,6 +1717,15 @@
      ],
      "sites": 3,
      "stalls": 11
+    },
+    {
+     "lat": 55.522,
+     "lon": 24.899,
+     "regions": [
+      "Europe"
+     ],
+     "sites": 3,
+     "stalls": 14
     },
     {
      "lat": 48.453,
@@ -1756,15 +1861,6 @@
      ],
      "sites": 3,
      "stalls": 18
-    },
-    {
-     "lat": 35.945,
-     "lon": -8.0,
-     "regions": [
-      "Europe"
-     ],
-     "sites": 3,
-     "stalls": 48
     },
     {
      "lat": 62.627,
@@ -1954,6 +2050,15 @@
      ],
      "sites": 2,
      "stalls": 10
+    },
+    {
+     "lat": 35.369,
+     "lon": -8.002,
+     "regions": [
+      "Europe"
+     ],
+     "sites": 2,
+     "stalls": 24
     },
     {
      "lat": -43.535,
@@ -2284,54 +2389,54 @@
     "added": [
      7,
      53,
-     199,
+     200,
      201,
      183,
      319,
      283,
      319,
-     349,
-     1033,
-     1467,
+     348,
+     1032,
+     1466,
      1308,
      1095,
      1318,
-     862
+     881
     ],
     "caveat": "Sites open today, by the year each opened. A site that has since closed is not counted, so earlier years are slightly understated.",
     "cumulative": [
      7,
      60,
-     259,
-     460,
-     643,
-     962,
-     1245,
-     1564,
+     260,
+     461,
+     644,
+     963,
+     1246,
+     1565,
      1913,
-     2946,
-     4413,
-     5721,
-     6816,
-     8134,
-     8996
+     2945,
+     4411,
+     5719,
+     6814,
+     8132,
+     9013
     ],
     "cumulative_stalls": [
      82,
-     689,
-     2762,
-     4669,
-     6425,
-     9733,
-     13081,
-     16621,
-     20547,
-     29891,
-     42726,
-     55148,
-     65763,
-     77963,
-     84887
+     673,
+     2770,
+     4677,
+     6433,
+     9741,
+     13089,
+     16629,
+     20531,
+     29859,
+     42670,
+     55092,
+     65707,
+     77907,
+     84987
     ],
     "years": [
      "2012",
@@ -2352,9 +2457,9 @@
     ]
    },
    "note": "Open sites only, aggregated into ~5-degree cells for the map. Counts are exact; circle positions are the mean of the sites in a cell.",
-   "open_sites": 8996,
-   "total_stalls": 84887
+   "open_sites": 9013,
+   "total_stalls": 84987
   }
  },
- "fetched_at": "2026-10-05T00:31:31.891665+00:00"
+ "fetched_at": "2026-10-12T04:54:15.883987+00:00"
 }

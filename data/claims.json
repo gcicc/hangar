@@ -14,8 +14,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-10-11",
-  "times_seen": 130,
+  "last_seen": "2026-10-12",
+  "times_seen": 131,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -36,8 +36,8 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-10-11",
-  "times_seen": 20,
+  "last_seen": "2026-10-12",
+  "times_seen": 21,
   "outlets": [
    "Optimus"
   ]
@@ -56,8 +56,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-10-11",
-  "times_seen": 74,
+  "last_seen": "2026-10-12",
+  "times_seen": 75,
   "outlets": [
    "Optimus"
   ]
@@ -77,8 +77,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-10-11",
-  "times_seen": 9,
+  "last_seen": "2026-10-12",
+  "times_seen": 10,
   "outlets": [
    "Neuralink"
   ]
@@ -97,8 +97,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-10-11",
-  "times_seen": 9,
+  "last_seen": "2026-10-12",
+  "times_seen": 10,
   "outlets": [
    "Neuralink"
   ]
@@ -118,8 +118,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-10-11",
-  "times_seen": 9,
+  "last_seen": "2026-10-12",
+  "times_seen": 10,
   "outlets": [
    "Neuralink"
   ]
@@ -138,10 +138,32 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-10-11",
-  "times_seen": 51,
+  "last_seen": "2026-10-12",
+  "times_seen": 52,
   "outlets": [
    "Optimus"
+  ]
+ },
+ {
+  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
+  "entity": "SpaceX",
+  "horizon_phrase": "this month",
+  "horizon": "2026-09-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "starship",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-12",
+  "times_seen": 72,
+  "outlets": [
+   "Starship",
+   "Falcon"
   ]
  },
  {
@@ -245,28 +267,6 @@
   "times_seen": 110,
   "outlets": [
    "Optimus"
-  ]
- },
- {
-  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
-  "entity": "SpaceX",
-  "horizon_phrase": "this month",
-  "horizon": "2026-09-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "starship",
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-06",
-  "times_seen": 71,
-  "outlets": [
-   "Starship",
-   "Falcon"
   ]
  },
  {
