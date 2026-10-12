@@ -1,6 +1,6 @@
 {
  "data": {
-  "corpus_size": 1673,
+  "corpus_size": 1666,
   "labels": {
    "market": "Markets & Filings",
    "spacex": "SpaceX",
@@ -16,9 +16,19 @@
   "sections": {
    "market": [
     {
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOLVcxNE5IenpCT3VjeEVkQlZyd1FJT2NJeGd0Tlg3dGw5N3YtRENGMFdET1Q0UzJhN0pNMFFjcXc0ZnpJZi1IQmI4TVBKaWp2U3FQOEhPREhRRS1nM2o2QXd4THNYOUdvVlBKRlc0TmZNQ3NzUzJ2VElsWi05bGxIWTBNZkRoNF84bEJUYW1aYzlzRmpydlNZ?oc=5",
+     "published": "2026-10-12T22:11:38+00:00",
+     "score": 4.918,
+     "source": "SPCX",
+     "title": "Cathie Wood Calls SpaceX a \"Deep-Value Opportunity\" at Its IPO Price. Here's the Math She's Using. - The Motley Fool",
+     "topics": [
+      "money"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvMF8xVE55Q0IxYkctRU9XYXdSMElmbWVVZ1RSWEpkeFlzMGdYWmp5M1VEOHhGTzlVTXBuQlN2TnN0eFREYzhRTzVmZnRDZ2VNR3VvZG1VSlBhdnNGMmo1OHhKSlFDV1laR1BnWHBlQ1RfTlNHU2c?oc=5",
      "published": "2026-10-12T01:01:00+00:00",
-     "score": 6.192,
+     "score": 3.954,
      "source": "SPCX",
      "title": "Bank Earnings Hinge on Anthropic IPO as SpaceX Windfall Fades - BeInCrypto",
      "topics": [
@@ -26,78 +36,50 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNV1M5SDBKa0I5M2dSdWxDZ3JYUTZ3bDlnZUExR2RTSDVIMTFRa3FyY3JQbnY3akxMb0xhS21TT1R3LU5iX29SeWR6TE5veTB3RkVoNGwtM2lwVlVGYU1jSkphaWZPN08xWFRCbmF5V2dhU0s3aW16a0tMcDlVSEFOYVJMNzBxaFdicU5ESw?oc=5",
-     "published": "2026-10-12T06:03:38+00:00",
-     "score": 4.556,
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTXNmbzJDV01tTnRmd096UTdBWGtINzdIWHhpOFRqSTAtamhGTEFJTXJtRUMtN21UZG1rV2hPQnJWcFhPQTB3aHFRVjNDbEs2cUZ1VlVxa0ZDSUw1ektjbWtOLTJXTTQwRGY0Q29RamFvUExMWG1WanUtTEpIV01IbWFxX0t3UVlpalU2R2dBNjJKMFNiaWo4Um41TElaa28?oc=5",
+     "published": "2026-10-12T12:45:54+00:00",
+     "score": 3.609,
+     "source": "SPCX",
+     "title": "Verizon (VZ) Keeps Raising Guidance. Is SpaceX Worth the 8x Discount? - Yahoo Finance",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNaDJHX0k5MXc2RDZNRlgwaUp5Z2ZsSEx5UmdxUjlLcmYyb0c1M3ZPUjFyb3Q5bUtRaVdHbjE2cWI4UnVydWJxMGI5OGpWaUdWYlRUOGt0XzZoNnU2VXprVTVzblE5UEtqMEJsMDdXdnN5VkJ5M3VLdnFLQ3ZGdExweVVncTVLYXU4VUZQUGNwYnBhaE5tU1JsVzZaY1cxUDlLNW9Hd2FmNnIzQzgtZ1VOd0F2amQ2OVVzaWdWU1doY0pkM0NGQVJ4MU5vVXBJejFFdTVIVV9JQmtZaXlM?oc=5",
+     "published": "2026-10-12T17:51:00+00:00",
+     "score": 3.452,
+     "source": "SPCX",
+     "title": "T-Mobile Rebounds 3% After Record Drop on Starlink Spectrum Move; SpaceX Ticks Up, Verizon Edges Higher - 24/7 Wall St.",
+     "topics": [
+      "starlink"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPcDJJQXc1X0JVY3Z1cnNEblpvWkFjZUxwR2lUMDMwcE4tamFCQ3ZhZ09qWkc4Wm5fX2ZkYmozcDczYnJTQWdOREc5bG5Cb09kVnZrZEdEWjBsSGlITHoyUHZqWlVfMmZmd20zMGlVYXN3NGxfcVUwNzNoYWd3NURHS1hUVlNzaHRGUWlrWGVDc1F4RHg4MERzc25hblA4ZGtRTkFBQmJ4ck41TUUyeEtKalBjaTZ1UQ?oc=5",
+     "published": "2026-10-12T15:27:47+00:00",
+     "score": 3.187,
+     "source": "SPCX",
+     "title": "SpaceX Stock Price Target Raised To $230 as Pivotal Research Cites Starlink Growth - CoinGape",
+     "topics": [
+      "starlink",
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbGJ0MHdxakE2Z1g0ekJ2ZnBac1hLbFFyRmsxX0JXV1Z2bHBRXzlONXZreTZkMmo2Z0RYdFd1cmFNeXg4VlEyb21Oc2hvcTM2R1FjWHJ5Q3gwTnd4N3I1Wjh3NFIxNnJIYnpEVl9JaWZNYnQ0el9jV0xUR1B1NjdDY0RxNTNHMGNYQ0FRNFAxRHV5elg1SzdHQU5zYm81cUNWMFRwN2FNcVo?oc=5",
+     "published": "2026-10-12T21:44:45+00:00",
+     "score": 0.971,
      "source": "TSLA",
-     "title": "Tesla Q3 2026 Earnings Call: 5 Details That Matter - BASENOR - Tesla Accessories",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVmJpT01EdFVoYzdiWENnVlY0aDd0b1NIRExGX3JOMm9YejdkZmVHeC16QWIzVDV6ZkY0dU54NjVMVmVMUFpNcEhPLTREMF9LZkFvNFdZQTNfdEstQ2lpdzhSN1BNR0dxS3JKQ05nZl9kaEhwU2tYZ3ZMaEgzbjR1aHhSVWZfQUpxM092YXBWWEZSTlRvdlcyamhTQXYxMGYxNWJCMkpMQUhuZXkzQ3dPVnlqWmU4LTBwV0l0TkhYVzRJcHJsVHhBOVpmcWplbk0?oc=5",
-     "published": "2026-10-12T10:08:30+00:00",
-     "score": 4.363,
-     "source": "SPCX",
-     "title": "Stifel reiterates SpaceX stock rating on spectrum deal, satellite approval By Investing.com - Investing.com India",
-     "topics": [
-      "regulatory",
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaWdCY3hjX0dRY090VmJjcU9hbG9HbzJ1QmdvZVRSX1Vnc2Y3ZFpMeEpPd0I5QkRJbkJ6WGNpLWl4X0VCTzR1cmRMQ0pZZWFsQ0ZSaHlXTnA1d2lGLW8wOEhWTEdCT0ItOGtWTjJGS1pyc0hubURKVG1ZcTN4T3BDNlJSbk1lNDZqMlNPZmo0NTY4X0NKTndzemwyWWF0eWgtTTI3MzRtNU5VTlBISkhtQWU2cFNqM2otS1RBdkRRV1NGV1JxbUJqRy1Md2sxQUU?oc=5",
-     "published": "2026-10-12T14:36:28+00:00",
-     "score": 0.997,
-     "source": "SPCX",
-     "title": "Pivotal Research raises SpaceX stock price target on mobile network plans - Investing.com Canada",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUzNWdGlXd01IRXNfS0JFbjZULWpEb0pibGZqakZPRklaMDJoX1VvbE9WOXN0QlBlSXlqMWw5alhQdnluZzVPVGd0NzJ4dTZleHBZTEdTbkw1cEpMVW5SWkJzVnR0ejFZaTdSZ3oxOWpEdHBhWGZ1NHhpU3lwekZ3bVZJR2lVaDRHSTlJRm1DX2V5TEFsbTZtLUNXSE9hT1d0cktmaFhHbTgwUnotNEhZNWtSTG05Q2FhUkNfcA?oc=5",
-     "published": "2026-10-12T14:24:37+00:00",
-     "score": 0.991,
-     "source": "SPCX",
-     "title": "SpaceX Shares Up 22% in 2 Months, Crushing S&P 500\u2019s 1% Gain - Benzinga",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORDFUOFoxd29QVUZPLTQycFZ3Yk9uaUhPa3dPa2VpOEpVRzZ2NS01anBBUXRUMlNIWGtpREl0Zm5GVDJoQm1BWVhMTUJTdTREWFBtYTVzcFRSZzF5V2lSVmVBckNGUnNWOVhwSWlaMTJkX0Jjdk90RmZzQmlDaW5pSDV0VUdnRUYwdklBbHoxaHpCV1RkU3pvM1laOE1KNnRicGN6SkhrNHVuWm1TcktadDBIcXY4WHlFU2M2dA?oc=5",
-     "published": "2026-10-12T14:25:00+00:00",
-     "score": 0.991,
-     "source": "SPCX",
-     "title": "Cathie Wood Sold SpaceX Stock the Same Day It Dropped Its Spectrum Bombshell - 24/7 Wall St.",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOd0VMSjJpM1hCSU5WeU1sRDVJazg5eGU3OUVoazJGUEhRRmw3UmM0Q2NvRG9hMGR0REJCdnpSWU5vYm9xMGlxN1FXSHlQenpHU1dmUFZod29qMVRja2QwUnhkSG5lblVpczlINkdpYzhOY1pqMGZiMmhjMFI5enNDT09jLU1SMVk?oc=5",
-     "published": "2026-10-12T14:04:00+00:00",
-     "score": 0.982,
-     "source": "SPCX",
-     "title": "How SpaceX\u2019s Spectrum Purchase Brings It Closer to a Tesla Merger - Barron's",
-     "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOR0x2WXN4TmtKOGJybGs4ZkVxV2ZQSk1qM283aVV0dTRIZHBhSFE0RVRMRW5kSjNfd3VEelczZlZjN0RNa0RvSUlRaGRhMENKS1IwWDlMOXBMRDZmMjUyUGVtRHZOZGltanJWenRkMU9RV2x0SmFrUTNKczIwWFNZbjY5c3JYdTM4RjA0dmd6Nmh1UUFsV09VZE1rWWRUZkl5Q2VwX1FwN3hlRTRyMk9ITGhWOHZ5c1hYUUJPRnBGMzcyZ1U5eHc?oc=5",
-     "published": "2026-10-12T13:55:19+00:00",
-     "score": 0.978,
-     "source": "TSLA",
-     "title": "Tesla stock at EUR 340.38 with volume 90.3 percent below average - ad-hoc-news.de",
+     "title": "Tesla (NASDAQ:TSLA) Shares Down 1.2% - Time to Sell? - MarketBeat",
      "topics": [
       "money"
      ]
     },
     {
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQWDcwdDk3Ri1aSXljQnc2OExqUTJkd0FNQzBFM09vNWM1VTRpM1N5V1VPVzhOdFJHMlJzZ1ZQc1hEUWNQbFpWOXRFa2hfRkJ2M21XZE5XaU5uUDJ5N2QzdHd2bnlvOXI0Rk10TkRiVlRNSGl0SUlJcnctQ1FOZ0cwbE43bml1Q2pXYlhBcDJacjc?oc=5",
-     "published": "2026-10-12T13:29:00+00:00",
-     "score": 0.966,
+     "published": "2026-10-12T20:23:00+00:00",
+     "score": 0.933,
      "source": "SPCX",
      "title": "Why SpaceX\u2019s Spectrum Purchase Is Good for AST SpaceMobile Stock - Barron's",
      "topics": [
@@ -105,39 +87,94 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FNl9HRjNYZGtIR2lZMlZ1ZHd3TkU3MzRTMHcydnJPZHkyS1BadlFRZmZoX2w1V1p4RV9BUmRDVkxOT1BXdTRlMk5yOUtLZWt6Q0FRU0NVYnNqMm9UU2M5Z1JkRk1Gd2VmdmRqa09mSUZ4QTk2bER4R0pWWGtqZ2M?oc=5",
-     "published": "2026-10-12T13:18:00+00:00",
-     "score": 0.96,
-     "source": "SPCX",
-     "title": "ASTS Stock Slumps As SpaceX Deal Reshapes Satellite Phone Trade - StocksToTrade",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNcW9oODMzMENSVXBmc3BGWmw5SV9tcFJTS2ZvNkp0OVdIRFRJaVF3UU1jY1VpWUxCS0RON3lJVllzZjhJak1GbDBBSjJlZ0dlcUM2ZlhETnRWWW0xRS1kNHVSaGg0TWRJUXlMWDN1bFVoeldBVnpmQW9vYTNRbzFKODhlcnpZZHdHZmhncFRZZmU5TU0?oc=5",
-     "published": "2026-10-12T13:02:04+00:00",
-     "score": 0.953,
-     "source": "SPCX",
-     "title": "T-Mobile stock worst day since 2013 after SpaceX spectrum deal - Yahoo Finance",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdGc5NWZhMV9zZmxxd2NTZFpTaUNGdzNMa01vblZEc1VOeFZWOG9Pb2tsWktzaVBHTlBERUxEWU9INmtfTE9nbUQ5V2JjMlZFQkVMTTBSejZlTENiOFNqLUR5VzlTYlNGNWo2d21OZ2daZGFFcXFELUt0Q1o5OWx3cmJmdEdfVlhpT2pab0RyVUNWRllLMDYxOThpT2lkTDNXbTB2RnpKTjUzcTVVa3ow?oc=5",
-     "published": "2026-10-12T12:55:29+00:00",
-     "score": 0.95,
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZHF0dHlYSWc3QWVaZTFRYTlSNXNqQk5hTk9NQ1hnaGVFTklmZnNvYXpNVkRSa09kb05zLW5CeFNaQUh0bU55a0NsRWZpSUZELXNvbjBTLVRabXNGY0xKeWlqdHFDYWFkcmpNc1FVNHhsVmx5bnlnMlZyUmVGVzVxdDQtTWVjaWw2N2ludks2ZldMTU9SMnh5MXVPZjRyT0tKQ2tfeQ?oc=5",
+     "published": "2026-10-09T14:34:45+00:00",
+     "score": 0.9,
      "source": "TSLA",
-     "title": "Tesla Chart Watchers Eye $400-Mark as Key Level For Breakout - Bloomberg.com",
-     "topics": []
+     "title": "Earnings Preview: What to Expect From Tesla's Report - Yahoo Finance",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOS1djNFduTFZtS0ZzMndZaEtiVUlNOGozN3hqTThYNFFqYy1BOUQxcExzbS1tdmU5aW9rM0xMOWExX2VpWW0xbnliemNCZk50UDdEZTEzbkR3VXloaktnOHYxMW5yeHVfVHlMd3QzbGFUNjhxVUhDMWp5YTR1Wk9PdnRSOUt5VGtqeFVVaFRzakV1UFA3MnlKWk1oUjVzNGQtYzAtdU1Hbm5VUF9jRi1McGpkWWFJYmJ3b1Nv?oc=5",
+     "published": "2026-10-09T16:58:36+00:00",
+     "score": 0.9,
+     "source": "TSLA",
+     "title": "Midday Need to Know: Delta slides on earnings miss, Tesla gains on China sales & more (SPY:NYSEARCA) - Seeking Alpha",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORWwtU19PVVJ0RUdCaGlRMVprUTZQaWRHMlE3SGQ5WjZCVmRCbmdWZDE1My03Yzdyc2c3T3h1d0JPVmhqNkVLNDExUXZnaDlTV3lvUDBSWmlVLUY3Z21DQ2tadnFWRDdBSjVPcF83ZkpZUWY3TXJrcmhWQW1oTUZyeFBXMmFudENjWDNZejBMclpLU0FMZlE3Z0JrYUNULXpsWjU5dF9nY18?oc=5",
+     "published": "2026-10-02T07:00:00+00:00",
+     "score": 0.9,
+     "source": "TSLA",
+     "title": "Tesla Stock Jumps After Deliveries Top Estimates - Investopedia",
+     "topics": [
+      "production",
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTWRjM19YZm9PZHpaZXhXeXY1dFVkSWtWeS1DeWVzNVVGMlFpT3lRblg0TlJMSTBISXQwSGdxQVA0WjJzeE0wSmFHR25UOGFYSk5YUmd5YmpRZUZzNTVsVGU2WEhSX2syZmJnY1RQQjhMN0psenFKZ3R1d0F3U29fcmZOZW9qcldFWGxqY2lIc205OWdzRlJNNHJRYXNvczF1RV83bFlB?oc=5",
+     "published": "2026-10-02T07:00:00+00:00",
+     "score": 0.9,
+     "source": "TSLA",
+     "title": "Tesla: Shares Rise on Third-Quarter Deliveries Ahead of Consensus Estimates - Morningstar",
+     "topics": [
+      "production",
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbEtrMVVyS3M5Y1dIMjNzajVwajA4VEhDQ1hoYm0ybEV2TTVFSDcyUy1qRkxFT0I4c3dmV1c5d2Z2UDdERUxHOGlCaFZ5QTFzZUdIUnVNRzZZYm9CelNBSkx2Yy1kVHN6VVNSR3I2SnZwc2oxTUlfSm1mNE4yckxRa0JHbVR4blhfQkh2dWdpTTN4ZzFpX195dG1UdXg4akd2Qkg2WU5DU09PZw?oc=5",
+     "published": "2026-10-09T03:27:36+00:00",
+     "score": 0.9,
+     "source": "TSLA",
+     "title": "Securitize Stock Jumps After Hours As It Launches Tokenized Apple, Nvidia, Tesla Shares On Solana - Benzinga",
+     "topics": [
+      "money"
+     ]
     }
    ],
    "spacex": [
     {
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQUtfM2hKUlV3TmdfVkJ6OGVMeGlBekhnNUtUd0VrVG92a2pvM29oUWE1dW1kWnJOT2JfeERBODFoQUtkMjNSTVhYeGNsWndLSG9IdWRVcTQyYkYwOEJFMy1taXFzbnpIdUh0dFlRTzh1eXJOcUZLU29pS2xmWTgxZXgyMktFY05vR21SWGdXTndGdHdEc3hDWXZzMHBEd2Zaakp0a1hZdG9vbTk0dlhhZTlPaDF3QkNVclRSUw?oc=5",
+     "published": "2026-10-12T16:00:00+00:00",
+     "score": 10.551,
+     "source": "Falcon",
+     "title": "SpaceX rocket launch to deploy satellites. Track liftoff, scrubs - Ventura County Star",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
+     "link": "https://spaceflightnow.com/2026/10/12/spacex-falcon-9-rocket-to-launch-27-starlink-satellites-into-orbit-from-california/",
+     "published": "2026-10-12T22:21:40+00:00",
+     "score": 9.883,
+     "source": "Spaceflight Now",
+     "title": "SpaceX Falcon 9 rocket to launch 27 Starlink satellites into orbit from California",
+     "topics": [
+      "starlink",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://www.space.com/space-exploration/international-space-station/spacex-crs-35-cargo-launch-international-space-station",
+     "published": "2026-10-12T21:00:00+00:00",
+     "score": 5.703,
+     "source": "Space.com",
+     "title": "SpaceX launching 6,300 pounds of cargo to the ISS on Oct. 13: Watch it live",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWXVSeTVHMFlSMWVzb1FNcFQ1azh2NVVTT290WmFnSEhwVF9jRTB2TFZnNVJLOWkwRjV1SEdTOGlYQkxEX004UnZkbUNyT1NjekJCQW5jR1hmS3ZwdFhMd1RDN0ZPZS1kb3RlTnZnc3U0dHM0U0tISUFJOGNWNHkwTW5ta3Q4bkFyRndRYTNHQWxUc1pwNDNib1NKX3BPUmk1U0VlOVh0eHZLMXEzNGVGc0ZjcjdUODF5Y0pSR0Znek10d3RBUEI0WVpPVFBLOVotaktYSVQ5bnfSAd4BQVVfeXFMTlpUVUZfdlB6NEZ0b0VReTdtSzI2Ukx5d3p6V0xDeGlocTVMc1VqRGFiSFQ2NE5ZZVpTZ3ZxN3V4OUFSejVWa0R1blVDTnF2RjNpMTY1YVd4Yks4NGFud2E1dTY5MnVOTVUwdkRNYUlRZFlBRzlOcmFySkJZcHFZeThSLWNjR2JnSWd1LUxxUU5KWTY2T1dyem81QThiOFAtcnlKbkhrZ0w2dEpWQjY5Y2RhYldKNmRfcFVfek5KQ3lqNlJyanFhbzJBZ3lKQjFMa0dlNHNNeF8xaFEzXzRR?oc=5",
      "published": "2026-10-12T08:31:14+00:00",
-     "score": 7.45,
+     "score": 5.435,
      "source": "Starlink",
      "title": "Explained: Why Starlink's India launch plans have raised security concerns - Business Standard",
      "topics": [
@@ -146,20 +183,70 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUWVJYVVJYlN6S3o1Mm90d3pjX0xiN1gwTnhVRUVVdk14WGlrcWVmMHZFU2tiajB0OExHZmk0LU03Sl9QVjk4ME9Kc0dHRWZLRGRqUUwyb3hXUUxiaGtVTjVCQXB3SFp5UUk1bUhIaHBLdXdWV0h6dm9SYlFzbkJiT3RlZ1I4RlJGZzlIWENhbnl0U1pVcEh0cFVSbnJXU1BWZGZpaDREYkNudw?oc=5",
-     "published": "2026-10-12T07:36:14+00:00",
-     "score": 6.418,
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQY1V5cHpFNmNKMm5kOHp5cG9HXzlFaS1YWUstWDVsZGVSYVdIMGNVOGE5cko2TFFSc29TYWtqbkM5OVRGOHZLQU9jamhvM1ZNdEtoMzBIbE91cnpqMGFzbmhXMjgzWHdXUlR6bWhRNGVtWVE2ajhoZk9VREdDaUYxb083WjNyU0xPdTZod0hwRXdRbk1hRFRIQVZ2a1htU29yYVFGU2c3QzhRZ1QwU0FaVmhMWQ?oc=5",
+     "published": "2026-10-12T19:21:57+00:00",
+     "score": 5.431,
+     "source": "Falcon",
+     "title": "Predawn sonic booms possible as SpaceX ready for launch early Tuesday - Orlando Sentinel",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZDRFV1o2ODVxSGRDZnlZcFY2MmNxNXpqYWJkU3F6MGNMUWhyZUZ5MmdFUm5sbUZvUTMxTC0ybWxlaldsWVU3MVlQLUY4UGhqWW9oZjE4TkZPYkVFVE55NnhPZk9lV0N2NzhBLVZuQUtlQXloQ1hYREFKZEFrVnBIci1fQkEwTlEwOGRLVXRaNnE2Sm5fSVhENElXa1VhbUUtUXF2UlFuVERDdDJ6ekxBQnhPUnpqUkxtTXlFbjhn?oc=5",
+     "published": "2026-10-12T18:28:41+00:00",
+     "score": 5.283,
+     "source": "Falcon",
+     "title": "SpaceX set to launch Dragon resupply mission to ISS from Florida - WKMG",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQb3A2TEJjN2pvUHF0el9QNjV2aV9TZHdrd1pwOTBuNlV3YTdTUzN0aThUYmVESUp3cHB3TDFGZWhpdTRWSFhqaHVEeTFwV09RSVlOYVJZM0RYMzBHRDhOYW5jZVZCNU52SncxSVlYbXY2SWJNSWU3THAtejc2T0pBR0VfaUZiTEJhZV9RdVdZOUlrcFJ0YjNvWkZxMFJleXN3OFlfMzRjMVM0MmNzT2pxUXBDaHE2OXFzNDJIRXBPNFBHMUdvcEVLNmxmUnU0MC1SOHZCdlVvUEM1Q1M0cm11Mk5IYmdlZ2s1NHVCc3JR?oc=5",
+     "published": "2026-10-12T17:45:00+00:00",
+     "score": 5.162,
      "source": "Starlink",
-     "title": "Elon Musk Criticises Mukesh Ambani Over Starlink Launch Delay - India News Network",
+     "title": "Starlink mission set to launch today from Vandenberg SFB - Santa Ynez Valley News",
      "topics": [
       "starlink",
       "launch"
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mX3lxRmp0Z3FxMHQyOXBWOWRtY3hKaFI3WEtIUUtaQUZpeVJKRmlSUU1LVmtXUXlLM1hRdDd1YmJybVJBeVZrVjZVQUVXRlFzLTFsNFlTRlJPbGVlcjdzc1h2Uk1mdVk?oc=5",
+     "published": "2026-10-12T16:56:09+00:00",
+     "score": 5.026,
+     "source": "SpaceX",
+     "title": "SpaceX - Launches - SpaceX",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPTzFjTjFCRmk0ZndaMHR3QkJCMTFsZkFMZHhaVlZ5eGs0ZVdyVVNkZXJSWlNrMU91UWJIdWlUbWFrNXg2ZTZFN3BmQV9YN0MzQUxmVHJjUTBJUjhfUGNrSXV5Uzg3UDdJYllZS255MmItdUdZR2dyLTNQQ3JWTVFBcV8tVUp6NFRnY0p5ZlhtU2tzZW1xUVVtc3dpdmhuY0xpLS1IZ05BWnZEemR1ZVJjTNIBxAFBVV95cUxPWHpFbU52Z2ZYd3IyN1BZUGFBczRWTlcwaHlDWGYzM2M4b1FXanZ1NmE5TVVxRWlXNW42ZDNVaFRGSERVMV9uV283Y2h2TTFCdk1yRFFIU1UyTl9MU3l4NDlIR0g4SmNsX21lZC1td2VDOGhmQmJkd0xyOExsaWhDTU1vdWp0ckk3SF81amcwMkFFSFplVVJYLW5pS3MzUlVuYzRCcFcyN0d4TmtYMEkzYm1mNXVmS1FJNHhla0xlT3l3NHhT?oc=5",
+     "published": "2026-10-12T15:53:30+00:00",
+     "score": 4.852,
+     "source": "Falcon",
+     "title": "SpaceX set for Dragon cargo launch from Florida\u2019s Space Coast - WFTV",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOWWhFbTJJR0tDVFU1RmsxdTROQWVuNW8wVEZIY1JjTmJyMTN3XzNzZzlvOEFmcTVKeHI3b1V5T2JKWlNQcWdzQXNjcGNtaVlYZklfU3RZRjhVbGplMVJOaFF4clN1eXFPMTFsd0IzZXk3RHFLdHpuWlNReEpqQ2RDUUt1YnZnWTJFOFBQWFVyd2poUE9DWEZmVG5kdVhHNFVFeDBKdzh1VGRKVWcwVm1sMHdwbUZTbWNpT3Z0MWNiSnNRaWVlNFU4ZWFHVkhMYUtveXFPeXBQb0F6RVFw?oc=5",
+     "published": "2026-10-12T15:01:00+00:00",
+     "score": 4.706,
+     "source": "Falcon",
+     "title": "Early morning SpaceX launch in Florida. Chance to see space jellyfish? - Florida Today",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQk43M2dFblRDa1NrSnJuQTlkMWxWRzhfVk9UcXQzeTA0YW81aHItV0pvLTE2Vk5WY0MyczNJeGZkaE56R3I1ZU5qdVNnUUVHSTlFSDhFUGFUUmVPUlNpQXpVeUNXWGo2WWtuSGhMSzdTYlRGcmY2VVVPOUVnZFctREhjZ0NhN284Qk9TRGlR0gGOAUFVX3lxTE5HZkZObEFjVkJIWW04dHFhd2VseW50M2VQSHZYejhhdjBXM3VFbmN2ZWNjMHVFWGZWT2pfcEVYTHpoNnZzTjVZSFZjVFV5RUpPekd2eVJlN1FTUFdYcEphSEhtbkYzRDZFN0dCa2tfV2VQX19hcl92SzZDbHU4QkgxT1ZKa0ZKLTJoQkxabFE?oc=5",
      "published": "2026-10-12T14:41:27+00:00",
-     "score": 5.995,
+     "score": 4.652,
      "source": "Starlink",
      "title": "Starlink India launch: Why Elon Musk is still waiting despite securing key approvals - DW.com",
      "topics": [
@@ -168,19 +255,40 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUWVJYVVJYlN6S3o1Mm90d3pjX0xiN1gwTnhVRUVVdk14WGlrcWVmMHZFU2tiajB0OExHZmk0LU03Sl9QVjk4ME9Kc0dHRWZLRGRqUUwyb3hXUUxiaGtVTjVCQXB3SFp5UUk1bUhIaHBLdXdWV0h6dm9SYlFzbkJiT3RlZ1I4RlJGZzlIWENhbnl0U1pVcEh0cFVSbnJXU1BWZGZpaDREYkNudw?oc=5",
+     "published": "2026-10-12T07:36:14+00:00",
+     "score": 4.627,
+     "source": "Starlink",
+     "title": "Elon Musk Criticises Mukesh Ambani Over Starlink Launch Delay - India News Network",
+     "topics": [
+      "starlink",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPS0g1c3ctYXl2RUJkQTJDbFE1YTNrZXpEYWstLXcxdUx5RXBjUDFESXhhdkN6VHNROFVWbDBrOFBzeEl2OWxUNkJBdElTZzJveDhFVE9Wb3VFQml1Qm5XdVhUY3Uxb0cyVEVvVmVJSDNvcnNPUzltOGQ1RUJ2ZHFjZWtaMzMwS2twckJrQmRNdnF2b0Ywemwzb20tVVkzNExFb0xrUGRZc1pkMTU3MTFDd2J6VmhxSmkxNVRvUUM2RGVsd2RlcWVlajNjZkpOU2Z6TTRpVVRlMVlQSDg?oc=5",
+     "published": "2026-10-12T13:59:00+00:00",
+     "score": 4.534,
+     "source": "Falcon",
+     "title": "When is next rocket launch in Florida? Time, dates for SpaceX, Blue Origin - Florida Today",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTElLRFFmMmZBOWVwZElyMnZVT3JRUHJuSDkxME1yZUpob3NDVnRaZDY5NFFuMzdNS2laUjg5NU54NVJrRXVsN3Y1Y21MNUNIR29SNVNURGlJOGlfd1hmcjMyYjZLdkxUV3hRa1hWRmxkNlUwejZ3dnhmQVFtRmJGVms2MnR3LWRMZHRxUWhYd01ONS04QWpOMHJyeGNfQXRtclgxMldEOTNkRjdFeTQ2MnZIX0l3TVBmRnVuZ2hn?oc=5",
      "published": "2026-10-12T13:53:53+00:00",
-     "score": 5.863,
+     "score": 4.52,
      "source": "Falcon",
-     "title": "SpaceX and NASA Slate To Launch Supplies To ISS Aboard Falcon 9 Tomorrow Morning - TalkOfTitusville.com",
+     "title": "SpaceX and NASA Slated To Launch Supplies To ISS Aboard Falcon 9 Tomorrow Morning - TalkOfTitusville.com",
      "topics": [
       "launch"
      ]
     },
     {
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxON0hzdWZER0F4LS1uT1pzSUdoZVY1azJwOXhNMV9QMXA3QU9iVHVXOFhyOF9QV3RJVzU0U0tOVHJXeTRqakRjOTlIYm81ZTJ1Vkl2UXI1NEttZThwX0RuX2I4OWh4ZTUwbWlhekg2WFRoWFBVY0xZdzJiWThxdXNUT3dodGFUSTJoS1dUTGs1LTFKcWRsa0pCOUx6QVZuQkFV?oc=5",
-     "published": "2026-10-12T13:05:47+00:00",
-     "score": 5.729,
+     "published": "2026-10-12T13:20:00+00:00",
+     "score": 4.425,
      "source": "Starship",
      "title": "Why the Starship Launch Is a Big Deal for SpaceX's Stock - The Motley Fool",
      "topics": [
@@ -192,7 +300,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObTVSYlA0Rlg0ZldkZ3c5NHY3Y1VYTTliaHpnLWlNOF9RUHZJV2FBRjNkTHM5dkJkSXM2alNKSmlsS3RaSEdqWlJaU01yMGlmQTRNdjViejhDQ2dPcDJWRGJxNEFCQ2l2MWJaQ2ExeDhaaHZQOElsOXVBZFpVYWh2bXFaRFdIc1dxMG5uaTBlTHExY0hwbHJBTGd3UmhHU3h1RU9hSUx4c0FGX05XUFhydTJBWEFsZGRoMXd0VEhR?oc=5",
      "published": "2026-10-12T12:03:12+00:00",
-     "score": 5.555,
+     "score": 4.212,
      "source": "Starlink",
      "title": "Starlink\u2019s India Launch Faces Regulatory Delays as Musk Challenges Local Telecom Giants - SpaceWatch.GLOBAL",
      "topics": [
@@ -201,19 +309,9 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA0emkwRlprbzFKZFNsY1RjMEF0TlNSd0oyWGJpMGZncHhjWE1hOHJRdi1MSW80V1NKYTNmTjc4VmNUTzJJN3gwZUN3QkV2VnRicVdNQ3BsYkZYOVJKUGdEaVk3bkw?oc=5",
-     "published": "2026-10-12T09:02:00+00:00",
-     "score": 5.052,
-     "source": "Falcon",
-     "title": "SpaceX rocket launch from Florida set for Tuesday, sonic booms expected - Miami Herald",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTWJSbmREQ25wNVV4MWkyM1JzRktEYnFLc25IME55dG5NZ1NTMEh1cHFPZUNNeWlTRFlPMUJzWENtd1FYbXdDZ3dIaGQ0OTF5U0NxQUtlaC16OGtoN2M3cEZQUmxGUzlJMGxZYXR0WmtiYjlnRGxLcmZIeWduM2p4ekgxc0pJZXB3cUV2cl8tVnZRRjFxNXVOSGNDdW1TbGoyYk50Mw?oc=5",
-     "published": "2026-10-12T08:56:55+00:00",
-     "score": 5.038,
+     "published": "2026-10-12T09:47:43+00:00",
+     "score": 3.836,
      "source": "Starlink",
      "title": "Vodacom Lesotho Launches Starlink-Powered Satellite Internet for Businesses - TechAfrica News",
      "topics": [
@@ -222,117 +320,73 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Pd3RQM3IwRXZRMHN6VXZlUlIwWkd5c0VwU1RDSmdfbS1obV9FczRmTW5tMUhWb1pKbEZvMEMxaU91Ti1VT1RHN3p1NllRdjVjVkE2bjBGYnRKRTRPS2Q2R2Z3SHJfeWdDbGNsdW9hNkYyelgxSjhn?oc=5",
-     "published": "2026-10-12T13:05:41+00:00",
-     "score": 4.774,
-     "source": "Starlink",
-     "title": "Musk vows affordable Starlink pricing in India ahead of Jio IPO - Quartz India",
-     "topics": [
-      "starlink",
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mX3lxRmp0Z3FxMHQyOXBWOWRtY3hKaFI3WEtIUUtaQUZpeVJKRmlSUU1LVmtXUXlLM1hRdDd1YmJybVJBeVZrVjZVQUVXRlFzLTFsNFlTRlJPbGVlcjdzc1h2Uk1mdVk?oc=5",
-     "published": "2026-10-12T05:02:43+00:00",
-     "score": 4.387,
-     "source": "SpaceX",
-     "title": "SpaceX - Launches - SpaceX",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUGxMTVU2dXRNdVdkYVRzNy1FdTktVzFsYVNjcUctSWxoT3ZkSXhQUUQ0T181VjZzNEdQbFM0N2poOW9jMGItNGNOUUJ6RDI3Y3YwVEphVjFTQ0UzQ2dpb0JXWW5NTGJ5bVFfUWtwTV90S1VPMFZ5MHNvTkRscHVwUGk3ekpBbldkTTc1a3pqZWp2VmZiUEJVSHdITV9rbmlQc2NXcUt5VFdkMUpjb0w3YVNBN0J1bWI0Ump3?oc=5",
-     "published": "2026-10-12T03:48:57+00:00",
-     "score": 4.182,
-     "source": "Starlink",
-     "title": "Veon's Banglalink launches Starlink satellite-to-mobile service in Bangladesh - Telecompaper",
-     "topics": [
-      "starlink",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQXhVWk9OLVJTU2p0VW9VTk1rV2U1OTRUc3hFZUJ2cUNkc1UyaGxZaU5HYjY2MWktb0VwU25TYmgtbzgwMVZRTmdfMWdxdjVnV2dZVGl0SUN4c0o4aEkzSTdtRXRSdHo1d2I3ejJlbzJaZ01fQXpLd21Kb0QtQVp1TVRKa0hwb3FhbWVDY1RLWlVXcnRVYjF1WHJab3V0YWZBel9OMzRzZDFrQ1h3TnR1MEFuZEtObmMzVk9ycHRVenZ0aHRNTXpCNGhxUWs4THE0ay0tR2ZxdE93dHQ5Q2p2YlcxTndlVUdORC1BOA?oc=5",
-     "published": "2026-10-12T03:35:30+00:00",
-     "score": 4.145,
-     "source": "Starlink",
-     "title": "Banglalink launches Starlink Mobile D2D service in Bangladesh - Developing Telecoms",
-     "topics": [
-      "starlink",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZGVnRnQ1LVFUTDdoekxzVEtLNjJDV2xicG0xdThnZUY5WDhmOGRiZC1xb1lKLUtTX2xxeUxRRGlBMzV1MHlad3hnMkRGcW1KeGEwdFJWdlRicmpxcXBBb29kNXR6YzFhR0lGQTlWVnVkbG4wQU1ibGQxRWVqY0xYOGVTaHlkT19lMTlNZnp1YUs?oc=5",
-     "published": "2026-10-11T18:29:52+00:00",
-     "score": 2.629,
-     "source": "Starlink",
-     "title": "Starlink Launch Targeted for Monday Afternoon at Vandenberg - edhat",
-     "topics": [
-      "starlink",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/",
-     "published": "2026-10-02T13:54:34+00:00",
-     "score": 2.1,
-     "source": "Ars Technica Space",
-     "title": "Rocket Report: SpaceX completes launch triple-header; Rocket Lab nets big contract",
-     "topics": [
-      "launch",
-      "regulatory"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5UzI1SmdPUGRON3pCdF9sQkRUOS1UUWlXZ3hOTVZ1T1ZjWkpGRFBZbDhmWmFrU1FfVUpRaE04T0h2NDZYWG1xX05hR3VnenYtY0RYam5QYXR3dFNpa0lCbUU5bkFLa3hkN2EtbDFn?oc=5",
-     "published": "2026-10-11T21:17:00+00:00",
-     "score": 2.062,
+     "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPSjk0cmdMUmNmeTFNU19kX2N0cXpMLVhZNzlJTElMdTlzZUY2c1BZRGRaOHE5ajhwN2RFYm5XWERwNHBOUE9wM2w0c042bU5HamZTM2Zfb1lWZ00yUHAxbkd6U0pONlJnM3J3ZWN3RXgxclgtbUdydnpOREdnajdxdTRLRFpzLWlrQ2Z5S2Q2WEZxU2xRTm5ILVlpdjNyeFJHenFyVUpDa0VVcWRkRE1sNEdWVWQ0UlhySkF3a1JaNXVRaUZDX0xNa3BDRzZCdTBVandUQTM1VnRtRnA5SGpITXQ1TlJMaXNQVHVvQ0VoalNUU0xpQUhucHQ0TTY?oc=5",
+     "published": "2026-10-12T09:02:00+00:00",
+     "score": 3.709,
      "source": "Falcon",
-     "title": "SpaceX Achieved A New NASA Record - Here's What It Is - BGR",
-     "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ1VKNk04Wlg5Q0dHaG1IYXhQcEpWMUtIR1A1dXhyS1dfYzB0OVVxV3FZSk9wSm5DanFLdnZiZVB6YnZ1d2ZEVjI4YjNhWTczWnpObkdLNjRnSHYyTmRWMkx2R3ItY2puWjVwNmVhdWs1dW1ZUlRSZFVBRVVvWnVnUWhVaUZpVmkxdVZEZDdpSHNteXdHczFUallyUmNNTVMtRUZQR01B?oc=5",
-     "published": "2026-10-11T20:58:24+00:00",
-     "score": 2.028,
-     "source": "Starship",
-     "title": "Investors are likely to focus on SpaceX\u2019s Starship tech milestones, not results - Yahoo Finance",
+     "title": "SpaceX rocket launch from Florida set for Tuesday, sonic booms expected - Florida Today",
      "topics": [
-      "starship"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPTm9HdDV3cHZYcUNGbVFDLWlVZW1DOHNwVnNEWFlEclplTGZIX2ZNdTNrSXlhY1o0Tlg3QmRBdmpNMW1qdXpIeXcxNWRWcmlnZFdRWWlkQy02VEhDTzlHdGQ4TTJMN0pPNE12eEF6YzIzcW1WSGFJN0ZlRXBSc0t5LWkxa3FyN2J0em9ST0ZUWlBnQkR2T3l6a0V0ajhONWUzYXlyZzlRZm9PZTZNMmp1bHVDbXBGWU9zR2JRSHY1ZWNCTmNGMTRvTER6dDZ0V3JVUm9tV0NYY0pSRm9WZlRJRFhSOUh0cDM0WGQyclIxZFlqRGVjYzluSTY1d3ZWbU5sOFFXLVZtem5HUWM?oc=5",
-     "published": "2026-10-12T08:03:47+00:00",
-     "score": 1.761,
-     "source": "Starship",
-     "title": "Top Analyst Calls Elon Musk\u2019s Next Starship Flight SpaceX\u2019s \u2018Biggest Test\u2019 Yet \u2014 One Launch Could Replace - Benzinga",
-     "topics": [
-      "starship",
-      "launch",
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQaE5pZ0RIdUNNMEx1cHZhMEpiSU12MTZtWlY4czVaR1lvR0VsVy1UaDA1Z2pwa05ULWpmckNTWWJhUXBsbGtPQWk4bTBHd2hXOTVKSzdaczBFSXNXcm52c3JYOTRQc05hRGN3MHRKVW5ZRkY1NEJaaUstU2NGNXM2TExHTThyNGo3MWctaUs2bEJILXk2Q2lyLWY2SGFRYUZnWFBFb2xibzJ2WVREdm1ZMWFPMXpUcU1TMC16bkNad214SndJcVY4QWtLMndfY1hhU1k4?oc=5",
-     "published": "2026-10-11T13:00:00+00:00",
-     "score": 1.713,
-     "source": "Starlink",
-     "title": "SpaceX Acquires Grain Management\u2019s 800 MHz Spectrum Portfolio to Launch Standalone Starlink Mobile Carrier - SatNews Publishers",
-     "topics": [
-      "starlink",
       "launch"
      ]
     }
    ],
    "tesla": [
     {
+     "link": "https://www.notateslaapp.com/news/4813/tesla-robotaxis-accused-of-speeding-in-school-zones-nhtsa-launches-probe",
+     "published": "2026-10-12T21:09:00+00:00",
+     "score": 12.411,
+     "source": "Not a Tesla App",
+     "title": "Tesla Robotaxis Accused of Speeding in School Zones, NHTSA Launches Probe",
+     "topics": [
+      "regulatory"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNS3NCMHVqNjc2VlN5WDJEbkpucUZ0WUFsQWc3OEowNTVCOWwtQ3V4M1A4SmdWVjkxa1RubnZFcEpPQTNJNTlWRHIwVUJSWWVzV0lIdHdkWGRVYjVkdnh4Mzl6cTQtUmtTcFVRR0VZcDZUd19KMjZJcGw2V3lXN1VQclNRc21WMFJiZ04yUmRfTHVOSTd4ZDVYSG5fYnI1N2x0T3VucHAzQW81NTFlYWhUTnFR?oc=5",
+     "published": "2026-10-12T19:20:00+00:00",
+     "score": 4.521,
+     "source": "Autonomy",
+     "title": "Tesla robotaxis face investigation over alleged speeding in school zones - New York Post",
+     "topics": [
+      "regulatory"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QLXBEc2lLeFYwVkkzZEJUSFJ3cllZd2pxcFBMQzFMZXlZYW9kUjRkZzV5NlYtdVIzV3NyNVZaOE5SQlRuSnFzRVk1N1RjR1NQMUdYN3JfaXFBSW1zRF9PN1ZSZFpodEd0cXVxTjJEc2pla0NLYnc?oc=5",
+     "published": "2026-10-12T11:55:00+00:00",
+     "score": 4.189,
+     "source": "Optimus",
+     "title": "Musk Reveals Optimus Production Bottlenecks: Dexterous Hands the Biggest Hurdle, Rare-Earth Export Curbs Caused Months of Delay - BigGo Finance",
+     "topics": [
+      "optimus",
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNUVJrYUR1bnFYNEY3Z3VhcE5IaUI0WS11SWV3WV9zWFlVbUJlOUtLdWkxaXVIYmRBeGp5OTdic1J0VUZmSHV6VzJfbWlxaXlIaTZtRWZSX1o5dW1lTWdXd1E0S3NabUFuMjB1Q0FkRURVX0RFU3Zoci05TTVBMjB2ZVFNVHU1bmN2cUV3Ty1PZkw5WFYtczBBTV9IQnJON1R0b29JeTl1RnUyb0xTTXRqUFM0ZWU5dERPTEo5S3Q5UVJmZGpId1psai1KaXFic044SjZHdVBlSF9yV3djcV82SnJHc2JQZnhld1hjcWNn?oc=5",
+     "published": "2026-10-12T10:44:00+00:00",
+     "score": 3.992,
+     "source": "Production",
+     "title": "Jefferies raises Tesla price target as resilient deliveries support automotive outlook - Proactive financial news",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcnRIVExNN1hIUHphbjFnOTJubHIwaUo5OXNuVERQSjJyc1I4bEpFbU9jQWRkTWVINGlqOEQ5ZmhzOGV2Q0ctWG5wbFBwZGd4c2hEeHZZaTA3RE5peTduUmNndHJ2Z2lyUXUtbm8ta29tVE9TQkp1Q0p5dHUtbzFmVXdxd1lLX2xieklDRHp5MHY4dnJRUlJfZ2p4dnlBa09ZWGdPOHZleEpVMV9ISXBmTDVuODhpaVZVLWNtMEEwcHgxVTEySUE?oc=5",
+     "published": "2026-10-12T13:45:36+00:00",
+     "score": 3.747,
+     "source": "Autonomy",
+     "title": "Tesla (TSLA.US) Robotaxi Faces Renewed Regulatory Scrutiny: Investigation into Speeding in School Zones Casts Shadow over Cybercab Expansion - Moomoo",
+     "topics": [
+      "autonomy",
+      "regulatory"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdUdqamwwQ05xSjJDTnZSMlEtdWVkZzRQeGh6c0tLbVlSczR1N1g0Y3FYbTZUUnBNbkFpYTUwTW1HSDlheFpmUFVrLVBLX0s1YnhIdzl5bTczQ09RQ0xia3BTUkxzakM4UDRRUE1od2FYSDJXSUZPLVJKU2kweDVyZ0RmZFQ4R011VjBCb0N0WUF2SXVPaEdiZmNLai01WENMWEY4SjV1UDM3c0otamhWb2U4SGJRRTFYb1MyblBTWmlQRmVyN1lF?oc=5",
      "published": "2026-10-12T09:11:46+00:00",
-     "score": 5.079,
+     "score": 3.736,
      "source": "Production",
      "title": "Tesla reports 486,532 deliveries and Tesla stock costs EUR 341.73 - ad-hoc-news.de",
      "topics": [
@@ -343,7 +397,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSF90MVNjOWpjVEpNcjlybmh5U01qWTBhWTFxMXZHQnEtbFc5NG5lMGVuNUd4WndTdzU3bzdLMHhhbG5ra25oRGhibnEyLTQ1b0hjM0FhaDFXQ014NHFYRl9CcHUwMVZ2MHdUWi0yLXZzc1ZJUlQ3YUhMNjF1Rldid3N3akdVYjM0SVZRcDVrRGtoWHhEQnQ0bw?oc=5",
      "published": "2026-10-12T08:18:09+00:00",
-     "score": 4.93,
+     "score": 3.587,
      "source": "Optimus",
      "title": "Elon Musk\u2019s Tesla Optimus Timeline: Robots Targeted for 2027 Launch - TechRepublic",
      "topics": [
@@ -351,20 +405,9 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcnRIVExNN1hIUHphbjFnOTJubHIwaUo5OXNuVERQSjJyc1I4bEpFbU9jQWRkTWVINGlqOEQ5ZmhzOGV2Q0ctWG5wbFBwZGd4c2hEeHZZaTA3RE5peTduUmNndHJ2Z2lyUXUtbm8ta29tVE9TQkp1Q0p5dHUtbzFmVXdxd1lLX2xieklDRHp5MHY4dnJRUlJfZ2p4dnlBa09ZWGdPOHZleEpVMV9ISXBmTDVuODhpaVZVLWNtMEEwcHgxVTEySUE?oc=5",
-     "published": "2026-10-12T13:45:36+00:00",
-     "score": 4.866,
-     "source": "Autonomy",
-     "title": "Tesla (TSLA.US) Robotaxi Faces Renewed Regulatory Scrutiny: Investigation into Speeding in School Zones Casts Shadow over Cybercab Expansion - Moomoo",
-     "topics": [
-      "autonomy",
-      "regulatory"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTnQzZExZMUR2VWgwU1Y4UGtVSTFrZldpamtTVUlWQmx4VW5JV2VqNzUwaWRBSXJsa1pVdVBGUl9Kek9BV3dXalEtOEd4Z2g0MGRmV1N3U25saDhQVk5DTldyREFyTEJzZEYzaEo2TUlfdmZNYzBZbkM0UF9MZUt5NDJBc0E1bG9MSE04ZFJZVzlvNkxSeUltSW9QR1hKbFBySFA3TkZBSDEwbnlrQ1ptWFVEQVU2NDB2aTQtdEs2ZkE2VkdGeklGOTlkQ2oxS21nQkx4b3paaw?oc=5",
      "published": "2026-10-12T12:30:00+00:00",
-     "score": 4.691,
+     "score": 3.572,
      "source": "Autonomy",
      "title": "From \"FSD (Supervised)\" to \"Tesla Assisted Driving\"\u2013 a new name aims to secure EU approval - electrive.com",
      "topics": [
@@ -375,7 +418,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNaVNZeXFRdXFzMnZ2eVZCWFZmQlFBV05JQURDWVQ0ZVE5YlFVQTlqQ1VYdW1qT01fYVFya3VJRUxyNk9yUVI1MVJ0cU9yVnJodWFkZzRVYzhZZGFJV1Z0dG1WNE9Ec2hjMWI4TEhWT1Z5MEF2Q1lLblJfQ285QW9XaDV5cExIZDQtblVhakRSV3RQZFgtckE5cGd0X2ptc1Znc1NFOXJRYi03MXJDTnBmanpPaW91Yi16c3lVV3ExX3pVMUUwbTdvNEUzZGtWNGxiWU55cHZtR0ZvYnBvYTJpaEw0SDd4VDFON3NmLWs5eGdoUQ?oc=5",
      "published": "2026-10-12T06:34:00+00:00",
-     "score": 4.641,
+     "score": 3.297,
      "source": "Autonomy",
      "title": "TSLA Stock Climbs Overnight As Cybercab Eyes Dallas \u2014 Musk Recalls When Shorts Had Tesla In \u2018Checkmate\u2019 - TradingView",
      "topics": [
@@ -384,9 +427,37 @@
      ]
     },
     {
+     "link": "https://www.notateslaapp.com/news/4812/teslas-automations-feature-is-ready-for-launch-hidden-behind-a-flag",
+     "published": "2026-10-12T19:40:00+00:00",
+     "score": 3.288,
+     "source": "Not a Tesla App",
+     "title": "Tesla\u2019s Automations Feature Is Ready for Launch, Hidden Behind a Flag",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMDhEdUZqanQtaXgySDF5Z2hsUWRYaE5BOFp3ZUlKU0pqR2tWbFFYZ01QSmEwejVDUFFLb2VWbEl4ZGxuM3VXdHp0MWhna1VrbkFiYWJDUUxzRlZaT1FFMFBOdWx2amt0UGZTaVdaTTlnUl9iMkxfOEItT2VaVV92WWJuS1h4OWxUQVRmb0pnRkRTTVR4d2k3VTRTTmFlZw?oc=5",
+     "published": "2026-10-12T14:49:00+00:00",
+     "score": 3.115,
+     "source": "Autonomy",
+     "title": "Tesla Cybercabs Face Regulatory Probe For Speeding In School Zones - Investor's Business Daily",
+     "topics": [
+      "regulatory"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQUFvS3R0M1FlTEd3NE94WF8tVHoxRm4xTl9XWUJBeE8wRmFwU1paZnM3ZUx6VFBLOHY5UkZBcW1aMzA1dkFQZTJUdnROb3BfOUMtMU9UODdFUXVvY2Q1Q3hUZl90NFlhY2o4Yk1rd05GdFpOY0dwYWhObXZJMVFvaFBreGg4SW1jLW5MaGtGZzRleG1obWhsSXZ2X0tDNEZlRG14aEVvVHo3aFE3SHc?oc=5",
+     "published": "2026-10-12T13:31:07+00:00",
+     "score": 2.971,
+     "source": "Autonomy",
+     "title": "Tesla Robotaxis Face New Speeding Safety Probe - Tesla (NASDAQ:TSLA) - Benzinga",
+     "topics": [
+      "regulatory"
+     ]
+    },
+    {
      "link": "https://electrek.co/2026/10/12/nhtsa-tesla-robotaxi-school-zone-speeding-petition/",
      "published": "2026-10-12T13:24:01+00:00",
-     "score": 3.853,
+     "score": 2.958,
      "source": "Electrek",
      "title": "NHTSA weighs probe into claims Tesla Robotaxis speed in school zones",
      "topics": [
@@ -398,43 +469,10 @@
     {
      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5SktyMXY2NEMzQ3ZrQnItSG0wT2ZGZmJPV3BMU0g0ZTRMWG5UMWFmckRGQm1HT1QxSnVmbVprb0kwU0s1LXhpeFNzY2l6NE1UUTVrNGJZTDVYZU1xbnFMMG5lTmI4OGxvVWwxMFdFOHNwZw?oc=5",
      "published": "2026-10-12T12:34:35+00:00",
-     "score": 3.762,
+     "score": 2.866,
      "source": "Autonomy",
      "title": "U.S. regulators are probing Tesla's robotaxis for speeding in school zones - Quartz",
      "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcUk1b3VMY09rUDJ4RWI1LVNRc2VwRUo0YVJ5NUt0MENZUTl3al9fTkhPeWxYZzQ4R19JckdPejVZTTg5ZHp1bkEwNEZNMm4xUkhlN0Fra3lidVdYTEJ4R2xwbFNNeEJRZ3R5TlhLQmRrUExSTXh3OU50X21wcVBkanFCY0xHMjRGLWxyb3p0MnBUQ21vZ1plNA?oc=5",
-     "published": "2026-10-11T21:40:00+00:00",
-     "score": 3.157,
-     "source": "Production",
-     "title": "Forget the Recent Delivery Beat: Here's the Key Number That Will Decide Investors' Reaction to Tesla's Earnings - The Motley Fool",
-     "topics": [
-      "production",
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVUZsRWE2dUtRZWZVUnI3TldDMm5WbHlNWXFwQVdkZXRXZktGdmZ1bDJlY3JVRVZGZHVTbm8yOXoyeXh6empMam9QOTN4emtLMTVzNG5ETXBqQTdMV2dwZmUzVWNBZU4wUkM4bDdERVFRRG1hMkFoUzhUX2ZXMG1XS1lsQWhRZTZ1VlBDVFAyNjduMDcwUE1vLVdXbzRmMGdfS25aZDJWZGxyU21WTHpVb1hCTC1VM0pCRWRIaUZ0bDhhTGxLOEZHMHJlRHZ1eHFvdlRj?oc=5",
-     "published": "2026-10-12T03:02:33+00:00",
-     "score": 2.702,
-     "source": "Optimus",
-     "title": "Tesla cuts AI5 chip memory to 96GB to secure Optimus production supply - Global Sources",
-     "topics": [
-      "optimus",
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNLXlPNXRQSjRsLWRRSXMxNHNSb1Y5YmZKSDZMdTVYZUpfcWNGb3F2cHctRHoyenU1Z0N5Z1RlakstbFRBeUxhbnJud0lDR1VCMjd5a2dJNk1GaENjeTU5N0lOVVE2OUF2akNoR1hCb2M2NVlodjBHdGZjQUJpeE96cl9Lelgtc1VEX0RCcXA3aVVFY2VNRjlPaHBRd2RxVll6eWpMQVc5NGZtek9Qd1Zfa1BtVDB1dDBycG9qOGZ6eHk5a0d5ZFNXUnlHQWZpSU0?oc=5",
-     "published": "2026-10-12T11:40:32+00:00",
-     "score": 2.197,
-     "source": "Autonomy",
-     "title": "TSLA Stock Rises Overnight On Record Cybercab Registrations \u2014 Analyst\u2019s 5 Bullish Bets Signal Nearly 50% Upside - Stocktwits",
-     "topics": [
-      "autonomy",
-      "money"
-     ]
     },
     {
      "link": "https://electrek.co/2026/10/06/tesla-india-first-year-under-1000-cars-model-y-l-ramp/",
@@ -447,14 +485,25 @@
      ]
     },
     {
-     "link": "https://www.notateslaapp.com/news/4747/tesla-wins-approval-to-launch-fsd-supervised-in-croatia",
-     "published": "2026-09-29T15:21:00+00:00",
-     "score": 2.1,
-     "source": "Not a Tesla App",
-     "title": "Tesla Wins Approval to Launch FSD (Supervised) in Croatia",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcUk1b3VMY09rUDJ4RWI1LVNRc2VwRUo0YVJ5NUt0MENZUTl3al9fTkhPeWxYZzQ4R19JckdPejVZTTg5ZHp1bkEwNEZNMm4xUkhlN0Fra3lidVdYTEJ4R2xwbFNNeEJRZ3R5TlhLQmRrUExSTXh3OU50X21wcVBkanFCY0xHMjRGLWxyb3p0MnBUQ21vZ1plNA?oc=5",
+     "published": "2026-10-11T21:40:00+00:00",
+     "score": 1.814,
+     "source": "Production",
+     "title": "Forget the Recent Delivery Beat: Here's the Key Number That Will Decide Investors' Reaction to Tesla's Earnings - The Motley Fool",
      "topics": [
-      "autonomy",
-      "regulatory"
+      "production",
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVUZsRWE2dUtRZWZVUnI3TldDMm5WbHlNWXFwQVdkZXRXZktGdmZ1bDJlY3JVRVZGZHVTbm8yOXoyeXh6empMam9QOTN4emtLMTVzNG5ETXBqQTdMV2dwZmUzVWNBZU4wUkM4bDdERVFRRG1hMkFoUzhUX2ZXMG1XS1lsQWhRZTZ1VlBDVFAyNjduMDcwUE1vLVdXbzRmMGdfS25aZDJWZGxyU21WTHpVb1hCTC1VM0pCRWRIaUZ0bDhhTGxLOEZHMHJlRHZ1eHFvdlRj?oc=5",
+     "published": "2026-10-12T03:02:33+00:00",
+     "score": 1.807,
+     "source": "Optimus",
+     "title": "Tesla cuts AI5 chip memory to 96GB to secure Optimus production supply - Global Sources",
+     "topics": [
+      "optimus",
+      "production"
      ]
     },
     {
@@ -466,89 +515,17 @@
      "topics": [
       "production"
      ]
-    },
-    {
-     "link": "https://electrek.co/2026/10/07/tesla-other-models-deliveries-crash-cybertruck-sales/",
-     "published": "2026-10-07T16:19:19+00:00",
-     "score": 1.35,
-     "source": "Electrek",
-     "title": "Tesla\u2019s Cybertruck sales still unimpressive despite cheaper model",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNU1hwTnVJa05uMXpXSWs2MV9DWklyQVQ2V0NRRE1SOXg4b2Q4WkdxZWV3b3Q1c3puTWlVVkgyeFdtcjBqYnNSZ3dSUWw3QTh5RlhiQi1GMThYekRNbHlQWnVTU3Rza0RkeG1oLUs1Qmw5Y09ERGEzNHdlZGxQdTROUXZJS0c3NTJ3alF3UlR6NmtLc2M5ZWRPaDdfX0lJQQ?oc=5",
-     "published": "2026-10-02T07:00:00+00:00",
-     "score": 1.35,
-     "source": "Tesla",
-     "title": "Tesla Third Quarter 2026 Production, Deliveries & Deployments - Tesla Investor Relations",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE51RjhPVUR1SzZsWDlFOVdneEpib1BfNHI3VjZXdUNURG9leDZxSDdnX1VyazVERHdrdmpxZGxBdTdZbUNkdW9TMjMyaXlyUGdmUDJYZEdhODRucEU3WmplejhxdnNoVDB0dDM5YzZPeW0yOVVaWHc?oc=5",
-     "published": "2026-09-24T07:00:00+00:00",
-     "score": 1.35,
-     "source": "Optimus",
-     "title": "Tesla's Third-Generation Optimus Leaks Ahead of Launch, Featuring Cleaner Design Geared Toward Factory Production - BigGo Finance",
-     "topics": [
-      "optimus",
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14VGQ0OXpWRzk5QmQyQjFZa0dtVUkzZm9OUW5mYkRXczUyaDlRY3ZSZXAySmZ2S0lSNHh5TFp4VEh6YTUweHhFRGRJTU9yWGZqaFZKWUdwS2NlakNzcVZCcmlFQVl0eURsU1JMV3JtWXdDcmFjMUE?oc=5",
-     "published": "2026-10-08T16:58:00+00:00",
-     "score": 1.35,
-     "source": "Energy",
-     "title": "Tesla Supplier Reports Record Earnings From EV And Energy Storage Batteries - InsideEVs",
-     "topics": [
-      "energy",
-      "money"
-     ]
-    },
-    {
-     "link": "https://electrek.co/2026/10/02/podcast-tesla-roadster-delay-ev-deliveries-battery-swap-comes-back-and-more/",
-     "published": "2026-10-02T19:20:55+00:00",
-     "score": 1.2,
-     "source": "Electrek",
-     "title": "Podcast: Tesla Roadster delay, EV deliveries, battery swap comes back, and more",
-     "topics": [
-      "production"
-     ]
     }
    ],
    "ventures": [
     {
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbGs0Y0F3ajYtXzNFU2l6UmNCZjFuaEVQTmFtbVBqbFgzdlJrOHVVemNBS2JzUVp4d0I4U1VBVGZuVzVEUjBCV1F6YlY5WEViTHlMS1NxR3pBckxUWEEzQ1lYdkRmZS01bXJyVkhUU2FHTnM3ZGJsTlZralVsXzZ1M0NTZnc2Zw?oc=5",
      "published": "2026-10-11T16:47:56+00:00",
-     "score": 2.346,
+     "score": 1.003,
      "source": "Grok",
      "title": "Grok Bot launches its own email address at mail.grokbot.com - Pasquale Pillitteri",
      "topics": [
       "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLXBQaktMUDluYVhjME1DdUZxckZUcFFkYnE4V3RhMGZ0OHg0YTRCR2pXS0YzWGk4eUVBV25GZEw2OHpQTGRHM3A2RVVUanFMaTZ6Q1dtTkZPM01fTUZvLVdKSzYwNnRqcmx1VjVIbGdWa1hZcFdKa0hRWEFQU0xaYzV5ZlNSWmhZTncyWA?oc=5",
-     "published": "2026-10-12T13:33:49+00:00",
-     "score": 0.968,
-     "source": "Grok",
-     "title": "'You can just take a picture of your credit card': Elon Musk touts how easily Grok can complete shopping purchases for you - MoneyWise.com",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYm1relItOHNDSjA1ZVlocGRmR01HZFZoY0lyWEpOWElDbGVkY3FWZlNrWHA0MGFtcGlzZ3o0eDVlVXROMDlyRnJPeWZVcTNpRUNWZWhEMnlsZVhIMkpnaXZ3TGVmaDJtWnc3WnFyRkcwaFZPVVhNUjdmV3VBRHpoT3pybXlGbThwTWhSOW9fd25UcEd6VTJnMUUxT3dlSG9DUGwya1Y1TWJSMmd6RUM3SkgxZmZFOFVrdGtGck5vNWpRNTYxMjJz?oc=5",
-     "published": "2026-10-12T12:55:56+00:00",
-     "score": 0.95,
-     "source": "Neuralink",
-     "title": "2 Brain-Computer Interface Stocks to Watch While Neuralink Stays Private - InvestorPlace",
-     "topics": [
-      "neurotech"
      ]
     },
     {
@@ -580,39 +557,61 @@
      "topics": []
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVzdENF81ZUNSbnJYZnFOakc0VTlsbDUtUW9LVDdYTEVkU3NZNmg3ajhOQUd3X011SVBZLWJkSXhnMThuUG9xeW1JOE5WcDR2cE9ZOXhkQWVOcDJEY2xZOVowOGFWNW94elZObFdsYkVJZUloRFpMT3BGRDhJUHZxOWZqZDNQanZwYlEtQVVSLUp4VklIT3Z4OWo3YWpfZjJ0eGxlN1dPLV9IaHRRdkgtWXpVS1VwWnBwenpnZnhoeTJqX1JSdElz?oc=5",
-     "published": "2026-10-12T08:22:36+00:00",
-     "score": 0.824,
-     "source": "Neuralink",
-     "title": "China vs US: Dragon turns human brain into smart business models, challenges Musk's Neuralink tech - Bhaskar English",
-     "topics": [
-      "neurotech"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMEJDRHJGNzFIeWhOU1EyMkZscXV1ZHcyRXFOSlFmLXdiNkxta1Z5Sl9oTEhTSm5IUHVoMzN4ZVB0bEZTRnk0MkpPTjFvYzlWTXRLT0JnclVyX0JWWlo5TDZuSndVTlVHSk5zOTluNDY1OWgxVzRyN05ha0NjTUZRZzNwRWxDbmVEdmc4Y1BRcE1OSWF1ZVdldm82OHBnQm13ZUlTNjRuZy1oOVk0ZFE?oc=5",
-     "published": "2026-10-12T07:36:00+00:00",
-     "score": 0.802,
-     "source": "Grok",
-     "title": "Elon Musk gives worst financial advice ever, and the replies are hilarious - Mashable SEA",
-     "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRkV5Rzl4bGQtaHJock5ZRzVYaGl2NUVpYVdvMXAwNU5VV3JuQkFKNFoycVVSUzVxdlB4UGo1Q2luc3F2M1NWQ29DbDlEUW4zTTVPYUZBUkNVM3VfaDRxdHFHX2ljMzJvSFpUZENZUDlSVzRpQ1l0WHZkRkdhUzNuN1NYbEtOQ2k0eFVweVhGM0NETU1ScktibWtn?oc=5",
-     "published": "2026-10-12T07:02:39+00:00",
-     "score": 0.787,
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMklDeXNMc0VjSmczSklJekl0Mm5aN2o4OGJuLTFsUXZmdXZOdEhmYkNmcU5HU2VITlM2ZWpXV01peHBGZGVRR2JFbFJwOVdYWDB1cVJYUDdxc1Rram9WSmtPS0RvZFJDcnBlcF9DYU9KRnpYWTVhU2g3cFh2Z0NqVDRNUngydDR6ME9SZ0hQQ3VXZGZYdGFGNF9oLVl5NmhEcmt4eUlsd0hSZnFLS3gxUVlFTUtkU2MyTFRjYlNjMmk1VDFUQWZBSHJkY2xqcVlDb0lKNkcxcE1ELWxlSXRxV2h5MktRYjdxN1E?oc=5",
+     "published": "2026-10-05T21:00:00+00:00",
+     "score": 0.9,
      "source": "Boring",
-     "title": "Musk\u2019s Boring Company signs exploratory Abu Dhabi deal - Logistics Middle East",
+     "title": "Third Boring Company Tunneling Machine Launch Set for Late October - Nashville Scene",
      "topics": [
       "tunnels"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa2pTdGMyaXNSb3pPeUM0VFd2MGc1RnZLbWZlZU1CVlRVTFZIUzRRR3p0VnVSNFpZV3U0Y0JURHpJQ1ZJMjFPT0VhaWg3Qm9XQVJrQk43UTJWUnV3RFdtR3daS290dktLNHFhN1RDX1FGbW9wVmloMURaSnZRckRfR2dCNjNOakdKZDBGV2d0VDdIckdPbF9IMGtmWlpfR3JibHhoQWVublVCUUxHSnpPTERhWk5OYUczd0dXbmdBRQ?oc=5",
-     "published": "2026-10-12T06:14:38+00:00",
-     "score": 0.764,
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUEZjMGN0T0pDb2dTVU1EWVM4NXBPT0R2c3dZVzJjd055RE1KRlN2SUpiOXQwU2wzMTVDc0NNZnNGWU8yNFVOUVkxYTJvMVlXV204UTUzSDNhQWxId3N5MS1CLW43WmxpcVdkNU1ZRWNEekRlZ1FnSlhhNFBZMmNJM0F5RmxiV3Bjd1dybnMyU08?oc=5",
+     "published": "2026-10-12T18:07:34+00:00",
+     "score": 0.871,
+     "source": "xAI",
+     "title": "Enderman Says Musk's LEGO Order Placed by Grok Bot Was Canceled - Pasquale Pillitteri",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWDIyVWNXdjRSQzJNem9vaHc3aHF5M21qcmZ5VWZVdVVuMFNpLUJkc3VXb1g5TDRSZUZpdm5PVVUzd0Z1eVRWbXNodkZ2YVQ2eS16OXFYQTNYeVd5M2liVG5DY1pmRkZrR1JMUkxxRUlxdkFwbFEtWFAtZks0N1Rwa0FQQVA2M3VGc3FwVFcyMnRUQVdfODY0TGV4Z0RLNjRseFVPbFg5Smc?oc=5",
+     "published": "2026-10-12T17:55:00+00:00",
+     "score": 0.865,
      "source": "Grok",
-     "title": "AI shopping with Grok: Musk's credit card-sharing idea sparks privacy debate - CNBC TV18 - LinkedIn",
+     "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him - WIRED",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKUi1VRWpBc256OEIydnVxSmhSRDUtYkhOYUtjeFdMQjV2WDdRbEpWR2xrTmhUOE91N3NCWlVOeldyWEMyY3JHTmsxYklfd0JQWXc1WFFKSUJVUDRPNDlGdTZKRV90VFp2Ti1CMmtPenFqc3RXbGRzT2ZkYkRjQQ?oc=5",
+     "published": "2026-10-12T15:28:56+00:00",
+     "score": 0.797,
+     "source": "Grok",
+     "title": "Would you give Grok a photo of your credit card? Elon Musk suggests it - YourStory.com",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xX1NFZENMckxvU2Y2NWtXWm9hWDNhQ04ybkQ3aFdrV3NrUmhmemJkUWtGcVNxZTRfOW5kTk0tWnZpV3ZxcGdMUFpBVm9NM01PblpzdjZWeEQ1SVVkR3JyYUhjSnVXalBmaVpwS2piMGRhUHJ3X0hxNTdjS1Vqak0?oc=5",
+     "published": "2026-10-12T15:16:43+00:00",
+     "score": 0.792,
+     "source": "Grok",
+     "title": "Grok Shopping Push Raises Questions Over Credit Card Data and User Responsibility - The420.in",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNS1U1d0JEZUlJUVo4ajdISDFHY20wNE1jNmJVLUwwZ2xWblRvWXo3aW82WG1LTzNBWkxGbGx0ME94Qml4MTRZSXZfRVhjdmlCSmJfT2JoOE80N1ZJVlZIZjhoTzJ1YnE3aV90eEpPTXUxa2FwVFAxUS1GREM3VGRJWlkzTWJ0bTR4d19LaGlISy1BdzhhM0hIMDVWQQ?oc=5",
+     "published": "2026-10-12T14:08:00+00:00",
+     "score": 0.76,
+     "source": "Grok",
+     "title": "Elon Musk says uploading a credit card photo lets Grok shop for you \u2014 but even Visa flags rising fraud risks - Yahoo Finance",
      "topics": [
       "ai"
      ]
@@ -629,36 +628,12 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMTBId0ZaeFlTdTVNQjNFc2tzN2hOMkg1N3FHZjJuV0NLbVc0eDRlVzZOZzJod1RYNWI4SUM3ODZjMS1GSTJ5VTB5Qzcwc2U0U0RjTG9VZWtwemhuZzZIVnBDVTFrZVVoRzg0cTVmejZYTUJvSWtkTmFla0xHQlFGcjg1R3lqSlBubHNaVTZpSGhUTnA4VHB2alY3NUViTEk4Rnl3dnU1R3Ixekg2SkFZenhnWV80d9IBuwFBVV95cUxPb3RLZUdyVGVwdkNBeVQyOGFIS3pSeHloU3d3WGI0WGNPcFJlelFZRFg3OXhGU1BnaUw4UDdzTzRvSGQ5bDZxU0s4ZzdUTnlSZ0o3QWlFc1JOU1dIRkM2Xy0tMk9aM3VTcDJHX01ocko3X3FXZVlsQUNmYURqT0pmMlc5N29HT2ItNllYM09lUHFad3lnejVmODBmczlLMkpTcVpLRm1LOTBxdE9ITHJKYWdaTTd4N1ZIN2dz?oc=5",
-     "published": "2026-10-12T03:16:24+00:00",
-     "score": 0.682,
+     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Td050dWJwWTg4MWVHSFVaRW9ScmpUUmdQZmhUd3RsVURYTlF5ZUVBWmJhVVhRTDAxSlQ5emtiaTQ0ZGhCTWstdVlVZERBNVMyZ1VMdUdVQnduZzFEMmpXNE9UdUpYRi1WMU1iVzJsTQ?oc=5",
+     "published": "2026-10-12T12:52:01+00:00",
+     "score": 0.725,
      "source": "Grok",
-     "title": "AI shopping with Grok: Musk's credit card-sharing idea sparks privacy debate - CNBC TV18",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOG9HTUVVZ1ZJd3RhLWw0UW4zenVvdG1GV3VtaG4zdE9RRlVCOWg0a3Y3aUMyQlFtMWJ1UWplLUl0LU4tNVRPWHhkSmRCUE1DOGtkeDZqR0h6SDhPZmxLcktnNXdmT0tIVGJudGlvX0pfTnVRbmZCYzFnSVhNTDdpOA?oc=5",
-     "published": "2026-10-12T01:56:21+00:00",
-     "score": 0.645,
-     "source": "Grok",
-     "title": "Grok 4.7 Release: Pricing, Benchmarks vs Claude 5.5 - https://tech-insider.org/",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQmlRTTVQbEViNEpvajA1eFJrRkFoclZHN0swWVhmSDZwcmlrR18wRkJnbnZvc010a2JfdGw0X2RIX2dNaV9tSlhlRGdNbU1DNi1HT3R1TnFEbGZ1NUp1UGJxT1ZSSjJTakFyaDd4QjI2c2NSQTFlOFRnUnlfdW1JN1VmU0xmVnM3UWhGZFN3dXh0ZG4ydlY5SUNvVEh3SFJTM1F4YWlGX1o0TkkxN2JiMmplZy14b2JWNy1jaGNsemp3UQ?oc=5",
-     "published": "2026-10-12T01:05:17+00:00",
-     "score": 0.621,
-     "source": "Boring",
-     "title": "Inside the X Takeover: Giga Texas Tours, Cybercab Rides, and The Boring Company's Bastrop Hub - BASENOR - Tesla Accessories",
-     "topics": [
-      "autonomy",
-      "production",
-      "tunnels"
-     ]
+     "title": "Elon Musk mocked after appearing to dox himself trying to prove how smart artificial intelligence is - Indy100 | News",
+     "topics": []
     },
     {
      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE15LXFhUy1xWXpqQjA5WlNGcFBQQ3l2ZE1jR0xuM3pnV2RDcjJMTDB6cFlwZHp1LWc2ZlQ4NEpYVEFSWXdDYmE0UG5NSjFaLUtPOFVTLUtUdXpKZ3g2WC1xQk5mb2czZUZIQkx2SmJuVTNRRHpRVVlB?oc=5",
@@ -671,31 +646,49 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4tZnUzY3FyMzEtUGNBVlNnNVkzRU1LVWhnMVhTSE1BV3dnV3NvWENyX2VCNzdIc0dDd3pPNnc1YzhSUExFZC1FUHdWbVJ6S0VhTXJrazZ2MkQ5eFVQc0d0di1Gajd4TDlYT1c2VEp3MnktWGZa?oc=5",
-     "published": "2026-10-11T22:30:00+00:00",
-     "score": 0.549,
-     "source": "Grok",
-     "title": "SpaceXAI's Grok: What's Free In 2026 And What Isn't? - Engadget",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVzdENF81ZUNSbnJYZnFOakc0VTlsbDUtUW9LVDdYTEVkU3NZNmg3ajhOQUd3X011SVBZLWJkSXhnMThuUG9xeW1JOE5WcDR2cE9ZOXhkQWVOcDJEY2xZOVowOGFWNW94elZObFdsYkVJZUloRFpMT3BGRDhJUHZxOWZqZDNQanZwYlEtQVVSLUp4VklIT3Z4OWo3YWpfZjJ0eGxlN1dPLV9IaHRRdkgtWXpVS1VwWnBwenpnZnhoeTJqX1JSdElz?oc=5",
+     "published": "2026-10-12T08:22:36+00:00",
+     "score": 0.6,
+     "source": "Neuralink",
+     "title": "China vs US: Dragon turns human brain into smart business models, challenges Musk's Neuralink tech - Bhaskar English",
      "topics": [
-      "ai"
+      "neurotech"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sOEZxN2hQUFB4NllFczJxR0FQUGpWbU1McUcxUXFjdDByNTEyOElWWHpVMWl4OVEtTmhZU2hJT19sdEdYRlNTRVV4VVVELXRwX2ZjWUZxWDdlR21hUGhJSWxTQ3I0RmNCZjFiNw?oc=5",
-     "published": "2026-10-11T13:18:54+00:00",
-     "score": 0.294,
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBrekRiZzBrT2UwM1F0ODFualdSY3Nla2c3b2dPS0h4TFVuSl9mQlh1Rml2UVAxQk9ucFpsUGY3QWpjcWt4ak5YOFhaTEhFOGJDNEV4c2d1QzlRS0VWM0R6MG1n?oc=5",
+     "published": "2026-10-12T07:57:18+00:00",
+     "score": 0.588,
      "source": "Grok",
-     "title": "Elon Musk asks Grok to buy Lego, accidentally exposes addresses and credit card details - Ynetnews",
+     "title": "Elon Musk gives worst financial advice ever, and the replies are hilarious - Mashable",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNYm1relItOHNDSjA1ZVlocGRmR01HZFZoY0lyWEpOWElDbGVkY3FWZlNrWHA0MGFtcGlzZ3o0eDVlVXROMDlyRnJPeWZVcTNpRUNWZWhEMnlsZVhIMkpnaXZ3TGVmaDJtWnc3WnFyRkcwaFZPVVhNUjdmV3VBRHpoT3pybXlGbThwTWhSOW9fd25UcEd6VTJnMUUxT3dlSG9DUGwya1Y1TWJSMmd6RUM3SkgxZmZFOFVrdGtGck5vNWpRNTYxMjJz?oc=5",
+     "published": "2026-10-12T07:53:40+00:00",
+     "score": 0.586,
+     "source": "Neuralink",
+     "title": "2 Brain-Computer Interface Stocks to Watch While Neuralink Stays Private - InvestorPlace",
      "topics": [
-      "ai"
+      "neurotech"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNcVFiNHZrMk9yemp0YlJQRXBaZXFueXg0Y3BYZXdfczFZSWJSek96MnIwRWljaUtuc0E1RFZtNDNIWWRlekxtcm1lYkZIMlJrSHVQd3lJLTNlUXNZYk82NC05UDBZYU1rUkNHLUoxdmtEWTNRUXJFbXhteHRvTWotZy1nV0liMmNDZll0elFfNTQxdS1hUVdxSU1uMGlHMnBVNTNLSWxCYldwdVZPUEM3T25UN0JkeVUtZXl3dzRxQ3QwWnBFR0pjR2t6SllkR0Za?oc=5",
-     "published": "2026-10-11T12:12:00+00:00",
-     "score": 0.263,
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRkV5Rzl4bGQtaHJock5ZRzVYaGl2NUVpYVdvMXAwNU5VV3JuQkFKNFoycVVSUzVxdlB4UGo1Q2luc3F2M1NWQ29DbDlEUW4zTTVPYUZBUkNVM3VfaDRxdHFHX2ljMzJvSFpUZENZUDlSVzRpQ1l0WHZkRkdhUzNuN1NYbEtOQ2k0eFVweVhGM0NETU1ScktibWtn?oc=5",
+     "published": "2026-10-12T07:02:39+00:00",
+     "score": 0.563,
+     "source": "Boring",
+     "title": "Musk\u2019s Boring Company signs exploratory Abu Dhabi deal - Logistics Middle East",
+     "topics": [
+      "tunnels"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa2pTdGMyaXNSb3pPeUM0VFd2MGc1RnZLbWZlZU1CVlRVTFZIUzRRR3p0VnVSNFpZV3U0Y0JURHpJQ1ZJMjFPT0VhaWg3Qm9XQVJrQk43UTJWUnV3RFdtR3daS290dktLNHFhN1RDX1FGbW9wVmloMURaSnZRckRfR2dCNjNOakdKZDBGV2d0VDdIckdPbF9IMGtmWlpfR3JibHhoQWVublVCUUxHSnpPTERhWk5OYUczd0dXbmdBRQ?oc=5",
+     "published": "2026-10-12T06:14:38+00:00",
+     "score": 0.541,
      "source": "Grok",
-     "title": "AI Price Prediction: Insights from Grok on Bitcoin\u2019s Potential by Election Day - 24/7 Wall St.",
+     "title": "AI shopping with Grok: Musk's credit card-sharing idea sparks privacy debate - CNBC TV18 - LinkedIn",
      "topics": [
       "ai"
      ]
@@ -703,5 +696,5 @@
    ]
   }
  },
- "fetched_at": "2026-10-12T14:43:28.392666+00:00"
+ "fetched_at": "2026-10-12T22:47:01.359000+00:00"
 }
