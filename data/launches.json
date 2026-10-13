@@ -119,29 +119,29 @@
     13,
     14,
     8,
-    5
+    6
    ]
   },
   "calls_used": 4,
   "next": {
-   "description": "35th commercial resupply services mission to the International Space Station operated by SpaceX. The flight will be conducted under the second Commercial Resupply Services contract with NASA.\r\n\r\nCargo Dragon 2 brings supplies and payloads, including critical materials to directly support science and research investigations that occur onboard the orbiting laboratory.",
-   "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192619.jpeg",
-   "lat": 28.56194122,
-   "lon": -80.57735736,
-   "mission": "Dragon CRS-2 SpX-35",
-   "mission_type": "Resupply",
-   "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
-   "net": "2026-10-13T10:33:44Z",
-   "net_precision": "SEC",
-   "orbit": "LEO",
-   "pad": "Space Launch Complex 40",
-   "pad_location": "Cape Canaveral SFS, FL, USA",
-   "provider": "SpaceX",
-   "rocket": "Falcon 9 Block 5",
+   "description": "Details TBD.",
+   "id": "dfcabb3c-078b-4f5b-a47c-0161f248cee9",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhunque_2e_on_t_image_thumbnail_20241216101644.jpeg",
+   "lat": 40.91491,
+   "lon": 100.245488,
+   "mission": "Unknown Payload",
+   "mission_type": "Unknown",
+   "name": "Zhuque-2E | Unknown Payload",
+   "net": "2026-10-14T11:40:00Z",
+   "net_precision": "HR",
+   "orbit": "N/A",
+   "pad": "Launch Area 96A",
+   "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "provider": "LandSpace",
+   "rocket": "Zhuque-2E",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/bf2c3027-a314-403e-a416-2bfd5d165ad1",
+   "url": "https://nextspaceflight.com/launches/details/dfcabb3c-078b-4f5b-a47c-0161f248cee9",
    "webcast_live": false
   },
   "pads": [
@@ -647,6 +647,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "35th commercial resupply services mission to the International Space Station operated by SpaceX. The flight will be conducted under the second Commercial Resupply Services contract with NASA.\r\n\r\nCargo Dragon 2 brings supplies and payloads, including critical materials to directly support science and research investigations that occur onboard the orbiting laboratory.",
+    "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192619.jpeg",
+    "lat": 28.56194122,
+    "lon": -80.57735736,
+    "mission": "Dragon CRS-2 SpX-35",
+    "mission_type": "Resupply",
+    "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+    "net": "2026-10-13T10:33:44Z",
+    "net_precision": "SEC",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 40",
+    "pad_location": "Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/bf2c3027-a314-403e-a416-2bfd5d165ad1",
+    "webcast_live": false
+   },
    {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
     "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
@@ -1885,27 +1906,6 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/12b9454b-d48b-4fd5-9c11-17c18f45dafe",
     "webcast_live": false
-   },
-   {
-    "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "e7e55b53-6f69-4c22-9fc5-df00df653a3f",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Starlink Group 17-52",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 17-52",
-    "net": "2026-08-01T03:08:43Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/e7e55b53-6f69-4c22-9fc5-df00df653a3f",
-    "webcast_live": false
    }
   ],
   "totals": {
@@ -1914,7 +1914,7 @@
    "spacex_sampled": 91,
    "spacex_share": 0.455,
    "window": {
-    "from": "2026-03-04",
+    "from": "2026-03-05",
     "to": "2026-10-13"
    }
   },
@@ -1956,8 +1956,8 @@
     "pad_location": "Cape Canaveral SFS, FL, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/bf2c3027-a314-403e-a416-2bfd5d165ad1",
     "webcast_live": false
    },
@@ -2013,7 +2013,7 @@
     "mission_type": "Dedicated Rideshare",
     "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
     "net": "2026-10-19T10:30:00Z",
-    "net_precision": "HR",
+    "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Space Launch Complex 40",
     "pad_location": "Cape Canaveral SFS, FL, USA",
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-13T05:56:27.688942+00:00"
+ "fetched_at": "2026-10-13T13:51:13.196604+00:00"
 }
