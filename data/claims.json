@@ -14,8 +14,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-10-12",
-  "times_seen": 133,
+  "last_seen": "2026-10-13",
+  "times_seen": 134,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -36,8 +36,90 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-10-12",
-  "times_seen": 23,
+  "last_seen": "2026-10-13",
+  "times_seen": 24,
+  "outlets": [
+   "Optimus"
+  ]
+ },
+ {
+  "statement": "Neuralink plans 'high-volume' brain implant production by 2026, Musk says - Reuters",
+  "entity": "Neuralink",
+  "horizon_phrase": "by 2026",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Neuralink",
+  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMWEwLU1QOHU2WjNFeUM2MEVqSDU3Ujh1UnVFYW5jd0ZqelRCcGR5dlpMZ3pCd0UxaVVPYlRMN0ZQc0lDQ1RfNTJFaG5saTNHcE4ydDNrbEhxNjduWTBkenJiUjhvdnhKc2tRVTg1UXV4QzNiZGF3ZEQxZllLZV9OQ3BuMEtFcS1CMWI1TkZtS2pIZWRvUE1JTVdWSzhVellKQ3c2dkxCWUJGNnNQcjAtX3RqMlhLNVBxOGxjSExUN0tkbjJXSWlHRkJZX0R6ZzRLUkt0WTQ5UGdnQTBvemJJ?oc=5",
+  "first_seen": "2026-10-09",
+  "topics": [
+   "production",
+   "neurotech"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-13",
+  "times_seen": 13,
+  "outlets": [
+   "Neuralink"
+  ]
+ },
+ {
+  "statement": "Neuralink is set to begin trials of its Blindsight vision-restoring chip this year - Supercar Blondie",
+  "entity": "Neuralink",
+  "horizon_phrase": "this year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Neuralink",
+  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QR01TMGlKZDRZcllQVzBOeVNLc3dLMUVnT3pqTnhWMEJHWjJKMFZHbG9fZ0RBaTNJMGMtVUF4YVVwSjdKWTY3TW4yY2h1c2RnY0ZsUVBDSGZMZkxYWFhuS2swRW5yLVl5Y1hPcDQ0ZGEwSmpCbUQ0Vm9JMA?oc=5",
+  "first_seen": "2026-10-09",
+  "topics": [
+   "neurotech"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-13",
+  "times_seen": 13,
+  "outlets": [
+   "Neuralink"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Neuralink will ramp up production of brain-chip implants in 2026 - Business Insider",
+  "entity": "Musk",
+  "horizon_phrase": "in 2026",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Neuralink",
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOE1zb1VFcW9FVFRQRWhxWjlCd0g3djQzQVgwSWRxNGw2blpvdVlEQ2RNVk8xclE4QjA2eUlsWFRaSnZzTHUwblBfbDloejEtM2pwYURDSENOMVQweFFhQ2ZNMjFhMFZhS3NYT1RaLWkyclhYZHNMek5OUGNLdGVPRFBrX1NBTWFkSW04QWkyek11NW9YdHg2RDltUzdhT1ZKWjIwcGxEb1NKYnpRX3FkdQ?oc=5",
+  "first_seen": "2026-10-09",
+  "topics": [
+   "production",
+   "neurotech"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-13",
+  "times_seen": 13,
+  "outlets": [
+   "Neuralink"
+  ]
+ },
+ {
+  "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VQXRiT1ludzJQQkJQLWRUSjhPdkdsb183d3ozcXV1UnhwTDM2UUQ0QzN1N0NxQmdVbGZKSzVzTnRheU9CaGpwaG00SGhSWjZla1p0WDZFZkhPR0t4NXlBbXVRQ3Y2NTVhT3BxUHAwOUQ1OWQz?oc=5",
+  "first_seen": "2026-09-18",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-13",
+  "times_seen": 55,
   "outlets": [
    "Optimus"
   ]
@@ -58,88 +140,6 @@
   "primary": false,
   "last_seen": "2026-10-12",
   "times_seen": 77,
-  "outlets": [
-   "Optimus"
-  ]
- },
- {
-  "statement": "Neuralink plans 'high-volume' brain implant production by 2026, Musk says - Reuters",
-  "entity": "Neuralink",
-  "horizon_phrase": "by 2026",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Neuralink",
-  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMWEwLU1QOHU2WjNFeUM2MEVqSDU3Ujh1UnVFYW5jd0ZqelRCcGR5dlpMZ3pCd0UxaVVPYlRMN0ZQc0lDQ1RfNTJFaG5saTNHcE4ydDNrbEhxNjduWTBkenJiUjhvdnhKc2tRVTg1UXV4QzNiZGF3ZEQxZllLZV9OQ3BuMEtFcS1CMWI1TkZtS2pIZWRvUE1JTVdWSzhVellKQ3c2dkxCWUJGNnNQcjAtX3RqMlhLNVBxOGxjSExUN0tkbjJXSWlHRkJZX0R6ZzRLUkt0WTQ5UGdnQTBvemJJ?oc=5",
-  "first_seen": "2026-10-09",
-  "topics": [
-   "production",
-   "neurotech"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-12",
-  "times_seen": 12,
-  "outlets": [
-   "Neuralink"
-  ]
- },
- {
-  "statement": "Neuralink is set to begin trials of its Blindsight vision-restoring chip this year - Supercar Blondie",
-  "entity": "Neuralink",
-  "horizon_phrase": "this year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Neuralink",
-  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QR01TMGlKZDRZcllQVzBOeVNLc3dLMUVnT3pqTnhWMEJHWjJKMFZHbG9fZ0RBaTNJMGMtVUF4YVVwSjdKWTY3TW4yY2h1c2RnY0ZsUVBDSGZMZkxYWFhuS2swRW5yLVl5Y1hPcDQ0ZGEwSmpCbUQ0Vm9JMA?oc=5",
-  "first_seen": "2026-10-09",
-  "topics": [
-   "neurotech"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-12",
-  "times_seen": 12,
-  "outlets": [
-   "Neuralink"
-  ]
- },
- {
-  "statement": "Elon Musk says Neuralink will ramp up production of brain-chip implants in 2026 - Business Insider",
-  "entity": "Musk",
-  "horizon_phrase": "in 2026",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Neuralink",
-  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOE1zb1VFcW9FVFRQRWhxWjlCd0g3djQzQVgwSWRxNGw2blpvdVlEQ2RNVk8xclE4QjA2eUlsWFRaSnZzTHUwblBfbDloejEtM2pwYURDSENOMVQweFFhQ2ZNMjFhMFZhS3NYT1RaLWkyclhYZHNMek5OUGNLdGVPRFBrX1NBTWFkSW04QWkyek11NW9YdHg2RDltUzdhT1ZKWjIwcGxEb1NKYnpRX3FkdQ?oc=5",
-  "first_seen": "2026-10-09",
-  "topics": [
-   "production",
-   "neurotech"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-12",
-  "times_seen": 12,
-  "outlets": [
-   "Neuralink"
-  ]
- },
- {
-  "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VQXRiT1ludzJQQkJQLWRUSjhPdkdsb183d3ozcXV1UnhwTDM2UUQ0QzN1N0NxQmdVbGZKSzVzTnRheU9CaGpwaG00SGhSWjZla1p0WDZFZkhPR0t4NXlBbXVRQ3Y2NTVhT3BxUHAwOUQ1OWQz?oc=5",
-  "first_seen": "2026-09-18",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-12",
-  "times_seen": 54,
   "outlets": [
    "Optimus"
   ]

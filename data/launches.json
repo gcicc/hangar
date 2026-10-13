@@ -119,35 +119,35 @@
     13,
     14,
     8,
-    4
+    5
    ]
   },
   "calls_used": 4,
   "next": {
-   "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-   "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-   "lat": 34.632,
-   "lon": -120.611,
-   "mission": "Starlink Group 15-25",
-   "mission_type": "Communications",
-   "name": "Falcon 9 Block 5 | Starlink Group 15-25",
-   "net": "2026-10-13T00:28:11Z",
+   "description": "35th commercial resupply services mission to the International Space Station operated by SpaceX. The flight will be conducted under the second Commercial Resupply Services contract with NASA.\r\n\r\nCargo Dragon 2 brings supplies and payloads, including critical materials to directly support science and research investigations that occur onboard the orbiting laboratory.",
+   "id": "bf2c3027-a314-403e-a416-2bfd5d165ad1",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192619.jpeg",
+   "lat": 28.56194122,
+   "lon": -80.57735736,
+   "mission": "Dragon CRS-2 SpX-35",
+   "mission_type": "Resupply",
+   "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-35",
+   "net": "2026-10-13T10:33:44Z",
    "net_precision": "SEC",
    "orbit": "LEO",
-   "pad": "Space Launch Complex 4E",
-   "pad_location": "Vandenberg SFB, CA, USA",
+   "pad": "Space Launch Complex 40",
+   "pad_location": "Cape Canaveral SFS, FL, USA",
    "provider": "SpaceX",
    "rocket": "Falcon 9 Block 5",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/97c6f5e1-299e-4652-b72d-9618ac047076",
+   "url": "https://nextspaceflight.com/launches/details/bf2c3027-a314-403e-a416-2bfd5d165ad1",
    "webcast_live": false
   },
   "pads": [
    {
     "count": 54,
-    "last_net": "2026-12-31T00:00:00Z",
+    "last_net": "2026-10-20T22:14:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
     "lon": -120.611,
@@ -156,7 +156,7 @@
     "top_provider": "SpaceX"
    },
    {
-    "count": 38,
+    "count": 37,
     "last_net": "2026-11-30T00:00:00Z",
     "lat": 28.56194122,
     "location": "Cape Canaveral SFS, FL, USA",
@@ -267,13 +267,13 @@
    },
    {
     "count": 4,
-    "last_net": "2026-12-31T00:00:00Z",
-    "lat": 28.60822681,
-    "location": "Kennedy Space Center, FL, USA",
-    "lon": -80.60428186,
-    "name": "Launch Complex 39A",
-    "spacex": true,
-    "top_provider": "SpaceX"
+    "last_net": "2026-10-14T11:40:00Z",
+    "lat": 40.91491,
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "lon": 100.245488,
+    "name": "Launch Area 96A",
+    "spacex": false,
+    "top_provider": "LandSpace"
    },
    {
     "count": 4,
@@ -284,6 +284,16 @@
     "name": "Launch Area 94 (SLS-2 / 603)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 3,
+    "last_net": "2026-10-02T03:54:00Z",
+    "lat": 28.60822681,
+    "location": "Kennedy Space Center, FL, USA",
+    "lon": -80.60428186,
+    "name": "Launch Complex 39A",
+    "spacex": true,
+    "top_provider": "SpaceX"
    },
    {
     "count": 3,
@@ -324,16 +334,6 @@
     "name": "Launch Area 95A",
     "spacex": false,
     "top_provider": "ExPace"
-   },
-   {
-    "count": 3,
-    "last_net": "2026-09-15T06:26:00Z",
-    "lat": 40.91491,
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.245488,
-    "name": "Launch Area 96A",
-    "spacex": false,
-    "top_provider": "LandSpace"
    },
    {
     "count": 3,
@@ -384,6 +384,16 @@
     "name": "Launch Complex 3 (LC-3/LA-1)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 3,
+    "last_net": "2026-11-10T00:00:00Z",
+    "lat": -39.260881,
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "lon": 177.865826,
+    "name": "Unknown Pad",
+    "spacex": false,
+    "top_provider": "Rocket Lab"
    },
    {
     "count": 2,
@@ -444,16 +454,6 @@
     "name": "Long March 12 series Pad",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 2,
-    "last_net": "2026-12-31T00:00:00Z",
-    "lat": 28.458,
-    "location": "Cape Canaveral SFS, FL, USA",
-    "lon": -80.528,
-    "name": "Unknown Pad",
-    "spacex": true,
-    "top_provider": "SpaceX"
    },
    {
     "count": 1,
@@ -647,6 +647,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+    "id": "97c6f5e1-299e-4652-b72d-9618ac047076",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "Starlink Group 15-25",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-25",
+    "net": "2026-10-13T00:28:11Z",
+    "net_precision": "SEC",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/97c6f5e1-299e-4652-b72d-9618ac047076",
+    "webcast_live": false
+   },
    {
     "description": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellatio",
     "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
@@ -1885,27 +1906,6 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/e7e55b53-6f69-4c22-9fc5-df00df653a3f",
     "webcast_live": false
-   },
-   {
-    "description": "Classified payload for the US National Reconnaissance Office.",
-    "id": "24675e3d-2458-48a3-8c70-5196e44d4dc3",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_at_slc_image_thumbnail_20260729112529.jpeg",
-    "lat": 28.56194122,
-    "lon": -80.57735736,
-    "mission": "NROL-95",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | NROL-95",
-    "net": "2026-07-30T07:10:19Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 40",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/24675e3d-2458-48a3-8c70-5196e44d4dc3",
-    "webcast_live": false
    }
   ],
   "totals": {
@@ -1914,8 +1914,8 @@
    "spacex_sampled": 91,
    "spacex_share": 0.455,
    "window": {
-    "from": "2026-03-02",
-    "to": "2026-10-10"
+    "from": "2026-03-04",
+    "to": "2026-10-13"
    }
   },
   "upcoming": [
@@ -1935,8 +1935,8 @@
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/97c6f5e1-299e-4652-b72d-9618ac047076",
     "webcast_live": false
    },
@@ -1962,6 +1962,27 @@
     "webcast_live": false
    },
    {
+    "description": "Details TBD.",
+    "id": "dfcabb3c-078b-4f5b-a47c-0161f248cee9",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhunque_2e_on_t_image_thumbnail_20241216101644.jpeg",
+    "lat": 40.91491,
+    "lon": 100.245488,
+    "mission": "Unknown Payload",
+    "mission_type": "Unknown",
+    "name": "Zhuque-2E | Unknown Payload",
+    "net": "2026-10-14T11:40:00Z",
+    "net_precision": "HR",
+    "orbit": "N/A",
+    "pad": "Launch Area 96A",
+    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "LandSpace",
+    "rocket": "Zhuque-2E",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/dfcabb3c-078b-4f5b-a47c-0161f248cee9",
+    "webcast_live": false
+   },
+   {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
     "id": "df88cfbf-f504-4e11-8370-e33dd6280b5b",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
@@ -1980,6 +2001,27 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/df88cfbf-f504-4e11-8370-e33dd6280b5b",
+    "webcast_live": false
+   },
+   {
+    "description": "Dedicated rideshare flight to a mid-inclination orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
+    "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20251102082912.jpeg",
+    "lat": 28.56194122,
+    "lon": -80.57735736,
+    "mission": "Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+    "mission_type": "Dedicated Rideshare",
+    "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+    "net": "2026-10-19T10:30:00Z",
+    "net_precision": "HR",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 40",
+    "pad_location": "Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBC",
+    "status_name": "To Be Confirmed",
+    "url": "https://nextspaceflight.com/launches/details/3b430f81-0ff1-4d85-8a1a-cef0de326198",
     "webcast_live": false
    },
    {
@@ -2025,6 +2067,27 @@
     "webcast_live": false
    },
    {
+    "description": "HawkEye 360 is a a space-based civil global intelligence satellite network using radio frequency (RF) technology to help monitor transportation across air, land and sea and assist with emergencies, and to provide civil SIGINT (Signal Intelligence) mission.\r\n\r\nThe constellation of small satellites (named Hawk ) will collect information on specific radio signals worldwide to provide high-precision r",
+    "id": "7766f3bb-674c-4c71-b986-963bd633fcfe",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+    "lat": -39.260881,
+    "lon": 177.865826,
+    "mission": "We're Not Hawking Around (3x HawkEye 360)",
+    "mission_type": "Earth Science",
+    "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
+    "net": "2026-10-21T00:00:00Z",
+    "net_precision": "DAY",
+    "orbit": "SSO",
+    "pad": "Unknown Pad",
+    "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "rocket": "Electron",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/7766f3bb-674c-4c71-b986-963bd633fcfe",
+    "webcast_live": false
+   },
+   {
     "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
     "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg",
@@ -2064,27 +2127,6 @@
     "status": "TBD",
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/7bdc412b-c965-4517-a131-f57a01189803",
-    "webcast_live": false
-   },
-   {
-    "description": "Dedicated rideshare flight to a mid-inclination orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
-    "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20251102082912.jpeg",
-    "lat": 28.56194122,
-    "lon": -80.57735736,
-    "mission": "Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-    "mission_type": "Dedicated Rideshare",
-    "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-    "net": "2026-10-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 40",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/3b430f81-0ff1-4d85-8a1a-cef0de326198",
     "webcast_live": false
    },
    {
@@ -2148,6 +2190,48 @@
     "status": "TBD",
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/e59ff9a4-f72f-4841-8546-3c94346ecdba",
+    "webcast_live": false
+   },
+   {
+    "description": "Synthetic aperture radar Earth observation satellite for Japanese Earth imaging company iQPS.",
+    "id": "426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+    "lat": -39.260881,
+    "lon": 177.865826,
+    "mission": "The Sea God Surveys (iQPS Launch 9)",
+    "mission_type": "Earth Science",
+    "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
+    "net": "2026-11-04T00:00:00Z",
+    "net_precision": "DAY",
+    "orbit": "LEO",
+    "pad": "Unknown Pad",
+    "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "rocket": "Electron",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
+    "webcast_live": false
+   },
+   {
+    "description": "Synthetic aperture radar Earth observation satellite for Japanese Earth imaging company iQPS.",
+    "id": "db3500ac-965b-4ad8-b417-cb8d8d005586",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+    "lat": -39.260881,
+    "lon": 177.865826,
+    "mission": "The Mountain God Rises (iQPS Launch 10)",
+    "mission_type": "Earth Science",
+    "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
+    "net": "2026-11-10T00:00:00Z",
+    "net_precision": "DAY",
+    "orbit": "LEO",
+    "pad": "Unknown Pad",
+    "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "rocket": "Electron",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/db3500ac-965b-4ad8-b417-cb8d8d005586",
     "webcast_live": false
    },
    {
@@ -2254,92 +2338,8 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
     "webcast_live": false
-   },
-   {
-    "description": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Transport Layer.",
-    "id": "71df1dd0-d658-4762-b0bc-0fca6886aea7",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-    "lat": 28.458,
-    "lon": -80.528,
-    "mission": "SDA Tranche 2 Transport Layer D",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer D",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "PO",
-    "pad": "Unknown Pad",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/71df1dd0-d658-4762-b0bc-0fca6886aea7",
-    "webcast_live": false
-   },
-   {
-    "description": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Transport Layer.",
-    "id": "71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "SDA Tranche 2 Transport Layer E",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "PO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
-    "webcast_live": false
-   },
-   {
-    "description": "Up to 18 satellites manufactured by MDA for Canadian satellite operator Telesat's Lightspeed constellation.",
-    "id": "ce1317de-ec94-4479-9b28-38ebf11f13ae",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-    "lat": 28.458,
-    "lon": -80.528,
-    "mission": "Telesat Lightspeed 1",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Telesat Lightspeed 1",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Unknown Pad",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/ce1317de-ec94-4479-9b28-38ebf11f13ae",
-    "webcast_live": false
-   },
-   {
-    "description": "Demonstration flight of the Astrobotic Griffin lander and its engines, initially contracted for the cancelled NASA VIPER (Volatiles Investigating Polar Exploration Rover) mission. The vacated payload spot will now host the FLIP (FLEX Lunar Innovation Platform) lunar rover from Astrolab.",
-    "id": "d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
-    "lat": 28.60822681,
-    "lon": -80.60428186,
-    "mission": "Griffin Mission One",
-    "mission_type": "Lunar Exploration",
-    "name": "Falcon Heavy | Griffin Mission One",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LO",
-    "pad": "Launch Complex 39A",
-    "pad_location": "Kennedy Space Center, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon Heavy",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/d3bd7fb2-fac6-49fc-ae52-cee07d2fde67",
-    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-12T22:47:12.771950+00:00"
+ "fetched_at": "2026-10-13T05:56:27.688942+00:00"
 }
