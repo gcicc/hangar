@@ -5,8 +5,8 @@
   },
   "quotes": {
    "SPCX": {
-    "change": -6.03,
-    "change_pct": -3.71,
+    "change": -6.88,
+    "change_pct": -4.21,
     "currency": "USD",
     "exchange": "NasdaqGS",
     "first_trade": 1781271000,
@@ -96,15 +96,16 @@
      167.6,
      160.57,
      162.57,
-     163.42
+     163.42,
+     156.54
     ],
     "symbol": "SPCX",
     "week52_high": 225.64,
     "week52_low": 104.83
    },
    "TSLA": {
-    "change": -7.47,
-    "change_pct": -1.95,
+    "change": -2.8,
+    "change_pct": -0.74,
     "currency": "USD",
     "exchange": "NasdaqGS",
     "first_trade": 1277818200,
@@ -360,7 +361,8 @@
      377.81,
      375.0,
      382.7,
-     378.03
+     378.03,
+     375.23
     ],
     "symbol": "TSLA",
     "week52_high": 498.83,
@@ -1434,5 +1436,5 @@
    }
   }
  },
- "fetched_at": "2026-10-14T00:56:52.474966+00:00"
+ "fetched_at": "2026-10-14T07:14:48.001847+00:00"
 }
