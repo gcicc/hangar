@@ -2193,6 +2193,27 @@
     "webcast_live": false
    },
    {
+    "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
+    "id": "7bdc412b-c965-4517-a131-f57a01189803",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_thumbnail_20260618063419.jpeg",
+    "lat": 5.256319,
+    "lon": -52.786838,
+    "mission": "Amazon Leo (LE-04)",
+    "mission_type": "Communications",
+    "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+    "net": "2026-11-23T00:00:00Z",
+    "net_precision": "DAY",
+    "orbit": "LEO",
+    "pad": "Ariane Launch Area 4",
+    "pad_location": "Guiana Space Centre, French Guiana",
+    "provider": "Arianespace",
+    "rocket": "Ariane 64 Block 2",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/7bdc412b-c965-4517-a131-f57a01189803",
+    "webcast_live": false
+   },
+   {
     "description": "Progress resupply mission to the International Space Station.",
     "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
@@ -2211,27 +2232,6 @@
     "status": "TBC",
     "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/8dd5de11-831b-445f-86f0-bffefe0550d9",
-    "webcast_live": false
-   },
-   {
-    "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
-    "id": "7bdc412b-c965-4517-a131-f57a01189803",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_thumbnail_20260618063419.jpeg",
-    "lat": 5.256319,
-    "lon": -52.786838,
-    "mission": "Amazon Leo (LE-04)",
-    "mission_type": "Communications",
-    "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Ariane Launch Area 4",
-    "pad_location": "Guiana Space Centre, French Guiana",
-    "provider": "Arianespace",
-    "rocket": "Ariane 64 Block 2",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/7bdc412b-c965-4517-a131-f57a01189803",
     "webcast_live": false
    },
    {
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-14T13:24:58.324115+00:00"
+ "fetched_at": "2026-10-14T18:22:52.574362+00:00"
 }
