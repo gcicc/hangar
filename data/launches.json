@@ -132,8 +132,8 @@
    "mission": "USSF-481",
    "mission_type": "Government/Top Secret",
    "name": "Falcon 9 Block 5 | USSF-481",
-   "net": "2026-10-15T23:44:00Z",
-   "net_precision": "MIN",
+   "net": "2026-10-15T23:57:05Z",
+   "net_precision": "SEC",
    "orbit": "PO",
    "pad": "Space Launch Complex 4E",
    "pad_location": "Vandenberg SFB, CA, USA",
@@ -146,8 +146,8 @@
   },
   "pads": [
    {
-    "count": 54,
-    "last_net": "2026-10-24T05:29:00Z",
+    "count": 55,
+    "last_net": "2026-12-31T00:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
     "lon": -120.611,
@@ -204,16 +204,6 @@
     "name": "Rocket Lab Launch Complex 1A",
     "spacex": false,
     "top_provider": "Rocket Lab"
-   },
-   {
-    "count": 5,
-    "last_net": "2026-10-14T11:40:00Z",
-    "lat": 40.91491,
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.245488,
-    "name": "Launch Area 96A",
-    "spacex": false,
-    "top_provider": "LandSpace"
    },
    {
     "count": 5,
@@ -274,6 +264,16 @@
     "name": "Space Launch Complex 41",
     "spacex": false,
     "top_provider": "United Launch Alliance"
+   },
+   {
+    "count": 4,
+    "last_net": "2026-10-14T11:40:00Z",
+    "lat": 40.91491,
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "lon": 100.245488,
+    "name": "Launch Area 96A",
+    "spacex": false,
+    "top_provider": "LandSpace"
    },
    {
     "count": 4,
@@ -1920,27 +1920,6 @@
   },
   "upcoming": [
    {
-    "description": "Ride-share of 10 satellites to sun-synchronous orbit, including LandSpace's own Guangchuan-03 & 04 for testing and demonstrating LEO communication satellite constellation technologies. Details TBD.",
-    "id": "dfcabb3c-078b-4f5b-a47c-0161f248cee9",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-2e_y6_la_image_thumbnail_20260609122826.jpeg",
-    "lat": 40.91491,
-    "lon": 100.245488,
-    "mission": "10 satellites",
-    "mission_type": "Technology",
-    "name": "Zhuque-2E Block 2 | 10 satellites",
-    "net": "2026-10-14T11:40:00Z",
-    "net_precision": "MIN",
-    "orbit": "SSO",
-    "pad": "Launch Area 96A",
-    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "LandSpace",
-    "rocket": "Zhuque-2E Block 2",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/dfcabb3c-078b-4f5b-a47c-0161f248cee9",
-    "webcast_live": false
-   },
-   {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
     "id": "df88cfbf-f504-4e11-8370-e33dd6280b5b",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
@@ -1949,8 +1928,8 @@
     "mission": "USSF-481",
     "mission_type": "Government/Top Secret",
     "name": "Falcon 9 Block 5 | USSF-481",
-    "net": "2026-10-15T23:44:00Z",
-    "net_precision": "MIN",
+    "net": "2026-10-15T23:57:05Z",
+    "net_precision": "SEC",
     "orbit": "PO",
     "pad": "Space Launch Complex 4E",
     "pad_location": "Vandenberg SFB, CA, USA",
@@ -2338,8 +2317,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/71df1dd0-d658-4762-b0bc-0fca6886aea7",
     "webcast_live": false
+   },
+   {
+    "description": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Transport Layer.",
+    "id": "71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "SDA Tranche 2 Transport Layer E",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "PO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-15T08:57:48.815878+00:00"
+ "fetched_at": "2026-10-15T14:44:27.612406+00:00"
 }
