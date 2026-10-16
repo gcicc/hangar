@@ -14,8 +14,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-10-15",
-  "times_seen": 146,
+  "last_seen": "2026-10-16",
+  "times_seen": 147,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -36,8 +36,8 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-10-15",
-  "times_seen": 36,
+  "last_seen": "2026-10-16",
+  "times_seen": 37,
   "outlets": [
    "Optimus"
   ]
@@ -57,8 +57,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-10-15",
-  "times_seen": 25,
+  "last_seen": "2026-10-16",
+  "times_seen": 26,
   "outlets": [
    "Neuralink"
   ]
@@ -77,29 +77,11 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-10-15",
-  "times_seen": 67,
+  "last_seen": "2026-10-16",
+  "times_seen": 68,
   "outlets": [
    "Optimus",
    "Optimus Features"
-  ]
- },
- {
-  "statement": "Will SpaceX Be Worth $100 Trillion Within 10 Years? Musk Says Probably - BeInCrypto",
-  "entity": "SpaceX",
-  "horizon_phrase": "Within 10 Years",
-  "horizon": "2036-10-12",
-  "horizon_precision": "approx",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tWU5xT3lxWEFnSndFWTViVmZ6T1gzb3VhQUJTTG91VXhHdXB4OEFGZVVwOXAzRXVfRTB1YXV0bEdid0RheHNjN2wwR3ZXVnp3elZLWjMtcFAxRTZSODhYUWM3WVJJNGRPbjNoTWJfVXgyNkIxVnc?oc=5",
-  "first_seen": "2026-10-15",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-10-15",
-  "times_seen": 4,
-  "outlets": [
-   "SPCX"
   ]
  },
  {
@@ -116,8 +98,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-10-15",
-  "times_seen": 18,
+  "last_seen": "2026-10-16",
+  "times_seen": 19,
   "outlets": [
    "Neuralink"
   ]
@@ -137,10 +119,68 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-10-15",
-  "times_seen": 18,
+  "last_seen": "2026-10-16",
+  "times_seen": 19,
   "outlets": [
    "Neuralink"
+  ]
+ },
+ {
+  "statement": "Tesla unveils new Roadster with flight capabilities; set for production in 2028 - Investing.com",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2028",
+  "horizon": "2028-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMTVBZFQ5b3NjSDA5ZnNqajhfWnRFSXlEUkpiUEtqYXVHM29xOVNhci0ybHFMMTM0UWVtdk9xQVRxQUdQTWFMSTJidFAyTlpaTjZjS1pUOTVkNjN0RU8tRC0zS2REWWdTNjlUMFZnZnFOcXdyT2hNMFc0dEFXQ0thWi1xa3AzMW5lMUtEam52RHdvdHp2V29lM01DRUtjbjVyZENNazh0XzVjZXEwcEVCcU9NMGJVVkRJS0sxbjVJMktXVXpzT3lyazJIaHF4QzJ2?oc=5",
+  "first_seen": "2026-10-16",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-16",
+  "times_seen": 1,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Tesla Roadster Re-Reveal Promises New Design, Flight, Production In 2028 - Jalopnik",
+  "entity": "Tesla",
+  "horizon_phrase": "In 2028",
+  "horizon": "2028-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVzc4d1pPa2twaG5tRTU2c0s3SnZ4eDVUQ1VKWUZRUGQ1N195eUZuVjFhblVUdnVua19JR1BLRS0zdUtidXFUUVlmd1VRVW4yYkVqdE1sWnlFeXMwTnhkMzYwakdTYlhPclRxT1pUQ0JDZDFGcDNQYXFSbFpNWFF3ZGhtb3BydUlvMzUzNlkzSlBFWUpTNDZYM2hqUlhXMnVGZGc?oc=5",
+  "first_seen": "2026-10-16",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-16",
+  "times_seen": 1,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Will SpaceX Be Worth $100 Trillion Within 10 Years? Musk Says Probably - BeInCrypto",
+  "entity": "SpaceX",
+  "horizon_phrase": "Within 10 Years",
+  "horizon": "2036-10-12",
+  "horizon_precision": "approx",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tWU5xT3lxWEFnSndFWTViVmZ6T1gzb3VhQUJTTG91VXhHdXB4OEFGZVVwOXAzRXVfRTB1YXV0bEdid0RheHNjN2wwR3ZXVnp3elZLWjMtcFAxRTZSODhYUWM3WVJJNGRPbjNoTWJfVXgyNkIxVnc?oc=5",
+  "first_seen": "2026-10-15",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-10-15",
+  "times_seen": 4,
+  "outlets": [
+   "SPCX"
   ]
  },
  {
