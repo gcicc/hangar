@@ -177,7 +177,7 @@
    },
    {
     "count": 8,
-    "last_net": "2026-10-22T02:00:00Z",
+    "last_net": "2026-10-22T02:57:00Z",
     "lat": 19.597275,
     "location": "Wenchang Space Launch Site, People's Republic of China",
     "lon": 110.930753,
@@ -2054,15 +2054,15 @@
     "mission": "Unknown Payload",
     "mission_type": "Unknown",
     "name": "Long March 8A | Unknown Payload",
-    "net": "2026-10-22T02:00:00Z",
+    "net": "2026-10-22T02:57:00Z",
     "net_precision": "HR",
     "orbit": "N/A",
     "pad": "Commercial LC-1",
     "pad_location": "Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "rocket": "Long March 8A",
-    "status": "TBC",
-    "status_name": "To Be Confirmed",
+    "status": "Go",
+    "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/6b95bcc8-1f88-4539-84fe-f63630138766",
     "webcast_live": false
    },
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-16T08:49:21.092384+00:00"
+ "fetched_at": "2026-10-16T14:37:51.262972+00:00"
 }
