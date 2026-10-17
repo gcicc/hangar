@@ -14,8 +14,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-10-16",
-  "times_seen": 151,
+  "last_seen": "2026-10-17",
+  "times_seen": 152,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -36,8 +36,8 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-10-16",
-  "times_seen": 41,
+  "last_seen": "2026-10-17",
+  "times_seen": 42,
   "outlets": [
    "Optimus"
   ]
@@ -57,8 +57,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-10-16",
-  "times_seen": 30,
+  "last_seen": "2026-10-17",
+  "times_seen": 31,
   "outlets": [
    "Neuralink"
   ]
@@ -77,8 +77,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-10-16",
-  "times_seen": 72,
+  "last_seen": "2026-10-17",
+  "times_seen": 73,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -98,8 +98,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-10-16",
-  "times_seen": 23,
+  "last_seen": "2026-10-17",
+  "times_seen": 24,
   "outlets": [
    "Neuralink"
   ]
@@ -119,10 +119,68 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-10-16",
-  "times_seen": 23,
+  "last_seen": "2026-10-17",
+  "times_seen": 24,
   "outlets": [
    "Neuralink"
+  ]
+ },
+ {
+  "statement": "Tesla Roadster Re-Reveal Promises New Design, Flight, Production In 2028 - Jalopnik",
+  "entity": "Tesla",
+  "horizon_phrase": "In 2028",
+  "horizon": "2028-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVzc4d1pPa2twaG5tRTU2c0s3SnZ4eDVUQ1VKWUZRUGQ1N195eUZuVjFhblVUdnVua19JR1BLRS0zdUtidXFUUVlmd1VRVW4yYkVqdE1sWnlFeXMwTnhkMzYwakdTYlhPclRxT1pUQ0JDZDFGcDNQYXFSbFpNWFF3ZGhtb3BydUlvMzUzNlkzSlBFWUpTNDZYM2hqUlhXMnVGZGc?oc=5",
+  "first_seen": "2026-10-16",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-17",
+  "times_seen": 6,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Elon Musk promises production of Revamped Tesla Roadster in 2028 - NewsNation",
+  "entity": "Musk",
+  "horizon_phrase": "in 2028",
+  "horizon": "2028-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80Sk1jcXM0YXlvVWo5aVBNY2tPSThjVnZfSG5ud1JZYi1Kc2RSZHNnUFBOdGtVSUU0MnhhaDBLeFkyMkVvQnFhVldoYWgyeFJBc2NiQkZZZDJ3S1M1emtFYjV3UzU3Z2tYWTFNdE5TYjlveTTSAXhBVV95cUxOTi1tWTlfVGY3OVNubVhKdkJXVVV2ek4weUFhakxGTjB5bzZFVmM0LTdhU2tBT3M5b3BYVjdaQU42VkYxUmNvdWZTVDRablozNGQ1WTcxVk9sTllFeFhlTDRkZEFlR0J1V3lpWWE0NEhNcEZaa2JJRFI?oc=5",
+  "first_seen": "2026-10-16",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-17",
+  "times_seen": 4,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Will SpaceX Be Worth $100 Trillion Within 10 Years? Musk Says Probably - BeInCrypto",
+  "entity": "SpaceX",
+  "horizon_phrase": "Within 10 Years",
+  "horizon": "2036-10-12",
+  "horizon_precision": "approx",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tWU5xT3lxWEFnSndFWTViVmZ6T1gzb3VhQUJTTG91VXhHdXB4OEFGZVVwOXAzRXVfRTB1YXV0bEdid0RheHNjN2wwR3ZXVnp3elZLWjMtcFAxRTZSODhYUWM3WVJJNGRPbjNoTWJfVXgyNkIxVnc?oc=5",
+  "first_seen": "2026-10-15",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-10-17",
+  "times_seen": 7,
+  "outlets": [
+   "SPCX"
   ]
  },
  {
@@ -141,26 +199,6 @@
   "primary": false,
   "last_seen": "2026-10-16",
   "times_seen": 1,
-  "outlets": [
-   "Production"
-  ]
- },
- {
-  "statement": "Tesla Roadster Re-Reveal Promises New Design, Flight, Production In 2028 - Jalopnik",
-  "entity": "Tesla",
-  "horizon_phrase": "In 2028",
-  "horizon": "2028-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVzc4d1pPa2twaG5tRTU2c0s3SnZ4eDVUQ1VKWUZRUGQ1N195eUZuVjFhblVUdnVua19JR1BLRS0zdUtidXFUUVlmd1VRVW4yYkVqdE1sWnlFeXMwTnhkMzYwakdTYlhPclRxT1pUQ0JDZDFGcDNQYXFSbFpNWFF3ZGhtb3BydUlvMzUzNlkzSlBFWUpTNDZYM2hqUlhXMnVGZGc?oc=5",
-  "first_seen": "2026-10-16",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-16",
-  "times_seen": 5,
   "outlets": [
    "Production"
   ]
@@ -284,26 +322,6 @@
   ]
  },
  {
-  "statement": "Elon Musk promises production of Revamped Tesla Roadster in 2028 - NewsNation",
-  "entity": "Musk",
-  "horizon_phrase": "in 2028",
-  "horizon": "2028-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE80Sk1jcXM0YXlvVWo5aVBNY2tPSThjVnZfSG5ud1JZYi1Kc2RSZHNnUFBOdGtVSUU0MnhhaDBLeFkyMkVvQnFhVldoYWgyeFJBc2NiQkZZZDJ3S1M1emtFYjV3UzU3Z2tYWTFNdE5TYjlveTTSAXhBVV95cUxOTi1tWTlfVGY3OVNubVhKdkJXVVV2ek4weUFhakxGTjB5bzZFVmM0LTdhU2tBT3M5b3BYVjdaQU42VkYxUmNvdWZTVDRablozNGQ1WTcxVk9sTllFeFhlTDRkZEFlR0J1V3lpWWE0NEhNcEZaa2JJRFI?oc=5",
-  "first_seen": "2026-10-16",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-16",
-  "times_seen": 3,
-  "outlets": [
-   "Production"
-  ]
- },
- {
   "statement": "Elon Musk's Tesla shows off flying Roadster, production to begin in 2028 - Deccan Herald",
   "entity": "Musk",
   "horizon_phrase": "in 2028",
@@ -321,24 +339,6 @@
   "times_seen": 3,
   "outlets": [
    "Production"
-  ]
- },
- {
-  "statement": "Will SpaceX Be Worth $100 Trillion Within 10 Years? Musk Says Probably - BeInCrypto",
-  "entity": "SpaceX",
-  "horizon_phrase": "Within 10 Years",
-  "horizon": "2036-10-12",
-  "horizon_precision": "approx",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tWU5xT3lxWEFnSndFWTViVmZ6T1gzb3VhQUJTTG91VXhHdXB4OEFGZVVwOXAzRXVfRTB1YXV0bEdid0RheHNjN2wwR3ZXVnp3elZLWjMtcFAxRTZSODhYUWM3WVJJNGRPbjNoTWJfVXgyNkIxVnc?oc=5",
-  "first_seen": "2026-10-15",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-10-16",
-  "times_seen": 6,
-  "outlets": [
-   "SPCX"
   ]
  },
  {

@@ -146,7 +146,7 @@
   },
   "pads": [
    {
-    "count": 55,
+    "count": 54,
     "last_net": "2026-10-24T05:29:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -247,6 +247,16 @@
    },
    {
     "count": 5,
+    "last_net": "2026-12-31T00:00:00Z",
+    "lat": 5.256319,
+    "location": "Guiana Space Centre, French Guiana",
+    "lon": -52.786838,
+    "name": "Ariane Launch Area 4",
+    "spacex": false,
+    "top_provider": "Arianespace"
+   },
+   {
+    "count": 5,
     "last_net": "2026-08-10T12:02:00Z",
     "lat": 19.618452,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -274,16 +284,6 @@
     "name": "Launch Area 96A",
     "spacex": false,
     "top_provider": "LandSpace"
-   },
-   {
-    "count": 4,
-    "last_net": "2026-11-23T00:00:00Z",
-    "lat": 5.256319,
-    "location": "Guiana Space Centre, French Guiana",
-    "lon": -52.786838,
-    "name": "Ariane Launch Area 4",
-    "spacex": false,
-    "top_provider": "Arianespace"
    },
    {
     "count": 3,
@@ -1920,27 +1920,6 @@
   },
   "upcoming": [
    {
-    "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
-    "id": "df88cfbf-f504-4e11-8370-e33dd6280b5b",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "USSF-481",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | USSF-481",
-    "net": "2026-10-16T00:01:05Z",
-    "net_precision": "SEC",
-    "orbit": "PO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/df88cfbf-f504-4e11-8370-e33dd6280b5b",
-    "webcast_live": false
-   },
-   {
     "description": "Dedicated rideshare flight to a mid-inclination orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
     "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20251102082912.jpeg",
@@ -2338,8 +2317,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
     "webcast_live": false
+   },
+   {
+    "description": "Second of EUMETSAT's second generation of Metop weather satellites.",
+    "id": "22e117bf-041c-49d5-9d09-7b180036e143",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg",
+    "lat": 5.256319,
+    "lon": -52.786838,
+    "mission": "Metop-SG B1",
+    "mission_type": "Earth Science",
+    "name": "Ariane 62 | Metop-SG B1",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "SSO",
+    "pad": "Ariane Launch Area 4",
+    "pad_location": "Guiana Space Centre, French Guiana",
+    "provider": "Arianespace",
+    "rocket": "Ariane 62",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/22e117bf-041c-49d5-9d09-7b180036e143",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-16T22:39:10.306487+00:00"
+ "fetched_at": "2026-10-17T03:27:19.880583+00:00"
 }
