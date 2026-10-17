@@ -124,7 +124,7 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "Dedicated rideshare flight to a mid-inclination orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
+   "description": "Dedicated rideshare flight to a mid-inclination orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.\r\n\r\nThis launch also carries the second demonstration mission for SpaceX\u2019s Project Starfall, which aims to mass-produce reentry capsules designed to autonomously transport valuable customer experiments and other payloads safely back from space to Ear",
    "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20251102082912.jpeg",
    "lat": 28.56194122,
@@ -166,8 +166,8 @@
     "top_provider": "SpaceX"
    },
    {
-    "count": 8,
-    "last_net": "2026-09-24T08:46:00Z",
+    "count": 9,
+    "last_net": "2026-10-23T10:15:00Z",
     "lat": 38.8583,
     "location": "Taiyuan Satellite Launch Center, People's Republic of China",
     "lon": 111.5802,
@@ -237,23 +237,13 @@
    },
    {
     "count": 5,
-    "last_net": "2026-10-23T18:00:00Z",
+    "last_net": "2026-10-23T19:25:00Z",
     "lat": 40.960482,
     "location": "Jiuquan Satellite Launch Center, People's Republic of China",
     "lon": 100.298059,
     "name": "Launch Area 94 (SLS-2 / 603)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 5,
-    "last_net": "2026-12-31T00:00:00Z",
-    "lat": 5.256319,
-    "location": "Guiana Space Centre, French Guiana",
-    "lon": -52.786838,
-    "name": "Ariane Launch Area 4",
-    "spacex": false,
-    "top_provider": "Arianespace"
    },
    {
     "count": 5,
@@ -284,6 +274,16 @@
     "name": "Launch Area 96A",
     "spacex": false,
     "top_provider": "LandSpace"
+   },
+   {
+    "count": 4,
+    "last_net": "2026-11-23T00:00:00Z",
+    "lat": 5.256319,
+    "location": "Guiana Space Centre, French Guiana",
+    "lon": -52.786838,
+    "name": "Ariane Launch Area 4",
+    "spacex": false,
+    "top_provider": "Arianespace"
    },
    {
     "count": 3,
@@ -1920,7 +1920,7 @@
   },
   "upcoming": [
    {
-    "description": "Dedicated rideshare flight to a mid-inclination orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
+    "description": "Dedicated rideshare flight to a mid-inclination orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.\r\n\r\nThis launch also carries the second demonstration mission for SpaceX\u2019s Project Starfall, which aims to mass-produce reentry capsules designed to autonomously transport valuable customer experiments and other payloads safely back from space to Ear",
     "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20251102082912.jpeg",
     "lat": 28.56194122,
@@ -2047,6 +2047,27 @@
    },
    {
     "description": "Details TBD.",
+    "id": "9648124f-8568-46d2-86d7-4b4d6f12187f",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
+    "lat": 38.8583,
+    "lon": 111.5802,
+    "mission": "Unknown Payload",
+    "mission_type": "Unknown",
+    "name": "Long March 6A | Unknown Payload",
+    "net": "2026-10-23T10:15:00Z",
+    "net_precision": "HR",
+    "orbit": "N/A",
+    "pad": "Launch Complex 9A",
+    "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 6A",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/9648124f-8568-46d2-86d7-4b4d6f12187f",
+    "webcast_live": false
+   },
+   {
+    "description": "Details TBD.",
     "id": "3621085f-deae-4f89-bd54-c0f96ee44421",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4b_l_image_thumbnail_20251209044052.jpeg",
     "lat": 40.960482,
@@ -2054,15 +2075,15 @@
     "mission": "Unknown Payload",
     "mission_type": "Unknown",
     "name": "Long March 4B | Unknown Payload",
-    "net": "2026-10-23T18:00:00Z",
+    "net": "2026-10-23T19:25:00Z",
     "net_precision": "HR",
     "orbit": "N/A",
     "pad": "Launch Area 94 (SLS-2 / 603)",
     "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "rocket": "Long March 4B",
-    "status": "TBC",
-    "status_name": "To Be Confirmed",
+    "status": "Go",
+    "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/3621085f-deae-4f89-bd54-c0f96ee44421",
     "webcast_live": false
    },
@@ -2317,29 +2338,8 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
     "webcast_live": false
-   },
-   {
-    "description": "Second of EUMETSAT's second generation of Metop weather satellites.",
-    "id": "22e117bf-041c-49d5-9d09-7b180036e143",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg",
-    "lat": 5.256319,
-    "lon": -52.786838,
-    "mission": "Metop-SG B1",
-    "mission_type": "Earth Science",
-    "name": "Ariane 62 | Metop-SG B1",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "SSO",
-    "pad": "Ariane Launch Area 4",
-    "pad_location": "Guiana Space Centre, French Guiana",
-    "provider": "Arianespace",
-    "rocket": "Ariane 62",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/22e117bf-041c-49d5-9d09-7b180036e143",
-    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-17T13:30:54.761092+00:00"
+ "fetched_at": "2026-10-17T16:53:47.638631+00:00"
 }
