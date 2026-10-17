@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-17",
-  "times_seen": 152,
+  "times_seen": 153,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -37,7 +37,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-17",
-  "times_seen": 42,
+  "times_seen": 43,
   "outlets": [
    "Optimus"
   ]
@@ -58,7 +58,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-17",
-  "times_seen": 31,
+  "times_seen": 32,
   "outlets": [
    "Neuralink"
   ]
@@ -78,7 +78,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-17",
-  "times_seen": 73,
+  "times_seen": 74,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -99,7 +99,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-17",
-  "times_seen": 24,
+  "times_seen": 25,
   "outlets": [
    "Neuralink"
   ]
@@ -120,7 +120,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-17",
-  "times_seen": 24,
+  "times_seen": 25,
   "outlets": [
    "Neuralink"
   ]
@@ -140,7 +140,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-17",
-  "times_seen": 6,
+  "times_seen": 7,
   "outlets": [
    "Production"
   ]
@@ -160,7 +160,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-17",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "Production"
   ]
@@ -178,9 +178,45 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-10-17",
-  "times_seen": 7,
+  "times_seen": 8,
   "outlets": [
    "SPCX"
+  ]
+ },
+ {
+  "statement": "Elon Musk says X Money to enter early public access next month - Reuters",
+  "entity": "Musk",
+  "horizon_phrase": "next month",
+  "horizon": "2026-11-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "X",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNTY2ZTFEem9zbWtocFR3WGlVR296enhUS0VKdy1VNi1TQnNWbGhuWnM4ZExJa29BaS1IVWQ0TUtZbTZzMFZfVG85NW15WEQzV19oMEZXSEZQZVVYaTN0Ujdkb3dHZFZlR2UtYVh6SUxtSTlMVFZfOUZkYzFkbk1JVjdGM2ZueUNUaldkUGtra0JzMWpEU0ZTNTNTQm1tVWhnMTRsaTRHY2U2NzhUNl9QQ2RsUlNYMlpHMGYzQWtFSjJSYjg?oc=5",
+  "first_seen": "2026-10-14",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-10-17",
+  "times_seen": 2,
+  "outlets": [
+   "X"
+  ]
+ },
+ {
+  "statement": "Tesla showcases flying car prototype while robotics market projected to reach $5 trillion by 2050 - Global Sources",
+  "entity": "Tesla",
+  "horizon_phrase": "by 2050",
+  "horizon": "2050-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWFoxMTZmeV9QWDE5VktXSWJVS1FsODFMM3NvQ1ZzbGdGVVVsQzZleFNnZzVJN245bXB1RjhxUXJKalcwOWZzUTNGbEFBdUdYb01vNEZQNzJfUVRDQnZuU3dwWUlxQWtOalgxU3lrc0Z3QThIWTVDZWhqY2NLdlZ5Y1g0STktR2VSbW10VlhWLVFyRWl1bDlUNVRUcUV3dTVKSG5yaFlIUnV1UEdRd09KSmNfOE90b1I5aFV6SHhfcmQzNGhaZXBvWG1RVkpIQ2hFUHhMQW9CMFBXS3ZWbVVKdldiNGY1cWdmR0RtRHluVjR4VjhLUWc?oc=5",
+  "first_seen": "2026-10-17",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-10-17",
+  "times_seen": 1,
+  "outlets": [
+   "Humanoids"
   ]
  },
  {
@@ -359,24 +395,6 @@
   "times_seen": 2,
   "outlets": [
    "Production"
-  ]
- },
- {
-  "statement": "Elon Musk says X Money to enter early public access next month - Reuters",
-  "entity": "Musk",
-  "horizon_phrase": "next month",
-  "horizon": "2026-11-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "X",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNTY2ZTFEem9zbWtocFR3WGlVR296enhUS0VKdy1VNi1TQnNWbGhuWnM4ZExJa29BaS1IVWQ0TUtZbTZzMFZfVG85NW15WEQzV19oMEZXSEZQZVVYaTN0Ujdkb3dHZFZlR2UtYVh6SUxtSTlMVFZfOUZkYzFkbk1JVjdGM2ZueUNUaldkUGtra0JzMWpEU0ZTNTNTQm1tVWhnMTRsaTRHY2U2NzhUNl9QQ2RsUlNYMlpHMGYzQWtFSjJSYjg?oc=5",
-  "first_seen": "2026-10-14",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-10-14",
-  "times_seen": 1,
-  "outlets": [
-   "X"
   ]
  },
  {
