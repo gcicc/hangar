@@ -14,8 +14,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-10-17",
-  "times_seen": 157,
+  "last_seen": "2026-10-18",
+  "times_seen": 158,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -36,8 +36,8 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-10-17",
-  "times_seen": 47,
+  "last_seen": "2026-10-18",
+  "times_seen": 48,
   "outlets": [
    "Optimus"
   ]
@@ -57,8 +57,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-10-17",
-  "times_seen": 36,
+  "last_seen": "2026-10-18",
+  "times_seen": 37,
   "outlets": [
    "Neuralink"
   ]
@@ -77,8 +77,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-10-17",
-  "times_seen": 78,
+  "last_seen": "2026-10-18",
+  "times_seen": 79,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -98,8 +98,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-10-17",
-  "times_seen": 27,
+  "last_seen": "2026-10-18",
+  "times_seen": 28,
   "outlets": [
    "Neuralink"
   ]
@@ -119,8 +119,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-10-17",
-  "times_seen": 27,
+  "last_seen": "2026-10-18",
+  "times_seen": 28,
   "outlets": [
    "Neuralink"
   ]
@@ -139,8 +139,8 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-10-17",
-  "times_seen": 11,
+  "last_seen": "2026-10-18",
+  "times_seen": 12,
   "outlets": [
    "Production"
   ]
@@ -159,8 +159,8 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-10-17",
-  "times_seen": 9,
+  "last_seen": "2026-10-18",
+  "times_seen": 10,
   "outlets": [
    "Production"
   ]
@@ -177,28 +177,10 @@
   "first_seen": "2026-10-15",
   "topics": [],
   "primary": false,
-  "last_seen": "2026-10-17",
-  "times_seen": 12,
+  "last_seen": "2026-10-18",
+  "times_seen": 13,
   "outlets": [
    "SPCX"
-  ]
- },
- {
-  "statement": "Elon Musk says X Money to enter early public access next month - Reuters",
-  "entity": "Musk",
-  "horizon_phrase": "next month",
-  "horizon": "2026-11-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "X",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNTY2ZTFEem9zbWtocFR3WGlVR296enhUS0VKdy1VNi1TQnNWbGhuWnM4ZExJa29BaS1IVWQ0TUtZbTZzMFZfVG85NW15WEQzV19oMEZXSEZQZVVYaTN0Ujdkb3dHZFZlR2UtYVh6SUxtSTlMVFZfOUZkYzFkbk1JVjdGM2ZueUNUaldkUGtra0JzMWpEU0ZTNTNTQm1tVWhnMTRsaTRHY2U2NzhUNl9QQ2RsUlNYMlpHMGYzQWtFSjJSYjg?oc=5",
-  "first_seen": "2026-10-14",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-10-17",
-  "times_seen": 2,
-  "outlets": [
-   "X"
   ]
  },
  {
@@ -213,8 +195,8 @@
   "first_seen": "2026-10-17",
   "topics": [],
   "primary": false,
-  "last_seen": "2026-10-17",
-  "times_seen": 5,
+  "last_seen": "2026-10-18",
+  "times_seen": 6,
   "outlets": [
    "Humanoids"
   ]
@@ -233,10 +215,28 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-10-17",
-  "times_seen": 3,
+  "last_seen": "2026-10-18",
+  "times_seen": 4,
   "outlets": [
    "Production"
+  ]
+ },
+ {
+  "statement": "Elon Musk says X Money to enter early public access next month - Reuters",
+  "entity": "Musk",
+  "horizon_phrase": "next month",
+  "horizon": "2026-11-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "X",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNTY2ZTFEem9zbWtocFR3WGlVR296enhUS0VKdy1VNi1TQnNWbGhuWnM4ZExJa29BaS1IVWQ0TUtZbTZzMFZfVG85NW15WEQzV19oMEZXSEZQZVVYaTN0Ujdkb3dHZFZlR2UtYVh6SUxtSTlMVFZfOUZkYzFkbk1JVjdGM2ZueUNUaldkUGtra0JzMWpEU0ZTNTNTQm1tVWhnMTRsaTRHY2U2NzhUNl9QQ2RsUlNYMlpHMGYzQWtFSjJSYjg?oc=5",
+  "first_seen": "2026-10-14",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-10-17",
+  "times_seen": 2,
+  "outlets": [
+   "X"
   ]
  },
  {
