@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-18",
-  "times_seen": 159,
+  "times_seen": 160,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -37,9 +37,10 @@
   ],
   "primary": false,
   "last_seen": "2026-10-18",
-  "times_seen": 49,
+  "times_seen": 50,
   "outlets": [
-   "Optimus"
+   "Optimus",
+   "Optimus Features"
   ]
  },
  {
@@ -58,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-18",
-  "times_seen": 38,
+  "times_seen": 39,
   "outlets": [
    "Neuralink"
   ]
@@ -78,7 +79,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-18",
-  "times_seen": 80,
+  "times_seen": 81,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -99,7 +100,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-18",
-  "times_seen": 29,
+  "times_seen": 30,
   "outlets": [
    "Neuralink"
   ]
@@ -120,7 +121,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-18",
-  "times_seen": 29,
+  "times_seen": 30,
   "outlets": [
    "Neuralink"
   ]
@@ -160,7 +161,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-18",
-  "times_seen": 11,
+  "times_seen": 12,
   "outlets": [
    "Production"
   ]
@@ -178,7 +179,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-10-18",
-  "times_seen": 14,
+  "times_seen": 15,
   "outlets": [
    "SPCX"
   ]
@@ -216,9 +217,29 @@
   ],
   "primary": false,
   "last_seen": "2026-10-18",
-  "times_seen": 5,
+  "times_seen": 6,
   "outlets": [
    "Production"
+  ]
+ },
+ {
+  "statement": "Elon Musk claims Tesla will start using humanoid robots next year - The Guardian",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxON1JRck5ZbmdqbGttdVE0X1ppNWZhbEZSUFJWbVZkQ1BmY0drNXM0bkdVWGFjODZjcklHcTlxYTBjQzJoaS0tSk9SYTNaclh1bEFQOU0yM2V2dVV3bVNLblBGZ3p1LVM3alo3VUpPM0hNNVM0ZFlKMUNORkh5S1c0ZWFtOFJBZmQtZlphcFVUcmdFRDNWWmVMeTZLZG95REk?oc=5",
+  "first_seen": "2026-10-18",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-18",
+  "times_seen": 1,
+  "outlets": [
+   "Optimus"
   ]
  },
  {
