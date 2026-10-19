@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-19",
-  "times_seen": 165,
+  "times_seen": 166,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -37,7 +37,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-19",
-  "times_seen": 55,
+  "times_seen": 56,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-19",
-  "times_seen": 44,
+  "times_seen": 45,
   "outlets": [
    "Neuralink"
   ]
@@ -79,7 +79,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-19",
-  "times_seen": 86,
+  "times_seen": 87,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -100,7 +100,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-19",
-  "times_seen": 32,
+  "times_seen": 33,
   "outlets": [
    "Neuralink"
   ]
@@ -121,7 +121,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-19",
-  "times_seen": 32,
+  "times_seen": 33,
   "outlets": [
    "Neuralink"
   ]
@@ -141,7 +141,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-19",
-  "times_seen": 17,
+  "times_seen": 18,
   "outlets": [
    "Production"
   ]
@@ -180,7 +180,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-19",
-  "times_seen": 73,
+  "times_seen": 74,
   "outlets": [
    "Starship",
    "Falcon"
@@ -201,7 +201,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-19",
-  "times_seen": 1,
+  "times_seen": 2,
   "outlets": [
    "SPCX"
   ]
@@ -221,7 +221,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-19",
-  "times_seen": 1,
+  "times_seen": 2,
   "outlets": [
    "SPCX"
   ]
@@ -241,7 +241,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-19",
-  "times_seen": 1,
+  "times_seen": 2,
   "outlets": [
    "SPCX"
   ]
@@ -367,6 +367,267 @@
   ]
  },
  {
+  "statement": "Elon Musk says X Money to enter early public access next month - Reuters",
+  "entity": "Musk",
+  "horizon_phrase": "next month",
+  "horizon": "2026-11-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "X",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNTY2ZTFEem9zbWtocFR3WGlVR296enhUS0VKdy1VNi1TQnNWbGhuWnM4ZExJa29BaS1IVWQ0TUtZbTZzMFZfVG85NW15WEQzV19oMEZXSEZQZVVYaTN0Ujdkb3dHZFZlR2UtYVh6SUxtSTlMVFZfOUZkYzFkbk1JVjdGM2ZueUNUaldkUGtra0JzMWpEU0ZTNTNTQm1tVWhnMTRsaTRHY2U2NzhUNl9QQ2RsUlNYMlpHMGYzQWtFSjJSYjg?oc=5",
+  "first_seen": "2026-10-14",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-10-19",
+  "times_seen": 3,
+  "outlets": [
+   "X"
+  ]
+ },
+ {
+  "statement": "SpaceX wants to launch next Starship this month (and catch it, too), Elon Musk says in 1st earnings call since historic IPO - Space",
+  "entity": "SpaceX",
+  "horizon_phrase": "this month",
+  "horizon": "2026-09-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPUHUxR2UtWnZHMFVRZ3I4eVJNWHFHWVctUjlaRk5RcG9WbWxaTjVKWDMzQ2hseFF4bHByMUpxZ2lwME1jTHJWSExyMVZtLUlZUm14N0oyYlBjcU9aa2FQWE84RmVrcVVHVTZoZl9Mb0lRSklvRHF1STV5amZ4UFE2a19sZzRKYzF4SU1ybHFzamRYZkkxQTBqN21yQ2tlNWgyQkJNQ3J2aGlwR0xCWnZCYWdqN1ZYcHBLTzA4TEpLT2FKeEtpa2prSHJiUldhU0hLbzRSTndRaDJuNVJvenVORUhWZ3NCYUFBSXdIX2RmZGtUTVZlb2k0d0JhSkRrRFFvNXlqanVEdVo5ams?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "starship",
+   "launch",
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-19",
+  "times_seen": 70,
+  "outlets": [
+   "Starship"
+  ]
+ },
+ {
+  "statement": "Musk pledges to give a share of his SpaceX company to 'every kid in America' next year - PBS",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "TSLA",
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMzNoSnpDZlNJZTkxRXctLVhNZmVfclVCdWNjRnd4YU9uVU4wblNxRFE4ai10UlRMaTBtbVRQWTZFbVh2bTFDeU9vSmZ4NHY5N2dGc0VfaHFjRFVia3FucURwN2NEYnFnckhuLXBkRU03Q25VckpybWtVazRXUnFLdkxuR2s0V3U4M2I2ZFVkMEN1bmNzQnV4OUNfWXVBenVmQ3NMOExQenBRQnB4Sks1djR1dmVLRW5iWVM3dA?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-19",
+  "times_seen": 1,
+  "outlets": [
+   "TSLA"
+  ]
+ },
+ {
+  "statement": "Billionaire Elon Musk says he\u2019ll give every kid in America shares of SpaceX next year - Fortune",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNnNpczdqQ3BTWl91R2tfZEZuOFJDaHVwM0F3aWxxVG9lUUFaWGNlbGNSR25KMnl2dlhNR1RkcmhORzNhaWxfZmdENzYweF9oUWpmWHdqbHptRmgzTkdkYTZJUlAzaXZxcTZuUmtWWkVvT1JtZ1lBZkRIc3FWQ1pFVFUtLXRRMGRkQW55N183Z2xNWGZDV1picHdvU2F1MFJVS09tVy00dVRnOF93V3VTWW1QaHVFY0N5aTRVR1RZLTN2dXJk?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-19",
+  "times_seen": 1,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "Elon Musk Pledges $10.5 Billion in SpaceX Shares to \u2018Every Kid in America\u2019 in 2027 - Yahoo Finance",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMjFkcGJrRnh6WVpOaW50a1R4YTRaUkp2anJ6TXFMN1VJQ1hfMWVEZEV4cnF0RUF0RHJIR1FMci00NlFtdmlKUWU2bzhnMXdkV1FjS3l0VnJKWkxsQmFmOXdjWlNYRVVUZlY2MHNYQ2l1SzBKVnRlMDhDNXZrcUprX2VCUjRHUEVTOUxqWkdBVFM?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-19",
+  "times_seen": 1,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "Elon Musk pledges SpaceX shares to every American child next year - Yahoo Finance",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZFdHS3NxbXBrOWcwcWlzc1N1R3FVRm9sRVI1cHZOZVFBVXYwQUV3SGc0UDBtY1hNMzNHQXJPVkdxaTFJeVNMN0lXRHJxd05ubG1KTUNOUmN2ZnF5bHRYV0RiWHhiN0NOR3pZdS1tU1lJZDRCN2RuSTNUbGppLTFaUHlmSUl1RTdvSTdLbWNlTXVVNzR0Tm9VbWZETVg?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-19",
+  "times_seen": 1,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "Musk vows a SpaceX share for every US child next year, says it's 'the first of many' - WPDE",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOaVg5OHVKblVzNmtWSzlEY2R3WHMwcF9vOUpOUlJYTlFwbTdsa0ZhRUVnMmpiODdnMWR6cGJxX3RwQU9lS01sMzFtcFVOWmtNekFGa3R4cVM2SXpkVGJiQTFIWUhqSVkxMW1obDNBNHpHSk1PYmtENTlrT2RKYXEtWDZtajk3Rk0ybHJneV9BNkFZcnhlZ1FVNjdCMWhlZ3ZyenJFU2FWaWpSclZGVC1EYV9NdVlHa3VjUEFRMVNucGtQNjRBN3I4TEdjTjZ6LVpDVDQwZTRFZHYzMGpmZ0psWWQxNVFaSVZoS1BqODhzaVNKMW40OVFKMU1wZlZCMU45bU9nWXFOV0RUNk5URko0dWN5c1lfQzZST2JPNk5PMFc5ek9Xd3NSaEZDb3d1NGp5?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-19",
+  "times_seen": 1,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "Musk pledges one SpaceX share to every U.S. child in 2027, leaving delivery plan unresolved - MLQ.ai",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMHNnc2tjY2Nnd1E0OThxV2NuZUpEVHdraHBYNjVNbm1LU2EzOWFicXhRX3FzWFR5eE1fWWltMG1DUnlaSklxdkZkMkZPb3lweF95eHJxWDBENXdLUFV0MWNOdUR2cGEyVTB6UWJxYmM5Z1RUM2NzZDNOdElYSWtzZzZOTUZoekpKRTJ1UTVodGQ4SmgycEFQZlB0c2hJQkVfam96aXFmdmRFbko2S2c?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "production",
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-19",
+  "times_seen": 1,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "Elon Musk Makes Extraordinary Pledge to Give Every U.S. Child SpaceX Stock in 2027 - Space Coast Daily",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNY2dBSk43Y3QzYVVzOVhhTmJYbXl0Z0t2ck1SSzc2YTllemxGak1TVG9XamZUcm9uNS1oakl2bTVPM3Y4MW5zMnRRdmp6UHYzeXpGV1U4c0xpQjg2VHZlTGNndTZoa2Z0ckI0c0VYenljSDYyZlFoTTdhQmhzaE5IakhQS1RqdUdfa0dyWVRNNTQ4dDhjNDBfTnZVMjhSVTZ3SUlpc0t2ZDBWcnFvX01kX3ZMRTB5SXhCcHc?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-19",
+  "times_seen": 1,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "Elon Musk Pledges SpaceX Stock Giveaway for Every U.S. Child in 2027 - citybiz",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTDQ2cjk1THhQQmUtR3FieTIycVBEZ0tSVGE4Rm9qT0xzTGo4VkgxY0lmQy1JSmZEQmdwczRvbHhEMDFObldoZWxhZ3B0OUJUM0ZhMGJxem9JV1QyUTFXd2F1SzFTVVpWQWVLYmEtU2NXQnhDeXJWUEpxTGdJd3dNSTZwVXFJYVA1Z3BwSUY0dUtTUGVvWG9FWDFPU2REQ2lXdy1GM05tWVAtUQ?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-19",
+  "times_seen": 1,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "Elon Musk says he\u2019ll give one of his SpaceX (SPCX) shares to every child in America in 2027 - Shacknews",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdGxaM2gteXBBMG96YnREZ2R5WVBoNXg4MzNYQmFSVGN3NFdrd1FtYzFLVGx0T2wta21TeGQ0aGgwbG1YZnZRXzJXYWdSQ3laVHU1RE5saUxFdWE3NU5TWFhiWWszS0dOOTlsNlR2UU12Q2Y0TlA3SUo2enM3cTd3Z1RWWGZNRzU5ZlgtSW93?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-19",
+  "times_seen": 1,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "Musk pledges a SpaceX share to every American child next year - The Tech Portal",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQczdobGR5cmg5dFVkQVRTUkNIS0Q1akd1b1JQVWVLX3htWU0wQkgxR2s1MkFkZnJGSWZuazFKR1hQVEppeHpSRHNxRDNvNWlNSGhRYlIwOWdJd2pZal8xRFVKVS0zNmhpZll3by10cXk4SlhwTFYtRTlrcVFFejg4Z05uM1JLUzJxNkI2MUtkT2NUWnRvX2dBNEFyT0lJSnVr?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-19",
+  "times_seen": 1,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "Elon Musk promises to give every child in America a free SpaceX share next year - TechSpot",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Musk",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQN1NySG1BMFFWVFpwNEQ0TkxqZl9sUUhvS0gxbzZYbWtVY2RqU2dtYmE5RmlkeU1jN3lNcThBUy1qeDVobGhGUm9rNWdRa04zY011ZWFVSE9GcmZLWmVoWjV0MllielZGNXRUN1o2VzQ5ZUY0ckZqR2pTRG1sT3FuOVlEaWtZdVhCZmRRcGR5RVNjLXpF?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-19",
+  "times_seen": 1,
+  "outlets": [
+   "Musk"
+  ]
+ },
+ {
   "statement": "Tesla Roadster Re-Reveal Promises New Design, Flight, Production In 2028 - Jalopnik",
   "entity": "Tesla",
   "horizon_phrase": "In 2028",
@@ -442,24 +703,6 @@
   "times_seen": 1,
   "outlets": [
    "Optimus"
-  ]
- },
- {
-  "statement": "Elon Musk says X Money to enter early public access next month - Reuters",
-  "entity": "Musk",
-  "horizon_phrase": "next month",
-  "horizon": "2026-11-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "X",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNTY2ZTFEem9zbWtocFR3WGlVR296enhUS0VKdy1VNi1TQnNWbGhuWnM4ZExJa29BaS1IVWQ0TUtZbTZzMFZfVG85NW15WEQzV19oMEZXSEZQZVVYaTN0Ujdkb3dHZFZlR2UtYVh6SUxtSTlMVFZfOUZkYzFkbk1JVjdGM2ZueUNUaldkUGtra0JzMWpEU0ZTNTNTQm1tVWhnMTRsaTRHY2U2NzhUNl9QQ2RsUlNYMlpHMGYzQWtFSjJSYjg?oc=5",
-  "first_seen": "2026-10-14",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-10-17",
-  "times_seen": 2,
-  "outlets": [
-   "X"
   ]
  },
  {
@@ -843,28 +1086,6 @@
   "times_seen": 4,
   "outlets": [
    "Falcon"
-  ]
- },
- {
-  "statement": "SpaceX wants to launch next Starship this month (and catch it, too), Elon Musk says in 1st earnings call since historic IPO - Space",
-  "entity": "SpaceX",
-  "horizon_phrase": "this month",
-  "horizon": "2026-09-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPUHUxR2UtWnZHMFVRZ3I4eVJNWHFHWVctUjlaRk5RcG9WbWxaTjVKWDMzQ2hseFF4bHByMUpxZ2lwME1jTHJWSExyMVZtLUlZUm14N0oyYlBjcU9aa2FQWE84RmVrcVVHVTZoZl9Mb0lRSklvRHF1STV5amZ4UFE2a19sZzRKYzF4SU1ybHFzamRYZkkxQTBqN21yQ2tlNWgyQkJNQ3J2aGlwR0xCWnZCYWdqN1ZYcHBLTzA4TEpLT2FKeEtpa2prSHJiUldhU0hLbzRSTndRaDJuNVJvenVORUhWZ3NCYUFBSXdIX2RmZGtUTVZlb2k0d0JhSkRrRFFvNXlqanVEdVo5ams?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "starship",
-   "launch",
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-28",
-  "times_seen": 69,
-  "outlets": [
-   "Starship"
   ]
  },
  {

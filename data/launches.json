@@ -97,7 +97,7 @@
    "other": [
     21,
     11,
-    15,
+    16,
     14,
     12,
     19,
@@ -124,30 +124,30 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "MMX is a Japanese scientific mission to land on Phobos, one of the two moons of Mars, to collect samples before bringing them back to Earth.\r\n\r\nThe mission includes a small French/German rover to explore the surface of Phobos.",
-   "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_thumbnail_20251028184029.jpeg",
-   "lat": 30.400938,
-   "lon": 130.97564,
-   "mission": "Martian Moons eXploration (MMX)",
-   "mission_type": "Planetary Science",
-   "name": "H3-24 | Martian Moons eXploration (MMX)",
-   "net": "2026-10-19T19:41:03Z",
-   "net_precision": "SEC",
-   "orbit": "Mars",
-   "pad": "Yoshinobu Launch Complex LP-2",
-   "pad_location": "Tanegashima Space Center, Japan",
-   "provider": "Mitsubishi Heavy Industries",
-   "rocket": "H3-24",
+   "description": "Dedicated rideshare flight to a mid-inclination orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.\r\n\r\nThis launch also carries the second demonstration mission for SpaceX\u2019s Project Starfall, which aims to mass-produce reentry capsules designed to autonomously transport valuable customer experiments and other payloads safely back from space to Ear",
+   "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20251102082912.jpeg",
+   "lat": 28.56194122,
+   "lon": -80.57735736,
+   "mission": "Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+   "mission_type": "Dedicated Rideshare",
+   "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+   "net": "2026-10-20T10:30:00Z",
+   "net_precision": "MIN",
+   "orbit": "LEO",
+   "pad": "Space Launch Complex 40",
+   "pad_location": "Cape Canaveral SFS, FL, USA",
+   "provider": "SpaceX",
+   "rocket": "Falcon 9 Block 5",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
+   "url": "https://nextspaceflight.com/launches/details/3b430f81-0ff1-4d85-8a1a-cef0de326198",
    "webcast_live": false
   },
   "pads": [
    {
-    "count": 54,
-    "last_net": "2026-10-24T05:29:00Z",
+    "count": 55,
+    "last_net": "2026-11-01T05:11:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
     "lon": -120.611,
@@ -247,6 +247,16 @@
    },
    {
     "count": 5,
+    "last_net": "2026-11-23T00:00:00Z",
+    "lat": 5.256319,
+    "location": "Guiana Space Centre, French Guiana",
+    "lon": -52.786838,
+    "name": "Ariane Launch Area 4",
+    "spacex": false,
+    "top_provider": "Arianespace"
+   },
+   {
+    "count": 5,
     "last_net": "2026-08-10T12:02:00Z",
     "lat": 19.618452,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -274,16 +284,6 @@
     "name": "Launch Area 96A",
     "spacex": false,
     "top_provider": "LandSpace"
-   },
-   {
-    "count": 4,
-    "last_net": "2026-11-23T00:00:00Z",
-    "lat": 5.256319,
-    "location": "Guiana Space Centre, French Guiana",
-    "lon": -52.786838,
-    "name": "Ariane Launch Area 4",
-    "spacex": false,
-    "top_provider": "Arianespace"
    },
    {
     "count": 3,
@@ -337,16 +337,6 @@
    },
    {
     "count": 3,
-    "last_net": "2026-11-30T00:00:00Z",
-    "lat": 13.7199,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.2304,
-    "name": "Satish Dhawan Space Centre Second Launch Pad",
-    "spacex": false,
-    "top_provider": "Indian Space Research Organization"
-   },
-   {
-    "count": 3,
     "last_net": "2026-10-19T19:41:03Z",
     "lat": 30.400938,
     "location": "Tanegashima Space Center, Japan",
@@ -364,16 +354,6 @@
     "name": "43/4 (43R)",
     "spacex": false,
     "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
-   },
-   {
-    "count": 3,
-    "last_net": "2026-11-30T00:00:00Z",
-    "lat": 13.733,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.235,
-    "name": "Satish Dhawan Space Centre First Launch Pad",
-    "spacex": false,
-    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 3,
@@ -417,6 +397,16 @@
    },
    {
     "count": 2,
+    "last_net": "2026-10-31T00:00:00Z",
+    "lat": 13.7199,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.2304,
+    "name": "Satish Dhawan Space Centre Second Launch Pad",
+    "spacex": false,
+    "top_provider": "Indian Space Research Organization"
+   },
+   {
+    "count": 2,
     "last_net": "2026-08-05T02:38:00Z",
     "lat": 36.631333,
     "location": "Haiyang Oriental Spaceport",
@@ -434,6 +424,16 @@
     "name": "Launch Complex 2 (LC-2)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-10-31T00:00:00Z",
+    "lat": 13.733,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.235,
+    "name": "Satish Dhawan Space Centre First Launch Pad",
+    "spacex": false,
+    "top_provider": "Skyroot Aerospace"
    },
    {
     "count": 2,
@@ -1911,10 +1911,10 @@
   "totals": {
    "previous_sampled": 200,
    "share_caveat": "Share of the most recent orbital launches fetched, over the window shown. Not a share of all launches, and not a fixed calendar period - the window moves with every refresh.",
-   "spacex_sampled": 92,
-   "spacex_share": 0.46,
+   "spacex_sampled": 91,
+   "spacex_share": 0.455,
    "window": {
-    "from": "2026-03-08",
+    "from": "2026-03-10",
     "to": "2026-10-16"
    }
   },
@@ -1935,10 +1935,10 @@
     "pad_location": "Tanegashima Space Center, Japan",
     "provider": "Mitsubishi Heavy Industries",
     "rocket": "H3-24",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
     "url": "https://nextspaceflight.com/launches/details/69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
-    "webcast_live": false
+    "webcast_live": true
    },
    {
     "description": "Dedicated rideshare flight to a mid-inclination orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.\r\n\r\nThis launch also carries the second demonstration mission for SpaceX\u2019s Project Starfall, which aims to mass-produce reentry capsules designed to autonomously transport valuable customer experiments and other payloads safely back from space to Ear",
@@ -2109,6 +2109,27 @@
     "webcast_live": false
    },
    {
+    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+    "id": "57ce0a39-d035-4f16-a418-bd6108f78199",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "Starlink Group 15-18",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-18",
+    "net": "2026-10-28T04:31:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/57ce0a39-d035-4f16-a418-bd6108f78199",
+    "webcast_live": false
+   },
+   {
     "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
     "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg",
@@ -2190,6 +2211,27 @@
     "status": "TBD",
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/e59ff9a4-f72f-4841-8546-3c94346ecdba",
+    "webcast_live": false
+   },
+   {
+    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+    "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "Starlink Group 15-21",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-21",
+    "net": "2026-11-01T05:11:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
     "webcast_live": false
    },
    {
@@ -2296,50 +2338,8 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/d74afbc7-0de5-491c-be05-4e9c31f736ac",
     "webcast_live": false
-   },
-   {
-    "description": "First uncrewed orbital test flight of the Gaganyaan capsule.",
-    "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg",
-    "lat": 13.7199,
-    "lon": 80.2304,
-    "mission": "Gaganyaan-1",
-    "mission_type": "Test Flight",
-    "name": "LVM-3 | Gaganyaan-1",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad",
-    "pad_location": "Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "rocket": "Launch Vehicle Mark-3 (GSLV Mk III)",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/dfac5ab7-7017-454f-b6cf-eeed277a97b5",
-    "webcast_live": false
-   },
-   {
-    "description": "TDS-01 (Technology Demonstration Satellite-01) is an Indian geostationary orbit technology demonstration satellite carrying payloads for the Indian Space Research Organisation (ISRO)\u2019s Institute of Plasma Research, Gandhinagar and the CSIR-CEERI, Pilani. \r\n\r\nPayloads to be tested included an internally developed 300 mN electric powered thrusters, atomic clocks, travelling wave tube amplifiers (TWT",
-    "id": "b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193829.jpeg",
-    "lat": 13.733,
-    "lon": 80.235,
-    "mission": "TDS-01",
-    "mission_type": "Technology",
-    "name": "PSLV-XL | TDS-01",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "GTO",
-    "pad": "Satish Dhawan Space Centre First Launch Pad",
-    "pad_location": "Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "rocket": "PSLV XL",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
-    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-19T12:28:33.929011+00:00"
+ "fetched_at": "2026-10-19T19:42:22.028237+00:00"
 }
