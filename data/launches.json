@@ -97,11 +97,11 @@
    "other": [
     21,
     11,
-    16,
+    15,
     14,
     12,
     19,
-    3
+    4
    ],
    "partial": [
     false,
@@ -196,6 +196,16 @@
     "top_provider": "Rocket Lab"
    },
    {
+    "count": 6,
+    "last_net": "2026-10-21T07:00:00Z",
+    "lat": -39.262833,
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "lon": 177.864469,
+    "name": "Rocket Lab Launch Complex 1A",
+    "spacex": false,
+    "top_provider": "Rocket Lab"
+   },
+   {
     "count": 5,
     "last_net": "2026-10-09T19:27:00Z",
     "lat": 19.59755,
@@ -227,16 +237,6 @@
    },
    {
     "count": 5,
-    "last_net": "2026-09-11T03:28:00Z",
-    "lat": -39.262833,
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "lon": 177.864469,
-    "name": "Rocket Lab Launch Complex 1A",
-    "spacex": false,
-    "top_provider": "Rocket Lab"
-   },
-   {
-    "count": 5,
     "last_net": "2026-10-23T19:25:00Z",
     "lat": 40.960482,
     "location": "Jiuquan Satellite Launch Center, People's Republic of China",
@@ -244,16 +244,6 @@
     "name": "Launch Area 94 (SLS-2 / 603)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 5,
-    "last_net": "2026-11-23T00:00:00Z",
-    "lat": 5.256319,
-    "location": "Guiana Space Centre, French Guiana",
-    "lon": -52.786838,
-    "name": "Ariane Launch Area 4",
-    "spacex": false,
-    "top_provider": "Arianespace"
    },
    {
     "count": 5,
@@ -277,6 +267,16 @@
    },
    {
     "count": 4,
+    "last_net": "2026-10-19T19:41:03Z",
+    "lat": 30.400938,
+    "location": "Tanegashima Space Center, Japan",
+    "lon": 130.97564,
+    "name": "Yoshinobu Launch Complex LP-2",
+    "spacex": false,
+    "top_provider": "Mitsubishi Heavy Industries"
+   },
+   {
+    "count": 4,
     "last_net": "2026-10-14T11:40:00Z",
     "lat": 40.91491,
     "location": "Jiuquan Satellite Launch Center, People's Republic of China",
@@ -284,6 +284,16 @@
     "name": "Launch Area 96A",
     "spacex": false,
     "top_provider": "LandSpace"
+   },
+   {
+    "count": 4,
+    "last_net": "2026-11-23T00:00:00Z",
+    "lat": 5.256319,
+    "location": "Guiana Space Centre, French Guiana",
+    "lon": -52.786838,
+    "name": "Ariane Launch Area 4",
+    "spacex": false,
+    "top_provider": "Arianespace"
    },
    {
     "count": 3,
@@ -337,16 +347,6 @@
    },
    {
     "count": 3,
-    "last_net": "2026-10-19T19:41:03Z",
-    "lat": 30.400938,
-    "location": "Tanegashima Space Center, Japan",
-    "lon": 130.97564,
-    "name": "Yoshinobu Launch Complex LP-2",
-    "spacex": false,
-    "top_provider": "Mitsubishi Heavy Industries"
-   },
-   {
-    "count": 3,
     "last_net": "2026-07-19T17:51:00Z",
     "lat": 62.92883,
     "location": "Plesetsk Cosmodrome, Russian Federation",
@@ -364,16 +364,6 @@
     "name": "Launch Complex 3 (LC-3/LA-1)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 3,
-    "last_net": "2026-11-10T00:00:00Z",
-    "lat": -39.260881,
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "lon": 177.865826,
-    "name": "Unknown Pad",
-    "spacex": false,
-    "top_provider": "Rocket Lab"
    },
    {
     "count": 2,
@@ -454,6 +444,16 @@
     "name": "Long March 12 series Pad",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-11-10T00:00:00Z",
+    "lat": -39.260881,
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "lon": 177.865826,
+    "name": "Unknown Pad",
+    "spacex": false,
+    "top_provider": "Rocket Lab"
    },
    {
     "count": 1,
@@ -647,6 +647,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "MMX is a Japanese scientific mission to land on Phobos, one of the two moons of Mars, to collect samples before bringing them back to Earth.\r\n\r\nThe mission includes a small French/German rover to explore the surface of Phobos.",
+    "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_thumbnail_20251028184029.jpeg",
+    "lat": 30.400938,
+    "lon": 130.97564,
+    "mission": "Martian Moons eXploration (MMX)",
+    "mission_type": "Planetary Science",
+    "name": "H3-24 | Martian Moons eXploration (MMX)",
+    "net": "2026-10-19T19:41:03Z",
+    "net_precision": "SEC",
+    "orbit": "Mars",
+    "pad": "Yoshinobu Launch Complex LP-2",
+    "pad_location": "Tanegashima Space Center, Japan",
+    "provider": "Mitsubishi Heavy Industries",
+    "rocket": "H3-24",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
+    "webcast_live": false
+   },
    {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
     "id": "df88cfbf-f504-4e11-8370-e33dd6280b5b",
@@ -1885,27 +1906,6 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/56a85c82-ea71-449b-828c-b583f6f4a18b",
     "webcast_live": false
-   },
-   {
-    "description": "2 hyper-spectral Earth observation satellites from Chinese company STAR.VISION. Both satellites are built in corporation with foreign customers:\r\n\r\n* Lampung-1: Built in close partnership with Lampung Province, Indonesia, to accelerate marine economy growth, environmental governance, and regional industry collaboration.\r\n\r\n* Samarkand 2028: Jointly created with Uzcosmos, Uzbekistan, to support reg",
-    "id": "d46cab82-dcf5-4d70-b698-d7bead7f638c",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_thumbnail_20240925074607.jpeg",
-    "lat": 36.631333,
-    "lon": 121.198361,
-    "mission": "OSE HS-01 & 02",
-    "mission_type": "Earth Science",
-    "name": "Smart Dragon 3 | OSE HS-01 & 02",
-    "net": "2026-08-05T02:38:00Z",
-    "net_precision": "MIN",
-    "orbit": "SSO",
-    "pad": "Haiyang offshore launch location",
-    "pad_location": "Haiyang Oriental Spaceport",
-    "provider": "China Rocket Co. Ltd.",
-    "rocket": "Smart Dragon 3",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/d46cab82-dcf5-4d70-b698-d7bead7f638c",
-    "webcast_live": false
    }
   ],
   "totals": {
@@ -1915,7 +1915,7 @@
    "spacex_share": 0.455,
    "window": {
     "from": "2026-03-10",
-    "to": "2026-10-16"
+    "to": "2026-10-19"
    }
   },
   "upcoming": [
@@ -1935,10 +1935,10 @@
     "pad_location": "Tanegashima Space Center, Japan",
     "provider": "Mitsubishi Heavy Industries",
     "rocket": "H3-24",
-    "status": "In Flight",
-    "status_name": "Launch in Flight",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
-    "webcast_live": true
+    "webcast_live": false
    },
    {
     "description": "Dedicated rideshare flight to a mid-inclination orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.\r\n\r\nThis launch also carries the second demonstration mission for SpaceX\u2019s Project Starfall, which aims to mass-produce reentry capsules designed to autonomously transport valuable customer experiments and other payloads safely back from space to Ear",
@@ -2007,20 +2007,20 @@
     "description": "HawkEye 360 is a a space-based civil global intelligence satellite network using radio frequency (RF) technology to help monitor transportation across air, land and sea and assist with emergencies, and to provide civil SIGINT (Signal Intelligence) mission.\r\n\r\nThe constellation of small satellites (named Hawk ) will collect information on specific radio signals worldwide to provide high-precision r",
     "id": "7766f3bb-674c-4c71-b986-963bd633fcfe",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
-    "lat": -39.260881,
-    "lon": 177.865826,
+    "lat": -39.262833,
+    "lon": 177.864469,
     "mission": "We're Not Hawking Around (3x HawkEye 360)",
     "mission_type": "Earth Science",
     "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
-    "net": "2026-10-21T05:00:00Z",
-    "net_precision": "HR",
+    "net": "2026-10-21T07:00:00Z",
+    "net_precision": "MIN",
     "orbit": "SSO",
-    "pad": "Unknown Pad",
+    "pad": "Rocket Lab Launch Complex 1A",
     "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "rocket": "Electron",
-    "status": "TBC",
-    "status_name": "To Be Confirmed",
+    "status": "Go",
+    "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/7766f3bb-674c-4c71-b986-963bd633fcfe",
     "webcast_live": false
    },
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-19T19:42:22.028237+00:00"
+ "fetched_at": "2026-10-19T23:24:56.639335+00:00"
 }
