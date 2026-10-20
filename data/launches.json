@@ -133,7 +133,7 @@
    "mission_type": "Dedicated Rideshare",
    "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
    "net": "2026-10-20T10:30:00Z",
-   "net_precision": "MIN",
+   "net_precision": "SEC",
    "orbit": "LEO",
    "pad": "Space Launch Complex 40",
    "pad_location": "Cape Canaveral SFS, FL, USA",
@@ -1950,7 +1950,7 @@
     "mission_type": "Dedicated Rideshare",
     "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
     "net": "2026-10-20T10:30:00Z",
-    "net_precision": "MIN",
+    "net_precision": "SEC",
     "orbit": "LEO",
     "pad": "Space Launch Complex 40",
     "pad_location": "Cape Canaveral SFS, FL, USA",
@@ -1970,8 +1970,8 @@
     "mission": "Starlink Group 15-15",
     "mission_type": "Communications",
     "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-    "net": "2026-10-20T22:14:00Z",
-    "net_precision": "MIN",
+    "net": "2026-10-20T23:09:23Z",
+    "net_precision": "SEC",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
     "pad_location": "Vandenberg SFB, CA, USA",
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-19T23:24:56.639335+00:00"
+ "fetched_at": "2026-10-20T03:55:41.791973+00:00"
 }
