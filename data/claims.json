@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 169,
+  "times_seen": 170,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -37,7 +37,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 59,
+  "times_seen": 60,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 48,
+  "times_seen": 49,
   "outlets": [
    "Neuralink"
   ]
@@ -79,7 +79,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 90,
+  "times_seen": 91,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -100,7 +100,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 36,
+  "times_seen": 37,
   "outlets": [
    "Neuralink"
   ]
@@ -121,7 +121,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 36,
+  "times_seen": 37,
   "outlets": [
    "Neuralink"
   ]
@@ -142,7 +142,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 77,
+  "times_seen": 78,
   "outlets": [
    "Starship",
    "Falcon"
@@ -163,7 +163,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 5,
+  "times_seen": 6,
   "outlets": [
    "SPCX",
    "TSLA"
@@ -184,7 +184,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 5,
+  "times_seen": 6,
   "outlets": [
    "SPCX"
   ]
@@ -204,7 +204,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 5,
+  "times_seen": 6,
   "outlets": [
    "SPCX"
   ]
@@ -226,7 +226,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 73,
+  "times_seen": 74,
   "outlets": [
    "Starship"
   ]
@@ -246,7 +246,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "TSLA"
   ]
@@ -266,7 +266,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "SPCX"
   ]
@@ -328,7 +328,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "Musk"
   ]
@@ -348,7 +348,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 2,
+  "times_seen": 3,
   "outlets": [
    "SPCX"
   ]
@@ -366,7 +366,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "X"
   ]
@@ -386,9 +386,47 @@
   ],
   "primary": false,
   "last_seen": "2026-10-20",
-  "times_seen": 1,
+  "times_seen": 2,
   "outlets": [
    "SPCX"
+  ]
+ },
+ {
+  "statement": "Waymo plans to grow robotaxi fleet to 20,000 vehicles by 2027: Report - Drive Tesla Canada",
+  "entity": "robotaxi",
+  "horizon_phrase": "by 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": "20,000 vehicles",
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWDVUcnNreVhqYkJtbXhtMkxyLXA0Nm1GM2hwQy0zMlB0ZkpkYWxNdFkzcldmVlV2cGRtSTFjYXZnbExWOUhmUTFndVI3Y1JqMldzTjhDUzc2c3dzVWpUQkxaaTRKMVdGTW5CbFRabFpudExGODJBZmNaMmNobER6RWxqR1ptWEhzMDZmRA?oc=5",
+  "first_seen": "2026-10-20",
+  "topics": [
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-20",
+  "times_seen": 1,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Musk says he plans to give children a stake in SpaceX next year - cbs19.tv",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Musk",
+  "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPOWp3VjMxRzU5SGQ2cGxFOFd2bWZrZXdtUnV5TXpwZEs1STAxZXN5RkZhNDF1R2pCRHFPT2dhbHkzQnI1MldNMkJoeGlSenNCX2hiSjJNOEx2WmphVF9KZXB1V2I3N3JWTmhDOF80X1JLd3lDY2EyTVdaWXVYSVB5QzFOMWN5STE1ZmJ4TU9ZY1ctcWtmNjZnblVUcnBJZmVFMG5PcFpqck9XNENvZVBkWVlDX2JmZ0xYcDYtd1RZU1FDUHAxNFhzVXNzR1hteE4tNHpxVnB1eTl5dw?oc=5",
+  "first_seen": "2026-10-20",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-10-20",
+  "times_seen": 1,
+  "outlets": [
+   "Musk"
   ]
  },
  {
