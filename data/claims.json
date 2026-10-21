@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-21",
-  "times_seen": 175,
+  "times_seen": 176,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -37,7 +37,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-21",
-  "times_seen": 65,
+  "times_seen": 66,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-21",
-  "times_seen": 54,
+  "times_seen": 55,
   "outlets": [
    "Neuralink"
   ]
@@ -79,7 +79,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-21",
-  "times_seen": 96,
+  "times_seen": 97,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -122,7 +122,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-21",
-  "times_seen": 11,
+  "times_seen": 12,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -303,7 +303,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-21",
-  "times_seen": 39,
+  "times_seen": 40,
   "outlets": [
    "Neuralink"
   ]
@@ -324,7 +324,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-21",
-  "times_seen": 39,
+  "times_seen": 40,
   "outlets": [
    "Neuralink"
   ]
@@ -344,7 +344,28 @@
   ],
   "primary": false,
   "last_seen": "2026-10-21",
-  "times_seen": 2,
+  "times_seen": 3,
+  "outlets": [
+   "Starship"
+  ]
+ },
+ {
+  "statement": "SpaceX will attempt to reach weekly Starship launches by early 2027 - Ars Technica",
+  "entity": "SpaceX",
+  "horizon_phrase": "by early 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQ2dWWWJSd201Y1BJYmtVOWpnVGRSamJ1OUJTY3VzaDBmdjRRY1ZBZDJjNkxxMnlHZ2ZRbmJhN1RpMU9wNUhVSTI1T0Y2RURaYnpGN3dhQXBWRHhSZ2xvYzZ4d2xWczZnQVlUX0EydFpJWFJ6emNTU1J2YVJGZm8wWE5NSFBkVE93ODVuZnF5WWs3N05RdnVDWWlGWjJHM0RJTmlMYXdtczNTZw?oc=5",
+  "first_seen": "2026-10-21",
+  "topics": [
+   "starship",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-21",
+  "times_seen": 1,
   "outlets": [
    "Starship"
   ]
