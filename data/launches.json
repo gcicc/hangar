@@ -132,15 +132,15 @@
    "mission": "Starlink Group 15-15",
    "mission_type": "Communications",
    "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-   "net": "2026-10-21T23:02:41Z",
+   "net": "2026-10-21T23:38:57Z",
    "net_precision": "SEC",
    "orbit": "LEO",
    "pad": "Space Launch Complex 4E",
    "pad_location": "Vandenberg SFB, CA, USA",
    "provider": "SpaceX",
    "rocket": "Falcon 9 Block 5",
-   "status": "Go",
-   "status_name": "Go for Launch",
+   "status": "Hold",
+   "status_name": "On Hold",
    "url": "https://nextspaceflight.com/launches/details/f6af629d-39b5-4f86-bc0c-f8776444a858",
    "webcast_live": false
   },
@@ -1100,14 +1100,14 @@
     "webcast_live": false
    },
    {
-    "description": "Note: Cosmos designation not confirmed.\r\n\r\nGlonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and design life. Each satellite is unpressurized and weighs 935 kg,  and has an operational lifetime of",
+    "description": "Glonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and design life. Each satellite is unpressurized and weighs 935 kg,  and has an operational lifetime of 10 years.",
     "id": "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
     "lat": 62.9273,
     "lon": 40.45,
-    "mission": "Glonass-K1 No. 19 (Kosmos 2620?)",
+    "mission": "Glonass-K1 No. 19 (Kosmos 2620)",
     "mission_type": "Navigation",
-    "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19 (Kosmos 2620?)",
+    "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19 (Kosmos 2620)",
     "net": "2026-09-17T16:50:00Z",
     "net_precision": "HR",
     "orbit": "MEO",
@@ -1939,15 +1939,15 @@
     "mission": "Starlink Group 15-15",
     "mission_type": "Communications",
     "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-    "net": "2026-10-21T23:02:41Z",
+    "net": "2026-10-21T23:38:57Z",
     "net_precision": "SEC",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Hold",
+    "status_name": "On Hold",
     "url": "https://nextspaceflight.com/launches/details/f6af629d-39b5-4f86-bc0c-f8776444a858",
     "webcast_live": false
    },
@@ -2015,27 +2015,6 @@
     "webcast_live": false
    },
    {
-    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "e2886a96-5ce9-4f45-872f-4e25a00be837",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Starlink Group 15-16",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-16",
-    "net": "2026-10-24T05:29:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
-    "url": "https://nextspaceflight.com/launches/details/e2886a96-5ce9-4f45-872f-4e25a00be837",
-    "webcast_live": false
-   },
-   {
     "description": "Details TBD.",
     "id": "6b95bcc8-1f88-4539-84fe-f63630138766",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
@@ -2054,6 +2033,27 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/6b95bcc8-1f88-4539-84fe-f63630138766",
+    "webcast_live": false
+   },
+   {
+    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+    "id": "e2886a96-5ce9-4f45-872f-4e25a00be837",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "Starlink Group 15-16",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-16",
+    "net": "2026-10-25T05:14:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/e2886a96-5ce9-4f45-872f-4e25a00be837",
     "webcast_live": false
    },
    {
@@ -2331,5 +2331,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-21T19:57:36.105717+00:00"
+ "fetched_at": "2026-10-21T23:09:38.912743+00:00"
 }
