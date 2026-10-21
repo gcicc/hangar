@@ -101,7 +101,7 @@
     14,
     12,
     19,
-    4
+    5
    ],
    "partial": [
     false,
@@ -124,24 +124,24 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-   "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-   "lat": 34.632,
-   "lon": -120.611,
-   "mission": "Starlink Group 15-15",
-   "mission_type": "Communications",
-   "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-   "net": "2026-10-21T00:06:47Z",
-   "net_precision": "SEC",
-   "orbit": "LEO",
-   "pad": "Space Launch Complex 4E",
-   "pad_location": "Vandenberg SFB, CA, USA",
-   "provider": "SpaceX",
-   "rocket": "Falcon 9 Block 5",
+   "description": "HawkEye 360 is a a space-based civil global intelligence satellite network using radio frequency (RF) technology to help monitor transportation across air, land and sea and assist with emergencies, and to provide civil SIGINT (Signal Intelligence) mission.\r\n\r\nThe constellation of small satellites (named Hawk ) will collect information on specific radio signals worldwide to provide high-precision r",
+   "id": "7766f3bb-674c-4c71-b986-963bd633fcfe",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+   "lat": -39.262833,
+   "lon": 177.864469,
+   "mission": "We're Not Hawking Around (3x HawkEye 360)",
+   "mission_type": "Earth Science",
+   "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
+   "net": "2026-10-21T07:00:00Z",
+   "net_precision": "MIN",
+   "orbit": "SSO",
+   "pad": "Rocket Lab Launch Complex 1A",
+   "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "provider": "Rocket Lab",
+   "rocket": "Electron",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/f6af629d-39b5-4f86-bc0c-f8776444a858",
+   "url": "https://nextspaceflight.com/launches/details/7766f3bb-674c-4c71-b986-963bd633fcfe",
    "webcast_live": false
   },
   "pads": [
@@ -364,6 +364,16 @@
     "name": "Launch Complex 3 (LC-3/LA-1)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-10-21T03:39:00Z",
+    "lat": 35.391667,
+    "location": "Haiyang Oriental Spaceport",
+    "lon": 119.598667,
+    "name": "Rizhao offshore launch location",
+    "spacex": false,
+    "top_provider": "Galactic Energy"
    },
    {
     "count": 2,
@@ -614,26 +624,6 @@
     "name": "Launch Area 140",
     "spacex": false,
     "top_provider": "CAS Space"
-   },
-   {
-    "count": 1,
-    "last_net": "2026-03-12T00:50:00Z",
-    "lat": 34.7556,
-    "location": "Vandenberg SFB, CA, USA",
-    "lon": -120.6224,
-    "name": "Space Launch Complex 2W",
-    "spacex": false,
-    "top_provider": "Firefly Aerospace"
-   },
-   {
-    "count": 1,
-    "last_net": "2026-10-21T03:35:00Z",
-    "lat": 35.391667,
-    "location": "Haiyang Oriental Spaceport",
-    "lon": 119.598667,
-    "name": "Rizhao offshore launch location",
-    "spacex": false,
-    "top_provider": "Galactic Energy"
    }
   ],
   "passengers": [
@@ -647,6 +637,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "Details TBD.",
+    "id": "c6f8b6b0-6bae-460a-99bb-c12a3d29effd",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193542.jpeg",
+    "lat": 35.391667,
+    "lon": 119.598667,
+    "mission": "Unknown Payload",
+    "mission_type": "Unknown",
+    "name": "Ceres-1S | Unknown Payload",
+    "net": "2026-10-21T03:39:00Z",
+    "net_precision": "MIN",
+    "orbit": "N/A",
+    "pad": "Rizhao offshore launch location",
+    "pad_location": "Haiyang Oriental Spaceport",
+    "provider": "Galactic Energy",
+    "rocket": "Ceres-1S",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
+    "url": "https://nextspaceflight.com/launches/details/c6f8b6b0-6bae-460a-99bb-c12a3d29effd",
+    "webcast_live": true
+   },
    {
     "description": "Dedicated rideshare flight to a mid-inclination orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.\r\n\r\nThis launch also carries the second demonstration mission for SpaceX\u2019s Project Starfall, which aims to mass-produce reentry capsules designed to autonomously transport valuable customer experiments and other payloads safely back from space to Ear",
     "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
@@ -1885,27 +1896,6 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/e4316d4c-9eb8-4a18-9b0d-4307c3970ef6",
     "webcast_live": false
-   },
-   {
-    "description": "Synthetic aperture radar Earth observation satellite for Japanese Earth imaging company iQPS.",
-    "id": "8b7e748c-6ed5-4681-a898-827b4a23b8d7",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
-    "lat": -39.262833,
-    "lon": 177.864469,
-    "mission": "The Grain Goddess Provides (iQPS Launch 7)",
-    "mission_type": "Earth Science",
-    "name": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
-    "net": "2026-08-06T09:18:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Rocket Lab Launch Complex 1A",
-    "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "rocket": "Electron",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/8b7e748c-6ed5-4681-a898-827b4a23b8d7",
-    "webcast_live": false
    }
   ],
   "totals": {
@@ -1915,7 +1905,7 @@
    "spacex_share": 0.455,
    "window": {
     "from": "2026-03-12",
-    "to": "2026-10-20"
+    "to": "2026-10-21"
    }
   },
   "upcoming": [
@@ -1941,27 +1931,6 @@
     "webcast_live": false
    },
    {
-    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Starlink Group 15-15",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-    "net": "2026-10-21T00:06:47Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
-    "url": "https://nextspaceflight.com/launches/details/f6af629d-39b5-4f86-bc0c-f8776444a858",
-    "webcast_live": false
-   },
-   {
     "description": "Details TBD.",
     "id": "c6f8b6b0-6bae-460a-99bb-c12a3d29effd",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193542.jpeg",
@@ -1970,17 +1939,17 @@
     "mission": "Unknown Payload",
     "mission_type": "Unknown",
     "name": "Ceres-1S | Unknown Payload",
-    "net": "2026-10-21T03:35:00Z",
-    "net_precision": "HR",
+    "net": "2026-10-21T03:39:00Z",
+    "net_precision": "MIN",
     "orbit": "N/A",
     "pad": "Rizhao offshore launch location",
     "pad_location": "Haiyang Oriental Spaceport",
     "provider": "Galactic Energy",
     "rocket": "Ceres-1S",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
     "url": "https://nextspaceflight.com/launches/details/c6f8b6b0-6bae-460a-99bb-c12a3d29effd",
-    "webcast_live": false
+    "webcast_live": true
    },
    {
     "description": "HawkEye 360 is a a space-based civil global intelligence satellite network using radio frequency (RF) technology to help monitor transportation across air, land and sea and assist with emergencies, and to provide civil SIGINT (Signal Intelligence) mission.\r\n\r\nThe constellation of small satellites (named Hawk ) will collect information on specific radio signals worldwide to provide high-precision r",
@@ -2001,6 +1970,27 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/7766f3bb-674c-4c71-b986-963bd633fcfe",
+    "webcast_live": false
+   },
+   {
+    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+    "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "Starlink Group 15-15",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-15",
+    "net": "2026-10-21T21:59:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/f6af629d-39b5-4f86-bc0c-f8776444a858",
     "webcast_live": false
    },
    {
@@ -2341,5 +2331,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-20T22:59:14.174760+00:00"
+ "fetched_at": "2026-10-21T03:45:36.743913+00:00"
 }
