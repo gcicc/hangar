@@ -156,7 +156,7 @@
     "top_provider": "SpaceX"
    },
    {
-    "count": 36,
+    "count": 35,
     "last_net": "2026-11-30T00:00:00Z",
     "lat": 28.56194122,
     "location": "Cape Canaveral SFS, FL, USA",
@@ -347,6 +347,16 @@
    },
    {
     "count": 3,
+    "last_net": "2026-11-30T00:00:00Z",
+    "lat": 13.7199,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.2304,
+    "name": "Satish Dhawan Space Centre Second Launch Pad",
+    "spacex": false,
+    "top_provider": "Indian Space Research Organization"
+   },
+   {
+    "count": 3,
     "last_net": "2026-07-19T17:51:00Z",
     "lat": 62.92883,
     "location": "Plesetsk Cosmodrome, Russian Federation",
@@ -394,16 +404,6 @@
     "name": "Ariane Launch Area 1 (ELV)",
     "spacex": false,
     "top_provider": "Avio S.p.A"
-   },
-   {
-    "count": 2,
-    "last_net": "2026-10-31T00:00:00Z",
-    "lat": 13.7199,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.2304,
-    "name": "Satish Dhawan Space Centre Second Launch Pad",
-    "spacex": false,
-    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 2,
@@ -1910,27 +1910,6 @@
   },
   "upcoming": [
    {
-    "description": "Dedicated rideshare flight to a mid-inclination orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.\r\n\r\nThis launch also carries the second demonstration mission for SpaceX\u2019s Project Starfall, which aims to mass-produce reentry capsules designed to autonomously transport valuable customer experiments and other payloads safely back from space to Ear",
-    "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20251102082912.jpeg",
-    "lat": 28.56194122,
-    "lon": -80.57735736,
-    "mission": "Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-    "mission_type": "Dedicated Rideshare",
-    "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-    "net": "2026-10-20T11:04:00Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 40",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/3b430f81-0ff1-4d85-8a1a-cef0de326198",
-    "webcast_live": false
-   },
-   {
     "description": "0.5 meter resolution Earth observation satellite for the city of Guangzhou government and Guangzhou University with multi-spectral imaging capability. Prototype of a proposed 25 satellites constellation.",
     "id": "c6f8b6b0-6bae-460a-99bb-c12a3d29effd",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193542.jpeg",
@@ -2328,8 +2307,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/d74afbc7-0de5-491c-be05-4e9c31f736ac",
     "webcast_live": false
+   },
+   {
+    "description": "First uncrewed orbital test flight of the Gaganyaan capsule.",
+    "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg",
+    "lat": 13.7199,
+    "lon": 80.2304,
+    "mission": "Gaganyaan-1",
+    "mission_type": "Test Flight",
+    "name": "LVM-3 | Gaganyaan-1",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad",
+    "pad_location": "Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "rocket": "Launch Vehicle Mark-3 (GSLV Mk III)",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/dfac5ab7-7017-454f-b6cf-eeed277a97b5",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-21T09:11:35.902632+00:00"
+ "fetched_at": "2026-10-21T14:55:33.974387+00:00"
 }

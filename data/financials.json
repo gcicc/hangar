@@ -5,13 +5,13 @@
   },
   "quotes": {
    "SPCX": {
-    "change": -0.17,
-    "change_pct": -0.11,
+    "change": 13.14,
+    "change_pct": 8.89,
     "currency": "USD",
     "exchange": "NasdaqGS",
     "first_trade": 1781271000,
     "name": "Space Exploration Technologies Corp.",
-    "price": 147.79,
+    "price": 160.93,
     "series": [
      160.95,
      192.5,
@@ -102,20 +102,21 @@
      148.62,
      146.03,
      147.96,
-     147.79
+     147.79,
+     160.93
     ],
     "symbol": "SPCX",
     "week52_high": 225.64,
     "week52_low": 104.83
    },
    "TSLA": {
-    "change": 5.65,
-    "change_pct": 1.54,
+    "change": 11.02,
+    "change_pct": 2.95,
     "currency": "USD",
     "exchange": "NasdaqGS",
     "first_trade": 1277818200,
     "name": "Tesla, Inc.",
-    "price": 373.71,
+    "price": 384.73,
     "series": [
      442.6,
      438.97,
@@ -367,7 +368,8 @@
      362.44,
      354.72,
      368.06,
-     373.71
+     373.71,
+     384.73
     ],
     "symbol": "TSLA",
     "week52_high": 498.83,
@@ -1441,5 +1443,5 @@
    }
   }
  },
- "fetched_at": "2026-10-21T09:11:37.659811+00:00"
+ "fetched_at": "2026-10-21T14:55:34.801471+00:00"
 }
