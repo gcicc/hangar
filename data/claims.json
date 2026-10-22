@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 178,
+  "times_seen": 179,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -37,7 +37,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 68,
+  "times_seen": 69,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 57,
+  "times_seen": 58,
   "outlets": [
    "Neuralink"
   ]
@@ -79,7 +79,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 99,
+  "times_seen": 100,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -100,7 +100,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 14,
+  "times_seen": 15,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -122,7 +122,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 42,
+  "times_seen": 43,
   "outlets": [
    "Neuralink"
   ]
@@ -143,7 +143,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 42,
+  "times_seen": 43,
   "outlets": [
    "Neuralink"
   ]
@@ -163,7 +163,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 5,
+  "times_seen": 6,
   "outlets": [
    "Starship"
   ]
@@ -183,7 +183,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "Optimus"
   ]
@@ -224,7 +224,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 2,
+  "times_seen": 3,
   "outlets": [
    "Optimus"
   ]
@@ -245,7 +245,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 2,
+  "times_seen": 3,
   "outlets": [
    "Energy"
   ]
@@ -265,7 +265,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 1,
+  "times_seen": 2,
   "outlets": [
    "Autonomy"
   ]
@@ -286,7 +286,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 1,
+  "times_seen": 2,
   "outlets": [
    "Autonomy"
   ]
@@ -306,7 +306,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 1,
+  "times_seen": 2,
   "outlets": [
    "Optimus"
   ]
@@ -326,7 +326,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 1,
+  "times_seen": 2,
   "outlets": [
    "Humanoids"
   ]
@@ -346,7 +346,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 1,
+  "times_seen": 2,
   "outlets": [
    "Production"
   ]
@@ -364,9 +364,105 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-10-22",
-  "times_seen": 1,
+  "times_seen": 2,
   "outlets": [
    "Production"
+  ]
+ },
+ {
+  "statement": "Elon Musk says X Money to enter early public access next month - Reuters",
+  "entity": "Musk",
+  "horizon_phrase": "next month",
+  "horizon": "2026-11-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "X",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNTY2ZTFEem9zbWtocFR3WGlVR296enhUS0VKdy1VNi1TQnNWbGhuWnM4ZExJa29BaS1IVWQ0TUtZbTZzMFZfVG85NW15WEQzV19oMEZXSEZQZVVYaTN0Ujdkb3dHZFZlR2UtYVh6SUxtSTlMVFZfOUZkYzFkbk1JVjdGM2ZueUNUaldkUGtra0JzMWpEU0ZTNTNTQm1tVWhnMTRsaTRHY2U2NzhUNl9QQ2RsUlNYMlpHMGYzQWtFSjJSYjg?oc=5",
+  "first_seen": "2026-10-14",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-10-22",
+  "times_seen": 11,
+  "outlets": [
+   "X"
+  ]
+ },
+ {
+  "statement": "Tesla Plans To Start Selling Cybercabs By The End Of The Year - Engadget",
+  "entity": "Tesla",
+  "horizon_phrase": "By The End Of The Year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeDZRcE9aRV95QXpTZ2dPdjh3cmZhb2l0VU5sUnVfekwySll3OFlsbU5vQmZsVE9vUDUya253UG1lTkd4aVNvTnNmSG54WVptN2xFOUx1eXgzYkpXbkJ1dnJ0bk5STlFWTUoweks3dzFucWs2Sl9pbUlUcFpNaVpIQkVYTnY?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-10-22",
+  "times_seen": 1,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Tesla to Launch Cybercab Robotaxi Service in Dallas Next Month - marketscreener.com",
+  "entity": "Tesla",
+  "horizon_phrase": "Next Month",
+  "horizon": "2026-11-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTHlkQXlQS2lhbURrWi1SOVk4U3FJbGFTSjF4NFVlNHZ3dW1MdkNtZGotOEtuem02MlJMZ2I0Mms4c3k4aXlTaU0yOXU4dzlaUFZ2OTJWcEpkbVYzSEdUdGdvWjJOaXFOalNBVG1WYW81bHB6eHIyVmNBYnEtMFZYYTk0UTdVMFp1ckQxTlBHSHZEZU05bVZwMGpiM1RkTi1BbEtobmlHemU5QTY5N1lNS19pMi01UQ?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-22",
+  "times_seen": 1,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Tesla Plans Cybercab Sales By The End Of 2026 - Dataconomy",
+  "entity": "Tesla",
+  "horizon_phrase": "By The End Of 2026",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVVVjRFdXRjV3Uzg4ZU1FNExkWC1qeTh2bF93R0VWWnk1YW9Rekw1aUVNOEdyUnVGQ292Q2NoQlE0UGh2bjBjQ0FZQXNRMW5RTU10cG5GZV8yWTY1d0JpazREV0xXUEpwaXhiUTIwb3FzSExlblBkemFLWXpmOUlNd2hR?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-22",
+  "times_seen": 1,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Musk Targets 20,000 Optimus Robots A Week By 2027 - Dataconomy",
+  "entity": "Musk",
+  "horizon_phrase": "By 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeW9hc25waWlBMnBtazJGLVRpVWQta1A5VlNqVnpGSzFianl3bERzVWZ5ZUloZkJsRlBGN0VCNzg1Ty1kRFVZV05HczFHVFFFVTVuOFlSZmh2d0w5Ylh3MEg5TUo3bkxONlN3LXptRnVGOVc3WkhTUHhUS3pId1R0NGdneWE4WnUzd0Jz?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-22",
+  "times_seen": 1,
+  "outlets": [
+   "Optimus"
   ]
  },
  {
@@ -492,24 +588,6 @@
   "times_seen": 7,
   "outlets": [
    "SPCX"
-  ]
- },
- {
-  "statement": "Elon Musk says X Money to enter early public access next month - Reuters",
-  "entity": "Musk",
-  "horizon_phrase": "next month",
-  "horizon": "2026-11-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "X",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNTY2ZTFEem9zbWtocFR3WGlVR296enhUS0VKdy1VNi1TQnNWbGhuWnM4ZExJa29BaS1IVWQ0TUtZbTZzMFZfVG85NW15WEQzV19oMEZXSEZQZVVYaTN0Ujdkb3dHZFZlR2UtYVh6SUxtSTlMVFZfOUZkYzFkbk1JVjdGM2ZueUNUaldkUGtra0JzMWpEU0ZTNTNTQm1tVWhnMTRsaTRHY2U2NzhUNl9QQ2RsUlNYMlpHMGYzQWtFSjJSYjg?oc=5",
-  "first_seen": "2026-10-14",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-10-21",
-  "times_seen": 10,
-  "outlets": [
-   "X"
   ]
  },
  {
