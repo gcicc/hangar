@@ -132,15 +132,15 @@
    "mission": "Starlink Group 15-15",
    "mission_type": "Communications",
    "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-   "net": "2026-10-21T23:38:57Z",
+   "net": "2026-10-22T22:40:24Z",
    "net_precision": "SEC",
    "orbit": "LEO",
    "pad": "Space Launch Complex 4E",
    "pad_location": "Vandenberg SFB, CA, USA",
    "provider": "SpaceX",
    "rocket": "Falcon 9 Block 5",
-   "status": "Hold",
-   "status_name": "On Hold",
+   "status": "Go",
+   "status_name": "Go for Launch",
    "url": "https://nextspaceflight.com/launches/details/f6af629d-39b5-4f86-bc0c-f8776444a858",
    "webcast_live": false
   },
@@ -197,7 +197,7 @@
    },
    {
     "count": 6,
-    "last_net": "2026-10-22T07:00:00Z",
+    "last_net": "2026-10-23T07:00:00Z",
     "lat": -39.262833,
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "lon": 177.864469,
@@ -377,16 +377,6 @@
    },
    {
     "count": 2,
-    "last_net": "2026-10-21T03:39:00Z",
-    "lat": 35.391667,
-    "location": "Haiyang Oriental Spaceport",
-    "lon": 119.598667,
-    "name": "Rizhao offshore launch location",
-    "spacex": false,
-    "top_provider": "Galactic Energy"
-   },
-   {
-    "count": 2,
     "last_net": "2026-09-15T22:00:00Z",
     "lat": 31.2,
     "location": "Haiyang Oriental Spaceport",
@@ -464,6 +454,16 @@
     "name": "Unknown Pad",
     "spacex": false,
     "top_provider": "Rocket Lab"
+   },
+   {
+    "count": 1,
+    "last_net": "2026-10-21T03:39:00Z",
+    "lat": 35.391667,
+    "location": "Haiyang Oriental Spaceport",
+    "lon": 119.598667,
+    "name": "Rizhao offshore launch location",
+    "spacex": false,
+    "top_provider": "Galactic Energy"
    },
    {
     "count": 1,
@@ -624,6 +624,16 @@
     "name": "Launch Area 140",
     "spacex": false,
     "top_provider": "CAS Space"
+   },
+   {
+    "count": 1,
+    "last_net": "2026-11-30T00:00:00Z",
+    "lat": 33.216667,
+    "location": "Sea Launch",
+    "lon": 126.366667,
+    "name": "ADD Offshore launch platform",
+    "spacex": false,
+    "top_provider": "Agency for Defense Development"
    }
   ],
   "passengers": [
@@ -1910,27 +1920,6 @@
   },
   "upcoming": [
    {
-    "description": "0.5 meter resolution Earth observation satellite for the city of Guangzhou government and Guangzhou University with multi-spectral imaging capability. Prototype of a proposed 25 satellites constellation.",
-    "id": "c6f8b6b0-6bae-460a-99bb-c12a3d29effd",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193542.jpeg",
-    "lat": 35.391667,
-    "lon": 119.598667,
-    "mission": "Xiguang-4 01",
-    "mission_type": "Earth Science",
-    "name": "Ceres-1S | Xiguang-4 01",
-    "net": "2026-10-21T03:39:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Rizhao offshore launch location",
-    "pad_location": "Haiyang Oriental Spaceport",
-    "provider": "Galactic Energy",
-    "rocket": "Ceres-1S",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/c6f8b6b0-6bae-460a-99bb-c12a3d29effd",
-    "webcast_live": false
-   },
-   {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
     "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
@@ -1939,15 +1928,15 @@
     "mission": "Starlink Group 15-15",
     "mission_type": "Communications",
     "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-    "net": "2026-10-21T23:38:57Z",
+    "net": "2026-10-22T22:40:24Z",
     "net_precision": "SEC",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "Hold",
-    "status_name": "On Hold",
+    "status": "Go",
+    "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/f6af629d-39b5-4f86-bc0c-f8776444a858",
     "webcast_live": false
    },
@@ -1960,7 +1949,7 @@
     "mission": "We're Not Hawking Around (3x HawkEye 360)",
     "mission_type": "Earth Science",
     "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
-    "net": "2026-10-22T07:00:00Z",
+    "net": "2026-10-23T07:00:00Z",
     "net_precision": "MIN",
     "orbit": "SSO",
     "pad": "Rocket Lab Launch Complex 1A",
@@ -2044,7 +2033,7 @@
     "mission": "Starlink Group 15-16",
     "mission_type": "Communications",
     "name": "Falcon 9 Block 5 | Starlink Group 15-16",
-    "net": "2026-10-25T05:14:00Z",
+    "net": "2026-10-26T05:00:00Z",
     "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
@@ -2054,27 +2043,6 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/e2886a96-5ce9-4f45-872f-4e25a00be837",
-    "webcast_live": false
-   },
-   {
-    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "57ce0a39-d035-4f16-a418-bd6108f78199",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Starlink Group 15-18",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-18",
-    "net": "2026-10-28T04:31:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
-    "url": "https://nextspaceflight.com/launches/details/57ce0a39-d035-4f16-a418-bd6108f78199",
     "webcast_live": false
    },
    {
@@ -2096,6 +2064,27 @@
     "status": "TBD",
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/ef9850ad-1096-425b-9d27-f7bbd186e61a",
+    "webcast_live": false
+   },
+   {
+    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+    "id": "57ce0a39-d035-4f16-a418-bd6108f78199",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "Starlink Group 15-18",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-18",
+    "net": "2026-10-29T04:17:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/57ce0a39-d035-4f16-a418-bd6108f78199",
     "webcast_live": false
    },
    {
@@ -2328,8 +2317,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/dfac5ab7-7017-454f-b6cf-eeed277a97b5",
     "webcast_live": false
+   },
+   {
+    "description": "Note: Launch vehicle name is provisional.\r\n\r\nFirst orbital full version launch of the South Korean military small satellite launch vehicle, after 2 sub-orbital tests of individual stages on 30 March and 30 December 2022, and 1 orbital test flight without the 2nd stage on 4 December 2023. Details TBD.",
+    "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192440.png",
+    "lat": 33.216667,
+    "lon": 126.366667,
+    "mission": "Demo Flight",
+    "mission_type": "Test Flight",
+    "name": "Mir | Demo Flight",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "ADD Offshore launch platform",
+    "pad_location": "Sea Launch",
+    "provider": "Agency for Defense Development",
+    "rocket": "Mir",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-21T23:09:38.912743+00:00"
+ "fetched_at": "2026-10-22T03:45:37.629605+00:00"
 }
