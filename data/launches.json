@@ -147,7 +147,7 @@
   "pads": [
    {
     "count": 56,
-    "last_net": "2026-11-10T00:00:00Z",
+    "last_net": "2026-11-05T22:34:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
     "lon": -120.611,
@@ -417,7 +417,7 @@
    },
    {
     "count": 2,
-    "last_net": "2026-10-31T00:00:00Z",
+    "last_net": "2026-11-30T00:00:00Z",
     "lat": 13.733,
     "location": "Satish Dhawan Space Centre, India",
     "lon": 80.235,
@@ -2096,8 +2096,8 @@
     "mission": "IRNSS-1L (NVS-03)",
     "mission_type": "Navigation",
     "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-    "net": "2026-10-31T00:00:00Z",
-    "net_precision": "M",
+    "net": "2026-10-30T00:00:00Z",
+    "net_precision": "DAY",
     "orbit": "GTO",
     "pad": "Satish Dhawan Space Centre Second Launch Pad",
     "pad_location": "Satish Dhawan Space Centre, India",
@@ -2130,27 +2130,6 @@
     "webcast_live": false
    },
    {
-    "description": "Ride-share launch of multiple satellites, including the in-orbit refueling demonstration satellite AayulSAT-1A from OrbitAID Aerospace. Other payload's identities TBD.",
-    "id": "e59ff9a4-f72f-4841-8546-3c94346ecdba",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193926.jpeg",
-    "lat": 13.733,
-    "lon": 80.235,
-    "mission": "AayulSAT-1A & others",
-    "mission_type": "Technology",
-    "name": "SSLV | AayulSAT-1A & others",
-    "net": "2026-10-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Satish Dhawan Space Centre First Launch Pad",
-    "pad_location": "Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "rocket": "SSLV",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/e59ff9a4-f72f-4841-8546-3c94346ecdba",
-    "webcast_live": false
-   },
-   {
     "description": "Synthetic aperture radar Earth observation satellite for Japanese Earth imaging company iQPS.",
     "id": "426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
@@ -2169,6 +2148,27 @@
     "status": "TBD",
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
+    "webcast_live": false
+   },
+   {
+    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+    "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "Starlink Group 15-21",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-21",
+    "net": "2026-11-05T05:14:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
     "webcast_live": false
    },
    {
@@ -2211,27 +2211,6 @@
     "status": "TBD",
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/db3500ac-965b-4ad8-b417-cb8d8d005586",
-    "webcast_live": false
-   },
-   {
-    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Starlink Group 15-21",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-21",
-    "net": "2026-11-10T00:00:00Z",
-    "net_precision": "DAY",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
     "webcast_live": false
    },
    {
@@ -2338,8 +2317,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
     "webcast_live": false
+   },
+   {
+    "description": "TDS-01 (Technology Demonstration Satellite-01) is an Indian geostationary orbit technology demonstration satellite carrying payloads for the Indian Space Research Organisation (ISRO)\u2019s Institute of Plasma Research, Gandhinagar and the CSIR-CEERI, Pilani. \r\n\r\nPayloads to be tested included an internally developed 300 mN electric powered thrusters, atomic clocks, travelling wave tube amplifiers (TWT",
+    "id": "b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193829.jpeg",
+    "lat": 13.733,
+    "lon": 80.235,
+    "mission": "TDS-01",
+    "mission_type": "Technology",
+    "name": "PSLV-XL | TDS-01",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "GTO",
+    "pad": "Satish Dhawan Space Centre First Launch Pad",
+    "pad_location": "Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "rocket": "PSLV XL",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-22T14:55:44.123115+00:00"
+ "fetched_at": "2026-10-22T19:49:00.020990+00:00"
 }
