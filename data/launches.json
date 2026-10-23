@@ -101,7 +101,7 @@
     14,
     12,
     19,
-    7
+    8
    ],
    "partial": [
     false,
@@ -124,29 +124,29 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "Details TBD.",
-   "id": "3621085f-deae-4f89-bd54-c0f96ee44421",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4b_l_image_thumbnail_20251209044052.jpeg",
-   "lat": 40.960482,
-   "lon": 100.298059,
-   "mission": "Unknown Payload",
-   "mission_type": "Unknown",
-   "name": "Long March 4B | Unknown Payload",
-   "net": "2026-10-23T19:25:00Z",
-   "net_precision": "HR",
-   "orbit": "N/A",
-   "pad": "Launch Area 94 (SLS-2 / 603)",
-   "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "rocket": "Long March 4B",
+   "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+   "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+   "lat": 34.632,
+   "lon": -120.611,
+   "mission": "Starlink Group 15-15",
+   "mission_type": "Communications",
+   "name": "Falcon 9 Block 5 | Starlink Group 15-15",
+   "net": "2026-10-23T22:28:53Z",
+   "net_precision": "SEC",
+   "orbit": "LEO",
+   "pad": "Space Launch Complex 4E",
+   "pad_location": "Vandenberg SFB, CA, USA",
+   "provider": "SpaceX",
+   "rocket": "Falcon 9 Block 5",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/3621085f-deae-4f89-bd54-c0f96ee44421",
+   "url": "https://nextspaceflight.com/launches/details/f6af629d-39b5-4f86-bc0c-f8776444a858",
    "webcast_live": false
   },
   "pads": [
    {
-    "count": 56,
+    "count": 55,
     "last_net": "2026-11-05T22:34:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -206,6 +206,16 @@
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
+    "count": 6,
+    "last_net": "2026-10-23T19:25:00Z",
+    "lat": 40.960482,
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "lon": 100.298059,
+    "name": "Launch Area 94 (SLS-2 / 603)",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
     "count": 5,
     "last_net": "2026-10-09T19:27:00Z",
     "lat": 19.59755,
@@ -234,16 +244,6 @@
     "name": "31/6",
     "spacex": false,
     "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
-   },
-   {
-    "count": 5,
-    "last_net": "2026-10-23T19:25:00Z",
-    "lat": 40.960482,
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.298059,
-    "name": "Launch Area 94 (SLS-2 / 603)",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 5,
@@ -647,6 +647,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "Details TBD.",
+    "id": "3621085f-deae-4f89-bd54-c0f96ee44421",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4b_l_image_thumbnail_20251209044052.jpeg",
+    "lat": 40.960482,
+    "lon": 100.298059,
+    "mission": "Unknown Payload",
+    "mission_type": "Unknown",
+    "name": "Long March 4B | Unknown Payload",
+    "net": "2026-10-23T19:25:00Z",
+    "net_precision": "HR",
+    "orbit": "N/A",
+    "pad": "Launch Area 94 (SLS-2 / 603)",
+    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 4B",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/3621085f-deae-4f89-bd54-c0f96ee44421",
+    "webcast_live": false
+   },
    {
     "description": "The Yaogan 50-03 is a Chinese military \u201cremote sensing\u201d satellite of unknown purposes.",
     "id": "9648124f-8568-46d2-86d7-4b4d6f12187f",
@@ -1885,36 +1906,15 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/36ab6924-bb36-416a-b71d-cda9e88004be",
     "webcast_live": false
-   },
-   {
-    "description": "QZSS (Quasi Zenith Satellite System) is a Japanese satellite navigation system operating from inclined, elliptical geosynchronous orbits to achieve optimal high-elevation visibility in urban canyons and mountainous areas. The navigation system objective is to broadcast GPS-interoperable and augmentation signals as well as original Japanese (QZSS) signals from a three-spacecraft constellation.\r\n\r\nT",
-    "id": "b89ab080-66c3-4831-85a9-38d85da71d30",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-22_liftoff__image_thumbnail_20251028183835.jpeg",
-    "lat": 30.400938,
-    "lon": 130.97564,
-    "mission": "Michibiki 7 (QZS-7)",
-    "mission_type": "Navigation",
-    "name": "H3-22 | Michibiki 7 (QZS-7)",
-    "net": "2026-08-10T19:23:31Z",
-    "net_precision": "SEC",
-    "orbit": "GTO",
-    "pad": "Yoshinobu Launch Complex LP-2",
-    "pad_location": "Tanegashima Space Center, Japan",
-    "provider": "Mitsubishi Heavy Industries",
-    "rocket": "H3-22",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/b89ab080-66c3-4831-85a9-38d85da71d30",
-    "webcast_live": false
    }
   ],
   "totals": {
    "previous_sampled": 200,
    "share_caveat": "Share of the most recent orbital launches fetched, over the window shown. Not a share of all launches, and not a fixed calendar period - the window moves with every refresh.",
-   "spacex_sampled": 91,
-   "spacex_share": 0.455,
+   "spacex_sampled": 90,
+   "spacex_share": 0.45,
    "window": {
-    "from": "2026-03-13",
+    "from": "2026-03-14",
     "to": "2026-10-23"
    }
   },
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-23T14:43:29.105849+00:00"
+ "fetched_at": "2026-10-23T19:50:59.058997+00:00"
 }
