@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 182,
+  "times_seen": 183,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -37,7 +37,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 72,
+  "times_seen": 73,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 62,
+  "times_seen": 63,
   "outlets": [
    "Neuralink"
   ]
@@ -79,7 +79,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 103,
+  "times_seen": 104,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -100,7 +100,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 19,
+  "times_seen": 20,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -122,7 +122,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 47,
+  "times_seen": 48,
   "outlets": [
    "Neuralink"
   ]
@@ -143,7 +143,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 47,
+  "times_seen": 48,
   "outlets": [
    "Neuralink"
   ]
@@ -163,7 +163,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 10,
+  "times_seen": 11,
   "outlets": [
    "Starship"
   ]
@@ -183,7 +183,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 7,
+  "times_seen": 8,
   "outlets": [
    "Optimus"
   ]
@@ -204,7 +204,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 7,
+  "times_seen": 8,
   "outlets": [
    "Energy"
   ]
@@ -224,7 +224,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 6,
+  "times_seen": 7,
   "outlets": [
    "Autonomy"
   ]
@@ -244,9 +244,10 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 6,
+  "times_seen": 7,
   "outlets": [
-   "Humanoids"
+   "Humanoids",
+   "Optimus"
   ]
  },
  {
@@ -264,7 +265,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 6,
+  "times_seen": 7,
   "outlets": [
    "Production"
   ]
@@ -282,7 +283,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 5,
+  "times_seen": 6,
   "outlets": [
    "Autonomy"
   ]
@@ -302,7 +303,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 5,
+  "times_seen": 6,
   "outlets": [
    "Optimus"
   ]
@@ -323,7 +324,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "Starship"
   ]
@@ -343,7 +344,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "Starlink"
   ]
@@ -365,7 +366,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -383,7 +384,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "Autonomy"
   ]
@@ -423,7 +424,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "Optimus"
   ]
@@ -444,7 +445,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "Optimus"
   ]
@@ -462,7 +463,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "Production"
   ]
@@ -480,9 +481,29 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-10-23",
-  "times_seen": 2,
+  "times_seen": 3,
   "outlets": [
    "Autonomy"
+  ]
+ },
+ {
+  "statement": "Tesla aims to produce 20,000 Optimus robots weekly by end of 2027 - Global Sources",
+  "entity": "Tesla",
+  "horizon_phrase": "by end of 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQT185T2hTRkxhLXZvcVZsVlFDSWJoTzBmT1N6SGpRX3J2RWl1N3E0anpxQWhRUEZYdU9sLVBvUFBNaXlzWHExdGFJSkFDdTd4c0tJSkdTNGFGMnMwb3dRX3lsYk15N21yZlltUmEtWEF1dFZzeG55cHJKMkJ4NE4wdVR0V3lOSDBFWWpSc2pISEppQkE0NEFENW5wV1lfRnFTNVMtSUZtZEdoTU16Y1NfVW9ETXN0UGZaSUE1eURxVUQ5V0k2R3BLOVRfNA?oc=5",
+  "first_seen": "2026-10-23",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-23",
+  "times_seen": 1,
+  "outlets": [
+   "Optimus"
   ]
  },
  {

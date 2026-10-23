@@ -101,7 +101,7 @@
     14,
     12,
     19,
-    5
+    6
    ],
    "partial": [
     false,
@@ -124,24 +124,24 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "HawkEye 360 is a a space-based civil global intelligence satellite network using radio frequency (RF) technology to help monitor transportation across air, land and sea and assist with emergencies, and to provide civil SIGINT (Signal Intelligence) mission.\r\n\r\nThe constellation of small satellites (named Hawk ) will collect information on specific radio signals worldwide to provide high-precision r",
-   "id": "7766f3bb-674c-4c71-b986-963bd633fcfe",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
-   "lat": -39.262833,
-   "lon": 177.864469,
-   "mission": "We're Not Hawking Around (3x HawkEye 360)",
-   "mission_type": "Earth Science",
-   "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
-   "net": "2026-10-23T07:00:00Z",
-   "net_precision": "MIN",
-   "orbit": "SSO",
-   "pad": "Rocket Lab Launch Complex 1A",
-   "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-   "provider": "Rocket Lab",
-   "rocket": "Electron",
+   "description": "Details TBD.",
+   "id": "9648124f-8568-46d2-86d7-4b4d6f12187f",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
+   "lat": 38.8583,
+   "lon": 111.5802,
+   "mission": "Unknown Payload",
+   "mission_type": "Unknown",
+   "name": "Long March 6A | Unknown Payload",
+   "net": "2026-10-23T10:15:00Z",
+   "net_precision": "HR",
+   "orbit": "N/A",
+   "pad": "Launch Complex 9A",
+   "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "rocket": "Long March 6A",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/7766f3bb-674c-4c71-b986-963bd633fcfe",
+   "url": "https://nextspaceflight.com/launches/details/9648124f-8568-46d2-86d7-4b4d6f12187f",
    "webcast_live": false
   },
   "pads": [
@@ -176,14 +176,14 @@
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
-    "count": 8,
-    "last_net": "2026-10-25T01:50:00Z",
-    "lat": 19.597275,
-    "location": "Wenchang Space Launch Site, People's Republic of China",
-    "lon": 110.930753,
-    "name": "Commercial LC-1",
+    "count": 7,
+    "last_net": "2026-10-23T07:11:00Z",
+    "lat": -39.262833,
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "lon": 177.864469,
+    "name": "Rocket Lab Launch Complex 1A",
     "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
+    "top_provider": "Rocket Lab"
    },
    {
     "count": 7,
@@ -196,14 +196,14 @@
     "top_provider": "Rocket Lab"
    },
    {
-    "count": 6,
-    "last_net": "2026-10-23T07:00:00Z",
-    "lat": -39.262833,
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "lon": 177.864469,
-    "name": "Rocket Lab Launch Complex 1A",
+    "count": 7,
+    "last_net": "2026-10-25T01:50:00Z",
+    "lat": 19.597275,
+    "location": "Wenchang Space Launch Site, People's Republic of China",
+    "lon": 110.930753,
+    "name": "Commercial LC-1",
     "spacex": false,
-    "top_provider": "Rocket Lab"
+    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 5,
@@ -647,6 +647,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "HawkEye 360 is a a space-based civil global intelligence satellite network using radio frequency (RF) technology to help monitor transportation across air, land and sea and assist with emergencies, and to provide civil SIGINT (Signal Intelligence) mission.\r\n\r\nThe constellation of small satellites (named Hawk ) will collect information on specific radio signals worldwide to provide high-precision r",
+    "id": "7766f3bb-674c-4c71-b986-963bd633fcfe",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+    "lat": -39.262833,
+    "lon": 177.864469,
+    "mission": "We're Not Hawking Around (3x HawkEye 360)",
+    "mission_type": "Earth Science",
+    "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
+    "net": "2026-10-23T07:11:00Z",
+    "net_precision": "MIN",
+    "orbit": "SSO",
+    "pad": "Rocket Lab Launch Complex 1A",
+    "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "rocket": "Electron",
+    "status": "Deployed",
+    "status_name": "Payload Deployed",
+    "url": "https://nextspaceflight.com/launches/details/7766f3bb-674c-4c71-b986-963bd633fcfe",
+    "webcast_live": false
+   },
    {
     "description": "0.5 meter resolution Earth observation satellite for the city of Guangzhou government and Guangzhou University with multi-spectral imaging capability. Prototype of a proposed 25 satellites constellation.",
     "id": "c6f8b6b0-6bae-460a-99bb-c12a3d29effd",
@@ -1885,27 +1906,6 @@
     "status_name": "Launch Failure",
     "url": "https://nextspaceflight.com/launches/details/cff704ab-8098-4f65-899e-50adaf908e59",
     "webcast_live": false
-   },
-   {
-    "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "e4316d4c-9eb8-4a18-9b0d-4307c3970ef6",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Starlink Group 17-38",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 17-38",
-    "net": "2026-08-08T16:35:02Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/e4316d4c-9eb8-4a18-9b0d-4307c3970ef6",
-    "webcast_live": false
    }
   ],
   "totals": {
@@ -1915,7 +1915,7 @@
    "spacex_share": 0.455,
    "window": {
     "from": "2026-03-12",
-    "to": "2026-10-21"
+    "to": "2026-10-23"
    }
   },
   "upcoming": [
@@ -1928,15 +1928,15 @@
     "mission": "We're Not Hawking Around (3x HawkEye 360)",
     "mission_type": "Earth Science",
     "name": "Electron | We're Not Hawking Around (3x HawkEye 360)",
-    "net": "2026-10-23T07:00:00Z",
+    "net": "2026-10-23T07:11:00Z",
     "net_precision": "MIN",
     "orbit": "SSO",
     "pad": "Rocket Lab Launch Complex 1A",
     "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "rocket": "Electron",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Deployed",
+    "status_name": "Payload Deployed",
     "url": "https://nextspaceflight.com/launches/details/7766f3bb-674c-4c71-b986-963bd633fcfe",
     "webcast_live": false
    },
@@ -2096,15 +2096,15 @@
     "mission": "IRNSS-1L (NVS-03)",
     "mission_type": "Navigation",
     "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-    "net": "2026-10-30T00:00:00Z",
-    "net_precision": "DAY",
+    "net": "2026-10-30T17:00:00Z",
+    "net_precision": "HR",
     "orbit": "GTO",
     "pad": "Satish Dhawan Space Centre Second Launch Pad",
     "pad_location": "Satish Dhawan Space Centre, India",
     "provider": "Indian Space Research Organization",
     "rocket": "GSLV Mk. II",
-    "status": "TBD",
-    "status_name": "To Be Determined",
+    "status": "TBC",
+    "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/20d5676e-111b-40e3-8923-b218c3665ca2",
     "webcast_live": false
    },
@@ -2138,7 +2138,7 @@
     "mission": "The Sea God Surveys (iQPS Launch 9)",
     "mission_type": "Earth Science",
     "name": "Electron | The Sea God Surveys (iQPS Launch 9)",
-    "net": "2026-11-04T00:00:00Z",
+    "net": "2026-11-03T00:00:00Z",
     "net_precision": "DAY",
     "orbit": "LEO",
     "pad": "Unknown Pad",
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-23T03:49:34.613040+00:00"
+ "fetched_at": "2026-10-23T09:10:51.985123+00:00"
 }
