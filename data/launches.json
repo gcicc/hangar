@@ -663,10 +663,10 @@
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "In Flight",
-    "status_name": "Launch in Flight",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/f6af629d-39b5-4f86-bc0c-f8776444a858",
-    "webcast_live": true
+    "webcast_live": false
    },
    {
     "description": "6 Chinese military \u201cremote sensing\u201d satellite of unknown purposes.",
@@ -1998,10 +1998,10 @@
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "In Flight",
-    "status_name": "Launch in Flight",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/f6af629d-39b5-4f86-bc0c-f8776444a858",
-    "webcast_live": true
+    "webcast_live": false
    },
    {
     "description": "Details TBD.",
@@ -2341,5 +2341,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-23T22:57:01.011256+00:00"
+ "fetched_at": "2026-10-24T03:43:54.806335+00:00"
 }
