@@ -267,7 +267,7 @@
    },
    {
     "count": 5,
-    "last_net": "2026-10-29T00:00:00Z",
+    "last_net": "2026-11-30T00:00:00Z",
     "lat": 28.58341025,
     "location": "Cape Canaveral SFS, FL, USA",
     "lon": -80.58303644,
@@ -447,6 +447,16 @@
    },
    {
     "count": 2,
+    "last_net": "2026-11-25T00:00:00Z",
+    "lat": 40.957893,
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "lon": 100.290944,
+    "name": "Launch Area 91 (SLS-1 / 921)",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 2,
     "last_net": "2026-11-10T00:00:00Z",
     "lat": -39.260881,
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -522,16 +532,6 @@
     "location": "Wenchang Space Launch Site, People's Republic of China",
     "lon": 110.951011,
     "name": "101",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 1,
-    "last_net": "2026-05-24T15:08:36Z",
-    "lat": 40.957893,
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.290944,
-    "name": "Launch Area 91 (SLS-1 / 921)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
@@ -634,16 +634,6 @@
     "name": "ADD Offshore launch platform",
     "spacex": false,
     "top_provider": "Agency for Defense Development"
-   },
-   {
-    "count": 1,
-    "last_net": "2026-12-31T00:00:00Z",
-    "lat": 28.458,
-    "location": "Cape Canaveral SFS, FL, USA",
-    "lon": -80.528,
-    "name": "Unknown Pad",
-    "spacex": true,
-    "top_provider": "SpaceX"
    }
   ],
   "passengers": [
@@ -2014,27 +2004,6 @@
     "webcast_live": false
    },
    {
-    "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
-    "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg",
-    "lat": 28.58341025,
-    "lon": -80.58303644,
-    "mission": "Amazon Leo (LV-01)",
-    "mission_type": "Communications",
-    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-    "net": "2026-10-29T00:00:00Z",
-    "net_precision": "DAY",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 41",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "United Launch Alliance",
-    "rocket": "Vulcan VC6L",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/ef9850ad-1096-425b-9d27-f7bbd186e61a",
-    "webcast_live": false
-   },
-   {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
     "id": "57ce0a39-d035-4f16-a418-bd6108f78199",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
@@ -2224,6 +2193,27 @@
     "webcast_live": false
    },
    {
+    "description": "Shenzhou 24 will be the 24th flight of the Shenzhou program.\r\n\r\nThe first astronaut from Pakistan is expected to fly on this on a short duration mission, with another Chinese astronaut to undergo a year long expedition.",
+    "id": "c9605b67-8a53-4239-a8ae-577fe3b79799",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_22_lau_image_thumbnail_20251129175823.jpeg",
+    "lat": 40.957893,
+    "lon": 100.290944,
+    "mission": "Shenzhou 24",
+    "mission_type": "Human Exploration",
+    "name": "Long March 2F/G | Shenzhou 24",
+    "net": "2026-11-25T00:00:00Z",
+    "net_precision": "DAY",
+    "orbit": "LEO",
+    "pad": "Launch Area 91 (SLS-1 / 921)",
+    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 2F/G",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/c9605b67-8a53-4239-a8ae-577fe3b79799",
+    "webcast_live": false
+   },
+   {
     "description": "This is the 25th flight of the Orbital ATK's uncrewed resupply spacecraft Cygnus and its 24th flight to the International Space Station under the Commercial Resupply Services contract with NASA.",
     "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
@@ -2308,6 +2298,27 @@
     "webcast_live": false
    },
    {
+    "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
+    "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg",
+    "lat": 28.58341025,
+    "lon": -80.58303644,
+    "mission": "Amazon Leo (LV-01)",
+    "mission_type": "Communications",
+    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 41",
+    "pad_location": "Cape Canaveral SFS, FL, USA",
+    "provider": "United Launch Alliance",
+    "rocket": "Vulcan VC6L",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/ef9850ad-1096-425b-9d27-f7bbd186e61a",
+    "webcast_live": false
+   },
+   {
     "description": "Second of EUMETSAT's second generation of Metop weather satellites.",
     "id": "22e117bf-041c-49d5-9d09-7b180036e143",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg",
@@ -2327,29 +2338,8 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/22e117bf-041c-49d5-9d09-7b180036e143",
     "webcast_live": false
-   },
-   {
-    "description": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Transport Layer.",
-    "id": "71df1dd0-d658-4762-b0bc-0fca6886aea7",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-    "lat": 28.458,
-    "lon": -80.528,
-    "mission": "SDA Tranche 2 Transport Layer D",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer D",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "PO",
-    "pad": "Unknown Pad",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/71df1dd0-d658-4762-b0bc-0fca6886aea7",
-    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-24T13:52:37.767312+00:00"
+ "fetched_at": "2026-10-24T17:15:32.296443+00:00"
 }
