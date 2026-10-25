@@ -14,8 +14,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 71,
+  "last_seen": "2026-10-25",
+  "times_seen": 72,
   "outlets": [
    "Neuralink"
   ]
@@ -34,12 +34,437 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 28,
+  "last_seen": "2026-10-25",
+  "times_seen": 29,
   "outlets": [
    "SPCX",
    "TSLA",
    "Musk"
+  ]
+ },
+ {
+  "statement": "SpaceX showcases exactly how it plans to catch Starship next month - Teslarati",
+  "entity": "SpaceX",
+  "horizon_phrase": "next month",
+  "horizon": "2026-11-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBIdTZoYkpMRGY4TDE2M1ZtcU0wX3U2c2N3Tko3WWRrR0NRdHFwbzJaVl92S214RVpDLXpCdnZ6X2RfeDhadUlZT055MTItVklmM3pxNjJYbWZwVV9nNzRkdjRSWGRvTXd5UWlMX21ESzRTUQ?oc=5",
+  "first_seen": "2026-10-21",
+  "topics": [
+   "starship"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 20,
+  "outlets": [
+   "Starship"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Tesla Optimus Robot will ship to outside customers by end of 2027 - Shacknews",
+  "entity": "Musk",
+  "horizon_phrase": "by end of 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc2hReU9QdW0yd3IwY3FCbWxhdnZmQjdGQlZEMEphQU0yYzJjeW9ndlhsMWpkeGVrYkZkaDhQa1NVTkltVmgyeUIxTHNXVXI5VWZLUmM2NkxHV25zeGVRN2JkX2s5dlFZeFVpdUU2Q3hJZ01aTkRHSGY0Q0x6aElqemh0Mzk?oc=5",
+  "first_seen": "2026-10-21",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 17,
+  "outlets": [
+   "Optimus"
+  ]
+ },
+ {
+  "statement": "Tesla earnings call: Targets 5 million cars a year by 2030, says 2027 Megapack supply nearly sold out - investingLive",
+  "entity": "Tesla",
+  "horizon_phrase": "by 2030",
+  "horizon": "2030-12-31",
+  "horizon_precision": "year",
+  "quantity": "5 million cars",
+  "source": "Energy",
+  "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNzgtb0JLLW12MWtVNVNBYW9USTlIbXZLWVRDTUR5WG9WQW9Gc2phdG5RNkNkZkF0RlR3RTBJeDZXQU5LQ01MWTlxaDF1dmY4UDJyV3V2ZE1LRHhGanF2ZDFmT3Vabmw1V0ZnZkpJRFVYQlZUTTZZbzJxclpuTTJWakMwUGk4MDMxN0JMdkQzN3BpTDVRS25KbE12cUE3YWRwVVUzeHZiUXZuZDdhVUpMcHliVjRDSnJ0SXAxM25KLVhFVFhzaFFxT3I1TzF4QQ?oc=5",
+  "first_seen": "2026-10-21",
+  "topics": [
+   "energy",
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 17,
+  "outlets": [
+   "Energy"
+  ]
+ },
+ {
+  "statement": "Tesla says customers can add their own vehicles to the robotaxi fleet next year \u2014 will it happen? - The Verge",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdWM5dnVTbXd6TGlPWF9nSm93V3NiSWl6YXRueFd4VTRraGpDUWprQ3NkNjluZFh4YWJYT19IMnBJSmdDdWJjY0ZDZXN2OTZicUhvMTVtalZCbHRtUkswdDFkTFdXTWd3OVdXLS04c3JNSWEtakVtTDlaekRzX2ZnX0hHMTFZLUZSUVRqWE9xb2ZpYWdRU21FTVBvMTNUeHZhZUxMSWswLW1Dak5FenI3ZDNXYXNnYVU?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 16,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year - WSJ",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09OVGpVM3FDM3I4RzJVTnVHcDk5c0Z5aHVEVS1BZ2RDRnVpQU13Yld0VTdWS0xBb3JGbWVzSHhZU0J0cVVUWjBlZWVNM3FDTGJOOWtFN2EwMTlkN1VmcjJSTDhiVnpYMFByX2c4RFhfd3pRSU0tSEhtcnlldGx1NU9GWGo3aVctSFRvTg?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 16,
+  "outlets": [
+   "Humanoids",
+   "Optimus"
+  ]
+ },
+ {
+  "statement": "Tesla Plans To Start Selling Cybercabs By The End Of The Year - Engadget",
+  "entity": "Tesla",
+  "horizon_phrase": "By The End Of The Year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeDZRcE9aRV95QXpTZ2dPdjh3cmZhb2l0VU5sUnVfekwySll3OFlsbU5vQmZsVE9vUDUya253UG1lTkd4aVNvTnNmSG54WVptN2xFOUx1eXgzYkpXbkJ1dnJ0bk5STlFWTUoweks3dzFucWs2Sl9pbUlUcFpNaVpIQkVYTnY?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 15,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Musk Targets 20,000 Optimus Robots A Week By 2027 - Dataconomy",
+  "entity": "Musk",
+  "horizon_phrase": "By 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeW9hc25waWlBMnBtazJGLVRpVWQta1A5VlNqVnpGSzFianl3bERzVWZ5ZUloZkJsRlBGN0VCNzg1Ty1kRFVZV05HczFHVFFFVTVuOFlSZmh2d0w5Ylh3MEg5TUo3bkxONlN3LXptRnVGOVc3WkhTUHhUS3pId1R0NGdneWE4WnUzd0Jz?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 14,
+  "outlets": [
+   "Optimus",
+   "Humanoids"
+  ]
+ },
+ {
+  "statement": "With Florida launch sites online, Musk expects weekly Starship launches next year - Orlando Sentinel",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONkdFdVVKc3pkVEtId3JjbzVheXRoTVhaX2I2Z2N6RHVPNzlCZFMyQ3c0RThSUjBCOUZySzBXTEZIbjdJS1FiejlmLXBia3oyQXN2ekptTXd1VzdzM0I0ZThvWW5TOWFaMG1KcHpNY1E1ZFRNajhQRlVkUEttTDJrVElvXzR3TTQzVWtCdm9qWlRvQmVaWms3eFVuNndPY3hGZHNvemY3ZnptZlg3dllhTTdmSGY5WV82Q2JWZ3ljbkFiUQ?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "starship",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 14,
+  "outlets": [
+   "Starship"
+  ]
+ },
+ {
+  "statement": "Tesla Says It's Trying to Get Cybercabs to Customers by the End of This Year",
+  "entity": "Tesla",
+  "horizon_phrase": "This Year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Not a Tesla App",
+  "link": "https://www.notateslaapp.com/news/4864/tesla-targets-5m-cars-a-year-by-2030-cybercab-sales-soon",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "autonomy",
+   "production",
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 14,
+  "outlets": [
+   "Not a Tesla App"
+  ]
+ },
+ {
+  "statement": "Tesla Targets 20K Optimus Robots a Week by 2027 [2026] - shattered.io",
+  "entity": "Tesla",
+  "horizon_phrase": "by 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqamRuZ19Ma0YxU050ZGpVaEhOb3dnWnFrLXZqVFRxV1AzZmdxYktUYUlFN0R6dTFLbEVXY0hEUnFxa1VOYXczLW1BZVdxMzRabzBFLS01OEYwNUt6dk5LQ0VYN1hILWRNQkVFRA?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 14,
+  "outlets": [
+   "Optimus"
+  ]
+ },
+ {
+  "statement": "Tesla Ships First Mass-Production Optimus Robots; Musk Says External Supply by Late 2027 - BigGo Finance",
+  "entity": "Tesla",
+  "horizon_phrase": "by Late 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBONTBoTHF1azRPWGtTMXNmeGZrMTlRMEh5YUU5NkVDRTdwZUk4Yko4NUtRWXdJRDRTVlZZU3o4cUNxZ2ZPTkl2YWE3dGNqNHFyZXo2LXlQTS1jeTlORDFYNncxSmtacWV6bGlDMFhUb2s2eE03THc?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "optimus",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 13,
+  "outlets": [
+   "Optimus"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Tesla will sell 5 million cars by 2030 \u2014 math says otherwise - The Verge",
+  "entity": "Musk",
+  "horizon_phrase": "by 2030",
+  "horizon": "2030-12-31",
+  "horizon_precision": "year",
+  "quantity": "5 million cars",
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa2ZBdU9PdDlrZkhKNDdGU1RPbExfb2RSVFdwM2VwRXhrcjlMcTJHZ0NTaGJfZ3VaR1pqbHpJOFhvTE54ekNSRFJ5aWlfY2c3NFgxVWYzcmFOdUpGMkgzbXd4SkxHeFp3bmM2dGtyUnFFaDJ6ZmFacEJaNkpTTElNY2dfbjlRa0UxQkhsOWxBM1RxaTd6Q2dpcmdIbTdfdw?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 13,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "This level-headed Tesla bull still expects 5 million Cybercabs by 2040 - Yahoo Finance",
+  "entity": "Tesla",
+  "horizon_phrase": "by 2040",
+  "horizon": "2040-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT19XMjY2cXQ3RHFwS3JJUTVIVjhtbEZkeVlHTXBIOXg2cUJIWkFnNEhDZ2JxSzZJVXZ2RndXT1N6Y3dQSFZMSGU3ck5mdXg4d0Y3RlFiekJUZUJvd0ZjTUFJYmlBX1ZwNnB0d0RoQ2x6RVUzNkdsUTkwSVJvVTFDWVR1MHpWLVBxd3RJRTR0NW1MUDlSUE1SempMU19KQjc2aTFvQzQ2OUVpQXdLeW5wQ0QyWmFRcEdGOXY2czUydTNkUXJWQlE?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 12,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Elon Musk says X Money to enter early public access next month - Reuters",
+  "entity": "Musk",
+  "horizon_phrase": "next month",
+  "horizon": "2026-11-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "X",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNTY2ZTFEem9zbWtocFR3WGlVR296enhUS0VKdy1VNi1TQnNWbGhuWnM4ZExJa29BaS1IVWQ0TUtZbTZzMFZfVG85NW15WEQzV19oMEZXSEZQZVVYaTN0Ujdkb3dHZFZlR2UtYVh6SUxtSTlMVFZfOUZkYzFkbk1JVjdGM2ZueUNUaldkUGtra0JzMWpEU0ZTNTNTQm1tVWhnMTRsaTRHY2U2NzhUNl9QQ2RsUlNYMlpHMGYzQWtFSjJSYjg?oc=5",
+  "first_seen": "2026-10-14",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 19,
+  "outlets": [
+   "X"
+  ]
+ },
+ {
+  "statement": "SpaceX targets weekly Starship launches in 2027 ... - eeNews Europe",
+  "entity": "SpaceX",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE55a0hMYXN4YVVLYUxFUjlURzJCQzFaUlZUM1dvcWQtT1BGaVUwZ1U0VC1BckxFbHZpenNwb2ZVZTIyaERyMkRyUlpWdUxfdGplSlBHRnZMYUdacTRhejhZdkR6NExubm1hOURsSklJVkJfUzduVV9leA?oc=5",
+  "first_seen": "2026-10-23",
+  "topics": [
+   "starship",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 8,
+  "outlets": [
+   "Starship"
+  ]
+ },
+ {
+  "statement": "Tesla to Launch Unsupervised FSD, Let Owners Join Robotaxi Network in Q2 2027",
+  "entity": "Tesla",
+  "horizon_phrase": "in Q2 2027",
+  "horizon": "2027-06-30",
+  "horizon_precision": "quarter",
+  "quantity": null,
+  "source": "Not a Tesla App",
+  "link": "https://www.notateslaapp.com/news/4879/tesla-to-launch-unsupervised-fsd-let-owners-join-robotaxi-network-in-q2-2027",
+  "first_seen": "2026-10-23",
+  "topics": [
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 8,
+  "outlets": [
+   "Not a Tesla App"
+  ]
+ },
+ {
+  "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHpreThLR3FVa1J6bWtuNmg3MXNHVUFqT1BaSzJMdTJvVTlPdHVKTHBpOUtKUklMTlA2ak9YbklTaTZRZUZ6NDdCS3llSlN2MWNXWmgtbmY2Yy1ydmlVRVRRWmxXWlhrbVNaUzF3TjUyTGZMVmprQVctbzlLZl9XY0JIZWdvUQ?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "optimus",
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 191,
+  "outlets": [
+   "Optimus",
+   "Optimus Features"
+  ]
+ },
+ {
+  "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - Electric Vehicles",
+  "entity": "Tesla",
+  "horizon_phrase": "This Year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjVidnZtaUtWNVdOUGlQaUNBS1phbDduR3ZDMWJJa0ludjV2MkdMNEZrOTB0TUsyYTBGSTQ3UWVOOUpyeU1LMTdNQUllUXJFZzIyZ3R3NjQ3RmlyRm00QnVPSHRxLVFlU2FadjlZTmtud2Z5cEZKQU5fZy1PRFdXNTRneHB0YTR6djVILXZ2cEFwcmg3X2ktTnlybmM1dTNITXJ4RUxURVVfSFgzRmZrVENLLWo?oc=5",
+  "first_seen": "2026-10-06",
+  "topics": [
+   "optimus",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 81,
+  "outlets": [
+   "Optimus",
+   "Optimus Features"
+  ]
+ },
+ {
+  "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VQXRiT1ludzJQQkJQLWRUSjhPdkdsb183d3ozcXV1UnhwTDM2UUQ0QzN1N0NxQmdVbGZKSzVzTnRheU9CaGpwaG00SGhSWjZla1p0WDZFZkhPR0t4NXlBbXVRQ3Y2NTVhT3BxUHAwOUQ1OWQz?oc=5",
+  "first_seen": "2026-09-18",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 112,
+  "outlets": [
+   "Optimus",
+   "Optimus Features"
+  ]
+ },
+ {
+  "statement": "Tesla posts record Canadian deliveries as Musk targets 5 million vehicles a year by 2030 - Drive Tesla Canada",
+  "entity": "Tesla",
+  "horizon_phrase": "by 2030",
+  "horizon": "2030-12-31",
+  "horizon_precision": "year",
+  "quantity": "5 million vehicles",
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSGFpNW5xaVJJTXRqVDFMa21KZjVSaHdvUm4yOGJxQUNqblpQSnZ3bFpxQVpualFqejhjcFFmejl3eWRacW1WdDZTcUZnN3pNVU9CYmFKSWE0UjJ0Q2pONVdHZGRLRHgtY05QbjFxVXp5SXNGNUtJcG9KcmdSc0I4TDJsVG55dw?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 14,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Elon Musk Expects SpaceX to Make $500 Billion to $1 Trillion in Sales Next Year. Here's What That Means for the Stock. - The Motley Fool",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYTVjSWlFMWVJdWFudjlqVl8xdWhVTnFqa3FyT2RSdktGaTlEWEpMQ0pkbm8tS0pSeEhHVkxXeXJySDBlUEozRFd0VWI5ZDJxUm1uZUk4bVFYTzRSQ0xsSG55RGtKTlpBb29HbERQRDJfblJRMWlXMW9OUE9IcS16aThPREZpaEc4NmQxZW5QUzZOUHdHUmszcg?oc=5",
+  "first_seen": "2026-10-24",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-25",
+  "times_seen": 5,
+  "outlets": [
+   "SPCX"
   ]
  },
  {
@@ -84,190 +509,6 @@
   ]
  },
  {
-  "statement": "SpaceX showcases exactly how it plans to catch Starship next month - Teslarati",
-  "entity": "SpaceX",
-  "horizon_phrase": "next month",
-  "horizon": "2026-11-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBIdTZoYkpMRGY4TDE2M1ZtcU0wX3U2c2N3Tko3WWRrR0NRdHFwbzJaVl92S214RVpDLXpCdnZ6X2RfeDhadUlZT055MTItVklmM3pxNjJYbWZwVV9nNzRkdjRSWGRvTXd5UWlMX21ESzRTUQ?oc=5",
-  "first_seen": "2026-10-21",
-  "topics": [
-   "starship"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 19,
-  "outlets": [
-   "Starship"
-  ]
- },
- {
-  "statement": "Elon Musk says Tesla Optimus Robot will ship to outside customers by end of 2027 - Shacknews",
-  "entity": "Musk",
-  "horizon_phrase": "by end of 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc2hReU9QdW0yd3IwY3FCbWxhdnZmQjdGQlZEMEphQU0yYzJjeW9ndlhsMWpkeGVrYkZkaDhQa1NVTkltVmgyeUIxTHNXVXI5VWZLUmM2NkxHV25zeGVRN2JkX2s5dlFZeFVpdUU2Q3hJZ01aTkRHSGY0Q0x6aElqemh0Mzk?oc=5",
-  "first_seen": "2026-10-21",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 16,
-  "outlets": [
-   "Optimus"
-  ]
- },
- {
-  "statement": "Tesla earnings call: Targets 5 million cars a year by 2030, says 2027 Megapack supply nearly sold out - investingLive",
-  "entity": "Tesla",
-  "horizon_phrase": "by 2030",
-  "horizon": "2030-12-31",
-  "horizon_precision": "year",
-  "quantity": "5 million cars",
-  "source": "Energy",
-  "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPNzgtb0JLLW12MWtVNVNBYW9USTlIbXZLWVRDTUR5WG9WQW9Gc2phdG5RNkNkZkF0RlR3RTBJeDZXQU5LQ01MWTlxaDF1dmY4UDJyV3V2ZE1LRHhGanF2ZDFmT3Vabmw1V0ZnZkpJRFVYQlZUTTZZbzJxclpuTTJWakMwUGk4MDMxN0JMdkQzN3BpTDVRS25KbE12cUE3YWRwVVUzeHZiUXZuZDdhVUpMcHliVjRDSnJ0SXAxM25KLVhFVFhzaFFxT3I1TzF4QQ?oc=5",
-  "first_seen": "2026-10-21",
-  "topics": [
-   "energy",
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 16,
-  "outlets": [
-   "Energy"
-  ]
- },
- {
-  "statement": "Tesla says customers can add their own vehicles to the robotaxi fleet next year \u2014 will it happen? - The Verge",
-  "entity": "Tesla",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdWM5dnVTbXd6TGlPWF9nSm93V3NiSWl6YXRueFd4VTRraGpDUWprQ3NkNjluZFh4YWJYT19IMnBJSmdDdWJjY0ZDZXN2OTZicUhvMTVtalZCbHRtUkswdDFkTFdXTWd3OVdXLS04c3JNSWEtakVtTDlaekRzX2ZnX0hHMTFZLUZSUVRqWE9xb2ZpYWdRU21FTVBvMTNUeHZhZUxMSWswLW1Dak5FenI3ZDNXYXNnYVU?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "autonomy"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 15,
-  "outlets": [
-   "Autonomy"
-  ]
- },
- {
-  "statement": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year - WSJ",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09OVGpVM3FDM3I4RzJVTnVHcDk5c0Z5aHVEVS1BZ2RDRnVpQU13Yld0VTdWS0xBb3JGbWVzSHhZU0J0cVVUWjBlZWVNM3FDTGJOOWtFN2EwMTlkN1VmcjJSTDhiVnpYMFByX2c4RFhfd3pRSU0tSEhtcnlldGx1NU9GWGo3aVctSFRvTg?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 15,
-  "outlets": [
-   "Humanoids",
-   "Optimus"
-  ]
- },
- {
-  "statement": "Tesla Plans To Start Selling Cybercabs By The End Of The Year - Engadget",
-  "entity": "Tesla",
-  "horizon_phrase": "By The End Of The Year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeDZRcE9aRV95QXpTZ2dPdjh3cmZhb2l0VU5sUnVfekwySll3OFlsbU5vQmZsVE9vUDUya253UG1lTkd4aVNvTnNmSG54WVptN2xFOUx1eXgzYkpXbkJ1dnJ0bk5STlFWTUoweks3dzFucWs2Sl9pbUlUcFpNaVpIQkVYTnY?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 14,
-  "outlets": [
-   "Autonomy"
-  ]
- },
- {
-  "statement": "Musk Targets 20,000 Optimus Robots A Week By 2027 - Dataconomy",
-  "entity": "Musk",
-  "horizon_phrase": "By 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeW9hc25waWlBMnBtazJGLVRpVWQta1A5VlNqVnpGSzFianl3bERzVWZ5ZUloZkJsRlBGN0VCNzg1Ty1kRFVZV05HczFHVFFFVTVuOFlSZmh2d0w5Ylh3MEg5TUo3bkxONlN3LXptRnVGOVc3WkhTUHhUS3pId1R0NGdneWE4WnUzd0Jz?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 13,
-  "outlets": [
-   "Optimus",
-   "Humanoids"
-  ]
- },
- {
-  "statement": "With Florida launch sites online, Musk expects weekly Starship launches next year - Orlando Sentinel",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONkdFdVVKc3pkVEtId3JjbzVheXRoTVhaX2I2Z2N6RHVPNzlCZFMyQ3c0RThSUjBCOUZySzBXTEZIbjdJS1FiejlmLXBia3oyQXN2ekptTXd1VzdzM0I0ZThvWW5TOWFaMG1KcHpNY1E1ZFRNajhQRlVkUEttTDJrVElvXzR3TTQzVWtCdm9qWlRvQmVaWms3eFVuNndPY3hGZHNvemY3ZnptZlg3dllhTTdmSGY5WV82Q2JWZ3ljbkFiUQ?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "starship",
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 13,
-  "outlets": [
-   "Starship"
-  ]
- },
- {
-  "statement": "Tesla Says It's Trying to Get Cybercabs to Customers by the End of This Year",
-  "entity": "Tesla",
-  "horizon_phrase": "This Year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Not a Tesla App",
-  "link": "https://www.notateslaapp.com/news/4864/tesla-targets-5m-cars-a-year-by-2030-cybercab-sales-soon",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "autonomy",
-   "production",
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 13,
-  "outlets": [
-   "Not a Tesla App"
-  ]
- },
- {
   "statement": "Tesla Aiming to Deliver First Customer Cybercabs by End of 2026 - driveteslacanada.ca",
   "entity": "Tesla",
   "horizon_phrase": "by End of 2026",
@@ -283,227 +524,6 @@
   "times_seen": 10,
   "outlets": [
    "Autonomy",
-   "Production"
-  ]
- },
- {
-  "statement": "Tesla Targets 20K Optimus Robots a Week by 2027 [2026] - shattered.io",
-  "entity": "Tesla",
-  "horizon_phrase": "by 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqamRuZ19Ma0YxU050ZGpVaEhOb3dnWnFrLXZqVFRxV1AzZmdxYktUYUlFN0R6dTFLbEVXY0hEUnFxa1VOYXczLW1BZVdxMzRabzBFLS01OEYwNUt6dk5LQ0VYN1hILWRNQkVFRA?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 13,
-  "outlets": [
-   "Optimus"
-  ]
- },
- {
-  "statement": "Tesla Ships First Mass-Production Optimus Robots; Musk Says External Supply by Late 2027 - BigGo Finance",
-  "entity": "Tesla",
-  "horizon_phrase": "by Late 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBONTBoTHF1azRPWGtTMXNmeGZrMTlRMEh5YUU5NkVDRTdwZUk4Yko4NUtRWXdJRDRTVlZZU3o4cUNxZ2ZPTkl2YWE3dGNqNHFyZXo2LXlQTS1jeTlORDFYNncxSmtacWV6bGlDMFhUb2s2eE03THc?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "optimus",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 12,
-  "outlets": [
-   "Optimus"
-  ]
- },
- {
-  "statement": "Elon Musk says Tesla will sell 5 million cars by 2030 \u2014 math says otherwise - The Verge",
-  "entity": "Musk",
-  "horizon_phrase": "by 2030",
-  "horizon": "2030-12-31",
-  "horizon_precision": "year",
-  "quantity": "5 million cars",
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa2ZBdU9PdDlrZkhKNDdGU1RPbExfb2RSVFdwM2VwRXhrcjlMcTJHZ0NTaGJfZ3VaR1pqbHpJOFhvTE54ekNSRFJ5aWlfY2c3NFgxVWYzcmFOdUpGMkgzbXd4SkxHeFp3bmM2dGtyUnFFaDJ6ZmFacEJaNkpTTElNY2dfbjlRa0UxQkhsOWxBM1RxaTd6Q2dpcmdIbTdfdw?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 12,
-  "outlets": [
-   "Production"
-  ]
- },
- {
-  "statement": "This level-headed Tesla bull still expects 5 million Cybercabs by 2040 - Yahoo Finance",
-  "entity": "Tesla",
-  "horizon_phrase": "by 2040",
-  "horizon": "2040-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQT19XMjY2cXQ3RHFwS3JJUTVIVjhtbEZkeVlHTXBIOXg2cUJIWkFnNEhDZ2JxSzZJVXZ2RndXT1N6Y3dQSFZMSGU3ck5mdXg4d0Y3RlFiekJUZUJvd0ZjTUFJYmlBX1ZwNnB0d0RoQ2x6RVUzNkdsUTkwSVJvVTFDWVR1MHpWLVBxd3RJRTR0NW1MUDlSUE1SempMU19KQjc2aTFvQzQ2OUVpQXdLeW5wQ0QyWmFRcEdGOXY2czUydTNkUXJWQlE?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 11,
-  "outlets": [
-   "Autonomy"
-  ]
- },
- {
-  "statement": "Elon Musk says X Money to enter early public access next month - Reuters",
-  "entity": "Musk",
-  "horizon_phrase": "next month",
-  "horizon": "2026-11-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "X",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNTY2ZTFEem9zbWtocFR3WGlVR296enhUS0VKdy1VNi1TQnNWbGhuWnM4ZExJa29BaS1IVWQ0TUtZbTZzMFZfVG85NW15WEQzV19oMEZXSEZQZVVYaTN0Ujdkb3dHZFZlR2UtYVh6SUxtSTlMVFZfOUZkYzFkbk1JVjdGM2ZueUNUaldkUGtra0JzMWpEU0ZTNTNTQm1tVWhnMTRsaTRHY2U2NzhUNl9QQ2RsUlNYMlpHMGYzQWtFSjJSYjg?oc=5",
-  "first_seen": "2026-10-14",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 18,
-  "outlets": [
-   "X"
-  ]
- },
- {
-  "statement": "SpaceX targets weekly Starship launches in 2027 ... - eeNews Europe",
-  "entity": "SpaceX",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE55a0hMYXN4YVVLYUxFUjlURzJCQzFaUlZUM1dvcWQtT1BGaVUwZ1U0VC1BckxFbHZpenNwb2ZVZTIyaERyMkRyUlpWdUxfdGplSlBHRnZMYUdacTRhejhZdkR6NExubm1hOURsSklJVkJfUzduVV9leA?oc=5",
-  "first_seen": "2026-10-23",
-  "topics": [
-   "starship",
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 7,
-  "outlets": [
-   "Starship"
-  ]
- },
- {
-  "statement": "Tesla to Launch Unsupervised FSD, Let Owners Join Robotaxi Network in Q2 2027",
-  "entity": "Tesla",
-  "horizon_phrase": "in Q2 2027",
-  "horizon": "2027-06-30",
-  "horizon_precision": "quarter",
-  "quantity": null,
-  "source": "Not a Tesla App",
-  "link": "https://www.notateslaapp.com/news/4879/tesla-to-launch-unsupervised-fsd-let-owners-join-robotaxi-network-in-q2-2027",
-  "first_seen": "2026-10-23",
-  "topics": [
-   "autonomy"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 7,
-  "outlets": [
-   "Not a Tesla App"
-  ]
- },
- {
-  "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHpreThLR3FVa1J6bWtuNmg3MXNHVUFqT1BaSzJMdTJvVTlPdHVKTHBpOUtKUklMTlA2ak9YbklTaTZRZUZ6NDdCS3llSlN2MWNXWmgtbmY2Yy1ydmlVRVRRWmxXWlhrbVNaUzF3TjUyTGZMVmprQVctbzlLZl9XY0JIZWdvUQ?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "optimus",
-   "autonomy"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 190,
-  "outlets": [
-   "Optimus",
-   "Optimus Features"
-  ]
- },
- {
-  "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - Electric Vehicles",
-  "entity": "Tesla",
-  "horizon_phrase": "This Year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjVidnZtaUtWNVdOUGlQaUNBS1phbDduR3ZDMWJJa0ludjV2MkdMNEZrOTB0TUsyYTBGSTQ3UWVOOUpyeU1LMTdNQUllUXJFZzIyZ3R3NjQ3RmlyRm00QnVPSHRxLVFlU2FadjlZTmtud2Z5cEZKQU5fZy1PRFdXNTRneHB0YTR6djVILXZ2cEFwcmg3X2ktTnlybmM1dTNITXJ4RUxURVVfSFgzRmZrVENLLWo?oc=5",
-  "first_seen": "2026-10-06",
-  "topics": [
-   "optimus",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 80,
-  "outlets": [
-   "Optimus",
-   "Optimus Features"
-  ]
- },
- {
-  "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VQXRiT1ludzJQQkJQLWRUSjhPdkdsb183d3ozcXV1UnhwTDM2UUQ0QzN1N0NxQmdVbGZKSzVzTnRheU9CaGpwaG00SGhSWjZla1p0WDZFZkhPR0t4NXlBbXVRQ3Y2NTVhT3BxUHAwOUQ1OWQz?oc=5",
-  "first_seen": "2026-09-18",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 111,
-  "outlets": [
-   "Optimus",
-   "Optimus Features"
-  ]
- },
- {
-  "statement": "Tesla posts record Canadian deliveries as Musk targets 5 million vehicles a year by 2030 - Drive Tesla Canada",
-  "entity": "Tesla",
-  "horizon_phrase": "by 2030",
-  "horizon": "2030-12-31",
-  "horizon_precision": "year",
-  "quantity": "5 million vehicles",
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSGFpNW5xaVJJTXRqVDFMa21KZjVSaHdvUm4yOGJxQUNqblpQSnZ3bFpxQVpualFqejhjcFFmejl3eWRacW1WdDZTcUZnN3pNVU9CYmFKSWE0UjJ0Q2pONVdHZGRLRHgtY05QbjFxVXp5SXNGNUtJcG9KcmdSc0I4TDJsVG55dw?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 13,
-  "outlets": [
    "Production"
   ]
  },
@@ -565,26 +585,6 @@
   "times_seen": 1,
   "outlets": [
    "Starship"
-  ]
- },
- {
-  "statement": "Elon Musk Expects SpaceX to Make $500 Billion to $1 Trillion in Sales Next Year. Here's What That Means for the Stock. - The Motley Fool",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNYTVjSWlFMWVJdWFudjlqVl8xdWhVTnFqa3FyT2RSdktGaTlEWEpMQ0pkbm8tS0pSeEhHVkxXeXJySDBlUEozRFd0VWI5ZDJxUm1uZUk4bVFYTzRSQ0xsSG55RGtKTlpBb29HbERQRDJfblJRMWlXMW9OUE9IcS16aThPREZpaEc4NmQxZW5QUzZOUHdHUmszcg?oc=5",
-  "first_seen": "2026-10-24",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 4,
-  "outlets": [
-   "SPCX"
   ]
  },
  {

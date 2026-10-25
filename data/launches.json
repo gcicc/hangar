@@ -147,7 +147,7 @@
   "pads": [
    {
     "count": 56,
-    "last_net": "2026-11-05T22:34:00Z",
+    "last_net": "2026-12-31T00:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
     "lon": -120.611,
@@ -1930,27 +1930,6 @@
   },
   "upcoming": [
    {
-    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "f6af629d-39b5-4f86-bc0c-f8776444a858",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Starlink Group 15-15",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-15",
-    "net": "2026-10-23T22:48:44Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/f6af629d-39b5-4f86-bc0c-f8776444a858",
-    "webcast_live": false
-   },
-   {
     "description": "Details TBD.",
     "id": "6b95bcc8-1f88-4539-84fe-f63630138766",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
@@ -2348,8 +2327,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/71df1dd0-d658-4762-b0bc-0fca6886aea7",
     "webcast_live": false
+   },
+   {
+    "description": "Classified mission launched by the Space Development Agency (SDA) for Tranche 2 Transport Layer.",
+    "id": "71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "SDA Tranche 2 Transport Layer E",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | SDA Tranche 2 Transport Layer E",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "PO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-24T20:25:15.974406+00:00"
+ "fetched_at": "2026-10-25T00:04:27.811283+00:00"
 }
