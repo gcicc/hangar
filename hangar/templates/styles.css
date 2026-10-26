@@ -66,6 +66,7 @@
   --globe-grat: rgba(140, 170, 205, 0.09);
   --globe-limb: rgba(120, 190, 255, 0.35);
   --sat: #9fdcff;
+  --globe-neutral: #5b6676;
 
   --gutter: clamp(1rem, 3vw, 2.5rem);
   --strip-h: 2px;
@@ -93,12 +94,13 @@
     --series-3: #158a60;
     --grid: rgba(20, 40, 70, 0.05);
     --glow: transparent;
-    --globe-ocean: #dfe6ee;
-    --globe-land: #c3ccd7;
-    --globe-coast: #97a4b4;
+    --globe-ocean: #c9d3df;
+    --globe-land: #aab6c4;
+    --globe-coast: #7e8c9d;
     --globe-grat: rgba(40, 60, 90, 0.10);
-    --globe-limb: rgba(40, 90, 160, 0.35);
+    --globe-limb: rgba(40, 90, 160, 0.5);
     --sat: #1e5fae;
+    --globe-neutral: #9aa4b1;
   }
 }
 
@@ -122,12 +124,13 @@
   --series-3: #158a60;
   --grid: rgba(20, 40, 70, 0.05);
   --glow: transparent;
-  --globe-ocean: #dfe6ee;
-  --globe-land: #c3ccd7;
-  --globe-coast: #97a4b4;
+  --globe-ocean: #c9d3df;
+  --globe-land: #aab6c4;
+  --globe-coast: #7e8c9d;
   --globe-grat: rgba(40, 60, 90, 0.10);
-  --globe-limb: rgba(40, 90, 160, 0.35);
+  --globe-limb: rgba(40, 90, 160, 0.5);
   --sat: #1e5fae;
+  --globe-neutral: #9aa4b1;
 }
 
 * { box-sizing: border-box; }
@@ -794,28 +797,74 @@ footer a { color: var(--ink-2); }
 .globe-wrap.big .globe-cap { max-width: min(calc(100vw - 2rem), 900px); margin: 0 auto; font-size: 0.7rem; }
 .globe-wrap.big .closeup { left: 50%; right: auto; width: min(calc(100vw - 2rem), calc(100vh - 11rem)); transform: translateX(-50%); }
 
+/* The key: under the globe inline, floating beside it when expanded. */
+.globe-key {
+  font-family: var(--mono);
+  font-size: 0.75rem;
+  line-height: 1.55;
+  color: var(--ink-2);
+  padding: 0.3rem 0.4rem 0;
+}
+.globe-key-btn {
+  font: inherit;
+  font-size: 0.7rem;
+  color: var(--ink-2);
+  background: var(--rack);
+  border: 1px solid var(--rule-bright);
+  padding: 0.1rem 0.45rem;
+  cursor: pointer;
+}
+.globe-key-btn:hover, .globe-key-btn:focus-visible { color: var(--ink); border-color: var(--sodium); }
+.globe-key-body {
+  margin-top: 0.25rem;
+  padding: 0.4rem 0.6rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 0 1.2rem;
+  background: var(--rack);
+  border: 1px solid var(--rule-bright);
+}
+.globe-key-body[hidden] { display: none; }
+.globe-wrap.big .globe-key { position: absolute; top: 1rem; left: 1rem; z-index: 3; padding: 0; }
+.globe-wrap.big .globe-key-body { display: block; min-width: 14rem; }
+.globe-wrap.big .globe-key-body[hidden] { display: none; }
+.globe-wrap.big .gk-col + .gk-col { margin-top: 0.3rem; }
+.gk-h { color: var(--ink-muted); font-size: 0.65rem; letter-spacing: 0.06em; text-transform: uppercase; }
+.gk-h span { float: right; text-transform: none; letter-spacing: 0; }
+.gk-row { display: flex; align-items: center; gap: 0.45rem; color: var(--ink); white-space: nowrap; }
+.gk-row i { width: 0.6rem; height: 0.6rem; border-radius: 50%; flex: none; }
+.gk-row b { margin-left: auto; padding-left: 0.6rem; font-weight: 500; font-variant-numeric: tabular-nums; }
+.gk-row svg { width: 0.7rem; height: 0.7rem; flex: none; }
+@media (max-width: 600px) {
+  .globe-key { font-size: 0.68rem; }
+  .globe-key-body { gap: 0 0.7rem; }
+}
+
 /* Time-lapse controls and the satellite card. */
 .tl-bar { display: flex; align-items: center; gap: 0.4rem; margin: 0.1rem 0 0.2rem; }
 .tl-bar button { margin-left: 0; white-space: nowrap; }
 .tl-bar input[type="range"] { flex: 1; min-width: 0; accent-color: var(--series-1); }
 .tl-read { color: var(--ink-2); }
-.tl-read b { color: var(--ink); font-weight: 600; }
+.tl-read b { color: var(--ink); font-weight: 500; }
 
 .sat-tip {
   position: absolute;
   transform: translate(12px, -50%);
-  max-width: 250px;
-  padding: 0.45rem 0.55rem;
+  width: max-content;
+  max-width: 300px;
+  padding: 0.5rem 0.65rem;
   font-family: var(--mono);
-  font-size: 0.62rem;
-  line-height: 1.5;
+  font-size: 0.8rem;
+  line-height: 1.45;
   color: var(--ink-2);
   background: var(--rack);
   border: 1px solid var(--rule-bright);
   pointer-events: none;
   z-index: 4;
 }
-.sat-tip b { color: var(--ink); }
+/* Flipped to the left of the dot near the globe's right edge (set in draw()). */
+.sat-tip.left { transform: translate(calc(-100% - 12px), -50%); }
+.sat-tip b { color: var(--ink); font-size: 0.95rem; font-weight: 500; }
 .sat-tip .fine { color: var(--ink-muted); }
 
 /* Close-up: satellite imagery laid over the globe after a click-to-zoom. */

@@ -1141,14 +1141,17 @@
     return "elliptical";  // low perigee, apogee short of GEO: Vanguard, early Explorers
   }
 
-  function glyphPath(ctx, kind, x, y) {
+  // Glyph at scale k (1 = a ~500 px globe). Below ~4 px circles, squares and
+  // triangles all render as the same blob, so the base sizes stay above that.
+  function glyphPath(ctx, kind, x, y, k) {
+    var c = 2.2 * k, h = 2.1 * k, d = 3.2 * k, t = 2.8 * k, a = 3 * k, w = 0.9 * k;
     switch (kind) {
-      case "circle": ctx.moveTo(x + 1.8, y); ctx.arc(x, y, 1.8, 0, TWO_PI); break;
-      case "diamond": ctx.moveTo(x, y - 2.6); ctx.lineTo(x + 2.6, y); ctx.lineTo(x, y + 2.6); ctx.lineTo(x - 2.6, y); ctx.closePath(); break;
-      case "square": ctx.rect(x - 1.7, y - 1.7, 3.4, 3.4); break;
-      case "triangle": ctx.moveTo(x, y - 2.5); ctx.lineTo(x + 2.4, y + 1.8); ctx.lineTo(x - 2.4, y + 1.8); ctx.closePath(); break;
-      case "cross": ctx.rect(x - 2.5, y - 0.75, 5, 1.5); ctx.rect(x - 0.75, y - 2.5, 1.5, 5); break;
-      default: ctx.rect(x - 0.9, y - 0.9, 1.8, 1.8);
+      case "circle": ctx.moveTo(x + c, y); ctx.arc(x, y, c, 0, TWO_PI); break;
+      case "diamond": ctx.moveTo(x, y - d); ctx.lineTo(x + d, y); ctx.lineTo(x, y + d); ctx.lineTo(x - d, y); ctx.closePath(); break;
+      case "square": ctx.rect(x - h, y - h, 2 * h, 2 * h); break;
+      case "triangle": ctx.moveTo(x, y - t); ctx.lineTo(x + t, y + 0.75 * t); ctx.lineTo(x - t, y + 0.75 * t); ctx.closePath(); break;
+      case "cross": ctx.rect(x - a, y - w, 2 * a, 2 * w); ctx.rect(x - w, y - a, 2 * w, 2 * a); break;
+      default: ctx.rect(x - 1.1 * k, y - 1.1 * k, 2.2 * k, 2.2 * k);
     }
   }
 
@@ -1236,13 +1239,13 @@
     var land = null, landFailed = !window.topojson;
     var size = 0, R = 0, cx = 0, cy = 0, rotator = null, zoom = 1;
     var hover = null, focus = null, flying = false;
-    var rot = [-(next && next.lon != null ? next.lon : -80), -22, 0];
+    var rot = [tl.on ? 80 : -(next && next.lon != null ? next.lon : -80), -22, 0];
 
     var C = {};
     function readColours() {
       var cs = getComputedStyle(document.documentElement);
       ["globe-ocean", "globe-land", "globe-coast", "globe-grat", "globe-limb", "sat", "sodium", "ink-muted",
-        "series-1", "series-2", "series-3", "ink"]
+        "series-1", "series-2", "series-3", "ink", "globe-neutral"]
         .forEach(function (k) { C[k] = cs.getPropertyValue("--" + k).trim(); });
     }
     readColours();
@@ -1304,6 +1307,72 @@
       }
 
       ctx.globalAlpha = 1;
+      // Today's pads, factories and next launch only make sense on today's globe.
+      if (!tl.on) drawSites();
+
+      // Near side: one path per bucket. Defunct (live globe only) first, then
+      // groups in reverse so SpaceX paints last and on top; others sit back.
+      var k = glyphScale();
+      [24, 0].forEach(function (base) {
+        for (var g = 3; g >= 0; g--) {
+          for (var pu = 0; pu < 6; pu++) {
+            var nb = sats.near[base + g * 6 + pu];
+            if (!nb.length) continue;
+            ctx.globalAlpha = base ? 0.35 : (g === 0 ? 1 : 0.7);
+            ctx.fillStyle = groupColour(g);
+            ctx.beginPath();
+            for (var ni = 0; ni < nb.length; ni += 2) glyphPath(ctx, GLYPHS[pu], nb[ni], nb[ni + 1], k);
+            ctx.fill();
+          }
+        }
+      });
+      ctx.globalAlpha = 1;
+
+      drawStreaks(t, th, span);
+      if (tl.on) drawClock(t, sats.spx);
+
+      // Hovered or pinned satellite: ring it and keep the tooltip on it.
+      if (tipSat >= 0) {
+        var hp2 = satScreen(tipSat, t, th);
+        if (hp2 && satVisible(tipSat, t, span)) {
+          ctx.strokeStyle = C.ink;
+          ctx.lineWidth = 1.5;
+          ctx.beginPath(); ctx.arc(hp2.x, hp2.y, 6 + 2 * k, 0, TWO_PI); ctx.stroke();
+          // Flip left near the right edge; keep the card inside the globe box.
+          tip.classList.toggle("left", hp2.x > size * 0.55);
+          tip.style.left = hp2.x + "px";
+          var half = tip.offsetHeight / 2;
+          tip.style.top = Math.max(half, Math.min(size - half, hp2.y)) + "px";
+          tip.hidden = false;
+        } else {
+          tip.hidden = true;
+        }
+      }
+    }
+
+    // Glyph scale: grows with the globe on screen, and a little with zoom.
+    function glyphScale() {
+      return Math.max(1, Math.min(2.2, size / 500)) * Math.pow(zoom, 0.25);
+    }
+
+    // The year, large and faint on the canvas, with SpaceX's count beneath:
+    // a time-lapse is read by its clock, and the eye stays on the globe.
+    function drawClock(t, spx) {
+      var fs = Math.round(size * 0.09);
+      ctx.textAlign = "right";
+      ctx.globalAlpha = 0.4;
+      ctx.fillStyle = C.ink;
+      ctx.font = "800 " + fs + "px Archivo, 'Helvetica Neue', Arial, sans-serif";
+      ctx.fillText(String(new Date(t).getUTCFullYear()), size - 10, fs + 4);
+      ctx.globalAlpha = 0.85;
+      ctx.fillStyle = C["series-1"];
+      ctx.font = "500 " + Math.round(fs * 0.3) + "px 'IBM Plex Mono', monospace";
+      ctx.fillText("SpaceX " + fmt(spx) + " up", size - 12, fs + 8 + Math.round(fs * 0.34));
+      ctx.textAlign = "start";
+      ctx.globalAlpha = 1;
+    }
+
+    function drawSites() {
       pads.forEach(function (pd) {
         var p = place(pd.lon, pd.lat, 1);
         if (p.z <= 0) return;
@@ -1346,41 +1415,11 @@
           ctx.fillText("NEXT · " + (next.pad_location || next.pad || "").split(",")[0], np.x + 12, np.y - 8);
         }
       }
-
-      // Near side: one path per colour, dim pass (defunct, on the live globe) first.
-      for (var key = 0; key < sats.near.length; key++) {
-        var nb = sats.near[key];
-        if (!nb.length) continue;
-        var dim = key >= 24, rest = key % 24;
-        var glyph = GLYPHS[rest % 6];
-        ctx.globalAlpha = dim ? 0.35 : 0.92;
-        ctx.fillStyle = groupColour(Math.floor(rest / 6));
-        ctx.beginPath();
-        for (var ni = 0; ni < nb.length; ni += 2) glyphPath(ctx, glyph, nb[ni], nb[ni + 1]);
-        ctx.fill();
-      }
-      ctx.globalAlpha = 1;
-
-      drawStreaks(t, th, span);
-
-      // Hovered or pinned satellite: ring it and keep the tooltip on it.
-      if (tipSat >= 0) {
-        var hp2 = satScreen(tipSat, t, th);
-        if (hp2 && satVisible(tipSat, t, span)) {
-          ctx.strokeStyle = C.ink;
-          ctx.lineWidth = 1.5;
-          ctx.beginPath(); ctx.arc(hp2.x, hp2.y, 6, 0, TWO_PI); ctx.stroke();
-          tip.style.left = hp2.x + "px";
-          tip.style.top = hp2.y + "px";
-          tip.hidden = false;
-        } else {
-          tip.hidden = true;
-        }
-      }
     }
 
+
     function groupColour(gk) {
-      return gk < 3 ? C["series-" + (gk + 1)] : C["ink-muted"];
+      return gk < 3 ? C["series-" + (gk + 1)] : C["globe-neutral"];
     }
 
     // Colour group (0-3) for a catalogue group index.
@@ -1400,7 +1439,7 @@
     // Project every satellite in orbit at time t into per-colour, per-glyph
     // buckets, and record near-side points for hover hit-testing.
     function placeSats(t, th, span) {
-      var near = [], far = [[], [], [], []], k;
+      var near = [], far = [[], [], [], []], k, spx = 0;
       for (k = 0; k < 48; k++) near.push([]);
       hitN = 0;
       var live = !tl.on;
@@ -1409,6 +1448,7 @@
         var s = subpoint(mdl[i], t, th);
         var p = place(s[0], s[1], dispR(s[2]));
         var g = sGroup[i];
+        if (g === 0) spx++;
         if (p.z > 0) {
           var b = (live && !sReal[i] ? 24 : 0) + g * 6 + cat.sat.p[i];
           near[b].push(p.x, p.y);
@@ -1417,7 +1457,7 @@
           far[g].push(p.x, p.y);
         }
       }
-      return { near: near, far: far };
+      return { near: near, far: far, spx: spx };
     }
 
     // Launch streaks: from the site, rising along a great circle to where the
@@ -1448,7 +1488,7 @@
         }
         ctx.stroke();
         if (head) {
-          ctx.fillStyle = C.ink;
+          ctx.fillStyle = ctx.strokeStyle;  // head in the streak's own colour
           ctx.beginPath(); ctx.arc(head.x, head.y, 1.8, 0, TWO_PI); ctx.fill();
         }
       }
@@ -1646,24 +1686,64 @@
       var t = simT();
       var y = new Date(t).getUTCFullYear();
       if (!cat) { readout.textContent = loadNote; return; }
-      var span = streakSpan(), up = 0;
-      for (var i = 0; i < N; i++) if (satVisible(i, t, span)) up++;
+      var span = streakSpan(), up = 0, byGroup = [0, 0, 0, 0];
+      for (var i = 0; i < N; i++) {
+        if (satVisible(i, t, span)) { up++; byGroup[sGroup[i]]++; }
+      }
+      for (var g = 0; g < 4; g++) keyCounts[g].textContent = fmt(byGroup[g]);
       var a = lowerBound(launchMs, Date.UTC(y, 0, 1)), b = lowerBound(launchMs, t + 1);
       var n = b - a, sx = spxPrefix[b] - spxPrefix[a];
       readout.innerHTML = "<b>" + (tl.on ? new Date(t).toISOString().slice(0, 7) : "NOW · live") +
-        "</b> · " + fmt(up) + " satellites up · " + fmt(n) + (n === 1 ? " launch in " : " launches in ") + y +
-        ", SpaceX " + fmt(sx) + (n ? " (" + Math.round(100 * sx / n) + "%)" : "");
+        "</b> · SpaceX " + fmt(byGroup[0]) + " of " + fmt(up) + " satellites up" +
+        (up ? " (" + Math.round(100 * byGroup[0] / up) + "%)" : "") + " · " + fmt(n) +
+        (n === 1 ? " launch in " : " launches in ") + y + ", " + fmt(sx) + " by SpaceX";
       if (document.activeElement !== scrub) {
         scrub.value = Math.round(1000 * Math.min(1, (t - TL_START) / (Date.now() - TL_START)));
       }
     }
     setInterval(tickReadout, 250);
 
+    // Key: colour is owner (with a live count, so the SpaceX ramp reads as a
+    // number as well as a colour), shape is purpose. Inline it sits under the
+    // globe so it hides nothing; expanded it floats in the margin beside it.
+    // Collapsible, so it can get out of the way on a small screen.
+    var key = el("div", "globe-key");
+    var keyBtn = el("button", "globe-key-btn", "key ▾");
+    keyBtn.type = "button";
+    keyBtn.setAttribute("aria-expanded", "true");
+    var keyBody = el("div", "globe-key-body");
+    var keyCounts = [];
+    var ownerHtml = '<div class="gk-h">Owner <span>satellites up</span></div>';
+    GROUP_KEYS.forEach(function (g, gk) {
+      ownerHtml += '<div class="gk-row"><i style="background:var(--' +
+        (gk < 3 ? "series-" + (gk + 1) : "globe-neutral") + ')"></i>' + esc(g) +
+        '<b data-g="' + gk + '">–</b></div>';
+    });
+    keyBody.innerHTML = '<div class="gk-col">' + ownerHtml + "</div>" +
+      '<div class="gk-col"><div class="gk-h">Purpose</div><div class="gk-purpose"></div></div>';
+    keyCounts = [0, 1, 2, 3].map(function (gk) { return keyBody.querySelector('b[data-g="' + gk + '"]'); });
+    key.appendChild(keyBtn);
+    key.appendChild(keyBody);
+    host.parentNode.insertBefore(key, cap);
+    keyBtn.addEventListener("click", function () {
+      var open = keyBody.hidden;
+      keyBody.hidden = !open;
+      keyBtn.textContent = open ? "key ▾" : "key ▸";
+      keyBtn.setAttribute("aria-expanded", String(open));
+    });
+    // The key is an overlay; keep pointer events on it from dragging the globe.
+    key.addEventListener("pointerdown", function (e) { e.stopPropagation(); });
+
     var note = el("div");
     var lg = el("div");
     cap.appendChild(note);
     cap.appendChild(lg);
     function writeCaption() {
+      if (cat) {
+        keyBody.querySelector(".gk-purpose").innerHTML = cat.purposes.map(function (p, k) {
+          return '<div class="gk-row">' + glyphSvg(GLYPHS[k], "var(--ink)") + " " + esc(p) + "</div>";
+        }).join("");
+      }
       var c = cat ? cat.counts : null;
       note.textContent = c ?
         fmt(c.payloads) + " payloads ever sent to Earth orbit, debris excluded (SATCAT + GCAT, " +
@@ -1671,14 +1751,7 @@
         "synthetic phase. Today: " + fleetNote + ". Two-body + J2, not SGP4. " +
         "Altitude compressed above 1,000 km. Pause, then hover a satellite." :
         loadNote;
-      var swatch = function (gk) {
-        return '<span style="color:' + groupColour(gk) + '">●</span> ' + GROUP_KEYS[gk] + " &nbsp;";
-      };
-      lg.innerHTML = [0, 1, 2, 3].map(swatch).join("") + "<br>" +
-        (cat ? cat.purposes.map(function (p, k) {
-          return glyphSvg(GLYPHS[k], "var(--ink-2)") + " " + esc(p) + " &nbsp;";
-        }).join("") : "") + "<br>" +
-        '<span style="color:#ffa14a">●</span> SpaceX pad &nbsp;<span>●</span> other pad &nbsp;' +
+      lg.innerHTML = '<span style="color:#ffa14a">●</span> SpaceX pad &nbsp;<span>●</span> other pad &nbsp;' +
         Object.keys(CO_COLOR).filter(function (co) {
           return facilities.some(function (f) { return f.co === co; });
         }).map(function (co) {
@@ -1733,6 +1806,7 @@
     }));
 
     function siteAt(e) {
+      if (tl.on) return null;
       var b = canvas.getBoundingClientRect(), mx = e.clientX - b.left, my = e.clientY - b.top;
       var best = null, bestD = 12 * 12;
       sites.forEach(function (st) {
@@ -1964,7 +2038,7 @@
           }
           var paused = tl.on && !tl.playing;
           if (!reduced && !paused && !dragging && !focus && !flying && Date.now() > idleUntil) {
-            rot[0] += dt * 0.004;
+            rot[0] += dt * (tl.on ? 0.001 : 0.004);
           }
           if (!flying && (!reduced || (tl.on && tl.playing) || now - lastDraw > 1000)) {
             draw();
