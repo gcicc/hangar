@@ -42,10 +42,11 @@ cached weekly. Nothing is unpopulated.
 
 ## Next task
 
-**First: find out why the scheduled refresh stopped.** The last refresh commit
-is 2026-10-09 18:07 UTC. Until it runs again nothing on the page moves, and the
-new weekly orbit files (`docs/orbits.json`, `docs/fleet.json`) will not refresh
-either. Check the Actions tab for `refresh.yml`.
+The scheduled refresh is running (81 bot commits 2026-10-09 → 10-26). Pull before
+reading the local git log as the state of the live site — a stale local clone
+was once mistaken for a dead refresh job. After the first scheduled run on the
+time-lapse code, confirm `docs/orbits.json` and `docs/fleet.json` refresh weekly
+and that status shows `orbits` and `fleet`.
 
 Globe time-lapse shipped 2026-10-26 (README "The globe time-lapse", ADR 0001).
 Open question for Greg: which three owner groups get a hue (now SpaceX / rest of
