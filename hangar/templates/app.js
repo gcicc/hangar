@@ -1623,9 +1623,13 @@
     var scrub = el("input");
     scrub.type = "range"; scrub.min = 0; scrub.max = 1000; scrub.step = 1;
     scrub.setAttribute("aria-label", "Time-lapse date");
-    var speedBtn = el("button", "", "×1");
-    speedBtn.type = "button";
-    speedBtn.title = "Time-lapse speed";
+    // Speed: explicit slower / faster steps, labelled in seconds per year,
+    // which is what a viewer actually feels. 1/8 is ~12 s a year.
+    var SPEEDS = [0.125, 0.25, 0.5, 1, 2, 4];
+    var slowBtn = el("button", "", "« slower"), fastBtn = el("button", "", "faster »");
+    slowBtn.type = fastBtn.type = "button";
+    var speedLbl = el("span", "tl-speed");
+    speedLbl.setAttribute("aria-live", "polite");
     var readout = el("div", "tl-read");
     // Zoom and full-window view. The wheel zooms only when expanded, so the
     // hero does not swallow page scrolling; the buttons work everywhere.
@@ -1634,7 +1638,7 @@
     zoomOut.type = zoomIn.type = bigBtn.type = "button";
     zoomOut.setAttribute("aria-label", "Zoom out");
     zoomIn.setAttribute("aria-label", "Zoom in");
-    [playBtn, speedBtn, zoomOut, zoomIn, bigBtn].forEach(function (b) { bar.appendChild(b); });
+    [playBtn, slowBtn, speedLbl, fastBtn, zoomOut, zoomIn, bigBtn].forEach(function (b) { bar.appendChild(b); });
 
     // Launches per year behind the scrub bar, SpaceX stacked in blue: the ramp
     // is visible before pressing play, and the thumb is a playhead over it.
@@ -1685,10 +1689,17 @@
       updateBar();
     }
     playBtn.addEventListener("click", function () { setPlaying(!(tl.on && tl.playing)); });
-    speedBtn.addEventListener("click", function () {
-      tl.mult = tl.mult >= 4 ? 0.5 : tl.mult * 2;
-      speedBtn.textContent = "×" + (tl.mult === 0.5 ? "½" : tl.mult);
-    });
+    function setSpeed(step) {
+      var k = Math.max(0, Math.min(SPEEDS.length - 1, SPEEDS.indexOf(tl.mult) + step));
+      tl.mult = SPEEDS[k];
+      var secPerYear = TL_SECONDS / ((Date.now() - TL_START) / (365.25 * DAY)) / tl.mult;
+      speedLbl.textContent = (secPerYear < 10 ? secPerYear.toFixed(1) : Math.round(secPerYear)) + " s/yr";
+      slowBtn.disabled = k === 0;
+      fastBtn.disabled = k === SPEEDS.length - 1;
+    }
+    slowBtn.addEventListener("click", function () { setSpeed(-1); });
+    fastBtn.addEventListener("click", function () { setSpeed(1); });
+    setSpeed(0);
     scrub.addEventListener("input", function () {
       tl.on = true; tl.playing = false;
       tl.t = TL_START + (Date.now() - TL_START) * scrub.value / 1000;

@@ -868,6 +868,8 @@ footer a { color: var(--ink-2); }
 /* Time-lapse controls and the satellite card. */
 .tl-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin: 0.1rem 0 0.2rem; }
 .tl-bar button { margin-left: 0; white-space: nowrap; }
+.tl-bar button:disabled { opacity: 0.4; cursor: default; }
+.tl-speed { color: var(--ink); font-variant-numeric: tabular-nums; min-width: 4.2em; text-align: center; }
 
 /* Scrub bar over a launches-per-year histogram; the thumb is a playhead line. */
 .tl-track { position: relative; height: 38px; margin: 0.25rem 0 0.3rem; }
