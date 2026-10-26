@@ -1570,7 +1570,7 @@
       var where = sReal[i] && nearNow ? "position from " + fleetNote : "position illustrative";
       var group = cat.groups[S.g[i]], owner = cat.owners[S.o[i]];
       return "<b>" + esc(satName(i)) + "</b> <span class=\"fine\">#" + S.id[i] + "</span>" +
-        '<div><span style="color:' + groupColour(gk) + '">●</span> ' + esc(group) +
+        '<div><span style="color:' + groupColour(gk) + '">●</span> ' + esc(group === "Other" ? "other country" : group) +
         (owner && owner !== group ? " · owner code " + esc(owner) : "") + "</div>" +
         "<div>" + esc(cat.purposes[S.p[i]]) +
         (catg === "-" ? " (no GCAT category)" : " · GCAT " + esc(catg)) + "</div>" +
