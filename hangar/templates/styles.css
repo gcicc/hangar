@@ -775,6 +775,49 @@ footer a { color: var(--ink-2); }
 
 .globe-cap button:hover, .globe-cap button:focus-visible { color: var(--ink); border-color: var(--sodium); }
 
+/* Expanded: the globe fills the window, sized to fit above its caption. */
+.globe-wrap.big {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  max-width: none;
+  margin: 0;
+  padding: 1rem;
+  background: var(--ground);
+  overflow: auto;
+}
+.globe-wrap.big #globe {
+  width: min(calc(100vw - 2rem), calc(100vh - 11rem));
+  margin: 0 auto;
+  touch-action: none;
+}
+.globe-wrap.big .globe-cap { max-width: min(calc(100vw - 2rem), 900px); margin: 0 auto; font-size: 0.7rem; }
+.globe-wrap.big .closeup { left: 50%; right: auto; width: min(calc(100vw - 2rem), calc(100vh - 11rem)); transform: translateX(-50%); }
+
+/* Time-lapse controls and the satellite card. */
+.tl-bar { display: flex; align-items: center; gap: 0.4rem; margin: 0.1rem 0 0.2rem; }
+.tl-bar button { margin-left: 0; white-space: nowrap; }
+.tl-bar input[type="range"] { flex: 1; min-width: 0; accent-color: var(--series-1); }
+.tl-read { color: var(--ink-2); }
+.tl-read b { color: var(--ink); font-weight: 600; }
+
+.sat-tip {
+  position: absolute;
+  transform: translate(12px, -50%);
+  max-width: 250px;
+  padding: 0.45rem 0.55rem;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  line-height: 1.5;
+  color: var(--ink-2);
+  background: var(--rack);
+  border: 1px solid var(--rule-bright);
+  pointer-events: none;
+  z-index: 4;
+}
+.sat-tip b { color: var(--ink); }
+.sat-tip .fine { color: var(--ink-muted); }
+
 /* Close-up: satellite imagery laid over the globe after a click-to-zoom. */
 .closeup {
   position: absolute;

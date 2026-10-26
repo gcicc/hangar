@@ -798,6 +798,49 @@ footer a { color: var(--ink-2); }
 
 .globe-cap button:hover, .globe-cap button:focus-visible { color: var(--ink); border-color: var(--sodium); }
 
+/* Expanded: the globe fills the window, sized to fit above its caption. */
+.globe-wrap.big {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  max-width: none;
+  margin: 0;
+  padding: 1rem;
+  background: var(--ground);
+  overflow: auto;
+}
+.globe-wrap.big #globe {
+  width: min(calc(100vw - 2rem), calc(100vh - 11rem));
+  margin: 0 auto;
+  touch-action: none;
+}
+.globe-wrap.big .globe-cap { max-width: min(calc(100vw - 2rem), 900px); margin: 0 auto; font-size: 0.7rem; }
+.globe-wrap.big .closeup { left: 50%; right: auto; width: min(calc(100vw - 2rem), calc(100vh - 11rem)); transform: translateX(-50%); }
+
+/* Time-lapse controls and the satellite card. */
+.tl-bar { display: flex; align-items: center; gap: 0.4rem; margin: 0.1rem 0 0.2rem; }
+.tl-bar button { margin-left: 0; white-space: nowrap; }
+.tl-bar input[type="range"] { flex: 1; min-width: 0; accent-color: var(--series-1); }
+.tl-read { color: var(--ink-2); }
+.tl-read b { color: var(--ink); font-weight: 600; }
+
+.sat-tip {
+  position: absolute;
+  transform: translate(12px, -50%);
+  max-width: 250px;
+  padding: 0.45rem 0.55rem;
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  line-height: 1.5;
+  color: var(--ink-2);
+  background: var(--rack);
+  border: 1px solid var(--rule-bright);
+  pointer-events: none;
+  z-index: 4;
+}
+.sat-tip b { color: var(--ink); }
+.sat-tip .fine { color: var(--ink-muted); }
+
 /* Close-up: satellite imagery laid over the globe after a click-to-zoom. */
 .closeup {
   position: absolute;
@@ -2057,36 +2100,73 @@ footer a { color: var(--ink-2); }
   }
 
   /* ---------- the globe ------------------------------------------------
-   * Orthographic Earth with the Starlink sample flying over it, launch pads
-   * and factories on the surface, and the next launch pad ringed.
+   * Orthographic Earth with launch pads and factories on the surface, the next
+   * launch pad ringed, and every payload in Earth orbit flying over it.
    *
-   * Satellite positions are propagated in the browser from the CelesTrak
-   * element sets already in the payload: two-body motion plus the J2 drift of
-   * the ascending node and perigee, which dominates for a LEO shell over a few
-   * days. It is not SGP4 - drag and higher harmonics are ignored - so positions
-   * are good for a picture of the constellation's geometry, not for tracking a
-   * particular satellite. The caption says so, and says the clock is sped up.
+   * It opens as a time-lapse, Sputnik 1 to today: each launch rises from its
+   * site, its satellites join the sky, and decayed ones drop out on their decay
+   * date. At the present it hands over to the live globe.
+   *
+   * Data is fetched from the page's own origin, not inlined (decisions/0001):
+   * orbits.json is every Earth-orbit payload (SATCAT + GCAT) and fleet.json the
+   * element sets of operating satellites. The page then tries CelesTrak live for
+   * fresher elements and keeps the committed copy if that fails.
+   *
+   * Positions are two-body motion plus the J2 drift of node and perigee - not
+   * SGP4; drag and higher harmonics are ignored. Satellites without element sets
+   * (decayed or defunct) fly their real inclination, apogee and perigee with a
+   * synthetic node and phase, so historical positions are illustrative. The
+   * caption says both.
    */
 
   var LAND_URL = "https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/land-110m.json";
+  var LIVE_GP = "https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=json";
   var MU = 398600.4418, RE = 6378.137, R_MEAN = 6371, J2 = 1.08263e-3;
-  var RAD = Math.PI / 180;
+  var RAD = Math.PI / 180, TWO_PI = 2 * Math.PI, DAY = 86400000;
 
-  function orbitModel(s) {
-    var n = s.mm * 2 * Math.PI / 86400;
+  var TL_START = Date.UTC(1957, 9, 4);  // Sputnik 1
+  var TL_SECONDS = 105;                 // 1957 to today at x1, about 1.5 s a year
+  var STREAK_MS = 600;                  // a launch streak lasts this long on screen
+
+  // Owner group -> colour token. Only three hues stay distinguishable when every
+  // colour can sit beside every other (the dataviz validator, both themes), so
+  // three groups get a hue and the rest are neutral; the tooltip names them.
+  // SpaceX keeps the series-1 it has in the cadence chart.
+  var GROUP_TOKEN = { "SpaceX": "series-1", "US": "series-2", "USSR / Russia": "series-3" };
+  var GROUP_KEYS = ["SpaceX", "US", "USSR / Russia", "Everyone else"];
+
+  // Glyph per purpose, in the order of orbits.json "purposes".
+  var GLYPHS = ["circle", "diamond", "square", "triangle", "cross", "dot"];
+
+  function elementsModel(mm, e, incDeg, raanDeg, argpDeg, maDeg, t0) {
+    var n = mm * TWO_PI / 86400;
     var a = Math.cbrt(MU / (n * n));
-    var inc = s.inc * RAD, e = s.ecc || 0;
+    var inc = incDeg * RAD;
     var p = a * (1 - e * e);
     var k = 1.5 * n * J2 * (RE / p) * (RE / p);
     return {
-      // CelesTrak epochs carry no zone and six fractional digits; both trip
-      // Date.parse in some browsers.
-      t0: Date.parse(String(s.epoch).slice(0, 23) + "Z"),
-      n: n, a: a, inc: inc, e: e,
-      raan: s.raan * RAD, argp: s.argp * RAD, ma: s.ma * RAD,
+      t0: t0, n: n, a: a, inc: inc, e: e,
+      raan: raanDeg * RAD, argp: argpDeg * RAD, ma: maDeg * RAD,
       dRaan: -k * Math.cos(inc),
       dArgp: 0.5 * k * (5 * Math.cos(inc) * Math.cos(inc) - 1)
     };
+  }
+
+  // Deterministic pseudo-random in [0, 1) from a catalogue number, so a
+  // synthetic orbit is the same on every load.
+  function hash01(id, salt) {
+    var x = Math.sin(id * 12.9898 + salt * 78.233) * 43758.5453;
+    return x - Math.floor(x);
+  }
+
+  // Orbit from the catalogue's apogee, perigee and inclination alone: real
+  // shape and tilt, synthetic node, perigee and phase.
+  function synthModel(id, apo, per, incDeg, t0) {
+    var a = RE + (apo + per) / 2;
+    var e = Math.max(0, Math.min(0.99, (apo - per) / (2 * a)));
+    var n = Math.sqrt(MU / (a * a * a)) * 86400 / TWO_PI;
+    return elementsModel(n, e, incDeg, hash01(id, 1) * 360, hash01(id, 2) * 360,
+      hash01(id, 3) * 360, t0);
   }
 
   function gmst(ms) {
@@ -2096,16 +2176,86 @@ footer a { color: var(--ink-2); }
 
   // Sub-satellite point [lon, lat] in degrees, plus orbital radius in Earth radii.
   function subpoint(o, ms, theta) {
-    var dt = (ms - o.t0) / 1000;
-    var M = o.ma + o.n * dt;
-    var u = o.argp + o.dArgp * dt + M + 2 * o.e * Math.sin(M);
+    var dt = (ms - o.t0) / 1000, e = o.e;
+    var M = (o.ma + o.n * dt) % TWO_PI, nu, r;
+    if (e < 0.02) {
+      nu = M + 2 * e * Math.sin(M);
+      r = o.a * (1 - e * Math.cos(M));
+    } else {
+      // Kepler's equation by Newton's method, for Molniya, GTO and the like.
+      var E = e > 0.8 ? Math.PI : M;
+      for (var k = 0; k < 8; k++) E -= (E - e * Math.sin(E) - M) / (1 - e * Math.cos(E));
+      nu = 2 * Math.atan2(Math.sqrt(1 + e) * Math.sin(E / 2), Math.sqrt(1 - e) * Math.cos(E / 2));
+      r = o.a * (1 - e * Math.cos(E));
+    }
+    var u = o.argp + o.dArgp * dt + nu;
     var W = o.raan + o.dRaan * dt;
     var cu = Math.cos(u), su = Math.sin(u), cW = Math.cos(W), sW = Math.sin(W);
     var ci = Math.cos(o.inc), si = Math.sin(o.inc);
     var x = cW * cu - sW * su * ci, y = sW * cu + cW * su * ci, z = su * si;
     var lon = Math.atan2(y, x) - theta;
-    return [((lon / RAD) % 360 + 540) % 360 - 180, Math.asin(z) / RAD,
-      o.a * (1 - o.e * Math.cos(M)) / R_MEAN];
+    return [((lon / RAD) % 360 + 540) % 360 - 180, Math.asin(z) / RAD, r / R_MEAN];
+  }
+
+  // Display radius in Earth radii: true scale to 1,000 km, logarithmic beyond,
+  // so GPS (~20,200 km) and the geostationary ring (~35,786 km) stay on screen.
+  // The caption says altitude is compressed.
+  function dispR(r) {
+    var h = (r - 1) * R_MEAN;
+    if (h <= 1000) return r;
+    return Math.min(1.7, 1 + 1000 / R_MEAN + 0.16 * Math.log(1 + (h - 1000) / 3000));
+  }
+
+  function orbitClass(apo, per) {
+    if (apo < 2000) return "LEO";
+    if (per > 34000 && apo < 37000) return "GEO";
+    if (apo < 34000 && per >= 2000) return "MEO";
+    if (apo >= 34000) return "HEO";
+    return "elliptical";  // low perigee, apogee short of GEO: Vanguard, early Explorers
+  }
+
+  function glyphPath(ctx, kind, x, y) {
+    switch (kind) {
+      case "circle": ctx.moveTo(x + 1.8, y); ctx.arc(x, y, 1.8, 0, TWO_PI); break;
+      case "diamond": ctx.moveTo(x, y - 2.6); ctx.lineTo(x + 2.6, y); ctx.lineTo(x, y + 2.6); ctx.lineTo(x - 2.6, y); ctx.closePath(); break;
+      case "square": ctx.rect(x - 1.7, y - 1.7, 3.4, 3.4); break;
+      case "triangle": ctx.moveTo(x, y - 2.5); ctx.lineTo(x + 2.4, y + 1.8); ctx.lineTo(x - 2.4, y + 1.8); ctx.closePath(); break;
+      case "cross": ctx.rect(x - 2.5, y - 0.75, 5, 1.5); ctx.rect(x - 0.75, y - 2.5, 1.5, 5); break;
+      default: ctx.rect(x - 0.9, y - 0.9, 1.8, 1.8);
+    }
+  }
+
+  // Small inline SVG of a glyph for the legend.
+  function glyphSvg(kind, colour) {
+    var s = { circle: '<circle cx="5" cy="5" r="3"/>',
+      diamond: '<path d="M5 1L9 5L5 9L1 5Z"/>',
+      square: '<rect x="2" y="2" width="6" height="6"/>',
+      triangle: '<path d="M5 1.5L8.8 8.2H1.2Z"/>',
+      cross: '<path d="M1 4h8v2H1zM4 1h2v8H4z"/>',
+      dot: '<rect x="3.5" y="3.5" width="3" height="3"/>' }[kind];
+    return '<svg width="10" height="10" viewBox="0 0 10 10" style="vertical-align:-1px;fill:' +
+      colour + '">' + s + "</svg>";
+  }
+
+  function getJSON(url, ms) {
+    var ctl = window.AbortController ? new AbortController() : null;
+    if (ctl && ms) setTimeout(function () { ctl.abort(); }, ms);
+    return fetch(url, ctl ? { signal: ctl.signal } : {})
+      .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); });
+  }
+
+  // CelesTrak GP JSON -> the columnar shape of fleet.json.
+  function fleetFromGp(rows) {
+    var ep0 = Date.UTC(1957, 0, 1);
+    var f = { id: [], ep: [], mm: [], e: [], i: [], ra: [], ap: [], ma: [] };
+    rows.forEach(function (o) {
+      var t = Date.parse(String(o.EPOCH).slice(0, 23) + "Z");
+      if (!isFinite(t) || !o.MEAN_MOTION) return;
+      f.id.push(o.NORAD_CAT_ID); f.ep.push((t - ep0) / DAY); f.mm.push(o.MEAN_MOTION);
+      f.e.push(o.ECCENTRICITY); f.i.push(o.INCLINATION); f.ra.push(o.RA_OF_ASC_NODE);
+      f.ap.push(o.ARG_OF_PERICENTER); f.ma.push(o.MEAN_ANOMALY);
+    });
+    return f;
   }
 
   // Set by renderGlobe when the globe draws; the command bar uses it.
@@ -2121,22 +2271,35 @@ footer a { color: var(--ink-2); }
       return;
     }
 
-    var con = D.constellation || {};
-    var orbits = (con.sample || []).filter(function (s) { return s.mm && s.epoch; }).map(orbitModel)
-      .filter(function (o) { return isFinite(o.t0) && isFinite(o.a); });
     var lp = D.launches || {}, pads = lp.pads || [];
     var facilities = (D.sites || {}).facilities || [];
     var next = lp.next;
     var reduced = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+    // Live clock, used once the time-lapse reaches the present.
     var speed = reduced ? 1 : 60;
     var simBase = Date.now(), realBase = simBase;
     function simNow() { return simBase + (Date.now() - realBase) * speed; }
 
+    // Time-lapse clock. Reduced motion opens on the present instead of playing.
+    var tl = { on: !reduced, playing: !reduced, t: reduced ? Date.now() : TL_START, mult: 1 };
+    function tlRate() { return (Date.now() - TL_START) / (TL_SECONDS * 1000) * tl.mult; }
+    function simT() { return tl.on ? tl.t : simNow(); }
+    // Sim time a launch streak takes, so it lasts STREAK_MS on screen at any speed.
+    function streakSpan() { return STREAK_MS * (tl.on ? tlRate() : speed); }
+
+    // Catalogue, filled when orbits.json arrives. Per satellite: model, launch
+    // and decay time (ms), colour group, glyph, and whether it has real elements.
+    var cat = null, catAsOf = "", fleetNote = "", loadNote = "loading orbit data…";
+    var N = 0, mdl = [], sLaunch = [], sDecay = [], sGroup = [], sReal = [];
+    var launchOrder = [], launchMs = [], spxPrefix = [], firstSat = {};
+    var hitX = null, hitY = null, hitI = null, hitN = 0;
+    var tipSat = -1, pinned = false;
+
     var canvas = document.createElement("canvas");
     canvas.setAttribute("role", "img");
-    canvas.setAttribute("aria-label", "Globe showing " + orbits.length +
-      " sampled Starlink satellites, launch pads and company facilities");
+    canvas.setAttribute("aria-label", "Globe time-lapse of every satellite launched to Earth " +
+      "orbit since 1957, with launch pads and company facilities");
     host.appendChild(canvas);
     var ctx = canvas.getContext("2d");
     var proj = d3.geoOrthographic().clipAngle(90).precision(0.6);
@@ -2151,7 +2314,8 @@ footer a { color: var(--ink-2); }
     var C = {};
     function readColours() {
       var cs = getComputedStyle(document.documentElement);
-      ["globe-ocean", "globe-land", "globe-coast", "globe-grat", "globe-limb", "sat", "sodium", "ink-muted"]
+      ["globe-ocean", "globe-land", "globe-coast", "globe-grat", "globe-limb", "sat", "sodium", "ink-muted",
+        "series-1", "series-2", "series-3", "ink"]
         .forEach(function (k) { C[k] = cs.getPropertyValue("--" + k).trim(); });
     }
     readColours();
@@ -2165,8 +2329,8 @@ footer a { color: var(--ink-2); }
       canvas.height = Math.round(w * dpr);
       canvas.style.width = canvas.style.height = w + "px";
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      // 0.8 leaves room for the shell: Starlink flies at ~1.09 Earth radii.
-      R = w / 2 * 0.8 * zoom;
+      // 0.56 leaves room for the outermost orbits: dispR() tops out at 1.7.
+      R = w / 2 * 0.56 * zoom;
       cx = cy = w / 2;
       proj.scale(R).translate([cx, cy]);
     }
@@ -2200,15 +2364,17 @@ footer a { color: var(--ink-2); }
         ctx.strokeStyle = C["globe-coast"]; ctx.lineWidth = 0.6; ctx.stroke();
       }
 
-      var t = simNow(), th = gmst(t), near = [], far = [];
-      for (var i = 0; i < orbits.length; i++) {
-        var s = subpoint(orbits[i], t, th);
-        var p = place(s[0], s[1], s[2]);
-        if (p.z > 0) near.push(p); else if (p.rr > 1) far.push(p);
+      var t = simT(), th = gmst(t), span = streakSpan();
+      var sats = placeSats(t, th, span);
+
+      // Far side: satellites behind the Earth but clear of its disk, faint.
+      ctx.globalAlpha = 0.28;
+      for (var gk = 0; gk < 4; gk++) {
+        var fb = sats.far[gk];
+        if (!fb.length) continue;
+        ctx.fillStyle = groupColour(gk);
+        for (var fi = 0; fi < fb.length; fi += 2) ctx.fillRect(fb[fi] - 0.7, fb[fi + 1] - 0.7, 1.4, 1.4);
       }
-      ctx.fillStyle = C.sat;
-      ctx.globalAlpha = 0.3;
-      far.forEach(function (p) { ctx.fillRect(p.x - 0.8, p.y - 0.8, 1.6, 1.6); });
 
       ctx.globalAlpha = 1;
       pads.forEach(function (pd) {
@@ -2254,46 +2420,373 @@ footer a { color: var(--ink-2); }
         }
       }
 
-      ctx.fillStyle = C.sat;
-      ctx.globalAlpha = 0.9;
-      near.forEach(function (p) { ctx.fillRect(p.x - 1, p.y - 1, 2, 2); });
+      // Near side: one path per colour, dim pass (defunct, on the live globe) first.
+      for (var key = 0; key < sats.near.length; key++) {
+        var nb = sats.near[key];
+        if (!nb.length) continue;
+        var dim = key >= 24, rest = key % 24;
+        var glyph = GLYPHS[rest % 6];
+        ctx.globalAlpha = dim ? 0.35 : 0.92;
+        ctx.fillStyle = groupColour(Math.floor(rest / 6));
+        ctx.beginPath();
+        for (var ni = 0; ni < nb.length; ni += 2) glyphPath(ctx, glyph, nb[ni], nb[ni + 1]);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+
+      drawStreaks(t, th, span);
+
+      // Hovered or pinned satellite: ring it and keep the tooltip on it.
+      if (tipSat >= 0) {
+        var hp2 = satScreen(tipSat, t, th);
+        if (hp2 && satVisible(tipSat, t, span)) {
+          ctx.strokeStyle = C.ink;
+          ctx.lineWidth = 1.5;
+          ctx.beginPath(); ctx.arc(hp2.x, hp2.y, 6, 0, TWO_PI); ctx.stroke();
+          tip.style.left = hp2.x + "px";
+          tip.style.top = hp2.y + "px";
+          tip.hidden = false;
+        } else {
+          tip.hidden = true;
+        }
+      }
+    }
+
+    function groupColour(gk) {
+      return gk < 3 ? C["series-" + (gk + 1)] : C["ink-muted"];
+    }
+
+    // Colour group (0-3) for a catalogue group index.
+    var groupKey = [];
+
+    function satVisible(i, t, span) {
+      // Counted from launch day; the streak is drawn on top, so it never delays the count.
+      return t >= sLaunch[i] && t < sDecay[i];
+    }
+
+    function satScreen(i, t, th) {
+      var s = subpoint(mdl[i], t, th);
+      var p = place(s[0], s[1], dispR(s[2]));
+      return p.z > 0 ? p : null;
+    }
+
+    // Project every satellite in orbit at time t into per-colour, per-glyph
+    // buckets, and record near-side points for hover hit-testing.
+    function placeSats(t, th, span) {
+      var near = [], far = [[], [], [], []], k;
+      for (k = 0; k < 48; k++) near.push([]);
+      hitN = 0;
+      var live = !tl.on;
+      for (var i = 0; i < N; i++) {
+        if (!satVisible(i, t, span)) continue;
+        var s = subpoint(mdl[i], t, th);
+        var p = place(s[0], s[1], dispR(s[2]));
+        var g = sGroup[i];
+        if (p.z > 0) {
+          var b = (live && !sReal[i] ? 24 : 0) + g * 6 + cat.sat.p[i];
+          near[b].push(p.x, p.y);
+          hitX[hitN] = p.x; hitY[hitN] = p.y; hitI[hitN] = i; hitN++;
+        } else if (p.rr > 1) {
+          far[g].push(p.x, p.y);
+        }
+      }
+      return { near: near, far: far };
+    }
+
+    // Launch streaks: from the site, rising along a great circle to where the
+    // launch's first payload is when the streak ends.
+    function drawStreaks(t, th, span) {
+      if (!cat || !launchMs.length) return;
+      var lo = lowerBound(launchMs, t - span);
+      for (var q = lo; q < launchMs.length && launchMs[q] <= t; q++) {
+        var li = launchOrder[q], fs = firstSat[li];
+        var site = cat.sites[cat.launch.site[li]];
+        if (fs == null || !site || site[2] == null) continue;
+        var prog = (t - launchMs[q]) / span;
+        var end = subpoint(mdl[fs], launchMs[q] + span, gmst(launchMs[q] + span));
+        var path2 = d3.geoInterpolate([site[3], site[2]], [end[0], end[1]]);
+        var top = dispR(end[2]);
+        ctx.strokeStyle = cat.launch.spx[li] ? C["series-1"] : groupColour(sGroup[fs]);
+        ctx.lineWidth = 1.6;
+        ctx.globalAlpha = prog > 0.8 ? (1 - prog) * 5 : 1;
+        ctx.beginPath();
+        var started = false, head = null;
+        for (var j = 0; j <= 12; j++) {
+          var f = prog * j / 12;
+          var ll = path2(f * 0.35);  // a launch covers a fraction of the arc to orbit
+          var pt = place(ll[0], ll[1], 1 + (top - 1) * Math.sin(f * Math.PI / 2));
+          if (pt.z <= 0 && pt.rr < 1) { started = false; continue; }
+          if (!started) { ctx.moveTo(pt.x, pt.y); started = true; } else ctx.lineTo(pt.x, pt.y);
+          head = pt;
+        }
+        ctx.stroke();
+        if (head) {
+          ctx.fillStyle = C.ink;
+          ctx.beginPath(); ctx.arc(head.x, head.y, 1.8, 0, TWO_PI); ctx.fill();
+        }
+      }
       ctx.globalAlpha = 1;
     }
 
-    // Caption: what is on the globe, how it was computed, and the sim clock.
-    var clockSpan = el("span");
-    var btn = el("button", "", "");
-    btn.type = "button";
-    function updateCap() {
-      btn.textContent = speed === 1 ? "speed up ×60" : "real time";
+    function lowerBound(arr, v) {
+      var a = 0, b = arr.length;
+      while (a < b) { var m = (a + b) >> 1; if (arr[m] < v) a = m + 1; else b = m; }
+      return a;
     }
-    btn.addEventListener("click", function () {
-      simBase = simNow();
-      realBase = Date.now();
-      speed = speed === 1 ? 60 : 1;
-      updateCap();
+
+    /* ---- catalogue ---------------------------------------------------- */
+
+    function buildCatalogue(c) {
+      var ep0 = Date.UTC(1957, 0, 1);
+      cat = c;
+      var S = c.sat, L = c.launch;
+      N = S.id.length;
+      groupKey = c.groups.map(function (g) {
+        var k = GROUP_KEYS.indexOf(g);
+        return k >= 0 && k < 3 ? k : 3;
+      });
+      // Launch time of day is not in the catalogue; noon UTC stands in.
+      sLaunch = new Array(N); sDecay = new Array(N); sGroup = new Array(N);
+      for (var i = 0; i < N; i++) {
+        var li = S.l[i];
+        sLaunch[i] = ep0 + L.day[li] * DAY + DAY / 2;
+        // Infinity, not -1, for "still up": every date before 1970 is a negative timestamp.
+        sDecay[i] = S.dec[i] < 0 ? Infinity : ep0 + S.dec[i] * DAY;
+        sGroup[i] = groupKey[S.g[i]];
+        if (firstSat[li] == null) firstSat[li] = i;
+      }
+      launchOrder = L.day.map(function (_, k) { return k; })
+        .sort(function (a, b) { return L.day[a] - L.day[b]; });
+      launchMs = launchOrder.map(function (k) { return ep0 + L.day[k] * DAY + DAY / 2; });
+      spxPrefix = [0];
+      launchOrder.forEach(function (k, q) { spxPrefix.push(spxPrefix[q] + L.spx[k]); });
+      hitX = new Float32Array(N); hitY = new Float32Array(N); hitI = new Int32Array(N);
+    }
+
+    // (Re)build every satellite's orbit model: real elements where the fleet
+    // has them, synthetic from the catalogue otherwise.
+    function applyFleet(F) {
+      var ep0 = Date.UTC(1957, 0, 1), idx = {};
+      for (var j = 0; j < F.id.length; j++) idx[F.id[j]] = j;
+      var S = cat.sat;
+      mdl = new Array(N); sReal = new Array(N);
+      for (var i = 0; i < N; i++) {
+        var fj = idx[S.id[i]];
+        if (fj != null && S.dec[i] < 0) {
+          mdl[i] = elementsModel(F.mm[fj], F.e[fj], F.i[fj], F.ra[fj], F.ap[fj], F.ma[fj],
+            ep0 + F.ep[fj] * DAY);
+          sReal[i] = true;
+        } else {
+          mdl[i] = synthModel(S.id[i], S.apo[i], S.per[i], S.inc[i], sLaunch[i]);
+          sReal[i] = false;
+        }
+      }
+    }
+
+    function satName(i) {
+      var n = cat.sat.name[i];
+      return n.charAt(0) === "*" ? "STARLINK-" + n.slice(1) : n;
+    }
+
+    function day(ms) { return new Date(ms).toISOString().slice(0, 10); }
+
+    function satHtml(i) {
+      var S = cat.sat, L = cat.launch, li = S.l[i];
+      var site = cat.sites[L.site[li]] || [];
+      var lv = cat.lvs[L.lv[li]] || "vehicle unknown";
+      var catg = cat.cats[S.c[i]];
+      var gk = sGroup[i];
+      var status = S.dec[i] >= 0 ? "decayed " + day(sDecay[i]) :
+        (sReal[i] ? "in orbit · operating" : "in orbit · not operating");
+      // Real elements are only a real position near the present.
+      var nearNow = Math.abs(simT() - Date.now()) < 3 * DAY;
+      var where = sReal[i] && nearNow ? "position from " + fleetNote : "position illustrative";
+      var group = cat.groups[S.g[i]], owner = cat.owners[S.o[i]];
+      return "<b>" + esc(satName(i)) + "</b> <span class=\"fine\">#" + S.id[i] + "</span>" +
+        '<div><span style="color:' + groupColour(gk) + '">●</span> ' + esc(group) +
+        (owner && owner !== group ? " · owner code " + esc(owner) : "") + "</div>" +
+        "<div>" + esc(cat.purposes[S.p[i]]) +
+        (catg === "-" ? " (no GCAT category)" : " · GCAT " + esc(catg)) + "</div>" +
+        "<div>launched " + day(sLaunch[i]) + " · " + esc(lv) +
+        (L.spx[li] ? " (SpaceX)" : "") + "</div>" +
+        "<div>from " + esc(site[1] || "site unknown") + "</div>" +
+        "<div>" + orbitClass(S.apo[i], S.per[i]) + " · " + fmt(S.per[i]) + "×" + fmt(S.apo[i]) +
+        " km · " + S.inc[i] + "°</div>" +
+        "<div>" + status + "</div>" +
+        '<div class="fine">' + where + "</div>";
+    }
+
+    // Satellite nearest the pointer within 6 px, among near-side points drawn last frame.
+    function satAt(e) {
+      if (!cat || (tl.on && tl.playing)) return -1;
+      var b = canvas.getBoundingClientRect(), mx = e.clientX - b.left, my = e.clientY - b.top;
+      var best = -1, bestD = 36;
+      for (var h = 0; h < hitN; h++) {
+        var dx = hitX[h] - mx, dy = hitY[h] - my, d = dx * dx + dy * dy;
+        if (d < bestD) { bestD = d; best = hitI[h]; }
+      }
+      return best;
+    }
+
+    function showTip(i) {
+      tipSat = i;
+      if (i < 0) { tip.hidden = true; return; }
+      tip.innerHTML = satHtml(i);
+    }
+
+    // Tooltip for a hovered or pinned satellite; positioned in draw().
+    var tip = el("div", "sat-tip");
+    tip.hidden = true;
+    tip.setAttribute("role", "status");
+    host.appendChild(tip);
+
+    // Time-lapse controls: play/pause, scrub, speed, and a readout of the year.
+    var bar = el("div", "tl-bar");
+    var playBtn = el("button", "", "");
+    playBtn.type = "button";
+    var scrub = el("input");
+    scrub.type = "range"; scrub.min = 0; scrub.max = 1000; scrub.step = 1;
+    scrub.setAttribute("aria-label", "Time-lapse date");
+    var speedBtn = el("button", "", "×1");
+    speedBtn.type = "button";
+    speedBtn.title = "Time-lapse speed";
+    var readout = el("div", "tl-read");
+    // Zoom and full-window view. The wheel zooms only when expanded, so the
+    // hero does not swallow page scrolling; the buttons work everywhere.
+    var zoomOut = el("button", "", "−"), zoomIn = el("button", "", "+");
+    var bigBtn = el("button", "", "⤢ expand");
+    zoomOut.type = zoomIn.type = bigBtn.type = "button";
+    zoomOut.setAttribute("aria-label", "Zoom out");
+    zoomIn.setAttribute("aria-label", "Zoom in");
+    [playBtn, scrub, speedBtn, zoomOut, zoomIn, bigBtn].forEach(function (b) { bar.appendChild(b); });
+    cap.appendChild(bar);
+    cap.appendChild(readout);
+
+    function setZoom(z) {
+      if (focus || flying) return;
+      zoom = Math.max(0.7, Math.min(10, z));
+      resize();
+      draw();
+    }
+    zoomIn.addEventListener("click", function () { setZoom(zoom * 1.5); });
+    zoomOut.addEventListener("click", function () { setZoom(zoom / 1.5); });
+
+    var wrapEl = host.parentNode;
+    function setBig(on) {
+      wrapEl.classList.toggle("big", on);
+      document.body.style.overflow = on ? "hidden" : "";
+      bigBtn.textContent = on ? "✕ close" : "⤢ expand";
+      resize();
+      draw();
+    }
+    bigBtn.addEventListener("click", function () { setBig(!wrapEl.classList.contains("big")); });
+    host.addEventListener("wheel", function (e) {
+      if (!wrapEl.classList.contains("big")) return;
+      e.preventDefault();
+      setZoom(zoom * Math.exp(-e.deltaY * 0.0015));
+    }, { passive: false });
+
+    function setPlaying(p) {
+      if (p && !tl.on) { tl.on = true; tl.t = TL_START; }  // replay from Sputnik
+      tl.playing = p;
+      if (p && !pinned) showTip(-1);
+      updateBar();
+    }
+    function goLive() {
+      tl.on = false; tl.playing = false;
+      simBase = realBase = Date.now();
+      updateBar();
+    }
+    playBtn.addEventListener("click", function () { setPlaying(!(tl.on && tl.playing)); });
+    speedBtn.addEventListener("click", function () {
+      tl.mult = tl.mult >= 4 ? 0.5 : tl.mult * 2;
+      speedBtn.textContent = "×" + (tl.mult === 0.5 ? "½" : tl.mult);
     });
-    cap.appendChild(document.createTextNode(
-      "STARLINK " + orbits.length + " of " + fmt(con.in_orbit) + " in orbit, evenly sampled · " +
-      "two-body + J2 from CelesTrak elements, not SGP4 · "));
-    cap.appendChild(clockSpan);
-    cap.appendChild(btn);
-    var lg = el("div");
-    lg.innerHTML = '<span style="color:#ffa14a">●</span> SpaceX pad &nbsp;<span>●</span> other pad &nbsp;' +
-      Object.keys(CO_COLOR).filter(function (co) {
-        return facilities.some(function (f) { return f.co === co; });
-      }).map(function (co) {
-        return '<span style="color:' + coColor(co) + '">■</span> ' + co + " &nbsp;";
-      }).join("") +
-      '<span style="color:var(--sodium)">◯</span> next launch · drag to turn · click a site to zoom in';
-    cap.appendChild(lg);
-    updateCap();
-    function tickCap() {
-      clockSpan.textContent = "sim " + new Date(simNow()).toISOString().slice(0, 19).replace("T", " ") +
-        "Z" + (speed === 1 ? " (live)" : " ×60") + " ";
+    scrub.addEventListener("input", function () {
+      tl.on = true; tl.playing = false;
+      tl.t = TL_START + (Date.now() - TL_START) * scrub.value / 1000;
+      updateBar();
+      draw();
+    });
+
+    function updateBar() {
+      playBtn.textContent = tl.on && tl.playing ? "❚❚ pause" : (tl.on ? "▶ play" : "▶ replay 1957→");
+      playBtn.setAttribute("aria-label", tl.on && tl.playing ? "Pause time-lapse" : "Play time-lapse");
     }
-    tickCap();
-    setInterval(tickCap, 1000);
+
+    // Year, satellites up, and this year's launches with SpaceX's share.
+    function tickReadout() {
+      var t = simT();
+      var y = new Date(t).getUTCFullYear();
+      if (!cat) { readout.textContent = loadNote; return; }
+      var span = streakSpan(), up = 0;
+      for (var i = 0; i < N; i++) if (satVisible(i, t, span)) up++;
+      var a = lowerBound(launchMs, Date.UTC(y, 0, 1)), b = lowerBound(launchMs, t + 1);
+      var n = b - a, sx = spxPrefix[b] - spxPrefix[a];
+      readout.innerHTML = "<b>" + (tl.on ? new Date(t).toISOString().slice(0, 7) : "NOW · live") +
+        "</b> · " + fmt(up) + " satellites up · " + fmt(n) + (n === 1 ? " launch in " : " launches in ") + y +
+        ", SpaceX " + fmt(sx) + (n ? " (" + Math.round(100 * sx / n) + "%)" : "");
+      if (document.activeElement !== scrub) {
+        scrub.value = Math.round(1000 * Math.min(1, (t - TL_START) / (Date.now() - TL_START)));
+      }
+    }
+    setInterval(tickReadout, 250);
+
+    var note = el("div");
+    var lg = el("div");
+    cap.appendChild(note);
+    cap.appendChild(lg);
+    function writeCaption() {
+      var c = cat ? cat.counts : null;
+      note.textContent = c ?
+        fmt(c.payloads) + " payloads ever sent to Earth orbit, debris excluded (SATCAT + GCAT, " +
+        catAsOf + "). Before today, positions are illustrative: real inclination and altitude, " +
+        "synthetic phase. Today: " + fleetNote + ". Two-body + J2, not SGP4. " +
+        "Altitude compressed above 1,000 km. Pause, then hover a satellite." :
+        loadNote;
+      var swatch = function (gk) {
+        return '<span style="color:' + groupColour(gk) + '">●</span> ' + GROUP_KEYS[gk] + " &nbsp;";
+      };
+      lg.innerHTML = [0, 1, 2, 3].map(swatch).join("") + "<br>" +
+        (cat ? cat.purposes.map(function (p, k) {
+          return glyphSvg(GLYPHS[k], "var(--ink-2)") + " " + esc(p) + " &nbsp;";
+        }).join("") : "") + "<br>" +
+        '<span style="color:#ffa14a">●</span> SpaceX pad &nbsp;<span>●</span> other pad &nbsp;' +
+        Object.keys(CO_COLOR).filter(function (co) {
+          return facilities.some(function (f) { return f.co === co; });
+        }).map(function (co) {
+          return '<span style="color:' + coColor(co) + '">■</span> ' + co + " &nbsp;";
+        }).join("") +
+        '<span style="color:var(--sodium)">◯</span> next launch · drag to turn · click a site to zoom in';
+    }
+    updateBar();
+    writeCaption();
+
+    // Committed files first; then try CelesTrak live for fresher elements.
+    Promise.all([getJSON("orbits.json", 30000), getJSON("fleet.json", 30000)])
+      .then(function (res) {
+        catAsOf = String(res[0].fetched_at || "").slice(0, 10);
+        buildCatalogue(res[0].data);
+        applyFleet(res[1].data);
+        fleetNote = "elements as of " + String(res[1].fetched_at || "").slice(0, 10);
+        writeCaption();
+        draw();
+        return getJSON(LIVE_GP, 20000).then(function (rows) {
+          var f = fleetFromGp(rows);
+          if (!f.id.length) return;
+          applyFleet(f);
+          fleetNote = "live CelesTrak elements";
+          writeCaption();
+        }, function () { /* 403 within CelesTrak's update cycle, or offline: keep the committed copy */ });
+      })
+      .catch(function () {
+        loadNote = location.protocol === "file:" ?
+          "Orbit data cannot load from a file:// page; serve docs/ over http (python -m http.server -d docs)." :
+          "Orbit data did not load, so the time-lapse cannot run.";
+        tl.on = false; tl.playing = false;
+        updateBar();
+        writeCaption();
+      });
 
     if (!landFailed) {
       fetch(LAND_URL).then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
@@ -2324,21 +2817,43 @@ footer a { color: var(--ink-2); }
       return best;
     }
 
+    // Two pointers down is a pinch: zoom by the change in their distance.
+    var ptrs = {}, pinch = null;
+    function ptrDist() {
+      var p = Object.keys(ptrs).map(function (k) { return ptrs[k]; });
+      return Math.hypot(p[0].x - p[1].x, p[0].y - p[1].y);
+    }
+
     host.addEventListener("pointerdown", function (e) {
       if (focus || flying) return;
+      ptrs[e.pointerId] = { x: e.clientX, y: e.clientY };
+      if (Object.keys(ptrs).length === 2) {
+        dragging = false;
+        pinch = { d0: ptrDist() || 1, z0: zoom };
+        return;
+      }
       dragging = true;
       from = { x: e.clientX, y: e.clientY, r: rot.slice() };
       try { host.setPointerCapture(e.pointerId); } catch (err) { /* ignore */ }
     });
     host.addEventListener("pointermove", function (e) {
       if (focus || flying) return;
+      if (ptrs[e.pointerId]) ptrs[e.pointerId] = { x: e.clientX, y: e.clientY };
+      if (pinch) {
+        if (Object.keys(ptrs).length === 2) setZoom(pinch.z0 * ptrDist() / pinch.d0);
+        return;
+      }
       if (!dragging) {
         var h = siteAt(e);
+        // A site under the pointer wins; otherwise a satellite, when the
+        // time-lapse is paused or on the live globe.
+        var si = h ? -1 : satAt(e);
+        if (!pinned && si !== tipSat) showTip(si);
         if (h !== hover) {
           hover = h;
-          host.style.cursor = h ? "pointer" : "";
           if (reduced) draw();
         }
+        host.style.cursor = h || si >= 0 ? "pointer" : "";
         return;
       }
       var k = 180 / (Math.PI * R);
@@ -2347,6 +2862,12 @@ footer a { color: var(--ink-2); }
       if (reduced) draw();
     });
     function release(e) {
+      delete ptrs[e.pointerId];
+      if (pinch) {
+        // Lifting a finger ends the pinch; it is never a click.
+        if (Object.keys(ptrs).length < 2) { pinch = null; ptrs = {}; idleUntil = Date.now() + 5000; }
+        return;
+      }
       if (!dragging) return;
       dragging = false;
       idleUntil = Date.now() + 5000;
@@ -2354,13 +2875,19 @@ footer a { color: var(--ink-2); }
       if (e.type === "pointerup" &&
           Math.abs(e.clientX - from.x) + Math.abs(e.clientY - from.y) < 6) {
         var st = siteAt(e);
-        if (st) flyTo(st);
+        if (st) { pinned = false; showTip(-1); flyTo(st); return; }
+        // Click a satellite to pin its card; click anywhere else to let go.
+        var sc = satAt(e);
+        pinned = sc >= 0;
+        showTip(sc);
+        if (reduced) draw();
       }
     }
     host.addEventListener("pointerup", release);
     host.addEventListener("pointercancel", release);
     host.addEventListener("pointerleave", function () {
       if (!dragging && hover) { hover = null; host.style.cursor = ""; }
+      if (!dragging && !pinned) showTip(-1);
     });
 
     /* ---- close-up ------------------------------------------------------
@@ -2482,26 +3009,40 @@ footer a { color: var(--ink-2); }
       }
       flyTo(st);
     };
-    document.addEventListener("keydown", function (e) { if (e.key === "Escape") closeUp(); });
+    document.addEventListener("keydown", function (e) {
+      if (e.key !== "Escape") return;
+      if (pinned || tipSat >= 0) { pinned = false; showTip(-1); return; }
+      if (!focus && wrapEl.classList.contains("big")) { setBig(false); return; }
+      closeUp();
+    });
 
     document.addEventListener("hangar:theme", function () { readColours(); draw(); });
     window.addEventListener("resize", function () { resize(); draw(); });
     resize();
     draw();
 
-    if (reduced) {
-      setInterval(draw, 1000);
-      return;
-    }
-    var last = performance.now();
+    // One loop for both modes. Under reduced motion the globe never turns on its
+    // own and redraws once a second, except while the viewer plays the time-lapse.
+    var last = performance.now(), lastDraw = 0;
     function frame(now) {
       var dt = Math.min(100, now - last);
       last = now;
       if (!document.hidden) {
         var r = host.getBoundingClientRect();
         if (r.bottom > 0 && r.top < window.innerHeight) {
-          if (!dragging && !focus && !flying && Date.now() > idleUntil) rot[0] += dt * 0.004;
-          if (!flying) draw();
+          // The time-lapse only advances while the globe is on screen.
+          if (tl.on && tl.playing && cat) {
+            tl.t += dt * tlRate();
+            if (tl.t >= Date.now()) goLive();
+          }
+          var paused = tl.on && !tl.playing;
+          if (!reduced && !paused && !dragging && !focus && !flying && Date.now() > idleUntil) {
+            rot[0] += dt * 0.004;
+          }
+          if (!flying && (!reduced || (tl.on && tl.playing) || now - lastDraw > 1000)) {
+            draw();
+            lastDraw = now;
+          }
         }
       }
       requestAnimationFrame(frame);
@@ -2576,7 +3117,7 @@ footer a { color: var(--ink-2); }
         "LINK " + (k + " ").padEnd(16, ".") + (s.stale ? " STALE " : " OK    ") + s.age]);
     });
     var c = D.constellation;
-    if (c && c.sample) lines.push(["", "TRACK starlink ... " + c.sample.length + " of " + fmt(c.in_orbit) + " element sets"]);
+    if (c && c.in_orbit) lines.push(["", "TRACK starlink ... " + fmt(c.in_orbit) + " in orbit"]);
     var n = D.launches && D.launches.next;
     if (n) lines.push(["hi", "T-MINUS  " + (n.name || "")]);
 

@@ -3,7 +3,7 @@ name: hangar
 type: maintain
 category: building
 tier: 02-Maintain
-updated: 2026-10-08
+updated: 2026-10-26
 url: https://gcicc.github.io/hangar/
 note: moved from 01-Active-Projects 2026-09-07
 ---
@@ -41,6 +41,16 @@ map and the precision clock all populate, and `sites.py` is written and
 cached weekly. Nothing is unpopulated.
 
 ## Next task
+
+**First: find out why the scheduled refresh stopped.** The last refresh commit
+is 2026-10-09 18:07 UTC. Until it runs again nothing on the page moves, and the
+new weekly orbit files (`docs/orbits.json`, `docs/fleet.json`) will not refresh
+either. Check the Actions tab for `refresh.yml`.
+
+Globe time-lapse shipped 2026-10-26 (README "The globe time-lapse", ADR 0001).
+Open question for Greg: which three owner groups get a hue (now SpaceX / rest of
+US / USSR-Russia, China neutral). One-line change in `GROUP_TOKEN`, `app.js`.
+
 
 Seed the TRACKED lane with sourced targets that resolve against metrics the
 page already measures (`starlink_in_orbit`, `spacex_launches_12mo`,

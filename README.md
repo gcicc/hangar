@@ -37,6 +37,8 @@ Every source declares its own `max_age` in `hangar/cache.py`, so one cron at
 | Yahoo quotes | 2h | free, no key |
 | CelesTrak | 6h | upstream itself only updates every 2h |
 | supercharge.info | 7d | large payload, changes slowly |
+| SATCAT + GCAT catalogue (`orbits`) | 7d | time-lapse; published to `docs/orbits.json` |
+| CelesTrak `active` elements (`fleet`) | 7d | time-lapse end state; published to `docs/fleet.json` |
 
 Three failure modes are handled distinctly, because conflating them is how a
 dashboard lies:
@@ -120,9 +122,40 @@ instead:
   so and open at a lower zoom. Imagery capture dates vary by site and can
   predate construction, and the card says so.
 
+## The globe time-lapse
+
+The hero globe opens as a time-lapse from Sputnik 1 (1957-10-04) to today:
+each launch rises from its site, its payloads join the sky, and decayed ones
+drop out on their decay date. It then hands over to the live globe. Colour is
+the owner group (SpaceX, rest of US, USSR/Russia, everyone else - only three
+hues stay distinguishable on a scatter, so the rest is neutral and the hover
+card names the owner). Shape is purpose, from GCAT's mission category; a
+defense-class payload counts as military unless it is navigation. Pause, then
+hover or click a satellite for its card; expand for a full-window globe with
+wheel and pinch zoom.
+
+What it is and is not:
+
+- **Payloads only**, Earth orbit only: debris, rocket bodies and departed probes
+  are excluded. 27,606 payloads, 20,087 still up (2026-10-26).
+- **Historical positions are illustrative.** Each satellite flies its real
+  inclination, apogee and perigee, but node and phase are synthetic because free
+  element archives do not reach back to 1957. Near the present, operating
+  satellites use real element sets (two-body + J2, not SGP4).
+- **Altitude is compressed above 1,000 km** so GPS and the geostationary ring fit.
+- "Satellites up" includes defunct ones still in orbit.
+
+The two orbit datasets are separate files, not inlined, and refresh weekly - see
+[decisions/0001](decisions/0001-orbit-data-hybrid.md) for the git-growth trade.
+Preview locally with `python -m http.server -d docs`; `file://` cannot fetch them.
+
 ## External requests
 
-The data is inlined; the page never calls a data API. It does load, from CDNs:
+The data is inlined except the two orbit files above, which the page fetches
+from its own origin. The one data API called from the browser is CelesTrak's
+`active` group, to upgrade the globe's end state to live elements; on failure
+(including CelesTrak's 403 for a repeat request within its 2-hour cycle) the
+committed copy is kept and the caption says which is shown. It also loads, from CDNs:
 Leaflet and its basemap tiles (range map), Esri World Imagery tiles (globe
 close-up, only when a site is clicked), d3-geo, d3-array and topojson-client
 (globe), the `world-atlas` 110m coastline file (globe), and Google Fonts. Every

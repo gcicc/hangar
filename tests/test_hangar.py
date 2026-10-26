@@ -14,6 +14,7 @@ from datetime import UTC, date, datetime, timedelta
 import pytest
 
 from hangar import cache, targets
+from hangar import orbits_history as oh
 from hangar.feeds import RELEVANCE
 from hangar.fetcher import dedupe, dedupe_key, require_relevance
 from hangar.scorer import drop_stale, rank, score_entry
@@ -350,3 +351,141 @@ def test_rumour_still_outranks_a_routine_story():
     assert score_entry(entry("Rumor: Tesla might launch something")) > score_entry(
         entry("Tesla opens a new Supercharger site")
     )
+
+
+# --- time-lapse catalogue (orbits_history) --------------------------------
+
+
+SATCAT_FIXTURE = """OBJECT_NAME,OBJECT_ID,NORAD_CAT_ID,OBJECT_TYPE,OPS_STATUS_CODE,OWNER,LAUNCH_DATE,LAUNCH_SITE,DECAY_DATE,PERIOD,INCLINATION,APOGEE,PERIGEE,RCS,DATA_STATUS_CODE,ORBIT_CENTER,ORBIT_TYPE
+SL-1 R/B,1957-001A,1,R/B,D,CIS,1957-10-04,TYMSC,1957-12-01,96.19,65.10,938,214,20.42,,EA,IMP
+SPUTNIK 1,1957-001B,2,PAY,D,CIS,1957-10-04,TYMSC,1958-01-03,96.10,65.00,1080,64,,,EA,IMP
+"STARLINK-1008",2019-074A,44714,PAY,+,US,2019-11-11,AFETR,,94.0,53.05,470,460,,,EA,ORB
+NAVSTAR 81 (USA 319),2021-054A,48859,PAY,+,US,2021-06-17,AFETR,,717.9,55.0,20200,20160,,,EA,ORB
+LUNAR PROBE,2022-001A,50000,PAY,+,US,2022-01-01,AFETR,,,,,,,,MO,ORB
+MYSTERY SAT,2023-001A,50001,PAY,+,TBD,2023-01-01,NOWHERE,,95.0,97.5,520,500,,,EA,ORB
+"""
+
+PSATCAT_FIXTURE = (
+    "#JCAT\tPiece\tName\tLDate\tTLast\tTOp\tTDate\tTF\tProgram\tPlane\tAtt\tMvr\tClass\tCategory\n"
+    "# Updated 2026 Oct 26\n"
+    "S00002    \t1957 ALP 2\tFirst Sputnik\t-\t-\t-\t-\t-\tSputnik\t-\t-\t-\tC\tTECH\n"
+    "S44714    \t2019-074A\tStarlink\t-\t-\t-\t-\t-\tStarlink\t-\t-\t-\tB\tCOM\n"
+    "S48859    \t2021-054A\tNavstar\t-\t-\t-\t-\t-\tGPS\t-\t-\t-\tD\tNAV\n"
+)
+
+LAUNCH_FIXTURE = (
+    "#Launch_Tag\tLaunch_JD\tLaunch_Date\tLV_Type\n"
+    "# Updated 2026 Oct 26\n"
+    "1957-001 \t0\t1957 Oct  4\tSputnik 8K71PS\n"
+    "2019-074 \t0\t2019 Nov 11\tFalcon 9\n"
+    "2021-054 \t0\t2021 Jun 17\tFalcon 9\n"
+    "2023-001 \t0\t2023 Jan  1\tViper Falcon\n"
+)
+
+
+@pytest.fixture
+def catalogue():
+    return oh.build(SATCAT_FIXTURE, PSATCAT_FIXTURE, LAUNCH_FIXTURE)
+
+
+def test_catalogue_keeps_only_earth_orbit_payloads(catalogue):
+    # Rocket body and lunar probe out; Sputnik, Starlink, GPS and the mystery sat in.
+    assert catalogue["sat"]["id"] == [2, 44714, 48859, 50001]
+    assert catalogue["counts"]["skipped"] == {"left Earth orbit": 1}
+
+
+def test_decay_dates_separate_history_from_the_current_fleet(catalogue):
+    dec = catalogue["sat"]["dec"]
+    assert dec[0] == (date(1958, 1, 3) - oh.EPOCH).days
+    assert dec[1:] == [-1, -1, -1]
+    assert catalogue["counts"]["in_orbit"] == 3
+
+
+def test_spacex_launches_come_from_the_vehicle_not_the_owner(catalogue):
+    launch = catalogue["launch"]
+    spx = dict(zip(launch["tag"], launch["spx"], strict=True))
+    # A US Air Force GPS satellite on a Falcon 9 is a SpaceX launch.
+    assert spx == {"1957-001": 0, "2019-074": 1, "2021-054": 1, "2023-001": 0}
+    assert catalogue["counts"]["spacex_launches"] == 2
+
+
+def test_starlink_is_spacex_owned_and_its_name_is_compressed(catalogue):
+    sat = catalogue["sat"]
+    assert catalogue["groups"][sat["g"][1]] == "SpaceX"
+    assert sat["name"][1] == "*1008"
+    # Other US satellites are not SpaceX's, whoever launched them.
+    assert catalogue["groups"][sat["g"][2]] == "US"
+
+
+def test_unclassified_and_unmapped_are_kept_and_counted(catalogue):
+    sat = catalogue["sat"]
+    assert catalogue["purposes"][sat["p"][3]] == "Other"
+    assert catalogue["counts"]["unclassified"] == 1
+    # An unknown site still appears, without coordinates, so the page skips its streak.
+    site = catalogue["sites"][catalogue["launch"]["site"][3]]
+    assert site[0] == "NOWHERE" and site[2] is None
+
+
+@pytest.mark.parametrize(
+    ("category", "cls", "expected"),
+    [
+        ("COM", "B", "Communications"),
+        ("COM", "D", "Military"),
+        ("NAV", "D", "Navigation"),
+        ("IMG*", "C", "Earth observation"),
+        ("COM/MET-RO", "B", "Communications"),
+        ("SIG?", "C", "Military"),
+        ("SS", "C", "Science & crewed"),
+        ("", "", "Other"),
+    ],
+)
+def test_purpose_buckets(category, cls, expected):
+    assert oh.purpose(category, cls) == expected
+
+
+@pytest.mark.parametrize(
+    ("owner", "name", "expected"),
+    [
+        ("US", "STARLINK-30001", "SpaceX"),
+        ("US", "GPS IIF-1", "US"),
+        ("GLOB", "GLOBALSTAR M001", "US"),
+        ("CIS", "COSMOS 2500", "USSR / Russia"),
+        ("PRC", "BEIDOU-3 M1", "China"),
+        ("FR", "SPOT 6", "Europe"),
+        ("ISRA", "OFEQ 16", "Other"),
+    ],
+)
+def test_owner_groups(owner, name, expected):
+    assert oh.owner_group(owner, name) == expected
+
+
+def test_site_coordinates_are_on_the_globe():
+    for name, lat, lon, _approx in oh.SITES.values():
+        assert -90 <= lat <= 90 and -180 <= lon <= 180, name
+
+
+def test_published_sources_are_written_compact_to_docs(tmp_path, monkeypatch):
+    monkeypatch.setattr(cache, "DATA_DIR", tmp_path / "data")
+    monkeypatch.setattr(cache, "PUBLISH_DIR", tmp_path / "docs")
+    cache.save("fleet", {"id": [1, 2]})
+    cache.save("news", {"x": 1})
+    published = (tmp_path / "docs" / "fleet.json").read_text(encoding="utf-8")
+    assert "\n" not in published and '"id":[1,2]' in published
+    assert (tmp_path / "data" / "news.json").exists()
+    assert not (tmp_path / "data" / "fleet.json").exists()
+    assert cache.load("fleet")["data"] == {"id": [1, 2]}
+
+
+def test_greek_letter_era_launches_join_on_date():
+    # GCAT keeps "1957 ALP" and "1961 A BET"; SATCAT renumbered them "1957-001".
+    satcat = SATCAT_FIXTURE.splitlines()[0] + "\n" + (
+        "EXPLORER 1,1958-001A,4,PAY,D,US,1958-02-01,AFETR,1970-03-31,0,33.2,2550,350,,,EA,ELL\n"
+        "DISCOVERER 32,1961-026A,177,PAY,D,US,1961-09-17,AFWTR,1961-10-13,0,82.6,400,240,,,EA,ELL\n"
+    )
+    launch_tsv = LAUNCH_FIXTURE + (
+        "1958 ALP  \t0\t1958 Feb  1 0347:56\tJuno I\n"
+        "1961 A BET  \t0\t1961 Sep 17 2100\tThor Agena B\n"
+    )
+    cat = oh.build(satcat, PSATCAT_FIXTURE, launch_tsv)
+    lvs = [cat["lvs"][i] for i in cat["launch"]["lv"]]
+    assert lvs == ["Juno I", "Thor Agena B"]

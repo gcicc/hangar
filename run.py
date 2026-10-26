@@ -16,7 +16,17 @@ import argparse
 from datetime import UTC, datetime
 from pathlib import Path
 
-from hangar import cache, constellation, financials, history, launches, sites, targets, xfeed
+from hangar import (
+    cache,
+    constellation,
+    financials,
+    history,
+    launches,
+    orbits_history,
+    sites,
+    targets,
+    xfeed,
+)
 from hangar.feeds import (
     EXCLUDE_TITLES,
     FEEDS_BY_SECTION,
@@ -209,6 +219,13 @@ def main() -> None:
 
         print("\n=== CONSTELLATION ===")
         cache.refresh("constellation", constellation.fetch, force=args.force)
+
+        # Published to docs/ for the globe's time-lapse; not inlined in the page.
+        print("\n=== ORBITS (time-lapse catalogue) ===")
+        cache.refresh("orbits", orbits_history.fetch, force=args.force)
+
+        print("\n=== FLEET (element sets) ===")
+        cache.refresh("fleet", constellation.fetch_fleet, force=args.force)
 
         print("\n=== FINANCIALS ===")
         cache.refresh("financials", financials.fetch, force=args.force)

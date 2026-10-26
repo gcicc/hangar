@@ -25,6 +25,13 @@ from typing import Any
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
+# Sources the page loads as separate files rather than inlined. Their cache *is*
+# the published file - written to docs/ and compact - so the same megabytes are
+# not committed twice, and index.html (re-rendered every 2 hours) stays small.
+# See decisions/0001-orbit-data-hybrid.md.
+PUBLISH_DIR = Path(__file__).resolve().parent.parent / "docs"
+PUBLISHED = {"orbits", "fleet"}
+
 # How long each source's cached copy stays valid. The refresh workflow runs
 # every 2 hours; anything with a longer max_age simply skips most runs.
 MAX_AGE: dict[str, timedelta] = {
@@ -33,6 +40,11 @@ MAX_AGE: dict[str, timedelta] = {
     "financials": timedelta(hours=2),
     "constellation": timedelta(hours=6),
     "sites": timedelta(days=7),
+    # The time-lapse catalogue and the end-state element sets. Weekly, because
+    # both are committed and git keeps every version; the page upgrades the
+    # fleet to live CelesTrak data in the browser when it can.
+    "orbits": timedelta(days=7),
+    "fleet": timedelta(days=7),
 }
 
 # A source older than STALE_FACTOR x its max_age is reported as stale to the page.
@@ -49,7 +61,7 @@ class NotModified(Exception):
 
 
 def _path(name: str) -> Path:
-    return DATA_DIR / f"{name}.json"
+    return (PUBLISH_DIR if name in PUBLISHED else DATA_DIR) / f"{name}.json"
 
 
 def _now() -> datetime:
@@ -79,10 +91,19 @@ def load(name: str) -> dict | None:
 
 def save(name: str, data: Any) -> dict:
     """Write ``data`` under a ``fetched_at`` envelope and return the envelope."""
-    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    path = _path(name)
+    path.parent.mkdir(parents=True, exist_ok=True)
     envelope = {"fetched_at": _now().isoformat(), "data": data}
-    _path(name).write_text(
-        json.dumps(envelope, indent=1, sort_keys=True, default=str),
+    # Published files are fetched by every visitor, so they go out compact.
+    compact = name in PUBLISHED
+    path.write_text(
+        json.dumps(
+            envelope,
+            indent=None if compact else 1,
+            separators=(",", ":") if compact else None,
+            sort_keys=True,
+            default=str,
+        ),
         encoding="utf-8",
     )
     return envelope

@@ -22,6 +22,7 @@ measured curve that needs no reconstruction at all.
 from __future__ import annotations
 
 from collections import Counter
+from datetime import UTC, datetime
 
 import requests
 
@@ -30,11 +31,6 @@ from hangar.cache import NotModified
 GP_URL = "https://celestrak.org/NORAD/elements/gp.php"
 HEADERS = {"User-Agent": "HANGAR/0.1 (+https://github.com/gcicc/hangar)"}
 TIMEOUT = 60
-
-# Satellites carried in the committed JSON for the map animation. The full set
-# is ~8,000 objects; committing that daily would bloat git history fast, and the
-# browser cannot usefully animate all of it either.
-ANIMATION_SAMPLE = 600
 
 # Starlink shell boundaries by mean motion (revolutions/day). Mean motion is a
 # direct function of semi-major axis, so it separates the shells without needing
@@ -81,8 +77,8 @@ def _shell_label(alt: float, inc: float) -> str:
     return f"~{band:.0f} km / {inc:.0f}°"
 
 
-def fetch(group: str = "starlink") -> dict:
-    """Fetch the GP set and derive counts, shells, growth, and an animation sample."""
+def _get_gp(group: str) -> list[dict]:
+    """One CelesTrak GP group as JSON."""
     resp = requests.get(
         GP_URL, params={"GROUP": group, "FORMAT": "json"}, headers=HEADERS, timeout=TIMEOUT
     )
@@ -96,7 +92,12 @@ def fetch(group: str = "starlink") -> dict:
         raise NotModified(resp.text.strip().replace("\n", " "))
 
     resp.raise_for_status()
-    objects = resp.json()
+    return resp.json()
+
+
+def fetch(group: str = "starlink") -> dict:
+    """Fetch the GP set and derive counts, shells and growth."""
+    objects = _get_gp(group)
     print(f"  [OK]   CelesTrak {group}: {len(objects)} objects")
 
     by_year: Counter = Counter()
@@ -122,25 +123,6 @@ def fetch(group: str = "starlink") -> dict:
         running += by_year[y]
         cumulative.append(running)
 
-    # Evenly spaced sample so the animation shows the whole constellation's
-    # geometry rather than one dense corner of it.
-    step = max(1, len(objects) // ANIMATION_SAMPLE)
-    sample = [
-        {
-            "name": o.get("OBJECT_NAME"),
-            "id": o.get("NORAD_CAT_ID"),
-            "epoch": o.get("EPOCH"),
-            "mm": o.get("MEAN_MOTION"),
-            "ecc": o.get("ECCENTRICITY"),
-            "inc": o.get("INCLINATION"),
-            "raan": o.get("RA_OF_ASC_NODE"),
-            "argp": o.get("ARG_OF_PERICENTER"),
-            "ma": o.get("MEAN_ANOMALY"),
-            "bstar": o.get("BSTAR"),
-        }
-        for o in objects[::step][:ANIMATION_SAMPLE]
-    ]
-
     altitudes.sort()
     return {
         "in_orbit": len(objects),
@@ -165,6 +147,41 @@ def fetch(group: str = "starlink") -> dict:
             ),
         },
         "altitude_median_km": round(altitudes[len(altitudes) // 2], 1) if altitudes else None,
-        "sample": sample,
-        "sample_note": f"{len(sample)} of {len(objects)} objects, evenly sampled",
     }
+
+
+# Element-set epochs in the fleet payload count days from this date, the same
+# epoch as ``orbits_history`` so the page needs one clock.
+FLEET_EPOCH = datetime(1957, 1, 1, tzinfo=UTC)
+
+
+def fetch_fleet() -> dict:
+    """Real element sets for every operating satellite (CelesTrak ``active``).
+
+    These place the end of the globe's time-lapse, and every operating satellite
+    during it, on its actual orbit. Columnar, rounded to what a globe can show:
+    0.001 deg of angle is ~0.1 km on the ground, and 1e-6 rev/day of mean motion
+    drifts ~0.04 deg a week.
+    """
+    objects = _get_gp("active")
+    fleet = {k: [] for k in ("id", "ep", "mm", "e", "i", "ra", "ap", "ma")}
+    for o in objects:
+        try:
+            # CelesTrak epochs are UTC with no zone suffix.
+            epoch = datetime.fromisoformat(str(o["EPOCH"])[:26]).replace(tzinfo=UTC)
+            row = (
+                int(o["NORAD_CAT_ID"]),
+                round((epoch - FLEET_EPOCH).total_seconds() / 86400, 5),
+                round(float(o["MEAN_MOTION"]), 6),
+                round(float(o["ECCENTRICITY"]), 6),
+                round(float(o["INCLINATION"]), 3),
+                round(float(o["RA_OF_ASC_NODE"]), 3),
+                round(float(o["ARG_OF_PERICENTER"]), 3),
+                round(float(o["MEAN_ANOMALY"]), 3),
+            )
+        except (KeyError, TypeError, ValueError):
+            continue
+        for key, value in zip(fleet, row, strict=True):
+            fleet[key].append(value)
+    print(f"  [OK]   CelesTrak active: {len(fleet['id'])} element sets")
+    return {"epoch": FLEET_EPOCH.date().isoformat(), **fleet}
