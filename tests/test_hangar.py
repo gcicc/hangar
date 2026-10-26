@@ -478,9 +478,13 @@ def test_published_sources_are_written_compact_to_docs(tmp_path, monkeypatch):
 
 def test_greek_letter_era_launches_join_on_date():
     # GCAT keeps "1957 ALP" and "1961 A BET"; SATCAT renumbered them "1957-001".
-    satcat = SATCAT_FIXTURE.splitlines()[0] + "\n" + (
-        "EXPLORER 1,1958-001A,4,PAY,D,US,1958-02-01,AFETR,1970-03-31,0,33.2,2550,350,,,EA,ELL\n"
-        "DISCOVERER 32,1961-026A,177,PAY,D,US,1961-09-17,AFWTR,1961-10-13,0,82.6,400,240,,,EA,ELL\n"
+    satcat = (
+        SATCAT_FIXTURE.splitlines()[0]
+        + "\n"
+        + (
+            "EXPLORER 1,1958-001A,4,PAY,D,US,1958-02-01,AFETR,1970-03-31,0,33.2,2550,350,,,EA,ELL\n"
+            "DISCOVERER 32,1961-026A,177,PAY,D,US,1961-09-17,AFWTR,1961-10-13,0,82.6,400,240,,,EA,ELL\n"
+        )
     )
     launch_tsv = LAUNCH_FIXTURE + (
         "1958 ALP  \t0\t1958 Feb  1 0347:56\tJuno I\n"
