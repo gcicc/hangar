@@ -1223,6 +1223,7 @@
     var cat = null, catAsOf = "", fleetNote = "", loadNote = "loading orbit data…";
     var N = 0, mdl = [], sLaunch = [], sDecay = [], sGroup = [], sReal = [];
     var launchOrder = [], launchMs = [], spxPrefix = [], firstSat = {};
+    var yearTot = [], yearSpx = [];  // launches per year since 1957, for the scrub histogram
     var hitX = null, hitY = null, hitI = null, hitN = 0;
     var tipSat = -1, pinned = false;
 
@@ -1527,6 +1528,14 @@
       launchMs = launchOrder.map(function (k) { return ep0 + L.day[k] * DAY + DAY / 2; });
       spxPrefix = [0];
       launchOrder.forEach(function (k, q) { spxPrefix.push(spxPrefix[q] + L.spx[k]); });
+      var nYears = new Date().getUTCFullYear() - 1957 + 1;
+      yearTot = new Array(nYears).fill(0); yearSpx = new Array(nYears).fill(0);
+      launchMs.forEach(function (ms, q) {
+        var yi = new Date(ms).getUTCFullYear() - 1957;
+        if (yi < 0 || yi >= nYears) return;
+        yearTot[yi]++;
+        yearSpx[yi] += L.spx[launchOrder[q]];
+      });
       hitX = new Float32Array(N); hitY = new Float32Array(N); hitI = new Int32Array(N);
     }
 
@@ -1625,7 +1634,18 @@
     zoomOut.type = zoomIn.type = bigBtn.type = "button";
     zoomOut.setAttribute("aria-label", "Zoom out");
     zoomIn.setAttribute("aria-label", "Zoom in");
-    [playBtn, scrub, speedBtn, zoomOut, zoomIn, bigBtn].forEach(function (b) { bar.appendChild(b); });
+    [playBtn, speedBtn, zoomOut, zoomIn, bigBtn].forEach(function (b) { bar.appendChild(b); });
+
+    // Launches per year behind the scrub bar, SpaceX stacked in blue: the ramp
+    // is visible before pressing play, and the thumb is a playhead over it.
+    var track = el("div", "tl-track");
+    var hist = document.createElement("canvas");
+    hist.className = "tl-hist";
+    hist.setAttribute("aria-hidden", "true");
+    track.title = "Launches per year that put a payload in Earth orbit; SpaceX in blue. Drag to scrub.";
+    track.appendChild(hist);
+    track.appendChild(scrub);
+    cap.appendChild(track);
     cap.appendChild(bar);
     cap.appendChild(readout);
 
@@ -1697,11 +1717,46 @@
         "</b> · SpaceX " + fmt(byGroup[0]) + " of " + fmt(up) + " satellites up" +
         (up ? " (" + Math.round(100 * byGroup[0] / up) + "%)" : "") + " · " + fmt(n) +
         (n === 1 ? " launch in " : " launches in ") + y + ", " + fmt(sx) + " by SpaceX";
+      drawHist(t);
       if (document.activeElement !== scrub) {
         scrub.value = Math.round(1000 * Math.min(1, (t - TL_START) / (Date.now() - TL_START)));
       }
     }
     setInterval(tickReadout, 250);
+
+    function drawHist(t) {
+      var w = track.clientWidth, h = track.clientHeight;
+      if (!w || !h || !yearTot.length) return;
+      var dpr = Math.min(2, window.devicePixelRatio || 1);
+      if (hist.width !== Math.round(w * dpr) || hist.height !== Math.round(h * dpr)) {
+        hist.width = Math.round(w * dpr); hist.height = Math.round(h * dpr);
+        hist.style.width = w + "px"; hist.style.height = h + "px";
+      }
+      var g = hist.getContext("2d");
+      g.setTransform(dpr, 0, 0, dpr, 0, 0);
+      g.clearRect(0, 0, w, h);
+      var now = Date.now(), span = now - TL_START, top = 13;
+      var max = Math.max.apply(null, yearTot) || 1;
+      for (var k = 0; k < yearTot.length; k++) {
+        var y0 = Math.max(TL_START, Date.UTC(1957 + k, 0, 1));
+        var y1 = Math.min(now, Date.UTC(1958 + k, 0, 1));
+        var x0 = (y0 - TL_START) / span * w, bw = Math.max(1, (y1 - y0) / span * w - 1);
+        var hT = (h - top) * yearTot[k] / max, hS = (h - top) * yearSpx[k] / max;
+        // Years the clock has not reached yet are dimmed.
+        g.globalAlpha = y0 <= t ? 1 : 0.35;
+        g.fillStyle = C["globe-neutral"]; g.fillRect(x0, h - hT, bw, hT - hS);
+        g.fillStyle = C["series-1"]; g.fillRect(x0, h - hS, bw, hS);
+      }
+      g.globalAlpha = 1;
+      g.fillStyle = C["ink-muted"];
+      g.font = "10px 'IBM Plex Mono', monospace";
+      g.textBaseline = "top";
+      g.fillText("launches / yr", 0, 0);
+      var peak = yearTot.indexOf(max);
+      g.textAlign = "right";
+      g.fillText("peak " + max + " in " + (1957 + peak), w, 0);
+      g.textAlign = "start";
+    }
 
     // Key: colour is owner (with a live count, so the SpaceX ramp reads as a
     // number as well as a colour), shape is purpose. Inline it sits under the

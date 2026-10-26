@@ -797,6 +797,8 @@ footer a { color: var(--ink-2); }
 .globe-wrap.big .globe-cap { max-width: min(calc(100vw - 2rem), 900px); margin: 0 auto; font-size: 0.7rem; }
 .globe-wrap.big .closeup { left: 50%; right: auto; width: min(calc(100vw - 2rem), calc(100vh - 11rem)); transform: translateX(-50%); }
 
+
+
 /* The key: under the globe inline, floating beside it when expanded. */
 .globe-key {
   font-family: var(--mono);
@@ -835,15 +837,69 @@ footer a { color: var(--ink-2); }
 .gk-row i { width: 0.6rem; height: 0.6rem; border-radius: 50%; flex: none; }
 .gk-row b { margin-left: auto; padding-left: 0.6rem; font-weight: 500; font-variant-numeric: tabular-nums; }
 .gk-row svg { width: 0.7rem; height: 0.7rem; flex: none; }
+/* Expanded on a wide screen: globe at full window height on the left, the key,
+   controls and caption in a side panel, instead of a column under the globe. */
+@media (min-aspect-ratio: 7/5) {
+  .globe-wrap.big {
+    display: grid;
+    grid-template-columns: auto minmax(280px, 360px);
+    grid-template-rows: auto 1fr;
+    column-gap: 1.75rem;
+    justify-content: center;
+    align-content: center;
+  }
+  .globe-wrap.big #globe {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    width: min(calc(100vh - 2rem), calc(100vw - 360px - 3.75rem));
+    margin: 0;
+    align-self: start;
+  }
+  .globe-wrap.big .globe-key { position: static; grid-column: 2; grid-row: 1; }
+  .globe-wrap.big .globe-cap { grid-column: 2; grid-row: 2; max-width: none; margin: 0; align-self: start; font-size: 0.75rem; }
+  .globe-wrap.big .closeup { grid-column: 1; grid-row: 1 / span 2; top: 0; left: 0; right: auto; width: 100%; transform: none; }
+}
+
 @media (max-width: 600px) {
   .globe-key { font-size: 0.68rem; }
   .globe-key-body { gap: 0 0.7rem; }
 }
 
 /* Time-lapse controls and the satellite card. */
-.tl-bar { display: flex; align-items: center; gap: 0.4rem; margin: 0.1rem 0 0.2rem; }
+.tl-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 0.4rem; margin: 0.1rem 0 0.2rem; }
 .tl-bar button { margin-left: 0; white-space: nowrap; }
-.tl-bar input[type="range"] { flex: 1; min-width: 0; accent-color: var(--series-1); }
+
+/* Scrub bar over a launches-per-year histogram; the thumb is a playhead line. */
+.tl-track { position: relative; height: 38px; margin: 0.25rem 0 0.3rem; }
+.tl-hist { position: absolute; left: 0; top: 0; pointer-events: none; }
+.tl-track input[type="range"] {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: ew-resize;
+}
+.tl-track input[type="range"]:focus-visible { outline: 1px solid var(--sodium); outline-offset: 2px; }
+.tl-track input[type="range"]::-webkit-slider-runnable-track { height: 100%; background: transparent; }
+.tl-track input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 3px;
+  height: 38px;
+  background: var(--ink);
+  border: 0;
+}
+.tl-track input[type="range"]::-moz-range-track { height: 100%; background: transparent; }
+.tl-track input[type="range"]::-moz-range-thumb {
+  width: 3px;
+  height: 38px;
+  background: var(--ink);
+  border: 0;
+  border-radius: 0;
+}
 .tl-read { color: var(--ink-2); }
 .tl-read b { color: var(--ink); font-weight: 500; }
 
