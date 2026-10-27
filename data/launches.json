@@ -132,7 +132,7 @@
    "mission": "Starlink Group 15-16",
    "mission_type": "Communications",
    "name": "Falcon 9 Block 5 | Starlink Group 15-16",
-   "net": "2026-10-27T05:46:37Z",
+   "net": "2026-10-27T07:25:51Z",
    "net_precision": "SEC",
    "orbit": "LEO",
    "pad": "Space Launch Complex 4E",
@@ -206,22 +206,22 @@
     "top_provider": "Rocket Lab"
    },
    {
+    "count": 6,
+    "last_net": "2026-11-05T20:00:00Z",
+    "lat": 19.59755,
+    "location": "Wenchang Space Launch Site, People's Republic of China",
+    "lon": 110.936481,
+    "name": "Commercial LC-2",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
     "count": 5,
     "last_net": "2026-10-23T19:25:00Z",
     "lat": 40.960482,
     "location": "Jiuquan Satellite Launch Center, People's Republic of China",
     "lon": 100.298059,
     "name": "Launch Area 94 (SLS-2 / 603)",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 5,
-    "last_net": "2026-10-09T19:27:00Z",
-    "lat": 19.59755,
-    "location": "Wenchang Space Launch Site, People's Republic of China",
-    "lon": 110.936481,
-    "name": "Commercial LC-2",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
@@ -456,16 +456,6 @@
     "top_provider": "Rocket Lab"
    },
    {
-    "count": 2,
-    "last_net": "2026-12-31T00:00:00Z",
-    "lat": 28.458,
-    "location": "Cape Canaveral SFS, FL, USA",
-    "lon": -80.528,
-    "name": "Unknown Pad",
-    "spacex": true,
-    "top_provider": "SpaceX"
-   },
-   {
     "count": 1,
     "last_net": "2026-10-21T03:39:00Z",
     "lat": 35.391667,
@@ -644,6 +634,16 @@
     "name": "ADD Offshore launch platform",
     "spacex": false,
     "top_provider": "Agency for Defense Development"
+   },
+   {
+    "count": 1,
+    "last_net": "2026-12-31T00:00:00Z",
+    "lat": 28.458,
+    "location": "Cape Canaveral SFS, FL, USA",
+    "lon": -80.528,
+    "name": "Unknown Pad",
+    "spacex": true,
+    "top_provider": "SpaceX"
    }
   ],
   "passengers": [
@@ -1938,7 +1938,7 @@
     "mission": "Starlink Group 15-16",
     "mission_type": "Communications",
     "name": "Falcon 9 Block 5 | Starlink Group 15-16",
-    "net": "2026-10-27T05:46:37Z",
+    "net": "2026-10-27T07:25:51Z",
     "net_precision": "SEC",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
@@ -2053,6 +2053,27 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
+    "webcast_live": false
+   },
+   {
+    "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
+    "id": "a2423132-f965-423f-8b03-6891b775dc54",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
+    "lat": 19.59755,
+    "lon": 110.936481,
+    "mission": "SatNet LEO Group TBD?",
+    "mission_type": "Communications",
+    "name": "Long March 12 | SatNet LEO Group TBD?",
+    "net": "2026-11-05T20:00:00Z",
+    "net_precision": "HR",
+    "orbit": "LEO",
+    "pad": "Commercial LC-2",
+    "pad_location": "Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 12",
+    "status": "TBC",
+    "status_name": "To Be Confirmed",
+    "url": "https://nextspaceflight.com/launches/details/a2423132-f965-423f-8b03-6891b775dc54",
     "webcast_live": false
    },
    {
@@ -2327,29 +2348,8 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
     "webcast_live": false
-   },
-   {
-    "description": "First two satellites manufactured by MDA for Canadian satellite operator Telesat's Lightspeed constellation.",
-    "id": "ce1317de-ec94-4479-9b28-38ebf11f13ae",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-    "lat": 28.458,
-    "lon": -80.528,
-    "mission": "Telesat Lightspeed 1",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Telesat Lightspeed 1",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Unknown Pad",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/ce1317de-ec94-4479-9b28-38ebf11f13ae",
-    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-26T22:24:22.545710+00:00"
+ "fetched_at": "2026-10-27T04:08:45.498271+00:00"
 }
