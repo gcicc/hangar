@@ -119,21 +119,21 @@
     13,
     14,
     8,
-    9
+    10
    ]
   },
   "calls_used": 4,
   "next": {
    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-   "id": "e2886a96-5ce9-4f45-872f-4e25a00be837",
+   "id": "57ce0a39-d035-4f16-a418-bd6108f78199",
    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
    "lat": 34.632,
    "lon": -120.611,
-   "mission": "Starlink Group 15-16",
+   "mission": "Starlink Group 15-18",
    "mission_type": "Communications",
-   "name": "Falcon 9 Block 5 | Starlink Group 15-16",
-   "net": "2026-10-27T07:25:51Z",
-   "net_precision": "SEC",
+   "name": "Falcon 9 Block 5 | Starlink Group 15-18",
+   "net": "2026-10-30T04:02:00Z",
+   "net_precision": "MIN",
    "orbit": "LEO",
    "pad": "Space Launch Complex 4E",
    "pad_location": "Vandenberg SFB, CA, USA",
@@ -141,12 +141,12 @@
    "rocket": "Falcon 9 Block 5",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/e2886a96-5ce9-4f45-872f-4e25a00be837",
+   "url": "https://nextspaceflight.com/launches/details/57ce0a39-d035-4f16-a418-bd6108f78199",
    "webcast_live": false
   },
   "pads": [
    {
-    "count": 57,
+    "count": 58,
     "last_net": "2026-12-31T00:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -337,16 +337,6 @@
    },
    {
     "count": 3,
-    "last_net": "2026-09-17T02:40:00Z",
-    "lat": 40.969117,
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.343333,
-    "name": "Launch Area 95A",
-    "spacex": false,
-    "top_provider": "ExPace"
-   },
-   {
-    "count": 3,
     "last_net": "2026-11-30T00:00:00Z",
     "lat": 13.7199,
     "location": "Satish Dhawan Space Centre, India",
@@ -364,6 +354,16 @@
     "name": "43/4 (43R)",
     "spacex": false,
     "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-09-17T02:40:00Z",
+    "lat": 40.969117,
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "lon": 100.343333,
+    "name": "Launch Area 95A",
+    "spacex": false,
+    "top_provider": "ExPace"
    },
    {
     "count": 2,
@@ -657,6 +657,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+    "id": "e2886a96-5ce9-4f45-872f-4e25a00be837",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "Starlink Group 15-16",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-16",
+    "net": "2026-10-27T07:25:51Z",
+    "net_precision": "SEC",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/e2886a96-5ce9-4f45-872f-4e25a00be837",
+    "webcast_live": false
+   },
    {
     "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
     "id": "6b95bcc8-1f88-4539-84fe-f63630138766",
@@ -1895,37 +1916,16 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/55b79515-ddbf-4198-8a59-29a12ed21330",
     "webcast_live": false
-   },
-   {
-    "description": "The Globalstar global mobile communications network offers global, digital real time voice, data and fax services via its Low Earth Orbit satellite constellation. The constellation operates in a 1410 km orbit inclined at 52 degrees.\r\n\r\nIn early 2022, Globalstar contracted with MDA for the construction of 17 new 2nd generation refresh satellites to replenish the existing constellation. Rocket Lab i",
-    "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-    "lat": 28.56194122,
-    "lon": -80.57735736,
-    "mission": "Globalstar 2-R Mission 1 (x 8)",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 8)",
-    "net": "2026-08-16T01:12:14Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 40",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
-    "webcast_live": false
    }
   ],
   "totals": {
    "previous_sampled": 200,
    "share_caveat": "Share of the most recent orbital launches fetched, over the window shown. Not a share of all launches, and not a fixed calendar period - the window moves with every refresh.",
-   "spacex_sampled": 90,
-   "spacex_share": 0.45,
+   "spacex_sampled": 91,
+   "spacex_share": 0.455,
    "window": {
-    "from": "2026-03-16",
-    "to": "2026-10-25"
+    "from": "2026-03-17",
+    "to": "2026-10-27"
    }
   },
   "upcoming": [
@@ -1945,8 +1945,8 @@
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/e2886a96-5ce9-4f45-872f-4e25a00be837",
     "webcast_live": false
    },
@@ -2351,5 +2351,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-27T04:08:45.498271+00:00"
+ "fetched_at": "2026-10-27T11:46:08.434537+00:00"
 }

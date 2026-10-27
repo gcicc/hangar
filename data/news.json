@@ -1,6 +1,6 @@
 {
  "data": {
-  "corpus_size": 1624,
+  "corpus_size": 1539,
   "labels": {
    "market": "Markets & Filings",
    "spacex": "SpaceX",
@@ -16,9 +16,19 @@
   "sections": {
    "market": [
     {
+     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQRS1Wdm5obkw2bkpFV0JqTHJNLWdBMlRHM3pJNkxxZkJMaU1XVnBVRjZNczU1MVpLUnBVMlc3a3NLbUwxUUlCWHpEZnlVNDc5VWpEendnYUFPQWVmYVhBdFEtSVhtVWJXQVhMazFDcW5NLXBCeE1zam1vSjJjQi1nY2p0SjVoR0RlRzI2VS0wVUNOR0xrUHFFUS1FbVlJRldTNkhqUlFSM25mRDFPTlJpNE9aWjUyS0I5dTBkbDZFeHpaU1V2SzdJc295bE8xbV9TLUVaaXpGOW95Y1dwZF84VDBVTVRPenROQ2dHZlg2OGhlMnN5N19zdzJmd9IBgAJBVV95cUxQaGZnQjNUc1ktb2lHOE5fSkZ0endQc1FjLU03TkdfcVd5XzdXT2VwdkhjTkJvbkM3d3NXbXJXSnJoRUVNQkR0UlkwM25nSDRrbFZiTkZWb0IyR3BFWVZCb3EyLWZyOHB3MnZ2QnlnYkgwZU1qVzhST1VtUmxqMUo4dWJBRVZ3SGlIclotTHhQa1d2WFQ1Ym1YZEJWVXRBak84SDFUamt2bTdENUNFVm5sS1M1NWUyeVdYcVo4eHhYUTRSQjhIN3ZCdUZIT0tycTlYSUNMQlVxMEhieU1kUk9ENGw0Q3lJZkVzbjVxazhPTnRSNS12NE5KNHdHaTBvdlZy?oc=5",
+     "published": "2026-10-27T10:38:40+00:00",
+     "score": 7.751,
+     "source": "SPCX",
+     "title": "AI deals worth $235 billion: Anthropic IPO, SpaceX and Meta fuel record US AI spending as economic risks grow | Business News - Hindustan Times",
+     "topics": [
+      "money"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbXQ0MDNqSk1hN29lYmpObXJJS1VYanhGMUxISjNwUXU3alJNNmNsQS1KLVBOdkZfd0ZVV0liZFF4UXBBTUtieG1ndGpsSklHS3JFaVl5aTRHZldMZl9WLVoyamZhbUVBTC1tSEl4dVdEeUl4MzZLTXBHWWltekdpRFhicTVVTXJjVUJ1T3ZEUGNETExsUVhJbGZoMXJuQVI1WGdWc1VkNEsxUnF2U3c?oc=5",
-     "published": "2026-10-27T01:16:25+00:00",
-     "score": 8.283,
+     "published": "2026-10-27T02:09:00+00:00",
+     "score": 6.596,
      "source": "SPCX",
      "title": "Is SpaceX Stock a Buy After Reporting Spectacular Earnings Results? - The Motley Fool",
      "topics": [
@@ -26,9 +36,19 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1TZVJNclZ1YUl0alF3T0xiZ1R3NjhsUF9uNl9RYk1ZME5jM0x6TGZPWl81WVJrVlFHNE5ybWtCLVRVMUdxLWNWdWFLcm01QVk?oc=5",
+     "published": "2026-10-27T08:30:07+00:00",
+     "score": 5.456,
+     "source": "SPCX",
+     "title": "At SpaceX\u2019s earnings announcement on October 20, Elon Musk gave his first official answer to a quest.. - \ub9e4\uc77c\uacbd\uc81c",
+     "topics": [
+      "money"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYmluRnNVZjR4UlRKZ0gtbEh3NTc3Y1I1TVkxT2ZxUjBYX2ZiMThxbXhRVjFOWGt2VWdwZGw0YzFKM2VCU1BJS2NxMk1Ca0VscldVVDhIVHp6d2hiX29rdnRkUkVfSzFHd0JYTTFKbWItSzVfNHZBRjZubnFXeVFnU3ozWFJXUlZzUFpaOGk1MGJXMm4zNnI1N2xOQ21tbWx1YlNVQmxKazZNNEJSbDJ0b1JoSVFzVTZiWWZsb19SQy1lZEk5M3pNajZDM2VwSnlpOHVuTi1QTC04ZVk?oc=5",
      "published": "2026-10-27T02:39:00+00:00",
-     "score": 5.751,
+     "score": 4.481,
      "source": "TSLA",
      "title": "Dow Jones Futures: Elon Musk-Led Tesla Leads Market Higher; Amazon, Alphabet, Microsoft Earnings On Deck - Investor's Business Daily",
      "topics": [
@@ -36,9 +56,19 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb3pyQ3FibXFPLWlMMkRnVWdaSWt1S24tQWtRUXJDbUNlRktpaFdkeExLV2xqMVZmWDBuV2FHM0VhMXZRX1NycDF0M2xrRkxMaGU2RG5NaFFtRXFWWDhuTVFQSDNxSzJ5cEVCQ3Y0VGdRRDQzQnF3TGs4QW11cG5MSEM4VQ?oc=5",
+     "published": "2026-10-27T04:30:33+00:00",
+     "score": 3.992,
+     "source": "SPCX",
+     "title": "Anthropic IPO Filing: $110B Amazon, $120B SpaceX [2026] - shattered.io",
+     "topics": [
+      "money"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRFVBb09xemRQZEl1bnk3Y1ZJTTJPVkdRUmhCbnlSUjRfdENjOXdVaUdzR2VDOF9TZDZQaTI4WU9oVjFwLXhIS1JjWWZIX25lc1NxOFdFb1pnLUxkanlaRXBxMXJKTmJhTlc2Y1VqNk83WmFialY0Q0tXejJ2MmtNT2hvTUNWWkVrQmtYZ0FYaE1Na1dfelduRTdydWJybXdJWFNOSnpsNA?oc=5",
      "published": "2026-10-26T23:40:02+00:00",
-     "score": 5.254,
+     "score": 3.984,
      "source": "SPCX",
      "title": "SpaceX's Adjusted Earnings Quadrupled in Q3. Is the Stock Heading Back to $200? - Yahoo Finance",
      "topics": [
@@ -46,9 +76,27 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYVpXVzEtNGxGb08wR01sd2hVaTNSWDFSTkg1TmNKTTl6Y1E5ZVdLUFF1azhVNzJzU3ZGcDhtVlU5aDZqLUZnZXpmc2owWnpSb1pNcXd1MVpuelBTaTFOR3prSkM4SVc4Rjh1MVRETHpmeXNDNklQWEpHUUZsUlE0ejM1OS1DN09NYnBFVDdqdHJCc2o1T0pSMHBLQ3Q4LUUwY1BWN2l5SGJEekk?oc=5",
+     "published": "2026-10-27T11:26:49+00:00",
+     "score": 3.965,
+     "source": "SPCX",
+     "title": "Verizon\u2019s Q3 Results Show Why SpaceX\u2019s Spectrum Grab Isn\u2019t a Major Threat - MarketBeat",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOHBDdjR4alJuVVU0NDVMOGJ2NlVWbG93VThfR0dLdFQ0Q1VJN2U2Y3k5MWs0ZTJ4YUxCdGdlelhBc0stUzRCcHZYRHNSM0Jlb29OZE9CTlVNaEZoM2VBcnBtTV9rYkFXd0J3emNvNkp4QmxqcGJDZTVkQ0pOWXpERmR5RjY3WjFBNnl5RlpldENFUUp3TVZZTXp6Z2Fsa2lxMFFiYm52Y2V3WjhkRGV2NERZZEw?oc=5",
+     "published": "2026-10-27T09:26:16+00:00",
+     "score": 3.741,
+     "source": "SPCX",
+     "title": "SpaceX $SPCX Stock: Sigma Planning Corp Increases Stake - MarketBeat",
+     "topics": [
+      "money"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxON2YzYTg0UGFqN3RNUUtfbmQ0STdpNUo3ZHZnT01NdmhBY1BwZTB3cWdHSm9uT0ZnU2hCWGphQXVMd1FvYUdrRE9OTWJUZ19TWEpvTWZiZ2VDc2QzYWJvS0RHUnd4SUcxMVBjNnl0bXNzd05ZR2xEakpOWUdmTXU0N2g3RjZONktBZkNma1VZeVdLMmc0cnpQVGNBTEs0bDNTRmxUNWh5LXU?oc=5",
      "published": "2026-10-26T20:52:22+00:00",
-     "score": 4.788,
+     "score": 3.518,
      "source": "SPCX",
      "title": "Verizon Earnings: Wireless Momentum Builds as SpaceX Maneuvering Continues - Morningstar",
      "topics": [
@@ -58,7 +106,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TRGRUQmR5Um1OMURWV1RvYVAzNjFySVFiM0E2Q2xsdm5DRzBHT2UxRWdZMnRWZDBRb3RHNDBDTmpENWtBTVBDS0ZBdVlrYTBXZWlDSHBSa1ZVd0hYTEdabjRuS21EajRJNV9STEFXRkx3YWVGWGFKZzBmYWZpS2M?oc=5",
      "published": "2026-10-26T15:45:40+00:00",
-     "score": 3.937,
+     "score": 2.666,
      "source": "SPCX",
      "title": "Huntington Bank: Home Sales, Earnings Reports, SpaceX - RVBusiness",
      "topics": [
@@ -66,77 +114,29 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQ3VVYjh0NE82WkdSUVp3Uk56S21Ld2Y1Q0ZvSllETlJBbWZHMXNCOTAwNWdfZGZjZ0FqWEJ0MkYtN0dKbEp5SFdLdGxLaUhHOGFoVzZIdHdmU3Exd2thSzJaZVBlSndIQkU4OFA0NjFmQmE2VnAtZVlnOWwwQVlDMjRXVzc4b2xPcUs0QUhMeDBueHVQR0hiT0taSTFHaWRBZVhRWldxTlZkOGFHc1hEdkFJTDczNXJVTW5mYmJmZ3RfT0hZeVhqY29Ta0piRUgwTWJJ?oc=5",
-     "published": "2026-10-26T18:46:20+00:00",
-     "score": 3.699,
-     "source": "SPCX",
-     "title": "Anthropic IPO: SpaceX stands to make out big from AI lab's compute spending - Yahoo Finance",
-     "topics": [
-      "money"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONDNraVJRNUhBcWYwa0tTY21HbDFyZFBlS1dLTmoycG4wdUlvbktDVy0tSklIUTdVQWdZRW5iTzcxcUVBQ3ZFT1k3RnQ1VXRLWk1Wdl8tbTNRTm5wVlJsdDRjd1BiOW1HS2FuX3I0emdqTDlMbjh5Yk9wOXdKcF95Q245OWk?oc=5",
      "published": "2026-10-26T23:35:34+00:00",
-     "score": 3.495,
+     "score": 2.647,
      "source": "Musk",
      "title": "Harvard\u2019s $2.2 Billion SpaceX Stake Tells a Story - freebeacon.com",
      "topics": []
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOemRqbE1PR0VCc3Rac3ZwMk43X29Gam9qR2F6LTVTREx1Mkw4NFJLelpmckF5TWY1VENCQk5MQzRsVHUxUVRBX1p3dm5QbGI3R2xFU28tQWJ1ZTMyNWtEaTlMZXRpSEhPeDZmcXNxUmlUakh2eGI4bWt4THp4RG1yaFZNajBta0lCT0piMGhkLWxZTV9uZFp3X2xkSmhlRHFoZGNN?oc=5",
-     "published": "2026-10-26T12:06:00+00:00",
-     "score": 3.326,
-     "source": "TSLA",
-     "title": "Alphabet, Microsoft, Amazon, Meta, Tesla, Nvidia and Micron are part of Zacks Earnings Preview - Yahoo Finance",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYnp2anFrVlU4R3dmRkQwLVlDVS10SHI0QlZwdGRwRlV6Wmg2U0Fad3FGSWl0U0VNWlhzVXZ1dndPazlJckZQNHduYnI2bENZdDVnc0JyMlVpYVRpb3JOenQ1dzFtcnlGQjhocTBkZnZhN3p4VFkyTU9NLUljX0M3bHVyMTN6WUNOR2d2YldKcXQ2bWRUWDRhaGJ0bzlkUzY1Z3dKaUVB?oc=5",
-     "published": "2026-10-26T11:00:14+00:00",
-     "score": 3.144,
+     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQ3VVYjh0NE82WkdSUVp3Uk56S21Ld2Y1Q0ZvSllETlJBbWZHMXNCOTAwNWdfZGZjZ0FqWEJ0MkYtN0dKbEp5SFdLdGxLaUhHOGFoVzZIdHdmU3Exd2thSzJaZVBlSndIQkU4OFA0NjFmQmE2VnAtZVlnOWwwQVlDMjRXVzc4b2xPcUs0QUhMeDBueHVQR0hiT0taSTFHaWRBZVhRWldxTlZkOGFHc1hEdkFJTDczNXJVTW5mYmJmZ3RfT0hZeVhqY29Ta0piRUgwTWJJ?oc=5",
+     "published": "2026-10-26T18:46:20+00:00",
+     "score": 2.64,
      "source": "SPCX",
-     "title": "Verizon Earnings Prediction Market Preview: What Will Dan Schulman Say as SpaceX Fears Mount? - Yahoo Finance",
+     "title": "Anthropic IPO: SpaceX stands to make out big from AI lab's compute spending - Yahoo Finance",
      "topics": [
       "money"
      ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPM2FvMEk4MFF5d0d3cDBiOTcxLW81U2IxdDY2SWt1R0NLUTR4eWRrWjltR2hwNktSVTZudXgyUC1waDJXUFdNMjlFcktuVVprWTJZOFlIUjNZZHFWVzdWRE5RZFBqaVJCWmZCS09EMFM5NEM5YTA2WGhkNVdDOEVkWW1lOVNkN0hEamlUaW94UndEZGhwY0Z3SzlJaDZnaUUzdi1Ibm80VDNuMjVBQXlKaEFTRWhqUWVyYnJOQ0Y2X0JoZjJyOTREN2p4UV9rZjZfanRzeWM4aE5yX1ZIOEZ0LW1DNDdZZmc?oc=5",
-     "published": "2026-10-26T09:13:44+00:00",
-     "score": 2.848,
-     "source": "TSLA",
-     "title": "'The world's super company': Wall Street weighs SpaceX earnings, company's likely Tesla tie-up - Yahoo Finance",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOdW9ZZXFtbEdfT0lkSFFyQjh6RFI2OGFUTmlxT2VONnllM1ozVHNtOElVdXZ0NzVKQTkxdVVOTU9lbGZIQVFNVlRNbndGYk85QUJlZTRMUlI3anctM1RGaEFJTl9RSzF0NVJTUGZFQklxbklqeEt3Y3pWdW9YRngwV0hyZEp3T0wyZjhNWVZvV0otelpYOEpaM3FqZzY3SmVPbUpqNU90MjFqMUV1OFVNbzdiMlJaeDA0STdOQ3MxTDAyMmRVd3FUbHE5Z2p6M1Z0di1UXzlyQkg2N1A3c2RkSQ?oc=5",
-     "published": "2026-10-26T16:13:56+00:00",
-     "score": 2.008,
-     "source": "SPCX",
-     "title": "Anthropic's IPO could set off forced buying by index funds. SpaceX shows how that played out. - Yahoo Finance",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMWVaMzlWUEZTN0hlNXplc1ZYR1UtMnpCLXlmNEVXSXhYdHRxMnhHZFVMM2dOcmJiNUNZcWZRczk5U3hqajMyZnZadkV3bk1GbGdpYnpWZUdsZENrOGNfWkxLS0EwMTRqMVNfeERsOGc4YTVDMjd6blRUS1JhOTJJYkZ2RW8wSFhyMWJRUkNKWlNkUnlHclcxY1pUa2YwQ0JndVE?oc=5",
-     "published": "2026-10-26T09:50:00+00:00",
-     "score": 1.966,
-     "source": "SPCX",
-     "title": "Is SpaceX a Buy After Its Latest Quarterly Results? - Yahoo Finance",
-     "topics": []
     }
    ],
    "spacex": [
     {
      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50Tld2dlM2LXItRm9RMnBQUDRwblFlNGt4SDVYNF9DRlJJM3VKeFNucWdxM1pKakRmOGh2eG9zRkFvMV91dUpENlExMi1STk15cURJcWtmYnFDVVNnTEliR0g5NG1QMjA?oc=5",
-     "published": "2026-10-26T22:18:07+00:00",
-     "score": 10.892,
+     "published": "2026-10-26T22:20:07+00:00",
+     "score": 8.151,
      "source": "Falcon",
      "title": "SpaceX Falcon 9 rocket to launch on record-setter. Track liftoff - San Luis Obispo Tribune",
      "topics": [
@@ -146,9 +146,31 @@
     {
      "link": "https://spaceflightnow.com/2026/10/27/west-coast-falcon-9-rocket-to-launch-27-starlink-satellites/",
      "published": "2026-10-27T00:50:37+00:00",
-     "score": 9.085,
+     "score": 6.967,
      "source": "Spaceflight Now",
-     "title": "West Coast Falcon 9 rocket to launch 27 Starlink satellites",
+     "title": "West Coast Falcon 9 rocket launches 27 Starlink satellites",
+     "topics": [
+      "starlink",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-falcon-9-starlink-group-15-16-b1082-ocisly",
+     "published": "2026-10-27T11:04:19+00:00",
+     "score": 5.885,
+     "source": "Space.com",
+     "title": "SpaceX Falcon 9 launches early morning Starlink mission from California (video)",
+     "topics": [
+      "starlink",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVmVpb0QwU1VKeVA2N2gyV1hNXzBUV0Vvb1N6SGw2X1h1c0taS3VWMEQ0cjZJcmJmYmlsbkk1OGY3YmVfblhpc2RPdWxyeWVqTGFkdTJOMEwxSExRM3N4QU52VlZlTG5PZFhSQVEzVWl3M1pnMkdsWUJqYWNVeHRSbTVrMXE2cVBua2MtaVJyQmdzV2xI?oc=5",
+     "published": "2026-10-27T10:15:04+00:00",
+     "score": 5.748,
+     "source": "Falcon",
+     "title": "SpaceX launches Starlink satellites on 117th Falcon 9 flight of 2026, - Yahoo",
      "topics": [
       "starlink",
       "launch"
@@ -157,7 +179,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQ0pxRzZud2dHdDdYYTdGTHhlM2xKQk1nX0FJckxUYTEyeXJtLVdlS0twc3pQR2tFUGsxaWVraExtNkZDcUcxTVRqeXh2R0tqdXdmemhWWU1ZX3ZoU0xBUVlBb2dUOUlOUXZFV0lXWUc1VkM0ODc4V1UwYmM1bkVaNnNzQVRBQ1lfYU9vSF9wbHJ4dGduYUtuLWsxV3dsRXpROTFZVllxWVN4cVlCRi1SSC1OanVZU19Ea0E?oc=5",
      "published": "2026-10-26T20:00:00+00:00",
-     "score": 6.965,
+     "score": 5.059,
      "source": "Falcon",
      "title": "Watch as SpaceX launches rocket on record-setting California flight - The Desert Sun",
      "topics": [
@@ -165,9 +187,19 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mX3lxRmp0Z3FxMHQyOXBWOWRtY3hKaFI3WEtIUUtaQUZpeVJKRmlSUU1LVmtXUXlLM1hRdDd1YmJybVJBeVZrVjZVQUVXRlFzLTFsNFlTRlJPbGVlcjdzc1h2Uk1mdVk?oc=5",
+     "published": "2026-10-27T05:08:48+00:00",
+     "score": 4.897,
+     "source": "SpaceX",
+     "title": "SpaceX - Launches - SpaceX",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
      "link": "https://www.nasaspaceflight.com/2026/10/launch-preview-102626/",
      "published": "2026-10-26T21:11:56+00:00",
-     "score": 4.843,
+     "score": 3.573,
      "source": "NASASpaceflight",
      "title": "Launch Preview: Falcon 9 and GSLV rockets scheduled to launch",
      "topics": [
@@ -175,9 +207,19 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9pVm9Yd1ZORjdLc0g1eVk2Wk80NU9uSEFDdndiRzlsVE9NWGZPRzZyWTVibW00MTZZc3lwRUItd2NOZjV4X3ZYRXJPWHpSV0RiaTI5MFBKaVE2SFRjOHEwYU5oRW9HbzJKblpjVjVWQkZUaFZaVWdB?oc=5",
+     "published": "2026-10-27T06:26:00+00:00",
+     "score": 3.408,
+     "source": "Starlink",
+     "title": "Starlink Reaches 13.6 Million Global Subscribers as Nigeria Growth Continues - Techeconomy",
+     "topics": [
+      "starlink"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNSDc5elpUZjZKQlRtS0dnMTJ0RTRhTWhqOEx2ZHQ2dGNPSlhvWENoLTYzRVgxLWltWUdTcG9BcWhjaUd2YXUzREdjcTN4TkpzQW1nN05JTEhsc0I4NURieHpMUDZlYnpFdmNtb0VNanJLYnFsMGxjMmx4SVIyNjlEVEVTbi1VLXNSVTB1WjZpVkltR0xOejVrbjFwQVhhTWtmb1RHSGd5ekVqQQ?oc=5",
      "published": "2026-10-26T19:45:51+00:00",
-     "score": 4.604,
+     "score": 3.334,
      "source": "Starship",
      "title": "SpaceX Fires All 33 Engines on Starship Booster Before Next Launch - Around Prague",
      "topics": [
@@ -186,9 +228,19 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAtQ19HRVlNY3I5ckxnN1ZvQlZOdV9mLVlyN0NoamI2eDVKeTBkYWJBRHpocExOVW9oandJeTdhdlc5Y29uOGUtNWpHZVVFanJHMlcxTXpJajVaU0FoNjRyX2hzMjV6SXlDcURj?oc=5",
+     "published": "2026-10-27T03:54:51+00:00",
+     "score": 3.128,
+     "source": "Starlink",
+     "title": "Starlink Rises To 13.6m Subscribers - Independent Newspaper Nigeria",
+     "topics": [
+      "starlink"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbDNwRmEwRTMzMy04RHNzMjl3eWpaVGEzRmthWWRLa2pUNkh0T3ktVFZjXzNRV3ltQjBHZFhEQ3hERk9oejdwYUt4Zk5pQTdFUDg2ekNQLXVCRmZuRFBrSG11NS1TWVkzNHRoNTV0SHNDa1RnUlZGUDBJQzBCT3N6REgyUE1kT011MlpKUklyNWROYlhE?oc=5",
      "published": "2026-10-26T17:52:26+00:00",
-     "score": 4.289,
+     "score": 3.019,
      "source": "Starlink",
      "title": "Starlink Mobile launches in Brazil, bringing satellite coverage to 50 million customers - Drive Tesla Canada",
      "topics": [
@@ -199,7 +251,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONk5NMmZnVE15Xy1UR3M0UEZEaHZ1MGlzbklVd056Rm5BY1hlMms0WTBFa01YRmdva2NUaUJiYjkyMThwQUdKYWN2YjVuRVVlRmtkZVhxZ3diWXhkUkVwSkVmRkp3M09uR1JBc2pFdFhSZGVCMUtkUlN4TXJaWnFPemtSRURVcVlOQmdBYkZfUkpTVmNSYXhWencxV3QxbEdjazlCa3c3cGRWZVcwYTJYVVctVDFMRDRLTllPY3JTNXR6ZjhWcDF4dDItYTVWazZpdEhFb2Vn?oc=5",
      "published": "2026-10-26T17:32:00+00:00",
-     "score": 4.232,
+     "score": 2.962,
      "source": "Falcon",
      "title": "Spacex Targets November 1 For Falcon 9 Launch Of The USSF-432 Mission - TradingView",
      "topics": [
@@ -207,20 +259,9 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONS1vbjBBRmRvbzhwbGVUY0Y4anZwdXhqSDBuaF9GNEFoMml4VmNYSVlDNm45ZEZfNGZoUVNxYkhXV2w0UWl0YUpwc3J4dExjWlU2Yy1BS1UzM0ZWMFg2aVUyLVZtR0xIelZPT1ZoSW5fMHRDVmxwNUpDbHZSaWJBZUZ6amtpeEkt?oc=5",
-     "published": "2026-10-26T17:22:32+00:00",
-     "score": 4.206,
-     "source": "Starlink",
-     "title": "SpaceX Starlink 15-16 Launch: 27 Satellites [Oct 2026] - https://tech-insider.org/",
-     "topics": [
-      "starlink",
-      "launch"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWDlnTVhMRXRQaGIzWFNVVjVOSlJfSTBGU3VfWHJmUWN3Ym8wb2pLVTRjMTlsM05FTEJUeUg3YnQ3LTdMTkVZMWhMeDg5ZXZrdHpEclhTZFA5MDFBWlVjbHh4T092MWdtb0NzVlBLV1Zvck9RakxObnZNSmVFOHNqcXZOYXprV3B1UHVPX3Zud3pJOEVL?oc=5",
      "published": "2026-10-26T17:15:00+00:00",
-     "score": 4.185,
+     "score": 2.915,
      "source": "Starship",
      "title": "SpaceX aiming for 'profound milestone' with next launch of world\u2019s biggest rocket - The Independent",
      "topics": [
@@ -230,7 +271,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSS1ndk1aUk9LZ3FzcHB1VHppd1NWM2QwZGE3cHZoZlhmVUpZY2FCbGt2bkpCay0wdkZ5bTBNRXNYeENsem1seGlWZnVHV0JnZ3UxVGtmWWc1S1ZuMmYybVFJNjJCMVZxSlJkSGFPMnVhb0tJQUY1RlZKOXdVMFNCMklsVjUwNGEwR2FZWEV4ckZxd1dY?oc=5",
      "published": "2026-10-26T16:35:00+00:00",
-     "score": 4.074,
+     "score": 2.804,
      "source": "Starship",
      "title": "SpaceX to attempt \u2018profound\u2019 feat in next Starship launch - The Independent",
      "topics": [
@@ -239,19 +280,9 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mX3lxRmp0Z3FxMHQyOXBWOWRtY3hKaFI3WEtIUUtaQUZpeVJKRmlSUU1LVmtXUXlLM1hRdDd1YmJybVJBeVZrVjZVQUVXRlFzLTFsNFlTRlJPbGVlcjdzc1h2Uk1mdVk?oc=5",
-     "published": "2026-10-26T16:15:38+00:00",
-     "score": 4.02,
-     "source": "SpaceX",
-     "title": "SpaceX - Launches - SpaceX",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
      "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-ignites-giant-super-heavy-booster-engines-ahead-of-daring-starship-launch-video",
      "published": "2026-10-26T16:00:00+00:00",
-     "score": 3.977,
+     "score": 2.706,
      "source": "Space.com",
      "title": "SpaceX ignites giant Super Heavy booster engines ahead of daring Starship launch (video)",
      "topics": [
@@ -262,7 +293,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPd19pXzY4UENWS3FCbFJYQ0x0Z1kzTF9tMEpvRmJfZnRYenVBbTdJTENXRUd4akkzdThUWGV0ZnFkRnU0dklKazctNU9ESEhTN1NzSWM3aGo3cU9WckxGTGlnYlE0b3Y0WFVMZ0FpZmN6bWlrUXNOVTUwRERjZW13Y1BrVEd0YlNvdTRXUm5hR2xjZG9FbmxKbUg4Q01RMm82Nm9kSllxdWJXN05FRmlLdTA3MUJwUjROODVDWExueWNZOUpZbi1n?oc=5",
      "published": "2026-10-26T14:05:12+00:00",
-     "score": 3.658,
+     "score": 2.387,
      "source": "Starship",
      "title": "NASA Safety Panel Says a Starship Moon Landing Needs 22 Launches. Musk Has a Very Different Number - Gizmodo",
      "topics": [
@@ -272,8 +303,8 @@
     },
     {
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSks5c2JjZm1mbUFZV3ZHYW9pWWQzWDF6ay00Rk0zQm9lc05HM3dXUTdkWFJxZFh1Mnc4eDJmTjEtMEQ4WXgyY0lCa3BDcUpkTDBQZGJKSzdLZUN4cFcxOEJZbm1yWnVLdmNzS2ZBWFdWcmxHMnB2LTNnRmRYOEx2QnFCc3VpRjNhbEdjM0JtZGhBQXNWd0owWmdQQzdFU0NrQ0VwZ1NQZkU4T3ppR1E?oc=5",
-     "published": "2026-10-26T13:59:10+00:00",
-     "score": 3.641,
+     "published": "2026-10-26T14:02:10+00:00",
+     "score": 2.379,
      "source": "Falcon",
      "title": "SpaceX planning Monday night launch from Vandenberg Space Force Base - KSBY News",
      "topics": [
@@ -281,67 +312,22 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNZnNqaUZVWThxVElEWDA3WFpzc0ZTNzJiQ0hlNVRHUFRnWlc4WUtqelZvNkhqZDBMMmRlNXR2U190Vlk1aGNXN3kyX2lSVW55Z3NyTzdTV1ZOVk0yZUo2RzB2NjFWWG5lcm1JZDZKanhhbFBjWjVhLWgxZzJwYk1zMksxTGI3eFJSd3pFOGxtRnY5WUhYdWhtUmxYMnhtY0Z2YzlRaHM4VS0zSDRUckJTZ0FDLWZ0bllMWVVyRjZ1clJ2dUs3akk1Q3N0YVh2ZDlxakE?oc=5",
-     "published": "2026-10-26T12:42:00+00:00",
-     "score": 3.427,
-     "source": "Starlink",
-     "title": "easyJet partners with SpaceX to launch inflight Starlink Wi-Fi across fleet from 2027 - ANI News",
-     "topics": [
-      "starlink",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBXbVVPRi10dzZxZVRneWZ0SjBmVmU0OTNva053cWt4azluVEFvMmhYYmhxSGc5TUhtYklWZWZNV3NSQ1h3MllibEV3OXRPQXd3SHBoSC1NdVh4alYtNUlWUkdlV3Z0THFUSDJyMlRJaFRTVktaSkZwTGZidw?oc=5",
-     "published": "2026-10-26T12:34:38+00:00",
-     "score": 3.406,
-     "source": "Starlink",
-     "title": "EasyJet wifi to launch on flights from 2027 in Starlink deal - Travelling for Business",
-     "topics": [
-      "starlink",
-      "launch"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQWlucFEyU21qVWVCZEJFZU5vWjgxVXZzdDRvZC1EREJLaGdfT0xyazNObVZXNUVKdF9tY3lnRV9GaVFRWU5tX1BJU3I3bENJM0ppay15anpWeGJqWDdiYm9QaVN6VzhFUWVaUXE1NC1sdXh5bHVibGQ2dFFHWjl6cEhUTm0zVGZWMEMyMHlYank?oc=5",
      "published": "2026-10-26T12:32:46+00:00",
-     "score": 3.401,
+     "score": 2.131,
      "source": "Starlink",
      "title": "SpaceX Falcon 9 Rocket Scheduled for Monday Night Starlink Launch from Vandenberg Space Force Base - edhat",
      "topics": [
       "starlink",
       "launch"
      ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVFpJZzB3THlBWENkUVBfU05QWjMzdDBLZFh2MkV3Vm11Um5CMWJEaDdoblRzanlYSzVWeko4VWJkVndyOWhYbDBVUlVub1hHVzJDcWNDenpYSnlaUWZLZDFQVjN0ZV95RUo1SWZ0V0xPcTNndWdKN2tSanlTRFBmWi1BSDMyaGNLU3kw?oc=5",
-     "published": "2026-10-26T15:02:22+00:00",
-     "score": 3.181,
-     "source": "Starship",
-     "title": "SpaceX Completes 33-Engine Static Fire of Super Heavy Booster for Flight 15 - Drive Tesla Canada",
-     "topics": [
-      "starship",
-      "launch"
-     ]
     }
    ],
    "tesla": [
     {
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNE5ZWWpVdEdjT09aU3NZclY1OGs0TFpSRlZoQk5iR3N5cGFubmdnVmxnRzBBN01IZkctbXdHUDZGRXNXa3d6SUFrNGR3Y3haN2tCN3FBd3VkNk00Z2d5MS1HRlQ3SEhRNEtwWjBYb1BxRXBHTk1ValRvUkVUa05VNTln?oc=5",
-     "published": "2026-10-26T13:50:33+00:00",
-     "score": 6.028,
-     "source": "Autonomy",
-     "title": "Tesla Pushing Driverless Cybercab Deliveries, With Or Without Feds' Approval - CarBuzz",
-     "topics": [
-      "autonomy",
-      "production",
-      "regulatory"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84cDBOREtiU0xud1hBNVFJVEdybHlMdTZuZHJMMnQzR2tLeF9xTVFDUExWU0IzdlBxQ3dNY1MzamczcjRuOW9iN1l0aW1EMDB4dEJzOE1NMlp3NUlZTXhVSkpfN2ktcGZBTHJjUEZhVlBDVDJKa0U2VDhzQQ?oc=5",
      "published": "2026-10-27T03:41:13+00:00",
-     "score": 5.924,
+     "score": 4.654,
      "source": "Autonomy",
      "title": "Tesla Turo FSD Rentals Launch Oct. 28 [2026] - https://tech-insider.org/",
      "topics": [
@@ -351,7 +337,7 @@
     {
      "link": "https://www.teslarati.com/tesla-expands-fsd-tad-tenth-eu-country/",
      "published": "2026-10-26T15:48:45+00:00",
-     "score": 5.918,
+     "score": 4.012,
      "source": "Teslarati",
      "title": "Tesla Assisted Driving expands to tenth EU country",
      "topics": [
@@ -360,20 +346,31 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcWlGOVUwM1V1bV80LTA5YU1Gc2ViSmhzYTNkU0FFbnFYSzdHZDY5QTZ0MEkxZlZaQUk5ZU9wQ1ZpUEtVTDczSFc0WkNRV0piR0NmOGhzYjNMLTRoR053bDN4eEdiRjMybWNuRUFoSHZmNGk3bTdiclc3aUJnZ3gwcEpVZ25Dd3BSQW43Z3FGdDJFRTNmNkhjSTNMVDBDMW5hajJ3MXBiajk4cF9HNktIdTVB?oc=5",
-     "published": "2026-10-26T10:18:41+00:00",
-     "score": 4.543,
-     "source": "Optimus",
-     "title": "Tesla begins Optimus humanoid production with first deliveries slated by end of 2027 - Travel Tomorrow",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNE5ZWWpVdEdjT09aU3NZclY1OGs0TFpSRlZoQk5iR3N5cGFubmdnVmxnRzBBN01IZkctbXdHUDZGRXNXa3d6SUFrNGR3Y3haN2tCN3FBd3VkNk00Z2d5MS1HRlQ3SEhRNEtwWjBYb1BxRXBHTk1ValRvUkVUa05VNTln?oc=5",
+     "published": "2026-10-26T13:50:33+00:00",
+     "score": 3.911,
+     "source": "Autonomy",
+     "title": "Tesla Pushing Driverless Cybercab Deliveries, With Or Without Feds' Approval - CarBuzz",
      "topics": [
-      "optimus",
+      "autonomy",
+      "production",
+      "regulatory"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNHFWWEstSHJid0ViQ2VpNFMwcG1aWXFZc1dHQnBBVFNPZ2Z6cjVTOVVPeGZ2WVFMX00wX1E3THgzRXZ5cW9NRHZDMzRBendNdnJGM0l2c1V5a00zZk1VZl8zMGE4VTIyRVRFekprR2xUWHFzaFlMRG1BR29ndi1IR0x2cnZEZUI0enNLUGhVYUZLUQ?oc=5",
+     "published": "2026-10-27T07:06:37+00:00",
+     "score": 3.483,
+     "source": "Production",
+     "title": "Tesla Roadster: $50,000 Deposit, 2028 Production [2026] - https://tech-insider.org/",
+     "topics": [
       "production"
      ]
     },
     {
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNa0hDOTBhbGhSSy1xWFQwb1pyeE1XTWluWkhaOWdRcnBoekRVTVVPS05WTl9QbGsxdzJFdFFTblZvbFc0aGpwTXdpazBJc1BHX0J1U3hCcGJKb3ZKQ0ozeW9nYWl4dDk4RElxc3FiLXJaM1FoYzgyMEx6aDB2U3JTejZTX2VPUmhhcUM2YVg5a0E?oc=5",
      "published": "2026-10-26T19:11:13+00:00",
-     "score": 4.508,
+     "score": 3.237,
      "source": "Autonomy",
      "title": "Tesla Cybercab Deliveries vs NHTSA's Oct. 30 Deadline - https://tech-insider.org/",
      "topics": [
@@ -385,7 +382,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZFRnVVVvY2Mwb09HNHZxWFlpWDhfTEdmLTVrQnNTN09XNEIyVldkTWJrNjNFcHM3REVIckowdVYwT01zNnBfQ08tQk5uYXJzN05RUnByVXdsLXZERS01VUtIVC1xQkxVVXhGWnRHb2xsZGN5VG1TcTFnQng2NWI0SHhqUEpEMzBPd05keFdaYWZnMDli?oc=5",
      "published": "2026-10-26T18:30:42+00:00",
-     "score": 4.395,
+     "score": 3.125,
      "source": "Optimus",
      "title": "Elon Musk Says He'd Be 'Stunned' If Any Robot Rivals Optimus At Launch: Gene Munster Calls It A Tesla 'Call Option' With 'Massive Value' - Yahoo Finance",
      "topics": [
@@ -393,19 +390,9 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT3lhN1gzMjJNRmpFaFZyVExXZGp5Z05FVGxidmtzMG1tWXRvTVNuemtaenpDN1JvZDQ4NVU2NzlCakszZmdocW9rY1pHbnRNX0xXNjRob2tsaXNuMFBqaXJTXzNkSkRfSlVYUEw0Wk5xUHhDV2FBb1M5ZkJoeTZjV2ZKRWpwR2dHc0tqUDV6eXNQQ0t6N2F4Qi1xdHJHX216QnlMR3R5ZFl6NFZvb0RMNGYwWDcyMlRlazZRamZ4ME5BeWlNZzBmYmNFTkJsQQ?oc=5",
-     "published": "2026-10-26T18:04:57+00:00",
-     "score": 4.324,
-     "source": "Production",
-     "title": "Tesla cancels Cybertruck in Australia and New Zealand after seven years of deposits and no deliveries - EV Powered",
-     "topics": [
-      "production"
-     ]
-    },
-    {
      "link": "https://www.notateslaapp.com/news/4902/latvia-becomes-10th-eu-country-to-approve-tesla-fsd",
      "published": "2026-10-26T21:42:00+00:00",
-     "score": 4.105,
+     "score": 3.047,
      "source": "Not a Tesla App",
      "title": "Latvia Becomes 10th EU Country to Approve Tesla FSD",
      "topics": [
@@ -416,7 +403,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE43eWN5cnN0Sklyd19VVWdVa0w5Rk1iSWw2ZTZ2LThvNlFXTTdMRlo5NFV4TmdkNVB6aWU4cEloWXBUd3J4b3NSMnBMaGwzb0NaUUJ6cmszRXpBQXB3YVFKVFE0UG81eWFJTGctRFVGSjZzcUhLMGc?oc=5",
      "published": "2026-10-26T15:35:00+00:00",
-     "score": 3.907,
+     "score": 2.637,
      "source": "Autonomy",
      "title": "Tesla, Turo to Launch First Verified FSD Rental Program in U.S. on Oct. 28 - BigGo Finance",
      "topics": [
@@ -424,9 +411,20 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcWlGOVUwM1V1bV80LTA5YU1Gc2ViSmhzYTNkU0FFbnFYSzdHZDY5QTZ0MEkxZlZaQUk5ZU9wQ1ZpUEtVTDczSFc0WkNRV0piR0NmOGhzYjNMLTRoR053bDN4eEdiRjMybWNuRUFoSHZmNGk3bTdiclc3aUJnZ3gwcEpVZ25Dd3BSQW43Z3FGdDJFRTNmNkhjSTNMVDBDMW5hajJ3MXBiajk4cF9HNktIdTVB?oc=5",
+     "published": "2026-10-26T10:18:41+00:00",
+     "score": 2.637,
+     "source": "Optimus",
+     "title": "Tesla begins Optimus humanoid production with first deliveries slated by end of 2027 - Travel Tomorrow",
+     "topics": [
+      "optimus",
+      "production"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZVc4M3QyN0RZcnM4MzFZN19JaUZBVmtqVmRSSW95emFfdjIyNzRrWEQxWExSMFFLN3hyWVZZYXZfdnVRd3R5UU1LNjdwNk95djRvRnlKR1QzaHppUGl4eUFDOTZpMjZMUnVOLUJLU1l4a255QUpvbjlsS2xyUHBWUHpuMA?oc=5",
      "published": "2026-10-26T15:12:22+00:00",
-     "score": 3.844,
+     "score": 2.574,
      "source": "Autonomy",
      "title": "Turo Launches Verified Tesla FSD Rental Experience in the US - Drive Tesla Canada",
      "topics": [
@@ -436,7 +434,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVUNuNVhOYnpxYUlUUGpKdEhKUHVpcUlvazNRUUVBbEp5UTFtcFpFWDU0V3YxSWJrLXFsaUhSbndZdHJSWjViVTRzNDN2ZzZpN0RscXkwZEpMZWJibDlGWC1rNTFqNW92R0JiNng0OHV0YnlhV20yY2VBc29KUXBwN3E5WEo2WFhGTFhEcEpBTEZnSzhBdGlBSWo3NA?oc=5",
      "published": "2026-10-26T14:05:42+00:00",
-     "score": 3.659,
+     "score": 2.388,
      "source": "Autonomy",
      "title": "Turo Launches Verified Tesla FSD Rentals Starting October 28 - BASENOR - Tesla Accessories",
      "topics": [
@@ -444,36 +442,17 @@
      ]
     },
     {
-     "link": "https://www.notateslaapp.com/news/4899/tesla-and-spacex-form-special-committees-to-discuss-potential-merger",
-     "published": "2026-10-26T14:02:00+00:00",
-     "score": 3.041,
-     "source": "Not a Tesla App",
-     "title": "Tesla and SpaceX Form Special Committees to Discuss Potential Merger",
-     "topics": []
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE14eVNCYkJfYkFoRUhPR2hSbnp6NDNoWmh2aDdFZl9wM0VVX080OHc5cGFBa0ZRbmhYYTJyWFlqNDJEc0FUTXdIckt1OUlmaFdS?oc=5",
      "published": "2026-10-26T19:15:29+00:00",
-     "score": 3.013,
+     "score": 2.166,
      "source": "Tesla",
      "title": "Tesla, Inc. Q3 2026 Financial Results and Q&A Webcast - Tesla Investor Relations",
      "topics": []
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNOUdkUGFPSGs2RXlVbDNOdURQcUU1bWxFTWducWZlUUtIblc0VXhUZEhSakUyWmxUdERWTmxvS0tqYmhCSmVIdDloUXdDMV9TbXExTHZncmtiNUkwQ3ZiWWRrLXhwODJyTGpmcXBoU0tWVk1Fa21ZZnNBcVcxY3RLOE1fUWZMNVJQcjNWcGY0amxlNDNrOW1iWXBZbVJfbk5ZOHFsOWZJTE9EOTJHNS13OE53S1Z4WUtSbHFzQVVOQlpjVEEzTEU2R3VpSlUzMThybzY3UVNWa3ZPbG82M2l2WndXcw?oc=5",
-     "published": "2026-10-26T13:34:33+00:00",
-     "score": 2.977,
-     "source": "Autonomy",
-     "title": "Tesla\u2019s FSD Reaches 10th EU Country With Latvia Approval. Here\u2019s the Road Ahead for Tesla - Benzinga",
-     "topics": [
-      "autonomy",
-      "regulatory"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObmZLdHcyZmdjRTRmNjlXdzAwM3dyYmlRc2VsNjVjOWJsQjVIQkM4RTJyWUtTVHR1TVM3QUtlVWVNUVEyZ1pkQ3Iya1gtY29FcVRkZDRmMEpvSDdoS3dsMzBfRzg1aVBIeTZFbUpXZ21PMm9naVVvNGk1VlZ4RXBXVXg2Zk1EN0tpQkRYUXhIXy1YN0kt?oc=5",
      "published": "2026-10-26T18:17:26+00:00",
-     "score": 2.906,
+     "score": 2.058,
      "source": "Autonomy",
      "title": "Tesla says Cybercab production is already outpacing Robotaxi deployments - Drive Tesla Canada",
      "topics": [
@@ -482,9 +461,17 @@
      ]
     },
     {
+     "link": "https://www.notateslaapp.com/news/4899/tesla-and-spacex-form-special-committees-to-discuss-potential-merger",
+     "published": "2026-10-26T14:02:00+00:00",
+     "score": 1.982,
+     "source": "Not a Tesla App",
+     "title": "Tesla and SpaceX Form Special Committees to Discuss Potential Merger",
+     "topics": []
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMUp3enR5NVNKbktkX0hLQWVybWhLcE5PUHM1d2tTR0ZfQ2V1VUxlR00yNElsWUowTEMtNDNjMkVCa1dDU1pQekdCSDVxYmNlcFZCb05wd3pVR0p3VVExYkpJWW9CRE5FYURaZ2VKOEtFV1V3YThNVUxXX0dNY19XOXFUcy1qem53dDBsYUtGLXBxWXNUcUhKS3dBTGdVWDdLQ29SRzdYODU?oc=5",
      "published": "2026-10-26T12:05:00+00:00",
-     "score": 2.77,
+     "score": 1.711,
      "source": "Autonomy",
      "title": "Tesla FSD Approved in Latvia, the 10th EU Country to Back Dutch Ruling - Electric Vehicles",
      "topics": [
@@ -495,7 +482,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPLXhpdEhxRFpOUHdlX0M2ZklDMURWNkxyeTdCRnlGS0otZzBmVnFnRUdZOWZHTkxhTTIwZ21uejcxczNQbTVKaFJmSGFhWXdTMVpsdzhYX1JLYkxJZllVclBTVEEzbWNCNUpzVnktM05pODdUdXYyc3lPQVZJS2xXVWEtRllZTkkzTjZ4QVlHOA?oc=5",
      "published": "2026-10-26T12:03:28+00:00",
-     "score": 2.766,
+     "score": 1.707,
      "source": "Autonomy",
      "title": "Tesla FSD Approved in Latvia: What Owners Need to Do - BASENOR - Tesla Accessories",
      "topics": [
@@ -504,21 +491,63 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaW5sWkZGVEd0d1NUX2FKdDVNT2xZYUlPME0tTEYxdWhnMEZjVlNmc0FYX2hoTzFWWVpaLVFDTFo1dE9fdndtSXJJSVpnS0ZacjVTU09XY2lveWRXaFN1YzFsZWVfWFhWVGJSOTNhNGpwM2gxQmRibHp4ZC00Ty1NemRTT0lpU0M4Um9qQmVIdWU?oc=5",
-     "published": "2026-10-26T11:04:54+00:00",
-     "score": 2.631,
-     "source": "Autonomy",
-     "title": "Tesla FSD in Slovakia [2026]: 10 Countries Now Approve - shattered.io",
+     "link": "https://electrek.co/2026/10/22/tesla-optimus-delivery-late-2027-hands-ai-problems/",
+     "published": "2026-10-22T15:56:42+00:00",
+     "score": 1.65,
+     "source": "Electrek",
+     "title": "Tesla pushes Optimus deliveries to late 2027, says hands still a problem",
      "topics": [
-      "autonomy"
+      "optimus",
+      "production",
+      "money"
+     ]
+    },
+    {
+     "link": "https://electrek.co/2026/10/15/tesla-cybercab-assembly-lead-leaves-rivian-r2/",
+     "published": "2026-10-15T12:43:06+00:00",
+     "score": 1.65,
+     "source": "Electrek",
+     "title": "Tesla loses Cybercab assembly lead to Rivian R2 weeks after launch",
+     "topics": [
+      "autonomy",
+      "production",
+      "money"
      ]
     }
    ],
    "ventures": [
     {
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObTJLSWtvMlY0R3JYcGNTNDZmMUZfdWwyTDlxRl96UG83UjBhb0VLMUNvbzNOQmZ4aXJEVlk2bHcybTV3Wkl1d01OTkNKcVZiaWtaT29mcGk1ZWMxbUpTTHhjanhuVDVsZFcwQmN4MGpMZ0VUSElzaWFkM25MYnNjRkFIMkZPVmpUZTRlZ294SHN1b1d0RTVmRG1B?oc=5",
+     "published": "2026-10-27T11:04:43+00:00",
+     "score": 0.981,
+     "source": "Grok",
+     "title": "\u2018Grok slop\u2019: Musk\u2019s \u2018soulless\u2019 AI take on The Odyssey ridiculed - The New Daily",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE41UEV4djlMVHNHWVJDYk9ISmMwNmhpSW5tVUJiTC1RRndUTXU2RWR4aDZHNmo3dnBZWWxNbXpTM1h6VGRZSVVIdzBvc3Q5di1DaGJidjVxWmJQQmdGVFVsNW1PMTJ5VDFKZmk5ckxORGFEWFE?oc=5",
+     "published": "2026-10-27T10:54:32+00:00",
+     "score": 0.976,
+     "source": "Grok",
+     "title": "As Promised, Elon Musk Remade \u2018The Odyssey\u2019, and It\u2019s The Worst Thing Ever - Ready Steady Cut",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSTFfOGhKTVJ5TnpxSlQ4alFjckc2b0RBS2twc3B6OF9jNmxEYUZkc0JfNUN1em9aU1JpVzdySGtucG9QVnlmbHRybjBvWGkxRXUxektSTkJuNm44SUlzQ290ejhsZ0FBUDlZNU1OOG9RTUhneUFKT1ZpTGlSMWJ3c0wyM29BYS1oODNDWWhMdWVydW5FY1UzMk0xcTJkOHZsc3lzUDdJWXFib3E4bzh1R0RMenVfdl80eENyZUJGdkk?oc=5",
+     "published": "2026-10-27T10:11:10+00:00",
+     "score": 0.956,
+     "source": "Boring",
+     "title": "Tennessee subterranean authority member won\u2019t take first Boring Company tunnel ride - Tennessee Lookout",
+     "topics": [
+      "tunnels"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8waHo0VnBKQkZRNlZxbXdXLTgzUlZ0ZmU5SHhGOFdQazZXc0IzZzl0SUNBZ1k3THlUbjBQTnNKbGNicnhHeUxxSS1Xa1FKSGQ2bVZTQXhoNnlCbDhuQ2hoXzdUVUt0d3NKbkxKM3dyZ0M3c2hPNWFqTlRZQQ?oc=5",
      "published": "2026-10-26T23:44:05+00:00",
-     "score": 0.878,
+     "score": 0.666,
      "source": "Grok",
      "title": "Musk\u2019s Grok Releases First \u201cOdyssey\u201d Episode - Dark Horizons",
      "topics": [
@@ -528,7 +557,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSE9tQzJpUFg1WGx4RlNNd1JnMnBzaXdiY2Y4U0xTNmgwcGZhRnR2NVcyemp2YmRHTEJ3SDAxVTY5NnJYMjc5WkZ2MEJ5LW1ldzUtM0N4YVA4Z1hQTC1GTTkwTVVHRHd0MzRpVjJCdlAtZnJ5Z1d3VU5iSXZDSGxoUEJqNDh2X2ZBQkRXdjRRSE9xY3ZXajEwNXAtWHBUbzRRR1pkY3RaUlBVNWs?oc=5",
      "published": "2026-10-26T22:40:00+00:00",
-     "score": 0.848,
+     "score": 0.636,
      "source": "Grok",
      "title": "Grok Says Its AI-Generated Version of \u2018The Odyssey\u2019 Is \u2018Not Historically Accurate\u2019 - WIRED",
      "topics": [
@@ -536,109 +565,20 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORkZkWjNZRk84cmdQbGJRaGdwanBCa0tfdTMwMHVRQThZSE9YNmFuMmRhRlRMTkdkM1M2UG9vbmVwWHBOZGVpX1djczBMVkxFNTZiRDA5NjZjSm1LQVg3aGs5eDJfOXM1OGdMek5DbHVVZktzT3Q2ZkFxU3R0bmhzM25Jd3RhZE1ib2xZ?oc=5",
+     "published": "2026-10-26T22:32:29+00:00",
+     "score": 0.633,
+     "source": "Grok",
+     "title": "Elon Musk Promised an AI Odyssey Movie and We Got a 7-Minute Clip Instead - Android Headlines",
+     "topics": []
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQODVlQ1VvOF9OcWFldHVWYzF0TGM1SDVjWDhWZjBrUzNkZU5JYXYyMUlHUW1kYm5ERmNOZmlwdENnV0h4eUdwaFFuUUhld0FqLXBEcjBxQkZ6ZURuazFhUW54WE4wcFhYbzBRZ19zV0RIZ0VDb2Y4MzBxU2lDengzN0dLeGNRLXAzMG9zYjhfR3hyZEpZTFFOXzRQYmJHd1E0STRQRHhCUWpWSnJZNWZvZUc5UG91aHQ4?oc=5",
      "published": "2026-10-26T22:23:00+00:00",
-     "score": 0.84,
+     "score": 0.628,
      "source": "xAI",
      "title": "SpaceX strikes AI chip lease deal as Musk warns rivals - Free Malaysia Today",
      "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSkQyMGVONHpGLXpabkI4X04xNzBHUno4UXdrSWVnbG9BcWpZQ3NXRlBKdVJjdjUxenFReWdXRUlMYWRLaTRBUkpibUZIcGMtd3Z3cjRvdjRFWC16ODJPSWYtYW9qeTdZLU1nZlNtazNodlJPVFRnaHFQUmh5TUdZY3hZOHVVSmFkYU5XbzFvcmxSaXNteU9EWG5WQWdnZmNaNjEtRndLUTFpM3VYUVBfSEg1SndnNDh0REhQQlNWUTdzZzQ?oc=5",
-     "published": "2026-10-26T20:22:34+00:00",
-     "score": 0.784,
-     "source": "Grok",
-     "title": "Elon Musk\u2019s Grok AI releases first episode of \u2018Odyssey,\u2019 sparking debate over AI-generated film - Nacionale",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcXRCY0lsLXE4QV9Qd3hVeEdHalhtNTREdkxpN2RqcDRoSEt2YTg5MHNic2pNN3F6S2Uzem9wcHR4RENRSjhWckhmbjNkSmxNa0F5Z3dEMFdnamtsbldLOEtCMkJtQ1hxeENOZkFxbUgxS0QyOVk3Vl9Ya1Q2Qi16eGcxS0hHMUNodGdvU0xZRENWSHZuMDVxSUprTDNfY0FWMjRZVkpsMUlRRDEtSUZLNFowQ2ZldDdSYUFqb1lLQU1oOUduRlpHaUJ2RXVHbjk3Rl9uLTAtZHNaRUZreTY5b0tDWS0?oc=5",
-     "published": "2026-10-26T18:54:00+00:00",
-     "score": 0.743,
-     "source": "Grok",
-     "title": "If Crypto Falls Another 20%, Which Holds Up Best: Ethereum, Sui or Avalanche? Grok AI Ranks Them - 24/7 Wall St.",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNQm5HcEJrSWRNXzJVUnBHUUVsdDVpSU5aSmdGOEhVNFR6eDM4M3lnYW95X29LdkxHeE84b0lpOUZSUGVVSVBHUkFwcEF3V3M5NDl0M01QdzBndVBjZ3QxZEZTbEp1NkJWQ3VTNjRkd1JYd2ptdG1EcmZwaXMtMmlpOGlhTVpxZi1QeE4xR3hMVkZXWlpDdERFdE5yeUxWcHN4aHVtcGtCdDBQejhiUEJPUmlaUk5KeFRWaUdsOGU3c3ZYTUp2TkpEZ2tIWXoyOEdabUZNaW55X3pEZXVHdWJWV2NiUkhDSTBMYWN1dFF3?oc=5",
-     "published": "2026-10-26T17:44:20+00:00",
-     "score": 0.711,
-     "source": "Boring",
-     "title": "Nearly 13% of SpaceX's $4.4 Billion Profit Came From This \"Boring\" Investment - The Globe and Mail",
-     "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ1BqS21rbC1tcFBvd3N0M3hJbC1SMWZwMkxrZnpTc05MZkJMQzJIODlMVmxBNmFDQ3JsYV92VFNDSm1EQ2RnYWx6UWNqcUtHSzRxeWl6Y2ZKbVJKOVQzZEEtMm9KYjJVM285YjhBMTZhUTlqUHBpZGIwMVh3aDh2Z08teWhCcnJFTjJUekd0TUFRUU5uZWd4Vy03MkhKSmhs?oc=5",
-     "published": "2026-10-26T17:10:45+00:00",
-     "score": 0.695,
-     "source": "Grok",
-     "title": "Elon Musk\u2019s AI-Generated \u2018Odyssey\u2019 Is Here to Save Western Civilization - Gizmodo",
-     "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQalM0ZEJtQ0Y1a3pjWldkUTF1MFhnOEllWjdjcU10RmwteWxFQnB6dkQtWHd6T24wVVJmZTFsbGFmM0QtTkZJamJOdDA0WU5mR2tJTmppSWo4NlB1Q0w2OUZyZWwwX3puZnFoQ0VsNE5wdDc0QXppM3hfQjdZOGVDRlJjYkdfc0o2bUNqNlZTYw?oc=5",
-     "published": "2026-10-26T17:05:35+00:00",
-     "score": 0.693,
-     "source": "Grok",
-     "title": "Grok Bot Explained: Email, DMs, and 100+ Weekly Updates - BASENOR - Tesla Accessories",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdEVvdlhmWFRVaXI5bzVTcWxQeWxFOGFKVExaQWttRHFiMDRrTjdUa0Vldk1acUlwRTl3RzBpN0l3TmYzeV9fS1dBdE9uRm1ZU1hwSlJlaDdiSFl5U0ZoNy1DTFloYl9mazZwSENnYW1leEFKWlZtcWxvd3pJOTFGLU9qTktKZy12U0hhV3BNdlBFY21feHZ6Ulk3R2RjS0p0MmRTV3hHNnRwTUFsRUYwcGsyVEtyZm4wTTVoamRUWGJJbUYwMzBhT1pB0gHPAUFVX3lxTFBKdlE2WmVSQzJvMVIyRHFocHdqMXYyaF9YQm85dmdBRUVFY011b0hka1MtVU9URk9JMnlodjNqMER5d2Z1RVFhM2k2anU1dTc0bXhYazNpU0pBdnNYUUxmamRtSUhiVWVqZHNTamRPQkU1bTRxZmI4U240SHRVRkw0cjVHVUJUVnc4Zk45bERfbDhheGxFRDU5TGNqMzFnT2xLRTZKemJzdUtFR3Z2ZVFvWGU0SlktYlZpcnBqTlFwQzgtVkE5dGtRVXhpT3VSSQ?oc=5",
-     "published": "2026-10-26T14:39:12+00:00",
-     "score": 0.625,
-     "source": "Grok",
-     "title": "Elon Musk\u2019s Grok releases an AI-made episode of The Odyssey. Nolan fans are not impressed - ThePrint",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX2dRTWU5MTNBVFg4S3M3UEtWdmJ1RFU5TVJuWTM5SnBhWngxc3hHTDdldDZPZy1zX0tKakZxLUJHa3RwN2d3SnZSaWhiamxQZ0xxS3QyWkVWT2lCZU9BQUVtc0JzZWNtY0NMdWlZV3BMM2VWYnlYNmtzcjBwamJ3bGxoaHlYRjIxLTE5Z29KUklvZ2hXb1VTWnl5dExzbWI4amYxRkE5aExlTVNRTWxRWjFnNA?oc=5",
-     "published": "2026-10-26T14:19:29+00:00",
-     "score": 0.616,
-     "source": "Grok",
-     "title": "Elon Musk Has Followed Through on His Threat to Remake \u2018The Odyssey\u2019 With Grok AI - PetaPixel",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOejk3bHVaVVR0TGVhdXlRVkdIRklXWTJvcDh1d3ZQUkJCZ0ZWU1JCZTBvbW1UYXozb19jWXlCX3NCZ3cwWlFKYTNPMkp6QVFrMU11YUJHdFdUWDlqWC1LcWk3UWtyQ2VSNHNSODdtSVRsUVpJUjJnVEQxd1VMbXNaS1BUekNvN1JHMWZacm9DdDR3VmtvVi1Td1drVlhTbHktR0ZpLUxLTGhFbGhqRkRkTkZrOVRPR3hHZGtVWUJlU21jS3VjTXF2emsyaGl5VEI1VnEyUXlzV0x4a2hWR3NkcXZzZ05hQTl6Zmc?oc=5",
-     "published": "2026-10-26T14:10:47+00:00",
-     "score": 0.612,
-     "source": "Grok",
-     "title": "Christopher Nolan can rest easy after Elon Musk's Grok releases a terrible AI version of The Odyssey - GamesRadar+",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5rMkhPVURLU3RneDBORWpDWThBQ1NQdktDbENBSmJUbUxCcHR2Ny1neWprMllMX1pzeVVRd2lhS3NjYlctckY0NFI0NlFlTjjSAVRBVV95cUxOOUtJV3gybFkzelh6dmtDQTZhMGZCakF2QWRBelpWS2pScDh5dHpGM2tXdjluSHNZU3I5WTRnTVB1LVpFeWEtOXRpcWZzWExXS0xXU0E?oc=5",
-     "published": "2026-10-26T14:09:13+00:00",
-     "score": 0.611,
-     "source": "Grok",
-     "title": "The first episode of Grok\u2019s AI generated version of The Odyssey is released on X - JoBlo",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNY1kxeC1DeDNreGdqNWs2NVZraThJQUhKZ0VHMXRudXFVcmNrYVRaYXlCeHo1ZjlyNHV2WS0zZTREak5ZQnhlTUw3bUQyY2oyTHRBTHlPdzdnQl8zLXpBdmdTdy10dFlfRV94elZCTmRjLUZzRnV3bDg0VzFYa0FWUnJRTzNXMmYtb29UYVc4bGthTGJQMEhmMnlmWGdVTzNhWGNiYUF5ejVwVnRaQkNMWWxRY0RjczA2OEVfQ3loUk9ZOUdLQWpiTzI5cng?oc=5",
-     "published": "2026-10-20T20:10:55+00:00",
-     "score": 0.6,
-     "source": "xAI",
-     "title": "Trump administration loses bid to block NAACP lawsuit against Musk's xAI over data center - Reuters",
-     "topics": [
-      "ai",
-      "regulatory"
-     ]
     },
     {
      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBlSzF4VWNLcm9CTlU0WVZPaXllUTdIMmhrSUR4RXZyTmZhc0hjVzJQQ0lHYTREZzlBd0I3NTIwTkY5MENZUlNwYXo4Vms2ZmZDXy0yTm1QMXkwc0VIaUhZMUNVVjMtUjllMm5kMmpqb09fTlhOdGpGQ0RB?oc=5",
@@ -651,45 +591,101 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kdEZPOTVlRlY0cFhxQzBsR0VpR19FN1c3VDVlVzFrN0VQVWdhWmtfTGVmQjl6NF9oU0d4UUR6cUJQNVVMcU9zaFl1bDQ5aWI5VHc1ODV1azVvRkZWYUZ2Ukx1YnNJaktqNXFJMHJGOHo0N3Fv?oc=5",
-     "published": "2026-10-26T13:15:00+00:00",
-     "score": 0.586,
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSkQyMGVONHpGLXpabkI4X04xNzBHUno4UXdrSWVnbG9BcWpZQ3NXRlBKdVJjdjUxenFReWdXRUlMYWRLaTRBUkpibUZIcGMtd3Z3cjRvdjRFWC16ODJPSWYtYW9qeTdZLU1nZlNtazNodlJPVFRnaHFQUmh5TUdZY3hZOHVVSmFkYU5XbzFvcmxSaXNteU9EWG5WQWdnZmNaNjEtRndLUTFpM3VYUVBfSEg1SndnNDh0REhQQlNWUTdzZzQ?oc=5",
+     "published": "2026-10-26T20:22:34+00:00",
+     "score": 0.573,
      "source": "Grok",
-     "title": "Elon Musk\u2019s \u2018historically accurate\u2019 Grok Odyssey deserves to be put to the sword - The Telegraph",
+     "title": "Elon Musk\u2019s Grok AI releases first episode of \u2018Odyssey,\u2019 sparking debate over AI-generated film - Nacionale",
      "topics": [
       "ai"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOVZ6ZnBqZV9SdVJ6b2oyQjZGeEFEbEtNTlFBcDBpME1vMUFyeDlZcnhINl9VakFacTVMOVpYcEdrS3FCR3lBWHhoUmJYQnNjdDJnTzd0MTJCNzdRSkJMUzR1clpjXzNyVWh3RE5vdUJXb1pPUHdaa1A3QXgtY0lxT2dkLWxHQUFyNTFxQWd5NA?oc=5",
-     "published": "2026-10-26T13:08:00+00:00",
-     "score": 0.583,
+     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNcXRCY0lsLXE4QV9Qd3hVeEdHalhtNTREdkxpN2RqcDRoSEt2YTg5MHNic2pNN3F6S2Uzem9wcHR4RENRSjhWckhmbjNkSmxNa0F5Z3dEMFdnamtsbldLOEtCMkJtQ1hxeENOZkFxbUgxS0QyOVk3Vl9Ya1Q2Qi16eGcxS0hHMUNodGdvU0xZRENWSHZuMDVxSUprTDNfY0FWMjRZVkpsMUlRRDEtSUZLNFowQ2ZldDdSYUFqb1lLQU1oOUduRlpHaUJ2RXVHbjk3Rl9uLTAtZHNaRUZreTY5b0tDWS0?oc=5",
+     "published": "2026-10-26T18:54:00+00:00",
+     "score": 0.532,
      "source": "Grok",
-     "title": "Grok's AI Odyssey Debuts as a 7-Minute Episode - Technology Org",
+     "title": "If Crypto Falls Another 20%, Which Holds Up Best: Ethereum, Sui or Avalanche? Grok AI Ranks Them - 24/7 Wall St.",
      "topics": [
       "ai"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMnlHOVFlZ0o2T2ctZXR5TFlFWFFCRE9XYjNibjNtSG5QbThnbU1iOXlhY29CeHllR1Jvai1yNE9ERDNpTndGZy1oSldqU2VXTTNyWmpseGZfZXpMU2V4ZllnbEs1WU1wZUd0dFZ5WmxlZjdKVWMxc0Z3ZFQ1c1ZsZTRIWGQ3T0xtclE?oc=5",
-     "published": "2026-10-26T12:56:59+00:00",
-     "score": 0.578,
-     "source": "Grok",
-     "title": "X users don\u2019t hold back on Grok\u2019s version of The Odyssey - htxt.africa",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSFY5R3BMSWRHd2VHOWVaNENyQWZuYkR6WkEtOGxDRHpwMkFsZTh6YXBhV3BoMllNOG1EWnRjREc1ZXV3UlV3YkFBb2RnRnNoS0cxVHd5aXVaTzhMcGdFRGhHc0ptbEMtM0hfZWlCaWZQaXV3eTRlVGlCdVlKcGtITUE3VHVDVFBxTEFGRVlpZFkzcEp5QU9CaDYyUmNGRnIz?oc=5",
-     "published": "2026-10-26T11:46:00+00:00",
-     "score": 0.545,
-     "source": "Grok",
-     "title": "First reviews in for Elon Musk\u2019s AI-generated \u2018Odyssey\u2019 episode - The Independent",
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNQm5HcEJrSWRNXzJVUnBHUUVsdDVpSU5aSmdGOEhVNFR6eDM4M3lnYW95X29LdkxHeE84b0lpOUZSUGVVSVBHUkFwcEF3V3M5NDl0M01QdzBndVBjZ3QxZEZTbEp1NkJWQ3VTNjRkd1JYd2ptdG1EcmZwaXMtMmlpOGlhTVpxZi1QeE4xR3hMVkZXWlpDdERFdE5yeUxWcHN4aHVtcGtCdDBQejhiUEJPUmlaUk5KeFRWaUdsOGU3c3ZYTUp2TkpEZ2tIWXoyOEdabUZNaW55X3pEZXVHdWJWV2NiUkhDSTBMYWN1dFF3?oc=5",
+     "published": "2026-10-26T17:44:20+00:00",
+     "score": 0.499,
+     "source": "Boring",
+     "title": "Nearly 13% of SpaceX's $4.4 Billion Profit Came From This \"Boring\" Investment - The Globe and Mail",
      "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZ1BqS21rbC1tcFBvd3N0M3hJbC1SMWZwMkxrZnpTc05MZkJMQzJIODlMVmxBNmFDQ3JsYV92VFNDSm1EQ2RnYWx6UWNqcUtHSzRxeWl6Y2ZKbVJKOVQzZEEtMm9KYjJVM285YjhBMTZhUTlqUHBpZGIwMVh3aDh2Z08teWhCcnJFTjJUekd0TUFRUU5uZWd4Vy03MkhKSmhs?oc=5",
+     "published": "2026-10-26T17:10:45+00:00",
+     "score": 0.484,
+     "source": "Grok",
+     "title": "Elon Musk\u2019s AI-Generated \u2018Odyssey\u2019 Is Here to Save Western Civilization - Gizmodo",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQalM0ZEJtQ0Y1a3pjWldkUTF1MFhnOEllWjdjcU10RmwteWxFQnB6dkQtWHd6T24wVVJmZTFsbGFmM0QtTkZJamJOdDA0WU5mR2tJTmppSWo4NlB1Q0w2OUZyZWwwX3puZnFoQ0VsNE5wdDc0QXppM3hfQjdZOGVDRlJjYkdfc0o2bUNqNlZTYw?oc=5",
+     "published": "2026-10-26T17:05:35+00:00",
+     "score": 0.481,
+     "source": "Grok",
+     "title": "Grok Bot Explained: Email, DMs, and 100+ Weekly Updates - BASENOR - Tesla Accessories",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObG4wWHcxaWk4dGFBSWlETWlCQ0g4Y0Z4R3lnOUVpbTlwZU4yRGp5Ynh1RnZaeWJmd1MyVTJBbEg4Q1lKa0FzYkh2ejJHSGRuNWF5Ymw3SkhiWGFsRHQ3aFJtNGVOQ0lYQVdYdFdHRmhETWhzQmw4bWVRckd6VS1jUXU2eWJ0Zmp5QnZYSnFnQlQxSnFPZ1AzSHdzZ1o?oc=5",
+     "published": "2026-10-26T16:07:22+00:00",
+     "score": 0.454,
+     "source": "Grok",
+     "title": "Elon Musk\u2019s Anti-Woke AI \u2018The Odyssey\u2019 Movie Ripped as \u201cSoulless Slop\u201d After Criticizing Nolan - The Hollywood Reporter",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPdEVvdlhmWFRVaXI5bzVTcWxQeWxFOGFKVExaQWttRHFiMDRrTjdUa0Vldk1acUlwRTl3RzBpN0l3TmYzeV9fS1dBdE9uRm1ZU1hwSlJlaDdiSFl5U0ZoNy1DTFloYl9mazZwSENnYW1leEFKWlZtcWxvd3pJOTFGLU9qTktKZy12U0hhV3BNdlBFY21feHZ6Ulk3R2RjS0p0MmRTV3hHNnRwTUFsRUYwcGsyVEtyZm4wTTVoamRUWGJJbUYwMzBhT1pB0gHPAUFVX3lxTFBKdlE2WmVSQzJvMVIyRHFocHdqMXYyaF9YQm85dmdBRUVFY011b0hka1MtVU9URk9JMnlodjNqMER5d2Z1RVFhM2k2anU1dTc0bXhYazNpU0pBdnNYUUxmamRtSUhiVWVqZHNTamRPQkU1bTRxZmI4U240SHRVRkw0cjVHVUJUVnc4Zk45bERfbDhheGxFRDU5TGNqMzFnT2xLRTZKemJzdUtFR3Z2ZVFvWGU0SlktYlZpcnBqTlFwQzgtVkE5dGtRVXhpT3VSSQ?oc=5",
+     "published": "2026-10-26T14:39:12+00:00",
+     "score": 0.414,
+     "source": "Grok",
+     "title": "Elon Musk\u2019s Grok releases an AI-made episode of The Odyssey. Nolan fans are not impressed - ThePrint",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNX2dRTWU5MTNBVFg4S3M3UEtWdmJ1RFU5TVJuWTM5SnBhWngxc3hHTDdldDZPZy1zX0tKakZxLUJHa3RwN2d3SnZSaWhiamxQZ0xxS3QyWkVWT2lCZU9BQUVtc0JzZWNtY0NMdWlZV3BMM2VWYnlYNmtzcjBwamJ3bGxoaHlYRjIxLTE5Z29KUklvZ2hXb1VTWnl5dExzbWI4amYxRkE5aExlTVNRTWxRWjFnNA?oc=5",
+     "published": "2026-10-26T14:19:29+00:00",
+     "score": 0.404,
+     "source": "Grok",
+     "title": "Elon Musk Has Followed Through on His Threat to Remake \u2018The Odyssey\u2019 With Grok AI - PetaPixel",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOejk3bHVaVVR0TGVhdXlRVkdIRklXWTJvcDh1d3ZQUkJCZ0ZWU1JCZTBvbW1UYXozb19jWXlCX3NCZ3cwWlFKYTNPMkp6QVFrMU11YUJHdFdUWDlqWC1LcWk3UWtyQ2VSNHNSODdtSVRsUVpJUjJnVEQxd1VMbXNaS1BUekNvN1JHMWZacm9DdDR3VmtvVi1Td1drVlhTbHktR0ZpLUxLTGhFbGhqRkRkTkZrOVRPR3hHZGtVWUJlU21jS3VjTXF2emsyaGl5VEI1VnEyUXlzV0x4a2hWR3NkcXZzZ05hQTl6Zmc?oc=5",
+     "published": "2026-10-26T14:10:47+00:00",
+     "score": 0.4,
+     "source": "Grok",
+     "title": "Christopher Nolan can rest easy after Elon Musk's Grok releases a terrible AI version of The Odyssey - GamesRadar+",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5rMkhPVURLU3RneDBORWpDWThBQ1NQdktDbENBSmJUbUxCcHR2Ny1neWprMllMX1pzeVVRd2lhS3NjYlctckY0NFI0NlFlTjjSAVRBVV95cUxOOUtJV3gybFkzelh6dmtDQTZhMGZCakF2QWRBelpWS2pScDh5dHpGM2tXdjluSHNZU3I5WTRnTVB1LVpFeWEtOXRpcWZzWExXS0xXU0E?oc=5",
+     "published": "2026-10-26T14:09:13+00:00",
+     "score": 0.4,
+     "source": "Grok",
+     "title": "The first episode of Grok\u2019s AI generated version of The Odyssey is released on X - JoBlo",
+     "topics": [
+      "ai"
+     ]
     }
    ]
   }
  },
- "fetched_at": "2026-10-27T04:08:31.608417+00:00"
+ "fetched_at": "2026-10-27T11:45:56.447561+00:00"
 }

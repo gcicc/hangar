@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-27",
-  "times_seen": 82,
+  "times_seen": 83,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-27",
-  "times_seen": 39,
+  "times_seen": 40,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -57,7 +57,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-27",
-  "times_seen": 27,
+  "times_seen": 28,
   "outlets": [
    "Optimus"
   ]
@@ -121,7 +121,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-27",
-  "times_seen": 24,
+  "times_seen": 25,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -141,7 +141,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-27",
-  "times_seen": 24,
+  "times_seen": 25,
   "outlets": [
    "Optimus"
   ]
@@ -159,7 +159,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-10-27",
-  "times_seen": 22,
+  "times_seen": 23,
   "outlets": [
    "Autonomy"
   ]
@@ -180,7 +180,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-27",
-  "times_seen": 18,
+  "times_seen": 19,
   "outlets": [
    "Starship"
   ]
@@ -200,7 +200,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-27",
-  "times_seen": 18,
+  "times_seen": 19,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -285,7 +285,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-27",
-  "times_seen": 66,
+  "times_seen": 67,
   "outlets": [
    "Neuralink"
   ]
@@ -306,7 +306,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-27",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "Optimus"
   ]
@@ -326,7 +326,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-27",
-  "times_seen": 19,
+  "times_seen": 20,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -347,7 +347,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-27",
-  "times_seen": 8,
+  "times_seen": 9,
   "outlets": [
    "Optimus"
   ]
@@ -367,7 +367,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-27",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "Optimus"
   ]
@@ -408,7 +408,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-27",
-  "times_seen": 1,
+  "times_seen": 2,
   "outlets": [
    "Optimus"
   ]
@@ -454,6 +454,87 @@
   ]
  },
  {
+  "statement": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year - WSJ",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09OVGpVM3FDM3I4RzJVTnVHcDk5c0Z5aHVEVS1BZ2RDRnVpQU13Yld0VTdWS0xBb3JGbWVzSHhZU0J0cVVUWjBlZWVNM3FDTGJOOWtFN2EwMTlkN1VmcjJSTDhiVnpYMFByX2c4RFhfd3pRSU0tSEhtcnlldGx1NU9GWGo3aVctSFRvTg?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-27",
+  "times_seen": 26,
+  "outlets": [
+   "Humanoids",
+   "Optimus"
+  ]
+ },
+ {
+  "statement": "Tesla To Start Selling The Cybercab Later This Year - AUTOJOSH",
+  "entity": "Tesla",
+  "horizon_phrase": "This Year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB1aXR0bWkwTnlJN3dYY2FnYnNSLTFLTlc4OHZJTGVyOEhiV0k4Nm9VSkZpMFV1TGZkeHptM3ZhLXJjcWhQUnI5MDE4TS13eEFCdFotTVY3bDdpSzBOY0hGUE9LSzNKV0FPZ1lzY3h6LW9ibmtMTG91UmhUcnBOQQ?oc=5",
+  "first_seen": "2026-10-25",
+  "topics": [
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-27",
+  "times_seen": 5,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Elon Musk says X Money to enter early public access next month - Reuters",
+  "entity": "Musk",
+  "horizon_phrase": "next month",
+  "horizon": "2026-11-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "X",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNTY2ZTFEem9zbWtocFR3WGlVR296enhUS0VKdy1VNi1TQnNWbGhuWnM4ZExJa29BaS1IVWQ0TUtZbTZzMFZfVG85NW15WEQzV19oMEZXSEZQZVVYaTN0Ujdkb3dHZFZlR2UtYVh6SUxtSTlMVFZfOUZkYzFkbk1JVjdGM2ZueUNUaldkUGtra0JzMWpEU0ZTNTNTQm1tVWhnMTRsaTRHY2U2NzhUNl9QQ2RsUlNYMlpHMGYzQWtFSjJSYjg?oc=5",
+  "first_seen": "2026-10-14",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-10-27",
+  "times_seen": 21,
+  "outlets": [
+   "X"
+  ]
+ },
+ {
+  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
+  "entity": "SpaceX",
+  "horizon_phrase": "this month",
+  "horizon": "2026-09-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "starship",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-27",
+  "times_seen": 85,
+  "outlets": [
+   "Starship",
+   "Falcon"
+  ]
+ },
+ {
   "statement": "SpaceX showcases exactly how it plans to catch Starship next month - Teslarati",
   "entity": "SpaceX",
   "horizon_phrase": "next month",
@@ -494,27 +575,6 @@
   ]
  },
  {
-  "statement": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year - WSJ",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09OVGpVM3FDM3I4RzJVTnVHcDk5c0Z5aHVEVS1BZ2RDRnVpQU13Yld0VTdWS0xBb3JGbWVzSHhZU0J0cVVUWjBlZWVNM3FDTGJOOWtFN2EwMTlkN1VmcjJSTDhiVnpYMFByX2c4RFhfd3pRSU0tSEhtcnlldGx1NU9GWGo3aVctSFRvTg?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-26",
-  "times_seen": 25,
-  "outlets": [
-   "Humanoids",
-   "Optimus"
-  ]
- },
- {
   "statement": "Elon Musk says Tesla will sell 5 million cars by 2030 \u2014 math says otherwise - The Verge",
   "entity": "Musk",
   "horizon_phrase": "by 2030",
@@ -530,26 +590,6 @@
   "times_seen": 19,
   "outlets": [
    "Production"
-  ]
- },
- {
-  "statement": "Tesla To Start Selling The Cybercab Later This Year - AUTOJOSH",
-  "entity": "Tesla",
-  "horizon_phrase": "This Year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB1aXR0bWkwTnlJN3dYY2FnYnNSLTFLTlc4OHZJTGVyOEhiV0k4Nm9VSkZpMFV1TGZkeHptM3ZhLXJjcWhQUnI5MDE4TS13eEFCdFotTVY3bDdpSzBOY0hGUE9LSzNKV0FPZ1lzY3h6LW9ibmtMTG91UmhUcnBOQQ?oc=5",
-  "first_seen": "2026-10-25",
-  "topics": [
-   "autonomy"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-26",
-  "times_seen": 4,
-  "outlets": [
-   "Autonomy"
   ]
  },
  {
@@ -589,24 +629,6 @@
   "times_seen": 18,
   "outlets": [
    "Optimus"
-  ]
- },
- {
-  "statement": "Elon Musk says X Money to enter early public access next month - Reuters",
-  "entity": "Musk",
-  "horizon_phrase": "next month",
-  "horizon": "2026-11-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "X",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNTY2ZTFEem9zbWtocFR3WGlVR296enhUS0VKdy1VNi1TQnNWbGhuWnM4ZExJa29BaS1IVWQ0TUtZbTZzMFZfVG85NW15WEQzV19oMEZXSEZQZVVYaTN0Ujdkb3dHZFZlR2UtYVh6SUxtSTlMVFZfOUZkYzFkbk1JVjdGM2ZueUNUaldkUGtra0JzMWpEU0ZTNTNTQm1tVWhnMTRsaTRHY2U2NzhUNl9QQ2RsUlNYMlpHMGYzQWtFSjJSYjg?oc=5",
-  "first_seen": "2026-10-14",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-10-25",
-  "times_seen": 20,
-  "outlets": [
-   "X"
   ]
  },
  {
@@ -666,28 +688,6 @@
   "outlets": [
    "Autonomy",
    "Production"
-  ]
- },
- {
-  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
-  "entity": "SpaceX",
-  "horizon_phrase": "this month",
-  "horizon": "2026-09-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "starship",
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-25",
-  "times_seen": 84,
-  "outlets": [
-   "Starship",
-   "Falcon"
   ]
  },
  {
