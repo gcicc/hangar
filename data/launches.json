@@ -146,7 +146,7 @@
   },
   "pads": [
    {
-    "count": 58,
+    "count": 57,
     "last_net": "2026-12-31T00:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -267,7 +267,7 @@
    },
    {
     "count": 5,
-    "last_net": "2026-11-30T00:00:00Z",
+    "last_net": "2026-11-13T00:00:00Z",
     "lat": 28.58341025,
     "location": "Cape Canaveral SFS, FL, USA",
     "lon": -80.58303644,
@@ -456,6 +456,16 @@
     "top_provider": "Rocket Lab"
    },
    {
+    "count": 2,
+    "last_net": "2026-12-31T00:00:00Z",
+    "lat": 28.458,
+    "location": "Cape Canaveral SFS, FL, USA",
+    "lon": -80.528,
+    "name": "Unknown Pad",
+    "spacex": true,
+    "top_provider": "SpaceX"
+   },
+   {
     "count": 1,
     "last_net": "2026-10-21T03:39:00Z",
     "lat": 35.391667,
@@ -634,16 +644,6 @@
     "name": "ADD Offshore launch platform",
     "spacex": false,
     "top_provider": "Agency for Defense Development"
-   },
-   {
-    "count": 1,
-    "last_net": "2026-12-31T00:00:00Z",
-    "lat": 28.458,
-    "location": "Cape Canaveral SFS, FL, USA",
-    "lon": -80.528,
-    "name": "Unknown Pad",
-    "spacex": true,
-    "top_provider": "SpaceX"
    }
   ],
   "passengers": [
@@ -1931,27 +1931,6 @@
   "upcoming": [
    {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "e2886a96-5ce9-4f45-872f-4e25a00be837",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Starlink Group 15-16",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-16",
-    "net": "2026-10-27T07:25:51Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/e2886a96-5ce9-4f45-872f-4e25a00be837",
-    "webcast_live": false
-   },
-   {
-    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
     "id": "57ce0a39-d035-4f16-a418-bd6108f78199",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
     "lat": 34.632,
@@ -2095,6 +2074,27 @@
     "status": "TBD",
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/db3500ac-965b-4ad8-b417-cb8d8d005586",
+    "webcast_live": false
+   },
+   {
+    "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
+    "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg",
+    "lat": 28.58341025,
+    "lon": -80.58303644,
+    "mission": "Amazon Leo (LV-01)",
+    "mission_type": "Communications",
+    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+    "net": "2026-11-13T00:00:00Z",
+    "net_precision": "DAY",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 41",
+    "pad_location": "Cape Canaveral SFS, FL, USA",
+    "provider": "United Launch Alliance",
+    "rocket": "Vulcan VC6L",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/ef9850ad-1096-425b-9d27-f7bbd186e61a",
     "webcast_live": false
    },
    {
@@ -2266,27 +2266,6 @@
     "webcast_live": false
    },
    {
-    "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
-    "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg",
-    "lat": 28.58341025,
-    "lon": -80.58303644,
-    "mission": "Amazon Leo (LV-01)",
-    "mission_type": "Communications",
-    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 41",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "United Launch Alliance",
-    "rocket": "Vulcan VC6L",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/ef9850ad-1096-425b-9d27-f7bbd186e61a",
-    "webcast_live": false
-   },
-   {
     "description": "Second of EUMETSAT's second generation of Metop weather satellites.",
     "id": "22e117bf-041c-49d5-9d09-7b180036e143",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg",
@@ -2348,8 +2327,29 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
     "webcast_live": false
+   },
+   {
+    "description": "First two satellites manufactured by MDA for Canadian satellite operator Telesat's Lightspeed constellation.",
+    "id": "ce1317de-ec94-4479-9b28-38ebf11f13ae",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+    "lat": 28.458,
+    "lon": -80.528,
+    "mission": "Telesat Lightspeed 1",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | Telesat Lightspeed 1",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Unknown Pad",
+    "pad_location": "Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/ce1317de-ec94-4479-9b28-38ebf11f13ae",
+    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-27T21:55:16.148817+00:00"
+ "fetched_at": "2026-10-28T16:28:34.750450+00:00"
 }
