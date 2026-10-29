@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 90,
+  "times_seen": 91,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 47,
+  "times_seen": 48,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 32,
+  "times_seen": 33,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -79,7 +79,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 26,
+  "times_seen": 27,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -122,7 +122,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 96,
+  "times_seen": 97,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -165,7 +165,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 12,
+  "times_seen": 13,
   "outlets": [
    "Optimus"
   ]
@@ -183,7 +183,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 28,
+  "times_seen": 29,
   "outlets": [
    "X"
   ]
@@ -204,7 +204,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 91,
+  "times_seen": 92,
   "outlets": [
    "Starship",
    "Falcon"
@@ -267,7 +267,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "Starlink"
   ]
@@ -308,7 +308,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 9,
+  "times_seen": 10,
   "outlets": [
    "TSLA"
   ]
@@ -328,7 +328,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "SPCX",
    "Musk"
@@ -348,8 +348,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-10-28",
-  "times_seen": 32,
+  "last_seen": "2026-10-29",
+  "times_seen": 33,
   "outlets": [
    "Optimus"
   ]
@@ -368,9 +368,30 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-10-28",
-  "times_seen": 29,
+  "last_seen": "2026-10-29",
+  "times_seen": 30,
   "outlets": [
+   "Optimus"
+  ]
+ },
+ {
+  "statement": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year - WSJ",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09OVGpVM3FDM3I4RzJVTnVHcDk5c0Z5aHVEVS1BZ2RDRnVpQU13Yld0VTdWS0xBb3JGbWVzSHhZU0J0cVVUWjBlZWVNM3FDTGJOOWtFN2EwMTlkN1VmcjJSTDhiVnpYMFByX2c4RFhfd3pRSU0tSEhtcnlldGx1NU9GWGo3aVctSFRvTg?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-29",
+  "times_seen": 32,
+  "outlets": [
+   "Humanoids",
    "Optimus"
   ]
  },
@@ -413,27 +434,6 @@
   "times_seen": 73,
   "outlets": [
    "Neuralink"
-  ]
- },
- {
-  "statement": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year - WSJ",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09OVGpVM3FDM3I4RzJVTnVHcDk5c0Z5aHVEVS1BZ2RDRnVpQU13Yld0VTdWS0xBb3JGbWVzSHhZU0J0cVVUWjBlZWVNM3FDTGJOOWtFN2EwMTlkN1VmcjJSTDhiVnpYMFByX2c4RFhfd3pRSU0tSEhtcnlldGx1NU9GWGo3aVctSFRvTg?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-28",
-  "times_seen": 31,
-  "outlets": [
-   "Humanoids",
-   "Optimus"
   ]
  },
  {
