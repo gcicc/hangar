@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 92,
+  "times_seen": 93,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 49,
+  "times_seen": 50,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 34,
+  "times_seen": 35,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -79,7 +79,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 28,
+  "times_seen": 29,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -100,7 +100,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 204,
+  "times_seen": 205,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -122,7 +122,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 97,
+  "times_seen": 98,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -143,7 +143,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 125,
+  "times_seen": 126,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -165,7 +165,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 14,
+  "times_seen": 15,
   "outlets": [
    "Optimus"
   ]
@@ -183,7 +183,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 30,
+  "times_seen": 31,
   "outlets": [
    "X"
   ]
@@ -267,7 +267,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 5,
+  "times_seen": 6,
   "outlets": [
    "Starlink"
   ]
@@ -308,7 +308,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 11,
+  "times_seen": 12,
   "outlets": [
    "TSLA"
   ]
@@ -349,7 +349,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 33,
+  "times_seen": 34,
   "outlets": [
    "Optimus"
   ]
@@ -369,7 +369,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 30,
+  "times_seen": 31,
   "outlets": [
    "Optimus"
   ]
@@ -389,7 +389,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 32,
+  "times_seen": 33,
   "outlets": [
    "Humanoids",
    "Optimus"
@@ -417,6 +417,47 @@
   ]
  },
  {
+  "statement": "Neuralink is set to begin trials of its Blindsight vision-restoring chip this year - Supercar Blondie",
+  "entity": "Neuralink",
+  "horizon_phrase": "this year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Neuralink",
+  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QR01TMGlKZDRZcllQVzBOeVNLc3dLMUVnT3pqTnhWMEJHWjJKMFZHbG9fZ0RBaTNJMGMtVUF4YVVwSjdKWTY3TW4yY2h1c2RnY0ZsUVBDSGZMZkxYWFhuS2swRW5yLVl5Y1hPcDQ0ZGEwSmpCbUQ0Vm9JMA?oc=5",
+  "first_seen": "2026-10-09",
+  "topics": [
+   "neurotech"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-29",
+  "times_seen": 74,
+  "outlets": [
+   "Neuralink"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Neuralink will ramp up production of brain-chip implants in 2026 - Business Insider",
+  "entity": "Musk",
+  "horizon_phrase": "in 2026",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Neuralink",
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOE1zb1VFcW9FVFRQRWhxWjlCd0g3djQzQVgwSWRxNGw2blpvdVlEQ2RNVk8xclE4QjA2eUlsWFRaSnZzTHUwblBfbDloejEtM2pwYURDSENOMVQweFFhQ2ZNMjFhMFZhS3NYT1RaLWkyclhYZHNMek5OUGNLdGVPRFBrX1NBTWFkSW04QWkyek11NW9YdHg2RDltUzdhT1ZKWjIwcGxEb1NKYnpRX3FkdQ?oc=5",
+  "first_seen": "2026-10-09",
+  "topics": [
+   "production",
+   "neurotech"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-29",
+  "times_seen": 57,
+  "outlets": [
+   "Neuralink"
+  ]
+ },
+ {
   "statement": "SpaceX targets weekly Starship launches in 2027 ... - eeNews Europe",
   "entity": "SpaceX",
   "horizon_phrase": "in 2027",
@@ -435,26 +476,6 @@
   "times_seen": 22,
   "outlets": [
    "Starship"
-  ]
- },
- {
-  "statement": "Neuralink is set to begin trials of its Blindsight vision-restoring chip this year - Supercar Blondie",
-  "entity": "Neuralink",
-  "horizon_phrase": "this year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Neuralink",
-  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QR01TMGlKZDRZcllQVzBOeVNLc3dLMUVnT3pqTnhWMEJHWjJKMFZHbG9fZ0RBaTNJMGMtVUF4YVVwSjdKWTY3TW4yY2h1c2RnY0ZsUVBDSGZMZkxYWFhuS2swRW5yLVl5Y1hPcDQ0ZGEwSmpCbUQ0Vm9JMA?oc=5",
-  "first_seen": "2026-10-09",
-  "topics": [
-   "neurotech"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-28",
-  "times_seen": 73,
-  "outlets": [
-   "Neuralink"
   ]
  },
  {
@@ -772,27 +793,6 @@
   "times_seen": 2,
   "outlets": [
    "Starship"
-  ]
- },
- {
-  "statement": "Elon Musk says Neuralink will ramp up production of brain-chip implants in 2026 - Business Insider",
-  "entity": "Musk",
-  "horizon_phrase": "in 2026",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Neuralink",
-  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOE1zb1VFcW9FVFRQRWhxWjlCd0g3djQzQVgwSWRxNGw2blpvdVlEQ2RNVk8xclE4QjA2eUlsWFRaSnZzTHUwblBfbDloejEtM2pwYURDSENOMVQweFFhQ2ZNMjFhMFZhS3NYT1RaLWkyclhYZHNMek5OUGNLdGVPRFBrX1NBTWFkSW04QWkyek11NW9YdHg2RDltUzdhT1ZKWjIwcGxEb1NKYnpRX3FkdQ?oc=5",
-  "first_seen": "2026-10-09",
-  "topics": [
-   "production",
-   "neurotech"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-24",
-  "times_seen": 56,
-  "outlets": [
-   "Neuralink"
   ]
  },
  {

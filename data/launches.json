@@ -387,6 +387,16 @@
    },
    {
     "count": 2,
+    "last_net": "2026-11-26T20:00:00Z",
+    "lat": 69.1084,
+    "location": "And\u00f8ya Spaceport",
+    "lon": 15.5895,
+    "name": "Orbital Launch Pad",
+    "spacex": false,
+    "top_provider": "Isar Aerospace"
+   },
+   {
+    "count": 2,
     "last_net": "2026-08-05T02:38:00Z",
     "lat": 36.631333,
     "location": "Haiyang Oriental Spaceport",
@@ -404,16 +414,6 @@
     "name": "Launch Complex 2 (LC-2)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 2,
-    "last_net": "2026-11-30T00:00:00Z",
-    "lat": 13.733,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.235,
-    "name": "Satish Dhawan Space Centre First Launch Pad",
-    "spacex": false,
-    "top_provider": "Skyroot Aerospace"
    },
    {
     "count": 2,
@@ -487,16 +487,6 @@
    },
    {
     "count": 1,
-    "last_net": "2026-09-05T20:12:00Z",
-    "lat": 69.1084,
-    "location": "And\u00f8ya Spaceport",
-    "lon": 15.5895,
-    "name": "Orbital Launch Pad",
-    "spacex": false,
-    "top_provider": "Isar Aerospace"
-   },
-   {
-    "count": 1,
     "last_net": "2026-09-01T02:00:00Z",
     "lat": 40.775962,
     "location": "Jiuquan Satellite Launch Center, People's Republic of China",
@@ -514,6 +504,16 @@
     "name": "Launch Area 96B",
     "spacex": false,
     "top_provider": "LandSpace"
+   },
+   {
+    "count": 1,
+    "last_net": "2026-07-18T06:35:30Z",
+    "lat": 13.733,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.235,
+    "name": "Satish Dhawan Space Centre First Launch Pad",
+    "spacex": false,
+    "top_provider": "Skyroot Aerospace"
    },
    {
     "count": 1,
@@ -2235,6 +2235,27 @@
     "webcast_live": false
    },
    {
+    "description": "Third test flight of the Isar Spectrum launch vehicle. This launch will carry various satellites including R-Space\u2019s AT-Astra/IOD-01, which will perform in-orbit demonstrations for ENPULSION, SUNBOOSTER GmbH, and Synopsis Planet.",
+    "id": "dff42a2e-f047-48d7-b260-3888d3a4fe33",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_thumbnail_20250321072643.jpeg",
+    "lat": 69.1084,
+    "lon": 15.5895,
+    "mission": "AT-Astra and Others (Spectrum Flight 3)",
+    "mission_type": "Technology",
+    "name": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
+    "net": "2026-11-26T20:00:00Z",
+    "net_precision": "HR",
+    "orbit": "SSO",
+    "pad": "Orbital Launch Pad",
+    "pad_location": "And\u00f8ya Spaceport",
+    "provider": "Isar Aerospace",
+    "rocket": "Spectrum",
+    "status": "TBC",
+    "status_name": "To Be Confirmed",
+    "url": "https://nextspaceflight.com/launches/details/dff42a2e-f047-48d7-b260-3888d3a4fe33",
+    "webcast_live": false
+   },
+   {
     "description": "This is the 25th flight of the Orbital ATK's uncrewed resupply spacecraft Cygnus and its 24th flight to the International Space Station under the Commercial Resupply Services contract with NASA.",
     "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
@@ -2317,29 +2338,8 @@
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/dfac5ab7-7017-454f-b6cf-eeed277a97b5",
     "webcast_live": false
-   },
-   {
-    "description": "TDS-01 (Technology Demonstration Satellite-01) is an Indian geostationary orbit technology demonstration satellite carrying payloads for the Indian Space Research Organisation (ISRO)\u2019s Institute of Plasma Research, Gandhinagar and the CSIR-CEERI, Pilani. \r\n\r\nPayloads to be tested included an internally developed 300 mN electric powered thrusters, atomic clocks, travelling wave tube amplifiers (TWT",
-    "id": "b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193829.jpeg",
-    "lat": 13.733,
-    "lon": 80.235,
-    "mission": "TDS-01",
-    "mission_type": "Technology",
-    "name": "PSLV-XL | TDS-01",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "GTO",
-    "pad": "Satish Dhawan Space Centre First Launch Pad",
-    "pad_location": "Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "rocket": "PSLV XL",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
-    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-29T19:26:39.716981+00:00"
+ "fetched_at": "2026-10-29T23:49:56.224959+00:00"
 }
