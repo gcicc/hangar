@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 91,
+  "times_seen": 92,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 48,
+  "times_seen": 49,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 33,
+  "times_seen": 34,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -79,7 +79,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 27,
+  "times_seen": 28,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -165,7 +165,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 13,
+  "times_seen": 14,
   "outlets": [
    "Optimus"
   ]
@@ -183,7 +183,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 29,
+  "times_seen": 30,
   "outlets": [
    "X"
   ]
@@ -204,7 +204,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 92,
+  "times_seen": 93,
   "outlets": [
    "Starship",
    "Falcon"
@@ -225,7 +225,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 14,
+  "times_seen": 15,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -246,7 +246,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 8,
+  "times_seen": 9,
   "outlets": [
    "Optimus"
   ]
@@ -267,7 +267,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "Starlink"
   ]
@@ -287,7 +287,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 87,
+  "times_seen": 88,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -308,7 +308,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 10,
+  "times_seen": 11,
   "outlets": [
    "TSLA"
   ]
@@ -328,7 +328,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-29",
-  "times_seen": 5,
+  "times_seen": 6,
   "outlets": [
    "SPCX",
    "Musk"
@@ -393,6 +393,27 @@
   "outlets": [
    "Humanoids",
    "Optimus"
+  ]
+ },
+ {
+  "statement": "Tesla to have humanoid robots for internal use next year, Musk says - Reuters",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX3VhaFFjX1JKRVVyMkthamlLanJFZ1Jzb0k1bGZTME82R21aYWxmVzRLV1NaWjBPSWpmNlFKZmNsNjZ4LUtPZFVZUno3WnAyNEZHdmJBajFqSF9CWnFONW41S3B3bHYwUE1iRlZkeDBqem9WV2pRSXROc0RNUFZVaVJDTVkxTnVjOHVPRDY4WHV2YWRVZm15bXhvQjVtbW5ieFA5elBOQm5kel9MdE5jQlJQbkEzblhmUktrVWVaTWJiUzA?oc=5",
+  "first_seen": "2026-10-27",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-29",
+  "times_seen": 4,
+  "outlets": [
+   "Optimus",
+   "Humanoids"
   ]
  },
  {
@@ -512,27 +533,6 @@
   "primary": false,
   "last_seen": "2026-10-27",
   "times_seen": 20,
-  "outlets": [
-   "Optimus",
-   "Humanoids"
-  ]
- },
- {
-  "statement": "Tesla to have humanoid robots for internal use next year, Musk says - Reuters",
-  "entity": "Tesla",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX3VhaFFjX1JKRVVyMkthamlLanJFZ1Jzb0k1bGZTME82R21aYWxmVzRLV1NaWjBPSWpmNlFKZmNsNjZ4LUtPZFVZUno3WnAyNEZHdmJBajFqSF9CWnFONW41S3B3bHYwUE1iRlZkeDBqem9WV2pRSXROc0RNUFZVaVJDTVkxTnVjOHVPRDY4WHV2YWRVZm15bXhvQjVtbW5ieFA5elBOQm5kel9MdE5jQlJQbkEzblhmUktrVWVaTWJiUzA?oc=5",
-  "first_seen": "2026-10-27",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-27",
-  "times_seen": 3,
   "outlets": [
    "Optimus",
    "Humanoids"
