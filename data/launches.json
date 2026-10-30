@@ -101,7 +101,7 @@
     14,
     12,
     19,
-    9
+    10
    ],
    "partial": [
     false,
@@ -124,30 +124,30 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "This is a replacement satellite for the Indian Regional Navigation Satellite System. The constellation will provide India with an alternative to GPS and will be used for military and civilian use. Located at a geosynchronous orbit, the system will be operated by the Indian government.",
-   "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192851.jpeg",
-   "lat": 13.7199,
-   "lon": 80.2304,
-   "mission": "IRNSS-1L (NVS-03)",
-   "mission_type": "Navigation",
-   "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-   "net": "2026-10-30T18:21:00Z",
-   "net_precision": "MIN",
-   "orbit": "GTO",
-   "pad": "Satish Dhawan Space Centre Second Launch Pad",
-   "pad_location": "Satish Dhawan Space Centre, India",
-   "provider": "Indian Space Research Organization",
-   "rocket": "GSLV Mk. II",
+   "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+   "id": "57ce0a39-d035-4f16-a418-bd6108f78199",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+   "lat": 34.632,
+   "lon": -120.611,
+   "mission": "Starlink Group 15-18",
+   "mission_type": "Communications",
+   "name": "Falcon 9 Block 5 | Starlink Group 15-18",
+   "net": "2026-10-31T04:02:22Z",
+   "net_precision": "SEC",
+   "orbit": "LEO",
+   "pad": "Space Launch Complex 4E",
+   "pad_location": "Vandenberg SFB, CA, USA",
+   "provider": "SpaceX",
+   "rocket": "Falcon 9 Block 5",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/20d5676e-111b-40e3-8923-b218c3665ca2",
+   "url": "https://nextspaceflight.com/launches/details/57ce0a39-d035-4f16-a418-bd6108f78199",
    "webcast_live": false
   },
   "pads": [
    {
-    "count": 58,
-    "last_net": "2026-11-30T00:00:00Z",
+    "count": 55,
+    "last_net": "2026-11-10T03:03:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
     "lon": -120.611,
@@ -167,6 +167,16 @@
    },
    {
     "count": 8,
+    "last_net": "2026-11-20T11:00:00Z",
+    "lat": 19.597275,
+    "location": "Wenchang Space Launch Site, People's Republic of China",
+    "lon": 110.930753,
+    "name": "Commercial LC-1",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 8,
     "last_net": "2026-10-23T10:15:00Z",
     "lat": 38.8583,
     "location": "Taiyuan Satellite Launch Center, People's Republic of China",
@@ -177,11 +187,11 @@
    },
    {
     "count": 7,
-    "last_net": "2026-10-25T02:03:00Z",
-    "lat": 19.597275,
+    "last_net": "2026-11-24T07:00:00Z",
+    "lat": 19.59755,
     "location": "Wenchang Space Launch Site, People's Republic of China",
-    "lon": 110.930753,
-    "name": "Commercial LC-1",
+    "lon": 110.936481,
+    "name": "Commercial LC-2",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
@@ -204,16 +214,6 @@
     "name": "Rocket Lab Launch Complex 1A",
     "spacex": false,
     "top_provider": "Rocket Lab"
-   },
-   {
-    "count": 6,
-    "last_net": "2026-11-05T20:00:00Z",
-    "lat": 19.59755,
-    "location": "Wenchang Space Launch Site, People's Republic of China",
-    "lon": 110.936481,
-    "name": "Commercial LC-2",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 5,
@@ -287,6 +287,16 @@
    },
    {
     "count": 3,
+    "last_net": "2026-10-30T18:21:00Z",
+    "lat": 13.7199,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.2304,
+    "name": "Satish Dhawan Space Centre Second Launch Pad",
+    "spacex": false,
+    "top_provider": "Indian Space Research Organization"
+   },
+   {
+    "count": 3,
     "last_net": "2026-10-19T19:41:03Z",
     "lat": 30.400938,
     "location": "Tanegashima Space Center, Japan",
@@ -347,16 +357,6 @@
    },
    {
     "count": 3,
-    "last_net": "2026-11-30T00:00:00Z",
-    "lat": 13.7199,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.2304,
-    "name": "Satish Dhawan Space Centre Second Launch Pad",
-    "spacex": false,
-    "top_provider": "Indian Space Research Organization"
-   },
-   {
-    "count": 3,
     "last_net": "2026-07-19T17:51:00Z",
     "lat": 62.92883,
     "location": "Plesetsk Cosmodrome, Russian Federation",
@@ -364,6 +364,16 @@
     "name": "43/4 (43R)",
     "spacex": false,
     "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
+   },
+   {
+    "count": 3,
+    "last_net": "2026-11-05T16:00:00Z",
+    "lat": 28.247059,
+    "location": "Xichang Satellite Launch Center, People's Republic of China",
+    "lon": 102.029008,
+    "name": "Launch Complex 3 (LC-3/LA-1)",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 2,
@@ -424,16 +434,6 @@
     "name": "Rocket Lab Launch Complex 2 (Launch Area 0 C)",
     "spacex": false,
     "top_provider": "Rocket Lab"
-   },
-   {
-    "count": 2,
-    "last_net": "2026-05-30T18:07:00Z",
-    "lat": 28.247059,
-    "location": "Xichang Satellite Launch Center, People's Republic of China",
-    "lon": 102.029008,
-    "name": "Launch Complex 3 (LC-3/LA-1)",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 2,
@@ -647,6 +647,27 @@
    }
   ],
   "previous": [
+   {
+    "description": "This is a replacement satellite for the Indian Regional Navigation Satellite System. The constellation will provide India with an alternative to GPS and will be used for military and civilian use. Located at a geosynchronous orbit, the system will be operated by the Indian government.",
+    "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv-f182fnvs-_image_thumbnail_20261030172351.jpeg",
+    "lat": 13.7199,
+    "lon": 80.2304,
+    "mission": "IRNSS-1L (NVS-03)",
+    "mission_type": "Navigation",
+    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
+    "net": "2026-10-30T18:21:00Z",
+    "net_precision": "MIN",
+    "orbit": "GTO",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad",
+    "pad_location": "Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "rocket": "GSLV Mk. II",
+    "status": "Deployed",
+    "status_name": "Payload Deployed",
+    "url": "https://nextspaceflight.com/launches/details/20d5676e-111b-40e3-8923-b218c3665ca2",
+    "webcast_live": true
+   },
    {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
     "id": "e2886a96-5ce9-4f45-872f-4e25a00be837",
@@ -1885,44 +1906,23 @@
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/b0e7d1cc-24dd-4da4-bb60-b15b6791d08e",
     "webcast_live": false
-   },
-   {
-    "description": "USSF-366 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
-    "id": "55b79515-ddbf-4198-8a59-29a12ed21330",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "USSF-366",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | USSF-366",
-    "net": "2026-08-16T01:50:45Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/55b79515-ddbf-4198-8a59-29a12ed21330",
-    "webcast_live": false
    }
   ],
   "totals": {
    "previous_sampled": 200,
    "share_caveat": "Share of the most recent orbital launches fetched, over the window shown. Not a share of all launches, and not a fixed calendar period - the window moves with every refresh.",
-   "spacex_sampled": 91,
-   "spacex_share": 0.455,
+   "spacex_sampled": 90,
+   "spacex_share": 0.45,
    "window": {
     "from": "2026-03-17",
-    "to": "2026-10-27"
+    "to": "2026-10-30"
    }
   },
   "upcoming": [
    {
     "description": "This is a replacement satellite for the Indian Regional Navigation Satellite System. The constellation will provide India with an alternative to GPS and will be used for military and civilian use. Located at a geosynchronous orbit, the system will be operated by the Indian government.",
     "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192851.jpeg",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv-f182fnvs-_image_thumbnail_20261030172351.jpeg",
     "lat": 13.7199,
     "lon": 80.2304,
     "mission": "IRNSS-1L (NVS-03)",
@@ -1935,10 +1935,10 @@
     "pad_location": "Satish Dhawan Space Centre, India",
     "provider": "Indian Space Research Organization",
     "rocket": "GSLV Mk. II",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Deployed",
+    "status_name": "Payload Deployed",
     "url": "https://nextspaceflight.com/launches/details/20d5676e-111b-40e3-8923-b218c3665ca2",
-    "webcast_live": false
+    "webcast_live": true
    },
    {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
@@ -1949,8 +1949,8 @@
     "mission": "Starlink Group 15-18",
     "mission_type": "Communications",
     "name": "Falcon 9 Block 5 | Starlink Group 15-18",
-    "net": "2026-10-31T03:48:00Z",
-    "net_precision": "MIN",
+    "net": "2026-10-31T04:02:22Z",
+    "net_precision": "SEC",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
     "pad_location": "Vandenberg SFB, CA, USA",
@@ -2067,6 +2067,27 @@
     "webcast_live": false
    },
    {
+    "description": "Details TBD.",
+    "id": "711de6bc-f755-475b-a12f-ec5240da3a11",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193713.jpeg",
+    "lat": 28.247059,
+    "lon": 102.029008,
+    "mission": "Unknown Payload",
+    "mission_type": "Unknown",
+    "name": "Long March 2C | Unknown Payload",
+    "net": "2026-11-05T16:00:00Z",
+    "net_precision": "HR",
+    "orbit": "N/A",
+    "pad": "Launch Complex 3 (LC-3/LA-1)",
+    "pad_location": "Xichang Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 2C",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/711de6bc-f755-475b-a12f-ec5240da3a11",
+    "webcast_live": false
+   },
+   {
     "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
     "id": "a2423132-f965-423f-8b03-6891b775dc54",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
@@ -2075,15 +2096,15 @@
     "mission": "SatNet LEO Group TBD?",
     "mission_type": "Communications",
     "name": "Long March 12 | SatNet LEO Group TBD?",
-    "net": "2026-11-05T20:00:00Z",
+    "net": "2026-11-05T21:15:00Z",
     "net_precision": "HR",
     "orbit": "LEO",
     "pad": "Commercial LC-2",
     "pad_location": "Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "rocket": "Long March 12",
-    "status": "TBC",
-    "status_name": "To Be Confirmed",
+    "status": "Go",
+    "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/a2423132-f965-423f-8b03-6891b775dc54",
     "webcast_live": false
    },
@@ -2172,6 +2193,27 @@
     "webcast_live": false
    },
    {
+    "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
+    "id": "a2975167-7c6f-4403-99e1-b40df17c8140",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
+    "lat": 19.597275,
+    "lon": 110.930753,
+    "mission": "SatNet LEO Group TBD?",
+    "mission_type": "Communications",
+    "name": "Long March 8A | SatNet LEO Group TBD?",
+    "net": "2026-11-20T11:00:00Z",
+    "net_precision": "HR",
+    "orbit": "LEO",
+    "pad": "Commercial LC-1",
+    "pad_location": "Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 8A",
+    "status": "TBC",
+    "status_name": "To Be Confirmed",
+    "url": "https://nextspaceflight.com/launches/details/a2975167-7c6f-4403-99e1-b40df17c8140",
+    "webcast_live": false
+   },
+   {
     "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
     "id": "7bdc412b-c965-4517-a131-f57a01189803",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_thumbnail_20260618063419.jpeg",
@@ -2211,6 +2253,27 @@
     "status": "TBC",
     "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/8dd5de11-831b-445f-86f0-bffefe0550d9",
+    "webcast_live": false
+   },
+   {
+    "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
+    "id": "5ce59e3a-c343-430f-ae4e-e608ba536754",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
+    "lat": 19.59755,
+    "lon": 110.936481,
+    "mission": "SatNet LEO Group TBD?",
+    "mission_type": "Communications",
+    "name": "Long March 12 | SatNet LEO Group TBD?",
+    "net": "2026-11-24T07:00:00Z",
+    "net_precision": "HR",
+    "orbit": "LEO",
+    "pad": "Commercial LC-2",
+    "pad_location": "Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 12",
+    "status": "TBC",
+    "status_name": "To Be Confirmed",
+    "url": "https://nextspaceflight.com/launches/details/5ce59e3a-c343-430f-ae4e-e608ba536754",
     "webcast_live": false
    },
    {
@@ -2275,71 +2338,8 @@
     "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/d74afbc7-0de5-491c-be05-4e9c31f736ac",
     "webcast_live": false
-   },
-   {
-    "description": "Fifteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
-    "id": "56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241024165957.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "NROL-195",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | NROL-195",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
-    "webcast_live": false
-   },
-   {
-    "description": "A batch of 32 satellites for the OneWeb satellite constellation, which is intended to provide global Internet broadband service for individual consumers. The constellation is planned to have around 648 microsatellites (of which 60 are spares), around 150 kg each, operating in Ku-band from low Earth orbit.",
-    "id": "b0dc988c-ea4a-423f-81b6-6b0fbe7cc17c",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20241020164114.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "OneWeb 21",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | OneWeb 21",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "PO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/b0dc988c-ea4a-423f-81b6-6b0fbe7cc17c",
-    "webcast_live": false
-   },
-   {
-    "description": "First uncrewed orbital test flight of the Gaganyaan capsule.",
-    "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg",
-    "lat": 13.7199,
-    "lon": 80.2304,
-    "mission": "Gaganyaan-1",
-    "mission_type": "Test Flight",
-    "name": "LVM-3 | Gaganyaan-1",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad",
-    "pad_location": "Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "rocket": "Launch Vehicle Mark-3 (GSLV Mk III)",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/dfac5ab7-7017-454f-b6cf-eeed277a97b5",
-    "webcast_live": false
    }
   ]
  },
- "fetched_at": "2026-10-30T12:20:37.387798+00:00"
+ "fetched_at": "2026-10-30T19:01:52.876501+00:00"
 }
