@@ -142,7 +142,19 @@
    "status": "Go",
    "status_name": "Go for Launch",
    "url": "https://nextspaceflight.com/launches/details/57ce0a39-d035-4f16-a418-bd6108f78199",
-   "webcast_live": false
+   "webcast_live": false,
+   "webcasts": [
+    {
+     "official": true,
+     "publisher": "SpaceX",
+     "url": "https://x.com/i/broadcasts/1DGleVlqoaqJL"
+    },
+    {
+     "official": false,
+     "publisher": "SPACE AFFAIRS",
+     "url": "https://www.youtube.com/watch?v=OVOVtaf15eY"
+    }
+   ]
   },
   "pads": [
    {
@@ -663,10 +675,11 @@
     "pad_location": "Satish Dhawan Space Centre, India",
     "provider": "Indian Space Research Organization",
     "rocket": "GSLV Mk. II",
-    "status": "Deployed",
-    "status_name": "Payload Deployed",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
     "url": "https://nextspaceflight.com/launches/details/20d5676e-111b-40e3-8923-b218c3665ca2",
-    "webcast_live": true
+    "webcast_live": true,
+    "webcasts": []
    },
    {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
@@ -687,7 +700,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/e2886a96-5ce9-4f45-872f-4e25a00be837",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
@@ -708,7 +722,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/6b95bcc8-1f88-4539-84fe-f63630138766",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
@@ -729,7 +744,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/f6af629d-39b5-4f86-bc0c-f8776444a858",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "6 Chinese military \u201cremote sensing\u201d satellite of unknown purposes.",
@@ -750,7 +766,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/3621085f-deae-4f89-bd54-c0f96ee44421",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "The Yaogan 50-03 is a Chinese military \u201cremote sensing\u201d satellite of unknown purposes.",
@@ -771,7 +788,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/9648124f-8568-46d2-86d7-4b4d6f12187f",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "HawkEye 360 is a a space-based civil global intelligence satellite network using radio frequency (RF) technology to help monitor transportation across air, land and sea and assist with emergencies, and to provide civil SIGINT (Signal Intelligence) mission.\r\n\r\nThe constellation of small satellites (named Hawk ) will collect information on specific radio signals worldwide to provide high-precision r",
@@ -792,7 +810,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/7766f3bb-674c-4c71-b986-963bd633fcfe",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "0.5 meter resolution Earth observation satellite for the city of Guangzhou government and Guangzhou University with multi-spectral imaging capability. Prototype of a proposed 25 satellites constellation.",
@@ -813,7 +832,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/c6f8b6b0-6bae-460a-99bb-c12a3d29effd",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Dedicated rideshare flight to a mid-inclination orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.\r\n\r\nThis launch also carries the second demonstration mission for SpaceX\u2019s Project Starfall, which aims to mass-produce reentry capsules designed to autonomously transport valuable customer experiments and other payloads safely back from space to Ear",
@@ -834,7 +854,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/3b430f81-0ff1-4d85-8a1a-cef0de326198",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "MMX is a Japanese scientific mission to land on Phobos, one of the two moons of Mars, to collect samples before bringing them back to Earth.\r\n\r\nThe mission includes a small French/German rover to explore the surface of Phobos.",
@@ -855,7 +876,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
@@ -876,7 +898,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/df88cfbf-f504-4e11-8370-e33dd6280b5b",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Ride-share of 10 satellites to sun-synchronous orbit, including:\r\n\r\n* Guangchuan-03 & 04 (LT-03/04) from LandSpace's subsidiary LandTower for testing and demonstrating LEO communication satellite constellation technologies, including high-speed laser communication nodes/terminals and new-type solar array power systems.\r\n\r\n* 8 satellites (XSD-39 and XSD-44 through XSD-50) for ADA Space for technolo",
@@ -897,7 +920,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/dfcabb3c-078b-4f5b-a47c-0161f248cee9",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "35th commercial resupply services mission to the International Space Station operated by SpaceX. The flight will be conducted under the second Commercial Resupply Services contract with NASA.\r\n\r\nCargo Dragon 2 brings supplies and payloads, including critical materials to directly support science and research investigations that occur onboard the orbiting laboratory.",
@@ -918,7 +942,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/bf2c3027-a314-403e-a416-2bfd5d165ad1",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
@@ -939,7 +964,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/97c6f5e1-299e-4652-b72d-9618ac047076",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Tranche 1 Transport Layer A is one of six missions by the United States Space Force Space Development Agency (SDA) for the Proliferated Warfighter Space Architecture (PWSA) Tranche 1 Transport Layer constellation, which will provide assured, resilient, low-latency military data and connectivity worldwide to the full range of warfighter platforms from Low Earth Orbit satellites.\r\n\r\nThe constellatio",
@@ -960,7 +986,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
@@ -981,7 +1008,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/a1bb0984-19d4-4b47-9bba-706d225573e2",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "NeonSat-2 to 6 are part of the South Korean government's Earth observation micro-satellite constellation NeonSat (New-space Earth Observation Satellite). The NeonSat constellation is the first satellite system developed by the government using a mass-production approach for precise monitoring of the Korean Peninsula.\r\n\r\n10 ride-sharing small satellites from various Korean institutes and organizati",
@@ -1002,7 +1030,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/e0741415-6c63-4236-9736-24a6c04485bc",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Classified payload for the US National Reconnaissance Office.",
@@ -1023,7 +1052,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Dedicated rideshare flight to a sun-synchronous orbit with dozens of small microsatellites and nanosatellites for commercial and government customers.",
@@ -1044,7 +1074,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/67213393-7983-4c06-8b44-b8c785a5ed79",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "SpaceX Crew-13 is the thirteenth crewed operational flight of a Crew Dragon spacecraft to the International Space Station as part of NASA's Commercial Crew Program.",
@@ -1065,7 +1096,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/18441371-8b2e-457c-afb5-1ec1b11ab630",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "14th test flight of the two-stage Starship launch vehicle. 3rd flight of Starship V3 and the first Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-1) into stable Low Earth Orbit.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete approximately 6 orbits around the planet for nearly 10 hours, with splashdown tar",
@@ -1086,7 +1118,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/7d1afb26-6f9c-429b-9ccf-29012fd1e519",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
@@ -1107,7 +1140,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/7330d83b-c478-426c-8859-f9e3a335876d",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
@@ -1128,7 +1162,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/9e24bef7-c44b-4fdc-ba52-68545ce9457e",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "3 Chinese reconnaissance satellites of unknown purposes, officially reported as for \"Electromagnetic environment probing\".",
@@ -1149,7 +1184,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/aed67837-b567-43e0-8071-c3ccc24aa496",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
@@ -1170,7 +1206,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/63063b9d-ade9-4448-8717-6f910aa81188",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Share-ride of 9 commercial Earth observation and technology demonstration satellites to SSO, details TBD.",
@@ -1191,7 +1228,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/5af31461-bce5-4cfb-a0ee-b527cf285d90",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
@@ -1212,7 +1250,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/d1471f9d-e9d0-4146-8e97-90863e48bfc8",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "4 X-band synthetic-aperture radar Earth observation satellites for the Chinese Earth observation satellite company PIESAT.",
@@ -1233,7 +1272,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/a527b585-f01f-4ecc-9230-711dcef72ef1",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
@@ -1254,7 +1294,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/f4c720ce-0cfd-43e6-b8dd-00273073bc01",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Glonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and design life. Each satellite is unpressurized and weighs 935 kg,  and has an operational lifetime of 10 years.",
@@ -1275,7 +1316,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "2 Earth observation radar satellites built by the Chinese satellite manufacturer SpaceTY.",
@@ -1296,7 +1338,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/71aa4d56-0ce9-4c7d-a808-cc22f2ac5a84",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "USSF-259 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
@@ -1317,7 +1360,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/17c71937-dd80-406f-bb47-0c9ee9a24276",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
@@ -1338,7 +1382,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/898f7df0-b6ce-4a5c-80b4-67e81842124e",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Progress resupply mission to the International Space Station.",
@@ -1359,7 +1404,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/d793ba47-faf5-4bab-a386-39a9ccc49c90",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "9 Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacesail Technologies with funding backed by the Shanghai local government.\r\n\r\nInitial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 12000 satellites.",
@@ -1380,7 +1426,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/767f7827-53d8-4621-803b-f456a1e6b512",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "10 Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacesail Technologies with funding backed by the Shanghai local government.\r\n\r\nInitial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 12000 satellites.",
@@ -1401,7 +1448,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/de446468-057f-4c9d-a6a1-af99c93b541e",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Sentinel-3C is the third satellite in the Sentinel-3 constellation, which provides high-accuracy optical, radar and altimetry data for marine and land services.\r\n\r\nThe Fluorescence Explorer (FLEX) satellite is a part of ESA's Earth Explorer program. The satellite will map vegetation fluorescence to quantify photosynthetic activity.",
@@ -1422,7 +1470,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "3 high-throughput communications satellites in Medium Earth Orbit (MEO) built by Boeing and operated by SES.",
@@ -1443,7 +1492,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/ad358a4d-c541-409b-9366-9c2f2da4aeb9",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Note: Payload and customer identities were not publicly announced.\r\n\r\n5th of the BlackSky Gen-3 high resolution Earth-imaging satellites.",
@@ -1464,7 +1514,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/b81156da-c0b8-46c8-aebd-8af8d2be83cd",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "USSF-153 is a classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
@@ -1485,7 +1536,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/3e0456da-14b1-4ac3-b59e-35fefb1d1530",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "6 Chinese military \u201cremote sensing\u201d satellite of unknown purposes.",
@@ -1506,7 +1558,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/95eb9265-bdbe-43ad-b08c-6be7eb4e58f4",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
@@ -1527,7 +1580,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/153ef8ef-b12b-43f4-a4bf-05b225c0cd37",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Second test flight of the Isar Spectrum launch vehicle. This launch will carry 5 cubesats and 1 non-separable experiment as part of European Space Agency (ESA)'s \u201cBoost!\u201d program:\r\n\r\n* CyBEEsat (TU Berlin)\r\n* TriSat-S (University of Maribor)\r\n* Platform 6 (EnduroSat)\r\n* FramSat-1 (NTNU)\r\n* SpaceTeamSat1 (TU Wien Space Team)\r\n* Let It Go (Dcubed, non-separable experiment)",
@@ -1548,7 +1602,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/1b23eb18-e06e-4058-9b42-e95ca0980511",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "GISAT-1A (GEO Imaging Satellite) is an Indian earth observing satellite operating from geostationary orbit to facilitate continuous observation of Indian sub-continent, quick monitoring of natural hazards and disaster.\r\n\r\nEOS-05/GISAT-1A will replace EOS-03/GISAT-1 lost in launch failure in 2021.",
@@ -1569,7 +1624,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/17d0ec68-f466-4916-9dc5-16123eda6484",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
@@ -1590,7 +1646,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/9f5a4cb6-63f9-47e1-9512-b468bae2a8e6",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
@@ -1611,7 +1668,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/63181269-b125-4c36-951c-c9bd9bbc4b55",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "First test launch of Galactic Energy\u2019s Pallas-1 rocket, with a dummy payload on board.",
@@ -1632,7 +1690,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/a927b2f9-f9a5-4196-9abb-2e275e4a6b96",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "The Nancy Grace Roman Space Telescope is a NASA infrared space telescope with a 2.4 m (7.9 ft) wide field of view primary mirror and two scientific instruments. The Wide-Field Instrument (WFI) is a 300.8-megapixel multi-band visible and near-infrared camera, providing a sharpness of images comparable to that achieved by the Hubble Space Telescope over a 0.28 square degree field of view, 100 times ",
@@ -1653,7 +1712,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/521f3a1c-f977-4306-9b7f-495858719adf",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Third of EUMETSAT's third generation of weather satellite.",
@@ -1674,7 +1734,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/a57aed97-b94f-42e1-905e-9421dbd96ac8",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
@@ -1695,7 +1756,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/95653d52-bb77-4860-a815-dd7141778d17",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
@@ -1716,7 +1778,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/ad501ebd-a357-4305-90c1-c46c6feb2ecf",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Share ride of 7 satellites to sun-synchronous orbit, including the ham radio satellite BY70-4.\r\nDetails TBD.",
@@ -1737,7 +1800,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/48c449c2-3c09-4d36-9c2a-d853b3a39289",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Glonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and design life. Each satellite is unpressurized and weighs 935 kg,  and has an operational lifetime of 10 years.",
@@ -1758,7 +1822,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/458e2e52-87b0-4707-96d8-6899f92e53ee",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
@@ -1779,7 +1844,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/6208f972-18ec-490f-bbe5-6f5c6cfcd48c",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 29 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
@@ -1800,7 +1866,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/bbdc4d47-1de3-428e-9fe1-bbf45d9b1e04",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Synthetic aperture radar Earth observation satellite for Japanese Earth imaging company iQPS.",
@@ -1821,7 +1888,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/57280454-470e-4c5d-8de1-1bbd0ea41b49",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 24 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
@@ -1842,7 +1910,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/f6958a77-37bb-4559-a108-40ba0ff9e34a",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Note: Second test launch of LandSpace\u2019s ZQ-3 rocket and first ever successful orbital launch vehicle booster recovery by a Chinese private launch service provider.\r\n\r\nPrototype LEO communication satellite for LandSpace's subsidiary Hongqing Technology.",
@@ -1863,7 +1932,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/ef02e2cf-e617-4b38-a526-951ac9204b0a",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Satellite for Earth Observation (SEO) is an Earth observation satellite project of the United Arab Emirates (UAE) by the National Space Science and Technology Center (NSSTC) at the United Arab Emirates University. \r\n\r\nThe SEO mission aims to develop advanced space technologies and represents an ambitious step toward utilizing space technologies to support sustainability and future development, inc",
@@ -1884,7 +1954,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/cb6f4df1-c045-423b-904c-e63bf1ee5168",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
@@ -1905,7 +1976,8 @@
     "status": "Success",
     "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/b0e7d1cc-24dd-4da4-bb60-b15b6791d08e",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    }
   ],
   "totals": {
@@ -1935,10 +2007,17 @@
     "pad_location": "Satish Dhawan Space Centre, India",
     "provider": "Indian Space Research Organization",
     "rocket": "GSLV Mk. II",
-    "status": "Deployed",
-    "status_name": "Payload Deployed",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
     "url": "https://nextspaceflight.com/launches/details/20d5676e-111b-40e3-8923-b218c3665ca2",
-    "webcast_live": true
+    "webcast_live": true,
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "ISRO Official",
+      "url": "https://www.youtube.com/watch?v=qIiYr3tRSqE"
+     }
+    ]
    },
    {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
@@ -1959,7 +2038,19 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/57ce0a39-d035-4f16-a418-bd6108f78199",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "SpaceX",
+      "url": "https://x.com/i/broadcasts/1DGleVlqoaqJL"
+     },
+     {
+      "official": false,
+      "publisher": "SPACE AFFAIRS",
+      "url": "https://www.youtube.com/watch?v=OVOVtaf15eY"
+     }
+    ]
    },
    {
     "description": "Synthetic aperture radar Earth observation satellite for Japanese Earth imaging company iQPS.",
@@ -1980,7 +2071,8 @@
     "status": "TBC",
     "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/426bd2a5-02dd-4fbd-9f4d-2b8439c3a1ff",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacesail Technologies with funding backed by the Shanghai local government.\r\n\r\nInitial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 12000 satellites.",
@@ -2001,7 +2093,8 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/f3f201cd-0ff9-4ff7-9aaa-1d22c399c75a",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
@@ -2022,7 +2115,19 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "SpaceX",
+      "url": "https://x.com/i/broadcasts/1kKzDPYrZNdJv"
+     },
+     {
+      "official": false,
+      "publisher": "SPACE AFFAIRS",
+      "url": "https://www.youtube.com/watch?v=cANr44iNjd8"
+     }
+    ]
    },
    {
     "description": "Note: Launch vehicle name is provisional.\r\n\r\nFirst orbital full version launch of the South Korean military small satellite launch vehicle, after 2 sub-orbital tests of individual stages on 30 March and 30 December 2022, and 1 orbital test flight without the 2nd stage on 4 December 2023. Details TBD.",
@@ -2043,7 +2148,8 @@
     "status": "TBC",
     "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Details TBD.",
@@ -2064,7 +2170,8 @@
     "status": "TBC",
     "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/e91d1da2-819b-4523-95bf-39ac7daa871d",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Details TBD.",
@@ -2085,7 +2192,8 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/711de6bc-f755-475b-a12f-ec5240da3a11",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
@@ -2106,7 +2214,8 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/a2423132-f965-423f-8b03-6891b775dc54",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
@@ -2127,7 +2236,19 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "SpaceX",
+      "url": "https://x.com/i/broadcasts/1aJbdEgvmWaKX"
+     },
+     {
+      "official": false,
+      "publisher": "SPACE AFFAIRS",
+      "url": "https://www.youtube.com/watch?v=z9uME3O2xHk"
+     }
+    ]
    },
    {
     "description": "Synthetic aperture radar Earth observation satellite for Japanese Earth imaging company iQPS.",
@@ -2148,7 +2269,8 @@
     "status": "TBD",
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/db3500ac-965b-4ad8-b417-cb8d8d005586",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
@@ -2169,7 +2291,8 @@
     "status": "TBC",
     "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/6aa7b90b-e5ed-45d8-a52e-04fbf399d178",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
@@ -2190,7 +2313,8 @@
     "status": "TBD",
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/ef9850ad-1096-425b-9d27-f7bbd186e61a",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
@@ -2211,7 +2335,8 @@
     "status": "TBC",
     "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/a2975167-7c6f-4403-99e1-b40df17c8140",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
@@ -2232,7 +2357,8 @@
     "status": "TBD",
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/7bdc412b-c965-4517-a131-f57a01189803",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Progress resupply mission to the International Space Station.",
@@ -2253,7 +2379,8 @@
     "status": "TBC",
     "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/8dd5de11-831b-445f-86f0-bffefe0550d9",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
@@ -2274,7 +2401,8 @@
     "status": "TBC",
     "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/5ce59e3a-c343-430f-ae4e-e608ba536754",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Shenzhou 24 will be the 24th flight of the Shenzhou program.\r\n\r\nThe first astronaut from Pakistan is expected to fly on this on a short duration mission, with another Chinese astronaut to undergo a year long expedition.",
@@ -2295,7 +2423,8 @@
     "status": "TBD",
     "status_name": "To Be Determined",
     "url": "https://nextspaceflight.com/launches/details/c9605b67-8a53-4239-a8ae-577fe3b79799",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "Third test flight of the Isar Spectrum launch vehicle. This launch will carry various satellites including R-Space\u2019s AT-Astra/IOD-01, which will perform in-orbit demonstrations for ENPULSION, SUNBOOSTER GmbH, and Synopsis Planet.",
@@ -2316,7 +2445,8 @@
     "status": "TBC",
     "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/dff42a2e-f047-48d7-b260-3888d3a4fe33",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    },
    {
     "description": "This is the 25th flight of the Orbital ATK's uncrewed resupply spacecraft Cygnus and its 24th flight to the International Space Station under the Commercial Resupply Services contract with NASA.",
@@ -2337,9 +2467,10 @@
     "status": "TBC",
     "status_name": "To Be Confirmed",
     "url": "https://nextspaceflight.com/launches/details/d74afbc7-0de5-491c-be05-4e9c31f736ac",
-    "webcast_live": false
+    "webcast_live": false,
+    "webcasts": []
    }
   ]
  },
- "fetched_at": "2026-10-30T19:01:52.876501+00:00"
+ "fetched_at": "2026-10-30T18:29:31.312655+00:00"
 }

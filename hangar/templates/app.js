@@ -149,12 +149,28 @@
     var st = el("div");
     var tag = el("span", "tag " + (String(L.status || "").toLowerCase().indexOf("go") >= 0 ? "go" : ""), L.status_name || L.status || "status unknown");
     st.appendChild(tag);
+    var casts = L.webcasts || [];
     if (L.webcast_live) {
       var live = el("a", "tag go pulse", "webcast live");
-      if (L.url) { live.href = L.url; live.target = "_blank"; live.rel = "noopener"; }
+      var liveHref = casts.length ? casts[0].url : L.url;
+      if (liveHref) { live.href = liveHref; live.target = "_blank"; live.rel = "noopener"; }
       st.appendChild(live);
     }
     meta.appendChild(st);
+    // Watch links come from Launch Library's vid_urls; streams are usually listed in
+    // the last day or two before launch, so "none listed yet" is the common early state.
+    var watch = el("div", "watch");
+    watch.appendChild(el("span", "", "WATCH  "));
+    if (!casts.length) {
+      watch.appendChild(document.createTextNode("no webcast listed yet"));
+    }
+    casts.forEach(function (w, i) {
+      if (i) watch.appendChild(document.createTextNode(" · "));
+      var a = el("a", "", (w.official ? "Official webcast" : "Stream") + (w.publisher ? " (" + w.publisher + ")" : ""));
+      a.href = w.url; a.target = "_blank"; a.rel = "noopener";
+      watch.appendChild(a);
+    });
+    meta.appendChild(watch);
     row("VEHICLE", L.rocket);
     row("PAD", L.pad);
     row("SITE", L.pad_location);

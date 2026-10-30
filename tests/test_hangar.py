@@ -493,3 +493,27 @@ def test_greek_letter_era_launches_join_on_date():
     cat = oh.build(satcat, PSATCAT_FIXTURE, launch_tsv)
     lvs = [cat["lvs"][i] for i in cat["launch"]["lv"]]
     assert lvs == ["Juno I", "Thor Agena B"]
+
+
+def test_webcasts_put_official_first_and_drop_non_http():
+    from hangar.launches import _webcasts
+
+    launch = {
+        "vid_urls": [
+            {"url": "https://youtube.com/fan", "publisher": "Fan", "type": {"name": "Unofficial"}},
+            {
+                "url": "javascript:alert(1)",
+                "publisher": "Bad",
+                "type": {"name": "Official Webcast"},
+            },
+            {
+                "url": "https://x.com/SpaceX",
+                "publisher": "SpaceX",
+                "type": {"name": "Official Webcast"},
+            },
+        ]
+    }
+    casts = _webcasts(launch)
+    assert [c["publisher"] for c in casts] == ["SpaceX", "Fan"]
+    assert casts[0]["official"] and not casts[1]["official"]
+    assert _webcasts({}) == []

@@ -156,8 +156,9 @@ a { color: inherit; }
 
 .bar {
   display: flex;
+  flex-wrap: wrap;  /* the nav drops to its own line rather than widen the page */
   align-items: baseline;
-  gap: 1rem;
+  gap: 0.3rem 1rem;
   padding: 0.7rem var(--gutter);
   border-bottom: 1px solid var(--rule);
   background: var(--rack);
@@ -287,6 +288,7 @@ a { color: inherit; }
 }
 
 .mission .meta span { color: var(--ink-muted); }
+.mission .meta .watch a { color: var(--ink); text-decoration: underline; text-underline-offset: 2px; }
 
 .tag {
   display: inline-block;

@@ -79,6 +79,25 @@ def _provider(launch: dict) -> str:
     return ((launch.get("launch_service_provider") or {}).get("name") or "Unknown").strip()
 
 
+def _webcasts(launch: dict, keep: int = 3) -> list[dict]:
+    """Watch links from LL2 ``vid_urls`` (detailed mode only). Official webcasts first;
+    otherwise LL2's own order. Only http(s) URLs are kept, since they become hrefs."""
+    out = []
+    for v in launch.get("vid_urls") or []:
+        url = (v.get("url") or "").strip()
+        if not url.startswith(("https://", "http://")):
+            continue
+        out.append(
+            {
+                "url": url,
+                "publisher": (v.get("publisher") or v.get("source") or "").strip(),
+                "official": ((v.get("type") or {}).get("name") or "") == "Official Webcast",
+            }
+        )
+    out.sort(key=lambda w: not w["official"])
+    return out[:keep]
+
+
 def _normalize(launch: dict) -> dict:
     """Flatten one LL2 launch into the compact shape the page needs."""
     pad = launch.get("pad") or {}
@@ -108,6 +127,7 @@ def _normalize(launch: dict) -> dict:
         "lon": float(lon) if lon not in (None, "") else None,
         "image": image.get("thumbnail_url") or image.get("image_url"),
         "webcast_live": launch.get("webcast_live"),
+        "webcasts": _webcasts(launch),
         "url": f"https://nextspaceflight.com/launches/details/{launch_id}" if launch_id else None,
     }
 
@@ -204,7 +224,12 @@ def fetch() -> dict:
     """Fetch launches and astronauts, derive cadence and pads. Uses 4 calls."""
     budget = RateBudget()
 
-    upcoming_raw = _get("/launches/upcoming/", {"limit": UPCOMING_LIMIT, "mode": "normal"}, budget)
+    upcoming_raw = _get(
+        # Detailed mode for upcoming only: it carries vid_urls (watch links) at no extra call.
+        "/launches/upcoming/",
+        {"limit": UPCOMING_LIMIT, "mode": "detailed"},
+        budget,
+    )
     upcoming = [_normalize(launch) for launch in upcoming_raw["results"]]
     print(f"  [OK]   LL2 upcoming: {len(upcoming)}")
 
