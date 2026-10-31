@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>HANGAR — SpaceX &amp; Tesla range board</title>
+<title>{% if page == 'claims' %}HANGAR — claims &amp; schedule performance{% else %}HANGAR — SpaceX &amp; Tesla range board{% endif %}</title>
 <meta name="description" content="Stated ambition against measured reality: launches, fleet, factory output and company timelines for SpaceX and Tesla, with xAI, X, Neuralink and The Boring Company.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,17 +30,33 @@
   <span class="sub" id="bar-sub">range board</span>
   <div class="bus" id="bus" aria-label="Source status"></div>
   <nav>
-    <a href="#board">Schedule</a>
+{% if page == 'claims' %}
+    <a href="index.html">News &amp; launches</a>
+    <a href="claims.html" aria-current="page">Claims</a>
+{% else %}
+    <a href="#dispatch">Dispatch</a>
     <a href="#growth">Growth</a>
     <a href="#manifest">Manifest</a>
     <a href="#range">Range</a>
-    <a href="#dispatch">Dispatch</a>
+    <a href="claims.html" title="Schedule performance: stated targets and claims against measurements">Claims</a>
+{% endif %}
     <a href="https://gcicc.github.io/overhang/" title="Sister site: claims about AI against measurements">Overhang ↗</a>
     <a href="#" id="theme" role="button">Light</a>
     <a href="#" id="cmd-open" role="button" title="Command bar (press /)">/</a>
   </nav>
 </header>
 
+{% if page == 'claims' %}
+<section id="board">
+  <div class="head">
+    <h2>Schedule performance</h2>
+    <span class="n" id="board-n"></span>
+    <span class="stamp" id="board-stamp"></span>
+  </div>
+  <div id="board-body"></div>
+</section>
+
+{% else %}
 <div class="ticker" id="ticker" aria-label="Latest headlines"></div>
 
 <div class="hero" id="hero">
@@ -59,14 +75,15 @@
 
 <div class="rail" id="rail"></div>
 
-<section id="board">
+<section id="dispatch">
   <div class="head">
-    <h2>Schedule performance</h2>
-    <span class="n" id="board-n"></span>
-    <span class="stamp" id="board-stamp"></span>
+    <h2>Dispatch</h2>
+    <span class="n" id="dispatch-n"></span>
+    <span class="stamp" id="dispatch-stamp"></span>
   </div>
-  <div id="board-body"></div>
+  <div class="cols" id="dispatch-body"></div>
 </section>
+
 
 <section id="growth">
   <div class="head">
@@ -94,15 +111,7 @@
   <div class="legend" id="map-legend"></div>
 </section>
 
-<section id="dispatch">
-  <div class="head">
-    <h2>Dispatch</h2>
-    <span class="n" id="dispatch-n"></span>
-    <span class="stamp" id="dispatch-stamp"></span>
-  </div>
-  <div class="cols" id="dispatch-body"></div>
-</section>
-
+{% endif %}
 <footer>
   <div>HANGAR — built {{ generated }} UTC. Refreshed on a schedule, not continuously. Sister site: <a href="https://gcicc.github.io/overhang/">OVERHANG</a>, claims about AI against what has been measured.</div>
   <div class="sources" id="sources"></div>

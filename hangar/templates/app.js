@@ -2228,12 +2228,12 @@
 
   function initCommand() {
     var items = [
-      { label: "Next launch", hint: "top", href: "#hero" },
-      { label: "Schedule performance", hint: "promise horizon", href: "#board" },
-      { label: "Growth", hint: "charts", href: "#growth" },
-      { label: "Manifest", hint: "upcoming launches", href: "#manifest" },
-      { label: "Range", hint: "map", href: "#range" },
-      { label: "Dispatch", hint: "news", href: "#dispatch" },
+      { label: "Next launch", hint: "top", href: "#hero", page: "index.html" },
+      { label: "Dispatch", hint: "news", href: "#dispatch", page: "index.html" },
+      { label: "Schedule performance", hint: "claims page", href: "#board", page: "claims.html" },
+      { label: "Growth", hint: "charts", href: "#growth", page: "index.html" },
+      { label: "Manifest", hint: "upcoming launches", href: "#manifest", page: "index.html" },
+      { label: "Range", hint: "map", href: "#range", page: "index.html" },
       { label: "Toggle theme", hint: "light / dark", run: function () { $("theme").click(); } }
     ];
     ((D.launches || {}).upcoming || []).forEach(function (L) {
@@ -2287,6 +2287,7 @@
       else if (it.href) {
         var t = document.querySelector(it.href);
         if (t) t.scrollIntoView({ behavior: "smooth" });
+        else if (it.page) window.location.href = it.page + it.href;
       }
     }
     input.addEventListener("input", function () { sel = 0; paint(); });
@@ -2324,6 +2325,7 @@
       var s = st[stamps[id]];
       if (!s) return;
       var n = $(id);
+      if (!n) return;
       n.textContent = "updated " + s.age + " ago";
       if (s.stale) n.className = "stamp stale";
     });
@@ -2351,17 +2353,21 @@
     });
   }
 
-  renderClock();
-  renderRail();
-  renderBoard();
-  renderGrowth();
-  renderManifest();
-  renderDispatch();
-  renderMap();
+  // Two pages share this script: index.html (launches, news, growth, map) and
+  // claims.html (the commitments board). Each renderer runs only where its
+  // host element exists.
+  function on(id, fn) { if ($(id)) fn(); }
+  on("clock", renderClock);
+  on("rail", renderRail);
+  on("board-body", renderBoard);
+  on("growth-body", renderGrowth);
+  on("manifest-body", renderManifest);
+  on("dispatch-body", renderDispatch);
+  on("map", renderMap);
   renderStatus();
   renderBus();
-  renderTicker();
-  renderGlobe();
+  on("ticker", renderTicker);
+  on("globe", renderGlobe);
   initCommand();
   initTheme();
   boot();

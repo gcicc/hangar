@@ -3,7 +3,7 @@ name: hangar
 type: maintain
 category: building
 tier: 02-Maintain
-updated: 2026-10-26
+updated: 2026-10-31
 url: https://gcicc.github.io/hangar/
 note: moved from 01-Active-Projects 2026-09-07
 ---
@@ -16,6 +16,11 @@ note: moved from 01-Active-Projects 2026-09-07
 stated ambition against measured reality, refreshed on a schedule.
 
 ## Where this stands
+
+**2026-10-31: split into two pages.** `index.html` is next launch + news (Dispatch moved
+up under the rail) + growth, manifest, range. The commitments board moved to
+`claims.html`. One template switched on `page` (`render.PAGES`); `app.js` runs each
+renderer only where its host element exists.
 
 `python run.py` builds `docs/index.html` from six sources, each on its own
 refresh cadence. 31 tests pass, ruff clean. Last refresh 2026-09-27 21:20 UTC

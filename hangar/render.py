@@ -21,22 +21,31 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 TEMPLATES = Path(__file__).resolve().parent / "templates"
 
 
+PAGES = {"main": "index.html", "claims": "claims.html"}
+
+
 def render(data: dict, out: Path) -> Path:
-    """Write the page to ``out`` and return the path."""
+    """Write both pages next to ``out`` and return the main page's path.
+
+    ``index.html`` carries the next launch, news and the measured panels;
+    ``claims.html`` carries the commitments board. One template, switched on
+    ``page``, so the two cannot drift apart in styling or payload.
+    """
     env = Environment(
         loader=FileSystemLoader(TEMPLATES),
         autoescape=select_autoescape(default=False),
     )
     template = env.get_template("page.html.j2")
 
-    html = template.render(
-        styles=(TEMPLATES / "styles.css").read_text(encoding="utf-8"),
-        app=(TEMPLATES / "app.js").read_text(encoding="utf-8"),
-        payload=_embed(data),
-        generated=data["meta"]["generated"].replace("T", " "),
-    )
-
-    out.write_text(html, encoding="utf-8")
+    common = {
+        "styles": (TEMPLATES / "styles.css").read_text(encoding="utf-8"),
+        "app": (TEMPLATES / "app.js").read_text(encoding="utf-8"),
+        "payload": _embed(data),
+        "generated": data["meta"]["generated"].replace("T", " "),
+    }
+    for page, name in PAGES.items():
+        html = template.render(page=page, **common)
+        (out.parent / name).write_text(html, encoding="utf-8")
     return out
 
 
