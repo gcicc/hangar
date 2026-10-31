@@ -14,8 +14,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 97,
+  "last_seen": "2026-10-31",
+  "times_seen": 98,
   "outlets": [
    "Neuralink"
   ]
@@ -34,8 +34,8 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 54,
+  "last_seen": "2026-10-31",
+  "times_seen": 55,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -58,8 +58,8 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 39,
+  "last_seen": "2026-10-31",
+  "times_seen": 40,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -78,8 +78,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 33,
+  "last_seen": "2026-10-31",
+  "times_seen": 34,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -99,8 +99,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 209,
+  "last_seen": "2026-10-31",
+  "times_seen": 210,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -121,8 +121,8 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 102,
+  "last_seen": "2026-10-31",
+  "times_seen": 103,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -142,8 +142,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 130,
+  "last_seen": "2026-10-31",
+  "times_seen": 131,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -164,8 +164,8 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 19,
+  "last_seen": "2026-10-31",
+  "times_seen": 20,
   "outlets": [
    "Optimus"
   ]
@@ -182,8 +182,8 @@
   "first_seen": "2026-10-14",
   "topics": [],
   "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 35,
+  "last_seen": "2026-10-31",
+  "times_seen": 36,
   "outlets": [
    "X"
   ]
@@ -203,11 +203,133 @@
    "launch"
   ],
   "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 97,
+  "last_seen": "2026-10-31",
+  "times_seen": 98,
   "outlets": [
    "Starship",
    "Falcon"
+  ]
+ },
+ {
+  "statement": "Musk pledges to give a share of his SpaceX company to 'every kid in America' next year - PBS",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "TSLA",
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMzNoSnpDZlNJZTkxRXctLVhNZmVfclVCdWNjRnd4YU9uVU4wblNxRFE4ai10UlRMaTBtbVRQWTZFbVh2bTFDeU9vSmZ4NHY5N2dGc0VfaHFjRFVia3FucURwN2NEYnFnckhuLXBkRU03Q25VckpybWtVazRXUnFLdkxuR2s0V3U4M2I2ZFVkMEN1bmNzQnV4OUNfWXVBenVmQ3NMOExQenBRQnB4Sks1djR1dmVLRW5iWVM3dA?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-31",
+  "times_seen": 17,
+  "outlets": [
+   "TSLA"
+  ]
+ },
+ {
+  "statement": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year - WSJ",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09OVGpVM3FDM3I4RzJVTnVHcDk5c0Z5aHVEVS1BZ2RDRnVpQU13Yld0VTdWS0xBb3JGbWVzSHhZU0J0cVVUWjBlZWVNM3FDTGJOOWtFN2EwMTlkN1VmcjJSTDhiVnpYMFByX2c4RFhfd3pRSU0tSEhtcnlldGx1NU9GWGo3aVctSFRvTg?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-31",
+  "times_seen": 37,
+  "outlets": [
+   "Humanoids",
+   "Optimus",
+   "TSLA"
+  ]
+ },
+ {
+  "statement": "Neuralink is set to begin trials of its Blindsight vision-restoring chip this year - Supercar Blondie",
+  "entity": "Neuralink",
+  "horizon_phrase": "this year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Neuralink",
+  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QR01TMGlKZDRZcllQVzBOeVNLc3dLMUVnT3pqTnhWMEJHWjJKMFZHbG9fZ0RBaTNJMGMtVUF4YVVwSjdKWTY3TW4yY2h1c2RnY0ZsUVBDSGZMZkxYWFhuS2swRW5yLVl5Y1hPcDQ0ZGEwSmpCbUQ0Vm9JMA?oc=5",
+  "first_seen": "2026-10-09",
+  "topics": [
+   "neurotech"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-31",
+  "times_seen": 78,
+  "outlets": [
+   "Neuralink"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Tesla Optimus Robot will ship to outside customers by end of 2027 - Shacknews",
+  "entity": "Musk",
+  "horizon_phrase": "by end of 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc2hReU9QdW0yd3IwY3FCbWxhdnZmQjdGQlZEMEphQU0yYzJjeW9ndlhsMWpkeGVrYkZkaDhQa1NVTkltVmgyeUIxTHNXVXI5VWZLUmM2NkxHV25zeGVRN2JkX2s5dlFZeFVpdUU2Q3hJZ01aTkRHSGY0Q0x6aElqemh0Mzk?oc=5",
+  "first_seen": "2026-10-21",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-31",
+  "times_seen": 36,
+  "outlets": [
+   "Optimus"
+  ]
+ },
+ {
+  "statement": "Tesla Targets 20K Optimus Robots a Week by 2027 [2026] - shattered.io",
+  "entity": "Tesla",
+  "horizon_phrase": "by 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqamRuZ19Ma0YxU050ZGpVaEhOb3dnWnFrLXZqVFRxV1AzZmdxYktUYUlFN0R6dTFLbEVXY0hEUnFxa1VOYXczLW1BZVdxMzRabzBFLS01OEYwNUt6dk5LQ0VYN1hILWRNQkVFRA?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-31",
+  "times_seen": 33,
+  "outlets": [
+   "Optimus"
+  ]
+ },
+ {
+  "statement": "Tesla is set to open reservations for Optimus robot later this year, says industry expert - The San Francisco Standard",
+  "entity": "Tesla",
+  "horizon_phrase": "this year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ydi14SkhhWXNPcUhScTJtc1ZiTzZrSy1mV1hLbEtTNUEycFlTTVYyNjNpXzNFQ3B3R3FQQmFLVUxFVTd2WkpLOTRKeExCaEhuRVJ3Qml3eVdITjdwanJnY2RKU1dXaUFSaHpTNGFoNGg?oc=5",
+  "first_seen": "2026-10-31",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-31",
+  "times_seen": 1,
+  "outlets": [
+   "Optimus"
   ]
  },
  {
@@ -294,26 +416,6 @@
   ]
  },
  {
-  "statement": "Musk pledges to give a share of his SpaceX company to 'every kid in America' next year - PBS",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "TSLA",
-  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMzNoSnpDZlNJZTkxRXctLVhNZmVfclVCdWNjRnd4YU9uVU4wblNxRFE4ai10UlRMaTBtbVRQWTZFbVh2bTFDeU9vSmZ4NHY5N2dGc0VfaHFjRFVia3FucURwN2NEYnFnckhuLXBkRU03Q25VckpybWtVazRXUnFLdkxuR2s0V3U4M2I2ZFVkMEN1bmNzQnV4OUNfWXVBenVmQ3NMOExQenBRQnB4Sks1djR1dmVLRW5iWVM3dA?oc=5",
-  "first_seen": "2026-10-19",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 16,
-  "outlets": [
-   "TSLA"
-  ]
- },
- {
   "statement": "Elon Musk Pledges $10.5 Billion in SpaceX Shares to \u2018Every Kid in America\u2019 in 2027 - Yahoo Finance",
   "entity": "Musk",
   "horizon_phrase": "in 2027",
@@ -332,48 +434,6 @@
   "outlets": [
    "SPCX",
    "Musk"
-  ]
- },
- {
-  "statement": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year - WSJ",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09OVGpVM3FDM3I4RzJVTnVHcDk5c0Z5aHVEVS1BZ2RDRnVpQU13Yld0VTdWS0xBb3JGbWVzSHhZU0J0cVVUWjBlZWVNM3FDTGJOOWtFN2EwMTlkN1VmcjJSTDhiVnpYMFByX2c4RFhfd3pRSU0tSEhtcnlldGx1NU9GWGo3aVctSFRvTg?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 36,
-  "outlets": [
-   "Humanoids",
-   "Optimus",
-   "TSLA"
-  ]
- },
- {
-  "statement": "Neuralink is set to begin trials of its Blindsight vision-restoring chip this year - Supercar Blondie",
-  "entity": "Neuralink",
-  "horizon_phrase": "this year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Neuralink",
-  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QR01TMGlKZDRZcllQVzBOeVNLc3dLMUVnT3pqTnhWMEJHWjJKMFZHbG9fZ0RBaTNJMGMtVUF4YVVwSjdKWTY3TW4yY2h1c2RnY0ZsUVBDSGZMZkxYWFhuS2swRW5yLVl5Y1hPcDQ0ZGEwSmpCbUQ0Vm9JMA?oc=5",
-  "first_seen": "2026-10-09",
-  "topics": [
-   "neurotech"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 77,
-  "outlets": [
-   "Neuralink"
   ]
  },
  {
@@ -456,46 +516,6 @@
   "times_seen": 4,
   "outlets": [
    "Humanoids"
-  ]
- },
- {
-  "statement": "Elon Musk says Tesla Optimus Robot will ship to outside customers by end of 2027 - Shacknews",
-  "entity": "Musk",
-  "horizon_phrase": "by end of 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc2hReU9QdW0yd3IwY3FCbWxhdnZmQjdGQlZEMEphQU0yYzJjeW9ndlhsMWpkeGVrYkZkaDhQa1NVTkltVmgyeUIxTHNXVXI5VWZLUmM2NkxHV25zeGVRN2JkX2s5dlFZeFVpdUU2Q3hJZ01aTkRHSGY0Q0x6aElqemh0Mzk?oc=5",
-  "first_seen": "2026-10-21",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 35,
-  "outlets": [
-   "Optimus"
-  ]
- },
- {
-  "statement": "Tesla Targets 20K Optimus Robots a Week by 2027 [2026] - shattered.io",
-  "entity": "Tesla",
-  "horizon_phrase": "by 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqamRuZ19Ma0YxU050ZGpVaEhOb3dnWnFrLXZqVFRxV1AzZmdxYktUYUlFN0R6dTFLbEVXY0hEUnFxa1VOYXczLW1BZVdxMzRabzBFLS01OEYwNUt6dk5LQ0VYN1hILWRNQkVFRA?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 32,
-  "outlets": [
-   "Optimus"
   ]
  },
  {
