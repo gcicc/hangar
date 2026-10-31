@@ -664,8 +664,8 @@
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "In Flight",
-    "status_name": "Launch in Flight",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/57ce0a39-d035-4f16-a418-bd6108f78199",
     "webcast_live": false,
     "webcasts": []
@@ -2024,8 +2024,8 @@
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "In Flight",
-    "status_name": "Launch in Flight",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/57ce0a39-d035-4f16-a418-bd6108f78199",
     "webcast_live": false,
     "webcasts": [
@@ -2466,5 +2466,5 @@
    }
   ]
  },
- "fetched_at": "2026-10-31T04:35:56.555474+00:00"
+ "fetched_at": "2026-10-31T11:51:20.046711+00:00"
 }

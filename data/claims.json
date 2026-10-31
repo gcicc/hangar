@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 98,
+  "times_seen": 99,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 55,
+  "times_seen": 56,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 40,
+  "times_seen": 41,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -79,7 +79,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 34,
+  "times_seen": 35,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -100,7 +100,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 210,
+  "times_seen": 211,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -122,7 +122,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 103,
+  "times_seen": 104,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -143,7 +143,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 131,
+  "times_seen": 132,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -165,7 +165,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 20,
+  "times_seen": 21,
   "outlets": [
    "Optimus"
   ]
@@ -183,7 +183,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 36,
+  "times_seen": 37,
   "outlets": [
    "X"
   ]
@@ -225,7 +225,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 17,
+  "times_seen": 18,
   "outlets": [
    "TSLA"
   ]
@@ -245,7 +245,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 37,
+  "times_seen": 38,
   "outlets": [
    "Humanoids",
    "Optimus",
@@ -267,7 +267,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 78,
+  "times_seen": 79,
   "outlets": [
    "Neuralink"
   ]
@@ -287,7 +287,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 36,
+  "times_seen": 37,
   "outlets": [
    "Optimus"
   ]
@@ -307,7 +307,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 33,
+  "times_seen": 34,
   "outlets": [
    "Optimus"
   ]
@@ -327,9 +327,51 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 1,
+  "times_seen": 2,
   "outlets": [
    "Optimus"
+  ]
+ },
+ {
+  "statement": "Starlink's Chinese Rival Wants To Launch 10,000 Satellites By 2030 - BGR",
+  "entity": "Starlink",
+  "horizon_phrase": "By 2030",
+  "horizon": "2030-12-31",
+  "horizon_precision": "year",
+  "quantity": "10,000 Satellites",
+  "source": "Starlink",
+  "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE04blY0bGV1dEFwcThNZjVuZnBNZFRMSmVlT3VwTXJ1Z2dFdm1HMHRtcGpTYklmaV80XzZNbDdZVm1mTktlcm9UeHRPU2g0LU5kUmxJbkhlMWlEci1FbVFEaUlYVmd1OUpEb1pxRU9kVG1uaC1ZWklJbU1lNE9Fdw?oc=5",
+  "first_seen": "2026-10-28",
+  "topics": [
+   "starlink",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-31",
+  "times_seen": 10,
+  "outlets": [
+   "Starlink"
+  ]
+ },
+ {
+  "statement": "Elon Musk Pledges $10.5 Billion in SpaceX Shares to \u2018Every Kid in America\u2019 in 2027 - Yahoo Finance",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMjFkcGJrRnh6WVpOaW50a1R4YTRaUkp2anJ6TXFMN1VJQ1hfMWVEZEV4cnF0RUF0RHJIR1FMci00NlFtdmlKUWU2bzhnMXdkV1FjS3l0VnJKWkxsQmFmOXdjWlNYRVVUZlY2MHNYQ2l1SzBKVnRlMDhDNXZrcUprX2VCUjRHUEVTOUxqWkdBVFM?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-31",
+  "times_seen": 10,
+  "outlets": [
+   "SPCX",
+   "Musk"
   ]
  },
  {
@@ -374,27 +416,6 @@
   ]
  },
  {
-  "statement": "Starlink's Chinese Rival Wants To Launch 10,000 Satellites By 2030 - BGR",
-  "entity": "Starlink",
-  "horizon_phrase": "By 2030",
-  "horizon": "2030-12-31",
-  "horizon_precision": "year",
-  "quantity": "10,000 Satellites",
-  "source": "Starlink",
-  "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE04blY0bGV1dEFwcThNZjVuZnBNZFRMSmVlT3VwTXJ1Z2dFdm1HMHRtcGpTYklmaV80XzZNbDdZVm1mTktlcm9UeHRPU2g0LU5kUmxJbkhlMWlEci1FbVFEaUlYVmd1OUpEb1pxRU9kVG1uaC1ZWklJbU1lNE9Fdw?oc=5",
-  "first_seen": "2026-10-28",
-  "topics": [
-   "starlink",
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 9,
-  "outlets": [
-   "Starlink"
-  ]
- },
- {
   "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
   "entity": "Musk",
   "horizon_phrase": "next year",
@@ -413,27 +434,6 @@
   "outlets": [
    "Optimus",
    "Humanoids"
-  ]
- },
- {
-  "statement": "Elon Musk Pledges $10.5 Billion in SpaceX Shares to \u2018Every Kid in America\u2019 in 2027 - Yahoo Finance",
-  "entity": "Musk",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMjFkcGJrRnh6WVpOaW50a1R4YTRaUkp2anJ6TXFMN1VJQ1hfMWVEZEV4cnF0RUF0RHJIR1FMci00NlFtdmlKUWU2bzhnMXdkV1FjS3l0VnJKWkxsQmFmOXdjWlNYRVVUZlY2MHNYQ2l1SzBKVnRlMDhDNXZrcUprX2VCUjRHUEVTOUxqWkdBVFM?oc=5",
-  "first_seen": "2026-10-19",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 9,
-  "outlets": [
-   "SPCX",
-   "Musk"
   ]
  },
  {
