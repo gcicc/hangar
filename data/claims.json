@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 100,
+  "times_seen": 101,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 57,
+  "times_seen": 58,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 42,
+  "times_seen": 43,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -79,7 +79,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 36,
+  "times_seen": 37,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -165,7 +165,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 22,
+  "times_seen": 23,
   "outlets": [
    "Optimus"
   ]
@@ -183,7 +183,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 38,
+  "times_seen": 39,
   "outlets": [
    "X"
   ]
@@ -245,7 +245,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 39,
+  "times_seen": 40,
   "outlets": [
    "Humanoids",
    "Optimus",
@@ -267,7 +267,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 80,
+  "times_seen": 81,
   "outlets": [
    "Neuralink"
   ]
@@ -327,7 +327,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "Optimus"
   ]
@@ -389,7 +389,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 19,
+  "times_seen": 20,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -410,7 +410,7 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 13,
+  "times_seen": 14,
   "outlets": [
    "Optimus"
   ]
@@ -430,10 +430,30 @@
   ],
   "primary": false,
   "last_seen": "2026-10-31",
-  "times_seen": 92,
+  "times_seen": 93,
   "outlets": [
    "Optimus",
    "Humanoids"
+  ]
+ },
+ {
+  "statement": "SpaceX Says Starship Flies Commercial Payloads This Year. Here's What a Successful Flight Is Worth -- and What a Failure Costs. - The Motley Fool",
+  "entity": "SpaceX",
+  "horizon_phrase": "This Year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcElCLWRzZUxGb2loVkxzRlotZzVpbzQ2TGdPazV2MWNCVXp5RnNjUWRSM2RfWFlvTURDQm1VM1VNZmE0b1l2MHQ4dG5INFM3TG4tNEtKeXZmaXFjYzhSSWVVU2JNWEloZnlhLTVycEN3dzdRSGxHOVV0X3IwWHN3OUl2bHgyTnZrUnZPeWFiMk5zQkdGSXdhLQ?oc=5",
+  "first_seen": "2026-10-31",
+  "topics": [
+   "starship"
+  ],
+  "primary": false,
+  "last_seen": "2026-10-31",
+  "times_seen": 1,
+  "outlets": [
+   "Starship"
   ]
  },
  {

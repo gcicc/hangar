@@ -147,8 +147,8 @@
   },
   "pads": [
    {
-    "count": 56,
-    "last_net": "2026-11-10T03:03:00Z",
+    "count": 57,
+    "last_net": "2026-11-30T00:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
     "lon": -120.611,
@@ -288,16 +288,6 @@
    },
    {
     "count": 3,
-    "last_net": "2026-10-30T18:21:00Z",
-    "lat": 13.7199,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.2304,
-    "name": "Satish Dhawan Space Centre Second Launch Pad",
-    "spacex": false,
-    "top_provider": "Indian Space Research Organization"
-   },
-   {
-    "count": 3,
     "last_net": "2026-10-19T19:41:03Z",
     "lat": 30.400938,
     "location": "Tanegashima Space Center, Japan",
@@ -375,6 +365,16 @@
     "name": "Launch Complex 3 (LC-3/LA-1)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-10-30T18:21:00Z",
+    "lat": 13.7199,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.2304,
+    "name": "Satish Dhawan Space Centre Second Launch Pad",
+    "spacex": false,
+    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 2,
@@ -1981,34 +1981,6 @@
   },
   "upcoming": [
    {
-    "description": "This is a replacement satellite for the Indian Regional Navigation Satellite System. The constellation will provide India with an alternative to GPS and will be used for military and civilian use. Located at a geosynchronous orbit, the system will be operated by the Indian government.",
-    "id": "20d5676e-111b-40e3-8923-b218c3665ca2",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv-f182fnvs-_image_thumbnail_20261030172351.jpeg",
-    "lat": 13.7199,
-    "lon": 80.2304,
-    "mission": "IRNSS-1L (NVS-03)",
-    "mission_type": "Navigation",
-    "name": "GSLV Mk II | IRNSS-1L (NVS-03)",
-    "net": "2026-10-30T18:21:00Z",
-    "net_precision": "MIN",
-    "orbit": "GTO",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad",
-    "pad_location": "Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "rocket": "GSLV Mk. II",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/20d5676e-111b-40e3-8923-b218c3665ca2",
-    "webcast_live": false,
-    "webcasts": [
-     {
-      "official": true,
-      "publisher": "ISRO Official",
-      "url": "https://www.youtube.com/watch?v=qIiYr3tRSqE"
-     }
-    ]
-   },
-   {
     "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
     "id": "57ce0a39-d035-4f16-a418-bd6108f78199",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
@@ -2463,8 +2435,30 @@
     "url": "https://nextspaceflight.com/launches/details/d74afbc7-0de5-491c-be05-4e9c31f736ac",
     "webcast_live": false,
     "webcasts": []
+   },
+   {
+    "description": "Fifteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
+    "id": "56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241024165957.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "NROL-195",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | NROL-195",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
+    "webcast_live": false,
+    "webcasts": []
    }
   ]
  },
- "fetched_at": "2026-10-31T16:58:03.433835+00:00"
+ "fetched_at": "2026-10-31T21:09:43.062493+00:00"
 }
