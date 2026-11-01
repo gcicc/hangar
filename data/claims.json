@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-01",
-  "times_seen": 102,
+  "times_seen": 103,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-01",
-  "times_seen": 59,
+  "times_seen": 60,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-01",
-  "times_seen": 44,
+  "times_seen": 45,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -79,7 +79,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-01",
-  "times_seen": 38,
+  "times_seen": 39,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -100,7 +100,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-01",
-  "times_seen": 24,
+  "times_seen": 25,
   "outlets": [
    "Optimus"
   ]
@@ -118,7 +118,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-01",
-  "times_seen": 40,
+  "times_seen": 41,
   "outlets": [
    "X"
   ]
@@ -138,7 +138,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-01",
-  "times_seen": 41,
+  "times_seen": 42,
   "outlets": [
    "Humanoids",
    "Optimus",
@@ -160,7 +160,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-01",
-  "times_seen": 82,
+  "times_seen": 83,
   "outlets": [
    "Neuralink"
   ]
@@ -180,7 +180,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-01",
-  "times_seen": 5,
+  "times_seen": 6,
   "outlets": [
    "Optimus"
   ]
@@ -200,7 +200,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-01",
-  "times_seen": 21,
+  "times_seen": 22,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -241,7 +241,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-01",
-  "times_seen": 94,
+  "times_seen": 95,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -262,7 +262,194 @@
   ],
   "primary": false,
   "last_seen": "2026-11-01",
-  "times_seen": 2,
+  "times_seen": 3,
+  "outlets": [
+   "Starship"
+  ]
+ },
+ {
+  "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - Electric Vehicles",
+  "entity": "Tesla",
+  "horizon_phrase": "This Year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjVidnZtaUtWNVdOUGlQaUNBS1phbDduR3ZDMWJJa0ludjV2MkdMNEZrOTB0TUsyYTBGSTQ3UWVOOUpyeU1LMTdNQUllUXJFZzIyZ3R3NjQ3RmlyRm00QnVPSHRxLVFlU2FadjlZTmtud2Z5cEZKQU5fZy1PRFdXNTRneHB0YTR6djVILXZ2cEFwcmg3X2ktTnlybmM1dTNITXJ4RUxURVVfSFgzRmZrVENLLWo?oc=5",
+  "first_seen": "2026-10-06",
+  "topics": [
+   "optimus",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-01",
+  "times_seen": 105,
+  "outlets": [
+   "Optimus",
+   "Optimus Features"
+  ]
+ },
+ {
+  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
+  "entity": "SpaceX",
+  "horizon_phrase": "this month",
+  "horizon": "2026-09-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "starship",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-01",
+  "times_seen": 100,
+  "outlets": [
+   "Starship",
+   "Falcon"
+  ]
+ },
+ {
+  "statement": "Musk pledges to give a share of his SpaceX company to 'every kid in America' next year - PBS",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "TSLA",
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMzNoSnpDZlNJZTkxRXctLVhNZmVfclVCdWNjRnd4YU9uVU4wblNxRFE4ai10UlRMaTBtbVRQWTZFbVh2bTFDeU9vSmZ4NHY5N2dGc0VfaHFjRFVia3FucURwN2NEYnFnckhuLXBkRU03Q25VckpybWtVazRXUnFLdkxuR2s0V3U4M2I2ZFVkMEN1bmNzQnV4OUNfWXVBenVmQ3NMOExQenBRQnB4Sks1djR1dmVLRW5iWVM3dA?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-01",
+  "times_seen": 20,
+  "outlets": [
+   "TSLA"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Tesla Optimus Robot will ship to outside customers by end of 2027 - Shacknews",
+  "entity": "Musk",
+  "horizon_phrase": "by end of 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc2hReU9QdW0yd3IwY3FCbWxhdnZmQjdGQlZEMEphQU0yYzJjeW9ndlhsMWpkeGVrYkZkaDhQa1NVTkltVmgyeUIxTHNXVXI5VWZLUmM2NkxHV25zeGVRN2JkX2s5dlFZeFVpdUU2Q3hJZ01aTkRHSGY0Q0x6aElqemh0Mzk?oc=5",
+  "first_seen": "2026-10-21",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-01",
+  "times_seen": 38,
+  "outlets": [
+   "Optimus"
+  ]
+ },
+ {
+  "statement": "Tesla Targets 20K Optimus Robots a Week by 2027 [2026] - shattered.io",
+  "entity": "Tesla",
+  "horizon_phrase": "by 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqamRuZ19Ma0YxU050ZGpVaEhOb3dnWnFrLXZqVFRxV1AzZmdxYktUYUlFN0R6dTFLbEVXY0hEUnFxa1VOYXczLW1BZVdxMzRabzBFLS01OEYwNUt6dk5LQ0VYN1hILWRNQkVFRA?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-01",
+  "times_seen": 35,
+  "outlets": [
+   "Optimus"
+  ]
+ },
+ {
+  "statement": "Tesla to have humanoid robots for internal use next year, Musk says - Reuters",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX3VhaFFjX1JKRVVyMkthamlLanJFZ1Jzb0k1bGZTME82R21aYWxmVzRLV1NaWjBPSWpmNlFKZmNsNjZ4LUtPZFVZUno3WnAyNEZHdmJBajFqSF9CWnFONW41S3B3bHYwUE1iRlZkeDBqem9WV2pRSXROc0RNUFZVaVJDTVkxTnVjOHVPRDY4WHV2YWRVZm15bXhvQjVtbW5ieFA5elBOQm5kel9MdE5jQlJQbkEzblhmUktrVWVaTWJiUzA?oc=5",
+  "first_seen": "2026-10-27",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-01",
+  "times_seen": 7,
+  "outlets": [
+   "Optimus",
+   "Humanoids"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Tesla will start using humanoid robots next year - BBC",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wSHpGMGtYMVlPRzVVN2xJTnd6bVIxeVF0SG1JcExTV2pWaEloNk5wTWdYMmZGeHByVjg4NGQyZGxxX1NWdE44U0h1R2JWVHVNOWFSWWZYRm5ydw?oc=5",
+  "first_seen": "2026-10-27",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-01",
+  "times_seen": 5,
+  "outlets": [
+   "Humanoids"
+  ]
+ },
+ {
+  "statement": "Elon Musk reveals massive plans for Tesla and Optimus\u2014\u2018Things are really going to go ballistic next year\u2019 - Fortune",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcDRnVzdvTjFSc3dsTlFSWUtJeGhpZGEwaFdXNl82YWVMMmI2ZzlwRWhld1ZpRWRUUnNKM1VCbjRUR2JQaXVGMTZFLXNCeGpLaWtORGhfNVlqZjJET09fZ3Y4QTBNdjhlbFFucVB3NHBhdUNuYTZhLVZaMmdkR3lFR2kyaEkzYlZ0LXBTSkVzN0U5MmlqR0V3TGVFYXE3cE1lZ25XUmtfWnJWSlRUSlIyWQ?oc=5",
+  "first_seen": "2026-10-27",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-01",
+  "times_seen": 5,
+  "outlets": [
+   "Humanoids"
+  ]
+ },
+ {
+  "statement": "SpaceX wants to launch next Starship this month (and catch it, too), Elon Musk says in 1st earnings call since historic IPO - Space",
+  "entity": "SpaceX",
+  "horizon_phrase": "this month",
+  "horizon": "2026-09-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPUHUxR2UtWnZHMFVRZ3I4eVJNWHFHWVctUjlaRk5RcG9WbWxaTjVKWDMzQ2hseFF4bHByMUpxZ2lwME1jTHJWSExyMVZtLUlZUm14N0oyYlBjcU9aa2FQWE84RmVrcVVHVTZoZl9Mb0lRSklvRHF1STV5amZ4UFE2a19sZzRKYzF4SU1ybHFzamRYZkkxQTBqN21yQ2tlNWgyQkJNQ3J2aGlwR0xCWnZCYWdqN1ZYcHBLTzA4TEpLT2FKeEtpa2prSHJiUldhU0hLbzRSTndRaDJuNVJvenVORUhWZ3NCYUFBSXdIX2RmZGtUTVZlb2k0d0JhSkRrRFFvNXlqanVEdVo5ams?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "starship",
+   "launch",
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-01",
+  "times_seen": 78,
   "outlets": [
    "Starship"
   ]
@@ -290,28 +477,6 @@
   ]
  },
  {
-  "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - Electric Vehicles",
-  "entity": "Tesla",
-  "horizon_phrase": "This Year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjVidnZtaUtWNVdOUGlQaUNBS1phbDduR3ZDMWJJa0ludjV2MkdMNEZrOTB0TUsyYTBGSTQ3UWVOOUpyeU1LMTdNQUllUXJFZzIyZ3R3NjQ3RmlyRm00QnVPSHRxLVFlU2FadjlZTmtud2Z5cEZKQU5fZy1PRFdXNTRneHB0YTR6djVILXZ2cEFwcmg3X2ktTnlybmM1dTNITXJ4RUxURVVfSFgzRmZrVENLLWo?oc=5",
-  "first_seen": "2026-10-06",
-  "topics": [
-   "optimus",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-31",
-  "times_seen": 104,
-  "outlets": [
-   "Optimus",
-   "Optimus Features"
-  ]
- },
- {
   "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
   "entity": "Tesla",
   "horizon_phrase": "in 2027",
@@ -330,88 +495,6 @@
   "outlets": [
    "Optimus",
    "Optimus Features"
-  ]
- },
- {
-  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
-  "entity": "SpaceX",
-  "horizon_phrase": "this month",
-  "horizon": "2026-09-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "starship",
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-31",
-  "times_seen": 99,
-  "outlets": [
-   "Starship",
-   "Falcon"
-  ]
- },
- {
-  "statement": "Musk pledges to give a share of his SpaceX company to 'every kid in America' next year - PBS",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "TSLA",
-  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMzNoSnpDZlNJZTkxRXctLVhNZmVfclVCdWNjRnd4YU9uVU4wblNxRFE4ai10UlRMaTBtbVRQWTZFbVh2bTFDeU9vSmZ4NHY5N2dGc0VfaHFjRFVia3FucURwN2NEYnFnckhuLXBkRU03Q25VckpybWtVazRXUnFLdkxuR2s0V3U4M2I2ZFVkMEN1bmNzQnV4OUNfWXVBenVmQ3NMOExQenBRQnB4Sks1djR1dmVLRW5iWVM3dA?oc=5",
-  "first_seen": "2026-10-19",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-31",
-  "times_seen": 19,
-  "outlets": [
-   "TSLA"
-  ]
- },
- {
-  "statement": "Elon Musk says Tesla Optimus Robot will ship to outside customers by end of 2027 - Shacknews",
-  "entity": "Musk",
-  "horizon_phrase": "by end of 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOc2hReU9QdW0yd3IwY3FCbWxhdnZmQjdGQlZEMEphQU0yYzJjeW9ndlhsMWpkeGVrYkZkaDhQa1NVTkltVmgyeUIxTHNXVXI5VWZLUmM2NkxHV25zeGVRN2JkX2s5dlFZeFVpdUU2Q3hJZ01aTkRHSGY0Q0x6aElqemh0Mzk?oc=5",
-  "first_seen": "2026-10-21",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-31",
-  "times_seen": 37,
-  "outlets": [
-   "Optimus"
-  ]
- },
- {
-  "statement": "Tesla Targets 20K Optimus Robots a Week by 2027 [2026] - shattered.io",
-  "entity": "Tesla",
-  "horizon_phrase": "by 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqamRuZ19Ma0YxU050ZGpVaEhOb3dnWnFrLXZqVFRxV1AzZmdxYktUYUlFN0R6dTFLbEVXY0hEUnFxa1VOYXczLW1BZVdxMzRabzBFLS01OEYwNUt6dk5LQ0VYN1hILWRNQkVFRA?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-31",
-  "times_seen": 34,
-  "outlets": [
-   "Optimus"
   ]
  },
  {
@@ -475,67 +558,6 @@
   "times_seen": 59,
   "outlets": [
    "Neuralink"
-  ]
- },
- {
-  "statement": "Tesla to have humanoid robots for internal use next year, Musk says - Reuters",
-  "entity": "Tesla",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX3VhaFFjX1JKRVVyMkthamlLanJFZ1Jzb0k1bGZTME82R21aYWxmVzRLV1NaWjBPSWpmNlFKZmNsNjZ4LUtPZFVZUno3WnAyNEZHdmJBajFqSF9CWnFONW41S3B3bHYwUE1iRlZkeDBqem9WV2pRSXROc0RNUFZVaVJDTVkxTnVjOHVPRDY4WHV2YWRVZm15bXhvQjVtbW5ieFA5elBOQm5kel9MdE5jQlJQbkEzblhmUktrVWVaTWJiUzA?oc=5",
-  "first_seen": "2026-10-27",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 6,
-  "outlets": [
-   "Optimus",
-   "Humanoids"
-  ]
- },
- {
-  "statement": "Elon Musk says Tesla will start using humanoid robots next year - BBC",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wSHpGMGtYMVlPRzVVN2xJTnd6bVIxeVF0SG1JcExTV2pWaEloNk5wTWdYMmZGeHByVjg4NGQyZGxxX1NWdE44U0h1R2JWVHVNOWFSWWZYRm5ydw?oc=5",
-  "first_seen": "2026-10-27",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 4,
-  "outlets": [
-   "Humanoids"
-  ]
- },
- {
-  "statement": "Elon Musk reveals massive plans for Tesla and Optimus\u2014\u2018Things are really going to go ballistic next year\u2019 - Fortune",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcDRnVzdvTjFSc3dsTlFSWUtJeGhpZGEwaFdXNl82YWVMMmI2ZzlwRWhld1ZpRWRUUnNKM1VCbjRUR2JQaXVGMTZFLXNCeGpLaWtORGhfNVlqZjJET09fZ3Y4QTBNdjhlbFFucVB3NHBhdUNuYTZhLVZaMmdkR3lFR2kyaEkzYlZ0LXBTSkVzN0U5MmlqR0V3TGVFYXE3cE1lZ25XUmtfWnJWSlRUSlIyWQ?oc=5",
-  "first_seen": "2026-10-27",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-30",
-  "times_seen": 4,
-  "outlets": [
-   "Humanoids"
   ]
  },
  {
@@ -1152,28 +1174,6 @@
   "times_seen": 9,
   "outlets": [
    "SPCX"
-  ]
- },
- {
-  "statement": "SpaceX wants to launch next Starship this month (and catch it, too), Elon Musk says in 1st earnings call since historic IPO - Space",
-  "entity": "SpaceX",
-  "horizon_phrase": "this month",
-  "horizon": "2026-09-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPUHUxR2UtWnZHMFVRZ3I4eVJNWHFHWVctUjlaRk5RcG9WbWxaTjVKWDMzQ2hseFF4bHByMUpxZ2lwME1jTHJWSExyMVZtLUlZUm14N0oyYlBjcU9aa2FQWE84RmVrcVVHVTZoZl9Mb0lRSklvRHF1STV5amZ4UFE2a19sZzRKYzF4SU1ybHFzamRYZkkxQTBqN21yQ2tlNWgyQkJNQ3J2aGlwR0xCWnZCYWdqN1ZYcHBLTzA4TEpLT2FKeEtpa2prSHJiUldhU0hLbzRSTndRaDJuNVJvenVORUhWZ3NCYUFBSXdIX2RmZGtUTVZlb2k0d0JhSkRrRFFvNXlqanVEdVo5ams?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "starship",
-   "launch",
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-21",
-  "times_seen": 77,
-  "outlets": [
-   "Starship"
   ]
  },
  {
