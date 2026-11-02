@@ -338,7 +338,7 @@
    },
    {
     "count": 3,
-    "last_net": "2026-11-04T21:00:00Z",
+    "last_net": "2026-11-06T23:35:00Z",
     "lat": 40.969117,
     "location": "Jiuquan Satellite Launch Center, People's Republic of China",
     "lon": 100.343333,
@@ -2081,28 +2081,6 @@
    },
    {
     "description": "Details TBD.",
-    "id": "e91d1da2-819b-4523-95bf-39ac7daa871d",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-2_illustr_image_thumbnail_20251210054658.png",
-    "lat": 40.969117,
-    "lon": 100.343333,
-    "mission": "Unknown Payload",
-    "mission_type": "Unknown",
-    "name": "Ceres-2 | Unknown Payload",
-    "net": "2026-11-04T21:00:00Z",
-    "net_precision": "HR",
-    "orbit": "N/A",
-    "pad": "Launch Area 95A",
-    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "Galactic Energy",
-    "rocket": "Ceres-2",
-    "status": "TBC",
-    "status_name": "To Be Confirmed",
-    "url": "https://nextspaceflight.com/launches/details/e91d1da2-819b-4523-95bf-39ac7daa871d",
-    "webcast_live": false,
-    "webcasts": []
-   },
-   {
-    "description": "Details TBD.",
     "id": "711de6bc-f755-475b-a12f-ec5240da3a11",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193713.jpeg",
     "lat": 28.247059,
@@ -2142,6 +2120,28 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/a2423132-f965-423f-8b03-6891b775dc54",
+    "webcast_live": false,
+    "webcasts": []
+   },
+   {
+    "description": "Details TBD.",
+    "id": "e91d1da2-819b-4523-95bf-39ac7daa871d",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-2_illustr_image_thumbnail_20251210054658.png",
+    "lat": 40.969117,
+    "lon": 100.343333,
+    "mission": "Unknown Payload",
+    "mission_type": "Unknown",
+    "name": "Ceres-2 | Unknown Payload",
+    "net": "2026-11-06T23:35:00Z",
+    "net_precision": "HR",
+    "orbit": "N/A",
+    "pad": "Launch Area 95A",
+    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "Galactic Energy",
+    "rocket": "Ceres-2",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/e91d1da2-819b-4523-95bf-39ac7daa871d",
     "webcast_live": false,
     "webcasts": []
    },
@@ -2444,5 +2444,5 @@
    }
   ]
  },
- "fetched_at": "2026-11-02T01:20:04.737949+00:00"
+ "fetched_at": "2026-11-02T08:59:42.536692+00:00"
 }
