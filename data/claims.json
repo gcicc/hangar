@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-02",
-  "times_seen": 107,
+  "times_seen": 108,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-02",
-  "times_seen": 64,
+  "times_seen": 65,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-02",
-  "times_seen": 49,
+  "times_seen": 50,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -79,7 +79,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-02",
-  "times_seen": 43,
+  "times_seen": 44,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -97,7 +97,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-02",
-  "times_seen": 45,
+  "times_seen": 46,
   "outlets": [
    "X"
   ]
@@ -117,7 +117,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-02",
-  "times_seen": 10,
+  "times_seen": 11,
   "outlets": [
    "Optimus"
   ]
@@ -137,7 +137,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-02",
-  "times_seen": 26,
+  "times_seen": 27,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -158,7 +158,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-02",
-  "times_seen": 18,
+  "times_seen": 19,
   "outlets": [
    "Optimus"
   ]
@@ -178,7 +178,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-02",
-  "times_seen": 99,
+  "times_seen": 100,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -199,7 +199,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-02",
-  "times_seen": 7,
+  "times_seen": 8,
   "outlets": [
    "Starship"
   ]
@@ -220,7 +220,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-02",
-  "times_seen": 108,
+  "times_seen": 109,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -242,7 +242,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-02",
-  "times_seen": 104,
+  "times_seen": 105,
   "outlets": [
    "Starship",
    "Falcon"
@@ -325,7 +325,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-02",
-  "times_seen": 213,
+  "times_seen": 214,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -346,7 +346,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-02",
-  "times_seen": 134,
+  "times_seen": 135,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -388,11 +388,32 @@
   ],
   "primary": false,
   "last_seen": "2026-11-02",
-  "times_seen": 45,
+  "times_seen": 46,
   "outlets": [
    "Humanoids",
    "Optimus",
    "TSLA"
+  ]
+ },
+ {
+  "statement": "Billionaire Elon Musk says he\u2019ll give every kid in America shares of SpaceX next year - Fortune",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNnNpczdqQ3BTWl91R2tfZEZuOFJDaHVwM0F3aWxxVG9lUUFaWGNlbGNSR25KMnl2dlhNR1RkcmhORzNhaWxfZmdENzYweF9oUWpmWHdqbHptRmgzTkdkYTZJUlAzaXZxcTZuUmtWWkVvT1JtZ1lBZkRIc3FWQ1pFVFUtLXRRMGRkQW55N183Z2xNWGZDV1picHdvU2F1MFJVS09tVy00dVRnOF93V3VTWW1QaHVFY0N5aTRVR1RZLTN2dXJk?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-02",
+  "times_seen": 11,
+  "outlets": [
+   "SPCX",
+   "Musk"
   ]
  },
  {
@@ -516,27 +537,6 @@
   "times_seen": 78,
   "outlets": [
    "Starship"
-  ]
- },
- {
-  "statement": "Billionaire Elon Musk says he\u2019ll give every kid in America shares of SpaceX next year - Fortune",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNnNpczdqQ3BTWl91R2tfZEZuOFJDaHVwM0F3aWxxVG9lUUFaWGNlbGNSR25KMnl2dlhNR1RkcmhORzNhaWxfZmdENzYweF9oUWpmWHdqbHptRmgzTkdkYTZJUlAzaXZxcTZuUmtWWkVvT1JtZ1lBZkRIc3FWQ1pFVFUtLXRRMGRkQW55N183Z2xNWGZDV1picHdvU2F1MFJVS09tVy00dVRnOF93V3VTWW1QaHVFY0N5aTRVR1RZLTN2dXJk?oc=5",
-  "first_seen": "2026-10-19",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-01",
-  "times_seen": 10,
-  "outlets": [
-   "SPCX",
-   "Musk"
   ]
  },
  {
