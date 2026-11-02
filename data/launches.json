@@ -2146,39 +2146,6 @@
     "webcasts": []
    },
    {
-    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Starlink Group 15-21",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-21",
-    "net": "2026-11-06T02:21:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
-    "url": "https://nextspaceflight.com/launches/details/3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
-    "webcast_live": false,
-    "webcasts": [
-     {
-      "official": true,
-      "publisher": "SpaceX",
-      "url": "https://x.com/i/broadcasts/1aJbdEgvmWaKX"
-     },
-     {
-      "official": false,
-      "publisher": "SPACE AFFAIRS",
-      "url": "https://www.youtube.com/watch?v=z9uME3O2xHk"
-     }
-    ]
-   },
-   {
     "description": "Synthetic aperture radar Earth observation satellite for Japanese Earth imaging company iQPS.",
     "id": "db3500ac-965b-4ad8-b417-cb8d8d005586",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
@@ -2441,8 +2408,41 @@
     "url": "https://nextspaceflight.com/launches/details/b0dc988c-ea4a-423f-81b6-6b0fbe7cc17c",
     "webcast_live": false,
     "webcasts": []
+   },
+   {
+    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+    "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "Starlink Group 15-21",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-21",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
+    "webcast_live": false,
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "SpaceX",
+      "url": "https://x.com/i/broadcasts/1aJbdEgvmWaKX"
+     },
+     {
+      "official": false,
+      "publisher": "SPACE AFFAIRS",
+      "url": "https://www.youtube.com/watch?v=z9uME3O2xHk"
+     }
+    ]
    }
   ]
  },
- "fetched_at": "2026-11-01T21:48:40.050481+00:00"
+ "fetched_at": "2026-11-02T01:20:04.737949+00:00"
 }
