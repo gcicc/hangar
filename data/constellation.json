@@ -1,13 +1,13 @@
 {
  "data": {
-  "altitude_median_km": 465.5,
+  "altitude_median_km": 465.6,
   "by_launch_year": {
    "added": [
     11,
     163,
-    560,
+    559,
     1426,
-    1787,
+    1786,
     1855,
     3137,
     2218
@@ -16,12 +16,12 @@
    "cumulative": [
     11,
     174,
-    734,
-    2160,
-    3947,
-    5802,
-    8939,
-    11157
+    733,
+    2159,
+    3945,
+    5800,
+    8937,
+    11155
    ],
    "years": [
     2019,
@@ -35,7 +35,7 @@
    ]
   },
   "group": "starlink",
-  "in_orbit": 11157,
+  "in_orbit": 11155,
   "shells": [
    {
     "count": 4405,
@@ -46,11 +46,11 @@
     "shell": "~500 km / 43\u00b0"
    },
    {
-    "count": 1467,
+    "count": 1468,
     "shell": "~450 km / 97\u00b0"
    },
    {
-    "count": 424,
+    "count": 425,
     "shell": "~450 km / 70\u00b0"
    },
    {
@@ -66,11 +66,11 @@
     "shell": "~550 km / 70\u00b0"
    },
    {
-    "count": 178,
+    "count": 179,
     "shell": "~500 km / 70\u00b0"
    }
   ],
   "shells_caveat": "Altitude is derived from mean motion assuming a circular orbit, good to about +/-10 km, and grouped into 50 km bands. Counts are of the current fleet, not of any historical shell population."
  },
- "fetched_at": "2026-11-03T03:21:03.240095+00:00"
+ "fetched_at": "2026-11-03T11:42:41.399829+00:00"
 }
