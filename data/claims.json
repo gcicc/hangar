@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 111,
+  "times_seen": 112,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 69,
+  "times_seen": 70,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 54,
+  "times_seen": 55,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -79,7 +79,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 48,
+  "times_seen": 49,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -97,7 +97,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 49,
+  "times_seen": 50,
   "outlets": [
    "X"
   ]
@@ -117,7 +117,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 15,
+  "times_seen": 16,
   "outlets": [
    "Optimus"
   ]
@@ -137,7 +137,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 31,
+  "times_seen": 32,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -158,7 +158,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 23,
+  "times_seen": 24,
   "outlets": [
    "Optimus"
   ]
@@ -178,7 +178,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 104,
+  "times_seen": 105,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -200,7 +200,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 109,
+  "times_seen": 110,
   "outlets": [
    "Starship",
    "Falcon"
@@ -222,7 +222,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 111,
+  "times_seen": 112,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -244,7 +244,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 216,
+  "times_seen": 217,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -265,7 +265,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 137,
+  "times_seen": 138,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -286,7 +286,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 48,
+  "times_seen": 49,
   "outlets": [
    "Humanoids",
    "Optimus",
@@ -308,7 +308,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 2,
+  "times_seen": 3,
   "outlets": [
    "Autonomy"
   ]
@@ -328,9 +328,30 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 86,
+  "times_seen": 87,
   "outlets": [
    "Neuralink"
+  ]
+ },
+ {
+  "statement": "Elon Musk Pledges $10.5 Billion in SpaceX Shares to \u2018Every Kid in America\u2019 in 2027 - Yahoo Finance",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMjFkcGJrRnh6WVpOaW50a1R4YTRaUkp2anJ6TXFMN1VJQ1hfMWVEZEV4cnF0RUF0RHJIR1FMci00NlFtdmlKUWU2bzhnMXdkV1FjS3l0VnJKWkxsQmFmOXdjWlNYRVVUZlY2MHNYQ2l1SzBKVnRlMDhDNXZrcUprX2VCUjRHUEVTOUxqWkdBVFM?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-04",
+  "times_seen": 16,
+  "outlets": [
+   "SPCX",
+   "Musk"
   ]
  },
  {
@@ -412,27 +433,6 @@
   "times_seen": 9,
   "outlets": [
    "Humanoids"
-  ]
- },
- {
-  "statement": "Elon Musk Pledges $10.5 Billion in SpaceX Shares to \u2018Every Kid in America\u2019 in 2027 - Yahoo Finance",
-  "entity": "Musk",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMjFkcGJrRnh6WVpOaW50a1R4YTRaUkp2anJ6TXFMN1VJQ1hfMWVEZEV4cnF0RUF0RHJIR1FMci00NlFtdmlKUWU2bzhnMXdkV1FjS3l0VnJKWkxsQmFmOXdjWlNYRVVUZlY2MHNYQ2l1SzBKVnRlMDhDNXZrcUprX2VCUjRHUEVTOUxqWkdBVFM?oc=5",
-  "first_seen": "2026-10-19",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 15,
-  "outlets": [
-   "SPCX",
-   "Musk"
   ]
  },
  {
