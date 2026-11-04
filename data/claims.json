@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 112,
+  "times_seen": 113,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 70,
+  "times_seen": 71,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 55,
+  "times_seen": 56,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -79,7 +79,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 49,
+  "times_seen": 50,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -97,7 +97,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 50,
+  "times_seen": 51,
   "outlets": [
    "X"
   ]
@@ -117,7 +117,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 16,
+  "times_seen": 17,
   "outlets": [
    "Optimus"
   ]
@@ -137,7 +137,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 32,
+  "times_seen": 33,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -158,7 +158,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 24,
+  "times_seen": 25,
   "outlets": [
    "Optimus"
   ]
@@ -178,7 +178,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 105,
+  "times_seen": 106,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -200,7 +200,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 110,
+  "times_seen": 111,
   "outlets": [
    "Starship",
    "Falcon"
@@ -308,7 +308,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-04",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "Autonomy"
   ]
@@ -355,26 +355,6 @@
   ]
  },
  {
-  "statement": "SpaceX Says Starship Flies Commercial Payloads This Year. Here's What a Successful Flight Is Worth -- and What a Failure Costs. - The Motley Fool",
-  "entity": "SpaceX",
-  "horizon_phrase": "This Year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcElCLWRzZUxGb2loVkxzRlotZzVpbzQ2TGdPazV2MWNCVXp5RnNjUWRSM2RfWFlvTURDQm1VM1VNZmE0b1l2MHQ4dG5INFM3TG4tNEtKeXZmaXFjYzhSSWVVU2JNWEloZnlhLTVycEN3dzdRSGxHOVV0X3IwWHN3OUl2bHgyTnZrUnZPeWFiMk5zQkdGSXdhLQ?oc=5",
-  "first_seen": "2026-10-31",
-  "topics": [
-   "starship"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 9,
-  "outlets": [
-   "Starship"
-  ]
- },
- {
   "statement": "Tesla to have humanoid robots for internal use next year, Musk says - Reuters",
   "entity": "Tesla",
   "horizon_phrase": "next year",
@@ -388,8 +368,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 11,
+  "last_seen": "2026-11-04",
+  "times_seen": 12,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -409,8 +389,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 9,
+  "last_seen": "2026-11-04",
+  "times_seen": 10,
   "outlets": [
    "Humanoids"
   ]
@@ -429,10 +409,30 @@
    "optimus"
   ],
   "primary": false,
+  "last_seen": "2026-11-04",
+  "times_seen": 10,
+  "outlets": [
+   "Humanoids"
+  ]
+ },
+ {
+  "statement": "SpaceX Says Starship Flies Commercial Payloads This Year. Here's What a Successful Flight Is Worth -- and What a Failure Costs. - The Motley Fool",
+  "entity": "SpaceX",
+  "horizon_phrase": "This Year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcElCLWRzZUxGb2loVkxzRlotZzVpbzQ2TGdPazV2MWNCVXp5RnNjUWRSM2RfWFlvTURDQm1VM1VNZmE0b1l2MHQ4dG5INFM3TG4tNEtKeXZmaXFjYzhSSWVVU2JNWEloZnlhLTVycEN3dzdRSGxHOVV0X3IwWHN3OUl2bHgyTnZrUnZPeWFiMk5zQkdGSXdhLQ?oc=5",
+  "first_seen": "2026-10-31",
+  "topics": [
+   "starship"
+  ],
+  "primary": false,
   "last_seen": "2026-11-03",
   "times_seen": 9,
   "outlets": [
-   "Humanoids"
+   "Starship"
   ]
  },
  {
