@@ -14,8 +14,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 110,
+  "last_seen": "2026-11-04",
+  "times_seen": 111,
   "outlets": [
    "Neuralink"
   ]
@@ -34,8 +34,8 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 68,
+  "last_seen": "2026-11-04",
+  "times_seen": 69,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -58,8 +58,8 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 53,
+  "last_seen": "2026-11-04",
+  "times_seen": 54,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -78,8 +78,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 47,
+  "last_seen": "2026-11-04",
+  "times_seen": 48,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -96,8 +96,8 @@
   "first_seen": "2026-10-14",
   "topics": [],
   "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 48,
+  "last_seen": "2026-11-04",
+  "times_seen": 49,
   "outlets": [
    "X"
   ]
@@ -116,8 +116,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 14,
+  "last_seen": "2026-11-04",
+  "times_seen": 15,
   "outlets": [
    "Optimus"
   ]
@@ -136,8 +136,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 30,
+  "last_seen": "2026-11-04",
+  "times_seen": 31,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -157,8 +157,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 22,
+  "last_seen": "2026-11-04",
+  "times_seen": 23,
   "outlets": [
    "Optimus"
   ]
@@ -177,11 +177,160 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 103,
+  "last_seen": "2026-11-04",
+  "times_seen": 104,
   "outlets": [
    "Optimus",
    "Humanoids"
+  ]
+ },
+ {
+  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
+  "entity": "SpaceX",
+  "horizon_phrase": "this month",
+  "horizon": "2026-09-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Starship",
+  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "starship",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-04",
+  "times_seen": 109,
+  "outlets": [
+   "Starship",
+   "Falcon"
+  ]
+ },
+ {
+  "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - Electric Vehicles",
+  "entity": "Tesla",
+  "horizon_phrase": "This Year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjVidnZtaUtWNVdOUGlQaUNBS1phbDduR3ZDMWJJa0ludjV2MkdMNEZrOTB0TUsyYTBGSTQ3UWVOOUpyeU1LMTdNQUllUXJFZzIyZ3R3NjQ3RmlyRm00QnVPSHRxLVFlU2FadjlZTmtud2Z5cEZKQU5fZy1PRFdXNTRneHB0YTR6djVILXZ2cEFwcmg3X2ktTnlybmM1dTNITXJ4RUxURVVfSFgzRmZrVENLLWo?oc=5",
+  "first_seen": "2026-10-06",
+  "topics": [
+   "optimus",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-04",
+  "times_seen": 111,
+  "outlets": [
+   "Optimus",
+   "Optimus Features"
+  ]
+ },
+ {
+  "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHpreThLR3FVa1J6bWtuNmg3MXNHVUFqT1BaSzJMdTJvVTlPdHVKTHBpOUtKUklMTlA2ak9YbklTaTZRZUZ6NDdCS3llSlN2MWNXWmgtbmY2Yy1ydmlVRVRRWmxXWlhrbVNaUzF3TjUyTGZMVmprQVctbzlLZl9XY0JIZWdvUQ?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "optimus",
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-04",
+  "times_seen": 216,
+  "outlets": [
+   "Optimus",
+   "Optimus Features"
+  ]
+ },
+ {
+  "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VQXRiT1ludzJQQkJQLWRUSjhPdkdsb183d3ozcXV1UnhwTDM2UUQ0QzN1N0NxQmdVbGZKSzVzTnRheU9CaGpwaG00SGhSWjZla1p0WDZFZkhPR0t4NXlBbXVRQ3Y2NTVhT3BxUHAwOUQ1OWQz?oc=5",
+  "first_seen": "2026-09-18",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-04",
+  "times_seen": 137,
+  "outlets": [
+   "Optimus",
+   "Optimus Features"
+  ]
+ },
+ {
+  "statement": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year - WSJ",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09OVGpVM3FDM3I4RzJVTnVHcDk5c0Z5aHVEVS1BZ2RDRnVpQU13Yld0VTdWS0xBb3JGbWVzSHhZU0J0cVVUWjBlZWVNM3FDTGJOOWtFN2EwMTlkN1VmcjJSTDhiVnpYMFByX2c4RFhfd3pRSU0tSEhtcnlldGx1NU9GWGo3aVctSFRvTg?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-04",
+  "times_seen": 48,
+  "outlets": [
+   "Humanoids",
+   "Optimus",
+   "TSLA"
+  ]
+ },
+ {
+  "statement": "Tesla's Full Self-Driving is dead in the UK and Europe after legislators force rebrand \u2014 but BMW says its rival tech is coming in 2027 - TechRadar",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPSExtakw0VDBpSHBhVGFLQWtxZFN5VW5KWHdVV1BzaHkydDZVVDBwNVItZ2Y4aWRGVFdNTDVBX0VnVXRYandaLXZ4MGIyUXZ2YnlIZDJ2RUtEbjE2Q05XQndvbVhYU0t6UmNvY0I1YVlUTEEzVkxldjMzbTFMY3pGcElxRHkyTUNqb3RCOFh1Zk9qZGNGUGRmT2NGN1JyeXlnelpqc0E1X3BoOEJVLXBWdEpWRmhPQkgyMVBQUEhManEzb2lEQUs5QjZpTkxabS01a2xLd1otZXNGLWlaS1JBZktKdW8xakxpSXgxZzZubWV4TU9pSmNid2Rfdnc2Z19fU0dXVWxTTjc3UXhFWUVMTVBTMUQwSHNUOVNrVnFCSU9aQnN2SW9leXlQNA?oc=5",
+  "first_seen": "2026-11-03",
+  "topics": [
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-04",
+  "times_seen": 2,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Neuralink is set to begin trials of its Blindsight vision-restoring chip this year - Supercar Blondie",
+  "entity": "Neuralink",
+  "horizon_phrase": "this year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Neuralink",
+  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QR01TMGlKZDRZcllQVzBOeVNLc3dLMUVnT3pqTnhWMEJHWjJKMFZHbG9fZ0RBaTNJMGMtVUF4YVVwSjdKWTY3TW4yY2h1c2RnY0ZsUVBDSGZMZkxYWFhuS2swRW5yLVl5Y1hPcDQ0ZGEwSmpCbUQ0Vm9JMA?oc=5",
+  "first_seen": "2026-10-09",
+  "topics": [
+   "neurotech"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-04",
+  "times_seen": 86,
+  "outlets": [
+   "Neuralink"
   ]
  },
  {
@@ -202,28 +351,6 @@
   "times_seen": 9,
   "outlets": [
    "Starship"
-  ]
- },
- {
-  "statement": "SpaceX plans next Starship launch as soon as this month, catching it on land - Reuters",
-  "entity": "SpaceX",
-  "horizon_phrase": "this month",
-  "horizon": "2026-09-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNNm52RmJwblIzWVRhaXNpTWhwOHp6QTJNdS1KeFk2NnAwbDNpOGhOTFhHRGZUak81QkYydElTeVdqVkJmMzhvQ1VUM1BId0RXS2ZwNHV3TXV1RWFBcWRQdlpNd3dEY01UT3FPdGIwYWl3WU9WaXNtenNadGZPS0Noc0pvY2Y1SDNLNEE2eEpxWk9oaGp4YjdfazdFSV9KYktJa3llX0x6NWp4UW50dTBJUW0zeHJxUTVkT2NCeVlpTEc2Q3haZGpmSA?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "starship",
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 108,
-  "outlets": [
-   "Starship",
-   "Falcon"
   ]
  },
  {
@@ -331,93 +458,6 @@
   ]
  },
  {
-  "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - Electric Vehicles",
-  "entity": "Tesla",
-  "horizon_phrase": "This Year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjVidnZtaUtWNVdOUGlQaUNBS1phbDduR3ZDMWJJa0ludjV2MkdMNEZrOTB0TUsyYTBGSTQ3UWVOOUpyeU1LMTdNQUllUXJFZzIyZ3R3NjQ3RmlyRm00QnVPSHRxLVFlU2FadjlZTmtud2Z5cEZKQU5fZy1PRFdXNTRneHB0YTR6djVILXZ2cEFwcmg3X2ktTnlybmM1dTNITXJ4RUxURVVfSFgzRmZrVENLLWo?oc=5",
-  "first_seen": "2026-10-06",
-  "topics": [
-   "optimus",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 110,
-  "outlets": [
-   "Optimus",
-   "Optimus Features"
-  ]
- },
- {
-  "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHpreThLR3FVa1J6bWtuNmg3MXNHVUFqT1BaSzJMdTJvVTlPdHVKTHBpOUtKUklMTlA2ak9YbklTaTZRZUZ6NDdCS3llSlN2MWNXWmgtbmY2Yy1ydmlVRVRRWmxXWlhrbVNaUzF3TjUyTGZMVmprQVctbzlLZl9XY0JIZWdvUQ?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "optimus",
-   "autonomy"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 215,
-  "outlets": [
-   "Optimus",
-   "Optimus Features"
-  ]
- },
- {
-  "statement": "Tesla will start selling Optimus robots in 2027 - ukrmedia.news",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VQXRiT1ludzJQQkJQLWRUSjhPdkdsb183d3ozcXV1UnhwTDM2UUQ0QzN1N0NxQmdVbGZKSzVzTnRheU9CaGpwaG00SGhSWjZla1p0WDZFZkhPR0t4NXlBbXVRQ3Y2NTVhT3BxUHAwOUQ1OWQz?oc=5",
-  "first_seen": "2026-09-18",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 136,
-  "outlets": [
-   "Optimus",
-   "Optimus Features"
-  ]
- },
- {
-  "statement": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year - WSJ",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09OVGpVM3FDM3I4RzJVTnVHcDk5c0Z5aHVEVS1BZ2RDRnVpQU13Yld0VTdWS0xBb3JGbWVzSHhZU0J0cVVUWjBlZWVNM3FDTGJOOWtFN2EwMTlkN1VmcjJSTDhiVnpYMFByX2c4RFhfd3pRSU0tSEhtcnlldGx1NU9GWGo3aVctSFRvTg?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 47,
-  "outlets": [
-   "Humanoids",
-   "Optimus",
-   "TSLA"
-  ]
- },
- {
   "statement": "Billionaire Elon Musk says he\u2019ll give every kid in America shares of SpaceX next year - Fortune",
   "entity": "Musk",
   "horizon_phrase": "next year",
@@ -439,26 +479,6 @@
   ]
  },
  {
-  "statement": "Tesla's Full Self-Driving is dead in the UK and Europe after legislators force rebrand \u2014 but BMW says its rival tech is coming in 2027 - TechRadar",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPSExtakw0VDBpSHBhVGFLQWtxZFN5VW5KWHdVV1BzaHkydDZVVDBwNVItZ2Y4aWRGVFdNTDVBX0VnVXRYandaLXZ4MGIyUXZ2YnlIZDJ2RUtEbjE2Q05XQndvbVhYU0t6UmNvY0I1YVlUTEEzVkxldjMzbTFMY3pGcElxRHkyTUNqb3RCOFh1Zk9qZGNGUGRmT2NGN1JyeXlnelpqc0E1X3BoOEJVLXBWdEpWRmhPQkgyMVBQUEhManEzb2lEQUs5QjZpTkxabS01a2xLd1otZXNGLWlaS1JBZktKdW8xakxpSXgxZzZubWV4TU9pSmNid2Rfdnc2Z19fU0dXVWxTTjc3UXhFWUVMTVBTMUQwSHNUOVNrVnFCSU9aQnN2SW9leXlQNA?oc=5",
-  "first_seen": "2026-11-03",
-  "topics": [
-   "autonomy"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-03",
-  "times_seen": 1,
-  "outlets": [
-   "Autonomy"
-  ]
- },
- {
   "statement": "Tesla begins Optimus humanoid production with first deliveries slated by end of 2027 - Travel Tomorrow",
   "entity": "Tesla",
   "horizon_phrase": "by end of 2027",
@@ -477,26 +497,6 @@
   "times_seen": 25,
   "outlets": [
    "Optimus"
-  ]
- },
- {
-  "statement": "Neuralink is set to begin trials of its Blindsight vision-restoring chip this year - Supercar Blondie",
-  "entity": "Neuralink",
-  "horizon_phrase": "this year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Neuralink",
-  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QR01TMGlKZDRZcllQVzBOeVNLc3dLMUVnT3pqTnhWMEJHWjJKMFZHbG9fZ0RBaTNJMGMtVUF4YVVwSjdKWTY3TW4yY2h1c2RnY0ZsUVBDSGZMZkxYWFhuS2swRW5yLVl5Y1hPcDQ0ZGEwSmpCbUQ0Vm9JMA?oc=5",
-  "first_seen": "2026-10-09",
-  "topics": [
-   "neurotech"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-01",
-  "times_seen": 85,
-  "outlets": [
-   "Neuralink"
   ]
  },
  {
