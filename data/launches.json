@@ -220,6 +220,16 @@
    },
    {
     "count": 6,
+    "last_net": "2026-11-11T11:40:00Z",
+    "lat": 40.960482,
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "lon": 100.298059,
+    "name": "Launch Area 94 (SLS-2 / 603)",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 6,
     "last_net": "2026-09-26T00:39:00Z",
     "lat": -39.262833,
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -227,16 +237,6 @@
     "name": "Rocket Lab Launch Complex 1B",
     "spacex": false,
     "top_provider": "Rocket Lab"
-   },
-   {
-    "count": 5,
-    "last_net": "2026-10-23T19:25:00Z",
-    "lat": 40.960482,
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.298059,
-    "name": "Launch Area 94 (SLS-2 / 603)",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 5,
@@ -297,16 +297,6 @@
     "name": "Ariane Launch Area 4",
     "spacex": false,
     "top_provider": "Arianespace"
-   },
-   {
-    "count": 3,
-    "last_net": "2026-11-30T00:00:00Z",
-    "lat": 13.7199,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.2304,
-    "name": "Satish Dhawan Space Centre Second Launch Pad",
-    "spacex": false,
-    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 3,
@@ -397,6 +387,16 @@
     "name": "Launch Area 140",
     "spacex": false,
     "top_provider": "CAS Space"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-10-30T18:21:00Z",
+    "lat": 13.7199,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.2304,
+    "name": "Satish Dhawan Space Centre Second Launch Pad",
+    "spacex": false,
+    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 2,
@@ -2142,6 +2142,28 @@
     "webcasts": []
    },
    {
+    "description": "Details TBD.",
+    "id": "d66590ab-b273-47ff-b85a-608b62851b4b",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
+    "lat": 40.960482,
+    "lon": 100.298059,
+    "mission": "Unknown Payload",
+    "mission_type": "Unknown",
+    "name": "Long March 2D | Unknown Payload",
+    "net": "2026-11-11T11:40:00Z",
+    "net_precision": "HR",
+    "orbit": "N/A",
+    "pad": "Launch Area 94 (SLS-2 / 603)",
+    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 2D",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/d66590ab-b273-47ff-b85a-608b62851b4b",
+    "webcast_live": false,
+    "webcasts": []
+   },
+   {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
     "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
@@ -2443,30 +2465,8 @@
       "url": "https://www.youtube.com/watch?v=z9uME3O2xHk"
      }
     ]
-   },
-   {
-    "description": "First uncrewed orbital test flight of the Gaganyaan capsule.",
-    "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg",
-    "lat": 13.7199,
-    "lon": 80.2304,
-    "mission": "Gaganyaan-1",
-    "mission_type": "Test Flight",
-    "name": "LVM-3 | Gaganyaan-1",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad",
-    "pad_location": "Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "rocket": "Launch Vehicle Mark-3 (GSLV Mk III)",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/dfac5ab7-7017-454f-b6cf-eeed277a97b5",
-    "webcast_live": false,
-    "webcasts": []
    }
   ]
  },
- "fetched_at": "2026-11-05T05:39:23.557088+00:00"
+ "fetched_at": "2026-11-05T14:13:23.441761+00:00"
 }
