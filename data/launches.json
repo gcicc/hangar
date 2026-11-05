@@ -630,6 +630,16 @@
    },
    {
     "count": 1,
+    "last_net": "2026-11-10T06:00:00Z",
+    "lat": 33.216667,
+    "location": "Sea Launch",
+    "lon": 126.366667,
+    "name": "ADD Offshore launch platform",
+    "spacex": false,
+    "top_provider": "Agency for Defense Development"
+   },
+   {
+    "count": 1,
     "last_net": "2026-11-14T00:00:00Z",
     "lat": -39.260881,
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -637,16 +647,6 @@
     "name": "Unknown Pad",
     "spacex": false,
     "top_provider": "Rocket Lab"
-   },
-   {
-    "count": 1,
-    "last_net": "2026-11-30T00:00:00Z",
-    "lat": 33.216667,
-    "location": "Sea Launch",
-    "lon": 126.366667,
-    "name": "ADD Offshore launch platform",
-    "spacex": false,
-    "top_provider": "Agency for Defense Development"
    }
   ],
   "passengers": [
@@ -2120,6 +2120,28 @@
     ]
    },
    {
+    "description": "Note: Launch vehicle name is provisional.\r\n\r\nFirst orbital full version launch of the South Korean military small satellite launch vehicle, after 2 sub-orbital tests of individual stages on 30 March and 30 December 2022, and 1 orbital test flight without the 2nd stage on 4 December 2023. Details TBD.",
+    "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192440.png",
+    "lat": 33.216667,
+    "lon": 126.366667,
+    "mission": "Demo Flight",
+    "mission_type": "Test Flight",
+    "name": "Mir | Demo Flight",
+    "net": "2026-11-10T06:00:00Z",
+    "net_precision": "HR",
+    "orbit": "LEO",
+    "pad": "ADD Offshore launch platform",
+    "pad_location": "Sea Launch",
+    "provider": "Agency for Defense Development",
+    "rocket": "Mir",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
+    "webcast_live": false,
+    "webcasts": []
+   },
+   {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
     "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
@@ -2443,30 +2465,8 @@
     "url": "https://nextspaceflight.com/launches/details/dfac5ab7-7017-454f-b6cf-eeed277a97b5",
     "webcast_live": false,
     "webcasts": []
-   },
-   {
-    "description": "Note: Launch vehicle name is provisional.\r\n\r\nFirst orbital full version launch of the South Korean military small satellite launch vehicle, after 2 sub-orbital tests of individual stages on 30 March and 30 December 2022, and 1 orbital test flight without the 2nd stage on 4 December 2023. Details TBD.",
-    "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192440.png",
-    "lat": 33.216667,
-    "lon": 126.366667,
-    "mission": "Demo Flight",
-    "mission_type": "Test Flight",
-    "name": "Mir | Demo Flight",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "ADD Offshore launch platform",
-    "pad_location": "Sea Launch",
-    "provider": "Agency for Defense Development",
-    "rocket": "Mir",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
-    "webcast_live": false,
-    "webcasts": []
    }
   ]
  },
- "fetched_at": "2026-11-04T23:20:29.353613+00:00"
+ "fetched_at": "2026-11-05T05:39:23.557088+00:00"
 }
