@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 118,
+  "times_seen": 119,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 76,
+  "times_seen": 77,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -55,7 +55,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 56,
+  "times_seen": 57,
   "outlets": [
    "X"
   ]
@@ -75,7 +75,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 22,
+  "times_seen": 23,
   "outlets": [
    "Optimus"
   ]
@@ -95,7 +95,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 38,
+  "times_seen": 39,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -116,7 +116,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 30,
+  "times_seen": 31,
   "outlets": [
    "Optimus"
   ]
@@ -136,7 +136,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 111,
+  "times_seen": 112,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -158,7 +158,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 116,
+  "times_seen": 117,
   "outlets": [
    "Starship",
    "Falcon"
@@ -179,7 +179,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 9,
+  "times_seen": 10,
   "outlets": [
    "Autonomy"
   ]
@@ -199,7 +199,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 17,
+  "times_seen": 18,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -220,7 +220,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 15,
+  "times_seen": 16,
   "outlets": [
    "Humanoids"
   ]
@@ -240,7 +240,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 15,
+  "times_seen": 16,
   "outlets": [
    "Humanoids"
   ]
@@ -260,9 +260,231 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "Starlink"
+  ]
+ },
+ {
+  "statement": "Tesla to wind down Cybertruck production at Texas gigafactory next year, Elon Musk says - Automotive News",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObTN2OWM5WFUyNFRkODlDb29wOEZPREVwX05GVFA3OXVkUnJzaFdvQjBXazJtc3hfRkRXa0hLLTU1MlpYdWQtZHk2SVdiZ2RRYXdMeUdfampNbk5ybkZQSlUyTGtCVjNwWWs3TFRBZUROTVJ1RURva2ZQdjVtNjZsV2NnSjdJZw?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-06",
+  "times_seen": 1,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Tesla plans to wind down Cybertruck production in 2027 to expand Cybercab output - Mezha.net",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5oalJRQlN0eWx1a1RfT1ZsamctTUlydGlOYlpTbWlvZ00wRE1rVk5hM1Vub1M5OFJDUENfdlV3MmZlbUlMRERVdElxdmp5TE5zNEJyaURxU3ZpSDRTVjlXaVdaeWx3anBHbUd6OWxaUllJaHpVUTFlYlNqT3dnUQ?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "autonomy",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-06",
+  "times_seen": 1,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Tesla will stop Cybertruck production in Texas next year to make room for autonomous Cybercab vehicles - Informat.ro",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNkE4LUxtUTV0ZXZRZmpUR2M4RExwcEdJNl9KVGhnWnVsdzI3Q0dyTndLQ0p3YmwtT21CdU5nUlFSd21iWTI0SVk1Z3pxUmhCdzVJSVFmbV9vRkppV19JRHVEUDQ4MUxFbC14NmFhUGJsUHBwaFkySmZUUXBFMm1CR1lBSzRZd014RFU0RHIzZ2ZVZXpqWmJWb05RQQ?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "autonomy",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-06",
+  "times_seen": 1,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Musk Says Tesla Will Wind Down Cybertruck Production Next Year To Make Room For Cybercab - Forbes",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUZNLTVPQ29tNld4bHBMTXNQcFhjYmRMdmZEX1A1M3VfUVhiMFlLdlJBZjU2RTZmUTAyczdhcjB2VEFCbHBHV1FtV09NNzRJcHlzX1dOWXRfRTFqQ1FxV1h3NFdJWV93SmpySE5ZWktvQ21zWFR6MHBrT3pWM3N4X09jQXNyakVHVVJzcy1ibzB6ZF81d180X3o5OGM4SXJvM2RmQ3RVVkFvRlZ1NlNxci02bG12MGM?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "autonomy",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-06",
+  "times_seen": 1,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Elon Musk Says Tesla Cybertruck Production Will Wind Down Next Year - Motor1.com",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcGhlQldhMTI4UUhTbFlyT1FGSnEzRWl0ODVGSVlNV2hRamtjLWozOThackpjcE5ETS0zMXNyX1dWV3FfMHF3eEhYT1V4UGtObWlkUWtXVFpTNUxONnRFS2x2bmdIM2pLVXh6X2JhVERjbUR4WmxpNVhTNEx1a2xwMThZYw?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-06",
+  "times_seen": 1,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Tesla to Wind Down Cybertruck Production in Texas Next Year, Elon Musk Says - Bloomberg.com",
+  "entity": "Tesla",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRGdvX0pvbXJYRDkwem1xU0pQQVpPaFZlemVSdUFkTFdQMU5iNDVGTDJOLVd6RzNDcmFvaG1ReXhobE5UbmFlTzYxNmt4bjJ2MDlaSEtZa181Q3dnb3BTSl9CdURSWWo2ODRiQzBGa2FnMURLTzV2Q09LRVRKVTUzb1NMV0ZtNk9vYjBGY0NMR2xnWWg0ajlVVjgxQ0xmU1hKdU85Y2JsTTg1UzhBVmpz?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-06",
+  "times_seen": 1,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Elon Musk Announces Tesla Will Discontinue Cybertruck Production After 9 Months \u2013 He Says, \u201cTesla Will Wind Down Cybertruck Production In The Middle Of Next Year To Make Room For Cybercab Production\u201d - Torque News",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPVzFnTTlwdlBGQUZkMnJHZWZpMGFudi1tNGhaYUVkQjQ4WHRfRGdFTEtIUVpxelZfQ1NPSG4yMDVYdTlCZjFXc0Y4WTdYN3lKSW1ETlhReUFDWi0wNVZfeWxRRWlSSG5wQ1BybXhXd3F6RldROHZiVFlsVnNEcHlPOHZudGlPNGhfV08zZ2x5Q3pUdGp4ckZ3MUdEdDF2ZHFoM04ydktzdmNlSVR2MG83aWMxUHd0cms0SklhTWFYX0JldjhF?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "autonomy",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-06",
+  "times_seen": 1,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Tesla will stop making Cybertrucks in 2027 - The National",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQXVYV21RRlo0WnE0YTBaQ3ZZT1Z1a3pPalFaVG5keklhNWZxQWdHbWMzQUlFSV9lQi1zbHpyZnpsRmxLTDNQMElWQnF0enFSeFFubVZqeU1VTF9iVS1VVnU3dHE2WnhKYmhsZ09ieTZkZmlFNVprbGhBY0lzU1Jkb3BydXJ6czNKN3Zwbk9HNG02dlU4bGJnWVNPWVFjM3M0d2o1ajhOa2h1RDRjT1VtaFpnSGJqUjdvSDF6MkhuNA?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-11-06",
+  "times_seen": 1,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Tesla to wind down Cybertruck production at Texas gigafactory next year, Musk says - marketscreener.com",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOVpnTEZWYlBVbEhieGFWM1hsMk43Q0NlY1UzTExvQ0hSNHN3Nm5Pb2taZElBR0Q3NzRtVk15TDhjNE9nS2hzZG1KVllJbUdBdm8tSjA3Y0tQZkwtd3J4cDJUbHZhU25DcFVnMnNGckZDTmxOYkxkRWI4Q2VNbGo2TWdRT3d3NWFmYUZzbXR2UUg5RlRYR1F5T1NJRDlaRHU1dUU4OEhPc3JkYTJPcXMwMmI0WHB5Z3RRLWdIQWNEa0c1WmhJQ1VJSjVKZmtjQXM?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-06",
+  "times_seen": 1,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Tesla to wind down Cybertruck production at Texas gigafactory next year, Musk says By Reuters - Investing.com South Africa",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQU3M0MHZGRlhrUFRMRl8yRnlaaTN3dUVxTm1BSTRzMXlPX0s4TG50eFBramM2MTJMNXhQbUVyYm96bFVpLVRYVHRNemt3ZDNGSkFBakExVDBTS1pnV0U2Z24wTTdDdmFacVlULVJUeE15MVpXbmhQUVFzU2tYa1dfcVFXVXZHclRGSm9mczFXc3hOSEltbWJOUm5lWGR3RkZlSHUtSmItdGR4MS05YnFfMFNfUGI1VXhwTVV6cVJ3N0RGaXZjMGdQUUxlX3dZUXpJNEdN?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-06",
+  "times_seen": 1,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Tesla will end Cybertruck production in Texas next year, says Musk - TimesLIVE",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNV19KWU1CejBBMldhTzlDdExPaWpGb3pYV2hJSk5ObUwtNUp3NjhqUnMzUWVjbmY0aEczUGZzMF9mWmUyb0hYdHNQZWg4azRIVUlvVllIeGdIMWIwMlV5LXMxTXgtTGpBaWkxRUY5b1FRMzJ5V1JiQlp4M0Y2cUsxSHU0cE5YMmQ3Z2RqejZKUEtmQXpkZDZvRGtfSk9pWFFFa2pSRU1uR3pzeUgzQW9pdXZ0NFI?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-06",
+  "times_seen": 1,
+  "outlets": [
+   "Production"
   ]
  },
  {
@@ -2191,227 +2413,6 @@
   "times_seen": 23,
   "outlets": [
    "Humanoids"
-  ]
- },
- {
-  "statement": "Elon Musk Plans New Tesla Roadster Unveiling In October; The Stock Slips - Investor's Business Daily",
-  "entity": "Musk",
-  "horizon_phrase": "In October",
-  "horizon": "2026-10-31",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "TSLA",
-  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1yUU1peWVXdlFieFFBTFRzUnBwcnZYU18xd3cwTTdha25kUlhrVlR3QmxiRGJFTzBOdjZiX0JFZWhXWDI0cXpxZU1hTDREUk5ZTzQ3Sk5oMUU3RkRmdFZyOWpJUjJLZGhjaUdMMHYyMGkyWTVMOW9vM0RXblVLUE0?oc=5",
-  "first_seen": "2026-09-14",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-18",
-  "times_seen": 20,
-  "outlets": [
-   "TSLA"
-  ]
- },
- {
-  "statement": "Hyundai Group Says It Will Overtake Tesla in Self-Driving Data Within 5 Years - eletric-vehicles.com",
-  "entity": "Tesla",
-  "horizon_phrase": "Within 5 Years",
-  "horizon": "2031-09-14",
-  "horizon_precision": "approx",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOEc5VDlRTU96eWszVHNuVTZTYk8wbUlmTTB3NGlxcnlZb2UwelU5OWV1bmNsZFlPVlJLdzFnb0NzMnVWcWhLMGd0LTc4Qy1aUUR2TDF3OWpXVGdMbjU2UlZSclFHaDl0TDN0dWVVTW9ITnlKV2kyYzFxOFpCQkZpeWxNM05DMFFmdmxHTHpRZVBPZ3oxaElFMDBRVkM4MG5KVjMxb0pQNF9RaTBIZW1LeFV3?oc=5",
-  "first_seen": "2026-09-15",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-09-17",
-  "times_seen": 10,
-  "outlets": [
-   "Production"
-  ]
- },
- {
-  "statement": "Elon Musk\u2019s plans to colonize space launches this year, and Tesla robots will be the first residents - New York Post",
-  "entity": "Musk",
-  "horizon_phrase": "this year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYU1DVlRGN2ppQ0V0WU5sdlZzNk1qaEtJZ3JINDVJcXZOTWl5Q2JQV2J4ZFR1Z01iR056QnBZczNlNmU1Wm50TWNIR09YMExsVld0eU9GcERjckdNOFV4eVVZTjNXeV85aTFSeUlNVWtxVjZIMGYwTEdRREc3TFI4a29VVndEZXdTbnJRY1E2Um1PWjBnQVowVWxsQUd1U09paTliR3cwS3l2QUhRLUllUG9uZ0dpUDRJSDdvU0Z1bDc0cmRENmR3bDJ5TzJzNXQ0STZIeA?oc=5",
-  "first_seen": "2026-09-13",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-09-17",
-  "times_seen": 4,
-  "outlets": [
-   "Optimus"
-  ]
- },
- {
-  "statement": "SpaceX's Starship Set for First Revenue Flight This Month, CFO Says - finance.biggo.com",
-  "entity": "SpaceX",
-  "horizon_phrase": "This Month",
-  "horizon": "2026-09-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1IMUY2SFhFLWttVFBJVHlLZ3lLUDBPcmVDU0tYLV8yYkJRU2dsMlNkZWp3RENVLU56bXU1LWFxMGRNTDNFbXowa0wyVG5JTmlrbUQzTkFyUkJla1I5dXk4T3RraDVoWHQxdzA3NEVpN2tKZlNFSXc?oc=5",
-  "first_seen": "2026-09-12",
-  "topics": [
-   "starship",
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-16",
-  "times_seen": 21,
-  "outlets": [
-   "Starship"
-  ]
- },
- {
-  "statement": "SpaceX CFO: Starship to Launch Upgraded Starlink Satellites This Month, Set to Begin Generating Revenue - finance.biggo.com",
-  "entity": "SpaceX",
-  "horizon_phrase": "This Month",
-  "horizon": "2026-09-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE96S2MwODBLaFFhWWxPR0xMXzRpQ2ROUWFhYklZUkx4c2xSNlVyUF82RjdaMlpmUFVwRVBXR0FxbmFQVk5odmlFWnpSQjJVelJIMlJxMTlESkY0bFFfbVB0NGtteXpzQl83QUZYaDFUc2pxRGYwamc?oc=5",
-  "first_seen": "2026-09-12",
-  "topics": [
-   "starship",
-   "starlink",
-   "launch",
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-16",
-  "times_seen": 21,
-  "outlets": [
-   "Starship"
-  ]
- },
- {
-  "statement": "SpaceX Exec Says Starship Will Generate Revenue for First Time \u2018Later This Month\u2019 - Benzinga",
-  "entity": "SpaceX",
-  "horizon_phrase": "This Month",
-  "horizon": "2026-09-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVEhNYkNOTDJZeU14SXo3S0JoLV9reWNxM0dGekRYakVGUFBlUExOV29qR1J3eF9ldkJjM2RDZ1NzZEtzZE4tUG9mRVBacksta1laQzJiNEpGcVRrVHJvRnNXNFFJRW50eEZNMzJCdFhxb29QTVJJaF8ycVY3V0lVeGN3NWZ2S0lSU3g5aGdtMEdZLUY0eWVLSmJYTVROTENEd0E?oc=5",
-  "first_seen": "2026-09-12",
-  "topics": [
-   "starship",
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-16",
-  "times_seen": 20,
-  "outlets": [
-   "Starship"
-  ]
- },
- {
-  "statement": "Tesla's fully autonomous Cybercab is coming to New Zealand next year - Driven Car Guide",
-  "entity": "Tesla",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNa3ZvNk9IUnFaTmhiZkxMOTh1UExzZnZPWVcxWmVIa3pGb0hOaXR4WVViVTRvVmpCYVFiSVhxTkl5dXBteFQydFNDcERhVWtxV1ZjbmZwUUd6U1BMNTJTZWstN0R1Y252Z05WWURVOFM3anpKa0FTbFVLT3l4X0c1RkZCVDNRZUJJdy1WeFdXQ2RWUFA3c2tSVXRjWnVRLWZUSGdWUWRzOFJQdw?oc=5",
-  "first_seen": "2026-09-15",
-  "topics": [
-   "autonomy"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-15",
-  "times_seen": 3,
-  "outlets": [
-   "Autonomy"
-  ]
- },
- {
-  "statement": "Elon Musk Says SpaceX Will Try to Catch a Returning Starship This Month - The Motley Fool",
-  "entity": "Musk",
-  "horizon_phrase": "This Month",
-  "horizon": "2026-09-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "Starship",
-  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdHM1OWNURnd6YmYxRldXOXA2dXpMTnZYeDFVMmh0c2g5c1kwU3hjalg2Z2ViSkVBTlhwclc2eklUUFU0dDZQcDVPZnJYSWZ4VFZ1U0FQa0FoTWRPUVFCczBNX2FiWU9YOXB0Z0VpWkxhYWlRZmZ2TWpHVFpSd0d4SlpIMjd6aE5POUN4U3FxSjRJMnp3RzNxSw?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "starship"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-15",
-  "times_seen": 16,
-  "outlets": [
-   "Starship"
-  ]
- },
- {
-  "statement": "Tesla unveils European Semi with cameras for side mirrors, deliveries start next year - driveteslacanada.ca",
-  "entity": "Tesla",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRVlwZmdIMzZyT0JDa2hXSzlWWFZmOXJkel9rajJTSVdXM1dxVHU2TEcyM0ZydkJlNktyUE5NTmRKOUF2VGxQZVlVVWRQTG1MeHJrZmFfckF5OW9BSzdnYnNOdEk1RGRzTWpvSFFpZWRUYTRDQloxVE4zUkhTYXhNdnZGbmIxb1U?oc=5",
-  "first_seen": "2026-09-12",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-14",
-  "times_seen": 12,
-  "outlets": [
-   "Production"
-  ]
- },
- {
-  "statement": "SpaceX shares hold steady with strong Q2 growth and ambitious $100B revenue target by 2026. - Pluang",
-  "entity": "SpaceX",
-  "horizon_phrase": "by 2026",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQU2o4RzVzSUFqUDVueGp5TUR1bV9UVXVlX201RnQ1dDRSWEU0LWRvSjJTZHozb3dHQ1ZMUFUweWZQOU0yM09EcVotT3Y2XzlHQjYxSVkyeVk1SHc0Vi00RVpzNmxHZHR4X3BGMXhiSnl0QWtpM1lITzhhNjlLVUh0eUFmMEdaOS1EQzA0?oc=5",
-  "first_seen": "2026-09-13",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-14",
-  "times_seen": 6,
-  "outlets": [
-   "SPCX"
-  ]
- },
- {
-  "statement": "SpaceX Stock Price Forecast: As Stock Lockups Intensify, Can SPCX Peak at $225 by 2027? - TradingKey",
-  "entity": "SpaceX",
-  "horizon_phrase": "by 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPd1VTTTRfRmptVkFNT1JPcFVsZ1VqMXBsUXZSQmNNeVd4OUswMUF2YUNHZGFzTGI5SWRzeGpSMk9CRFpxdXJRMGJ0dnU2cVhYaEJvWHlqTVFnNE1NOGd3UHVjVUxRRUp4amxUbWNoc3NabkxnWlJjUm93YmFPMngya0t2cmZJVUliSlFkUkJuTmktUFQyOUR1RFJVM2FYSXllU2s4OHdpVEZRaWt4NEVNODlIYnF1dnd5R2ZxU2NfSXY?oc=5",
-  "first_seen": "2026-09-12",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-14",
-  "times_seen": 5,
-  "outlets": [
-   "SPCX"
   ]
  }
 ]
