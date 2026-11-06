@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 120,
+  "times_seen": 121,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 78,
+  "times_seen": 79,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -55,7 +55,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 58,
+  "times_seen": 59,
   "outlets": [
    "X"
   ]
@@ -75,7 +75,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 24,
+  "times_seen": 25,
   "outlets": [
    "Optimus"
   ]
@@ -95,7 +95,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 40,
+  "times_seen": 41,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -116,7 +116,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 32,
+  "times_seen": 33,
   "outlets": [
    "Optimus"
   ]
@@ -136,7 +136,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 113,
+  "times_seen": 114,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -158,7 +158,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 118,
+  "times_seen": 119,
   "outlets": [
    "Starship",
    "Falcon"
@@ -199,7 +199,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 19,
+  "times_seen": 20,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -220,7 +220,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 17,
+  "times_seen": 18,
   "outlets": [
    "Humanoids"
   ]
@@ -240,7 +240,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 17,
+  "times_seen": 18,
   "outlets": [
    "Humanoids"
   ]
@@ -260,7 +260,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 6,
+  "times_seen": 7,
   "outlets": [
    "Starlink"
   ]
@@ -301,7 +301,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 2,
+  "times_seen": 3,
   "outlets": [
    "Autonomy"
   ]
@@ -343,7 +343,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 2,
+  "times_seen": 3,
   "outlets": [
    "Production"
   ]
@@ -383,7 +383,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 2,
+  "times_seen": 3,
   "outlets": [
    "Production"
   ]
@@ -503,7 +503,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
-  "times_seen": 1,
+  "times_seen": 2,
   "outlets": [
    "Autonomy"
   ]
@@ -523,9 +523,70 @@
   ],
   "primary": false,
   "last_seen": "2026-11-06",
+  "times_seen": 2,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Cybertruck final countdown: Tesla plans to wind down pickup production in 2027 - Interesting Engineering",
+  "entity": "Cybertruck",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWVNOSWlKamxXR3N5TzRiWC1VblNxb29ZOFR3WlEwZHBBR09TckVVVEVKZlFnc0d5X3pfcjlQUUptZThGTkZuMnVFWnNIU3JIWWQ5TEN0b3pKQnZqWGdvQnRQQ1lrRVBfRnZMVURBQ0lSQU0yNUFieURwZndpODdkV3U0X18wdFhhWGhabXphMnZRb3ZaX05obFBYbDI?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "launch",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-06",
   "times_seen": 1,
   "outlets": [
    "Autonomy"
+  ]
+ },
+ {
+  "statement": "Tesla will phase out Cybertruck production next year, Musk says - Los Angeles Times",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU3MwNzZJT3k1V09xNUxodERwTXlmcGlKNWFJSzV5T1BlZGxkb1drTjVIZnNRY0RxU001cjBnZ0hTXzJoMlZnSlA3Mm8xQVBhWEliX0NabW5FOVAyR0ROckJVX2YzV2diLWV6bFVKMWFsVC1xM2N4SWU5bUtmYnFMbTNyYXFxNjRWaDhrYjBXQ1Q2YzBZUnpxVGhCc2g0LUtQNUxUUmdjR3FBUHo5eDI2aFlR?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-06",
+  "times_seen": 1,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "SpaceX surges 9% as Musk says Q4 revenue is expected to grow 70%, with a target of $500 billion next year. - \u5bcc\u9014\u725b\u725b",
+  "entity": "SpaceX",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaHRlUlgwdWJSME1pOU83VVNxbTY5emUyenR6dWsxWHFqdURRZW1IaHVzU3NVekhORjBaZVBJb2NoQU5HZ2xtTnF0eEhEZkt6T1JfY1NHYlJTLVQzMXBzM1I4Nll4dUl6dHRhREtjNUpoVzlZNjd3TkJ5QVdvM1RLc213S1JERDlINHM5cnEzUnZZaDlqSlczVHBn?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-06",
+  "times_seen": 1,
+  "outlets": [
+   "SPCX"
   ]
  },
  {
@@ -2358,66 +2419,6 @@
   "times_seen": 3,
   "outlets": [
    "Starlink"
-  ]
- },
- {
-  "statement": "TakeMe2Space to launch India\u2019s first orbital data centre mission onboard SpaceX\u2019s Falcon 9 in 2028 - The Times of India",
-  "entity": "SpaceX",
-  "horizon_phrase": "in 2028",
-  "horizon": "2028-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Falcon",
-  "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQbTQyQzRlNklPeE5wbFNOMklxSkY5ZVAtdm9fSVRzS0xFRHE4Q2R6ZUY1VjM5bl9taU5HTTlCbXpxY0NVc05hQkdNR3NzcVdHMGFiS19DRjY3MDZBSEl3RTZNMDFHOFhNV2U0S3lVdEJQU3N4NGppUWhkUkJmendtdWdvLThWVVp0b1BoSFo4Vm1aRFNhMVZBckMtVm1YZFZPbDk0LTM4aE9FM0VHWE0xSldubWRKa1FyT1NuREl0WEJTRWtFUVo0Q0k5THF3MUcycUw5RG1GTTBPMENhcTVqVEw3QWd4dWJZOUI4bENwdnBVbWhubTVuVnlVU215ZEY2TEJj0gGIAkFVX3lxTE55YlRDbzIzU0Zsb1BBTHZsX2tNc0gzV0VQSzVRaktKSDZDYjFrTFhUWXFHVTdPR2xsQ1NweExRRzhOYkpQZ19kczI1c3JfVEE0b3EwTmg0aGtXVnplX0FvT0F2cnlTNkM1c1lKRmlKaFhwbWhmWHYzN1p3Q3B5TV9CSFNPR1U4a190UEVJTVo4dm5QS0ZxSXBqS3NYSEYyVUR4S2xjYmRMblhuUHN3S2pWOVdxSzZJOGtUd0tnN2IzeGZ0dTdfMExZREF6Mm5Nb3dwQ0t6TkJ6NmtnV3JqcU92MmJZZ05CbFZlWW1wcE1wWFhBZkNnVjVSekFzRU9yNWszYnoxM21LSQ?oc=5",
-  "first_seen": "2026-09-28",
-  "topics": [
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-29",
-  "times_seen": 4,
-  "outlets": [
-   "Falcon"
-  ]
- },
- {
-  "statement": "SpaceX plans 1 more California rocket launch this month. Track liftoff - vcstar.com",
-  "entity": "SpaceX",
-  "horizon_phrase": "this month",
-  "horizon": "2026-09-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "Falcon",
-  "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1p5c0RCSzJSOVhZT1Z4dU5LOFd5ZFFyZUxzM3F3aDlPcEZSTC1ZRzE2OG5YOU5iTExnNlY5RmlSYURvY0cwekt0bGhlNzI2SEhmUnlENE94TUhjYmI1VC1Wc1hINjRBOUJSQlpKNGxDNHNoaVFlaGVRb05RMk1sYk5LUVlXNEVTUXROQXZLOFA3ZGM5SEw0Y05SYkxYaGRnWlZDMS1VbTBJR0lwdXNPd1JNOWd1R0FBNzQwOVJZaFpfZ0E0REE?oc=5",
-  "first_seen": "2026-09-25",
-  "topics": [
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-28",
-  "times_seen": 12,
-  "outlets": [
-   "Falcon"
-  ]
- },
- {
-  "statement": "Tesla energy storage deployments jumped in \u2018crucial AI transformation year'; company expects margin compression in 2026 - Energy-Storage.News",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2026",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Energy",
-  "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNX2dkTDM3VzFxQ0F1RFhVRE5vRzlLTWg0aVYzalVqaVZCckVqdF9HeW5VM0duOVozbG90Y2VqMk4ybGlBNTlGY0lqckJUTDJXZXgzZUhBNWpYRFhMOGc1eTBuLUM0QkJ5bXdHazVmM2xVck1wNFpuRllWUGt3aG9jcFRVcDdPZmlZZ2U2d24tY0I0MTh6WmFUcWUtdUhvZDF4NVltbXcyUlgyTy1Dem1pWVBTbDljOUdTamM5MUVPaDZfblAzWDN3VGNQU3FnNWdObk9YcTlvWGtsTWtIYmR6RHJzRQ?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "energy"
-  ],
-  "primary": false,
-  "last_seen": "2026-09-27",
-  "times_seen": 69,
-  "outlets": [
-   "Energy"
   ]
  }
 ]
