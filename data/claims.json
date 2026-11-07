@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 122,
+  "times_seen": 123,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 80,
+  "times_seen": 81,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -55,7 +55,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 60,
+  "times_seen": 61,
   "outlets": [
    "X"
   ]
@@ -75,7 +75,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 26,
+  "times_seen": 27,
   "outlets": [
    "Optimus"
   ]
@@ -95,7 +95,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 42,
+  "times_seen": 43,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -116,7 +116,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 34,
+  "times_seen": 35,
   "outlets": [
    "Optimus"
   ]
@@ -136,7 +136,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 115,
+  "times_seen": 116,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -158,7 +158,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 120,
+  "times_seen": 121,
   "outlets": [
    "Starship",
    "Falcon"
@@ -179,7 +179,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 21,
+  "times_seen": 22,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -200,7 +200,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 19,
+  "times_seen": 20,
   "outlets": [
    "Humanoids"
   ]
@@ -220,7 +220,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 19,
+  "times_seen": 20,
   "outlets": [
    "Humanoids"
   ]
@@ -282,7 +282,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "Production"
   ]
@@ -302,7 +302,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "Production"
   ]
@@ -341,7 +341,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "Autonomy"
   ]
@@ -361,7 +361,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "Autonomy"
   ]
@@ -382,7 +382,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 2,
+  "times_seen": 3,
   "outlets": [
    "Autonomy"
   ]
@@ -402,7 +402,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 2,
+  "times_seen": 3,
   "outlets": [
    "Production"
   ]
@@ -422,7 +422,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 2,
+  "times_seen": 3,
   "outlets": [
    "SPCX"
   ]
@@ -442,9 +442,29 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 1,
+  "times_seen": 2,
   "outlets": [
    "SPCX"
+  ]
+ },
+ {
+  "statement": "Confirmed: Tesla Cybertruck Ending Production in 2027 Due to Disastrous Sales and Other Issues - autoevolution",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOS3hIVTQ1RWdUcENadklqY2xYTzlHX1FHR2x4WHdWYmxQYVQ5U2lXVVltMUVRaENsaHRtQ3FWWlpqajdkRHlPXzN4SXlSNmp2MW95SnI4Z2lkX28wSUdMWUhfR0l6cEVaTXNSOExEeGxtWEUtRGlOdzBqeHZKX0UxVVlEaTJBeGpsR0ZJOFpZa09qVW1tYmU1SXAwSlpINU1jUnRtQ29LMkhaT1RnczNfRHEzVGU5ZWRtaE4zc2FWMVZSc2VwZW1ONTZMaV8?oc=5",
+  "first_seen": "2026-11-07",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-07",
+  "times_seen": 1,
+  "outlets": [
+   "Production"
   ]
  },
  {
@@ -2397,28 +2417,6 @@
   "times_seen": 3,
   "outlets": [
    "SPCX"
-  ]
- },
- {
-  "statement": "Musk: Starship Targets Weekly Launch Cadence in 2027 After V3 Starlink Deployment - BASENOR",
-  "entity": "Musk",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Starlink",
-  "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNS0dSNVZyell1YmlWRklaSXdFNUlOR3k3YXgzV2dKeFhnZVBQbTI1TW8yZ3haRVg5N2Q2cmw1NWUzNmJJbE5EWncwQW1pQ2dQaDJpZm51dkdaMEF4bU5IT3NOd0JRTmt2Y2VvZEVhV3JzUUYyRmVQMzlGVVY1bk12ZU1MNTV5VmdjZHhnMDlVbWl6Z3EzRjlnXzFRRFg4OEpGaW9FajZNcThBVHVrU0FVZnIxSnZrQQ?oc=5",
-  "first_seen": "2026-09-29",
-  "topics": [
-   "starship",
-   "starlink",
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-04",
-  "times_seen": 18,
-  "outlets": [
-   "Starlink"
   ]
  }
 ]
