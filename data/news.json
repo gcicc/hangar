@@ -1,6 +1,6 @@
 {
  "data": {
-  "corpus_size": 1446,
+  "corpus_size": 1465,
   "labels": {
    "market": "Markets & Filings",
    "spacex": "SpaceX",
@@ -16,19 +16,27 @@
   "sections": {
    "market": [
     {
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUjY3ZVl4cGhqU2g0bHNONllTZWZmalAzWUdyY0tvVTI4M2RTZDVOWGtUcnhxRUtwNjZrRTZrcFZqYWh0S2ktUy13YkpBeDNJVzBGc1JMYmFOMldiWi0wZ0w2NDkxbWQ2dUMxcGNfTmE2VnE2NzA0NEhuanUtMV8xTXFKakVQYzQ?oc=5",
-     "published": "2026-11-07T12:47:00+00:00",
-     "score": 4.206,
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVFVaREdwb29kZHB0WU5zN3RCM0Q5QjBtM2NKUnJnOE42WTZXejVIMGJ0R3RRT2JsbU1Nb2w5dVhrVWZuTGFYdE9rUGwwMThneWxSbEJsWEZnN2JIMm5vZTlvVldQeUNvTFZsX2UyT2xBbl9kR1lBMkVkZ2lNUXVic2NVMUhBREstVDFzRHZMMGRCTGNvT1dZbHVXWktpckhVXzhYUzh3?oc=5",
+     "published": "2026-11-07T21:05:00+00:00",
+     "score": 4.666,
      "source": "SPCX",
-     "title": "Better IPO to Buy: Anthropic vs. SpaceX - The Motley Fool",
+     "title": "SpaceX's December Lockup Is Nearly the Biggest Share Unlock in IPO History. History Says This Is What Happens Next. - Yahoo Finance",
      "topics": [
       "money"
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQWFhmSzc3OTBJVU1QbnBIVFpPZURJc3Bna01BaUJLelVkV1RCcF9NQWFSZURkOHFlNlU4R0NDWUVoWXVpUkFnM2RiRElKMER0a3JBekZkVUlvem42SmtEaWg3VjFvOHZEcnI0dTg2TzRMbF92LUx4Y3ZySXFIZ0h1ZjllcWs4c1g0UEFIYW9sRWVkX2VyOUY5OTZjSFROX05p?oc=5",
+     "published": "2026-11-07T19:11:44+00:00",
+     "score": 3.523,
+     "source": "SPCX",
+     "title": "Alphabet (GOOGL) Expands SpaceX Stake to $69 Billion and Deepens AI Ties - Yahoo Finance",
+     "topics": []
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUHR3QjR3R0xDV01MZUY1dEhDOWpsTUh1c1dVU21CeHRQQmhHY1U5clcyY0VYbUVad282UGR0Z3NVM29rVlZZd2ZCMlhSUDM0VUpBMkJZa0ZmdWZhdUw4NEhPR3lQa0IybmdqQ2hGWG5QX3l4MW5kTUp5M0oyaVZlY3JUZDhVdE03NTZjQU5RZw?oc=5",
      "published": "2026-11-07T07:50:00+00:00",
-     "score": 3.518,
+     "score": 2.826,
      "source": "SPCX",
      "title": "Should investors shun SpaceX stock and the Anthropic IPO as AI panic strikes? - Yahoo Finance UK",
      "topics": [
@@ -38,7 +46,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMDlNWlM3SlhXTXpjQmEzc0g0S3V0X19nclJtNE9aV3VfRzdHYTI0MEJVM0dRelVVNVNqc3J0TE5CYTR6cWVZT0dweEtELWJrTkxoSmZobHdzdDZUQk1OMlVHcVR1V0RNODN4dTZSdTY4TDJEWEZENngtS2dvTDRMZ2dNUWZIQQ?oc=5",
      "published": "2026-11-07T11:58:01+00:00",
-     "score": 3.274,
+     "score": 2.72,
      "source": "SPCX",
      "title": "Google just increased its SpaceX stock stake to $84 billion - Finbold",
      "topics": [
@@ -48,27 +56,9 @@
     {
      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBhZ3hXUmk2ZGJsQThPaW9rQklwWWdwSHRGZzl0Q1J0UWhVX3B0SWdXaXZ6dU44QXA2M2tVRU8tQVBIUXhPajZtOVJXc2VQWVNQTGROY0hKblBTV0JvV0gzUlBMaEpPMjE3VWlYNm4tWi1SQWw3M1E?oc=5",
      "published": "2026-11-07T08:35:00+00:00",
-     "score": 2.898,
+     "score": 2.344,
      "source": "Musk",
      "title": "One of Musk's Earliest Backers Cashes Out: Scottish Mortgage Exits Tesla, Cuts SpaceX Stake to 11.1% - BigGo Finance",
-     "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzVlZUNHp5RmZHc1BnRnlvR0lkalFidGtVclJoQ0tpSkxrejBkQmt6TTd4R0VWUV9DOTl5cW0xTkI0akZLOE1EZVM3YkpGWEc3YUI0aTRCOWRGcHBNWkdwcG9EcnZ4SmRxLXF0cmlhZnVxWGhWUU9fYg?oc=5",
-     "published": "2026-11-06T22:00:00+00:00",
-     "score": 2.152,
-     "source": "SPCX",
-     "title": "Elon Musk Offers to Cancel SpaceX Government Contracts: Can the Stock Live Without Them? - BeInCrypto",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTE9Sc3VRajM0c3ktNUViLWFNVndCQWNNRldQRTNma3I1WDF2emFvcjRJNlNNTldwVFRua3pVa0F0YjM4MFZGeFhDN3o4aG5mdW1rbVRZTGotaWtRNTN2TE1QWWxXeExrY2pJcVFjRFZHeU40MENlRmcxZ1ZORzNBQWtMRGZKUDk4MklQdDJ4TkJOdWg2eHFyWW1jV0w?oc=5",
-     "published": "2026-11-06T21:45:00+00:00",
-     "score": 2.118,
-     "source": "SPCX",
-     "title": "Elon Musk opens the door for a big SpaceX acquisition - MarketWatch",
      "topics": []
     },
     {
@@ -83,15 +73,22 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTkYxTTBvNUdPaVNiTUhHdWFWMlAyOVZxTFZicGlneVd5X2hBZWJ2RkZiV3h4RVc5T2RpNGJFZmF4ODFlRG5QemxPVGF6dzA2b015dV9FakpHQ0lRdGtkeTNNWG5iUXl2Z2FhZ05DWmpGajdWSzRmWlpHMWs2MlBGSmpuRzltUU1WbFNzOEQwZExqTk44bGctbE8zM3BCWDFweWtCRms4Z2Z3emdFam1QZ0NNU0RXSGhnVWJ1Rmhn?oc=5",
-     "published": "2026-11-06T16:46:16+00:00",
-     "score": 1.141,
-     "source": "TSLA",
-     "title": "Tesla Shares Up After Musk Says Cybertruck Production Will Wind Down - marketscreener.com",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBzVlZUNHp5RmZHc1BnRnlvR0lkalFidGtVclJoQ0tpSkxrejBkQmt6TTd4R0VWUV9DOTl5cW0xTkI0akZLOE1EZVM3YkpGWEc3YUI0aTRCOWRGcHBNWkdwcG9EcnZ4SmRxLXF0cmlhZnVxWGhWUU9fYg?oc=5",
+     "published": "2026-11-06T22:00:00+00:00",
+     "score": 1.46,
+     "source": "SPCX",
+     "title": "Elon Musk Offers to Cancel SpaceX Government Contracts: Can the Stock Live Without Them? - BeInCrypto",
      "topics": [
-      "production",
       "money"
      ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTE9Sc3VRajM0c3ktNUViLWFNVndCQWNNRldQRTNma3I1WDF2emFvcjRJNlNNTldwVFRua3pVa0F0YjM4MFZGeFhDN3o4aG5mdW1rbVRZTGotaWtRNTN2TE1QWWxXeExrY2pJcVFjRFZHeU40MENlRmcxZ1ZORzNBQWtMRGZKUDk4MklQdDJ4TkJOdWg2eHFyWW1jV0w?oc=5",
+     "published": "2026-11-06T21:45:00+00:00",
+     "score": 1.425,
+     "source": "SPCX",
+     "title": "Elon Musk opens the door for a big SpaceX acquisition - MarketWatch",
+     "topics": []
     },
     {
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWU5pbVlPZ1RwcDBNVUppZWh5dTVDSTFlclVzeDl2VngxNkpvaFpXOFVWRFg4SlJjaFlYUU1LV1FCU3owTndDbnVlWVUtZUJ1WTZpSmN6LUFmUkoyeXc3am92U0tETHA1SXdySUgzOXMxLTRyZGFGRVFRYVNSdURjRmNodnRyZUduZTRvOFM2X0QzdkVXZi1LUVNKdm9mMEtiQzI0dFNn0gGrAUFVX3lxTE1fMnpvLTJzc0tlLXg5X2ZodzlJRTJKN3pISGJrUHFUY3lOcTg4eEt3cVRIZ3V3NXhCUnVVVTR6NDJwa25pN0hOaHBaSWQzX0tJclltcFRPcmI1d1pZS0ZDWW5zWi1nQ3E0dS1oYzhlZTMydFhwbUdUSnFKUS1vdHcxSlQ1RUQtMDcxaHFzdkhUUTFFRUtfXzFvd3ExMmNJbWJGbnRhSjVBdjAwSQ?oc=5",
@@ -102,31 +99,29 @@
      "topics": []
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5fYlhWR0poM1doZ2dfOFRNU1FoM3NwN3VoVzV1N0xXOG5OZklmTU9RXy11WkpJVFA2TGxGVXRiZHkxc3lNQ3VZRk1JcEQ0U3Vqa0piWEJCUTFlLXdlaldIRFAxWUY3SXFHOUhkcUs0V00?oc=5",
-     "published": "2026-11-06T15:24:57+00:00",
-     "score": 0.99,
-     "source": "TSLA",
-     "title": "Scottish Mortgage sold its last Tesla stock and cut its SpaceX stake - Quartz",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0p4cWRxT0RzTDYtYU9UZ1JSdGdwd2dKbDlFQVBGbW12a1BHNmtKcXBtTDZlNWFrSzNZUE5DNFhJb3dVRGxXUEJGMnJuMTJYRmNoMXppa1M5MGtTcldPNjF4ODhUd01IYTlibVREaGNtS1ZDR0NJc0pSYkJtbzdEV25Lb0ZyMC1zUnk3aktBeUFkcEZiNnhudzdSM0R1U3BEV1lORW1EOTRSSTJLeDRlZExpNFhJaGFKc2c?oc=5",
-     "published": "2026-11-07T17:34:55+00:00",
-     "score": 0.974,
-     "source": "TSLA",
-     "title": "4,295 Tesla, Inc. $TSLA Shares Bought by Tamar Securities LLC - MarketBeat",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM2JBai1ZT0VrTy01dWZHaU5iSHpramxNbmozblNrdVhsdkNVZjNRNFFFU2JUWnViSWRNVzczU0c5djJHajA2SVM3dlJtQXRtcHBJV3VaMXp0RnBxMVJvMENNSzllNDVQRnhsTzhtNnFfc1VGVmoyalFpMGJjZGhYRVQ5dENGWUNDSWdaZXQwaFlSZmFsWU1KUTNpQ1J4NkhjUXVsdEhwTDZPdw?oc=5",
-     "published": "2026-11-07T17:13:21+00:00",
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxORlk4VFNJUzAwM1hPb3pxV2VNSVBIVmdvb1VjUHF5Q29xM3JDUV9RUWZDNUNBb0xEMWJTUVdhVFl1RElwbVZXQmZmRVRKSjhVVFMxX0l5ZmdwTlR3cGxhaE1JMWNIWlltTk1CUHRmeG4wcGRtSnNfYW5Qejl0MXRLd2tjZi1JZlBTTFg1VktVWXJnUlBmYXREVy1QYlNHN1ZSVnBVZTQ5MkNoVlBaX1FxWHN4X3g1WEsyZGQ4eU9iZkFQYmZINWR4WFFGN050Qk91?oc=5",
+     "published": "2026-11-07T22:11:09+00:00",
      "score": 0.964,
      "source": "SPCX",
-     "title": "Morgan Stanley says SpaceX stock is now cheaper than the S&P 500 - TheStreet",
+     "title": "SpaceX Director Donald Harrison Resigns from Board - The Globe and Mail",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5PUXotbEFpamZqOGNVR1V3QjBZa1JlMk9BYlEtSXlRVVdZaUx5enhFczJmYzd6RzluMld3T1IxWFpKdUdFd3RLU0hxWTRuV28xVXRhUGt3QUlRWXVnZjcwNld0Y0Uzc3ZySXc1Ykx0dlA5SGtVbVFTZkN1QknSAYIBQVVfeXFMTjR2c3F2OV81OXNqTUxINlRMODJwbzhSNjgxNFlDOURjY0dxSDczVEZKWUdZaWRCc0RGMERLaEY3Y0NJMkIzdHFLMktLTEpkbHY3NTRyUllEYmJ3TWFFSXk5LUZRYUg0NVdpODRzaWJ0Slg3U293UkpETms3aUlDeWlmdw?oc=5",
+     "published": "2026-10-21T07:00:00+00:00",
+     "score": 0.9,
+     "source": "SPCX",
+     "title": "SpaceX stock jumps 10% after earnings beat and Musk hints at Tesla tie-up - CNBC",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9Xd0txUl95UWQzdi1zYzBLRWxZNVE3ZmhXR0pwUG9kRWZkX2VQOWJfNnVlbURaeV93Nnp1aFVXQUJmSVFLRWQ3MWFzanFGZUhiUXl0S0ZVdklCNVdwWnMya3VoT1Y3cHpGckloX3Jn?oc=5",
+     "published": "2026-10-20T07:00:00+00:00",
+     "score": 0.9,
+     "source": "SPCX",
+     "title": "SpaceX earnings soar past expectations as AI business surges - Axios",
      "topics": [
       "money"
      ]
@@ -134,22 +129,11 @@
    ],
    "spacex": [
     {
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY3BITktOY2J0MmR2T09pblM5bFQtS2xicUhaU29OazFySV9hSkFpM0xGZXFGR2tCRl83SUZTR25pQWdsQ0RzWXBZT3BRS1NCLTV4aXJiWXMtcTZrR1NEdUVuZWYxUS1UcDA1RkNjd2EyZjdtcHNFS0ZwYUpfMEpXRG05cVpMTkJyNEY2VWxiUmVYQzd1d1hKN3RldjEteGfSAaQBQVVfeXFMTmZid3BUUkdDdUpMYWp0cHk2X01sQzVVcFRBRlRoUWNVZG9UQXd5RVJ5b0hPSzFZWXJmZ1FCNl9Xdk1wMGFuM1B5TFN6TnRDeU1sa0xKamcxVURNTElyaUc3Q3NVV1JLQmpXOWJYQUxYblFXcXhSR2FYWFg0UWZZZkFzTjFmX0p4VkRtc0xjM3J2bEVpaGY5Sk0zVmhtcGllYkhTV1g?oc=5",
-     "published": "2026-11-07T18:05:58+00:00",
-     "score": 5.933,
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYU9PTEhzZ2JJdHZMVk9WN2dQakRIODEtUDBNVVhSZFJVbV9DS2JvU244TDRqeEJNbFl1ZnpCREtCOHh6c2FhOGNzcUZXRkdfdkdPb2xYOWN2VDVEVnItWXQwR0lVdDNyNFdYaVVPbTZ1QjdJSXYwLW5sLTZNVkRId1RR?oc=5",
+     "published": "2026-11-07T21:00:29+00:00",
+     "score": 5.587,
      "source": "Starship",
-     "title": "SpaceX plans to launch Starship 15 flight on Nov. 13 - ValleyCentral.com",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc05NSTlyTExQQmtMQnhkQU5MYXc1ZEJfZlZhaTVKVFVqNXlfMkhFZVlEMEdKVzFtNXNtQzRCNkpORFBLYURYUmJIRnZpc0U1RmFzS3lDX1hlbmVUNElVRnBwUHVXS2lwY2hVYnRScDM0ZE1jZHJNY2FSOHhOTE5oRXN1Q1FrNUE1N2YxWkx3YUs?oc=5",
-     "published": "2026-11-07T17:23:25+00:00",
-     "score": 5.815,
-     "source": "Starship",
-     "title": "SpaceX sets target date for 15th Starship launch at Starbase - KRGV",
+     "title": "SpaceX sets Nov. 13 date for Starship launch and catch - SpaceNews",
      "topics": [
       "starship",
       "launch"
@@ -157,8 +141,8 @@
     },
     {
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc3VZRVNfVllGcVdaT2ZXQzVuR0lMdTNRNmJmcF9kVlkzZWNId19HTG5nV09uQmdNa3lObnZzUTloX1BUb29OSjJNclpnNGs1a2FjNDRWTGRBN3J4cEtCV1U1ZkxhcU1XLUpJOTFvUXhveUR5QjJVTFNyWUNmWXJHRGtRbF9WczNaMmltWGZFLW8yN0VsTkpqM3dhbm9DWlltM0IzRGs2R0JCR090Zk9Wa3lCRVF6aFZUZGt0LQ?oc=5",
-     "published": "2026-11-07T16:54:03+00:00",
-     "score": 5.733,
+     "published": "2026-11-07T19:27:57+00:00",
+     "score": 5.33,
      "source": "Starship",
      "title": "Starship Flight 15: SpaceX shares launch timing for its most ambitious orbital mission on November 13 - Starlust.org",
      "topics": [
@@ -168,19 +152,51 @@
      ]
     },
     {
-     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-classified-mission-space-force-ussf-432",
-     "published": "2026-11-07T01:41:58+00:00",
-     "score": 5.333,
-     "source": "Space.com",
-     "title": "SpaceX launches mystery mission for US Space Force in gorgeous sunset liftoff from California (video, photos)",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY3BITktOY2J0MmR2T09pblM5bFQtS2xicUhaU29OazFySV9hSkFpM0xGZXFGR2tCRl83SUZTR25pQWdsQ0RzWXBZT3BRS1NCLTV4aXJiWXMtcTZrR1NEdUVuZWYxUS1UcDA1RkNjd2EyZjdtcHNFS0ZwYUpfMEpXRG05cVpMTkJyNEY2VWxiUmVYQzd1d1hKN3RldjEteGfSAaQBQVVfeXFMTmZid3BUUkdDdUpMYWp0cHk2X01sQzVVcFRBRlRoUWNVZG9UQXd5RVJ5b0hPSzFZWXJmZ1FCNl9Xdk1wMGFuM1B5TFN6TnRDeU1sa0xKamcxVURNTElyaUc3Q3NVV1JLQmpXOWJYQUxYblFXcXhSR2FYWFg0UWZZZkFzTjFmX0p4VkRtc0xjM3J2bEVpaGY5Sk0zVmhtcGllYkhTV1g?oc=5",
+     "published": "2026-11-07T18:05:58+00:00",
+     "score": 5.102,
+     "source": "Starship",
+     "title": "SpaceX plans to launch Starship 15 flight on Nov. 13 - ValleyCentral.com",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNS3FJbEFiZjZSaFF4MGdNR1FXN2pyYjdzYTBSMDJTcThIMzE5S3RZMktISEpjeHVZdXhfTzZHUUxXSHNET1FUSlNuSTdXdWdPb1pRX1pNVWVYejAxMDRXNUJvMlZmWGlnaGV3NnYwM0tUUHlZY2JrRG9IRzJLQnZITnFDRGhkdw?oc=5",
+     "published": "2026-11-07T18:00:58+00:00",
+     "score": 5.089,
+     "source": "Falcon",
+     "title": "SpaceX has launched a secret US mission: what are they hiding? - UkrMedia News",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNc05NSTlyTExQQmtMQnhkQU5MYXc1ZEJfZlZhaTVKVFVqNXlfMkhFZVlEMEdKVzFtNXNtQzRCNkpORFBLYURYUmJIRnZpc0U1RmFzS3lDX1hlbmVUNElVRnBwUHVXS2lwY2hVYnRScDM0ZE1jZHJNY2FSOHhOTE5oRXN1Q1FrNUE1N2YxWkx3YUs?oc=5",
+     "published": "2026-11-07T17:24:11+00:00",
+     "score": 4.986,
+     "source": "Starship",
+     "title": "SpaceX sets target date for 15th Starship launch at Starbase - KRGV",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBQa0xBQzRodHNDcXFyVDF0M1lPeUVDazJWUTBGSnl3d0luY25tXzdmR3luVW05ME5rMnVpNDluRWY3REJkR0liVzdvenRiTVk3TldpcDFYZTJKS1JhVGZEUGx6ajVGUHBlUUVYUGdZOERwc0VlRTlic2VSMlV0M2c?oc=5",
+     "published": "2026-11-07T16:15:00+00:00",
+     "score": 4.794,
+     "source": "Falcon",
+     "title": "SpaceX Launches Mysterious Military Mission as Clues Point to Secret Satellites - The Daily Galaxy",
      "topics": [
       "launch"
      ]
     },
     {
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObUJOdmhXUExCaDVEMnUxMW1uWUN2aUdrVnR0eEwtOFhvMXdYSjZDS1VoYXBVUHBhOU9LSXFkcmhDNmdMcU5mbEluNWxTSG9xMjNhbmZMTjdXMWZKMnNZQVZMSjlob2FMOEJnbVIzeExZUE1FSUhoUVhXR2pIdlMyeWJiUTc1VW1Ga05CYV9YaHRTdzlJSDcxQXJpVG9kMktUR0RlWlpqOThmNHdab2xDemoxcmJpdw?oc=5",
-     "published": "2026-11-07T01:41:58+00:00",
-     "score": 5.333,
+     "published": "2026-11-07T01:48:55+00:00",
+     "score": 3.981,
      "source": "Falcon",
      "title": "SpaceX launches mystery mission for US Space Force in gorgeous sunset liftoff from California (photos) - Space",
      "topics": [
@@ -188,9 +204,19 @@
      ]
     },
     {
+     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-classified-mission-space-force-ussf-432",
+     "published": "2026-11-07T01:41:58+00:00",
+     "score": 3.949,
+     "source": "Space.com",
+     "title": "SpaceX launches mystery mission for US Space Force in gorgeous sunset liftoff from California (video, photos)",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNHI2UFVqWFYzNWExX0w4OE1VZE5nbWxleFAxZHdSQlAzazVUcHlFZnhzRTQyN0tHcGN5SS1EbGpsMkFxNEpXT1JyNDhMWThFaUZSbEJKMTJvRXFfWThHa3Y5THhqVEdpWTB4QUhhQzZJaWU5TlZqUjlQdVYzdzJRNllSYTlpS2dKOEhpY1FtU2c3ZEpVZWljLW5QQnFBWHdRd2pKYlo0dFo4Uk9GRjRjU25tUWJvSjB1VDl5SA?oc=5",
      "published": "2026-11-07T10:40:14+00:00",
-     "score": 4.695,
+     "score": 3.864,
      "source": "Falcon",
      "title": "SpaceX stock: USSF-432 launch marks latest weekly catalyst - ad-hoc-news.de",
      "topics": [
@@ -199,9 +225,29 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZnFTakhzWmtKYjE0dXNxMWRpLXk5ZExzeFIwajZ2MnpvV0pTUHpZZmU2TFdSeTFZVVBWRmJqQ1lIeWItYlhlNnVfaUdYV0F0Ymh5akdZTE9ScDBPZFJjaHBKcEdZWGV6MDBhaS1CUTRMQmN6cmx6YmlZTWlwS0dGStIBf0FVX3lxTE40Y3VmSm95bjJPRlN0YkxZcWpXdFdLeVZxOHRrSUE1ZHU1dW5WTjlJWGNIV0Q0UkVoMGV0VW00dW5nU09ibk1ERm5VaXF0RXBmUl9MME4xdmFYUHl4MTVPWGRMY0tPUlZRby1tWXFpM3VRdVhoYnJqV0hwaXVLdlk?oc=5",
+     "published": "2026-11-07T08:10:15+00:00",
+     "score": 3.448,
+     "source": "Falcon",
+     "title": "SpaceX launched a secret mission for the U.S. military - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xeEpyR3FEdWpoRGdOTzRMOGRCTHBUWnZRLWNudTJQaUxDWHJoV3NxUFdDcF80dTNWUjRPLVBUVTN6U0pwMXlpZXphV2RyamIzNElzcFBldnVuemdkTzlZdkJzVDIxSEgwUzc2TUVCZEozQQ?oc=5",
+     "published": "2026-11-07T16:56:50+00:00",
+     "score": 3.274,
+     "source": "Starship",
+     "title": "Alphabet Reports $83.7 Billion SpaceX Stake in SEC Filing - TeslaNorth.com",
+     "topics": [
+      "regulatory"
+     ]
+    },
+    {
      "link": "https://spaceflightnow.com/2026/11/06/falcon-9-to-launch-from-california-on-classified-mission-for-u-s-space-force/",
      "published": "2026-11-06T22:00:39+00:00",
-     "score": 4.309,
+     "score": 2.924,
      "source": "Spaceflight Now",
      "title": "Falcon 9 launches from California on classified mission for U.S. Space Force",
      "topics": [
@@ -210,19 +256,9 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNZnFTakhzWmtKYjE0dXNxMWRpLXk5ZExzeFIwajZ2MnpvV0pTUHpZZmU2TFdSeTFZVVBWRmJqQ1lIeWItYlhlNnVfaUdYV0F0Ymh5akdZTE9ScDBPZFJjaHBKcEdZWGV6MDBhaS1CUTRMQmN6cmx6YmlZTWlwS0dGStIBf0FVX3lxTE40Y3VmSm95bjJPRlN0YkxZcWpXdFdLeVZxOHRrSUE1ZHU1dW5WTjlJWGNIV0Q0UkVoMGV0VW00dW5nU09ibk1ERm5VaXF0RXBmUl9MME4xdmFYUHl4MTVPWGRMY0tPUlZRby1tWXFpM3VRdVhoYnJqV0hwaXVLdlk?oc=5",
-     "published": "2026-11-07T08:10:15+00:00",
-     "score": 4.278,
-     "source": "Falcon",
-     "title": "SpaceX launched a secret mission for the U.S. military - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUjJEZm5FYjY4eW9EajVyYk1iaFN2ZHF0amttNkQ2N1hhOHk5RUFVMF9lUTJRbklSWmM1bVRaR2JZRjk4TG5lZjM4VWRiZjh3RFZQS0NhdlpPeVFUeWRIR1NXdWgzamozY25QZDFsWDB5Zk5aVHN5SXFsX1NOODNmNUxfclVGaGdFeDFVSy1HZGowZFI3M2Jvd1FPbnlJcDMxdzdQUVFXbEhVd1h5?oc=5",
      "published": "2026-11-07T07:51:40+00:00",
-     "score": 3.522,
+     "score": 2.83,
      "source": "Starship",
      "title": "SpaceX Nov 13 trial to catch Starship stages pending approval - NewsBytes",
      "topics": [
@@ -233,7 +269,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNWGQtVk1fTTBoaXFEVTNwM1NwQzFabTFFOFNGYnlzNmIxR3U2ejZjZGl2UThKbmlOQ0h3VllGM3BMVmFIdkNOQUwtaG1nVkg4bmRrLWE2bjJFXzh3a1F1OXFEQXZjTlZ5OU9KVmVnZWFmUWd0MURDaDRXUEJvUEpWVGd0Vk4wTTFVMjRTNzFlR254UVFFeDFzQjVpcmdJWDhWWDhOWVRybmt5V0hhREtwdEdicDBGN0h2UFBiSWxHS3VtNGZXRkM2MWIxV1BUNEVNbkHSAdcBQVVfeXFMUF93QWIwWDVYcHNmNnlIb2RiTUd6R0RKaDVNYTZMaUdSZjE3cTBLNzdjRjRkVzlaZFNaT21vbXNYaDBHWUZabWZXakhFQkRWXzFUdTFYem5Cdl81cTlvb2dnVzJUM3JIZjViQUJFZkVZNkdmTnlKX2V6S3J5ZjVnUi1tdlkwalRnRXZpSmlKU1hseFlMdWZLVDltMm1XZUgyLUdnTU1sZnBmZmxXMVA5elFQSlZtWGpneFNFeDNYTGJLdjRMd3JCemJLYzBtSHNMdDFOR29oU00?oc=5",
      "published": "2026-11-07T01:42:36+00:00",
-     "score": 3.202,
+     "score": 2.371,
      "source": "Falcon",
      "title": "SpaceX Successfully Launches Falcon 9 USSF-432 Mission for US Space Force from California | WATCH - Republic World",
      "topics": [
@@ -243,7 +279,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSHdUcEFuVmRSdVY4dDRQTlBZd1VyU2dMVlQ5bXJOZEhsLWphNENTNWREMEhTODhrWFF3YjlxOVZzeXRxNEtZRGk4TmE2RUVZUDJiZ0xBdXFSNXJLVFRMYUpTX0lnUDdZb0VWUU04SmtQR0Qxbm5uTTB2eGR3d3A4ZG94QXRtYWJTYW02YQ?oc=5",
      "published": "2026-11-07T01:35:00+00:00",
-     "score": 3.181,
+     "score": 2.35,
      "source": "Falcon",
      "title": "SpaceX Falcon 9 launches secret payload for the US Space Force - Interesting Engineering",
      "topics": [
@@ -253,7 +289,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONmsxTnJlZjdkeGhXXzVZS1dualV6TmU1LV9pNi1sa2ZyV2prWjlWYklYN19CenE1VllCdFUwVklHX3BhSzFXWFlQSG5JTHdIM3RtajA5eXRubXVPZXR5clpUZUJqNzBJY0dEV2p3bERPazMzY1JkTGdoazh5UGNJWmd3RDlVRFkwWmM3NGtVU2VURGZCWllVbHIyV3BCeTdGM19Tbi1sRTgxcDZDWXc?oc=5",
      "published": "2026-11-07T04:10:22+00:00",
-     "score": 3.01,
+     "score": 2.318,
      "source": "Starship",
      "title": "Elon Musk Hints at 500-Ton Raptor 4 Engine to Boost Starship\u2019s Deep-Space Liftoff Power - Business Upturn",
      "topics": [
@@ -264,7 +300,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQk5HSV9Kd25WMHZ1cVNRS2RtRTAwTGgyYnlyNUFNUjBOYnZ6SGlGVDh2dmNVT3lmYlBMUkpKUWxVbDkxZXkyYlRrSkVoQzFoN2RrSVdSTnJCNTFWYWVLdWpFSXV2THBoTVBxcnRkMmlPTkJMRU5rOE9DODFIbjFDazFKSXlCTURUbTUxVVZodnR1V2g2bERWQ3c0S3VhYk5WWTgyMjFyUU9HckM4d0dCbFcwdzlQZw?oc=5",
      "published": "2026-11-06T21:36:22+00:00",
-     "score": 2.518,
+     "score": 1.687,
      "source": "Starship",
      "title": "SpaceX Plans Starship Flight 15 Launch with New Recovery Attempt, Ticker SPCX - GuruFocus",
      "topics": [
@@ -273,55 +309,14 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOUpwLWxybUlpZHhta2RGY3lGbjBDMnc2NllSYk9IVk9VNTdUaDNjXzRLVkdsbERMTGJEamlIRHdPQm9xT1pjLXVvN1dQMkMyNjNJdFBQLTZSTFhxdEdVVlpZTDlzMC03eUo0ejJQTm5LRjN1aEgyNjAwbnlnemw3WVZsa0ZVWU0?oc=5",
-     "published": "2026-11-06T17:36:00+00:00",
-     "score": 1.85,
-     "source": "Starship",
-     "title": "Elon Musk plans \u2018profound\u2019 Starship launch on Friday 13 - The Independent",
+     "link": "https://spaceflightnow.com/2026/10/30/live-coverage-spacex-to-close-out-october-with-halloween-eve-falcon-9-launch/",
+     "published": "2026-10-30T22:46:02+00:00",
+     "score": 1.5,
+     "source": "Spaceflight Now",
+     "title": "SpaceX closes out October with 700th Falcon 9 launch to date",
      "topics": [
-      "starship",
+      "starlink",
       "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPd0hfV0x3Mm9QRHE5bXNMTjVtWFBZVjFsUlVxZ0VHWW1BeDFBclNzZFVYa3lETTc2bWZxU0hQVktYVWpsOW0ydWEwUUlLUzdjeFdtN3RjY0ZuWmx5aHQzT0diOTNyc2JkUmlUeWJjdXo2RlhoTWp1cDVQS0RNYTRqYXpBWTlGYjlUc0J4YmVUYV9TT1pEY0FTbjdwWnZYY1NJc1VWQ0U4Y1V2ZHhzbFlSU1JDQ2lUOElYUGc?oc=5",
-     "published": "2026-11-06T17:00:00+00:00",
-     "score": 1.75,
-     "source": "Falcon",
-     "title": "Rocket launch tracker: Keep up with latest on next SpaceX launch in CA - Ventura County Star",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS0k5Z2djM3BMcjJ4YWlyT2dTSEhUbDZjekFSMi1HUWFYT1VOUVpwbHZYUHBHLW5aenB2OEJYckJRam1yZFBBeE9sN3dGaXVEUWRxdnZBbEJkZUthSV90LWp0Mm1IVUo0Nk9MUFJSN3BUWGtDbzlBTG1vMWYxOG4wdkhQTnYtemppNUxOeE1B?oc=5",
-     "published": "2026-11-06T19:00:00+00:00",
-     "score": 1.736,
-     "source": "Starship",
-     "title": "Epic SpaceX Starship Splashdown | Buoy & Drone Camera Views - Yahoo",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaWNpVlhxOVdVR3NSTVp2RlhHOTVSS0xoOFB5R2tBdWkwaXIwYXh0eXEweFhvNmExOTNmQm1KTmJhX1BpYVVoMzE2cm51WC0tMVlEcEtfUmRIREFXdWxjS0Q4UDFzRTNMbHJfYl9rX0JHMmZNQk5KTDEtSTBQYkIxUFYyT2tNSTE5OFJxSVZLTQ?oc=5",
-     "published": "2026-11-06T22:07:14+00:00",
-     "score": 1.736,
-     "source": "Starlink",
-     "title": "Starlink Has Wiped Out 83% of Viasat's US Subscribers - BASENOR - Tesla Accessories",
-     "topics": [
-      "starlink"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVk84NXVtUXIxaHo4b04wNWpyTTlCaElCbnJoRDJJdGlEZ21zNHJVWVQtaXRieXozSVp5TjlwS2VyVmdiRVB6VkNhVGpRdVMtYTlpMXhWOThKWUhpcXhFZFNWX2xZX0lCaF9xX0JBOG5IWUlnQ1I3OV9VM3ZHRzE4anN0cUVid0xvUDh6S3JaTE9HMDY3MTlCUUZ1Smw5Qk9iR25sclF4ZDA1WDBKcHJubg?oc=5",
-     "published": "2026-11-06T21:41:52+00:00",
-     "score": 1.689,
-     "source": "Starlink",
-     "title": "Starlink Now Offering Wi-Fi 7 'Router 4' for New Residential Plan Sign-Ups - PCMag Australia",
-     "topics": [
-      "starlink"
      ]
     }
    ],
@@ -329,7 +324,7 @@
     {
      "link": "https://electrek.co/2026/11/07/tesla-solar-roof-fraud-liable-experiment-lawsuit/",
      "published": "2026-11-07T16:01:23+00:00",
-     "score": 7.449,
+     "score": 6.341,
      "source": "Electrek",
      "title": "Tesla deemed liable for fraud after Solar Roof \u2018experiment\u2019 on a home",
      "topics": [
@@ -339,7 +334,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMW9zNzhXbVNzZDJ5a213ZjRWX1FUZFA4WFFWaFBVbWp4cWlzakh6dXk1aFhmem94UlFrT0N5bGdZNFJWN2U0MjhnckVOakgycHgyS3hyYTY0c2VDdVFoT295NWV3ODZPWHNXT3JyTDZXS3p4OWV3S002dmNKLWo1RVV1c0NfanUy?oc=5",
      "published": "2026-11-07T04:11:08+00:00",
-     "score": 5.421,
+     "score": 4.175,
      "source": "Production",
      "title": "Tesla to End Cybertruck Production After Safety Recalls and Falling Sales - Law Commentary",
      "topics": [
@@ -347,9 +342,71 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcFkyZ2pobDg2cV92d3NxbDZpdmx1ZHhaN19mempMUS1HTTNaWXp3ZXBlcFU1ZnRaZWVwTXNqNVp6dFFIQkJQRTFFZTFYVTlYeFp6ejVYNnJMV0VVbDNFWW0zTWhRdG9CVGd4elY3UUxEemplUW1QNzUwbHJheGhIRUpQOVd1ZHFKcmQzczVB?oc=5",
+     "published": "2026-11-07T22:05:05+00:00",
+     "score": 3.844,
+     "source": "Autonomy",
+     "title": "Tesla Ramps Up Cybertruck Production to Make Room for Cybercab in Texas - Complex",
+     "topics": [
+      "autonomy",
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON3dQZUFCRmNiQjNJX3licWlIdk9jSm5vbktYNklaNl82TWg0N2lqc1dpeUQzem1nRUJpSFROVWg1b0s4ZWZlb1ppT0x0OGtJWjJVQWxnbDJaZHI5LWlkS3dHUzVNMTFCbDNYTmlQWVU2b0V6aXlBMTkwOXdNczB3STBMeEwwb0hJUkczVUpBM1FmR0k0TFZ0U1pEYWtscVQtQ3ZoODlaMjhLZmRTOS1fVmlOSWtBV0lNcS1kZA?oc=5",
+     "published": "2026-11-07T19:32:20+00:00",
+     "score": 3.561,
+     "source": "Autonomy",
+     "title": "Tesla Cybertruck Production Ends 2027 For Cybercab - Dallas Express",
+     "topics": [
+      "autonomy",
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSGFpUGpkTUlMeEtMdy1VU1VnYVEzWFZpV1Y2c01BYXUzdVktRFVBQlJ6Wm56anNlS3M4VGxuN29TNDlQSENyLUs4YXdQNE9ESmxaa1N6VUphaUF5U2o0WlZMUjZCVTEtTmNJNXZqVDVRaVh4QVRKZnpLbXJJdmE4ekhVSEEyUlZnWHBHVm1DNkNNZ2IyaGFSQ1hYaUZ3SnA0SWZRWklyNnhVVXZEZTRYbHZtT3FERzFnU3owQw?oc=5",
+     "published": "2026-11-07T19:05:43+00:00",
+     "score": 3.512,
+     "source": "Production",
+     "title": "Musk says Tesla Cybertruck demand is outpacing production - TradingView",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPaVZacDRPTFlTcHdKWHFoT2l6VFVPOVB3QUtyQ2hsQlk0YTY5b3hPVC11Qk1rWE9jWUJndThuWmxuMVFVdm0wYjhoSlJLOVR6VndUUWFlV2J5V0k1SmpHNVI2ZGZweFNWXzRaMHVwUW40VkdMZkdOaklkV0ZaZWF3Zkk4OXJFZ3FPUG51Sm0wY3dkUFo5X1lycDNYZEQ4dy1OX0xzNVpGMXhlVUhmcWYwcWV3NGVyNUZTZWdqYS1DZTlfQ243R2l5cElQcFQzRWVyQzlEdHNvWVAyZmRKVWZfMXJSUGY?oc=5",
+     "published": "2026-11-07T18:51:52+00:00",
+     "score": 3.486,
+     "source": "Production",
+     "title": "Tesla to expand Cybertruck production in bid to fill orders before dismantling line next year By Reuters - Investing.com",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTWlPUlBOTWpadkZaNzNSUGlXblUyLTJWM1M2ZjYtZHY2ZHZTMzlWZFJCR3AzRnpUS2hPOFFwQW5TdW16Y2pjUVU2Q19Fb0J2ZS1aLUI2cjNOZVZGTkFFbGVyUWxPNzZDTDh3QlI2YndCUWp3VFNDa216N1J0dUxzSEpDLXV3WlJ1eWZNS0ROX1hsNWttWURKWS1VZUsxMG5vZE1sVkZ2Mi1oWUpiUzFaLVBNSHFxTzVGYjF3?oc=5",
+     "published": "2026-11-07T18:41:39+00:00",
+     "score": 3.468,
+     "source": "Production",
+     "title": "Tesla planning extra shift as Cybertruck demand exceeds remaining production capacity - Drive Tesla Canada",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQWmwyUjdnR1ZZWkhta1U1UGJIZEw5ZTY3b1FNNTd0T053em9ZNm1JQ1BvZ012MkdLYXFjMmFGTENQSzZxSGxTSUVobkZuc2puMnNWemhGejdDMTA3Vkl0Q1Q3UEZNMDJrYTQwT0NiVkhadGhKRDlET2x0NHNTUFRzSmMxNHJsSWx6WXVwU2NHcTdjaFFmTENGMFVlVXBiZ3BpWTRvVGE2Vk1wWEZUOUFUTmQzVE1EQ3E2b2JvRm52Nk01cnJXRUtQVGotOFQ2NWZhN2ViMGRqWmlzMlVBRVVZMHJhY3NSMlRoWl9POG1uYmp0N0JIQU9wMUphcXpIMlBBaVgwQ1B3MEZCSjhkWm5NbEthV012LVpKTEFaNQ?oc=5",
+     "published": "2026-11-07T18:38:20+00:00",
+     "score": 3.461,
+     "source": "Production",
+     "title": "Tesla to expand Cybertruck production in bid to fill orders before dismantling line next year - Central Oregon Daily",
+     "topics": [
+      "production"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZERnazY2QnJXVXM3Y05FQzJ3ODhaMzZ6QnJobDNUZmJFZW0wOEY1enI5Wnoyby1ONGNYOXpQZUFHNktjQ0t2c3dWVE1lMVp0SFlabG8xWWprdDE2RTg4YmtyY0pMQTIxTDFDeTg1UnZESFFxRU9ybERVNzVfUWxQZ2tXazFOYW5oWU1JcGlFcjNCTjJDRGYzYUtJMUZJUlE3RXdIY0NpMnJmWF9QcEV6cTRDcVBWSXB1V1FJX1MwZnRxRmRVMS1FY2dBcE11OElsVWlOSGdrNzAzdHR5MFpn?oc=5",
      "published": "2026-11-07T18:00:29+00:00",
-     "score": 3.945,
+     "score": 3.391,
      "source": "Humanoids",
      "title": "Tesla plans to wind down Cybertruck production. Elon Musk said Tesla will scale back Cybertruck production in 2027 to make room for more Cybercab robotaxis at its Texas factory. - Facebook",
      "topics": [
@@ -360,7 +417,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeWhHZnE4am1GaExVOGUyS2NfWk9kbFk5eW1NSGdFdENlaWtSTF9HM2xZZlh2eVB4SHU5dEdENG51U2xkV1RmeG56SE5wY1U3SEQ2SGUzeUpvRkMxNmVWMUp6Nk80Q0pfNWwydnpzZDBzbXNyeXlYeHJwRVJnZnpxcEVVUGN0emV2ZG12Z1Z1VG1rMk1KVHJ0bHpqSC03Nm9uVUpKY3VtQ2RXdzQ0NllSc2dvaVVfcDg?oc=5",
      "published": "2026-11-07T17:05:00+00:00",
-     "score": 3.842,
+     "score": 3.289,
      "source": "Autonomy",
      "title": "Elon Musk's Tesla to shift Cybertruck production capacity toward self-driving Cybercab - The Business Standard",
      "topics": [
@@ -371,7 +428,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORWU5VTF0bzViYmtLTDRuN0NjS045Um42YXhNT2d0akdGVEhZb3hKcTAwdG5adlBEZE9NWUhfeWF0eUpJRFpjNGlyR0dkWEZYdkhIcXNtUmx6S25EWGFVWVVKYmdqQnJndnR6anRPU0lfUVB6QVpra09RRVM4TVc2SXVhTQ?oc=5",
      "published": "2026-11-07T16:46:56+00:00",
-     "score": 3.809,
+     "score": 3.255,
      "source": "Autonomy",
      "title": "Tesla Cybertruck Production Winds Down Next Year Freeing Space for Cybercab Robotaxis - TechEBlog -",
      "topics": [
@@ -380,11 +437,21 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE43cExPZEZmNEl3bUQ3MVAxMmQ0YnFCdnEwS0JJUXNZTVdLMGxHYnFVQ3p5UzVwQ01pYVJKN2tEaHJ5MjRaY2FoY1FGeEFrSWNKUkhPdkpzZmRkOWZMTWVEZmJ2TdIBaEFVX3lxTE5Odl9mMXBJSDJWNlhGLXE1R29fVUtTREU4UVR0YkhPSHhNMUdyOVRPelZmTUwxanBKMlZJVU1qVm5LbHFCMl9oLWxDQTRkaHRyb2ZfcGhTaVZmUEVmbVJCak5sVGlJdVln?oc=5",
-     "published": "2026-11-07T15:44:05+00:00",
-     "score": 3.692,
+     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zZXR3clN2UHBQZlNXTlc0S3JJWnp1VUJFTVBYVkN4aldpRHhMMWxSbEtBWkJHZU1ydDlGVTI3SlVVSlpUdFRHQURhSWxsOXgyWXN3Rkpn?oc=5",
+     "published": "2026-11-07T14:52:58+00:00",
+     "score": 3.044,
      "source": "Production",
-     "title": "Tesla's Elon Musk to end Cybertruck production - LiveNOW from FOX",
+     "title": "Tesla to wind down production for the Cybertruck - Fox News",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSWQ5bDhjRWgxTVRIUUszV0xjZU53aE5VWTFHX3c1RkZtNGpJeFFkQ214elFzdnp5UDg5Y3N0emVZajRIdmJGWEJ2US1ma1l5bFR5YUgyYkk5ajVIOEgxUnlwV1hvZVVUUXZxaWZhZmhGdzM1cEhrcVFlSUhpbXpBd1M5MNIBiAFBVV95cUxNaEJuemp3Si1wVm12Zk9FSHdHajBqWE9mWHlELXV5WU80YzFqMlNHWnpZdndHNVpWYVNpSzVFV0h5SDdFb0UxTE5wV2o1MEhSRGo4UmFzam9zSFZRa2xGX09uYWl2U1R1NDdodlM3ZWlxLURKaXVpbjhNcThyb2lJbVlOZElzR2NX?oc=5",
+     "published": "2026-11-07T13:23:17+00:00",
+     "score": 2.878,
+     "source": "Production",
+     "title": "Tesla \u2018winding down\u2019 Cybertruck production at Giga Texas - KFOR.com",
      "topics": [
       "production"
      ]
@@ -392,7 +459,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaEdFNnc4WDV1TDloVmo0SmlRbFl4VzRoTElrNURKWVdHdWE2eWZtRFRXenZzcVNldmx4ZTlfSzAxenhfWXJfU1dtMkFzUXBpYjNKUFVwU2d3NTllTFZsZXZWVjBVa1o5aEdZS0p0SFVWUzh5WHBYTTRmVWh1VTBQc05ZUEk1dzBwNHBINGdDRmRPY0xIUm9VejhZX1JWWlRKeFhuTDR5ODdVUTRScTdkQS1xVjBsYjZuclp6bVkwcnFFNS1NaW9YT3Z5UXBadUh3UTJaVUFmWQ?oc=5",
      "published": "2026-11-07T13:00:56+00:00",
-     "score": 3.39,
+     "score": 2.837,
      "source": "Autonomy",
      "title": "World's first trillionaire Elon Musk to wind down Tesla's Cybertruck production after 48% sales plunge, missing chance to enter Africa's growing EV market - Business Insider Africa",
      "topics": [
@@ -402,7 +469,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSG0zUTlaUmplQ0drSFo5amhPYmdZbEFUNE80Yk5YTEtWYVl5NXlyX1hwRXFOX1VYQURPcUxHOEF5TG80Ylg4RHpJRU12ZFpoel9PLUsyT1JZbkM0VEY2dlJTZDlCaVBfeU9ocVZJcHQ5VzNLRjU1LWZCUHBuNC1OcTBTR1gyRllieFpsSnkycXBwR2g4UV9NZ2g3bU0?oc=5",
      "published": "2026-11-07T12:49:20+00:00",
-     "score": 3.369,
+     "score": 2.815,
      "source": "Autonomy",
      "title": "Tesla will wind down Cybertruck production at Giga Texas by mid-2027 - Startup Fortune",
      "topics": [
@@ -412,7 +479,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMHZDejdKcFBYelFRSUFfdXQ2TWdQYkpSQlRtRUg5bmxEUy1CUEpsWXZ3bVRHSXh4ME9TLVB4b0pUTnlQZnNfWDZXVHJVWFJVWk9Ea3NCWGpsWTJpb1RtSVNBVkhnNExaQzVnV2R4LWNCRmFXajFLUENuX05hMksyUERLX1RkRGRpdndpTE1vdGZ5SFpQRlE?oc=5",
      "published": "2026-11-07T10:00:00+00:00",
-     "score": 3.055,
+     "score": 2.502,
      "source": "Production",
      "title": "Tesla to wind down production of slow-selling Cybertruck - Jefferson City News Tribune",
      "topics": [
@@ -420,40 +487,9 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNY1ZiSEFUR2I2Q3JJWFUzRXBSbEJkUHZ3RXhHWnJkWlgxWDE0MFdBcGdIMk5IV052MGI3NnRGemV5aFd1WHlWQ29uQXBIZ0pkTEx2dURJNUpwT09tNGh5eVhBUUhuemd6OTczbl85WkR0WHhXNU04bXZocnhoWmVUZjRSTjRabEVBUUphcW5NWEpRTldNbkV6NXhLaS1TbGdfMDBROG5pbjZxQl95TmQ3cUZUQkNCT1I2?oc=5",
-     "published": "2026-11-07T09:12:41+00:00",
-     "score": 2.968,
-     "source": "Autonomy",
-     "title": "Tesla to end Cybertruck production in 2027 as it shifts to Cybercab - Korea JoongAng Daily",
-     "topics": [
-      "autonomy",
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS08tV2ZzMi1qSmtTblAyUEx1Nld6T2lmZlFzWWs5Y3Zkc1JheEZoY20zOEhoVGFVa0lFd2U4Rmo2SFJtOUhaQ1J0bFp5NkxvZVZUS2RLXy1fdjRfQkMyMHNvZW5sc2h3N19iSmd5TXZCR0I0amJIT3V1eGlqd3I3ZEFQRTN0SjJJZU96NDhqQ1lEbXRBWjI4OEd4eVAzcDdlQmdacnJ0UVQ?oc=5",
-     "published": "2026-11-07T08:37:57+00:00",
-     "score": 2.903,
-     "source": "Autonomy",
-     "title": "Tesla to wind down Cybertruck production at Austin Gigafactory, Musk says - KEYE",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPWlRyZ2xmNVF1YWdlZ1R6ZnhlVGVRb1pHdTRkRnBQTlZRLVdZQ05vblFXQkZmbk1kOHBRaVpkdkZ0cVhlUXJvcDNZZ2xWN3VudWRReGpHbWJWQUZ3d3NlNWV6T1NBX2dMUC0xNFF2NDhhbGtWQjdyQjV4aExfVDktdk5zUjBmMU5HemlRd2xzVjFtUnFmU19YRC13eHBWMGNmZ1dGaGZETFRicHZUTHZJMnNBcDZoeUtxNFV4Z1poQdIB0wFBVV95cUxNMlZqS2tscTQwWnloUVF4NE83QkRhT044NkdqLTR0Vml4NGZtNm9hY1RGVkdwc3BLYWkzbjVlNzVFVm90QnVkYm5fQWNGa1JsSktYX0p5MndEXzVDcmNFRnZSd25iVWhyWEFBSlk1Vy1VRi1rdDFVaHlNeE9zTDFkVTRkZXNTTmh2SVlIUm9NWWIwdkJmZWR3cmdKSFJtbG1CUlcwSzRkNkd5dHBNdjAwZUlYMHFmZ2pHbXU3TFZ4eWlSVnFScWJwSUtlazZFOW9WdTJR?oc=5",
-     "published": "2026-11-06T18:04:00+00:00",
-     "score": 2.891,
-     "source": "Production",
-     "title": "Elon Musk says production will soon end on controversial, often recalled Tesla vehicle - AL.com",
-     "topics": [
-      "production"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN0EwRERaU1RldkFleFJkWVN1MkNYOG55RTFQclI5WGlLb0pEeTRLeVVtVjN6U2xEV0REX01nbG9QdUxha21ZaDZLSWNHTWZlaDhJbkYxQ0p6Sllxa0JObG5kNjg0MGZsNkNNQ0ZtUGZ6SW1IZGlVYi1RbjViYzVFM3hvd1IwbUZLYlp6T1M3REloUnpzYkhyajYwSE1xWVVfWEpTNHhiTkQza2IxUjFZ0gG3AUFVX3lxTE5xWktoeHJaTmJtRGhNbTE4bkRIYnVRUlhVUmg2Z1c1aDIydTBPSk5ndm1CdXVPT2N4Unp1ZTZnN3B5R3F0WDdJWkt1WHFGclJOTzFGb2tON0x5bGhMV19ZalJjeEY1NlBaU1JneE40TGxFRzByWEZTQ1N6YlZSMjJxNGdEQk1GWUJCVVlwSDBhdjc0SFliMVptTVN0eVBVZDlhamZ5R0t6ckFNYUpBQjhudDFXLVJnQQ?oc=5",
      "published": "2026-11-07T08:15:02+00:00",
-     "score": 2.861,
+     "score": 2.307,
      "source": "Production",
      "title": "Tesla Cybertruck Production Ends In 2027, Internet Says 'The World Is Healing' - NDTV",
      "topics": [
@@ -463,50 +499,9 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWHpBd3NESjR2NVMwTUVURFo3UDhrNHB1UC16bFRiZ1N2VGpYWmpvVi1JVVdDNE5wXzdyLUdlLW5ZSDE5LXhMR0lISkFCVGs3MzRJbmxmalRsdGwyZ3VBOUNJMFR1R25qWFZwNlRNdnNkVXAtZlBCcHhHVjdBdmdnZVhRTURscDNJ0gGIAUFVX3lxTE55d0VzUUdXX3JXeGhsOE1nYXlQRVBqWmJHejdJWUhtX3hObEJuWmV3dU9nUGg0WWxTSzdHN2p1aVlPbUxTeUtMV1FuOG0wR0pQa2NHX2ZkT2I0OGE2UEVwUENqU0JZTC1MZGhSSXV6THliSjVDcFpyUGlJdFF6ZWJHUHRnZm1aeHM?oc=5",
      "published": "2026-11-07T08:06:12+00:00",
-     "score": 2.845,
+     "score": 2.291,
      "source": "Production",
      "title": "Tesla to 'wind down' production of flop Cybertruck - DW.com",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObE1xSWdleUY3MDNWVkxSZHk3YnB2Um0zMTRzdFU3dlpGdXVCM3A4bXV0c2dOUVBiS25MX2Q3Z01QXzVrd3F4c3VWSWRiWlNpcklmMzFuNjdQQWJQcFotSlh0TUx1Qi1wdFZHWmRnNGtyVnlpeEhSWEl2UXVLcVJlNGY4QTR0NnhvZVdjNS13MjQ?oc=5",
-     "published": "2026-11-07T07:57:34+00:00",
-     "score": 2.829,
-     "source": "Production",
-     "title": "Tesla Cybertruck Production Winds Down by Mid-2027 [2026] - tech-insider.org",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5NLUxSUDg3QzQweHVhRG9zN3hzRjd0ZllpWXA4T0NuRDJSSTltY0FDeHp1Z2FNNmdrc1QzQXlqU0xJYTI5WUNtNWNOeEpxNlk0bEFtbldIVnlhSlExOEZleU1SSVhQQ2k5eG92TGtIam9ySVRJS01JaQ?oc=5",
-     "published": "2026-11-07T07:26:00+00:00",
-     "score": 2.77,
-     "source": "Production",
-     "title": "Elon Musk to wind down Tesla Cybertruck production - AOL.com",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4wMTNvTzV5cTE3Rm5Kd25SNzRNMGFnXzFYYThVRTAzVVRhb0RPV0hFZWJPY3M0YVc4V3gzdjJjaW1yNU1iWUsxVXdzRENXTEZKSzhEVlNtV2Z4ZHFYSmYtUUJ6Z2lBTWFJR05Wd05Walhlc0tPYW9EZV9HYw?oc=5",
-     "published": "2026-11-07T06:21:56+00:00",
-     "score": 2.651,
-     "source": "Autonomy",
-     "title": "Tesla to Scale Back Cybertruck Production at Texas Factory From Mid-2027 to Make Room for Cybercab - XenoSpectrum",
-     "topics": [
-      "autonomy",
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeGJXXzdJZkdWU0pjaTYtdjdaU3htUHpoQTZJYXAyampTZElvWGctWEp1UGhrZHQ1bWhEWElPWWFkOXVZUlo0LXRRY084cEg5NnQtMjgtME5pdGs4eVBCM0pOMF93dzl6SXNWcU1zUkN4Qjc2SXp0U1JmWUhLMlRiajhMY1dUa0Fhb0NTaGJNTG5jbHVBRHc?oc=5",
-     "published": "2026-11-07T00:01:00+00:00",
-     "score": 1.946,
-     "source": "Production",
-     "title": "Tesla halts Cybertruck production | CNN Business - CNN",
      "topics": [
       "production"
      ]
@@ -514,21 +509,42 @@
    ],
    "ventures": [
     {
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1RWG9sMU9qT2FUOEFSYldoUHg2STlyQUduOTBYd2YwWVdYeGhNSjlOdmptY09CRHdUdUdYdXExN0F2SFJZLTh1UVBTdmwwektFSVU0STVnOUF4Z3FtcWYxaGhnU204OExjMTd6V0FndEo0S01iMktiREs3b2NQQQ?oc=5",
-     "published": "2026-11-07T15:29:23+00:00",
-     "score": 0.916,
-     "source": "Neuralink",
-     "title": "Neuralink Will Help People Walk Again in Coming Years, Musk Says - TeslaNorth.com",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQakJBWHJubGtBdkgwYkNITlUzOExQV2hmbXFrNmNqejNJQzkzOVkxZmliN01pSm9XQzVyNEtReEYtYUhKOXAtTmhYWHZmU0g2RVZBd3lENHlQY2VvcU5LOXdxd1g5aDVfVlRUZFYwY2pZUklzeVJuUWZMWGJCQ04zRDZvdmtKMkVBejlsbVJnZUlFQQ?oc=5",
+     "published": "2026-11-07T22:06:18+00:00",
+     "score": 0.962,
+     "source": "Boring",
+     "title": "Vegas Loop at SEMA 2026: 5 Numbers That Tell the Story - BASENOR - Tesla Accessories",
      "topics": [
-      "neurotech"
+      "tunnels"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa0ZGRFZSalNNMDBKakV1WGwtUkZiMTkzYTNVeEFXUG85REFjaTNqeGpXSGJaWnh6VXVTQnpwZW12N3l5VVhxMVZyOFlrdjhka0FmcWgxMmNkcC02X0lvMGhMWnY3azQtcXhrOEN3OUhnbEp2TGRlejVvdV9iSEdaR1VrS0lvVm1zcjhMdzN4dmpSZGpuRDdlNzdPX3NYaFE?oc=5",
-     "published": "2026-11-07T12:00:00+00:00",
-     "score": 0.819,
+     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5nRWZsV3RLTlMtcEEtdFgxT1lJZzhQQkxlTUlraE1fcjQ1QWgxWkFEVGtzX2NjcWxubUo1a2ZQd2dKVWdkcnhNckM2VkNrS3NaSUJjRVBsTThrcXdP?oc=5",
+     "published": "2026-11-07T21:38:17+00:00",
+     "score": 0.949,
+     "source": "Grok",
+     "title": "Elon Musk\u2019s Starlink Lets Fans Create Its Super Bowl Ad Using Grok (Scoop Confirmed) - Cosmic Book News",
+     "topics": [
+      "starlink",
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb3hYUm9LaktUd2xnR3hTZE5hNmZTZ3FjcE1OVUdQQVA4Vm8weW0xUWc5MzVoRXgwanFTZ2hpOG15cnl0eG44aE9wVGtMZHVkYjVVcndtN013WFJXSFJ6T2NsUG4xdHZxQVZLZWY2eUlWQjltb2pjWDZjRVZrb0IxWnhzTTFJN1MxNkhLNi03S3NTZw?oc=5",
+     "published": "2026-11-07T17:45:00+00:00",
+     "score": 0.841,
+     "source": "xAI",
+     "title": "xAI's Grok 4.20 wins live trading showdown, edging out OpenAI and Google entries - Briefs Finance",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1RWG9sMU9qT2FUOEFSYldoUHg2STlyQUduOTBYd2YwWVdYeGhNSjlOdmptY09CRHdUdUdYdXExN0F2SFJZLTh1UVBTdmwwektFSVU0STVnOUF4Z3FtcWYxaGhnU204OExjMTd6V0FndEo0S01iMktiREs3b2NQQQ?oc=5",
+     "published": "2026-11-07T15:29:23+00:00",
+     "score": 0.778,
      "source": "Neuralink",
-     "title": "Elon Musk's Neuralink rival BrainCo is building a brain-stimulation wearable to suppress appetite without drugs - Yahoo Finance",
+     "title": "Neuralink Will Help People Walk Again in Coming Years, Musk Says - TeslaNorth.com",
      "topics": [
       "neurotech"
      ]
@@ -553,6 +569,16 @@
      "topics": [
       "neurotech",
       "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOa0ZGRFZSalNNMDBKakV1WGwtUkZiMTkzYTNVeEFXUG85REFjaTNqeGpXSGJaWnh6VXVTQnpwZW12N3l5VVhxMVZyOFlrdjhka0FmcWgxMmNkcC02X0lvMGhMWnY3azQtcXhrOEN3OUhnbEp2TGRlejVvdV9iSEdaR1VrS0lvVm1zcjhMdzN4dmpSZGpuRDdlNzdPX3NYaFE?oc=5",
+     "published": "2026-11-07T12:00:00+00:00",
+     "score": 0.681,
+     "source": "Neuralink",
+     "title": "Elon Musk's Neuralink rival BrainCo is building a brain-stimulation wearable to suppress appetite without drugs - Yahoo Finance",
+     "topics": [
+      "neurotech"
      ]
     },
     {
@@ -620,7 +646,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZnF5TG50ODNlNmhKcDE0WjNWWEVTalpDSzczY0Y2YmRoazUtYnJzeEUtNHhzRUZOaXktU3lia203WXlhb1EydDRWLVlDbGx5NmJGaW91aDFHdndnMUR5amluWTdWWnpPbzBmOTRnM0t1SXZSaldWbldnVjdxQzc0VW1NVQ?oc=5",
      "published": "2026-11-07T12:00:00+00:00",
-     "score": 0.492,
+     "score": 0.409,
      "source": "Neuralink",
      "title": "Elon Musk\u2019s Neuralink rival BrainCo is developing an electronic GLP-1 wearable that could suppress appetite without weight-loss drugs - AOL.com",
      "topics": [
@@ -630,7 +656,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOd2lWQy11VXJCTkJpU25WY0JielRkZW03X042UGJteUFUWTlweS05NUVpMVF2UXZKNldQa2xxZG9FV1VQR1FtMGZkN0psYU5ic293SEhLVnNRdVNYQTVSbnBUUFZlWElQaWJ3OGtMajdIMFRGRlBPZmZnUEp6cUs0ZUtWbGVHaVJNRlBZUmFFZVlPVzhmUm9fRWJOb0s5LVI2THYyVVJBS1FsU1U?oc=5",
      "published": "2026-11-06T21:01:00+00:00",
-     "score": 0.403,
+     "score": 0.265,
      "source": "Grok",
      "title": "We Asked Grok if Ethereum Can Reach $4,000 by 2028 - 24/7 Wall St.",
      "topics": [
@@ -640,7 +666,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPVm1rN0dhNG5aaDhDRVRyQVpMaXVROE8wbUFRVUJLZnYwaUQwZF9jMGtfX0doQjVZM3JaRFZHd2FSNFRvODVIUy1TeXJ3d09OZEZPMDB6cEE0eWhHdDNGa3FTRWRCRkhjaERjTnhudVNMTDV6RmdBX0ZqOTNjbDZFblljUE9INGpzN05KSV81YzdHTlVFS1lKeExydFBaaHVLV0pzR2tyQTBSbHV5SUF3VEY3STZHX0gzZzM1S1VYOWtpSEZsRXhKWjl3YzhQQUpy?oc=5",
      "published": "2026-11-06T16:11:09+00:00",
-     "score": 0.269,
+     "score": 0.15,
      "source": "xAI",
      "title": "India's Coforge joins SpaceX partner network to deploy Grok AI tools for enterprises - Reuters",
      "topics": [
@@ -666,39 +692,9 @@
      "topics": [
       "ai"
      ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ1BjN0VpdjhfcEVKampnZFhJQzNUMXNVaFRVbTlpTTc1bHJqMjA0NlZteHk4TUZvQTJ6ZXpMMUg2cGVIcVdYX0JQUnFiaVRBV1Y4anQtRE41OUZHRkpjcUlhRHN3eDVaWkRLV2ZvMW9SYVRIRTAtTGxYRXUyQTg5SW1nd2k1V1dUa3BXUUtUaFlnQ3d6N0tpTm1iV25tU2ZBTUlPOTRpdmlJSlRmd01aQ1RKUWJBU3M?oc=5",
-     "published": "2026-11-02T15:50:00+00:00",
-     "score": 0.15,
-     "source": "xAI",
-     "title": "Elon Musk\u2019s xAI Loses Bid to Escape NAACP Suit Over Gas Turbines - Bloomberg Law News",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQYi1rWWdaTnBRc200am5iRHZSLVI2Vzh4SW9CNGFzLXlKNGo3M3FNTS1abjNBemFxM2hQWkRaZkxSWlJBb2FBWmhSVU9JTE1QQzQ1Z0haeUxiV1hiWmRVTkNwbWdRTnVSdlZmVnN6RHl5OWJrVEFqN3NwWW9ZSGYzUl9hcl9JTWZ3X3cwOE41QmUzOEhCYlN5SWNFT05QU291QWdHM1B5dmxhcU9aeHk4WFFxeHhXN0l5aDg2N293Ty1wcTVKeDJZMWN2UUZzLXdhVGhFeFNnRHJnMGYyVUc0dkJfSUh1LVE3a1ZhdEhJM2pNa1pOLUJ5SndKd2ZmLTZ2a2c?oc=5",
-     "published": "2026-11-04T15:28:43+00:00",
-     "score": 0.15,
-     "source": "xAI",
-     "title": "Elon Musk's xAI Just Installed Eight Converted Jet Engines to Power Mississippi Data Center, Permits Allow 25 Percent Higher Limit for Pollutants - Gadget Review",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcl9peUtFR3dla1dGQ3RGN0l5c3RlTHhKVjhyZEVOZHJMLXhpUDk4X1JPWjNsd3pKSjFDWjBUbVRtQVdSbVFvRkZmMlZsV3ZmLW8wSE9LM25wVGFtQXU0Q01yb25KT012N3JCUHdjYUt5SURrNEF3cmVxTjJ3WG9lOHBsS2VQeThTb1VwRGp3?oc=5",
-     "published": "2026-11-02T16:03:00+00:00",
-     "score": 0.15,
-     "source": "xAI",
-     "title": "Grok Bot users accuse xAI of an \"indirect rug pull\" after usage cuts, Musk blames unsustainable costs - TechSpot",
-     "topics": [
-      "ai"
-     ]
     }
    ]
   }
  },
- "fetched_at": "2026-11-07T18:30:12.763645+00:00"
+ "fetched_at": "2026-11-07T23:29:15.070827+00:00"
 }
