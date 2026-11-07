@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 123,
+  "times_seen": 124,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 81,
+  "times_seen": 82,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -55,7 +55,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 61,
+  "times_seen": 62,
   "outlets": [
    "X"
   ]
@@ -95,7 +95,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 43,
+  "times_seen": 44,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -116,7 +116,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 35,
+  "times_seen": 36,
   "outlets": [
    "Optimus"
   ]
@@ -136,7 +136,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 116,
+  "times_seen": 117,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -158,7 +158,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 121,
+  "times_seen": 122,
   "outlets": [
    "Starship",
    "Falcon"
@@ -179,7 +179,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 22,
+  "times_seen": 23,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -200,7 +200,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 20,
+  "times_seen": 21,
   "outlets": [
    "Humanoids"
   ]
@@ -220,7 +220,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 20,
+  "times_seen": 21,
   "outlets": [
    "Humanoids"
   ]
@@ -282,9 +282,10 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 5,
+  "times_seen": 6,
   "outlets": [
-   "Production"
+   "Production",
+   "Autonomy"
   ]
  },
  {
@@ -302,7 +303,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 5,
+  "times_seen": 6,
   "outlets": [
    "Production"
   ]
@@ -341,7 +342,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "Autonomy"
   ]
@@ -361,7 +362,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "Autonomy"
   ]
@@ -382,7 +383,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "Autonomy"
   ]
@@ -402,7 +403,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "Production"
   ]
@@ -422,7 +423,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-07",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "SPCX"
   ]
@@ -456,6 +457,47 @@
   "quantity": null,
   "source": "Production",
   "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOS3hIVTQ1RWdUcENadklqY2xYTzlHX1FHR2x4WHdWYmxQYVQ5U2lXVVltMUVRaENsaHRtQ3FWWlpqajdkRHlPXzN4SXlSNmp2MW95SnI4Z2lkX28wSUdMWUhfR0l6cEVaTXNSOExEeGxtWEUtRGlOdzBqeHZKX0UxVVlEaTJBeGpsR0ZJOFpZa09qVW1tYmU1SXAwSlpINU1jUnRtQ29LMkhaT1RnczNfRHEzVGU5ZWRtaE4zc2FWMVZSc2VwZW1ONTZMaV8?oc=5",
+  "first_seen": "2026-11-07",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-07",
+  "times_seen": 2,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Tesla plans to wind down Cybertruck production. Elon Musk said Tesla will scale back Cybertruck production in 2027 to make room for more Cybercab robotaxis at its Texas factory. - Facebook",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZERnazY2QnJXVXM3Y05FQzJ3ODhaMzZ6QnJobDNUZmJFZW0wOEY1enI5Wnoyby1ONGNYOXpQZUFHNktjQ0t2c3dWVE1lMVp0SFlabG8xWWprdDE2RTg4YmtyY0pMQTIxTDFDeTg1UnZESFFxRU9ybERVNzVfUWxQZ2tXazFOYW5oWU1JcGlFcjNCTjJDRGYzYUtJMUZJUlE3RXdIY0NpMnJmWF9QcEV6cTRDcVBWSXB1V1FJX1MwZnRxRmRVMS1FY2dBcE11OElsVWlOSGdrNzAzdHR5MFpn?oc=5",
+  "first_seen": "2026-11-07",
+  "topics": [
+   "autonomy",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-07",
+  "times_seen": 1,
+  "outlets": [
+   "Humanoids"
+  ]
+ },
+ {
+  "statement": "Tesla Cybertruck Production Ends In 2027, Internet Says 'The World Is Healing' - NDTV",
+  "entity": "Tesla",
+  "horizon_phrase": "In 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNN0EwRERaU1RldkFleFJkWVN1MkNYOG55RTFQclI5WGlLb0pEeTRLeVVtVjN6U2xEV0REX01nbG9QdUxha21ZaDZLSWNHTWZlaDhJbkYxQ0p6Sllxa0JObG5kNjg0MGZsNkNNQ0ZtUGZ6SW1IZGlVYi1RbjViYzVFM3hvd1IwbUZLYlp6T1M3REloUnpzYkhyajYwSE1xWVVfWEpTNHhiTkQza2IxUjFZ0gG3AUFVX3lxTE5xWktoeHJaTmJtRGhNbTE4bkRIYnVRUlhVUmg2Z1c1aDIydTBPSk5ndm1CdXVPT2N4Unp1ZTZnN3B5R3F0WDdJWkt1WHFGclJOTzFGb2tON0x5bGhMV19ZalJjeEY1NlBaU1JneE40TGxFRzByWEZTQ1N6YlZSMjJxNGdEQk1GWUJCVVlwSDBhdjc0SFliMVptTVN0eVBVZDlhamZ5R0t6ckFNYUpBQjhudDFXLVJnQQ?oc=5",
   "first_seen": "2026-11-07",
   "topics": [
    "production"
@@ -2376,47 +2418,6 @@
   "times_seen": 8,
   "outlets": [
    "TSLA"
-  ]
- },
- {
-  "statement": "Tesla to Send First Optimus Builds to Academy, Says Production Begins This Year - eletric-vehicles.com",
-  "entity": "Tesla",
-  "horizon_phrase": "This Year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjVidnZtaUtWNVdOUGlQaUNBS1phbDduR3ZDMWJJa0ludjV2MkdMNEZrOTB0TUsyYTBGSTQ3UWVOOUpyeU1LMTdNQUllUXJFZzIyZ3R3NjQ3RmlyRm00QnVPSHRxLVFlU2FadjlZTmtud2Z5cEZKQU5fZy1PRFdXNTRneHB0YTR6djVILXZ2cEFwcmg3X2ktTnlybmM1dTNITXJ4RUxURVVfSFgzRmZrVENLLWo?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "optimus",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-06",
-  "times_seen": 110,
-  "outlets": [
-   "Optimus"
-  ]
- },
- {
-  "statement": "Forget Rolls-Royce and SpaceX! This forgotten FTSE 100 stock is forecast to rocket 53% in the next year - Yahoo Finance UK",
-  "entity": "SpaceX",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaEZ1VUhtdEJsMzluYmpsZi1hZjQ3TXRvNTM1WEZEdVFtMUJEUlFZVHN1NHlLSmt4UUF4dlV6dFNmQy1XNmxDOHJhanlLR2ZRRDNNUUw5TUQ2a0RuSV9iSWJvdWc0ZHFqTjdwUjZoRkRLT2tWWW05SVU4TEhwZTlac1MtMUREWUZtQ09aWA?oc=5",
-  "first_seen": "2026-10-04",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-05",
-  "times_seen": 3,
-  "outlets": [
-   "SPCX"
   ]
  }
 ]
