@@ -111,7 +111,7 @@
     12,
     19,
     10,
-    5
+    6
    ],
    "partial": [
     false,
@@ -136,26 +136,32 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
-   "id": "a2423132-f965-423f-8b03-6891b775dc54",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
-   "lat": 19.59755,
-   "lon": 110.936481,
-   "mission": "SatNet LEO Group TBD?",
-   "mission_type": "Communications",
-   "name": "Long March 12 | SatNet LEO Group TBD?",
-   "net": "2026-11-08T20:25:00Z",
-   "net_precision": "HR",
+   "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
+   "id": "6aa7b90b-e5ed-45d8-a52e-04fbf399d178",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
+   "lat": 34.632,
+   "lon": -120.611,
+   "mission": "USSF-627",
+   "mission_type": "Government/Top Secret",
+   "name": "Falcon 9 Block 5 | USSF-627",
+   "net": "2026-11-10T03:03:00Z",
+   "net_precision": "MIN",
    "orbit": "LEO",
-   "pad": "Commercial LC-2",
-   "pad_location": "Wenchang Space Launch Site, People's Republic of China",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "rocket": "Long March 12",
+   "pad": "Space Launch Complex 4E",
+   "pad_location": "Vandenberg SFB, CA, USA",
+   "provider": "SpaceX",
+   "rocket": "Falcon 9 Block 5",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/a2423132-f965-423f-8b03-6891b775dc54",
+   "url": "https://nextspaceflight.com/launches/details/6aa7b90b-e5ed-45d8-a52e-04fbf399d178",
    "webcast_live": false,
-   "webcasts": []
+   "webcasts": [
+    {
+     "official": true,
+     "publisher": "X",
+     "url": "https://x.com/i/broadcasts/2brkWyolnlBbLM"
+    }
+   ]
   },
   "pads": [
    {
@@ -177,6 +183,16 @@
     "name": "Space Launch Complex 40",
     "spacex": true,
     "top_provider": "SpaceX"
+   },
+   {
+    "count": 8,
+    "last_net": "2026-11-24T07:00:00Z",
+    "lat": 19.59755,
+    "location": "Wenchang Space Launch Site, People's Republic of China",
+    "lon": 110.936481,
+    "name": "Commercial LC-2",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 8,
@@ -207,16 +223,6 @@
     "name": "Rocket Lab Launch Complex 1A",
     "spacex": false,
     "top_provider": "Rocket Lab"
-   },
-   {
-    "count": 7,
-    "last_net": "2026-11-24T07:00:00Z",
-    "lat": 19.59755,
-    "location": "Wenchang Space Launch Site, People's Republic of China",
-    "lon": 110.936481,
-    "name": "Commercial LC-2",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 6,
@@ -379,16 +385,6 @@
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
-    "count": 3,
-    "last_net": "2026-07-19T17:51:00Z",
-    "lat": 62.92883,
-    "location": "Plesetsk Cosmodrome, Russian Federation",
-    "lon": 40.457098,
-    "name": "43/4 (43R)",
-    "spacex": false,
-    "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
-   },
-   {
     "count": 2,
     "last_net": "2026-11-03T00:15:00Z",
     "lat": 40.81748,
@@ -437,6 +433,16 @@
     "name": "Launch Complex 2 (LC-2)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-07-19T17:51:00Z",
+    "lat": 62.92883,
+    "location": "Plesetsk Cosmodrome, Russian Federation",
+    "lon": 40.457098,
+    "name": "43/4 (43R)",
+    "spacex": false,
+    "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
    },
    {
     "count": 2,
@@ -660,6 +666,28 @@
    }
   ],
   "previous": [
+   {
+    "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
+    "id": "a2423132-f965-423f-8b03-6891b775dc54",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
+    "lat": 19.59755,
+    "lon": 110.936481,
+    "mission": "SatNet LEO Group 29",
+    "mission_type": "Communications",
+    "name": "Long March 12 | SatNet LEO Group 29",
+    "net": "2026-11-08T20:24:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Commercial LC-2",
+    "pad_location": "Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 12",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/a2423132-f965-423f-8b03-6891b775dc54",
+    "webcast_live": false,
+    "webcasts": []
+   },
    {
     "description": "Note: Payload identity uncertain.\r\n\r\nGlonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and design life. Each satellite is unpressurized and weighs 935 kg,  and has an operational lifetime of 10 ye",
     "id": "c476fea7-7814-4adb-91d1-98918bc2cc57",
@@ -1957,28 +1985,6 @@
     "url": "https://nextspaceflight.com/launches/details/48c449c2-3c09-4d36-9c2a-d853b3a39289",
     "webcast_live": false,
     "webcasts": []
-   },
-   {
-    "description": "Glonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and design life. Each satellite is unpressurized and weighs 935 kg,  and has an operational lifetime of 10 years.",
-    "id": "458e2e52-87b0-4707-96d8-6899f92e53ee",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
-    "lat": 62.9273,
-    "lon": 40.45,
-    "mission": "Glonass-K1 No. 23 (Kosmos 2619)",
-    "mission_type": "Navigation",
-    "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 23 (Kosmos 2619)",
-    "net": "2026-08-24T02:40:00Z",
-    "net_precision": "MIN",
-    "orbit": "MEO",
-    "pad": "43/3 (43L)",
-    "pad_location": "Plesetsk Cosmodrome, Russian Federation",
-    "provider": "Russian Space Forces",
-    "rocket": "Soyuz 2.1b Fregat",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/458e2e52-87b0-4707-96d8-6899f92e53ee",
-    "webcast_live": false,
-    "webcasts": []
    }
   ],
   "totals": {
@@ -1987,8 +1993,8 @@
    "spacex_sampled": 88,
    "spacex_share": 0.44,
    "window": {
-    "from": "2026-03-23",
-    "to": "2026-11-07"
+    "from": "2026-03-25",
+    "to": "2026-11-08"
    }
   },
   "upcoming": [
@@ -1998,21 +2004,32 @@
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
     "lat": 19.59755,
     "lon": 110.936481,
-    "mission": "SatNet LEO Group TBD?",
+    "mission": "SatNet LEO Group 29",
     "mission_type": "Communications",
-    "name": "Long March 12 | SatNet LEO Group TBD?",
-    "net": "2026-11-08T20:25:00Z",
-    "net_precision": "HR",
+    "name": "Long March 12 | SatNet LEO Group 29",
+    "net": "2026-11-08T20:24:00Z",
+    "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Commercial LC-2",
     "pad_location": "Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "rocket": "Long March 12",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/a2423132-f965-423f-8b03-6891b775dc54",
     "webcast_live": false,
-    "webcasts": []
+    "webcasts": [
+     {
+      "official": false,
+      "publisher": "International Rocket Launches",
+      "url": "https://www.youtube.com/watch?v=rQWLSUjfJ-Q"
+     },
+     {
+      "official": false,
+      "publisher": "ThatSpaceDogeGuy",
+      "url": "https://www.youtube.com/watch?v=LhEjaM500Ek"
+     }
+    ]
    },
    {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
@@ -2463,5 +2480,5 @@
    }
   ]
  },
- "fetched_at": "2026-11-08T18:41:49.128677+00:00"
+ "fetched_at": "2026-11-08T23:28:37.617394+00:00"
 }
