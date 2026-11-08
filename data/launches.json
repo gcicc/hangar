@@ -280,16 +280,6 @@
    },
    {
     "count": 4,
-    "last_net": "2026-11-06T23:37:00Z",
-    "lat": 40.969117,
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.343333,
-    "name": "Launch Area 95A",
-    "spacex": false,
-    "top_provider": "Galactic Energy"
-   },
-   {
-    "count": 4,
     "last_net": "2026-10-14T11:40:00Z",
     "lat": 40.91491,
     "location": "Jiuquan Satellite Launch Center, People's Republic of China",
@@ -330,6 +320,16 @@
    },
    {
     "count": 3,
+    "last_net": "2026-11-06T23:37:00Z",
+    "lat": 40.969117,
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "lon": 100.343333,
+    "name": "Launch Area 95A",
+    "spacex": false,
+    "top_provider": "ExPace"
+   },
+   {
+    "count": 3,
     "last_net": "2026-11-05T15:58:00Z",
     "lat": 28.247059,
     "location": "Xichang Satellite Launch Center, People's Republic of China",
@@ -337,6 +337,16 @@
     "name": "Launch Complex 3 (LC-3/LA-1)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 3,
+    "last_net": "2026-11-30T00:00:00Z",
+    "lat": 13.7199,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.2304,
+    "name": "Satish Dhawan Space Centre Second Launch Pad",
+    "spacex": false,
+    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 3,
@@ -387,16 +397,6 @@
     "name": "Launch Area 140",
     "spacex": false,
     "top_provider": "CAS Space"
-   },
-   {
-    "count": 2,
-    "last_net": "2026-10-30T18:21:00Z",
-    "lat": 13.7199,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.2304,
-    "name": "Satish Dhawan Space Centre Second Launch Pad",
-    "spacex": false,
-    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 2,
@@ -1993,66 +1993,6 @@
   },
   "upcoming": [
    {
-    "description": "Share-ride of 4 commercial Earth observation and technology demonstration satellites to SSO, details TBD.",
-    "id": "e91d1da2-819b-4523-95bf-39ac7daa871d",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-2_y3_lift_image_thumbnail_20261107010856.jpeg",
-    "lat": 40.969117,
-    "lon": 100.343333,
-    "mission": "4 satellites",
-    "mission_type": "Earth Science",
-    "name": "Ceres-2 | 4 satellites",
-    "net": "2026-11-06T23:37:00Z",
-    "net_precision": "MIN",
-    "orbit": "SSO",
-    "pad": "Launch Area 95A",
-    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "Galactic Energy",
-    "rocket": "Ceres-2",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/e91d1da2-819b-4523-95bf-39ac7daa871d",
-    "webcast_live": false,
-    "webcasts": []
-   },
-   {
-    "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
-    "id": "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "USSF-432",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | USSF-432",
-    "net": "2026-11-07T00:48:42Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
-    "webcast_live": false,
-    "webcasts": [
-     {
-      "official": true,
-      "publisher": "SpaceX",
-      "url": "https://x.com/i/broadcasts/1kKzDPYrZNdJv"
-     },
-     {
-      "official": false,
-      "publisher": "The Space Devs",
-      "url": "https://www.youtube.com/watch?v=x6z8DpYqTho"
-     },
-     {
-      "official": false,
-      "publisher": "Spaceflight Now",
-      "url": "https://www.youtube.com/watch?v=5zPZKJicp0s"
-     }
-    ]
-   },
-   {
     "description": "Note: Payload identity uncertain.\r\n\r\nGlonass-K are the third generation of satellite design for GLONASS satellite navigation system. GLONASS is a Russian space-based navigation system comparable to the similar GPS and Galileo systems. This generation improves on accuracy, power consumption and design life. Each satellite is unpressurized and weighs 935 kg,  and has an operational lifetime of 10 ye",
     "id": "c476fea7-7814-4adb-91d1-98918bc2cc57",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
@@ -2465,8 +2405,63 @@
     "url": "https://nextspaceflight.com/launches/details/b0dc988c-ea4a-423f-81b6-6b0fbe7cc17c",
     "webcast_live": false,
     "webcasts": []
+   },
+   {
+    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+    "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "Starlink Group 15-21",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-21",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
+    "webcast_live": false,
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "SpaceX",
+      "url": "https://x.com/i/broadcasts/1aJbdEgvmWaKX"
+     },
+     {
+      "official": false,
+      "publisher": "SPACE AFFAIRS",
+      "url": "https://www.youtube.com/watch?v=z9uME3O2xHk"
+     }
+    ]
+   },
+   {
+    "description": "First uncrewed orbital test flight of the Gaganyaan capsule.",
+    "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg",
+    "lat": 13.7199,
+    "lon": 80.2304,
+    "mission": "Gaganyaan-1",
+    "mission_type": "Test Flight",
+    "name": "LVM-3 | Gaganyaan-1",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad",
+    "pad_location": "Satish Dhawan Space Centre, India",
+    "provider": "Indian Space Research Organization",
+    "rocket": "Launch Vehicle Mark-3 (GSLV Mk III)",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/dfac5ab7-7017-454f-b6cf-eeed277a97b5",
+    "webcast_live": false,
+    "webcasts": []
    }
   ]
  },
- "fetched_at": "2026-11-07T23:29:27.383522+00:00"
+ "fetched_at": "2026-11-08T04:59:31.177328+00:00"
 }

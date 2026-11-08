@@ -14,8 +14,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 125,
+  "last_seen": "2026-11-08",
+  "times_seen": 126,
   "outlets": [
    "Neuralink"
   ]
@@ -34,8 +34,8 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 83,
+  "last_seen": "2026-11-08",
+  "times_seen": 84,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -54,30 +54,10 @@
   "first_seen": "2026-10-14",
   "topics": [],
   "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 63,
+  "last_seen": "2026-11-08",
+  "times_seen": 64,
   "outlets": [
    "X"
-  ]
- },
- {
-  "statement": "Tesla is set to open reservations for Optimus robot later this year, says industry expert - The San Francisco Standard",
-  "entity": "Tesla",
-  "horizon_phrase": "this year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ydi14SkhhWXNPcUhScTJtc1ZiTzZrSy1mV1hLbEtTNUEycFlTTVYyNjNpXzNFQ3B3R3FQQmFLVUxFVTd2WkpLOTRKeExCaEhuRVJ3Qml3eVdITjdwanJnY2RKU1dXaUFSaHpTNGFoNGg?oc=5",
-  "first_seen": "2026-10-31",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 27,
-  "outlets": [
-   "Optimus"
   ]
  },
  {
@@ -94,8 +74,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 45,
+  "last_seen": "2026-11-08",
+  "times_seen": 46,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -115,8 +95,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 37,
+  "last_seen": "2026-11-08",
+  "times_seen": 38,
   "outlets": [
    "Optimus"
   ]
@@ -135,8 +115,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 118,
+  "last_seen": "2026-11-08",
+  "times_seen": 119,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -157,8 +137,8 @@
    "launch"
   ],
   "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 123,
+  "last_seen": "2026-11-08",
+  "times_seen": 124,
   "outlets": [
    "Starship",
    "Falcon"
@@ -178,8 +158,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 24,
+  "last_seen": "2026-11-08",
+  "times_seen": 25,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -199,8 +179,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 22,
+  "last_seen": "2026-11-08",
+  "times_seen": 23,
   "outlets": [
    "Humanoids"
   ]
@@ -219,10 +199,215 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 22,
+  "last_seen": "2026-11-08",
+  "times_seen": 23,
   "outlets": [
    "Humanoids"
+  ]
+ },
+ {
+  "statement": "Musk Says Tesla Will Wind Down Cybertruck Production Next Year To Make Room For Cybercab - Forbes",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUZNLTVPQ29tNld4bHBMTXNQcFhjYmRMdmZEX1A1M3VfUVhiMFlLdlJBZjU2RTZmUTAyczdhcjB2VEFCbHBHV1FtV09NNzRJcHlzX1dOWXRfRTFqQ1FxV1h3NFdJWV93SmpySE5ZWktvQ21zWFR6MHBrT3pWM3N4X09jQXNyakVHVVJzcy1ibzB6ZF81d180X3o5OGM4SXJvM2RmQ3RVVkFvRlZ1NlNxci02bG12MGM?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "autonomy",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-08",
+  "times_seen": 8,
+  "outlets": [
+   "Production",
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says - CNBC",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MOHpuVjVYejRkd2VlX2hvWGF0RDMxYUNzTGcxaTFadzNJT1c0Y19idmNzSl9nNDFFZnUzaWh4VFU4VkNqSWJOR3EzWk91MWhUdGxhamVWaEkxd1lOYVB3QnVOV1l5V0RCcXRndVQ3bE5DUdIBd0FVX3lxTE56Sy1vYlZjU2N0N2tfU3NMOGZ1TnNfaHQ5bmRYV0JxeENDZFpjMElvelY3RW52U2hMYXRkaHM4UlZaWVJaak9vUVVnUllwQ3hIbDhmb3N0d1RYeHdqQTh3cjJ6Z0lXRXVMS1VuclU5cFpfTjNNeXdJ?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "autonomy",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-08",
+  "times_seen": 7,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Musk says Tesla will end Cybertruck production in 2027 - CBS News",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NGswdEUycm1SMmlwV2dEZHpDQ1JzdUUxdnNJQWRnbEhxVzFHMjJmSS1jcVNwS1FLVHNZSzE1a3FTR21KRWNLb0xSYS02Z1NqSDBuZy1ra1BSNnowQ3VLeHBEUzVIYXM1TGNyMGFtamZPa3FLdWVqTkt6V19LS0E?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-08",
+  "times_seen": 7,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Cybertruck final countdown: Tesla plans to wind down pickup production in 2027 - Interesting Engineering",
+  "entity": "Cybertruck",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWVNOSWlKamxXR3N5TzRiWC1VblNxb29ZOFR3WlEwZHBBR09TckVVVEVKZlFnc0d5X3pfcjlQUUptZThGTkZuMnVFWnNIU3JIWWQ5TEN0b3pKQnZqWGdvQnRQQ1lrRVBfRnZMVURBQ0lSQU0yNUFieURwZndpODdkV3U0X18wdFhhWGhabXphMnZRb3ZaX05obFBYbDI?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "launch",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-08",
+  "times_seen": 6,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Tesla will phase out Cybertruck production next year, Musk says - Los Angeles Times",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU3MwNzZJT3k1V09xNUxodERwTXlmcGlKNWFJSzV5T1BlZGxkb1drTjVIZnNRY0RxU001cjBnZ0hTXzJoMlZnSlA3Mm8xQVBhWEliX0NabW5FOVAyR0ROckJVX2YzV2diLWV6bFVKMWFsVC1xM2N4SWU5bUtmYnFMbTNyYXFxNjRWaDhrYjBXQ1Q2YzBZUnpxVGhCc2g0LUtQNUxUUmdjR3FBUHo5eDI2aFlR?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-08",
+  "times_seen": 6,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "SpaceX surges 9% as Musk says Q4 revenue is expected to grow 70%, with a target of $500 billion next year. - \u5bcc\u9014\u725b\u725b",
+  "entity": "SpaceX",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaHRlUlgwdWJSME1pOU83VVNxbTY5emUyenR6dWsxWHFqdURRZW1IaHVzU3NVekhORjBaZVBJb2NoQU5HZ2xtTnF0eEhEZkt6T1JfY1NHYlJTLVQzMXBzM1I4Nll4dUl6dHRhREtjNUpoVzlZNjd3TkJ5QVdvM1RLc213S1JERDlINHM5cnEzUnZZaDlqSlczVHBn?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-08",
+  "times_seen": 6,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "Musk Says SpaceX Government Revenue Will Shrivel Next Year - Gizmodo",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNktYOGd1NHpFQjdXWWJ2Mm1GcGJLdU9xR003VUNndDhXcWo2TzRSaEtyMk1CM2MtUXlqZjB0QjJjeGZjem5zZkgteDFHczc1UVpwQVpQUmVOdnctTmlsZzZwUWNqSXVnd011aml6a1BBYnBkTFdtQ1ZaUER4Q0NqZGVXenFVTWtCU25CZkZlZlJibVU?oc=5",
+  "first_seen": "2026-11-07",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-08",
+  "times_seen": 3,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "Confirmed: Tesla Cybertruck Ending Production in 2027 Due to Disastrous Sales and Other Issues - autoevolution",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOS3hIVTQ1RWdUcENadklqY2xYTzlHX1FHR2x4WHdWYmxQYVQ5U2lXVVltMUVRaENsaHRtQ3FWWlpqajdkRHlPXzN4SXlSNmp2MW95SnI4Z2lkX28wSUdMWUhfR0l6cEVaTXNSOExEeGxtWEUtRGlOdzBqeHZKX0UxVVlEaTJBeGpsR0ZJOFpZa09qVW1tYmU1SXAwSlpINU1jUnRtQ29LMkhaT1RnczNfRHEzVGU5ZWRtaE4zc2FWMVZSc2VwZW1ONTZMaV8?oc=5",
+  "first_seen": "2026-11-07",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-08",
+  "times_seen": 4,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Tesla plans to wind down Cybertruck production. Elon Musk said Tesla will scale back Cybertruck production in 2027 to make room for more Cybercab robotaxis at its Texas factory. - Facebook",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZERnazY2QnJXVXM3Y05FQzJ3ODhaMzZ6QnJobDNUZmJFZW0wOEY1enI5Wnoyby1ONGNYOXpQZUFHNktjQ0t2c3dWVE1lMVp0SFlabG8xWWprdDE2RTg4YmtyY0pMQTIxTDFDeTg1UnZESFFxRU9ybERVNzVfUWxQZ2tXazFOYW5oWU1JcGlFcjNCTjJDRGYzYUtJMUZJUlE3RXdIY0NpMnJmWF9QcEV6cTRDcVBWSXB1V1FJX1MwZnRxRmRVMS1FY2dBcE11OElsVWlOSGdrNzAzdHR5MFpn?oc=5",
+  "first_seen": "2026-11-07",
+  "topics": [
+   "autonomy",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-08",
+  "times_seen": 3,
+  "outlets": [
+   "Humanoids"
+  ]
+ },
+ {
+  "statement": "Tesla is set to open reservations for Optimus robot later this year, says industry expert - The San Francisco Standard",
+  "entity": "Tesla",
+  "horizon_phrase": "this year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ydi14SkhhWXNPcUhScTJtc1ZiTzZrSy1mV1hLbEtTNUEycFlTTVYyNjNpXzNFQ3B3R3FQQmFLVUxFVTd2WkpLOTRKeExCaEhuRVJ3Qml3eVdITjdwanJnY2RKU1dXaUFSaHpTNGFoNGg?oc=5",
+  "first_seen": "2026-10-31",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-07",
+  "times_seen": 27,
+  "outlets": [
+   "Optimus"
   ]
  },
  {
@@ -267,28 +452,6 @@
   ]
  },
  {
-  "statement": "Musk Says Tesla Will Wind Down Cybertruck Production Next Year To Make Room For Cybercab - Forbes",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUZNLTVPQ29tNld4bHBMTXNQcFhjYmRMdmZEX1A1M3VfUVhiMFlLdlJBZjU2RTZmUTAyczdhcjB2VEFCbHBHV1FtV09NNzRJcHlzX1dOWXRfRTFqQ1FxV1h3NFdJWV93SmpySE5ZWktvQ21zWFR6MHBrT3pWM3N4X09jQXNyakVHVVJzcy1ibzB6ZF81d180X3o5OGM4SXJvM2RmQ3RVVkFvRlZ1NlNxci02bG12MGM?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "autonomy",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 7,
-  "outlets": [
-   "Production",
-   "Autonomy"
-  ]
- },
- {
   "statement": "Tesla to Wind Down Cybertruck Production in Texas Next Year, Elon Musk Says - Bloomberg.com",
   "entity": "Tesla",
   "horizon_phrase": "Next Year",
@@ -324,169 +487,6 @@
   "times_seen": 3,
   "outlets": [
    "Production"
-  ]
- },
- {
-  "statement": "Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says - CNBC",
-  "entity": "Tesla",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MOHpuVjVYejRkd2VlX2hvWGF0RDMxYUNzTGcxaTFadzNJT1c0Y19idmNzSl9nNDFFZnUzaWh4VFU4VkNqSWJOR3EzWk91MWhUdGxhamVWaEkxd1lOYVB3QnVOV1l5V0RCcXRndVQ3bE5DUdIBd0FVX3lxTE56Sy1vYlZjU2N0N2tfU3NMOGZ1TnNfaHQ5bmRYV0JxeENDZFpjMElvelY3RW52U2hMYXRkaHM4UlZaWVJaak9vUVVnUllwQ3hIbDhmb3N0d1RYeHdqQTh3cjJ6Z0lXRXVMS1VuclU5cFpfTjNNeXdJ?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "autonomy",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 6,
-  "outlets": [
-   "Autonomy"
-  ]
- },
- {
-  "statement": "Musk says Tesla will end Cybertruck production in 2027 - CBS News",
-  "entity": "Musk",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NGswdEUycm1SMmlwV2dEZHpDQ1JzdUUxdnNJQWRnbEhxVzFHMjJmSS1jcVNwS1FLVHNZSzE1a3FTR21KRWNLb0xSYS02Z1NqSDBuZy1ra1BSNnowQ3VLeHBEUzVIYXM1TGNyMGFtamZPa3FLdWVqTkt6V19LS0E?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 6,
-  "outlets": [
-   "Autonomy"
-  ]
- },
- {
-  "statement": "Cybertruck final countdown: Tesla plans to wind down pickup production in 2027 - Interesting Engineering",
-  "entity": "Cybertruck",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNWVNOSWlKamxXR3N5TzRiWC1VblNxb29ZOFR3WlEwZHBBR09TckVVVEVKZlFnc0d5X3pfcjlQUUptZThGTkZuMnVFWnNIU3JIWWQ5TEN0b3pKQnZqWGdvQnRQQ1lrRVBfRnZMVURBQ0lSQU0yNUFieURwZndpODdkV3U0X18wdFhhWGhabXphMnZRb3ZaX05obFBYbDI?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "launch",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 5,
-  "outlets": [
-   "Autonomy"
-  ]
- },
- {
-  "statement": "Tesla will phase out Cybertruck production next year, Musk says - Los Angeles Times",
-  "entity": "Tesla",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU3MwNzZJT3k1V09xNUxodERwTXlmcGlKNWFJSzV5T1BlZGxkb1drTjVIZnNRY0RxU001cjBnZ0hTXzJoMlZnSlA3Mm8xQVBhWEliX0NabW5FOVAyR0ROckJVX2YzV2diLWV6bFVKMWFsVC1xM2N4SWU5bUtmYnFMbTNyYXFxNjRWaDhrYjBXQ1Q2YzBZUnpxVGhCc2g0LUtQNUxUUmdjR3FBUHo5eDI2aFlR?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 5,
-  "outlets": [
-   "Production"
-  ]
- },
- {
-  "statement": "SpaceX surges 9% as Musk says Q4 revenue is expected to grow 70%, with a target of $500 billion next year. - \u5bcc\u9014\u725b\u725b",
-  "entity": "SpaceX",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaHRlUlgwdWJSME1pOU83VVNxbTY5emUyenR6dWsxWHFqdURRZW1IaHVzU3NVekhORjBaZVBJb2NoQU5HZ2xtTnF0eEhEZkt6T1JfY1NHYlJTLVQzMXBzM1I4Nll4dUl6dHRhREtjNUpoVzlZNjd3TkJ5QVdvM1RLc213S1JERDlINHM5cnEzUnZZaDlqSlczVHBn?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 5,
-  "outlets": [
-   "SPCX"
-  ]
- },
- {
-  "statement": "Musk Says SpaceX Government Revenue Will Shrivel Next Year - Gizmodo",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNktYOGd1NHpFQjdXWWJ2Mm1GcGJLdU9xR003VUNndDhXcWo2TzRSaEtyMk1CM2MtUXlqZjB0QjJjeGZjem5zZkgteDFHczc1UVpwQVpQUmVOdnctTmlsZzZwUWNqSXVnd011aml6a1BBYnBkTFdtQ1ZaUER4Q0NqZGVXenFVTWtCU25CZkZlZlJibVU?oc=5",
-  "first_seen": "2026-11-07",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 2,
-  "outlets": [
-   "SPCX"
-  ]
- },
- {
-  "statement": "Confirmed: Tesla Cybertruck Ending Production in 2027 Due to Disastrous Sales and Other Issues - autoevolution",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOS3hIVTQ1RWdUcENadklqY2xYTzlHX1FHR2x4WHdWYmxQYVQ5U2lXVVltMUVRaENsaHRtQ3FWWlpqajdkRHlPXzN4SXlSNmp2MW95SnI4Z2lkX28wSUdMWUhfR0l6cEVaTXNSOExEeGxtWEUtRGlOdzBqeHZKX0UxVVlEaTJBeGpsR0ZJOFpZa09qVW1tYmU1SXAwSlpINU1jUnRtQ29LMkhaT1RnczNfRHEzVGU5ZWRtaE4zc2FWMVZSc2VwZW1ONTZMaV8?oc=5",
-  "first_seen": "2026-11-07",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 3,
-  "outlets": [
-   "Production"
-  ]
- },
- {
-  "statement": "Tesla plans to wind down Cybertruck production. Elon Musk said Tesla will scale back Cybertruck production in 2027 to make room for more Cybercab robotaxis at its Texas factory. - Facebook",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZERnazY2QnJXVXM3Y05FQzJ3ODhaMzZ6QnJobDNUZmJFZW0wOEY1enI5Wnoyby1ONGNYOXpQZUFHNktjQ0t2c3dWVE1lMVp0SFlabG8xWWprdDE2RTg4YmtyY0pMQTIxTDFDeTg1UnZESFFxRU9ybERVNzVfUWxQZ2tXazFOYW5oWU1JcGlFcjNCTjJDRGYzYUtJMUZJUlE3RXdIY0NpMnJmWF9QcEV6cTRDcVBWSXB1V1FJX1MwZnRxRmRVMS1FY2dBcE11OElsVWlOSGdrNzAzdHR5MFpn?oc=5",
-  "first_seen": "2026-11-07",
-  "topics": [
-   "autonomy",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 2,
-  "outlets": [
-   "Humanoids"
   ]
  },
  {
