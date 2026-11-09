@@ -276,7 +276,7 @@
    },
    {
     "count": 4,
-    "last_net": "2026-11-07T13:30:00Z",
+    "last_net": "2026-11-07T13:22:00Z",
     "lat": 62.9273,
     "location": "Plesetsk Cosmodrome, Russian Federation",
     "lon": 40.45,
@@ -697,8 +697,8 @@
     "mission": "Glonass-K1? (Kosmos 2621?)",
     "mission_type": "Navigation",
     "name": "Soyuz 2.1b/Fregat | Glonass-K1? (Kosmos 2621?)",
-    "net": "2026-11-07T13:30:00Z",
-    "net_precision": "HR",
+    "net": "2026-11-07T13:22:00Z",
+    "net_precision": "MIN",
     "orbit": "MEO",
     "pad": "43/3 (43L)",
     "pad_location": "Plesetsk Cosmodrome, Russian Federation",
@@ -1490,7 +1490,7 @@
     "mission_type": "Navigation",
     "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 19 (Kosmos 2620)",
     "net": "2026-09-17T16:50:00Z",
-    "net_precision": "HR",
+    "net_precision": "MIN",
     "orbit": "MEO",
     "pad": "43/3 (43L)",
     "pad_location": "Plesetsk Cosmodrome, Russian Federation",
@@ -2480,5 +2480,5 @@
    }
   ]
  },
- "fetched_at": "2026-11-08T23:28:37.617394+00:00"
+ "fetched_at": "2026-11-09T05:08:43.837210+00:00"
 }
