@@ -641,7 +641,7 @@
    },
    {
     "count": 1,
-    "last_net": "2026-11-11T05:00:00Z",
+    "last_net": "2026-11-13T05:00:00Z",
     "lat": 33.216667,
     "location": "Sea Launch",
     "lon": 126.366667,
@@ -2037,28 +2037,6 @@
     ]
    },
    {
-    "description": "Note: Launch vehicle name is provisional.\r\n\r\nFirst orbital full version launch of the South Korean military small satellite launch vehicle, after 2 sub-orbital tests of individual stages on 30 March and 30 December 2022, and 1 orbital test flight without the 2nd stage on 4 December 2023. Details TBD.",
-    "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192440.png",
-    "lat": 33.216667,
-    "lon": 126.366667,
-    "mission": "Demo Flight",
-    "mission_type": "Test Flight",
-    "name": "Mir | Demo Flight",
-    "net": "2026-11-11T05:00:00Z",
-    "net_precision": "HR",
-    "orbit": "LEO",
-    "pad": "ADD Offshore launch platform",
-    "pad_location": "Sea Launch",
-    "provider": "Agency for Defense Development",
-    "rocket": "Mir",
-    "status": "Go",
-    "status_name": "Go for Launch",
-    "url": "https://nextspaceflight.com/launches/details/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
-    "webcast_live": false,
-    "webcasts": []
-   },
-   {
     "description": "Details TBD.",
     "id": "d66590ab-b273-47ff-b85a-608b62851b4b",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
@@ -2099,6 +2077,28 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/e2523821-9760-4cb4-ad1f-7ce2e30419bd",
+    "webcast_live": false,
+    "webcasts": []
+   },
+   {
+    "description": "Note: Launch vehicle name is provisional.\r\n\r\nFirst orbital full version launch of the South Korean military small satellite launch vehicle, after 2 sub-orbital tests of individual stages on 30 March and 30 December 2022, and 1 orbital test flight without the 2nd stage on 4 December 2023. Details TBD.",
+    "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192440.png",
+    "lat": 33.216667,
+    "lon": 126.366667,
+    "mission": "Demo Flight",
+    "mission_type": "Test Flight",
+    "name": "Mir | Demo Flight",
+    "net": "2026-11-13T05:00:00Z",
+    "net_precision": "HR",
+    "orbit": "LEO",
+    "pad": "ADD Offshore launch platform",
+    "pad_location": "Sea Launch",
+    "provider": "Agency for Defense Development",
+    "rocket": "Mir",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
     "webcast_live": false,
     "webcasts": []
    },
@@ -2485,5 +2485,5 @@
    }
   ]
  },
- "fetched_at": "2026-11-10T07:03:57.734549+00:00"
+ "fetched_at": "2026-11-10T16:12:19.866105+00:00"
 }

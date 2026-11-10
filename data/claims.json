@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-10",
-  "times_seen": 133,
+  "times_seen": 134,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-10",
-  "times_seen": 91,
+  "times_seen": 92,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -55,7 +55,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-10",
-  "times_seen": 71,
+  "times_seen": 72,
   "outlets": [
    "X"
   ]
@@ -75,7 +75,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-10",
-  "times_seen": 53,
+  "times_seen": 54,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -96,7 +96,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-10",
-  "times_seen": 45,
+  "times_seen": 46,
   "outlets": [
    "Optimus"
   ]
@@ -116,7 +116,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-10",
-  "times_seen": 126,
+  "times_seen": 127,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -138,7 +138,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-10",
-  "times_seen": 131,
+  "times_seen": 132,
   "outlets": [
    "Starship",
    "Falcon"
@@ -159,7 +159,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-10",
-  "times_seen": 32,
+  "times_seen": 33,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -180,7 +180,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-10",
-  "times_seen": 30,
+  "times_seen": 31,
   "outlets": [
    "Humanoids"
   ]
@@ -200,7 +200,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-10",
-  "times_seen": 30,
+  "times_seen": 31,
   "outlets": [
    "Humanoids"
   ]
@@ -221,7 +221,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-10",
-  "times_seen": 14,
+  "times_seen": 15,
   "outlets": [
    "Autonomy"
   ]
@@ -263,6 +263,44 @@
   "primary": false,
   "last_seen": "2026-11-10",
   "times_seen": 13,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "Tesla Plans To Retire The Cybertruck Next Year - Finimize",
+  "entity": "Tesla",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQaDBSblB4bUxtM0xhTS1xSG40MWZPSG1jUW50TFVNaUlLazYxeUh1anZLa3RKNm1RMm1oV01Wbld3bXJUa1ZQNl9BbmhFTVN4VTJCQ1BIVGlGLW1GMGw5TkFqNVVjZWtrLVBZRE1EYjliRFhBZ3VwdTUzQm1DQnNfRA?oc=5",
+  "first_seen": "2026-11-10",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-10",
+  "times_seen": 1,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "SpaceX Wants To Turn AI Compute Into A $500B Business Next Year \u2013 And Elon Musk Says NASA\u2019s Annual Budget Is No Match - Yahoo Finance",
+  "entity": "SpaceX",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWWpkcTRiN2ptaGhHVWtySExOd1VuTlhoSHVyTTJFMzd0OGMwamRVcXkwVVlGVXgwN3owOW1nbG12X01ZWjZ2TjhVcGwzdERSZVY5SHpWSjZMQTd0ejlNT2RLWTdMallrSXgxOEpVZFdEcVdaR2dzZjk1WmU0bEdaZ1pmZVRlaGRJQWVMdHNzTV9PaU1wOTZ3?oc=5",
+  "first_seen": "2026-11-10",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-11-10",
+  "times_seen": 1,
   "outlets": [
    "SPCX"
   ]
@@ -2380,47 +2418,6 @@
   "times_seen": 2,
   "outlets": [
    "Starlink"
-  ]
- },
- {
-  "statement": "Royal Air Maroc to launch free Starlink Wi-Fi in 2027 - InsideFlyer",
-  "entity": "Starlink",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Starlink",
-  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNajVHRXdocDR5MWpPVTVPYVA3T1NlNERpY1R5ZlVIb0hsRTAySFEzVmN2bjhoc0ZaSEJwZXNTZERDUm9LQmRjcTgtejU2X3BJTTFGckVSN0J4aGJQZXlBWjNmcklHbzJ2RFhEZ25CdlVWdGtLYmZlS1Q4SjR3OXk4Mnd6dko4bnhfVzZXbnBDeGhMQQ?oc=5",
-  "first_seen": "2026-10-08",
-  "topics": [
-   "starlink",
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-08",
-  "times_seen": 3,
-  "outlets": [
-   "Starlink"
-  ]
- },
- {
-  "statement": "Tesla Stock Is Down 15% This Year. Is the $396 Street Target Within Reach? - finance.yahoo.com",
-  "entity": "Tesla",
-  "horizon_phrase": "This Year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "TSLA",
-  "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRVZwSVNEV3lidnNITjJkUF9DcWMyQWhpQWJwZ29OeWZPcktFTUtTUXFFVk5QN0ZkLVVUeEJadzk2RTJJSk5uY3o1ZVJ1U2kwZ2lvSExpZ2hGZmJITFFIM3ZUZy1hNnJUaE9LTnJXdHBGSHNXaEliTEdjQUc3aVhpY0JtbEh0RXluVUZpcl9BNUREUQ?oc=5",
-  "first_seen": "2026-10-05",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-07",
-  "times_seen": 8,
-  "outlets": [
-   "TSLA"
   ]
  }
 ]
