@@ -14,8 +14,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 132,
+  "last_seen": "2026-11-10",
+  "times_seen": 133,
   "outlets": [
    "Neuralink"
   ]
@@ -34,8 +34,8 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 90,
+  "last_seen": "2026-11-10",
+  "times_seen": 91,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -54,8 +54,8 @@
   "first_seen": "2026-10-14",
   "topics": [],
   "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 70,
+  "last_seen": "2026-11-10",
+  "times_seen": 71,
   "outlets": [
    "X"
   ]
@@ -74,8 +74,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 52,
+  "last_seen": "2026-11-10",
+  "times_seen": 53,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -95,8 +95,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 44,
+  "last_seen": "2026-11-10",
+  "times_seen": 45,
   "outlets": [
    "Optimus"
   ]
@@ -115,8 +115,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 125,
+  "last_seen": "2026-11-10",
+  "times_seen": 126,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -137,8 +137,8 @@
    "launch"
   ],
   "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 130,
+  "last_seen": "2026-11-10",
+  "times_seen": 131,
   "outlets": [
    "Starship",
    "Falcon"
@@ -158,8 +158,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 31,
+  "last_seen": "2026-11-10",
+  "times_seen": 32,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -179,8 +179,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 29,
+  "last_seen": "2026-11-10",
+  "times_seen": 30,
   "outlets": [
    "Humanoids"
   ]
@@ -199,10 +199,72 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 29,
+  "last_seen": "2026-11-10",
+  "times_seen": 30,
   "outlets": [
    "Humanoids"
+  ]
+ },
+ {
+  "statement": "Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says - CNBC",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MOHpuVjVYejRkd2VlX2hvWGF0RDMxYUNzTGcxaTFadzNJT1c0Y19idmNzSl9nNDFFZnUzaWh4VFU4VkNqSWJOR3EzWk91MWhUdGxhamVWaEkxd1lOYVB3QnVOV1l5V0RCcXRndVQ3bE5DUdIBd0FVX3lxTE56Sy1vYlZjU2N0N2tfU3NMOGZ1TnNfaHQ5bmRYV0JxeENDZFpjMElvelY3RW52U2hMYXRkaHM4UlZaWVJaak9vUVVnUllwQ3hIbDhmb3N0d1RYeHdqQTh3cjJ6Z0lXRXVMS1VuclU5cFpfTjNNeXdJ?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "autonomy",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-10",
+  "times_seen": 14,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Musk says Tesla will end Cybertruck production in 2027 - CBS News",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NGswdEUycm1SMmlwV2dEZHpDQ1JzdUUxdnNJQWRnbEhxVzFHMjJmSS1jcVNwS1FLVHNZSzE1a3FTR21KRWNLb0xSYS02Z1NqSDBuZy1ra1BSNnowQ3VLeHBEUzVIYXM1TGNyMGFtamZPa3FLdWVqTkt6V19LS0E?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-10",
+  "times_seen": 14,
+  "outlets": [
+   "Autonomy",
+   "Production"
+  ]
+ },
+ {
+  "statement": "SpaceX surges 9% as Musk says Q4 revenue is expected to grow 70%, with a target of $500 billion next year. - \u5bcc\u9014\u725b\u725b",
+  "entity": "SpaceX",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaHRlUlgwdWJSME1pOU83VVNxbTY5emUyenR6dWsxWHFqdURRZW1IaHVzU3NVekhORjBaZVBJb2NoQU5HZ2xtTnF0eEhEZkt6T1JfY1NHYlJTLVQzMXBzM1I4Nll4dUl6dHRhREtjNUpoVzlZNjd3TkJ5QVdvM1RLc213S1JERDlINHM5cnEzUnZZaDlqSlczVHBn?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-10",
+  "times_seen": 13,
+  "outlets": [
+   "SPCX"
   ]
  },
  {
@@ -225,48 +287,6 @@
   "outlets": [
    "Production",
    "Autonomy"
-  ]
- },
- {
-  "statement": "Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says - CNBC",
-  "entity": "Tesla",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MOHpuVjVYejRkd2VlX2hvWGF0RDMxYUNzTGcxaTFadzNJT1c0Y19idmNzSl9nNDFFZnUzaWh4VFU4VkNqSWJOR3EzWk91MWhUdGxhamVWaEkxd1lOYVB3QnVOV1l5V0RCcXRndVQ3bE5DUdIBd0FVX3lxTE56Sy1vYlZjU2N0N2tfU3NMOGZ1TnNfaHQ5bmRYV0JxeENDZFpjMElvelY3RW52U2hMYXRkaHM4UlZaWVJaak9vUVVnUllwQ3hIbDhmb3N0d1RYeHdqQTh3cjJ6Z0lXRXVMS1VuclU5cFpfTjNNeXdJ?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "autonomy",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 13,
-  "outlets": [
-   "Autonomy"
-  ]
- },
- {
-  "statement": "Musk says Tesla will end Cybertruck production in 2027 - CBS News",
-  "entity": "Musk",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NGswdEUycm1SMmlwV2dEZHpDQ1JzdUUxdnNJQWRnbEhxVzFHMjJmSS1jcVNwS1FLVHNZSzE1a3FTR21KRWNLb0xSYS02Z1NqSDBuZy1ra1BSNnowQ3VLeHBEUzVIYXM1TGNyMGFtamZPa3FLdWVqTkt6V19LS0E?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 13,
-  "outlets": [
-   "Autonomy",
-   "Production"
   ]
  },
  {
@@ -308,26 +328,6 @@
   "times_seen": 11,
   "outlets": [
    "Production"
-  ]
- },
- {
-  "statement": "SpaceX surges 9% as Musk says Q4 revenue is expected to grow 70%, with a target of $500 billion next year. - \u5bcc\u9014\u725b\u725b",
-  "entity": "SpaceX",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaHRlUlgwdWJSME1pOU83VVNxbTY5emUyenR6dWsxWHFqdURRZW1IaHVzU3NVekhORjBaZVBJb2NoQU5HZ2xtTnF0eEhEZkt6T1JfY1NHYlJTLVQzMXBzM1I4Nll4dUl6dHRhREtjNUpoVzlZNjd3TkJ5QVdvM1RLc213S1JERDlINHM5cnEzUnZZaDlqSlczVHBn?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 12,
-  "outlets": [
-   "SPCX"
   ]
  },
  {
