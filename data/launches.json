@@ -136,37 +136,26 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
-   "id": "6aa7b90b-e5ed-45d8-a52e-04fbf399d178",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
-   "lat": 34.632,
-   "lon": -120.611,
-   "mission": "USSF-627",
-   "mission_type": "Government/Top Secret",
-   "name": "Falcon 9 Block 5 | USSF-627",
-   "net": "2026-11-11T02:49:00Z",
-   "net_precision": "MIN",
-   "orbit": "LEO",
-   "pad": "Space Launch Complex 4E",
-   "pad_location": "Vandenberg SFB, CA, USA",
-   "provider": "SpaceX",
-   "rocket": "Falcon 9 Block 5",
+   "description": "Details TBD.",
+   "id": "d66590ab-b273-47ff-b85a-608b62851b4b",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
+   "lat": 40.960482,
+   "lon": 100.298059,
+   "mission": "Unknown Payload",
+   "mission_type": "Unknown",
+   "name": "Long March 2D | Unknown Payload",
+   "net": "2026-11-11T11:40:00Z",
+   "net_precision": "HR",
+   "orbit": "N/A",
+   "pad": "Launch Area 94 (SLS-2 / 603)",
+   "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
+   "provider": "China Aerospace Science and Technology Corporation",
+   "rocket": "Long March 2D",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/6aa7b90b-e5ed-45d8-a52e-04fbf399d178",
+   "url": "https://nextspaceflight.com/launches/details/d66590ab-b273-47ff-b85a-608b62851b4b",
    "webcast_live": false,
-   "webcasts": [
-    {
-     "official": true,
-     "publisher": "X",
-     "url": "https://x.com/i/broadcasts/2brkWyolnlBbLM"
-    },
-    {
-     "official": false,
-     "publisher": "SPACE AFFAIRS",
-     "url": "https://www.youtube.com/watch?v=1jhH0mR5ICA"
-    }
-   ]
+   "webcasts": []
   },
   "pads": [
    {
@@ -2004,6 +1993,28 @@
   },
   "upcoming": [
    {
+    "description": "Details TBD.",
+    "id": "d66590ab-b273-47ff-b85a-608b62851b4b",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
+    "lat": 40.960482,
+    "lon": 100.298059,
+    "mission": "Unknown Payload",
+    "mission_type": "Unknown",
+    "name": "Long March 2D | Unknown Payload",
+    "net": "2026-11-11T11:40:00Z",
+    "net_precision": "HR",
+    "orbit": "N/A",
+    "pad": "Launch Area 94 (SLS-2 / 603)",
+    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 2D",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/d66590ab-b273-47ff-b85a-608b62851b4b",
+    "webcast_live": false,
+    "webcasts": []
+   },
+   {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
     "id": "6aa7b90b-e5ed-45d8-a52e-04fbf399d178",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
@@ -2012,7 +2023,7 @@
     "mission": "USSF-627",
     "mission_type": "Government/Top Secret",
     "name": "Falcon 9 Block 5 | USSF-627",
-    "net": "2026-11-11T02:49:00Z",
+    "net": "2026-11-12T02:35:00Z",
     "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
@@ -2035,28 +2046,6 @@
       "url": "https://www.youtube.com/watch?v=1jhH0mR5ICA"
      }
     ]
-   },
-   {
-    "description": "Details TBD.",
-    "id": "d66590ab-b273-47ff-b85a-608b62851b4b",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
-    "lat": 40.960482,
-    "lon": 100.298059,
-    "mission": "Unknown Payload",
-    "mission_type": "Unknown",
-    "name": "Long March 2D | Unknown Payload",
-    "net": "2026-11-11T11:40:00Z",
-    "net_precision": "HR",
-    "orbit": "N/A",
-    "pad": "Launch Area 94 (SLS-2 / 603)",
-    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "rocket": "Long March 2D",
-    "status": "Go",
-    "status_name": "Go for Launch",
-    "url": "https://nextspaceflight.com/launches/details/d66590ab-b273-47ff-b85a-608b62851b4b",
-    "webcast_live": false,
-    "webcasts": []
    },
    {
     "description": "Details TBD.",
@@ -2153,34 +2142,6 @@
     "webcasts": []
    },
    {
-    "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
-    "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "USSF-317",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | USSF-317",
-    "net": "2026-11-14T04:09:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
-    "url": "https://nextspaceflight.com/launches/details/76617033-4dc0-4448-b50c-e5b0d5a18539",
-    "webcast_live": false,
-    "webcasts": [
-     {
-      "official": true,
-      "publisher": "X",
-      "url": "https://x.com/i/broadcasts/2lgkMvaRVPMdYR"
-     }
-    ]
-   },
-   {
     "description": "Synthetic aperture radar Earth observation satellite for Japanese Earth imaging company iQPS.",
     "id": "db3500ac-965b-4ad8-b417-cb8d8d005586",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
@@ -2203,6 +2164,34 @@
     "webcasts": []
    },
    {
+    "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
+    "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "USSF-317",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | USSF-317",
+    "net": "2026-11-15T03:55:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/76617033-4dc0-4448-b50c-e5b0d5a18539",
+    "webcast_live": false,
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "X",
+      "url": "https://x.com/i/broadcasts/2lgkMvaRVPMdYR"
+     }
+    ]
+   },
+   {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
     "id": "460d9db7-eaf6-4cd9-b095-cff433534c09",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
@@ -2211,7 +2200,7 @@
     "mission": "USSF-266",
     "mission_type": "Government/Top Secret",
     "name": "Falcon 9 Block 5 | USSF-266",
-    "net": "2026-11-17T16:58:00Z",
+    "net": "2026-11-18T16:49:00Z",
     "net_precision": "MIN",
     "orbit": "PO",
     "pad": "Space Launch Complex 4E",
@@ -2485,5 +2474,5 @@
    }
   ]
  },
- "fetched_at": "2026-11-10T16:12:19.866105+00:00"
+ "fetched_at": "2026-11-10T22:57:25.855215+00:00"
 }
