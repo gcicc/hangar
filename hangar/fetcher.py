@@ -25,9 +25,11 @@ def _parse_date(entry: dict) -> datetime:
         parsed = entry.get(field)
         if parsed:
             try:
-                from time import mktime
+                # feedparser's struct_time is UTC; timegm reads it as UTC.
+                # (mktime read it as local time, shifting ages by the UTC offset.)
+                from calendar import timegm
 
-                return datetime.fromtimestamp(mktime(parsed), tz=UTC)
+                return datetime.fromtimestamp(timegm(parsed), tz=UTC)
             except (ValueError, OverflowError, OSError):
                 pass
     return datetime.now(UTC)
