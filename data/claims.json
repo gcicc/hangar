@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-12",
-  "times_seen": 139,
+  "times_seen": 140,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-12",
-  "times_seen": 97,
+  "times_seen": 98,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -55,7 +55,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-12",
-  "times_seen": 77,
+  "times_seen": 78,
   "outlets": [
    "X"
   ]
@@ -75,7 +75,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-12",
-  "times_seen": 59,
+  "times_seen": 60,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -96,7 +96,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-12",
-  "times_seen": 51,
+  "times_seen": 52,
   "outlets": [
    "Optimus"
   ]
@@ -116,7 +116,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-12",
-  "times_seen": 132,
+  "times_seen": 133,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -138,7 +138,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-12",
-  "times_seen": 137,
+  "times_seen": 138,
   "outlets": [
    "Starship",
    "Falcon"
@@ -159,7 +159,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-12",
-  "times_seen": 38,
+  "times_seen": 39,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -180,7 +180,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-12",
-  "times_seen": 36,
+  "times_seen": 37,
   "outlets": [
    "Humanoids"
   ]
@@ -200,7 +200,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-12",
-  "times_seen": 36,
+  "times_seen": 37,
   "outlets": [
    "Humanoids"
   ]
@@ -221,7 +221,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-12",
-  "times_seen": 20,
+  "times_seen": 21,
   "outlets": [
    "Autonomy",
    "Production"
@@ -260,9 +260,29 @@
   ],
   "primary": false,
   "last_seen": "2026-11-12",
-  "times_seen": 88,
+  "times_seen": 89,
   "outlets": [
    "Neuralink"
+  ]
+ },
+ {
+  "statement": "Elon Musk Promises a SpaceX Share To Every American Child in 2027 - Yahoo Finance",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTW8xZnBtNkxhelRwb0xHOGVLSzRLUVpSaVhWanZ3eE95NmZSa09sVVV6cU5zSHdhamJaSW9hVTFDWFFfb0REcXlxOHotX2lOODd1Qkp4MWJJR1phLVNBS2NuckFuTXdTTjVZRnU2YXlCVlZKQkI5ZDE4SEd6WWxJMUdtMTBTMTZZTURMSWdLUEVyNV8wSkNUZG5hSlc?oc=5",
+  "first_seen": "2026-11-12",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-12",
+  "times_seen": 1,
+  "outlets": [
+   "SPCX"
   ]
  },
  {
@@ -2398,27 +2418,6 @@
   "times_seen": 4,
   "outlets": [
    "TSLA"
-  ]
- },
- {
-  "statement": "KLM to launch free Starlink Wi-Fi on long-haul flights in 2027 - TravelWires",
-  "entity": "Starlink",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Starlink",
-  "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVGZUOGlJTVVxMFV1UkdsWlZmbTVFT1Q3T0U1VTZkdkJnMkppdGZuLXZfenVWVTRnU0RYTktFaE5oODR2Qm04ZFU4bldmTkpHdTNTdF9sZjdFR0xrRmJJSDNvWHZaYlZwYWFhQ2hvME5uUF9ST0ZyNlJvaEhRa0FUWXhaQmtYR3YtbzNuckM5eFBlM2YyTGc?oc=5",
-  "first_seen": "2026-10-09",
-  "topics": [
-   "starlink",
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-09",
-  "times_seen": 2,
-  "outlets": [
-   "Starlink"
   ]
  }
 ]
