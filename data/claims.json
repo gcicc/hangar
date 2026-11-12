@@ -14,8 +14,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-11-11",
-  "times_seen": 138,
+  "last_seen": "2026-11-12",
+  "times_seen": 139,
   "outlets": [
    "Neuralink"
   ]
@@ -34,8 +34,8 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-11-11",
-  "times_seen": 96,
+  "last_seen": "2026-11-12",
+  "times_seen": 97,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -54,8 +54,8 @@
   "first_seen": "2026-10-14",
   "topics": [],
   "primary": false,
-  "last_seen": "2026-11-11",
-  "times_seen": 76,
+  "last_seen": "2026-11-12",
+  "times_seen": 77,
   "outlets": [
    "X"
   ]
@@ -74,8 +74,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-11",
-  "times_seen": 58,
+  "last_seen": "2026-11-12",
+  "times_seen": 59,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -95,8 +95,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-11",
-  "times_seen": 50,
+  "last_seen": "2026-11-12",
+  "times_seen": 51,
   "outlets": [
    "Optimus"
   ]
@@ -115,8 +115,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-11",
-  "times_seen": 131,
+  "last_seen": "2026-11-12",
+  "times_seen": 132,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -137,8 +137,8 @@
    "launch"
   ],
   "primary": false,
-  "last_seen": "2026-11-11",
-  "times_seen": 136,
+  "last_seen": "2026-11-12",
+  "times_seen": 137,
   "outlets": [
    "Starship",
    "Falcon"
@@ -158,8 +158,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-11",
-  "times_seen": 37,
+  "last_seen": "2026-11-12",
+  "times_seen": 38,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -179,8 +179,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-11",
-  "times_seen": 35,
+  "last_seen": "2026-11-12",
+  "times_seen": 36,
   "outlets": [
    "Humanoids"
   ]
@@ -199,8 +199,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-11",
-  "times_seen": 35,
+  "last_seen": "2026-11-12",
+  "times_seen": 36,
   "outlets": [
    "Humanoids"
   ]
@@ -220,8 +220,8 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-11-11",
-  "times_seen": 19,
+  "last_seen": "2026-11-12",
+  "times_seen": 20,
   "outlets": [
    "Autonomy",
    "Production"
@@ -239,10 +239,30 @@
   "first_seen": "2026-11-10",
   "topics": [],
   "primary": false,
-  "last_seen": "2026-11-11",
-  "times_seen": 5,
+  "last_seen": "2026-11-12",
+  "times_seen": 6,
   "outlets": [
    "SPCX"
+  ]
+ },
+ {
+  "statement": "Neuralink is set to begin trials of its Blindsight vision-restoring chip this year - Supercar Blondie",
+  "entity": "Neuralink",
+  "horizon_phrase": "this year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Neuralink",
+  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QR01TMGlKZDRZcllQVzBOeVNLc3dLMUVnT3pqTnhWMEJHWjJKMFZHbG9fZ0RBaTNJMGMtVUF4YVVwSjdKWTY3TW4yY2h1c2RnY0ZsUVBDSGZMZkxYWFhuS2swRW5yLVl5Y1hPcDQ0ZGEwSmpCbUQ0Vm9JMA?oc=5",
+  "first_seen": "2026-10-09",
+  "topics": [
+   "neurotech"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-12",
+  "times_seen": 88,
+  "outlets": [
+   "Neuralink"
   ]
  },
  {
@@ -840,26 +860,6 @@
    "Humanoids",
    "Optimus",
    "TSLA"
-  ]
- },
- {
-  "statement": "Neuralink is set to begin trials of its Blindsight vision-restoring chip this year - Supercar Blondie",
-  "entity": "Neuralink",
-  "horizon_phrase": "this year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Neuralink",
-  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QR01TMGlKZDRZcllQVzBOeVNLc3dLMUVnT3pqTnhWMEJHWjJKMFZHbG9fZ0RBaTNJMGMtVUF4YVVwSjdKWTY3TW4yY2h1c2RnY0ZsUVBDSGZMZkxYWFhuS2swRW5yLVl5Y1hPcDQ0ZGEwSmpCbUQ0Vm9JMA?oc=5",
-  "first_seen": "2026-10-09",
-  "topics": [
-   "neurotech"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-04",
-  "times_seen": 87,
-  "outlets": [
-   "Neuralink"
   ]
  },
  {
