@@ -186,6 +186,16 @@
    },
    {
     "count": 8,
+    "last_net": "2026-11-14T05:30:00Z",
+    "lat": -39.262833,
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "lon": 177.864469,
+    "name": "Rocket Lab Launch Complex 1A",
+    "spacex": false,
+    "top_provider": "Rocket Lab"
+   },
+   {
+    "count": 8,
     "last_net": "2026-11-20T11:00:00Z",
     "lat": 19.597275,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -213,16 +223,6 @@
     "name": "Commercial LC-2",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 7,
-    "last_net": "2026-11-02T16:41:00Z",
-    "lat": -39.262833,
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "lon": 177.864469,
-    "name": "Rocket Lab Launch Complex 1A",
-    "spacex": false,
-    "top_provider": "Rocket Lab"
    },
    {
     "count": 6,
@@ -643,16 +643,6 @@
     "name": "Cosmodrome Site 1S",
     "spacex": false,
     "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
-   },
-   {
-    "count": 1,
-    "last_net": "2026-11-14T05:30:00Z",
-    "lat": -39.260881,
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "lon": 177.865826,
-    "name": "Unknown Pad",
-    "spacex": false,
-    "top_provider": "Rocket Lab"
    }
   ],
   "passengers": [
@@ -2112,15 +2102,15 @@
     "description": "Synthetic aperture radar Earth observation satellite for Japanese Earth imaging company iQPS.",
     "id": "db3500ac-965b-4ad8-b417-cb8d8d005586",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
-    "lat": -39.260881,
-    "lon": 177.865826,
+    "lat": -39.262833,
+    "lon": 177.864469,
     "mission": "The Mountain God Rises (iQPS Launch 10)",
     "mission_type": "Earth Science",
     "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
     "net": "2026-11-14T05:30:00Z",
     "net_precision": "MIN",
     "orbit": "LEO",
-    "pad": "Unknown Pad",
+    "pad": "Rocket Lab Launch Complex 1A",
     "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "rocket": "Electron",
@@ -2128,7 +2118,13 @@
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/db3500ac-965b-4ad8-b417-cb8d8d005586",
     "webcast_live": false,
-    "webcasts": []
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "Rocket Lab",
+      "url": "https://www.youtube.com/watch?v=kyR8kZ2XlhQ"
+     }
+    ]
    },
    {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
@@ -2139,7 +2135,7 @@
     "mission": "USSF-317",
     "mission_type": "Government/Top Secret",
     "name": "Falcon 9 Block 5 | USSF-317",
-    "net": "2026-11-15T03:55:00Z",
+    "net": "2026-11-18T03:14:00Z",
     "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
@@ -2491,5 +2487,5 @@
    }
   ]
  },
- "fetched_at": "2026-11-12T21:21:00.210432+00:00"
+ "fetched_at": "2026-11-13T02:27:51.752758+00:00"
 }
