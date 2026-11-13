@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-13",
-  "times_seen": 143,
+  "times_seen": 144,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-13",
-  "times_seen": 101,
+  "times_seen": 102,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -55,7 +55,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-13",
-  "times_seen": 81,
+  "times_seen": 82,
   "outlets": [
    "X"
   ]
@@ -75,7 +75,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-13",
-  "times_seen": 63,
+  "times_seen": 64,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -96,7 +96,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-13",
-  "times_seen": 55,
+  "times_seen": 56,
   "outlets": [
    "Optimus"
   ]
@@ -116,7 +116,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-13",
-  "times_seen": 136,
+  "times_seen": 137,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -159,7 +159,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-13",
-  "times_seen": 42,
+  "times_seen": 43,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -180,7 +180,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-13",
-  "times_seen": 40,
+  "times_seen": 41,
   "outlets": [
    "Humanoids"
   ]
@@ -200,7 +200,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-13",
-  "times_seen": 40,
+  "times_seen": 41,
   "outlets": [
    "Humanoids"
   ]
@@ -221,10 +221,31 @@
   ],
   "primary": false,
   "last_seen": "2026-11-13",
-  "times_seen": 24,
+  "times_seen": 25,
   "outlets": [
    "Autonomy",
    "Production"
+  ]
+ },
+ {
+  "statement": "Russia plans to launch hundreds more satellites for its Starlink alternative in 2027, Ukraine says - Business Insider",
+  "entity": "Starlink",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Starlink",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZVcwRG42dFZjTDhkUGZiVlc0VS0zdGg4TkM2SnNlWEhUOHFjNUVOSUVrYkdiN251Ynoxblc5akZlYUxuenJfd1FfZzk0ZzRuZ3FjbzFicVhPcHA0Zi1Da1BLeHVpbFZ4NzMwc0FrZEl3NmhzMnQtNGt4SW10YXZ4TDZrUEc1YXoxT3A3Wk9fTW1wcmYyXzV5S3ZrYWZTUGpicUlteGJJQmZ5cW1NY3QzVDJoNEM?oc=5",
+  "first_seen": "2026-11-13",
+  "topics": [
+   "starlink",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-13",
+  "times_seen": 1,
+  "outlets": [
+   "Starlink"
   ]
  },
  {
@@ -2398,26 +2419,6 @@
   "times_seen": 2,
   "outlets": [
    "Production"
-  ]
- },
- {
-  "statement": "AI forecasts Tesla stock to rise 42% by 2030, r... - Pluang",
-  "entity": "Tesla",
-  "horizon_phrase": "by 2030",
-  "horizon": "2030-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "TSLA",
-  "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BdmtlWHcxWTBFWHBsNFIwanFrVGZIOEJWTWthWmZOU0VfZHFya1RwVWh3cDI2QVlVR3dnYzhsQVNDQTNNUDNPczVPaEpsbm03X1BiOXlrSC0wSEdQVlpjNGtGQVpaaTJLYmtCbTNnaW5WZzJHNTQ5NnJkRQ?oc=5",
-  "first_seen": "2026-10-09",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-10",
-  "times_seen": 4,
-  "outlets": [
-   "TSLA"
   ]
  }
 ]

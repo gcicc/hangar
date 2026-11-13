@@ -136,32 +136,26 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
-   "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg",
-   "lat": 28.58341025,
-   "lon": -80.58303644,
-   "mission": "Amazon Leo (LV-01)",
+   "description": "15th test flight of the two-stage Starship launch vehicle and 4th flight of Starship V3. Second Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-2) into stable Low Earth Orbit and first ever to attempt returning the Starship 2nd stage back to the launch site.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete a",
+   "id": "0f867f0c-5422-4d44-93b8-d7faaae7019b",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
+   "lat": 25.99677,
+   "lon": -97.15799,
+   "mission": "Starlink Group 31-2 (Starship Flight 15)",
    "mission_type": "Communications",
-   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-   "net": "2026-11-13T17:54:00Z",
+   "name": "Starship | Starlink Group 31-2 (Starship Flight 15)",
+   "net": "2026-11-13T22:45:00Z",
    "net_precision": "MIN",
    "orbit": "LEO",
-   "pad": "Space Launch Complex 41",
-   "pad_location": "Cape Canaveral SFS, FL, USA",
-   "provider": "United Launch Alliance",
-   "rocket": "Vulcan VC6L",
+   "pad": "Orbital Launch Pad 2",
+   "pad_location": "SpaceX Starbase, TX, USA",
+   "provider": "SpaceX",
+   "rocket": "Starship V3",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/ef9850ad-1096-425b-9d27-f7bbd186e61a",
+   "url": "https://nextspaceflight.com/launches/details/0f867f0c-5422-4d44-93b8-d7faaae7019b",
    "webcast_live": false,
-   "webcasts": [
-    {
-     "official": true,
-     "publisher": "United Launch Alliance",
-     "url": "https://www.youtube.com/watch?v=qM5A1ZO9oh8"
-    }
-   ]
+   "webcasts": []
   },
   "pads": [
    {
@@ -176,7 +170,7 @@
    },
    {
     "count": 31,
-    "last_net": "2026-11-29T15:49:00Z",
+    "last_net": "2026-11-29T15:47:00Z",
     "lat": 28.56194122,
     "location": "Cape Canaveral SFS, FL, USA",
     "lon": -80.57735736,
@@ -266,7 +260,7 @@
    },
    {
     "count": 5,
-    "last_net": "2026-11-13T17:54:00Z",
+    "last_net": "2026-11-14T17:32:30Z",
     "lat": 28.58341025,
     "location": "Cape Canaveral SFS, FL, USA",
     "lon": -80.58303644,
@@ -636,7 +630,7 @@
    },
    {
     "count": 1,
-    "last_net": "2026-11-14T00:50:00Z",
+    "last_net": "2026-11-14T01:16:00Z",
     "lat": 51.884395,
     "location": "Vostochny Cosmodrome, Siberia, Russian Federation",
     "lon": 128.333932,
@@ -1989,34 +1983,6 @@
   },
   "upcoming": [
    {
-    "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
-    "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg",
-    "lat": 28.58341025,
-    "lon": -80.58303644,
-    "mission": "Amazon Leo (LV-01)",
-    "mission_type": "Communications",
-    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-    "net": "2026-11-13T17:54:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 41",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "United Launch Alliance",
-    "rocket": "Vulcan VC6L",
-    "status": "Go",
-    "status_name": "Go for Launch",
-    "url": "https://nextspaceflight.com/launches/details/ef9850ad-1096-425b-9d27-f7bbd186e61a",
-    "webcast_live": false,
-    "webcasts": [
-     {
-      "official": true,
-      "publisher": "United Launch Alliance",
-      "url": "https://www.youtube.com/watch?v=qM5A1ZO9oh8"
-     }
-    ]
-   },
-   {
     "description": "15th test flight of the two-stage Starship launch vehicle and 4th flight of Starship V3. Second Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-2) into stable Low Earth Orbit and first ever to attempt returning the Starship 2nd stage back to the launch site.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete a",
     "id": "0f867f0c-5422-4d44-93b8-d7faaae7019b",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
@@ -2032,8 +1998,8 @@
     "pad_location": "SpaceX Starbase, TX, USA",
     "provider": "SpaceX",
     "rocket": "Starship V3",
-    "status": "TBC",
-    "status_name": "To Be Confirmed",
+    "status": "Go",
+    "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/0f867f0c-5422-4d44-93b8-d7faaae7019b",
     "webcast_live": false,
     "webcasts": []
@@ -2047,8 +2013,8 @@
     "mission": "MKA Kinosputnik, KOEN and others",
     "mission_type": "Technology",
     "name": "Soyuz 2.1b/Fregat-M | MKA Kinosputnik, KOEN and others",
-    "net": "2026-11-14T00:50:00Z",
-    "net_precision": "HR",
+    "net": "2026-11-14T01:16:00Z",
+    "net_precision": "MIN",
     "orbit": "SSO",
     "pad": "Cosmodrome Site 1S",
     "pad_location": "Vostochny Cosmodrome, Siberia, Russian Federation",
@@ -2089,6 +2055,39 @@
     ]
    },
    {
+    "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
+    "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg",
+    "lat": 28.58341025,
+    "lon": -80.58303644,
+    "mission": "Amazon Leo (LV-01)",
+    "mission_type": "Communications",
+    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+    "net": "2026-11-14T17:32:30Z",
+    "net_precision": "SEC",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 41",
+    "pad_location": "Cape Canaveral SFS, FL, USA",
+    "provider": "United Launch Alliance",
+    "rocket": "Vulcan VC6L",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/ef9850ad-1096-425b-9d27-f7bbd186e61a",
+    "webcast_live": false,
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "United Launch Alliance",
+      "url": "https://www.youtube.com/watch?v=qM5A1ZO9oh8"
+     },
+     {
+      "official": false,
+      "publisher": "Spaceflight Now",
+      "url": "https://www.youtube.com/watch?v=qcA9uMBhTmo"
+     }
+    ]
+   },
+   {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
     "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
@@ -2113,34 +2112,6 @@
       "official": true,
       "publisher": "X",
       "url": "https://x.com/i/broadcasts/2lgkMvaRVPMdYR"
-     }
-    ]
-   },
-   {
-    "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
-    "id": "460d9db7-eaf6-4cd9-b095-cff433534c09",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "USSF-266",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | USSF-266",
-    "net": "2026-11-18T16:49:00Z",
-    "net_precision": "MIN",
-    "orbit": "PO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
-    "url": "https://nextspaceflight.com/launches/details/460d9db7-eaf6-4cd9-b095-cff433534c09",
-    "webcast_live": false,
-    "webcasts": [
-     {
-      "official": true,
-      "publisher": "X",
-      "url": "https://x.com/i/broadcasts/2JQXBjLyYOQrpX"
      }
     ]
    },
@@ -2239,6 +2210,34 @@
     "webcasts": []
    },
    {
+    "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
+    "id": "460d9db7-eaf6-4cd9-b095-cff433534c09",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "USSF-266",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | USSF-266",
+    "net": "2026-11-23T16:04:00Z",
+    "net_precision": "MIN",
+    "orbit": "PO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/460d9db7-eaf6-4cd9-b095-cff433534c09",
+    "webcast_live": false,
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "X",
+      "url": "https://x.com/i/broadcasts/2JQXBjLyYOQrpX"
+     }
+    ]
+   },
+   {
     "description": "Progress resupply mission to the International Space Station.",
     "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
@@ -2335,7 +2334,7 @@
     "mission": "Cygnus CRS-2 NG-25",
     "mission_type": "Resupply",
     "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-    "net": "2026-11-29T15:49:00Z",
+    "net": "2026-11-29T15:47:00Z",
     "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Space Launch Complex 40",
@@ -2471,5 +2470,5 @@
    }
   ]
  },
- "fetched_at": "2026-11-13T11:56:55.295686+00:00"
+ "fetched_at": "2026-11-13T19:27:14.669441+00:00"
 }
