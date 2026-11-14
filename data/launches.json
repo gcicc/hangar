@@ -138,13 +138,13 @@
   "next": {
    "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
    "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_on__image_thumbnail_20261114102519.jpeg",
    "lat": 28.58341025,
    "lon": -80.58303644,
    "mission": "Amazon Leo (LV-01)",
    "mission_type": "Communications",
    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-   "net": "2026-11-14T17:32:30Z",
+   "net": "2026-11-15T17:11:30Z",
    "net_precision": "SEC",
    "orbit": "LEO",
    "pad": "Space Launch Complex 41",
@@ -281,7 +281,7 @@
    },
    {
     "count": 5,
-    "last_net": "2026-11-14T17:32:30Z",
+    "last_net": "2026-11-15T17:11:30Z",
     "lat": 28.58341025,
     "location": "Cape Canaveral SFS, FL, USA",
     "lon": -80.58303644,
@@ -709,8 +709,8 @@
     "pad_location": "Vostochny Cosmodrome, Siberia, Russian Federation",
     "provider": "Russian Federal Space Agency (ROSCOSMOS)",
     "rocket": "Soyuz 2.1b Fregat-M",
-    "status": "In Flight",
-    "status_name": "Launch in Flight",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/bff2fc91-eddd-4dfc-af26-ac0674cfab4d",
     "webcast_live": false,
     "webcasts": []
@@ -734,7 +734,7 @@
     "status": "Deployed",
     "status_name": "Payload Deployed",
     "url": "https://nextspaceflight.com/launches/details/0f867f0c-5422-4d44-93b8-d7faaae7019b",
-    "webcast_live": true,
+    "webcast_live": false,
     "webcasts": []
    },
    {
@@ -2022,7 +2022,7 @@
     "status": "Deployed",
     "status_name": "Payload Deployed",
     "url": "https://nextspaceflight.com/launches/details/0f867f0c-5422-4d44-93b8-d7faaae7019b",
-    "webcast_live": true,
+    "webcast_live": false,
     "webcasts": [
      {
       "official": true,
@@ -2057,11 +2057,17 @@
     "pad_location": "Vostochny Cosmodrome, Siberia, Russian Federation",
     "provider": "Russian Federal Space Agency (ROSCOSMOS)",
     "rocket": "Soyuz 2.1b Fregat-M",
-    "status": "In Flight",
-    "status_name": "Launch in Flight",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/bff2fc91-eddd-4dfc-af26-ac0674cfab4d",
     "webcast_live": false,
-    "webcasts": []
+    "webcasts": [
+     {
+      "official": false,
+      "publisher": "\u0420\u043e\u0441\u043a\u043e\u0441\u043c\u043e\u0441 \u0422\u0412",
+      "url": "https://www.youtube.com/watch?v=ATvKzYP7CPw"
+     }
+    ]
    },
    {
     "description": "Synthetic aperture radar Earth observation satellite for Japanese Earth imaging company iQPS.",
@@ -2094,13 +2100,13 @@
    {
     "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
     "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_on__image_thumbnail_20261114102519.jpeg",
     "lat": 28.58341025,
     "lon": -80.58303644,
     "mission": "Amazon Leo (LV-01)",
     "mission_type": "Communications",
     "name": "Vulcan VC6L | Amazon Leo (LV-01)",
-    "net": "2026-11-14T17:32:30Z",
+    "net": "2026-11-15T17:11:30Z",
     "net_precision": "SEC",
     "orbit": "LEO",
     "pad": "Space Launch Complex 41",
@@ -2507,5 +2513,5 @@
    }
   ]
  },
- "fetched_at": "2026-11-14T08:43:25.408126+00:00"
+ "fetched_at": "2026-11-14T16:25:35.965989+00:00"
 }
