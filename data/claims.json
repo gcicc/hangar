@@ -14,8 +14,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-11-13",
-  "times_seen": 144,
+  "last_seen": "2026-11-14",
+  "times_seen": 145,
   "outlets": [
    "Neuralink"
   ]
@@ -34,8 +34,8 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-11-13",
-  "times_seen": 102,
+  "last_seen": "2026-11-14",
+  "times_seen": 103,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -54,8 +54,8 @@
   "first_seen": "2026-10-14",
   "topics": [],
   "primary": false,
-  "last_seen": "2026-11-13",
-  "times_seen": 82,
+  "last_seen": "2026-11-14",
+  "times_seen": 83,
   "outlets": [
    "X"
   ]
@@ -74,8 +74,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-13",
-  "times_seen": 64,
+  "last_seen": "2026-11-14",
+  "times_seen": 65,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -95,10 +95,129 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-13",
-  "times_seen": 56,
+  "last_seen": "2026-11-14",
+  "times_seen": 57,
   "outlets": [
    "Optimus"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Tesla will start using humanoid robots next year - BBC",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wSHpGMGtYMVlPRzVVN2xJTnd6bVIxeVF0SG1JcExTV2pWaEloNk5wTWdYMmZGeHByVjg4NGQyZGxxX1NWdE44U0h1R2JWVHVNOWFSWWZYRm5ydw?oc=5",
+  "first_seen": "2026-10-27",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-14",
+  "times_seen": 42,
+  "outlets": [
+   "Humanoids"
+  ]
+ },
+ {
+  "statement": "Elon Musk reveals massive plans for Tesla and Optimus\u2014\u2018Things are really going to go ballistic next year\u2019 - Fortune",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcDRnVzdvTjFSc3dsTlFSWUtJeGhpZGEwaFdXNl82YWVMMmI2ZzlwRWhld1ZpRWRUUnNKM1VCbjRUR2JQaXVGMTZFLXNCeGpLaWtORGhfNVlqZjJET09fZ3Y4QTBNdjhlbFFucVB3NHBhdUNuYTZhLVZaMmdkR3lFR2kyaEkzYlZ0LXBTSkVzN0U5MmlqR0V3TGVFYXE3cE1lZ25XUmtfWnJWSlRUSlIyWQ?oc=5",
+  "first_seen": "2026-10-27",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-14",
+  "times_seen": 42,
+  "outlets": [
+   "Humanoids"
+  ]
+ },
+ {
+  "statement": "Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says - CNBC",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MOHpuVjVYejRkd2VlX2hvWGF0RDMxYUNzTGcxaTFadzNJT1c0Y19idmNzSl9nNDFFZnUzaWh4VFU4VkNqSWJOR3EzWk91MWhUdGxhamVWaEkxd1lOYVB3QnVOV1l5V0RCcXRndVQ3bE5DUdIBd0FVX3lxTE56Sy1vYlZjU2N0N2tfU3NMOGZ1TnNfaHQ5bmRYV0JxeENDZFpjMElvelY3RW52U2hMYXRkaHM4UlZaWVJaak9vUVVnUllwQ3hIbDhmb3N0d1RYeHdqQTh3cjJ6Z0lXRXVMS1VuclU5cFpfTjNNeXdJ?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "autonomy",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-14",
+  "times_seen": 26,
+  "outlets": [
+   "Autonomy",
+   "Production"
+  ]
+ },
+ {
+  "statement": "Russia plans to launch hundreds more satellites for its Starlink alternative in 2027, Ukraine says - Business Insider",
+  "entity": "Starlink",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Starlink",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZVcwRG42dFZjTDhkUGZiVlc0VS0zdGg4TkM2SnNlWEhUOHFjNUVOSUVrYkdiN251Ynoxblc5akZlYUxuenJfd1FfZzk0ZzRuZ3FjbzFicVhPcHA0Zi1Da1BLeHVpbFZ4NzMwc0FrZEl3NmhzMnQtNGt4SW10YXZ4TDZrUEc1YXoxT3A3Wk9fTW1wcmYyXzV5S3ZrYWZTUGpicUlteGJJQmZ5cW1NY3QzVDJoNEM?oc=5",
+  "first_seen": "2026-11-13",
+  "topics": [
+   "starlink",
+   "launch"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-14",
+  "times_seen": 2,
+  "outlets": [
+   "Starlink"
+  ]
+ },
+ {
+  "statement": "SpaceX Drops More Than 13% Over 30 Days: This Wall Street Pro Projects 260% Gains Within 12 Months - Yahoo Finance",
+  "entity": "SpaceX",
+  "horizon_phrase": "Within 12 Months",
+  "horizon": "2027-11-09",
+  "horizon_precision": "approx",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZU8wQXdwUmRXcERuT1VlSnVzVjZ4eWp0dHVrVjJreHExcFBDbVBCOF9BOTFjc3kxYnFmTHdVQlluQzZLUzhnYVYwaTR6OUV1aFViUnQzS2RCUmZCNHRLT2NpcDRVYmxObHZSNlg4MkFXUGxndjJmNFZEQ2k5ZW1US0FhaVVNdXJrQXdQSS1FNlZERHNt?oc=5",
+  "first_seen": "2026-11-14",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-11-14",
+  "times_seen": 1,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "SpaceX Expects to Spend $35 Billion to $40 Billion This Quarter. Here's Who Sells the Power and Cooling. - Yahoo Finance",
+  "entity": "SpaceX",
+  "horizon_phrase": "This Quarter",
+  "horizon": null,
+  "horizon_precision": "unknown",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSEpacUpYenU3TnFGcE1mb05VQXNFZTl2bDNXV3ZrSU5FQXRpcFhncmpEZ2UwVmh6Q0h2a1FnZmQ3YkZlUkZWaXBESTlxOVFKbzBEWWpDX3l4cFpoUnRNenE4N2t5aElZbFBBNXNVM1N6eHJoMzBQZFZjMFh2SWZVUWNVNmN3aXhIWlZEWVFSbkRkU0k4MER0TW9wOHY?oc=5",
+  "first_seen": "2026-11-14",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-11-14",
+  "times_seen": 1,
+  "outlets": [
+   "SPCX"
   ]
  },
  {
@@ -163,89 +282,6 @@
   "outlets": [
    "Optimus",
    "Humanoids"
-  ]
- },
- {
-  "statement": "Elon Musk says Tesla will start using humanoid robots next year - BBC",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wSHpGMGtYMVlPRzVVN2xJTnd6bVIxeVF0SG1JcExTV2pWaEloNk5wTWdYMmZGeHByVjg4NGQyZGxxX1NWdE44U0h1R2JWVHVNOWFSWWZYRm5ydw?oc=5",
-  "first_seen": "2026-10-27",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-13",
-  "times_seen": 41,
-  "outlets": [
-   "Humanoids"
-  ]
- },
- {
-  "statement": "Elon Musk reveals massive plans for Tesla and Optimus\u2014\u2018Things are really going to go ballistic next year\u2019 - Fortune",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcDRnVzdvTjFSc3dsTlFSWUtJeGhpZGEwaFdXNl82YWVMMmI2ZzlwRWhld1ZpRWRUUnNKM1VCbjRUR2JQaXVGMTZFLXNCeGpLaWtORGhfNVlqZjJET09fZ3Y4QTBNdjhlbFFucVB3NHBhdUNuYTZhLVZaMmdkR3lFR2kyaEkzYlZ0LXBTSkVzN0U5MmlqR0V3TGVFYXE3cE1lZ25XUmtfWnJWSlRUSlIyWQ?oc=5",
-  "first_seen": "2026-10-27",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-13",
-  "times_seen": 41,
-  "outlets": [
-   "Humanoids"
-  ]
- },
- {
-  "statement": "Tesla to wind down Cybertruck production in Texas next year to ramp Cybercab, Musk says - CNBC",
-  "entity": "Tesla",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5MOHpuVjVYejRkd2VlX2hvWGF0RDMxYUNzTGcxaTFadzNJT1c0Y19idmNzSl9nNDFFZnUzaWh4VFU4VkNqSWJOR3EzWk91MWhUdGxhamVWaEkxd1lOYVB3QnVOV1l5V0RCcXRndVQ3bE5DUdIBd0FVX3lxTE56Sy1vYlZjU2N0N2tfU3NMOGZ1TnNfaHQ5bmRYV0JxeENDZFpjMElvelY3RW52U2hMYXRkaHM4UlZaWVJaak9vUVVnUllwQ3hIbDhmb3N0d1RYeHdqQTh3cjJ6Z0lXRXVMS1VuclU5cFpfTjNNeXdJ?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "autonomy",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-13",
-  "times_seen": 25,
-  "outlets": [
-   "Autonomy",
-   "Production"
-  ]
- },
- {
-  "statement": "Russia plans to launch hundreds more satellites for its Starlink alternative in 2027, Ukraine says - Business Insider",
-  "entity": "Starlink",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Starlink",
-  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZVcwRG42dFZjTDhkUGZiVlc0VS0zdGg4TkM2SnNlWEhUOHFjNUVOSUVrYkdiN251Ynoxblc5akZlYUxuenJfd1FfZzk0ZzRuZ3FjbzFicVhPcHA0Zi1Da1BLeHVpbFZ4NzMwc0FrZEl3NmhzMnQtNGt4SW10YXZ4TDZrUEc1YXoxT3A3Wk9fTW1wcmYyXzV5S3ZrYWZTUGpicUlteGJJQmZ5cW1NY3QzVDJoNEM?oc=5",
-  "first_seen": "2026-11-13",
-  "topics": [
-   "starlink",
-   "launch"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-13",
-  "times_seen": 1,
-  "outlets": [
-   "Starlink"
   ]
  },
  {
@@ -2377,46 +2413,6 @@
   "primary": false,
   "last_seen": "2026-10-16",
   "times_seen": 1,
-  "outlets": [
-   "Production"
-  ]
- },
- {
-  "statement": "Elon Musk's Tesla shows off flying Roadster, production to begin in 2028 - Deccan Herald",
-  "entity": "Musk",
-  "horizon_phrase": "in 2028",
-  "horizon": "2028-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU1RNQXRYQzg2anlIbXRuY0xRcnhaT3M0RW9kZzRJVC1KTjBxMFQ2TmQ5TW8zLXRTc3FCVHQzMVdHZTJXODFWRlV6LUprNFBPMGFNZWo0NGMwYzFLOWxUVzEzeTN0ZTdQdFNFWGlfaWVsWl9Nd1lGX3p5bExwRUhsNE9CMGt4ZHpGTERtdHZBeUFyRkhURWJyc2dXaW9DZHNqSGZLUmJyTW40NGw4WWNfRDln?oc=5",
-  "first_seen": "2026-10-16",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-16",
-  "times_seen": 3,
-  "outlets": [
-   "Production"
-  ]
- },
- {
-  "statement": "Tesla Unveils New Roadster; Flying Version to Enter Production in 2028 - BigGo Finance",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2028",
-  "horizon": "2028-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBCY2dhZmlBUmRjSU9UM3ZjZHRKTU9LeG94bnNPYVNuMWRQT1pHYW9PS1p4bV9CeU4zSWtqLWE1S1BWWHZKbVpWc3ZZajUzN0xvMnZSYjF3TUkwWjY1XzZrWDFhRnVZZUVMX0g4YllKQXU1QUVwVVE?oc=5",
-  "first_seen": "2026-10-16",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-16",
-  "times_seen": 2,
   "outlets": [
    "Production"
   ]
