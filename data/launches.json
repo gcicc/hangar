@@ -111,7 +111,7 @@
     12,
     19,
     10,
-    7
+    9
    ],
    "partial": [
     false,
@@ -136,26 +136,37 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "Share-ride of multiple satellites, including dual-use optical Earth observation satellites and drone-guiding satellites:\r\n\r\n* MKA Kinosputnik\r\n* KOEN, KA MT-LAB\r\n* NPO Kaisant 6U cubesat with a Germes modem\r\n* NPO Kaisant 16U cubesat with Gonets modems",
-   "id": "bff2fc91-eddd-4dfc-af26-ac0674cfab4d",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
-   "lat": 51.884395,
-   "lon": 128.333932,
-   "mission": "MKA Kinosputnik, KOEN and others",
-   "mission_type": "Technology",
-   "name": "Soyuz 2.1b/Fregat-M | MKA Kinosputnik, KOEN and others",
-   "net": "2026-11-14T01:16:00Z",
-   "net_precision": "MIN",
-   "orbit": "SSO",
-   "pad": "Cosmodrome Site 1S",
-   "pad_location": "Vostochny Cosmodrome, Siberia, Russian Federation",
-   "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-   "rocket": "Soyuz 2.1b Fregat-M",
+   "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
+   "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193955.jpeg",
+   "lat": 28.58341025,
+   "lon": -80.58303644,
+   "mission": "Amazon Leo (LV-01)",
+   "mission_type": "Communications",
+   "name": "Vulcan VC6L | Amazon Leo (LV-01)",
+   "net": "2026-11-14T17:32:30Z",
+   "net_precision": "SEC",
+   "orbit": "LEO",
+   "pad": "Space Launch Complex 41",
+   "pad_location": "Cape Canaveral SFS, FL, USA",
+   "provider": "United Launch Alliance",
+   "rocket": "Vulcan VC6L",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/bff2fc91-eddd-4dfc-af26-ac0674cfab4d",
+   "url": "https://nextspaceflight.com/launches/details/ef9850ad-1096-425b-9d27-f7bbd186e61a",
    "webcast_live": false,
-   "webcasts": []
+   "webcasts": [
+    {
+     "official": true,
+     "publisher": "United Launch Alliance",
+     "url": "https://www.youtube.com/watch?v=qM5A1ZO9oh8"
+    },
+    {
+     "official": false,
+     "publisher": "Spaceflight Now",
+     "url": "https://www.youtube.com/watch?v=qcA9uMBhTmo"
+    }
+   ]
   },
   "pads": [
    {
@@ -340,16 +351,6 @@
    },
    {
     "count": 3,
-    "last_net": "2026-11-30T00:00:00Z",
-    "lat": 13.7199,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.2304,
-    "name": "Satish Dhawan Space Centre Second Launch Pad",
-    "spacex": false,
-    "top_provider": "Indian Space Research Organization"
-   },
-   {
-    "count": 3,
     "last_net": "2026-10-19T19:41:03Z",
     "lat": 30.400938,
     "location": "Tanegashima Space Center, Japan",
@@ -380,13 +381,23 @@
    },
    {
     "count": 2,
-    "last_net": "2026-11-03T00:15:00Z",
-    "lat": 40.81748,
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.21939,
-    "name": "Launch Area 140",
+    "last_net": "2026-11-14T01:16:00Z",
+    "lat": 51.884395,
+    "location": "Vostochny Cosmodrome, Siberia, Russian Federation",
+    "lon": 128.333932,
+    "name": "Cosmodrome Site 1S",
     "spacex": false,
-    "top_provider": "CAS Space"
+    "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-10-30T18:21:00Z",
+    "lat": 13.7199,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.2304,
+    "name": "Satish Dhawan Space Centre Second Launch Pad",
+    "spacex": false,
+    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 2,
@@ -457,6 +468,16 @@
     "name": "Launch Area 91 (SLS-1 / 921)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 1,
+    "last_net": "2026-11-03T00:15:00Z",
+    "lat": 40.81748,
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "lon": 100.21939,
+    "name": "Launch Area 140",
+    "spacex": false,
+    "top_provider": "CAS Space"
    },
    {
     "count": 1,
@@ -630,13 +651,13 @@
    },
    {
     "count": 1,
-    "last_net": "2026-11-14T01:16:00Z",
-    "lat": 51.884395,
-    "location": "Vostochny Cosmodrome, Siberia, Russian Federation",
-    "lon": 128.333932,
-    "name": "Cosmodrome Site 1S",
+    "last_net": "2026-11-30T00:00:00Z",
+    "lat": -39.260881,
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "lon": 177.865826,
+    "name": "Unknown Pad",
     "spacex": false,
-    "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
+    "top_provider": "Rocket Lab"
    }
   ],
   "passengers": [
@@ -650,6 +671,50 @@
    }
   ],
   "previous": [
+   {
+    "description": "Synthetic aperture radar Earth observation satellite for Japanese Earth imaging company iQPS.",
+    "id": "db3500ac-965b-4ad8-b417-cb8d8d005586",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+    "lat": -39.262833,
+    "lon": 177.864469,
+    "mission": "The Mountain God Rises (iQPS Launch 10)",
+    "mission_type": "Earth Science",
+    "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
+    "net": "2026-11-14T05:30:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Rocket Lab Launch Complex 1A",
+    "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "rocket": "Electron",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/db3500ac-965b-4ad8-b417-cb8d8d005586",
+    "webcast_live": false,
+    "webcasts": []
+   },
+   {
+    "description": "Share-ride of multiple satellites, including dual-use optical Earth observation satellites and drone-guiding satellites:\r\n\r\n* MKA Kinosputnik\r\n* KOEN, KA MT-LAB\r\n* NPO Kaisant 6U cubesat with a Germes modem\r\n* NPO Kaisant 16U cubesat with Gonets modems",
+    "id": "bff2fc91-eddd-4dfc-af26-ac0674cfab4d",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
+    "lat": 51.884395,
+    "lon": 128.333932,
+    "mission": "MKA Kinosputnik, KOEN and others",
+    "mission_type": "Technology",
+    "name": "Soyuz 2.1b/Fregat-M | MKA Kinosputnik, KOEN and others",
+    "net": "2026-11-14T01:16:00Z",
+    "net_precision": "MIN",
+    "orbit": "SSO",
+    "pad": "Cosmodrome Site 1S",
+    "pad_location": "Vostochny Cosmodrome, Siberia, Russian Federation",
+    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
+    "rocket": "Soyuz 2.1b Fregat-M",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
+    "url": "https://nextspaceflight.com/launches/details/bff2fc91-eddd-4dfc-af26-ac0674cfab4d",
+    "webcast_live": false,
+    "webcasts": []
+   },
    {
     "description": "15th test flight of the two-stage Starship launch vehicle and 4th flight of Starship V3. Second Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-2) into stable Low Earth Orbit and first ever to attempt returning the Starship 2nd stage back to the launch site.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete a",
     "id": "0f867f0c-5422-4d44-93b8-d7faaae7019b",
@@ -666,8 +731,8 @@
     "pad_location": "SpaceX Starbase, TX, USA",
     "provider": "SpaceX",
     "rocket": "Starship V3",
-    "status": "In Flight",
-    "status_name": "Launch in Flight",
+    "status": "Deployed",
+    "status_name": "Payload Deployed",
     "url": "https://nextspaceflight.com/launches/details/0f867f0c-5422-4d44-93b8-d7faaae7019b",
     "webcast_live": true,
     "webcasts": []
@@ -1925,50 +1990,6 @@
     "url": "https://nextspaceflight.com/launches/details/a927b2f9-f9a5-4196-9abb-2e275e4a6b96",
     "webcast_live": false,
     "webcasts": []
-   },
-   {
-    "description": "The Nancy Grace Roman Space Telescope is a NASA infrared space telescope with a 2.4 m (7.9 ft) wide field of view primary mirror and two scientific instruments. The Wide-Field Instrument (WFI) is a 300.8-megapixel multi-band visible and near-infrared camera, providing a sharpness of images comparable to that achieved by the Hubble Space Telescope over a 0.28 square degree field of view, 100 times ",
-    "id": "521f3a1c-f977-4306-9b7f-495858719adf",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_on_image_thumbnail_20260830111425.jpeg",
-    "lat": 28.60822681,
-    "lon": -80.60428186,
-    "mission": "Nancy Grace Roman Space Telescope",
-    "mission_type": "Astrophysics",
-    "name": "Falcon Heavy | Nancy Grace Roman Space Telescope",
-    "net": "2026-08-30T11:26:04Z",
-    "net_precision": "SEC",
-    "orbit": "L2",
-    "pad": "Launch Complex 39A",
-    "pad_location": "Kennedy Space Center, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon Heavy",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/521f3a1c-f977-4306-9b7f-495858719adf",
-    "webcast_live": false,
-    "webcasts": []
-   },
-   {
-    "description": "Third of EUMETSAT's third generation of weather satellite.",
-    "id": "a57aed97-b94f-42e1-905e-9421dbd96ac8",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg",
-    "lat": 5.256319,
-    "lon": -52.786838,
-    "mission": "MTG-I2",
-    "mission_type": "Earth Science",
-    "name": "Ariane 62 | MTG-I2",
-    "net": "2026-08-27T20:11:00Z",
-    "net_precision": "SEC",
-    "orbit": "GTO",
-    "pad": "Ariane Launch Area 4",
-    "pad_location": "Guiana Space Centre, French Guiana",
-    "provider": "Arianespace",
-    "rocket": "Ariane 62",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/a57aed97-b94f-42e1-905e-9421dbd96ac8",
-    "webcast_live": false,
-    "webcasts": []
    }
   ],
   "totals": {
@@ -1977,8 +1998,8 @@
    "spacex_sampled": 89,
    "spacex_share": 0.445,
    "window": {
-    "from": "2026-03-28",
-    "to": "2026-11-13"
+    "from": "2026-03-30",
+    "to": "2026-11-14"
    }
   },
   "upcoming": [
@@ -1998,8 +2019,8 @@
     "pad_location": "SpaceX Starbase, TX, USA",
     "provider": "SpaceX",
     "rocket": "Starship V3",
-    "status": "In Flight",
-    "status_name": "Launch in Flight",
+    "status": "Deployed",
+    "status_name": "Payload Deployed",
     "url": "https://nextspaceflight.com/launches/details/0f867f0c-5422-4d44-93b8-d7faaae7019b",
     "webcast_live": true,
     "webcasts": [
@@ -2036,8 +2057,8 @@
     "pad_location": "Vostochny Cosmodrome, Siberia, Russian Federation",
     "provider": "Russian Federal Space Agency (ROSCOSMOS)",
     "rocket": "Soyuz 2.1b Fregat-M",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "In Flight",
+    "status_name": "Launch in Flight",
     "url": "https://nextspaceflight.com/launches/details/bff2fc91-eddd-4dfc-af26-ac0674cfab4d",
     "webcast_live": false,
     "webcasts": []
@@ -2058,8 +2079,8 @@
     "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "rocket": "Electron",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/db3500ac-965b-4ad8-b417-cb8d8d005586",
     "webcast_live": false,
     "webcasts": [
@@ -2364,6 +2385,28 @@
     "webcasts": []
    },
    {
+    "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
+    "id": "2093e4fc-ac8c-4296-a1b5-deececee6a72",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+    "lat": -39.260881,
+    "lon": 177.865826,
+    "mission": "StriX Launch 14",
+    "mission_type": "Earth Science",
+    "name": "Electron | StriX Launch 14",
+    "net": "2026-11-30T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "SSO",
+    "pad": "Unknown Pad",
+    "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "rocket": "Electron",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/2093e4fc-ac8c-4296-a1b5-deececee6a72",
+    "webcast_live": false,
+    "webcasts": []
+   },
+   {
     "description": "Sixteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
     "id": "56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241024165957.jpeg",
@@ -2461,30 +2504,8 @@
     "url": "https://nextspaceflight.com/launches/details/e2523821-9760-4cb4-ad1f-7ce2e30419bd",
     "webcast_live": false,
     "webcasts": []
-   },
-   {
-    "description": "First uncrewed orbital test flight of the Gaganyaan capsule.",
-    "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg",
-    "lat": 13.7199,
-    "lon": 80.2304,
-    "mission": "Gaganyaan-1",
-    "mission_type": "Test Flight",
-    "name": "LVM-3 | Gaganyaan-1",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad",
-    "pad_location": "Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "rocket": "Launch Vehicle Mark-3 (GSLV Mk III)",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/dfac5ab7-7017-454f-b6cf-eeed277a97b5",
-    "webcast_live": false,
-    "webcasts": []
    }
   ]
  },
- "fetched_at": "2026-11-14T00:45:55.151168+00:00"
+ "fetched_at": "2026-11-14T08:43:25.408126+00:00"
 }
