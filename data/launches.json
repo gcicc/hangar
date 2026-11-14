@@ -731,8 +731,8 @@
     "pad_location": "SpaceX Starbase, TX, USA",
     "provider": "SpaceX",
     "rocket": "Starship V3",
-    "status": "Deployed",
-    "status_name": "Payload Deployed",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/0f867f0c-5422-4d44-93b8-d7faaae7019b",
     "webcast_live": false,
     "webcasts": []
@@ -2019,8 +2019,8 @@
     "pad_location": "SpaceX Starbase, TX, USA",
     "provider": "SpaceX",
     "rocket": "Starship V3",
-    "status": "Deployed",
-    "status_name": "Payload Deployed",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/0f867f0c-5422-4d44-93b8-d7faaae7019b",
     "webcast_live": false,
     "webcasts": [
@@ -2513,5 +2513,5 @@
    }
   ]
  },
- "fetched_at": "2026-11-14T16:25:35.965989+00:00"
+ "fetched_at": "2026-11-14T22:04:41.513717+00:00"
 }
