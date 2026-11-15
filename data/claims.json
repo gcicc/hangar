@@ -14,8 +14,8 @@
    "neurotech"
   ],
   "primary": false,
-  "last_seen": "2026-11-14",
-  "times_seen": 148,
+  "last_seen": "2026-11-15",
+  "times_seen": 149,
   "outlets": [
    "Neuralink"
   ]
@@ -34,8 +34,8 @@
    "money"
   ],
   "primary": false,
-  "last_seen": "2026-11-14",
-  "times_seen": 106,
+  "last_seen": "2026-11-15",
+  "times_seen": 107,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -54,8 +54,8 @@
   "first_seen": "2026-10-14",
   "topics": [],
   "primary": false,
-  "last_seen": "2026-11-14",
-  "times_seen": 86,
+  "last_seen": "2026-11-15",
+  "times_seen": 87,
   "outlets": [
    "X"
   ]
@@ -74,8 +74,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-14",
-  "times_seen": 68,
+  "last_seen": "2026-11-15",
+  "times_seen": 69,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -95,8 +95,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-14",
-  "times_seen": 60,
+  "last_seen": "2026-11-15",
+  "times_seen": 61,
   "outlets": [
    "Optimus"
   ]
@@ -115,8 +115,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-14",
-  "times_seen": 45,
+  "last_seen": "2026-11-15",
+  "times_seen": 46,
   "outlets": [
    "Humanoids"
   ]
@@ -135,8 +135,8 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-14",
-  "times_seen": 45,
+  "last_seen": "2026-11-15",
+  "times_seen": 46,
   "outlets": [
    "Humanoids"
   ]
@@ -156,11 +156,92 @@
    "production"
   ],
   "primary": false,
-  "last_seen": "2026-11-14",
-  "times_seen": 29,
+  "last_seen": "2026-11-15",
+  "times_seen": 30,
   "outlets": [
    "Autonomy",
    "Production"
+  ]
+ },
+ {
+  "statement": "SpaceX Drops More Than 13% Over 30 Days: This Wall Street Pro Projects 260% Gains Within 12 Months - Yahoo Finance",
+  "entity": "SpaceX",
+  "horizon_phrase": "Within 12 Months",
+  "horizon": "2027-11-09",
+  "horizon_precision": "approx",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZU8wQXdwUmRXcERuT1VlSnVzVjZ4eWp0dHVrVjJreHExcFBDbVBCOF9BOTFjc3kxYnFmTHdVQlluQzZLUzhnYVYwaTR6OUV1aFViUnQzS2RCUmZCNHRLT2NpcDRVYmxObHZSNlg4MkFXUGxndjJmNFZEQ2k5ZW1US0FhaVVNdXJrQXdQSS1FNlZERHNt?oc=5",
+  "first_seen": "2026-11-14",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-11-15",
+  "times_seen": 5,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-15",
+  "times_seen": 141,
+  "outlets": [
+   "Optimus",
+   "Humanoids"
+  ]
+ },
+ {
+  "statement": "Tesla to have humanoid robots for internal use next year, Musk says - Reuters",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX3VhaFFjX1JKRVVyMkthamlLanJFZ1Jzb0k1bGZTME82R21aYWxmVzRLV1NaWjBPSWpmNlFKZmNsNjZ4LUtPZFVZUno3WnAyNEZHdmJBajFqSF9CWnFONW41S3B3bHYwUE1iRlZkeDBqem9WV2pRSXROc0RNUFZVaVJDTVkxTnVjOHVPRDY4WHV2YWRVZm15bXhvQjVtbW5ieFA5elBOQm5kel9MdE5jQlJQbkEzblhmUktrVWVaTWJiUzA?oc=5",
+  "first_seen": "2026-10-27",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-15",
+  "times_seen": 47,
+  "outlets": [
+   "Optimus",
+   "Humanoids"
+  ]
+ },
+ {
+  "statement": "Tesla is set to open reservations for Optimus robot later this year, says industry expert - The San Francisco Standard",
+  "entity": "Tesla",
+  "horizon_phrase": "this year",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ydi14SkhhWXNPcUhScTJtc1ZiTzZrSy1mV1hLbEtTNUEycFlTTVYyNjNpXzNFQ3B3R3FQQmFLVUxFVTd2WkpLOTRKeExCaEhuRVJ3Qml3eVdITjdwanJnY2RKU1dXaUFSaHpTNGFoNGg?oc=5",
+  "first_seen": "2026-10-31",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-15",
+  "times_seen": 36,
+  "outlets": [
+   "Optimus",
+   "Humanoids"
   ]
  },
  {
@@ -185,24 +266,6 @@
   ]
  },
  {
-  "statement": "SpaceX Drops More Than 13% Over 30 Days: This Wall Street Pro Projects 260% Gains Within 12 Months - Yahoo Finance",
-  "entity": "SpaceX",
-  "horizon_phrase": "Within 12 Months",
-  "horizon": "2027-11-09",
-  "horizon_precision": "approx",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZU8wQXdwUmRXcERuT1VlSnVzVjZ4eWp0dHVrVjJreHExcFBDbVBCOF9BOTFjc3kxYnFmTHdVQlluQzZLUzhnYVYwaTR6OUV1aFViUnQzS2RCUmZCNHRLT2NpcDRVYmxObHZSNlg4MkFXUGxndjJmNFZEQ2k5ZW1US0FhaVVNdXJrQXdQSS1FNlZERHNt?oc=5",
-  "first_seen": "2026-11-14",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-11-14",
-  "times_seen": 4,
-  "outlets": [
-   "SPCX"
-  ]
- },
- {
   "statement": "SpaceX Expects to Spend $35 Billion to $40 Billion This Quarter. Here's Who Sells the Power and Cooling. - Yahoo Finance",
   "entity": "SpaceX",
   "horizon_phrase": "This Quarter",
@@ -218,69 +281,6 @@
   "times_seen": 4,
   "outlets": [
    "SPCX"
-  ]
- },
- {
-  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-14",
-  "times_seen": 140,
-  "outlets": [
-   "Optimus",
-   "Humanoids"
-  ]
- },
- {
-  "statement": "Tesla to have humanoid robots for internal use next year, Musk says - Reuters",
-  "entity": "Tesla",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX3VhaFFjX1JKRVVyMkthamlLanJFZ1Jzb0k1bGZTME82R21aYWxmVzRLV1NaWjBPSWpmNlFKZmNsNjZ4LUtPZFVZUno3WnAyNEZHdmJBajFqSF9CWnFONW41S3B3bHYwUE1iRlZkeDBqem9WV2pRSXROc0RNUFZVaVJDTVkxTnVjOHVPRDY4WHV2YWRVZm15bXhvQjVtbW5ieFA5elBOQm5kel9MdE5jQlJQbkEzblhmUktrVWVaTWJiUzA?oc=5",
-  "first_seen": "2026-10-27",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-14",
-  "times_seen": 46,
-  "outlets": [
-   "Optimus",
-   "Humanoids"
-  ]
- },
- {
-  "statement": "Tesla is set to open reservations for Optimus robot later this year, says industry expert - The San Francisco Standard",
-  "entity": "Tesla",
-  "horizon_phrase": "this year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ydi14SkhhWXNPcUhScTJtc1ZiTzZrSy1mV1hLbEtTNUEycFlTTVYyNjNpXzNFQ3B3R3FQQmFLVUxFVTd2WkpLOTRKeExCaEhuRVJ3Qml3eVdITjdwanJnY2RKU1dXaUFSaHpTNGFoNGg?oc=5",
-  "first_seen": "2026-10-31",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-14",
-  "times_seen": 35,
-  "outlets": [
-   "Optimus",
-   "Humanoids"
   ]
  },
  {
