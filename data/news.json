@@ -1,6 +1,6 @@
 {
  "data": {
-  "corpus_size": 1373,
+  "corpus_size": 1338,
   "labels": {
    "market": "Markets & Filings",
    "spacex": "SpaceX",
@@ -16,9 +16,78 @@
   "sections": {
    "market": [
     {
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMDhDTGR6dG9WV1pOYzZaaERVZ0UwQ3hfM3FsajJHRDg0OVFqZkxGQy16MjVxMEYwMFlnQmI1UlJfOWtwWEZXWnBEWk85MmVmX3JmNnVpTnpNWWZpbzRaUmRFdFY4amk4OFl5YS1zZ2dPUl9YVW5tMnNaeU5YV2trM1pyNU9lT0k2dlVzbmJvdDhMdEt2ZEE?oc=5",
+     "published": "2026-11-16T10:04:02+00:00",
+     "score": 7.735,
+     "source": "SPCX",
+     "title": "Not SpaceX. Not Blue Origin. The Space Stock That Just Raised Its Launch Price to $70 Million -- and Still Sold Out. - Yahoo Finance",
+     "topics": [
+      "launch",
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMEVodHE0bjlsNW9qcmxpcDQzYXoyb0FZcjF5cm94b242TV9aOFRjUkMwRXI0LUhpRl8ta0xPSTN3SVA2VG9tcE5Yd1FZMFhfcldCVm5HSmJyMjNVZVhYZm5fX2c4V2hZRTNka1AyX3JtNFJxS0tOQXRaWnA5Y3FOUm1ScUVNTElZMjRVVk10V1RXRmpqLTBSZHZ2dDlzekg0cGZYTS1ra2w0R3VyQi10a0lwdkxTYTk4MHpWUw?oc=5",
+     "published": "2026-11-16T14:19:00+00:00",
+     "score": 4.887,
+     "source": "SPCX",
+     "title": "Bitcoin Tumbles Ahead Of Anthropic IPO. Is It Paralleling Its SpaceX Sell Off? - Investor's Business Daily",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE81VU5scWM2OUM5dGZTYW5lbWJmWE1pN1FYMkxpLUZxZEFfRVJOQTFVMFhNOXNNVTU1TmNrZWdGME1uRllGN2REYWZfQmtLVDJQbThDSS0wR0hwcFFwSzhqQQ?oc=5",
+     "published": "2026-11-16T06:44:00+00:00",
+     "score": 4.601,
+     "source": "SPCX",
+     "title": "\u3010Asteria FY2026 Q2 Earnings Call\u3011SpaceX share sale lifts operating profit 4.3x to \u00a52.1 billion; full-year forecast unchanged but dividend hike marks fourth straight year of enhanced returns - finance.biggo.com",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMk1aUi0tZHJkU2ZiQTFqbGlKQUhyMTFxTGxLdVhxYU5zbEpTRVlIQVhiWDBaRXUxRVhIdno4RU1hcDVuQV94cU5wbFIyd20zQjFXUFhpakpfaDZiWGt5QW9wMnRCTmdGUHJJdGltcUtEWXU5LWZJUFFPQ1lqYjdBQ1o3UUtyN2w0SXFpVm16d2pHQkdYdWJ0WHNxVmpnX1BsakJhYWxMLUJQajZwSU1ObjlIaWlpUC1t?oc=5",
+     "published": "2026-11-16T11:00:11+00:00",
+     "score": 4.427,
+     "source": "SPCX",
+     "title": "Retail Traders Chase Anthropic IPO With Tactics Honed Since SpaceX - Bloomberg",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOUduSzU2QTZBbmVjTWtKMFpnZHA1b3pOT0RacjNva1h4WHpXNWhqUXdOUzNCeVVQNmdBMmx6Q0FaVHF5cFFiUFJhdlNXTDVjQkxfa0lFR0RKR3pDdFlQMGZES1g4dGp2NmROQTdvejhuMWJ3QWRCX0dvTWRhSHNqb3N0dGdSTlU?oc=5",
+     "published": "2026-11-16T10:26:04+00:00",
+     "score": 4.348,
+     "source": "SPCX",
+     "title": "FT: Musk\u2019s SpaceX can\u2019t rescue Wall Street\u2019s IPO class of 2026, and next up is Anthropic\u2019s $1.4tn float - BizNews",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE85aGVHd1JtMWhKYUdrc2VnNDV5UW5mUmU4WV9MQ3A4b3NUNW5TVDhjdS1DSnRYU0N6WFY3cFQzWjhWcmxRenBEem9YaEZjLU5BWFdDRHVHcFBaelRQQnptUTNCa1B3a01fTjhLTldZZ2VjSmlXVkpCcDl30gF_QVVfeXFMTVFyVWhFNmF6QnVZVEZmQks1aTFSNjVQR2JJM1R1S3lHTXhNRnpFOFBHTVRMUURqQkh5eExXYnZkanl0MklWSnZqbG9JV2F5d2lEN2oxbDd3azJZeXlTaEhYZzFxX0hEMG4xdjZ2aFdXQkZqZ0ZmOTdhMnFJM0M1NA?oc=5",
+     "published": "2026-11-16T09:12:39+00:00",
+     "score": 4.178,
+     "source": "SPCX",
+     "title": "Bitcoin Price Tumbles 19% Ahead of Anthropic IPO: Is SpaceX Crash Repeating? - Coinspeaker",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeWJMQzBVUFVTd2ZGT1A2R1Z5WUJGVmpjUG5YVEUwMXlRNGdkOVBMdzZ0cTJIREdVZUl2MWY4SEFXdklrdndCbmRHdWI0Y2s2bmdmcjJDODdjN3BhYk4tb3YycmNTLU9iWkNjT2FSWHotSVpLbG93ZlVnWjcxX2tXMXJpVHE3Mmt5Z0ZjS2p3?oc=5",
+     "published": "2026-11-16T13:00:04+00:00",
+     "score": 3.764,
+     "source": "Musk",
+     "title": "Unplugged Performance Offers Tesla a Stake in New CyberSUV Company - TeslaNorth.com",
+     "topics": []
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPY0ZjWnpLY200a2FtLWRYSHhzNk42VXZ3RVBIZjNiaFJKd1A2M3dZaGdFa2UzaFd4amVRQjJ6MTRKMk9iaXktcFVXeFVxWmc4UFZzMWY5OUlQOTlnQzl3UmllSFR1cVlONEI5MTVBbng3ZE5rd3ZtN1Y5Zy1Ud05ZRDg2RDZkY2l5RXVsSXgtcmZ6M1IzUnJQWkl0YXZ4RE0?oc=5",
      "published": "2026-11-16T03:13:05+00:00",
-     "score": 4.702,
+     "score": 3.346,
      "source": "SPCX",
      "title": "Bitcoin Hopes Anthropic\u2019s IPO Plays Out Like SpaceX. One Piece of That Story Is Missing - Yahoo Finance",
      "topics": [
@@ -26,21 +95,21 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNc3pSQ2ZtQlB5a3VEV3ZIRnJyam1WaFdZX3kweUJqTXlITENHR3Z4a2hJT1VvbVprOTlsTTR6ckotRzBqWGo1cmoxTUNGM3JCcVotb3FyMWo2T3NtQ2drRnFaWTVRbW9zTHVTX2kwMHhid3dlOGhyMzZWbGRyRVVfTktMejhCSGZ4bXZ6QWdVTTJ5OVk?oc=5",
-     "published": "2026-11-15T20:45:47+00:00",
-     "score": 3.805,
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9laTJZb3JGYkFqY29IWjVEZ3ZjRDB1VmJQVGUxRjhYTm1aU01BUDdQNXBiTmJGaEx0eEZTUDJpVmxZSXN3U0RvOG1SVnRCTEZiNC12dGpFY1c3UkdESG9kSFBLd09XOUtGaVFwM0VPZzFYbkhiaFE?oc=5",
+     "published": "2026-11-16T01:35:00+00:00",
+     "score": 3.119,
      "source": "SPCX",
-     "title": "SpaceX strategy and vertical integration justify IPO valuation, Ari Paul notes - Traders Union",
+     "title": "Anthropic IPO Draws 6x Oversubscription Early in Roadshow, Demand Exceeds SpaceX - BigGo Finance",
      "topics": [
       "money"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaDYyQktTUmNrczlJSnBnX05vNFNMUWVFSk55a3dZQ2NBVjk0Nmx1UlpZQmN6cDU0MkhucHZVdUhSRDc3YjBrc3I4R3JrWktzam42Wmg5SHJ2VGhNUmhiaTVKSF81cFhpMlNrZ291eW9qVFVRRUxSNXF4TWpoQVBrLS1GbDVjaHBt?oc=5",
-     "published": "2026-11-15T15:44:43+00:00",
-     "score": 3.108,
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ3g0MHpMdEFHdUI4RUdWUHlhM3J1amU5N1ZDWG53MkR2SFVxcnRRYWdxM1hOZzJSMVlqV25CTm5yZHEwX0NFMGhGd2l5WkhSM3JwNGxfY0xhb0N2NEczeVVSOFV1MHhBVUhKTG1oLVRNc1dwc25KZEJCdmNfLWRpSmd0M3BmZ0RsLXpR?oc=5",
+     "published": "2026-11-16T12:36:56+00:00",
+     "score": 2.791,
      "source": "SPCX",
-     "title": "Anthropic IPO Demand Outpaces SpaceX's Early Days - \uc870\uc120\uc77c\ubcf4",
+     "title": "Bitcoin Could Hit $90,000 if the Anthropic IPO Repeats the SpaceX IPO Pattern - Benzinga",
      "topics": [
       "money"
      ]
@@ -48,7 +117,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWEN6Mk43NjhtMVJzaVNhWTRvOUtSZ3NLd1I4UWtRTHI1Vk9RTGRSbFlHZ1g4bTY0MnVqb0ltNEh1NTVqVmpLb2tCTGp2dTBNUHpfWFI1aDB1VjBmcFNseG9KbHNkbXVUV2JIdEI0ZlNPVW13Q0IxTTZWZkxnSHJPRC1oOWlScHJkSVhzZGltSEtzVFdPZzUtMVByU0ZMZExMbXFsREFlclVMbldRRWd1TmoyVQ?oc=5",
      "published": "2026-11-15T10:30:00+00:00",
-     "score": 2.38,
+     "score": 1.024,
      "source": "SPCX",
      "title": "The SpaceX IPO Had Musk\u2019s Star Power. Anthropic\u2019s Has FOMO. - WSJ",
      "topics": [
@@ -56,92 +125,130 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZUFVdGdRNkZWSVRHck8xYWFoWGNqSVNDZzFUdktvd1BOMkhEaE9BRTNaRVBtQml4ODM5bWx2ZGVCenZiRElQVm9LUVBmZlBfdWV4SlE1bVhBcWRwZWtsdG9hb2toQzItSzhSUzJ5Mjh2anlabHBvSU5WUGpaQ1pWRnVPYV95STRqQng4OXdRYUlQSEN2LXFB?oc=5",
-     "published": "2026-11-14T14:50:00+00:00",
-     "score": 1.05,
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOM3hQWlBVaUtQVTZuNDd6blY1cGk0WjhfYi1hUlhqY2hSVHA3S1QtSTZtYlcxcnpXMm9fUHlBNTliNDdlazRLeXB4OE1wbVhEd19mSDhqYjB6R1VXQlNWSURpTmhFaFc4QWVrWGx4RFpRR1JIRi13eWhpLVVhdE10dXF0dVJYeTk0bEI1bQ?oc=5",
+     "published": "2026-11-16T14:53:34+00:00",
+     "score": 0.993,
      "source": "TSLA",
-     "title": "BlackRock Lifts Lucid, Rivian and Tesla Stakes to Records - Electric Vehicles",
-     "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tdTFLb1BYN2Uwd3ZhNmRxUmFHcjJBalpRZXNOTW1zVmZzbEdrNTg5RTF4bGpQNGZzRmdIa0F4LTlkWTZCQy1nNjIyUnNVRTBaeE9RZlNPYWZQRUh1NHNPVENIV1BHR19XTWNETmRZdEhIMkNIb2h5cUk0MURGVGs?oc=5",
-     "published": "2026-11-16T04:00:00+00:00",
-     "score": 0.962,
-     "source": "TSLA",
-     "title": "Tesla Stock (TSLA) Falls 1.8% to $390.22 (Nov 13) - Gotrade",
+     "title": "Tesla shares technical analysis: Trading above $374.74 support with mixed signals - Traders Union",
      "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPM1laYTVlWE4zT2xoSC1FRVlpbUpmUzBROGx2LU1lNVJsdDJ0OGJYZHlkMF9SMlZiS2htOWZ2T1BxZFlWV3VIVGw2OVlnN3V5Wjc3MjBiYkZNMFV2aURYMFpoNTlrUjV0Mkc5UFlqWXJPaTN2UVJ5d3QtTmt1UEFESw?oc=5",
-     "published": "2026-11-16T03:45:00+00:00",
-     "score": 0.955,
-     "source": "SPCX",
-     "title": "SpaceX Stock (SPCX) Falls 0.6% to $139.11 (Nov 13) - Gotrade",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQQUs3UHRzQmJuamwxekl6N0FKQzV5ODFodlJXTjF2enAtSUtoOFhENDQwYlNPQlh0TVAyck1tUHFVVGZDYm5ET29uZWItczJQTENFeDM4SUJQMjhoRFM0NEtfdXhTMHl3RmZVbHQyXzdUa25wWXRfV2dIVkhZNC1qa2tSdmRrRWZTRHR0bktXbXpmcFpmanc?oc=5",
-     "published": "2026-11-16T02:41:00+00:00",
-     "score": 0.926,
-     "source": "SPCX",
-     "title": "Elon Musk Takes Aim at Boeing, Jeff Bezos\u2019 Blue Origin After SpaceX Catches Starship With \u2018Chopsticks\u2019: \u2018I Am Genuinely Curious\u2019 - Yahoo Finance",
-     "topics": [
-      "starship"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNajU4VEdXY0RXNUVhSDhROGxVWFZEWmloNGtfR2M4SkhRa1hKd1NWSjhWOE41MjFNalp3MUlHcjhPZGVGS3dNVDFDUUNEWkVvMHhSQVdyNTZYbHhQdnJpN3lVWXhvYTRYOHZxNFctZWw2Y2lMMld1MUVQU2p1T2VmWWpPbEwxX0Q2WjhMNWZGb0VHWlU?oc=5",
-     "published": "2026-11-13T20:36:00+00:00",
-     "score": 0.9,
-     "source": "TSLA",
-     "title": "America's Greatest Opportunities: The Earnings Gap That Put Tesla Stock At Ludicrous Speed - Investor's Business Daily",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ29uN2J3RW1VN3RySTRzOVdiX21JSDEzTHpqNXROaWxNc1lfZjVxcEd5WXVxUmNyWk5faFpnU3lGRmhUQ0hUdjBjaVlQQkYyTDFTRWZxQmtScjdtVkdLbldqbDZ2NXJGejQwcXFTWUVyRUV0THRSNThINVJadzhhTzU4RG5PNWFLTGFqdFdLOFlUUmxWd0pCUlhQMmk?oc=5",
-     "published": "2026-11-13T19:45:02+00:00",
-     "score": 0.9,
-     "source": "TSLA",
-     "title": "SpaceX\u2019s Big Day: A Historic Starship Launch, a Tesla Merger Under Scrutiny, and a $74 Billion AI Bet - Yahoo Finance",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYXI0NGNwSVZIZjV3R2Etb2ZVSHphNEY3RU1GZm5RckNCQWlaZFVYQWZMb1FSNzVCMGZNUUg4NFh0ZS1sVzZFRFprclQtM1ROTl9nMmVfUlZwU1dCUmljQ3ZiTTZxTldiZ3FGOFloRlVkMzRDdGRnblZrTjg4VEpsWWd2SGhQSTZHNjVsVXk0elFQRGRmNEtrWmpCeTFOTGJqZzV3WGd1Ul9wN29BSHc?oc=5",
-     "published": "2026-10-29T07:00:00+00:00",
-     "score": 0.9,
-     "source": "TSLA",
-     "title": "After Earnings, We Raise Our Tesla Stock Fair Value Estimate. Are Shares a Buy? - Morningstar",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVHEyb0JJTS0wMzZoTG1VbUNmZC01cU5lc19zLTVDYnpTX3h6ZVdFOEtGY0REVVptb2x1YmNUMWRNZUYyemVOMmpBaWNNU29lNzRpbVR1dnpoSDVSSkhhSXQtRnFIVk9QQVNteDRKbHhLZHM2ekRKVFVCdkZLQjMxQW9B?oc=5",
-     "published": "2026-11-11T15:07:00+00:00",
-     "score": 0.9,
-     "source": "SPCX",
-     "title": "SpaceX Stock Shrugs Off AI Worries Ahead of Starship Launch - Barron's",
-     "topics": [
-      "starship",
-      "launch",
       "money"
      ]
     }
    ],
    "spacex": [
     {
+     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYk1JTmxxaXpGV08zVWJEbFQ1SFBacmZMU1g0SC1oZlRhZ1JKQXpoZjhlR2lna2ZPdnZPQzRYTmFpdzFHT2Z6MTdhUjRPRF8xVHowaDVTN00ta3l3dGZObTNzeEpSWFdCanhBa0ZvLWhsWW1vMm5pdkhaSVAxUjM5bzE1MFpKRi01elhOYUtNYXE0NG5ueExuOEE3VWN2SVI0YmJPeGRZQWhhVmtDOU9pbkJmUndkVWdhc0E?oc=5",
+     "published": "2026-11-16T15:00:16+00:00",
+     "score": 5.98,
+     "source": "Falcon",
+     "title": "SpaceX plans 2 military rocket launches from Vandenberg. See schedule - Ventura County Star",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbHFrQlBjeXFPUmVaZkxXelNrVmJ3TzU1SE5tdmZhZV9aVjRxYmNUeGJ3NGZGN1VBeTh6eWZoemJYMUVrRFhXUTdmZS12UEdFcXdlWUhTSk9kLWlCeXNJemM4NE56TWpEYXJoWm1JLWJUQW1nTmx6Y2x5bnBrS2VuQnNPdHJMZkF4VkxWZnFmYXVSYWtxcC1haGRvMmxQWXIxQkVV?oc=5",
+     "published": "2026-11-16T14:08:25+00:00",
+     "score": 5.836,
+     "source": "Starship",
+     "title": "SpaceX Starship rocket launch ends in historic catch of upper stage - USA Today",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUzZ1NVR1eXYtWDZtQmE2MFQ0czFYS0RBalE1VmUxOW9Id0VJVzRhNVBpd1djNlVMLTRQODc5VEN1cTVzMlJtX2FFTDdmN2hGVmYwWWlxUjBGSzFHQUVHMzFUZVMzMEVXM19ocXhxY0lwcGFVcnBWMUlMbDVNVU5tX1c5RW9UOEJLbE5nZG9nTVNqSkl5ZVRYa0xPZlhjQmp2eXhrT1VjM3N3eWxnSDRoT3hDN0c2b1htYjZld3NQNkE?oc=5",
+     "published": "2026-11-16T13:49:00+00:00",
+     "score": 5.782,
+     "source": "Starship",
+     "title": "Watch the moment SpaceX catches Starship after historic launch - USA Today",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQSVdkenRqZ3liNDFWMHhEM0drb0wyQlktSUlJZVp2MGtNeER3QVBZX18zbndnRzVYdlFJemdXZGpkMXJFSE5fN01TdzVUaG03Ynk1dzFpWS12M1VManB5U1ZZdFVhTzBnOHZPZ2JNT0FzdjNWTDlKdmtuMVFWck40eU51aXRWWk5OSU1XcEEzU1ZUV0ExeVhOaTNhQzZoLUNIc0wzb2F6WTZzV1E5endiX3gxa2hoaWFya1VCTDd6T2VHbkNXYmY2ZTZJaDZkMVRUV2xRaHN6VnlDU1huem4tVg?oc=5",
+     "published": "2026-11-16T13:02:19+00:00",
+     "score": 5.652,
+     "source": "Starship",
+     "title": "SpaceX makes history with Starship Flight 15 rocket launch - KVUE",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPX1hjcFpSc3RSZVZpRExCclhfS0pZNS1VeGluNTQyTHJTT2UyZHFxWElXR2RabW90YW1lVkI1RmJwUWFBY29FcEl0VGxIdTdlTXAyY05XMmdqbnVGbUJwVmJFSG9sWHhlQ1JYdURtd0F5VHZObnp4bk5LUnlndUpxVkdkM0o3U1BEODFJWnpQUkVpeldUM0pkeHBDbmp3MWhuM2N5VFRXZTRhVmNlQktWY3Y4bmJSZDRpYzIzcS1KUG9lR01VMEN4X0stZ2xTLXhhbTczbzNTX3FpQmxUdDlDUU1MLXBvalNOX3p6ajFROFNqWHNJc0tuckY1TWhQMnhRY2g2bUNCQXpqdw?oc=5",
+     "published": "2026-11-16T12:36:00+00:00",
+     "score": 5.579,
+     "source": "Starship",
+     "title": "SpaceX Starship landing, Vulcan rocket mishap lead weekly space newsletter - Florida Today",
+     "topics": [
+      "starship",
+      "regulatory"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNV0hNZl9SbjNBOC1LMDdwcVREZ1ZiWUFwNHVsUWp2LXZkUzYwcnBLeHI3Z1V6Q0hEcWkyajg0ODJUMHpTSmRoeUJMVU50Z0NtQ2pyMkpFdllLS2lqamFRdkdGNmVoeTF6eGdSbXVsa25INHRmYXkydUlTcGxPV3l4bkdUbw?oc=5",
+     "published": "2026-11-16T12:20:00+00:00",
+     "score": 5.535,
+     "source": "Starship",
+     "title": "Why SpaceX Stock Is Barely Budging After Starship Rocket Launch - Barron's",
+     "topics": [
+      "starship",
+      "launch",
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPZ09Ec1VEc0k5SWVUUU5naEN4LVpWNGtGS1h3eE1ja0VZUXVlLUZENUxseHRsRWpLRkFVWk45X3A3R1hvYjlqa1N2bXl2MjAxVXlzb3F0WXlBcV9tUEFZNkZMVTdQZnR3dlYyRGJEeTBaVWNQYVJxdjRCbC1zM1Z5cUNBdVBmb0R5MV9iSF9SVUJ0WkowbzRNeEx6djV0dnl0SWsyOW5DWTFUdmlfQlQ0OVVDMkNJUzlsOTd2dVlXODE?oc=5",
+     "published": "2026-11-16T11:16:22+00:00",
+     "score": 5.358,
+     "source": "Starlink",
+     "title": "Vulcan Rocket Suffers Failure During Launch of 40 Amazon Leo Satellites, Starlink Competitor - \u041c\u0456\u043b\u0456\u0442\u0430\u0440\u043d\u0438\u0439",
+     "topics": [
+      "starlink",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTm8zdlEyRmhtSXUxUlZsbmJ0VGc2bEhrOFR1Wjd5cUpZNklreGp5NkdHaVRYNXYtZGFDVWx0VVJad2Q0ZWVQbkgyYmhUTk1BV2xJX215Yk4zVXBXbDNKM0tENmhJNWlPTzdneTQ2TXVEWnZhZm9CQng4TUJfb28xcmdFWnJKYnc0U28zWUJ5N1BMWmVoV2hSY3R2Uk02SklIY2NvREtORU1SNGxqaFE0U2xkVUFtcVdianRv?oc=5",
+     "published": "2026-11-16T11:00:03+00:00",
+     "score": 5.312,
+     "source": "Starship",
+     "title": "SpaceX Starship Makes History With Stunning Midair Catch by Launch Tower - Tech Times",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRE5hWlBZWnE1UzRPaWc1T1VUUkVBaEFFZENrdDlxUERCd19qWHNWaUEwMWZ0d2RWMmNCUnM2Sl9PdG9KZmRQZnhsWTJyYXdtcWFWNGs3dV9kS0xmQVlFNUcyVHBWUUItazZ2cGFSOEpsd0lmZHFJZ1dKSkdfUFNmWnFUd0hrMVRRamNlRWRSeDkyMG5aNGtVR0t3MWd5N2M?oc=5",
+     "published": "2026-11-16T10:15:00+00:00",
+     "score": 5.187,
+     "source": "Starship",
+     "title": "SpaceX Catches Starship Upper Stage With Launch Tower for the First Time - Technology Org",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mX3lxRmp0Z3FxMHQyOXBWOWRtY3hKaFI3WEtIUUtaQUZpeVJKRmlSUU1LVmtXUXlLM1hRdDd1YmJybVJBeVZrVjZVQUVXRlFzLTFsNFlTRlJPbGVlcjdzc1h2Uk1mdVk?oc=5",
+     "published": "2026-11-16T03:49:56+00:00",
+     "score": 4.118,
+     "source": "SpaceX",
+     "title": "SpaceX - Launches - SpaceX",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQLVZkSlBTeG5LN1RaWlRoa20zYUlha0ZBYV93OWxMZGNMRlFGeUswenZQRlRhbmhzeW9OeFcwbDZzOFNqbzJOcjFyRkhxa1UtX0lIWTYxSDJqeENodUczTF9pUFhlZTZ2b3loN1prTWdaOVE5WmtwVDNxNDhES3QxVU10bDRmTlVLdG5laVRXOUQ4TnF4bnRESUJZUUlSaFp3cE9Mcl9DcVJYcG5ERGZKZQ?oc=5",
      "published": "2026-11-16T02:15:57+00:00",
-     "score": 5.484,
+     "score": 3.857,
      "source": "Starlink",
      "title": "Amazon internet satellite launch fails in setback to challenge to Musk\u2019s Starlink - \u8054\u5408\u65e9\u62a5",
      "topics": [
@@ -150,11 +257,11 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kdFozZWhOZ0wwQXMzaFJYa2NmT05OcWdtRHlLSC1ZY2FucVBYODE1NlJiWTdZR3psd2dHWTBWdlpULXlSNkR5RXpsMHFMZmRlWVNkMDdndTNhV1FnbFNyLWlyeXRaY2hnM2dvSjFUOWkzenY3eXdGYw?oc=5",
-     "published": "2026-11-15T14:20:38+00:00",
-     "score": 5.245,
-     "source": "Starship",
-     "title": "SpaceX Starship Flight 15 recap: Liftoff, Super Heavy\u2019s offshore splashdown and first-ever upper stage catch - Starlust.org",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSy1EekJZNUs0N3VjRlhXdzdmVmNNeUMwQjEzaEFNWkRXRmowQ24xMXEzOTFndDYtUGd3YmVQblU4TVVPeGVDWUhuYS1xMXdGM1VGQXg3X0dTcURwVG5mU2FTeVViazNPWEdBUUVXOXpJanJzb19FV1RkdHdzNkdxN2hmTkVSVHBCV01OMGdfaDBseUdfQ3h3VHpHdw?oc=5",
+     "published": "2026-11-16T00:02:25+00:00",
+     "score": 3.486,
+     "source": "Falcon",
+     "title": "SpaceX Starship booster explodes after launch - NBC News",
      "topics": [
       "starship",
       "launch"
@@ -163,7 +270,7 @@
     {
      "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
      "published": "2026-11-15T23:11:54+00:00",
-     "score": 4.973,
+     "score": 3.345,
      "source": "Ars Technica Space",
      "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
      "topics": [
@@ -173,7 +280,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZmxvM29ETzZWV284Y1RGYjV5NWYxTnZFcnlQeDNXWTUtYkJfWWIyeXlqZUpwcWhyOHFId1ZTNE1lelZCb0kwemVBRXR6MTZOSWNMMjF4NEdPOG9EQW40YWxHYUhkdXZtd1NOMTFpYzNYeEVkcFk2THZEckQ2Rkc5MkVrN1Z1b3IwMlB5a2c0SWswaGpVZzJPc1I3cUxKREFwQnVYVGhPSVVkLW9vYU1Hd0RzVmp4OUZ3ZnQxWVcyZE5HQnljTzJqX0NLLURRNVk?oc=5",
      "published": "2026-11-15T21:41:28+00:00",
-     "score": 4.721,
+     "score": 3.094,
      "source": "Starlink",
      "title": "Amazon loses 40 Leo satellites in ULA Vulcan launch failure \u2014 a new setback for its Starlink rival - GeekWire",
      "topics": [
@@ -182,20 +289,9 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE16WTBsRnVVLXV5NHZIRTY2NDlOeXVrSktjZlVXbFNiV3ZCZkJZQ3RtN2R0U0VST0JyMGVzc0U1VmFfdHV4MkY1RmdLWWdhd2dFUTdEZFk3ZjdRcTYtQVNmMm5sRm15ZERyV3NvcWRnUHN1R1NETDFfdQ?oc=5",
-     "published": "2026-11-15T21:09:30+00:00",
-     "score": 4.633,
-     "source": "Starship",
-     "title": "WATCH: SpaceX Starship caught by launch pad arms - KVNU News Talk",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE00RGF4Nm1RZFEybElnbzlsOGNacnZiN2VFX2R4dHMzbG5ENWR4NFVKT2pMSnllMTQ1M1VSYWlmUkU2SUhuNlVkLVJHMW4?oc=5",
      "published": "2026-11-15T20:53:30+00:00",
-     "score": 4.588,
+     "score": 2.961,
      "source": "Starship",
      "title": "SpaceX Starship caught by launch pad arms - ABC News - Breaking News, Latest News and Videos",
      "topics": [
@@ -204,43 +300,11 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWWhKN0NjeE5YY2VXTUplVHJPX3pYZmI2YzZhcHgxVE1ZNjRPaENWLXFPQWdGRUZGVk5jalNqeUF4U08tenNKX1VMVVNMMUdCbjFsbjBicTdQSWl3OThNc3EwZUpkRDdwcldUQUpxYTZPQlk0cHFkN0d3RkxPbWQ4NEdhLVVZWXVIZlZz0gGQAUFVX3lxTE5FM0hFdnZNS1A0X3JLZEk4cjJ2RW9jUXBkdGdZODFrbkJIT3hrWVR1NHpoUzFaXzdIU2hzbDl5VDQ1THI0YmhlaGI3TDQwMWlRa1B2ZnBmbk1oQS1wU2RXcENwaGd1bmF6LW95WVRlU1o2U0VZbEkteVMtMGpydllLN3dkNXVpT0VXazliOVgxZA?oc=5",
-     "published": "2026-11-15T19:30:46+00:00",
-     "score": 4.358,
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTWNvcDREbHZiSXNEQkpxS1dFb3NzcldSd1BDdDY1aTdBSWtDaXZOSWc0WU01XzJwQU5EWU5iVGVfeGVXUW8zYm0zaVJSeHgxN0FUXzBJOWFLR2pmTElZdnJFbVdqZDktSk5ySmZzQzEtclhobmYwenUxanhjSU5vampR?oc=5",
+     "published": "2026-11-15T12:29:00+00:00",
+     "score": 1.56,
      "source": "Starship",
-     "title": "SpaceX Starship Rocket Launch Makes History - Coinpedia",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mX3lxRmp0Z3FxMHQyOXBWOWRtY3hKaFI3WEtIUUtaQUZpeVJKRmlSUU1LVmtXUXlLM1hRdDd1YmJybVJBeVZrVjZVQUVXRlFzLTFsNFlTRlJPbGVlcjdzc1h2Uk1mdVk?oc=5",
-     "published": "2026-11-15T16:06:10+00:00",
-     "score": 3.79,
-     "source": "SpaceX",
-     "title": "SpaceX - Launches - SpaceX",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNQ09oSHRfbnktbERBaXJubF93aVlScEdNZEdobi0wYndxcFdwcHN1aE1wSHFxMU9WV18xc1RlZlVzcFI0SWsxRUh1RGcwVnRuNlJqNXkxcVY5UUV3WVJGUW81SVdQUnA5dHNvdG5vUnNsODhMRVlOa3I0YW83MkU5azNZMjlzcEdoNkNaT2xwZ3loOThIdDJKZVVaZUF0Smxfa2pVTnp3ZEV0TlgtOHRqbVJSZnZYcjJscEVDU3Z3Q0FrY1lOamNIeGo2UlVwOEE?oc=5",
-     "published": "2026-11-15T15:25:00+00:00",
-     "score": 3.676,
-     "source": "Starship",
-     "title": "SpaceX\u2019s Starship returns from orbit and is captured by launch pad arms in a dramatic first - Castanet",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOR1R1Y1FKeHpacUxTUW12ZzlQX2xCRFo0dThOLWlLeFlTUGdYTG5xN2xJME5iaGlHeHBrU2RMcWFyc0lHaEk3WVl0R0RNUEg3TUh4aFM4NVlEb3Z6Q3MwRUllZnFUUXItU3BuX0ZZdjN2WHRaOUp2LVNOd2tkbnN6UGZGeUZ2OXoyemhDWjJ5OVgxbUc3ajAzNU1EZW1WeXVHWEwyaExUaWZDd3B5bDVjd2d5M3BVQlpDMWU3RHZ3YUdMdmRJR1d1UklqYW5paW9jUV90d2hhY2MtQUdfOWRrcXJ3?oc=5",
-     "published": "2026-11-15T13:01:00+00:00",
-     "score": 3.276,
-     "source": "Starship",
-     "title": "SpaceX Starship makes first pinpoint landing at launch pad in Texas - WBIR",
+     "title": "SpaceX\u2019s Starship returns to launch pad from orbit in victory for company - The Guardian",
      "topics": [
       "starship",
       "launch"
@@ -248,65 +312,10 @@
     },
     {
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOGRsbVBwbWYtZ08ybGpPYnI1dXM0UWk1N0l4RlhteWtaaHIxSWh6NmJnTnkxTndkVEhmQ2dwN1E2YUN3Skw5ZjVTRzFVejBTU1g3cEtKSTVsR0M1RERNS0NwbmpDX1M4a1YzdEFwbFNUdUNsUEo1TV9BRC0yNk5LNmR2bjdvMFZWQTRkbkYxR3Y0X01JSlcwYjZ3?oc=5",
-     "published": "2026-11-15T12:38:00+00:00",
-     "score": 3.212,
+     "published": "2026-11-15T12:26:00+00:00",
+     "score": 1.551,
      "source": "Starship",
      "title": "SpaceX\u2019s Starship returns to launch pad from orbit \u2013 video - The Guardian",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9ZdFdDcXB4QTk2bUdEUG1lb1RlX1JiZUg0V3RaWjJMZmhrbXFXTWxLaTFZZWx4dlN1MlQ4Si14ZTg2bU8zU0luMXp4Q21GZFBGekNkeDl1YzYxbXJKalBDWUhR?oc=5",
-     "published": "2026-11-15T12:28:00+00:00",
-     "score": 3.184,
-     "source": "Starship",
-     "title": "SpaceX\u2019s Starship successfully captured by the launch tower arms - Global Times",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTWJGYjMxQi1wSGRvWXpWUnN2WDRKVFowQmRVWUM2ODdkenJRNHlfVmExQVBQZlhuZFdaMkk1RWFsZXA2ZjZYd0JadDFZc3hKVTFDakdGQWFpT3VyVDQ3bnR3MWdIVmdWbjNLNUJsNVp0V0tmYVZyalpnYmxhM3F0NjZlck5YSW5uTEhCQ2NVTTFiQQ?oc=5",
-     "published": "2026-11-15T12:05:00+00:00",
-     "score": 3.12,
-     "source": "Starship",
-     "title": "SpaceX\u2019s Starship returns to launch pad from orbit for first time - The Independent",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVkNCSmk0elczMXA0TTNRWExwYncxQ1RlYUlaYzkxSFp6NEl5U3dvZXFLSm5vVkZCdDNQMkFQR1NmeU9mN0xoa3dVOFdGdC1jRHFMZ1ZvdVN0RUx5S3U3S2kxN0NfdGRnN3M4d1ZjbVpCMFRyTjBkakgwaFdyUmpDUkVZb2FISmtBSElXZVN2LS0?oc=5",
-     "published": "2026-11-15T10:08:37+00:00",
-     "score": 2.797,
-     "source": "Starship",
-     "title": "SpaceX Starship returning from orbit caught by launch pad in dramatic first - Yahoo",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVms5RU1feU9qbTBsamJ1MjZ6eExLeHBRY0tiRERJZGtGLWVKWFZ5b29EeXVReGFjR3J5cmEtMnhyQ3pqamVjRjhSenkxTlBfNnFJZU14REkxYTZ2X2VOLVhmR1ZLUnJwYzc0ZFZ4TzlTR3p4ejVpVmw0cUJCcHlVMlB1dFFLZGJhX09acjhmSGR6WnF5SDVoLVdhN2JvaEwwU0VKOXV3RnB4d28?oc=5",
-     "published": "2026-11-15T10:05:49+00:00",
-     "score": 2.789,
-     "source": "Starship",
-     "title": "Video. Watch: SpaceX catches Starship in midair on return to launch tower - Euronews",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObnhGdWVvcDJ5eEQ5ZFRyTUFEaVo0VElUc08wNnRYc2xta3NUMUxkZ1NfakEyODBLU3RXUlVQcWFzY093RmJUdUtyYXB2QXJvWXB5bE1KRUVkX2tTa2k5dTVacDZUcVZ1UzZfWDV3bXpDN09aWE52di1ITjdpWG9ydlU3TkIxRVNncUFLeS14b0xaMmVGck82bUY3bGR3UmxzZk5qM19xdjc4Y3JXb2NlbUhxMDB5LWk1dktKX1RHMUVfeDNxdkItU3NIQkJQN2M?oc=5",
-     "published": "2026-11-15T05:33:00+00:00",
-     "score": 2.031,
-     "source": "Falcon",
-     "title": "SpaceX Catches Returning Starship In Launch Tower Arms After Orbital Flight - i24NEWS",
      "topics": [
       "starship",
       "launch"
@@ -322,38 +331,46 @@
       "starlink",
       "launch"
      ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNaGNFUVA1VFZvME5ITTYtMVVUcS1KVzdueXZwUld4anZ2RXdBSHBlUTJxUWljY1FqYi00cGN2TE5HaXBrVlFkdkxKRXE4aEk0QWY1S09uWEFNRkFKWXJYYm9XV0pDVXV1RnVNSnozM0JRQWNkLVktRFhNSUEzNEZLRzJydDBwTWh4UHdhaGNUUVoxN25nUHVlUXBmUExPV2dqTVBiU3dfYkoweUhGcGFYTGQybDE0dl83NmVfbkI0M2R2VVRsZkYtMzRKcVY3N05TTGNHSFRSYXVjb1QtVHE0S3lZMXRHb1YxRTFBWFpn?oc=5",
-     "published": "2026-11-15T02:03:00+00:00",
-     "score": 1.448,
-     "source": "Starship",
-     "title": "SpaceX catches Starship for the first time after launch from Texas - Florida Today",
-     "topics": [
-      "starship",
-      "launch"
-     ]
     }
    ],
    "tesla": [
     {
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONTZ3TWVXQ19POXM4djI1RlJuaVR0RmlQSU9xZ1MyYkJsV0VnUFQ5WFlmV2tLLTljVWJ6bUU5ZThCOHk4cE1UcWxlN2NXbzliQzhNSmphZGxBdk0yVUxqRXZNVWxvN0pzc3Q5ZncyeThNWXVVTEdBbWRaSXBaRDJXX1J3dHg5d0dKR0VGRA?oc=5",
-     "published": "2026-11-15T14:27:00+00:00",
-     "score": 2.343,
-     "source": "Humanoids",
-     "title": "Elon Musk's Tesla and SpaceX Lost Over $420B in Two Days After US Midterms as Probe Fears Mount - International Business Times UK",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaFpYcTNrRUk4bFctVHdDaWxnd2hqUUtSS1dldy1Ld0QwZzJmOU4xa0k2RXBrbFFucVFDVjVRNWt5MG91dEtNRThGdkFjbFFXUFRFRHJjVGZrOEx4cWRzdHQ3Vmw1bjJHTWxOT3NLTTFDSjFzNXR1cWpZQ3BNc2NoWHhiV1ZTV1dxenhQdTNmVzg5bFdEQ21EaXlMN3BGUU1LUEZETC1iZThrWU5IYS1RSjhuRktpcXk3VF8ya3p1SQ?oc=5",
+     "published": "2026-11-16T14:26:34+00:00",
+     "score": 3.924,
+     "source": "Production",
+     "title": "Tesla Aftermarket Modifier Proposes Taking Over Cybertruck Production Line and Developing New Three-Row CyberSUV Model - Moomoo",
      "topics": [
-      "regulatory"
+      "production"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5VZDlCYk5HZXJSU0N5NDRWam9SR3hpU2pFZC02bGJuekdfcDd2SzN6R0JWaTBKTEVxSDhiWDlUb3V6a3JXM2xHY0FHOVBja0Q5d182S1YwUW1JWXhLVk5Td213cy1CVWlCQ0FfXzgwaWpKQQ?oc=5",
-     "published": "2026-11-15T03:29:18+00:00",
-     "score": 1.687,
-     "source": "Autonomy",
-     "title": "Tesla is inviting select customers to buy a Cybercab for personal use at $29,990 plus a $299-a-month autonomy subscription, with first deliveries listed for Austin and no steering wheel or pedals in the car - Make Tech Easier",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOcHh6bFZRN200VjV0YWV0bkNJbjZYZlV0M29raVhzTkw5c1dwSGprazRYLWtIbmdsc0xwNk5jaEtuODVmR2JubTdpV3d2ck9nZnpVLUdZWlpOQWJ1RUF2ZVduNnV5OTBTcWlTM2FuWXhKX2s4dnZFM21XSEp4SkpxSkw2aFhBTEl6R0dUNjNYSXBmZ0pFXzRPZVRGbWd6T1M2RF9fMVFVMU1BNFpzaFVTdGdkdTRJUFVjcVl5MGFBUGRGcWVuemlfaEFpZ0tqNE9xdkFheUlicm9qdw?oc=5",
+     "published": "2026-11-16T08:58:39+00:00",
+     "score": 3.317,
+     "source": "Production",
+     "title": "Tesla Aftermarket Company Proposes Investor-Backed Deal to Continue Cybertruck Production - marketscreener.com",
      "topics": [
-      "autonomy",
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaUctZWZ2ZTBNUTM3TzdfSllBU1dBcE5EcTZubTUxYnZqUlB4UW1Xc1l6bmlqNVNpVjBkYnZhc0wyRG5oTjRUVEwwQnczSWNKc0NLNlNDMTl5TkdDTXg4ektpYzZtcmJTR2RWcmNsY1JCM1FMMF9HcEY5UkNobURTekhIZXJxcHdjckJ5c2MzSktzVlFaYzRwLWtR?oc=5",
+     "published": "2026-11-16T06:10:32+00:00",
+     "score": 3.005,
+     "source": "Production",
+     "title": "Tesla plans to start battery cell production in Germany by mid-2027 - Batteries News",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVkRySk51dTFWYmhwbmIyeXVLeTJQUk1UYk9aR1JKU0pBdHA0ZnB3VnY2dEdwZkR6MTNhNXBvRnpyS29Jdm5nZnZib3ZqS2FpMlBmY3pWWVN2WW9MbUFNa2pWTWR2SkU0UUNxUnBNOWUzamRjOWFaSzhvQjBYWkF5VkdYLWRPblp4R3lJaERmVWpDYzc3UWdnRjJxWUtWNHZGd3c1SFF3OVEtSXprMmJIQ1BfUlpWYzdQbkZKTlRpWmVZOVlQa3k5WlJB?oc=5",
+     "published": "2026-11-16T02:25:24+00:00",
+     "score": 2.588,
+     "source": "Production",
+     "title": "Form Energy: Meta And Tesla Veterans Lori Goler And Jon McNeill Join Board As Company Scales Battery Production - Pulse 2.0",
+     "topics": [
       "production"
      ]
     },
@@ -410,6 +427,16 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONTZ3TWVXQ19POXM4djI1RlJuaVR0RmlQSU9xZ1MyYkJsV0VnUFQ5WFlmV2tLLTljVWJ6bUU5ZThCOHk4cE1UcWxlN2NXbzliQzhNSmphZGxBdk0yVUxqRXZNVWxvN0pzc3Q5ZncyeThNWXVVTEdBbWRaSXBaRDJXX1J3dHg5d0dKR0VGRA?oc=5",
+     "published": "2026-11-15T14:27:00+00:00",
+     "score": 1.258,
+     "source": "Humanoids",
+     "title": "Elon Musk's Tesla and SpaceX Lost Over $420B in Two Days After US Midterms as Probe Fears Mount - International Business Times UK",
+     "topics": [
+      "regulatory"
+     ]
+    },
+    {
      "link": "https://electrek.co/2026/11/07/tesla-solar-roof-fraud-liable-experiment-lawsuit/",
      "published": "2026-11-07T16:01:23+00:00",
      "score": 1.2,
@@ -452,76 +479,55 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBVTHBaM2JicldsQ09OMFNrYVJIVnk4NFBaVnpxWEhYVnlGSUd2TkNqS0hmWDhiZXFCZGIzUi1wbk5VV1lpd3NjdVE0U3BaYWxHVVU5cXdmTkRWRE5NXzZ3ZXNycTZqaUNQVzVUdjBObkFMQWVqT1VadHZPbFQ4OFk?oc=5",
-     "published": "2026-11-16T02:59:57+00:00",
-     "score": 0.934,
-     "source": "Autonomy",
-     "title": "MKBHD Orders Cybercab at $29,990, $10 Under His Bet - shattered.io",
-     "topics": [
-      "autonomy"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBZcm0zaU1YeTNaMmh2TmlFNnFRWEJxSlBRYnZIaW4wT0hUZnduT0VJNzFseWZaRy1EMXF4SU92TUluTXRwWmRNQXBoUHkyb2E4OXF1eUp3TVMxM2tZWXYtRG5CYmQ1VTRlc3ZUeFVtRlBRSzNOclJIanZ4V0RvZVU?oc=5",
-     "published": "2026-11-16T02:54:22+00:00",
-     "score": 0.932,
-     "source": "Autonomy",
-     "title": "Surprise catch in new Tesla robotaxi - Drive",
-     "topics": [
-      "autonomy"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNazNycDlYS2o3eTYxQXlOS0hid09BTFJUaDJsbjVrcmZfb2d2TnJtU0Z2R3k4Z1ZHbUtBTzY4TmlfSmFkUlM0UG04akRTT2o2YnAzdDVhdndNR19sX3g2YUdpVk51S05PVXIxYk1UWlNNcDFyUjc5eG1TeG5WY1o1ckJUUi1PUQ?oc=5",
-     "published": "2026-11-16T02:13:14+00:00",
-     "score": 0.913,
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1GVWRwXzZFYmxwLU1XOEU4V1BCOWxKamo1OWZFNHZidXJfelc5ai1IS2FaNm5vU290dUxjcTBUN05UbTFoZlo1UEFUT0E3Z0VIU3Mwa2p6dXY5Skl4Rzk2bngxVENwNzM4ZTJUVmtVcHJJMG5wclRxZ0tKTQ?oc=5",
+     "published": "2026-11-16T14:17:03+00:00",
+     "score": 0.977,
      "source": "Production",
-     "title": "Tesla Buy, Hold or Sell? 0 Buys in 4 SA Calls - shattered.io",
+     "title": "Tesla announces $3.3 billion expansion of Germany plant - AOL.com",
      "topics": []
     },
     {
-     "link": "https://www.notateslaapp.com/news/5019/mkbhd-orders-a-tesla-cybercab-to-decide-head-shaving-bet",
-     "published": "2026-11-14T22:46:00+00:00",
-     "score": 0.901,
-     "source": "Not a Tesla App",
-     "title": "MKBHD Orders a Tesla Cybercab to Decide Head-Shaving Bet",
-     "topics": [
-      "autonomy",
-      "production"
-     ]
-    },
-    {
-     "link": "https://www.teslarati.com/tesla-trims-model-y-offerings-all-wheel-drive-gets-axe/",
-     "published": "2026-11-13T15:29:04+00:00",
-     "score": 0.9,
-     "source": "Teslarati",
-     "title": "Tesla trims Model Y offerings as All-Wheel-Drive gets the axe",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOXdWbHVHSEJWNWgzdkJrS1d2N25pSVY3bzVzOEU0RndrSF9DQkRvRFJNbnpka1hnUVF0WHh1dDJOX3NFamRaTlB5MnFIRG5PaG5oY0Z6WWJHWGZaeFpYVFZibThxdDM4dGE3YnBFVklpVjR6MjFiX21RZmJjSXJ4VnluUFpqOEZ1RTRzS0FpUElNUmJ1Y1JhSVNrb1ZJSUYwQ1RsUEtndkM?oc=5",
+     "published": "2026-11-16T14:16:22+00:00",
+     "score": 0.976,
+     "source": "Production",
+     "title": "Tesla\u2019s New Radio Control Cybertruck Looks Legit, And Is Actually Kind Of Innovative - The Autopian",
      "topics": [
       "production"
      ]
     },
     {
-     "link": "https://electrek.co/2026/11/13/tesla-kills-41990-model-y-awd-configurator/",
-     "published": "2026-11-13T15:32:28+00:00",
-     "score": 0.9,
-     "source": "Electrek",
-     "title": "Tesla kills $41,990 Model Y AWD: all-wheel drive now costs $8,000 more",
+     "link": "https://insideevs.com/reviews/815471/mercedes-drive-assist-pro-review/",
+     "published": "2026-11-16T14:00:00+00:00",
+     "score": 0.969,
+     "source": "InsideEVs",
+     "title": "I Tried Mercedes MB.Drive Assist Pro. It's Like Tesla FSD, But With One Catch",
      "topics": [
-      "production"
+      "autonomy"
      ]
     },
     {
-     "link": "https://electrek.co/2026/11/11/tesla-semi-delivery-50-trucks-chicago-hmd/",
-     "published": "2026-11-11T18:03:12+00:00",
-     "score": 0.9,
-     "source": "Electrek",
-     "title": "Tesla confirms rare new delivery of 50 Semi electric trucks in Chicago",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSjRVYk5BdWthZzR6dWJtX290UFJvc1JMWl90WDhoOTZHNWhnbzRJQzBhZnBCNGRPV3NyZGpNcENZWTVtLWlpUTdZWFpVVVlRRTIzVFpiREhERDJpNVk2S3pTZ1lYV0tlZzU0Q1Q1UV9HN0RZclR1T0xnT3BTWWIwUDBXbGNSblRId01nWHZGTnVuWUl0ZGc?oc=5",
+     "published": "2026-11-16T14:00:00+00:00",
+     "score": 0.969,
+     "source": "Autonomy",
+     "title": "Mercedes Finally Let Us Drive Its Answer To Tesla FSD, But Did San Francisco Defeat It? - SlashGear",
      "topics": [
-      "production"
+      "autonomy"
      ]
     }
    ],
    "ventures": [
+    {
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mT2IxWkNib1h0Q2RXalpDWnYyVW40REJMZTN5Q21TWUJsNkl1Q0ZUMkdiQmxHVVJmLU1qdi1VcHdfdEp1SXRfQng5Q2ZUNHNnb3hpRnMwZUEzNEVDMDl3ODFaM1NjT2djZDc5T3pR?oc=5",
+     "published": "2026-11-16T14:00:08+00:00",
+     "score": 0.969,
+     "source": "xAI",
+     "title": "Musk\u2019s xAI Chemical Spill Triggers Mississippi Cleanup - USA Herald",
+     "topics": [
+      "ai"
+     ]
+    },
     {
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVmJTWjU4UnQ1UDAwUF9Xc0UzdkdtTW80VnRIdmlReVpIY2hzdzFtOGhLWTlOSTg3MUdNdkJFcTRXS2h6NlhxcklhYXVnMUZxN3RndUdlNTJRQzVXNjRwalJTcHpjOUROTHl4WjFuZGltNk40U0JMRmhBQkUxYmR3WGdJNGdmVVczVEJ2SF94QnRhM1E?oc=5",
      "published": "2026-11-12T16:50:57+00:00",
@@ -533,9 +539,49 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdVdhdS1uOGprX01iSlNHSkRDMXRqRlJNRlMzREo2TEtCTS1lRno2NlpIUkdUeFJDNVFwQjM0SDZ6OEU3bXVvWWhGSDFhb3VYRjM5SWFqNHhCWWcwYjlHamZVYy00emY5cWJSN205TW1EQ0ZiaXQ3bDlDSVhremJFVUdvUW12c1o2RF9qdVBIMHpiWTdaSVFWYTlSY1doNm8tWlF0VE5FZFdUMV8x?oc=5",
+     "published": "2026-11-16T11:22:56+00:00",
+     "score": 0.896,
+     "source": "Grok",
+     "title": "Elon Musk\u2019s Grok leaves users creeped out after revealing \u2018scariest thing in the universe\u2019 no one knows about - UNILAD Tech",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1wam1TYVhYMy1fcEloN3NvZHVtWU1rT1k2cVlyZi1WbWFqRHlNZHNuWTItQWFwdUtubUtFQS1JMi1UM21JYkNONkhOb1FSMFBDdURpRjgzNVlSR0VXRVRoYktrOA?oc=5",
+     "published": "2026-11-16T08:56:45+00:00",
+     "score": 0.828,
+     "source": "Grok",
+     "title": "Qwen4-Max vs Grok 4.8: only one of these has a model card - OrcaRouter",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xNG52YTYxV0lSZlpDcG4xQWhBd1lIbXR4d2Mwd005LXd6V0xJU1NlTjNKNi0tTXM3RlJkdmw3bXhWRkNhLW1XY2NHX3Uyb2VXYmRhZ2RQaDF2QUJTVGhDSEhaUUZwMEg3?oc=5",
+     "published": "2026-11-16T02:33:30+00:00",
+     "score": 0.651,
+     "source": "Grok",
+     "title": "Stop Grok Protest at SpaceXAI HQ - Indybay",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNd0dGR25VdlFMNFM1b2VkTXZEUnNnSThBdEgzUjNld1Z4U0c4TVhxd1ByRXh1UTZJeGQ0VnVfeXdGbnN4d2ZRTVBvZ01EalEzeEtybDJVSDRsOGtfOFRJSEl1SldJcjhnSzlpa0taX0xWTDJ5eDRwQW9CQWpjeHp2OWt4cEZuUnJzYXUw?oc=5",
+     "published": "2026-11-16T07:56:22+00:00",
+     "score": 0.48,
+     "source": "Grok",
+     "title": "Elon Musk's Grok AI Points to Terrifying Theory That Could Wipe Out the Universe Without Warning - www.techtimes.co.uk",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNWpWUVI4OHZudENySE5fSmpMTGNTVTM4YkZXa1BBblVZbE1rSUZ4aEVwWGZDbklnVzhoZXVBYjV0cTZMcGlBNkhMYzNVeHIzdXMwWEd1NHA4a09xQUFjdG04VGNKYVZ5RFB2SHpIbk9MMEpEcXNKN3ZWOWFXMUhZTzh4SVZaNC1BMXgzX0hDWEg3Z2J6QXVaU2ZOd2VNSTNsSmRXMmE1VQ?oc=5",
      "published": "2026-11-15T17:20:42+00:00",
-     "score": 0.666,
+     "score": 0.395,
      "source": "Grok",
      "title": "Elon Musk's Grok AI gives chilling answer when asked about the 'scariest thing in the universe' - UNILAD",
      "topics": [
@@ -545,39 +591,9 @@
     {
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaXdMbmpMNm52RDU3T3NOOVNkQlIzVmhNemlZMFVZMEZNZm5yWTI1d25GWldSbl90T1UxRUE5dWZ2VC1MLTVUemduYzRCTFRrX0M1d1dvdHJqSDdjSWFIQzFNZnl2a2dkS1NZM3dxMkN3RFh4RjVWaS1DSUVoMVhHQ04zWDlpUmVFRmtWRTlfaXlNNmhteE5uU1ZnNnR6dw?oc=5",
      "published": "2026-11-15T19:15:00+00:00",
-     "score": 0.36,
+     "score": 0.224,
      "source": "Grok",
      "title": "Elon Musk's Grok AI Predicts a Huge XRP Drop as BTC Hits $64K - Cryptonews",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4zcTY4RzFObkZlUHFIa3dYeEx5UFJSYk90NWZWaUlQVktac1o1SjhLUFpTYlZWYmFtOU5DWjlGTjVhOGE0ZmZiREtaUkp2WHE3R1lhcGNyWk1vRjhQdlJidkViUU5Ocm83VDlwWDhjMTV6MS1WTS11SG5uSEdpQQ?oc=5",
-     "published": "2026-11-15T06:05:30+00:00",
-     "score": 0.354,
-     "source": "Grok",
-     "title": "Grok Bot: 5 Real-World Tasks It Can Handle Beyond Chat - thedigitalbriefnews.com",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVEdyV3NQcVlMRkZiaVoyNThqY19Zd1lZWUZIU2MtWDFQNnduazk4MU1ITTI3VUd6NnQ2TjdJa0hnU18tSEZJeUIzN2liMFhnRkFGaWd4bHU1enlNQ3RsUUNZX0hRYVhRbjFSdHZBZGM3OXFjNVFYLThoX1ZoRHI1WXZfZ2FQRGM4Nm1JODFpcnpTQlF1WFF5Y3F0WFdSMkRzNGNfUWlDN19wQ29nN2Q2cmQtc1otUmFS?oc=5",
-     "published": "2026-11-15T05:45:56+00:00",
-     "score": 0.344,
-     "source": "Grok",
-     "title": "SNL\u2019s Elon Musk Impression Mocks His Midterm Election Losses and Grok\u2019s Vulgar Roast Feature - SSBCrack",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNczVnem95QTE1c0xWVFlLMzhJMlppY0prQURNbU9Gb2F1ZDlNSmZmenRrcTdZQy1OWkF0cVlYSERiaXdmOUVORGFjUkJHY2FtRDdQVjBEVXdfM1BSaldiMFlFa24yRFMwMnpOU1NQUHB1amF2OWozUWJNOVJLaWRQNmJJbmY0NHJxZy1ya0hkd1FGZw?oc=5",
-     "published": "2026-11-14T22:57:47+00:00",
-     "score": 0.156,
-     "source": "Grok",
-     "title": "Pentagon filing says Elon Musk's Grok helped enable 2,000-plus munitions in four days - Briefs Finance",
      "topics": [
       "ai"
      ]
@@ -593,6 +609,26 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSHVlMmkxWGNtSXFvTWktZzFWV1BfTUo3ZnVTck54QmtjOWRTaVNpQjJKLWF4TmZJN1ZpRjhDNUphTUcydHBJQ29ZWWxvN2dfV1R6eXR0d0NTTWdvNmhwWG1hQThURWcydDVkdURKLWd5bk13d0VNQnMyN2o0OUlldDBKR2JSZ2l6NTAzcmJNQ0k3dDdlaXc?oc=5",
+     "published": "2026-11-13T14:00:00+00:00",
+     "score": 0.15,
+     "source": "xAI",
+     "title": "Elon Musk\u2019s AI Group Guts Grok Video Generation Team - The Information",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaGJicnpTX3dXeTZCWFZMN1FLZUJfOERPSFJFR1o0Y2RHdmFBb1AxSUxjamtXMmR0eThBb2o3cVBvOHhVSHFVOE1GTGhYd0hjTVFEYUZmSG5EZl84U1VqU012a005Rm0zaF9XV0ExT3R0cnZRc0NxR2lneExBOGtuaDNvVWFISmVNdUl6eWxsQnpwVXhHOXRsaldMQ1ZlYnJfOWNXQw?oc=5",
+     "published": "2026-11-12T03:57:39+00:00",
+     "score": 0.15,
+     "source": "xAI",
+     "title": "Elon Musk\u2019s Grok AI faces legal challenges over nudification - Social Media Today",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JajZVajVuWGxZRW55Z0ZSaHFGZFFSNXc4R3pRSmttbjRWNjN2ZnUzTzNnZzYwMUZKa0hyNGU0cEE4b01rN1oxUFU1TmRBa21KbkR4TU0zclFvWlBWeXhLaEVyd0V1WHU1TkhwOHBGRQ?oc=5",
      "published": "2026-11-13T14:09:53+00:00",
      "score": 0.15,
@@ -603,11 +639,11 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1nYWFOcHZ3M0dMbnJJU0ZpZmxhN2RndllUZ0VDMHE0WWpZN2xySXdNUTY1ZlNSc1lIVlRKMzJjR3dKYW05bjV0VUpEelBIU21oeFVZYnVzbFFmZw?oc=5",
-     "published": "2026-11-12T08:00:00+00:00",
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA1SzJZS0pKYkdVd1A1OFFkYmVkN1VCd3Y1b3VXMUhpWHE4RU5qLXIydC1GVXRBcG16Zkt2QnUtbUtvTW9FQ1UxajJUOVBFdDRHMFpFZlhBTmNTZnM1UE1EMjE0Y3RnS3Z3ZmNfaHZvNlJyUQ?oc=5",
+     "published": "2026-11-13T13:04:41+00:00",
      "score": 0.15,
      "source": "xAI",
-     "title": "Zimperium uncovers ArcticRAT malware using xAI\u2019s Grok to mine stolen SMS codes - Cryptonews.net",
+     "title": "Zimperium uncovers ArcticRAT malware using xAI\u2019s Grok to mine stolen SMS codes - Crypto Briefing",
      "topics": [
       "ai"
      ]
@@ -633,16 +669,6 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSHVlMmkxWGNtSXFvTWktZzFWV1BfTUo3ZnVTck54QmtjOWRTaVNpQjJKLWF4TmZJN1ZpRjhDNUphTUcydHBJQ29ZWWxvN2dfV1R6eXR0d0NTTWdvNmhwWG1hQThURWcydDVkdURKLWd5bk13d0VNQnMyN2o0OUlldDBKR2JSZ2l6NTAzcmJNQ0k3dDdlaXc?oc=5",
-     "published": "2026-11-13T14:00:00+00:00",
-     "score": 0.15,
-     "source": "Grok",
-     "title": "Elon Musk\u2019s AI Group Guts Grok Video Generation Team - The Information",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZ1JvS2FTeWNLMHU3MXZmNHJOZmpzdzlrOXRubkd6a1N2bFh3ZGhVa0VoajZieV92NEg3Uy1mbC0yMkYzR3hWalJMNDNUdUdLT19wX01vUHJRM3BhME41NTRVYVJPTUlLSnVEWUJnWDlfdFdiLUlGMHpDOU5kR3FHdWRUVkYzZ2FIQU4wNWNhdTFMM2hXZTlVRzJRQ2pVNUNUME9Tb0RReURNclNMb1d4WV93Vmctak81X3ZLZFg0bw?oc=5",
      "published": "2026-11-11T17:15:00+00:00",
      "score": 0.15,
@@ -653,51 +679,21 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZVh5dFNhbi13Ukc5a0c5N2UyY1JSY05MX2hPTGIwM1dBRVR6MWdwbVRFcTcxV3NOUVMxX2E4bDdsMl9sWUpRaXYxTXBTcUJ3UjFUeE5CTlJ4a2lmQlNQb1VGVDBYWG1jOVdGa1JQbXBqR0RTNllnOUU0elhtRW1VT0dPS0tfTzhrQnhtYQ?oc=5",
-     "published": "2026-11-10T19:46:02+00:00",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZjA3LWd0RjhIRWo5R29iVW1oMmRkeHRQRmlMVkF2UlNMY0oyaUxyV2ZQYXk5eHY2NF96cWN6c1lvTEtnc2IwSkZ1M1VnM0ZfbnJ0bl96bzhlTlM3RmFqUjNnMTl6TVFuS0pfLUhDS2x1ck1UQ1Bkb2xhSUxjY0dmZG4yYU5GSXJxUnpUQVVuTXk3VkxoVU9tMWtWR3BYb1FVbVBr?oc=5",
+     "published": "2026-11-14T12:47:27+00:00",
      "score": 0.15,
      "source": "Grok",
-     "title": "Elon Musk Calls Claude Opus 5.5 a 'Masterpiece', Admits Grok 4.8 Won't Match It - Yahoo Tech",
+     "title": "SpaceXAI cuts about 60 Grok Imagine staff to push coding tools and agents - Startup Fortune",
      "topics": [
       "ai"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdkd2ZTh4bW5fVlNRbnUtcGZKcVBuSE9XMEV2ek1WOVhVQmZpSkhxSk1ydTlkaFJqc0hkN2dNZTZlbm4yZEw1V05HOFZOblBqcS1waWRNTDc1cmFrNkRTMU5MZ2NaXzFEcHZvdTMzbWtYSlBGUEsxYi1WaTl2RmJxckdFY1ZxNlJVdUN6WWVpcjVEYWhoVlJwUXYweS15NTJkUVNsVmN5UHlIajhFd09RSnR2eXN0T3VkYWkyRlJsWVM3bXVjR0gyN3BRZHZMWGswbFFN?oc=5",
-     "published": "2026-11-13T14:25:38+00:00",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3RldHV25CWDVPQ2dfVkk4dGE1UXJVbk9SQkxvRkNwaU5Na05STExPUGlwcDBheENIWDFuOC1jSFEybWx0QmJiS3hfUHA5ZnQtTzBobEdNdXJMYXpBRi1wcEFJYzJBckEwbFp2Uy1HVE5sMzhSSlE?oc=5",
+     "published": "2026-11-13T14:58:27+00:00",
      "score": 0.15,
      "source": "Grok",
-     "title": "Musk\u2019s AI group lays off 60 staffers from Grok video unit, The Information reports - Investing.com",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPV3FRVkJFQ1VnZjVhZnl1Q05RamNEMnJBRjdYVjh2U21CdGhteHZGMVRDQjBIcVFiNHRDamhaWFBhay1fbnRuMmpXbTd2SW9PbEE5LXFpWXlFS0VUY3l0TkxuQWFmbG5XMmRMMlRNVzhBYzV1U1AxRkxhX3ZNUWtQTldxUXUycHhJaXNMdk5ySlNZa3R1YnBYRVZ3OWU2Z2djWlBDWW4xWlR6OUFyaEliM1BNUGZUZWFidUYtbThKZ1FUSEhrYlVDSXR3U0liX0R0d19JZlRMdmNaTy1ZREdoVElKYlh2eHhMZ3hmenJDbmJfU3dPdDJoc2syMVlzQQ?oc=5",
-     "published": "2026-11-10T11:23:21+00:00",
-     "score": 0.15,
-     "source": "Grok",
-     "title": "Elon Musk's SpaceX Says Grok Helps Identify Foreign Object Debris In Rocket Parts Better Than Humans, Wit - Benzinga",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE50WmlybVdMVmRnTFdBUVhhTERXY1JjeDhPcGFJOURkT1BJUm12cG1wTzg1SlpIODViMFYtZmlPTC1iYXlEcEEyZm9YVmhqMTZYVUoyMWpEQkdZekp6eVNpRDhRMGVuRG8?oc=5",
-     "published": "2026-11-11T12:19:47+00:00",
-     "score": 0.15,
-     "source": "Grok",
-     "title": "Grok doxxes thousands of apps: confidential SpaceXSI deals among exposed - Cybernews",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42LXdWQlY4Q0hkZU13TUFlTExoVVVUQXdoYW81Q09ZWDJDTXpvYi03cV80SDdOWnhqajh1WTNEcm9yaGpmajZaZm1pcHFTdFBEeXRF?oc=5",
-     "published": "2026-11-12T04:40:20+00:00",
-     "score": 0.15,
-     "source": "Grok",
-     "title": "Elon Musk's Grok AI Leaks Internal Confidential Data: Full Exposure of SpaceX & Tesla Salary, Performance Details, and Patient Privacy Breach - 36Kr",
+     "title": "Musk's SpaceX Super Intelligence Trims About 60 Jobs in Grok Imagine Video Unit - BigGo Finance",
      "topics": [
       "ai"
      ]
@@ -705,5 +701,5 @@
    ]
   }
  },
- "fetched_at": "2026-11-16T05:21:51.918142+00:00"
+ "fetched_at": "2026-11-16T15:07:42.419367+00:00"
 }
