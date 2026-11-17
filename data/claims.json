@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-17",
-  "times_seen": 156,
+  "times_seen": 157,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-17",
-  "times_seen": 76,
+  "times_seen": 77,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -56,7 +56,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-17",
-  "times_seen": 53,
+  "times_seen": 54,
   "outlets": [
    "Humanoids"
   ]
@@ -76,7 +76,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-17",
-  "times_seen": 53,
+  "times_seen": 54,
   "outlets": [
    "Humanoids",
    "Optimus"
@@ -98,7 +98,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-17",
-  "times_seen": 37,
+  "times_seen": 38,
   "outlets": [
    "Autonomy",
    "Production"
@@ -137,7 +137,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-17",
-  "times_seen": 148,
+  "times_seen": 149,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -158,7 +158,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-17",
-  "times_seen": 54,
+  "times_seen": 55,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -179,7 +179,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-17",
-  "times_seen": 43,
+  "times_seen": 44,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -218,7 +218,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-17",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "SPCX"
   ]
@@ -238,7 +238,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-17",
-  "times_seen": 113,
+  "times_seen": 114,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -258,7 +258,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-17",
-  "times_seen": 93,
+  "times_seen": 94,
   "outlets": [
    "X"
   ]
@@ -278,9 +278,27 @@
   ],
   "primary": false,
   "last_seen": "2026-11-17",
-  "times_seen": 67,
+  "times_seen": 68,
   "outlets": [
    "Optimus"
+  ]
+ },
+ {
+  "statement": "Tesla Unveils Powercore, a New 7.4 MW Solid-State Transformer Coming in 2027",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": "7.4 MW",
+  "source": "Not a Tesla App",
+  "link": "https://www.notateslaapp.com/news/5026/tesla-unveils-powercore-a-new-74-mw-solid-state-transformer-coming-in-2027",
+  "first_seen": "2026-11-17",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-11-17",
+  "times_seen": 1,
+  "outlets": [
+   "Not a Tesla App"
   ]
  },
  {
@@ -2389,26 +2407,6 @@
   "quantity": null,
   "source": "Production",
   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uMTdrcl9kN0tWS29ueFlna0FSUTZVcF83RE5yYmxONFY4cENjTXQtamlBd1JYLTdvd0gzeWx5X2V2OTNwOHFjaWgxNXAxSmhlR0xtSXc2YXNfWUhHTTdEV1ZBNnllS0lHUTNuUQ?oc=5",
-  "first_seen": "2026-10-16",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-16",
-  "times_seen": 1,
-  "outlets": [
-   "Production"
-  ]
- },
- {
-  "statement": "Tesla unveils new Roadster; production to begin in 2028 - The Hindu",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2028",
-  "horizon": "2028-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN0N5TXlRc2UxWEY4Nzg0bkt2bjVsUTlhZ0VfWXpCQnlnclRtM09kajhoMkxENnBHZWZGcHZSS1BENjJxOGVibDdmQTZMTEo5aHQ2a1dwMkNhOVUxa054X1daQzhETE5ieWwwUzFnenBGTktDeDJFcjdSYVd0d2pxVzdhSTVoSUZOU0FDWGtrTU9iNXp0cUFMNXY3cmEtMmUtRWNicExNaS0xZ9IBsAFBVV95cUxOMkxwR3JuWU11X29WNk1yY3kzSmtGZnZPQ3VVR3MycnNlNXVOaTYyQjlPeHRvVS1SM2FyRFRkNDVBMUVSbG1wU3pZcTFpVlB4S3VlWGhWR2hua0hJTE43cHFaNDhPeWtoOEV0NDctV1J5YjV1OUYtWC13d2l5emx3eHA1MnVFc1JkYUJFNVE0OF9SRTN0Szd1c1VxWmpfYXIxQXZQdUNjcXFEY3J2U1Z1eg?oc=5",
   "first_seen": "2026-10-16",
   "topics": [
    "production"
