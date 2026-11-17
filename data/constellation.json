@@ -4,24 +4,24 @@
   "by_launch_year": {
    "added": [
     11,
-    151,
-    558,
+    150,
+    557,
     1422,
     1784,
-    1853,
+    1852,
     3139,
     2270
    ],
    "caveat": "Current fleet grouped by the year each satellite launched. Satellites already deorbited are not in this data, so earlier years understate what was in orbit at the time.",
    "cumulative": [
     11,
-    162,
-    720,
-    2142,
-    3926,
-    5779,
-    8918,
-    11188
+    161,
+    718,
+    2140,
+    3924,
+    5776,
+    8915,
+    11185
    ],
    "years": [
     2019,
@@ -35,10 +35,10 @@
    ]
   },
   "group": "starlink",
-  "in_orbit": 11188,
+  "in_orbit": 11185,
   "shells": [
    {
-    "count": 4245,
+    "count": 4242,
     "shell": "~450 km / 53\u00b0"
    },
    {
@@ -50,11 +50,11 @@
     "shell": "~450 km / 97\u00b0"
    },
    {
-    "count": 505,
+    "count": 513,
     "shell": "~450 km / 70\u00b0"
    },
    {
-    "count": 487,
+    "count": 494,
     "shell": "~350 km / 53\u00b0"
    },
    {
@@ -62,15 +62,15 @@
     "shell": "~350 km / 43\u00b0"
    },
    {
-    "count": 195,
+    "count": 191,
     "shell": "~400 km / 53\u00b0"
    },
    {
-    "count": 175,
+    "count": 161,
     "shell": "~550 km / 70\u00b0"
    }
   ],
   "shells_caveat": "Altitude is derived from mean motion assuming a circular orbit, good to about +/-10 km, and grouped into 50 km bands. Counts are of the current fleet, not of any historical shell population."
  },
- "fetched_at": "2026-11-16T15:07:54.532935+00:00"
+ "fetched_at": "2026-11-17T10:20:23.431758+00:00"
 }

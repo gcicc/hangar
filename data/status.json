@@ -1,40 +1,40 @@
 {
  "constellation": {
-  "last_attempt": "2026-11-17T00:03:22.244392+00:00",
-  "last_error": "ReadTimeout: HTTPSConnectionPool(host='celestrak.org', port=443): Read timed out. (read timeout=60)",
+  "last_attempt": "2026-11-17T10:20:23.432118+00:00",
+  "last_error": null,
   "last_error_at": "2026-11-17T00:03:22.244408+00:00",
-  "last_success": "2026-11-16T15:07:54.533285+00:00"
+  "last_success": "2026-11-17T10:20:23.432124+00:00"
  },
  "financials": {
-  "last_attempt": "2026-11-17T00:03:23.282628+00:00",
+  "last_attempt": "2026-11-17T10:20:28.006128+00:00",
   "last_error": null,
-  "last_success": "2026-11-17T00:03:23.282635+00:00"
+  "last_success": "2026-11-17T10:20:28.006134+00:00"
  },
  "fleet": {
-  "last_attempt": "2026-11-17T00:03:22.754254+00:00",
-  "last_error": "HTTPError: 503 Server Error: Service Unavailable for url: https://celestrak.org/NORAD/elements/gp.php?GROUP=active&FORMAT=json",
+  "last_attempt": "2026-11-17T10:20:27.419345+00:00",
+  "last_error": null,
   "last_error_at": "2026-11-17T00:03:22.754308+00:00",
-  "last_success": "2026-11-09T23:59:33.716260+00:00"
+  "last_success": "2026-11-17T10:20:27.419353+00:00"
  },
  "launches": {
-  "last_attempt": "2026-11-17T00:02:21.984529+00:00",
+  "last_attempt": "2026-11-17T10:20:22.283964+00:00",
   "last_error": null,
   "last_error_at": "2026-11-09T15:31:05.360231+00:00",
-  "last_success": "2026-11-17T00:02:21.984537+00:00"
+  "last_success": "2026-11-17T10:20:22.283970+00:00"
  },
  "news": {
-  "last_attempt": "2026-11-17T00:02:01.561852+00:00",
+  "last_attempt": "2026-11-17T10:20:09.837420+00:00",
   "last_error": null,
-  "last_success": "2026-11-17T00:02:01.561858+00:00"
+  "last_success": "2026-11-17T10:20:09.837426+00:00"
  },
  "orbits": {
-  "last_attempt": "2026-11-17T00:03:22.503399+00:00",
-  "last_error": "HTTPError: 503 Server Error: Service Unavailable for url: https://celestrak.org/pub/satcat.csv",
+  "last_attempt": "2026-11-17T10:20:25.696138+00:00",
+  "last_error": null,
   "last_error_at": "2026-11-17T00:03:22.503414+00:00",
-  "last_success": "2026-11-09T23:59:29.925028+00:00"
+  "last_success": "2026-11-17T10:20:25.696148+00:00"
  },
  "sites": {
-  "last_attempt": "2026-11-17T00:03:23.913906+00:00",
+  "last_attempt": "2026-11-17T10:20:28.007392+00:00",
   "last_error": null,
   "last_success": "2026-11-17T00:03:23.913916+00:00"
  }
