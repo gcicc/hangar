@@ -179,22 +179,22 @@
     "top_provider": "SpaceX"
    },
    {
-    "count": 8,
-    "last_net": "2026-11-20T11:00:00Z",
-    "lat": 19.597275,
-    "location": "Wenchang Space Launch Site, People's Republic of China",
-    "lon": 110.930753,
-    "name": "Commercial LC-1",
+    "count": 9,
+    "last_net": "2026-11-21T03:50:00Z",
+    "lat": 38.8583,
+    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "lon": 111.5802,
+    "name": "Launch Complex 9A",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 8,
-    "last_net": "2026-10-23T10:15:00Z",
-    "lat": 38.8583,
-    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
-    "lon": 111.5802,
-    "name": "Launch Complex 9A",
+    "last_net": "2026-11-20T11:59:00Z",
+    "lat": 19.597275,
+    "location": "Wenchang Space Launch Site, People's Republic of China",
+    "lon": 110.930753,
+    "name": "Commercial LC-1",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
@@ -260,16 +260,6 @@
    },
    {
     "count": 5,
-    "last_net": "2026-12-31T00:00:00Z",
-    "lat": 5.256319,
-    "location": "Guiana Space Centre, French Guiana",
-    "lon": -52.786838,
-    "name": "Ariane Launch Area 4",
-    "spacex": false,
-    "top_provider": "Arianespace"
-   },
-   {
-    "count": 5,
     "last_net": "2026-08-10T12:02:00Z",
     "lat": 19.618452,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -327,6 +317,16 @@
     "name": "31/6",
     "spacex": false,
     "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
+   },
+   {
+    "count": 4,
+    "last_net": "2026-11-23T11:09:00Z",
+    "lat": 5.256319,
+    "location": "Guiana Space Centre, French Guiana",
+    "lon": -52.786838,
+    "name": "Ariane Launch Area 4",
+    "spacex": false,
+    "top_provider": "Arianespace"
    },
    {
     "count": 3,
@@ -739,7 +739,7 @@
    {
     "description": "15th test flight of the two-stage Starship launch vehicle and 4th flight of Starship V3. Second Starship flight to deploy satellites (a group of Starlink satellites known as Starlink Group 31-2) into stable Low Earth Orbit and first ever to attempt returning the Starship 2nd stage back to the launch site.\r\n\r\nThe ship is expected to fly at an altitude approximately 275 km above Earth and complete a",
     "id": "0f867f0c-5422-4d44-93b8-d7faaae7019b",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_42_dur_image_thumbnail_20261118092531.jpeg",
     "lat": 25.99677,
     "lon": -97.15799,
     "mission": "Starlink Group 31-2 (Starship Flight 15)",
@@ -2061,16 +2061,38 @@
     "mission": "SatNet LEO Group TBD?",
     "mission_type": "Communications",
     "name": "Long March 8A | SatNet LEO Group TBD?",
-    "net": "2026-11-20T11:00:00Z",
+    "net": "2026-11-20T11:59:00Z",
     "net_precision": "HR",
     "orbit": "LEO",
     "pad": "Commercial LC-1",
     "pad_location": "Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "rocket": "Long March 8A",
-    "status": "TBC",
-    "status_name": "To Be Confirmed",
+    "status": "Go",
+    "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/a2975167-7c6f-4403-99e1-b40df17c8140",
+    "webcast_live": false,
+    "webcasts": []
+   },
+   {
+    "description": "Details TBD.",
+    "id": "13270554-4bdb-42ae-916f-1bb54492204f",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-6c_on_the_la_image_thumbnail_20240507065153.jpeg",
+    "lat": 38.8583,
+    "lon": 111.5802,
+    "mission": "Unknown Payload",
+    "mission_type": "Unknown",
+    "name": "Long March 6C | Unknown Payload",
+    "net": "2026-11-21T03:50:00Z",
+    "net_precision": "HR",
+    "orbit": "N/A",
+    "pad": "Launch Complex 9A",
+    "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 6C",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/13270554-4bdb-42ae-916f-1bb54492204f",
     "webcast_live": false,
     "webcasts": []
    },
@@ -2122,7 +2144,13 @@
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/7bdc412b-c965-4517-a131-f57a01189803",
     "webcast_live": false,
-    "webcasts": []
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "CNES",
+      "url": "https://www.youtube.com/watch?v=F4xjWb4OEs4"
+     }
+    ]
    },
    {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
@@ -2448,30 +2476,8 @@
     "url": "https://nextspaceflight.com/launches/details/b5a9bccb-30d7-4af6-8ad1-fabb563be53c",
     "webcast_live": false,
     "webcasts": []
-   },
-   {
-    "description": "Second of EUMETSAT's second generation of Metop weather satellites.",
-    "id": "22e117bf-041c-49d5-9d09-7b180036e143",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg",
-    "lat": 5.256319,
-    "lon": -52.786838,
-    "mission": "Metop-SG B1",
-    "mission_type": "Earth Science",
-    "name": "Ariane 62 | Metop-SG B1",
-    "net": "2026-12-31T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "SSO",
-    "pad": "Ariane Launch Area 4",
-    "pad_location": "Guiana Space Centre, French Guiana",
-    "provider": "Arianespace",
-    "rocket": "Ariane 62",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/22e117bf-041c-49d5-9d09-7b180036e143",
-    "webcast_live": false,
-    "webcasts": []
    }
   ]
  },
- "fetched_at": "2026-11-18T03:22:34.558993+00:00"
+ "fetched_at": "2026-11-18T12:44:38.505888+00:00"
 }
