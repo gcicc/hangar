@@ -2033,7 +2033,7 @@
     "mission": "USSF-317",
     "mission_type": "Government/Top Secret",
     "name": "Falcon 9 Block 5 | USSF-317",
-    "net": "2026-11-19T03:00:00Z",
+    "net": "2026-11-20T02:46:00Z",
     "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
@@ -2111,15 +2111,15 @@
     "mission": "Amazon Leo (LE-04)",
     "mission_type": "Communications",
     "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
-    "net": "2026-11-23T00:00:00Z",
-    "net_precision": "DAY",
+    "net": "2026-11-23T11:09:00Z",
+    "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Ariane Launch Area 4",
     "pad_location": "Guiana Space Centre, French Guiana",
     "provider": "Arianespace",
     "rocket": "Ariane 64 Block 2",
-    "status": "TBD",
-    "status_name": "To Be Determined",
+    "status": "Go",
+    "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/7bdc412b-c965-4517-a131-f57a01189803",
     "webcast_live": false,
     "webcasts": []
@@ -2473,5 +2473,5 @@
    }
   ]
  },
- "fetched_at": "2026-11-17T10:20:22.281541+00:00"
+ "fetched_at": "2026-11-18T03:22:34.558993+00:00"
 }
