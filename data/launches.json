@@ -140,8 +140,8 @@
    "mission": "USSF-317",
    "mission_type": "Government/Top Secret",
    "name": "Falcon 9 Block 5 | USSF-317",
-   "net": "2026-11-20T02:46:00Z",
-   "net_precision": "MIN",
+   "net": "2026-11-20T04:32:55Z",
+   "net_precision": "SEC",
    "orbit": "LEO",
    "pad": "Space Launch Complex 4E",
    "pad_location": "Vandenberg SFB, CA, USA",
@@ -156,6 +156,16 @@
      "official": true,
      "publisher": "X",
      "url": "https://x.com/i/broadcasts/2lgkMvaRVPMdYR"
+    },
+    {
+     "official": false,
+     "publisher": "SPACE AFFAIRS",
+     "url": "https://www.youtube.com/watch?v=Zi7vbfr5FPI"
+    },
+    {
+     "official": false,
+     "publisher": "Spaceflight Now",
+     "url": "https://www.youtube.com/watch?v=fk84K7QVWgw"
     }
    ]
   },
@@ -2035,8 +2045,8 @@
     "mission": "USSF-317",
     "mission_type": "Government/Top Secret",
     "name": "Falcon 9 Block 5 | USSF-317",
-    "net": "2026-11-20T02:46:00Z",
-    "net_precision": "MIN",
+    "net": "2026-11-20T04:32:55Z",
+    "net_precision": "SEC",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
     "pad_location": "Vandenberg SFB, CA, USA",
@@ -2051,6 +2061,16 @@
       "official": true,
       "publisher": "X",
       "url": "https://x.com/i/broadcasts/2lgkMvaRVPMdYR"
+     },
+     {
+      "official": false,
+      "publisher": "SPACE AFFAIRS",
+      "url": "https://www.youtube.com/watch?v=Zi7vbfr5FPI"
+     },
+     {
+      "official": false,
+      "publisher": "Spaceflight Now",
+      "url": "https://www.youtube.com/watch?v=fk84K7QVWgw"
      }
     ]
    },
@@ -2328,7 +2348,13 @@
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/d74afbc7-0de5-491c-be05-4e9c31f736ac",
     "webcast_live": false,
-    "webcasts": []
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "NASA",
+      "url": "https://plus.nasa.gov/scheduled-video/nasas-northrop-grumman-commercial-resupply-services-25-launch/"
+     }
+    ]
    },
    {
     "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
@@ -2497,5 +2523,5 @@
    }
   ]
  },
- "fetched_at": "2026-11-19T02:57:57.636216+00:00"
+ "fetched_at": "2026-11-19T21:59:42.379236+00:00"
 }
