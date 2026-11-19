@@ -1,6 +1,6 @@
 {
  "data": {
-  "corpus_size": 1296,
+  "corpus_size": 1376,
   "labels": {
    "market": "Markets & Filings",
    "spacex": "SpaceX",
@@ -16,69 +16,99 @@
   "sections": {
    "market": [
     {
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdUdDUjdPYlNZRG1KR245Rjc2SEQtTlVuVnZUZk4ycHBXM3lqSFBfTmZBZW8tUDIxVWZpV0huNnZLNWdiOWlFczVieFA3bEN3Y25Db2NnajF2Rkp5OFcxTFJEZ01fckRnNFgwcUU1ZHUtMW83RWowdVlRdERCaV9td0Q4NDJNWlUwbVNBU241YW9RNmhyUGFMMGpzSk9LQWYxN3I2akNYSDNuV0VqVU5zNUVJZUlzLXdtQ2FGMA?oc=5",
-     "published": "2026-11-19T00:22:00+00:00",
-     "score": 10.207,
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMG50bUU0TUJ5YkxlS1FJTXY0d2hJVXdpdG1UTGRWci03SGVONmZwQldXdnZMRHlZZHVJTGpYc1VRX3RKRjVjOEpMQks2c1loRl95amFkT2g4VG9WejdIajZWc0NSbzZOUVBac0h6VzFMSUFYYTZlOXhqUlRJYi1uOVlFaFQ3dy1Ecmk3MktDVHFEV0hLMnRUUW02Zmgydw?oc=5",
+     "published": "2026-11-19T07:05:22+00:00",
+     "score": 9.318,
      "source": "SPCX",
-     "title": "Anthropic IPO (Live Updates): $81 Billion Raised\u2014Breaking SpaceX\u2019s Record - Forbes",
+     "title": "Anthropic raises $81.3B in IPO, surpasses SpaceX's record offering - YourStory.com",
      "topics": [
       "money"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPT0xMaGlnU0o1QThtcmtBZnVweTJWdjduc2g4UUhaX0ludFZUZ0Y3WUFxNWJUY3ZaZlJhMVlibmNpZ1Y4NFZ2RU43aThoY2JQVU9NcUh6XzVxMmRHN2xOM2VNSG5ISThqUVZ2bDJJVHpWc3hSNHpfTE1YLXZnZWgwMGNDYkU1bWZITXB6bG41T2Vpem54VHhERmNHRGJFS2RzZWlpaE9Hci0xeVBqeE5IRGpFZmo3VDNabDJ6OHB1T1EwQdIBxwFBVV95cUxPRlI4YlBaNzV3Qm1LTmVjX0lkamliNkFXeWp2OWNCZXV1dkVPZVE4UWlTcXZwem84SXpFNEd3RlZYQy1ZekNIbmp5N2dnNTB6REVDbERCNU1aRkFfU2xTbEhnN0NpVnlORzA1WU1lcFZRT0hUNWtIcEo2UWpDN25Vd2xPbXBHb2d0M043Mm8xVWRSMXVCQmVjQ1NFZG8wUTFxcGtKUHZsWVE2Nk0xRENkTjVYWGJDaXFKaGlfUmJpWVNSZFpOemQ0?oc=5",
-     "published": "2026-11-19T01:28:05+00:00",
-     "score": 7.668,
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZVF1YktydDkxRWk0RDRQZmtwTXY4SF9qR0oyNWVDbmdlaW1LaGZaTFBUUy0yRkkxQThkcXV2cXctcDI3SXNMcWhuOC1uMnd2RXhtS1Nkbm5jOVZCZ05nY21yRG5XanExQUYyTUZRVXF0dDIzTm4zUjBzMEQ2RHRicXRwV09xemt1UWp5c2VQRnJsZnBIemVpbXpzQ243bXNKREFidGhR?oc=5",
+     "published": "2026-11-19T12:07:00+00:00",
+     "score": 7.894,
      "source": "SPCX",
-     "title": "Anthropic IPO raises over $81 billion in largest offering ever, tops SpaceX - India Today",
+     "title": "Anthropic raises $81.3 billion in record-breaking IPO, surpasses SpaceX - Adgully",
      "topics": [
       "money"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNXJlVVpULVNsb0NPVnpPYTc3aWF5VGZwUVlGRlRKZEFka1NRaE45RERfLWFYejdNaDFYVW16ZzZnOGpRYzdnc1paS0dKeG1xaWJ3bHEwRlVzc2F6NGE0VDFWNEx4b3AteDBPWFFSblNzWUViT1Y2UlNETldPMm54ZmNaaW1xSmFmTF9MYXFIZU1IWVFaVmc?oc=5",
-     "published": "2026-11-19T01:02:00+00:00",
-     "score": 7.571,
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYzdVLWd0bU5KYlV2OG5DYXNoT0Y0OC1ydko2RTZSSWJuenBJbGVSYUhjOUh4dFhUckJCX3BHSV9sQVIzc3phbjFJM3V5LW9uazBycWpmMnBrMnFYMGU0a2ZnVGVuUDBzSlpjSjYxeTlNRlJFR3ByblRrNVJOTlFGSDM1LWswZ3ZvNm9kVmRUeE1QVURlR2xpSw?oc=5",
+     "published": "2026-11-19T09:36:47+00:00",
+     "score": 7.337,
      "source": "SPCX",
-     "title": "Hot demand lifts Anthropic IPO price to $83 a share, breaks SpaceX's record raise - Yahoo Finance",
+     "title": "Anthropic breaks SpaceX IPO record with $81.3bn raise - Silicon Republic",
      "topics": [
       "money"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd0xXeGtIQmdhN0RZMDNTS1VVNDFURENLdUljRDg1Zi13SWFad1BfTDNDWFF3cUJwV2tScS1xaGQtNk5fdHYtc3ZxNEs2Ymw3YUVhZDFtUWQySDVreEZGODRDckp4M3djOU5DTHVpeldkSnhHcjFVeElkMElnRThPQXNyZnpQMU92VWdraXhDS0N2Z1JZOXVlTHEyV045dmY3cXVjbnVGTzNHNGJrQkZ3UHdVa2hQellmaTkw?oc=5",
-     "published": "2026-11-19T00:55:42+00:00",
-     "score": 7.548,
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVEJHTjEwV0ktYjNJZkV4a2FOZVFESndWRTJOa1lRX19GSVIzVVE1T0xqVGpGNFFzVHVXT0Nubl92SlhkclNkNjNmQjBZUExySk4wVnVnQVpzWEdjcmRUT0pfZU41TU8yVy1aSHAxeHdzeDFjd0tJblhidWRGYUNzQlBuVjNfN1ZPYzVYVGswa2ZaSjRSRlV6bzZOWlpsU1nSAaQBQVVfeXFMTVN4OVJqZV9KLW8yakZLakhuajdmdWROMDRHRDZOUWNqQnhua1BIaVhSc0VLTWZWUTNZUWNxMFpCTlNPemV3aHYwbWllTTNsMmxScjdMUjN4cmc3aDNRRGxaZ3hDVlpyVzJrakc3T0tqaVNkbFZqTW1XYlo4T0xzUUpfcURTRFROd0R0VHJhZGV1M0lNMF9vaXVtcUI5R0ZoOHVQRGY?oc=5",
+     "published": "2026-11-19T09:23:26+00:00",
+     "score": 7.288,
      "source": "SPCX",
-     "title": "Anthropic raises US$79.4bil in IPO, topping SpaceX record - Free Malaysia Today",
+     "title": "Anthropic raises $81B in record IPO, eclipsing SpaceX debut | Daily Sabah - Daily Sabah",
      "topics": [
       "money"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5fN2ZOWVZ6YkV0emdTaWU3MGlkTzhwcFNGRl9pYXN2d2kwcnRoZW9HS0luWlp4clhWSXk3eExTeEljd1N4SklrZ3lTVkdRUzRCZE9sUFpOaDFyYTNYa19kTHNZSzVKaEV0RXl5YmJwQk9NRnRxR08w0gF8QVVfeXFMTlZsNHk0MjhxNTE4MVdnY1M5clBUYkJkX1ZONlRRZExmbF9LeU5JN3JSWk83Zkc1QUVUNlZCRDVFeExRQW1ZUUlWeVE0NVVvVGJ1MEtUYWFhSVNXX2I5bGlfb0lCSzlkaExmeXNnSVpFLTdpU0ozN0VpTmdXNA?oc=5",
-     "published": "2026-11-18T15:15:54+00:00",
-     "score": 7.426,
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTHNLNmkzNmpWRUtpc20xeGFXbTdybXNrbUJPN0Q0RERBMXJqbThZaWV6bzA3cHlsOVNPNEl0VkIwY2w0ZEVHWE8xTVV0RDlENXZIQUtob185ZDF0S1VPRloyLXRUTDFQYWl1ODc4aWVNYW5yZU83RnBrOTR2WVlpUkV5dEhTQ3dv?oc=5",
+     "published": "2026-11-19T07:30:00+00:00",
+     "score": 6.868,
      "source": "SPCX",
-     "title": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX - CNBC",
+     "title": "Anthropic IPO raises $107.3 billion to top SpaceX\u2019s record debut - The Japan Times",
      "topics": [
       "money"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQTjdzS3pJZFFaQ2xhbUtmNWhXckJTV0MwaTZKajNrYTZIenUtVlBBck5GNHRxSEc0LTE5RUJWY3NUQlJLc3o2ejFHaVdlampORWFZbFlrOUxucG5lM2NtY1VBR245WU5lVjFsaGRaRndRZVNWajhmejAxajlNcHJ5a2hYay1sVGwwRFN1ck1BS215TmozQWRMX0ZMdF9odGIyWi11cUpDRzk2ZWlSWkQ0Q0lCRU1JN1o3LW1yejdTenlvMC1yeEx1WXhR?oc=5",
-     "published": "2026-11-18T23:59:00+00:00",
-     "score": 7.338,
+     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJT2JwczViWGtHT2I5MXNWQl9NNjlCNnd1MUh1eUt0eDhKcEFiZk44VFJfZS1wUmdqLWt0X09KYnB5czJMZzhaU2wyX0xMY1ZVa0VYOW91a0RDX3BSdG9jc1pwR2xsSW54MkpaVWlQMVRmQdIBd0FVX3lxTFA2WEt2R19QYzE1c1RmM19mdjBOcTl1WTVHRVJzOWFiRWNHanQwbEx2XzlicEp6WS1rcmRwV0E3NW0zdVU3ODZsSmRyektONXZJWVhnYi1lazVJbmZhMkFkcDZDc2tpYi1ja1RoQWNEYzA0VFYwcFFZ?oc=5",
+     "published": "2026-11-19T07:19:00+00:00",
+     "score": 6.827,
      "source": "SPCX",
-     "title": "Anthropic IPO raises US$107.3 billion to top SpaceX\u2019s record debut - The Business Times",
+     "title": "Anthropic Breaks SpaceX's Record with the Largest IPO in History - Mezha",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQR3M4SU16YXYwTFBOZ09LVG1WZ3pmenA2S3c0TWpRbVV6ajZ6UjFyMk9UeFZnZlZZSk5uLTFDeFlORGZqUWZkTC1lN2hfVEFKMUdoVjJWQnFCSXhBM19veW1hTDc3YmtBUXhkcHpGamV1Smh6TExaT1NGRFhkTTh3blUtd3AycUhsZ05sN2hkWW9QNzVtT3JEeE9DRi1tUzdvUlE?oc=5",
+     "published": "2026-11-19T05:24:00+00:00",
+     "score": 6.401,
+     "source": "SPCX",
+     "title": "Anthropic\u2019s USD 81 billion IPO surpasses SpaceX\u2019s record fundraising - Connected to India",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPRHAzRWpGX1dhWS1HSW8yaTFCaDI1ZXN5TXkxZ1RHOWs4bXRhR0hjd2NhZHc4bzk1ODFyU2xYMURXTGdSekdjTTJpazlkcVI3UUR6X2pBRGRmc0V5UUNBaXRRT0xsSkxkM29aM2lCYzhTbkFEdHY3TUlEZUdLRXI3cHhKaVRkUXM?oc=5",
+     "published": "2026-11-19T05:16:32+00:00",
+     "score": 6.373,
+     "source": "SPCX",
+     "title": "Watch Anthropic IPO Raises $107.3B to Top SpaceX's Record Debut - Bloomberg",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZHg1LUVqMkI5MGxfLTNxWGpobDdsUDl5MVRJTC1NVV9tYm5ZN2h6RVZILVJkLUFzT1BJRk1KYjh6b1hDMHVmekNMVWxjbk9iOTBPNTFMR1lzOEk3YzZVbURuOGRDMThzQ05UNk9TbFhYUUVlQ082YXNlWE44UHNRekE0RDdaZ1NxdDF1SExFV2dObXFSdTRYV29RX2ZQbFgwZzZSdGRHRUlhUFBFTnVJWlJFbFdNNF9FX3hjeVdNTWRSSGhnaDV1ZllRUVRXYVFZOFE2MjZXZml6d9IB5wFBVV95cUxQZ0VuMHpwQm82cXRTUWpJQ2kySUlYOUxEcXVuLU1vVWpGcGIzY094REdBazBfRk1yVlNWSVY2U2hNbFB1ckktQVFCR3hudzZ3eGQxZ0VadG1EMC1NWFo4QjZSdHVqMkV3QU5ZRjlIMVlsR0JKWWI1UW4yWUxPdmw2NzE5Tk10am9SN1otaXRVT2NLa092VjJacEZLOGVEU3N1dmRpdUp6S3k0ZjRoX0dIbGpjM08wVzl3eG0yTkhOdDZCdXpUYzl0bV93T3BMMjc3SDkzSk4ydF9nSGl2S2NtRDZ5RnQ5V0k?oc=5",
+     "published": "2026-11-19T04:25:09+00:00",
+     "score": 6.183,
+     "source": "SPCX",
+     "title": "Anthropic beats SpaceX IPO record with $81 bn share sale; valued at $1.5 trn ahead of Nasdaq debut - Fortune India",
      "topics": [
       "money"
      ]
     },
     {
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOejRaSDBPRHZWSExQYk9aNmZoal9UTDBDQWZxUF9HeDg3UE9MTU9uSl9QcS1CSkljVEs4dEJKU0NYeDFRX3hSa0lENXBZMHF1cFZNR0NVT3U1aWZEUnhienRobWpsV3ZMMTVSX3BTVVBXanBkZGJRSTF3MEVWaVVUc2pORWhsbWstMXI0d0VrYmItbmJiQUhaQ1RKV1g4QQ?oc=5",
-     "published": "2026-11-18T23:25:11+00:00",
-     "score": 7.213,
+     "published": "2026-11-19T03:01:22+00:00",
+     "score": 5.873,
      "source": "SPCX",
      "title": "Anthropic Achieves Record $81 Billion IPO, Surpassing SpaceX - Global Banking & Finance Review",
      "topics": [
@@ -86,51 +116,21 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRTZza1FIRTF3NE5xV3JHZW5ROTRIaXg2RzVKZEppTGpHTXFhcGxkdTB2U3ZEcU9mN01jUTNud01DdXlOY2U1UWMzU1ZXOVFuLUNER1RsOWgtUEttLXFrajh5aUlNMWhBMUZMSkdqeWRUeURPaVBneXVjb0VOd0J4TXc5VXJSbXJ1SC01Z3AzNUNQbGUzRmM4U050M29wZW8?oc=5",
-     "published": "2026-11-18T22:20:00+00:00",
-     "score": 6.971,
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NOXVXSWptc1ZiUUw3c0J5U0FudDZxbElreW9sZ1FXZkg1QVdmYkw0VDkzUk02UGlWQmUzTlhSUlBSU3NjdndyUkxINmpJVVpwYS1maXRuSUt3aVc3eVgyS1BFdG5WSnJDc1F6ZlM1ZF9MSzhFZE5IbVhfcGFxUU0?oc=5",
+     "published": "2026-11-19T11:57:00+00:00",
+     "score": 4.91,
      "source": "SPCX",
-     "title": "Anthropic IPO raises US$81.3 billion to top SpaceX\u2019s record debut - The Straits Times",
+     "title": "SpaceX Stock Is Up. Anthropic\u2019s IPO Answers a Key Question. - Barron's",
      "topics": [
       "money"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxON2Q5ZGtyeDhkR1NHZnNZNnVHMzZZQXFWVEh2dHpzSkxjZ2R0SXh4SDNfMUFFVTN3VTZfWXE5eXBlNUozbjZtXzR6NFJ1ekNjZnVxdzFpQVZKOTdGQ0wyOTVja0NKRDlOeXR1MUx2RUVueXRjSUYyal93R0E2dkJnZDdXei1Nb2xIeDRzUTFIWEtUV1lCcTZTRU9udHNHVkMzY0kwdFA0NkRGRkljQ0RFZklhWQ?oc=5",
-     "published": "2026-11-18T18:12:22+00:00",
-     "score": 6.054,
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9QVUJlTnlJTnlvWDF4b3dTSi1NbzZoS3g5SVV6TU9zQmZjLVVnU1hCbjlqZmNYbnY4S2hYc0VYSGxPdGE5T1hOVkZwcFZ4VURRVlR6OHVRYkg?oc=5",
+     "published": "2026-11-19T11:47:33+00:00",
+     "score": 4.889,
      "source": "SPCX",
-     "title": "Anthropic\u2019s IPO by the Numbers: Taking on SpaceX\u2019s Record Debut - Bloomberg.com",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSXNiU0VBa1o5VkNfN09kcjhsd1NMNy15eTNCZFg3RXZiSklVSzI0eXdndFdHSlFJOHdHa2szcmZid2RNR2g5cnZ1a2dMemtVeHFUaUo2RzVZVGNfaXhmbnJ3SlFRcERLNjllWWRQdTVOOWYwaFIxRFQ2V3BZX2lnbTctdnkwZ1AwSVZ3U3dWRGNnZjZXaWNCM2F0Z2pMNlNpZEVUVjhXS0g3eE5YMlpXaGwyQUdGa3llMHctVWZhU0hCNnZfRE5LT09tSG4?oc=5",
-     "published": "2026-11-18T11:16:03+00:00",
-     "score": 5.076,
-     "source": "SPCX",
-     "title": "SpaceX Makes Massive $40 Billion AI Bet as Nvidia Reports Record Earnings - TradingView",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRUt1NVlyTEt6NW1vOVJRcVVPSjFsUzRuNXpjSnFkdW9lbWtLTHdud0dkQ25aRW1xTDdfbDNHYWdFRUNzWHZUbDhSSXMtMGJ2X28zNGFJdE9qLUNYZnA4TE9uTWFUWTRKVGRWQ25ZeUprQ25SN2NvdHFqeVZsSDR5VjVfaTlidy1TN0l3ZkxZVnk?oc=5",
-     "published": "2026-11-18T13:45:00+00:00",
-     "score": 5.064,
-     "source": "SPCX",
-     "title": "Anthropic Will Pay SpaceX Up to $120.5 Billion for Compute Through 2029. That's More Than SpaceX Raised in the Biggest IPO in History. - The Motley Fool",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWkpNRndkMXM3cGljYXpQajNVR2Q2N0lRMUplLTZwUVpyQWxqbmhEVWM5RlV3ZUQ3dEdVN214S2JLR0lfVkZ2YTE3TTZET0FIMFhYbHp4UjNMRGVXa0I5TUJ1RW5jWjNGWkZ1ZDVUbTNFNnJXa0Vra1JSaThrdnZuQ3lmYkt5bHZ4V1pVa04tX0NoUjhid2c2MkRIVDE2bUpFVU5VdlhFM3JqYkMxSUVxd2Y3Tlpvb0dic0daM09FTEdyak5BUDVMTEpMSnQ0RmFOSlFHWHk3NHJzaXA1ZHc?oc=5",
-     "published": "2026-11-19T02:35:00+00:00",
-     "score": 4.947,
-     "source": "SPCX",
-     "title": "SpaceX\u2019s December Lock-Up Frees Another 17% of Its Shares. Here\u2019s What October\u2019s Unlock Did to the Stock. - The Motley Fool",
+     "title": "Anthropic\u2019s $107 billion sale set to top SpaceX\u2019s IPO as tokenized stocks gain traction - Cryptonews.net",
      "topics": [
       "money"
      ]
@@ -138,9 +138,41 @@
    ],
    "spacex": [
     {
+     "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxNa21tUFJWWkw0aUg3NkVaM2ViX2dXLS1SVlJmdUpEbFBDU254YlE2akhXd096V1pZZHY4djVuWldjU1ppM1NVRjJpbE52ZTZ2TlAxb3RoUU5uQ2J3NUVjWUtsRy16Zkk0dUJGdDBjZGFKLWNyR0E2VHpDQVUzN2cxaHNrQm1fMk5VTjJwVVZyeGFaRUVHRFlDczlqZGNBeEo2QXJYYk9TS3Jsa3JueGVPZTJDNWh1MzlucXlkUDRYVzJSSjk3akxkckhIei0zSDh0SU50NDE4cm9kaDJTZFZCSHVEeHJVVzE1aHJHTzlIaXN6UmllRnhlTUNDejNKeHAtMGNkMnRCc1NPMWd1ZHl5cTJ5MHVhaEItV2U4N2lYQzJuMUhzaS1UQXpaSUQyVThR?oc=5",
+     "published": "2026-11-19T11:00:00+00:00",
+     "score": 5.735,
+     "source": "Starship",
+     "title": "With Florida waiting in wings, SpaceX launches Starship again, but aborts booster catch - chronicleonline.com",
+     "topics": [
+      "starship",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOZ0FkN3NhVFg5cGxBa25Dekkxb3U1Mm93dGJlXzVmRXQyRDA1LXVoejRoUENfQU9CNlhrTnozSFVjMzYxYmlXMjdmTUNlQUZEVkRlQVBvRk1PNXVIbGZmSDVvV1RLYlNndzVKeUZLd1I5VW1JV2pxSHNxdnJUQ2ZTZm1FYnBOa0pzXzlGc1JmUExrVVJfVzJxYi1UUQ?oc=5",
+     "published": "2026-11-19T07:04:00+00:00",
+     "score": 5.079,
+     "source": "Falcon",
+     "title": "RKLB Stock Rises Overnight: Jim Cramer Likes SpaceX But Calls Rocket Lab \u2018Too Cheap\u2019 \u2014 Electron Tops Falcon 9 In 100 Launches - Yahoo Finance",
+     "topics": [
+      "launch",
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mX3lxRmp0Z3FxMHQyOXBWOWRtY3hKaFI3WEtIUUtaQUZpeVJKRmlSUU1LVmtXUXlLM1hRdDd1YmJybVJBeVZrVjZVQUVXRlFzLTFsNFlTRlJPbGVlcjdzc1h2Uk1mdVk?oc=5",
+     "published": "2026-11-19T03:03:30+00:00",
+     "score": 4.411,
+     "source": "SpaceX",
+     "title": "SpaceX - Launches - SpaceX",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQN1BxWnp5WFpyN1UwTXhIbE9vZ19OUWxweWt4ZlVZQy1obExQVnFNblV3ZVJrano3TlBIbVBUZXBMTlp4UkxzTU40bVM0Z054eF9CdVZWcWFHVktqYXNRc1ZBOEVJaW5fQy04OUhBS01TSWFLYXZRLVB4eHMxcjlzeGNrV1RKR19CdWEwRTBwRXloM1ZKUTdxWkYydjQ0Zw?oc=5",
      "published": "2026-11-18T17:06:26+00:00",
-     "score": 4.358,
+     "score": 2.752,
      "source": "Starlink",
      "title": "Tesla Confirms Cybercab Launch in Dallas With Starlink Onboard - BASENOR - Tesla Accessories",
      "topics": [
@@ -150,34 +182,13 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mX3lxRmp0Z3FxMHQyOXBWOWRtY3hKaFI3WEtIUUtaQUZpeVJKRmlSUU1LVmtXUXlLM1hRdDd1YmJybVJBeVZrVjZVQUVXRlFzLTFsNFlTRlJPbGVlcjdzc1h2Uk1mdVk?oc=5",
-     "published": "2026-11-18T16:21:25+00:00",
-     "score": 4.233,
-     "source": "SpaceX",
-     "title": "SpaceX - Launches - SpaceX",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOaFY3X2J3cGFLNm9uWUpiT0hOU2t1OUp2Q1JGYWFMZmhweUpHTlQ2V2dLTUx0OER5TkJqX0o5enpHQUVzbTNKckxTSVlVRFEzbGRlMXZXRTREMVNCMlYwcGo3b25EdDhqZzRHZmZ1OFQ4eFBkeDlUYjY1WVdxMzNGX3laeWRWOEdmcjV1aHdXOTJnR3ctQ0RtbDNvbWhsMHg0NHVFajZZNGtrVFN5T0NwNEhiSQ?oc=5",
      "published": "2026-11-18T19:29:46+00:00",
-     "score": 3.171,
+     "score": 2.1,
      "source": "Starlink",
      "title": "Starlink Is Gaining 4 US Subscribers for Every One It Loses, Research Finds - PCMag UK",
      "topics": [
       "starlink"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQVHhzTFZkaFpNX1A3cmpaZE42bEEzaFhNY3FxcHNMQVhFMXJ1R0x5OVBSbXFNek1Tb281WWN3VFdhNHhBNkg1RkNObE1mQWJxUDNtLU1YUzRyYS1lU2dQUGl2ZXlGMkRQTHNXT3N6Zlc3ZFB3MzZ0MGltRDZwNEx3SnVQZmFZN0ZNLUtGZXZ6U3lyVm44NFNMSkZoZmhCb3JSbGRCM3pKYlBvd3JHUHlwZThOdnEwYm1kUHVqUkstaw?oc=5",
-     "published": "2026-11-18T06:00:00+00:00",
-     "score": 2.507,
-     "source": "Starship",
-     "title": "APTOPIX SpaceX Starship Launch - Bluefield Daily Telegraph",
-     "topics": [
-      "starship",
-      "launch"
      ]
     },
     {
@@ -192,13 +203,21 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQaU1LeHdaTTNMU1VGWkExanQ4U2hZb3BpT1JuQVExakE2ZVJ0U2d2aWRydFlpMWtGZ0dncnhGM0NsSmd4WWU0RWxXUV9BY1Q4S0dpbks0cDJtWlYtdHlMbFpRLVV3QUtCY3BaS3E1RjRuRmt6d2RHY1Rsei1VSzhnVlN0Sk5qRFozYXJJZjZPcjNUemkxTTdjVzRhYk9fU3R4SU1id3RHTWJ2UlljUUo1c0VFZWxEWTE5a202SWN1VlI1QW5XZkxEN2pWUDhZZmdIaXc?oc=5",
-     "published": "2026-11-18T23:30:17+00:00",
-     "score": 0.904,
-     "source": "Starlink",
-     "title": "Indian billionaire Mukesh Ambani's Reliance seeks partners for 1,600-satellite Starlink rival - Billionaires.Africa",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQUd1UUFIdENERkdTbDRGUG9ZQlYtTnhCRkswY0pQa2NsTGRmWU5tZzBnaG92TEU1RjNiRy03dHRvQjZGQ2pWUjFuTmttcEhIUGkzVHRPZ2tjSXlpRlJRWDFnNUswbjUtZDA3dElxX1pOWGgzZG1TRXNYcHNlMmRoUDQ5VmQ3UQ?oc=5",
+     "published": "2026-11-18T14:15:00+00:00",
+     "score": 1.138,
+     "source": "Falcon",
+     "title": "NASA, SpaceX Delay Dragon Spacecraft Return Over Bad Weather - Brand Icon Image",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWUlxZ1FteVdacGZDSUhNYVYwVFlEMUNyR0pqREYzSzMyYkNNZUhhVjl0M1A0WTVzMUlFSVhVeHNSRGx5YlBJazczUjZmMy1KTUFyYlYzNEd2bmt1T2R3cWZCSnRuUDI4MGoyQzhaSVJXcUY5WjJ0Y0ppdjZlSnlzVjg0WmlCZkFzMU81bGlwLTlCNlgtUUJnTS1NOVh6ZlRCMFBFSnRTSVpWSW56SG9mTXVGSQ?oc=5",
+     "published": "2026-11-19T09:25:13+00:00",
+     "score": 0.912,
+     "source": "Starship",
+     "title": "SpaceX will likely put Starship\u2019s 'historic' Flight 15 upper stage on public display, says Elon Musk - Starlust.org",
      "topics": [
-      "starlink"
+      "starship"
      ]
     },
     {
@@ -308,35 +327,23 @@
       "starship",
       "launch"
      ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE00RGF4Nm1RZFEybElnbzlsOGNacnZiN2VFX2R4dHMzbG5ENWR4NFVKT2pMSnllMTQ1M1VSYWlmUkU2SUhuNlVkLVJHMW4?oc=5",
-     "published": "2026-11-15T20:53:30+00:00",
-     "score": 0.9,
-     "source": "Starship",
-     "title": "SpaceX Starship caught by launch pad arms - ABC News - Breaking News, Latest News and Videos",
-     "topics": [
-      "starship",
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVms5RU1feU9qbTBsamJ1MjZ6eExLeHBRY0tiRERJZGtGLWVKWFZ5b29EeXVReGFjR3J5cmEtMnhyQ3pqamVjRjhSenkxTlBfNnFJZU14REkxYTZ2X2VOLVhmR1ZLUnJwYzc0ZFZ4TzlTR3p4ejVpVmw0cUJCcHlVMlB1dFFLZGJhX09acjhmSGR6WnF5SDVoLVdhN2JvaEwwU0VKOXV3RnB4d28?oc=5",
-     "published": "2026-11-15T10:05:49+00:00",
-     "score": 0.9,
-     "source": "Starship",
-     "title": "Video. Watch: SpaceX catches Starship in midair on return to launch tower - Euronews.com",
-     "topics": [
-      "starship",
-      "launch"
-     ]
     }
    ],
    "tesla": [
     {
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOXB5UUlyTEFqRUl3TmxiN2tZMUw4X0Rlbi1fWlRhUDRCTkk5ZVdUOVVWN0VkbVB2eTJvd1Y0djlRVVVQT3g4Nl9qVjhSSVlsTFhISVV2R3dnRFdVcnhkQjgxNTh4YmpWMHBLWHNKT2k1YlMzMjE5Y0syOGt0V01nS2ZxWk4ycjBUY2NoV2hFM1Zjcjg0a0dyRmQta282elh6MTdPNzhJOUp5QVMyQi1YMUlZdV8yTDBUUDhOSk9uVQ?oc=5",
+     "published": "2026-11-19T11:51:46+00:00",
+     "score": 3.919,
+     "source": "Production",
+     "title": "Tesla to continue increasing China production, state media reports - Investing.com",
+     "topics": [
+      "production"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1vaHVWOXpUN3IyNG5zZU1rN2owNTNhd3I0aEhLaGtfSFBKVTlqekNMdV94SnQ4VFVJbjBEWXBDd1Y0M0dvVHczaF9Jb0V3QUI0dk8xTEtqMEo4R2o5cUFUa0JMSDBCcnJJenFGX2hR?oc=5",
      "published": "2026-11-18T23:00:52+00:00",
-     "score": 5.342,
+     "score": 3.737,
      "source": "Autonomy",
      "title": "Tesla Drops Hint at Imminent Cybercab Launch in Dallas - Drive Tesla Canada",
      "topics": [
@@ -344,9 +351,81 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYjJzT3AwNEFHenVfRXNFR3FlSkFfMVR1MjBwbUxqUDRsU0ItRkhWc3VZS2hTd2tJWWctVUVKNldYVnQwRHFlcVBsaTk5RnlScHpjXzBXQ3BFY2VsNDNKeUhmSWpSXzVBTll5YlRUMUJyckN2dnptVTlTTzZtdENCU25UWEZHaF9rQTI2dEJUU2JyS09VRGlpWGJlWVk4M3F2Nkg0VWlJbW9FVTg?oc=5",
+     "published": "2026-11-19T09:54:42+00:00",
+     "score": 3.702,
+     "source": "Production",
+     "title": "Tesla to Continue Boosting Production at China Factory - marketscreener.com",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE92WlIySW42XzFMTjJ1bU9NNGtnWDhQRkIyc1FmWFFxelRQQmNVZlNKNmFGSU92aThLYWw5bG8xdzdBQzQ1N0ZLZEFLTmwtcXB1dmZSZkRtWktfaTZVb3FMTUhGZjF4QVNGUkROU1RNV0tNZTRySjg5RDRrSTdWU1E?oc=5",
+     "published": "2026-11-19T09:25:38+00:00",
+     "score": 3.648,
+     "source": "Production",
+     "title": "Musk intends to increase production at Tesla\u2019s Shanghai factory - Mezha.net",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nOXVuUzduQzd4QzdWVG5mTEsxd3hQUGd3VkVzbjZFRHVyVE9xQjRnMmhLNjVjRmFfUzNVRnBJSzR3MEQyYjZaRVpyWHRQTWs4TFlKRTFqS3BxQTl3dlF4TnNaR0tPcVpxaUJKWE5R0gFmQVVfeXFMTlBaOU5uTzlXMzYxT2wzOG4zaHZWQ0MxdlhXa2ZiX2s0ZGV2MzJaNW5YOUtlV3ZYU3hmM3hWRXJfNzZLcDRZQlluOExuc0NMTE02eDRBY0RwYWxrb3ZLU0pSbmJ0WHlB?oc=5",
+     "published": "2026-11-19T08:10:18+00:00",
+     "score": 3.509,
+     "source": "Autonomy",
+     "title": "\"Do We Really Need Driver's Licenses Now?\" Riding in Tesla's Cybercab Firsthand | Omokgyo Electronic Market - SBS \ub274\uc2a4",
+     "topics": [
+      "autonomy"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbTJ5Vm9LSzVVbmFRY1ZOdDlLQmZRV0JXcFpMSjZrbDBtNTRBZzYxRmRKbFd2Qk13ZG8tWVJUN042TmdrNy1ZSjZxMlJZX3hzeGt0M0poT18zWVlSdjYwNUlzUVU0S0pMNldiSUUteWp6ZTZQcVF0LW1EbkJLZU15dzJJR1lCdzRLOHd4MVRUaV9NUVpWV3oyZ1pBVVFJcFRwcGtjUWNjbkk5VUwydmtmM0NRZEZ2VGVHRE5TNVMxZWxhUG51MnRjZnlLTQ?oc=5",
+     "published": "2026-11-19T07:59:37+00:00",
+     "score": 3.489,
+     "source": "Production",
+     "title": "Elon Musk says Tesla will boost production at Shanghai factory, calls himself a China superfan - Seeking Alpha",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSXd0ZzJwSTN3czJwZ1dZM3paVjZpOUZSdTI1U3RJelJySXE1Z210TjhMdnN2NTNtNDZCZjBLODU1Qy1ib1pacUpTaG9rMkxVZkI5U29Jc3Z5ZHJiNW05eWs3dmJVWlVoemFaRlJ2Z092SklQaG1ZZ2tGejdpSUNKUENVd24zODA?oc=5",
+     "published": "2026-11-19T05:43:58+00:00",
+     "score": 3.238,
+     "source": "Production",
+     "title": "Musk pledges to boost Tesla production in China - TechNode",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOR1FyWjdBcEdJTDZUblJoSUNIbjB3TmFhT1dQWHMzOE5TendfTUI5MkxJNFFpbXk2T19MNDdXTVVkZUxGWWxjNGtvbVVxZWlBU2UyNjhqazdBTjFCWTE5TkR1VVFfdWhiRUlZc1pvVGhjQW0ya09tRUdoOE9zc1FpMjlyeE92QQ?oc=5",
+     "published": "2026-11-19T04:15:48+00:00",
+     "score": 3.074,
+     "source": "Autonomy",
+     "title": "Tesla Cybercab factory plan targets 2029 production - NeoTeo",
+     "topics": [
+      "autonomy",
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNURiT1RBR3NjM05mMUVBYlFlRnBYUDZMaVNCMGFMNm1oWW54S1hxcUNyRV9NVjQwTlZ5M1dkOXk2ZjA0ZDVsR0tRbjhiUTdDcWl0a2FMYXJUdTM1Y1p3NThELVZSOWNSZ0xyUU9Sd0Jua0Z5YWhWTlhOUmp3cjhhWGplSXJ1QnUzdmI1WXlQcTlNS1ZRNWZiT3NVRng1YWNZU3NmeTBZWEZUTTBOSVpn?oc=5",
+     "published": "2026-11-19T03:19:18+00:00",
+     "score": 2.97,
+     "source": "Autonomy",
+     "title": "Tesla Cybertruck to be discontinued in favor of more Cybercab production - The Daily Texan",
+     "topics": [
+      "autonomy",
+      "production"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOR002VW5YM1BlT3hsM2dwSHRsRWNZLXQtV2pzZi1ZTVRtQmN6YXZYMFBROWtEUlpja1RfMlRMTlNoNF92czFGbV92RUNTQ2Z2SDNESlprS0phQUtsWG1fQWttWVZEb1pOSFNOQWNoTGFXbXAtVXRoZ3dkRzJSODZBWkgtcElNSkFpRU5pTE51NjdRWXk4OXhsTGpaenRYcVFuckNmYw?oc=5",
      "published": "2026-11-18T17:36:55+00:00",
-     "score": 4.442,
+     "score": 2.837,
      "source": "Autonomy",
      "title": "Elon Musk Calls Out YouTuber Who Challenged Tesla\u2019s Cybercab Launch After 2024 Bet: \u2018He\u2019s a Chicken\u2019 - Yahoo Autos",
      "topics": [
@@ -356,7 +435,7 @@
     {
      "link": "https://www.teslarati.com/tesla-gears-up-cybercab-starlink-for-public-debut-notable-changes/",
      "published": "2026-11-18T16:30:43+00:00",
-     "score": 4.259,
+     "score": 2.653,
      "source": "Teslarati",
      "title": "Tesla gears up Cybercab with Starlink for public debut, but with notable changes",
      "topics": [
@@ -366,20 +445,9 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNURiT1RBR3NjM05mMUVBYlFlRnBYUDZMaVNCMGFMNm1oWW54S1hxcUNyRV9NVjQwTlZ5M1dkOXk2ZjA0ZDVsR0tRbjhiUTdDcWl0a2FMYXJUdTM1Y1p3NThELVZSOWNSZ0xyUU9Sd0Jua0Z5YWhWTlhOUmp3cjhhWGplSXJ1QnUzdmI1WXlQcTlNS1ZRNWZiT3NVRng1YWNZU3NmeTBZWEZUTTBOSVpn?oc=5",
-     "published": "2026-11-19T02:19:43+00:00",
-     "score": 3.93,
-     "source": "Autonomy",
-     "title": "Tesla Cybertruck to be discontinued in favor of more Cybercab production - The Daily Texan",
-     "topics": [
-      "autonomy",
-      "production"
-     ]
-    },
-    {
      "link": "https://www.notateslaapp.com/news/5034/youll-be-able-to-move-cybercab-with-on-screen-controls-like-a-video-game",
      "published": "2026-11-18T22:18:00+00:00",
-     "score": 3.482,
+     "score": 2.412,
      "source": "Not a Tesla App",
      "title": "You'll Be Able to Move Cybercab With On-Screen Controls, Like a Video Game",
      "topics": [
@@ -388,9 +456,20 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMU1WNXp0Q29WU1kyM1N0d2FzM05hYW8zajZIU3p4YWpsZjQyVUZaNnhoLVo2SzlRWmhiLW1QdlhTRjMwbktxU0lvR0s0clVVQWhVNWFPd3cxb0lIc2F6YVd5dDFfYXZQR1RFdHdWYUJZdEtKMEhtZ3RNMDgxYUpRbFZyVmRRTC1PbmdUdUNGNnRSb2laMERKRk91Tkc?oc=5",
+     "published": "2026-11-19T10:59:22+00:00",
+     "score": 2.293,
+     "source": "Production",
+     "title": "Elon Musk Reportedly Says Tesla Will Continue To Increase Production In China \u2013 TSLA Stock Rises Premarket - Yahoo Finance",
+     "topics": [
+      "production",
+      "money"
+     ]
+    },
+    {
      "link": "https://www.teslarati.com/tesla-robotaxi-takes-over-uber-credits-loaners-service/",
      "published": "2026-11-18T20:03:42+00:00",
-     "score": 3.233,
+     "score": 2.163,
      "source": "Teslarati",
      "title": "Tesla Robotaxi takes over for Uber credits and loaners at Service locations",
      "topics": [
@@ -400,7 +479,7 @@
     {
      "link": "https://www.notateslaapp.com/news/5031/up-sweetens-deal-for-tesla-offers-revenue-on-every-vehicle",
      "published": "2026-11-18T18:44:00+00:00",
-     "score": 3.086,
+     "score": 2.015,
      "source": "Not a Tesla App",
      "title": "UP Sweetens Deal for Tesla, Offers Revenue on Every Vehicle",
      "topics": [
@@ -411,53 +490,13 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQb2dWR2VzZnptVUV1bmh0Tml6Q0JJVjMyMmUwWlpMRU5RekNVOW1tRkE5QmtjN3poU3JvMDhob012akY4OTF6RDl1ZkwwemJhZVpmMmdYblUtTVR6M3d4N2lmM3NCcHoyQ1VVbjNKVEJCa2IzZ2VkWmczQW84TnRJeEx4d0R4dw?oc=5",
-     "published": "2026-11-18T13:52:00+00:00",
-     "score": 2.545,
-     "source": "Autonomy",
-     "title": "Tesla Registers a Record 200 Cybercabs in Texas in One Day - Drive Tesla Canada",
-     "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbURLdjV4S3NfYzdVR2Nyc25uT2dpLWhNMEpOQS1JSlMtdm5idlZTczhPY1pDbXN4UVZ2YVpzcmNOY0NlelZMNzR4SDEyUk42WmJ2ekxIVEZXX1VHbG1zRFpWdllKZ0VhdThmbkNwa1ljd0p5cEdaV2YwVkxSbWVJb3EyNmJsbmtScW9ZZFgxaDRiX0FvOUtN?oc=5",
-     "published": "2026-11-18T11:24:19+00:00",
-     "score": 2.272,
-     "source": "Production",
-     "title": "Elon Musk Makes Major Tesla Production Shift After Cybertruck Sales Collapse - Yahoo Finance",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5SZklDWFI3bGFNUU5OSmJPRFZ4em5QdG4yMW9JaFZfY2VGU3gwX2lEeDJWTjhLQ3kzMUNnaVZ3SDY3N09zYnl6QkpUNTFtby15YVpmVmpuWjZ0RzYwSUZRdFk4b1FEZGh5QlZLRXdqdEExZ0s3dkxEcg?oc=5",
-     "published": "2026-11-18T08:41:00+00:00",
-     "score": 1.969,
-     "source": "Autonomy",
-     "title": "Tesla Bets $3.3 Billion On Cybercab Production At Giga Berlin - Motor1.com",
-     "topics": [
-      "autonomy",
-      "production"
-     ]
-    },
-    {
-     "link": "https://electrek.co/2026/11/17/e-quipment-highlight-110-hp-greenworks-optimus-electric-utv-video/",
-     "published": "2026-11-18T01:28:03+00:00",
-     "score": 1.751,
-     "source": "Electrek",
-     "title": "E-quipment highlight: 110 hp Greenworks OPTIMUS electric UTV [video]",
-     "topics": [
-      "optimus"
-     ]
-    },
-    {
-     "link": "https://www.teslarati.com/tesla-makes-e3-billion-cybercab-bet-giga-berlin/",
-     "published": "2026-11-16T16:31:28+00:00",
-     "score": 1.35,
+     "link": "https://www.teslarati.com/teslas-cybercab-fleet-just-had-its-biggest-day-ever/",
+     "published": "2026-11-19T05:54:57+00:00",
+     "score": 1.955,
      "source": "Teslarati",
-     "title": "Tesla makes $3.3 billion Cybercab bet at Giga Berlin",
+     "title": "Tesla\u2019s Cybercab fleet just had its biggest day ever",
      "topics": [
-      "autonomy",
-      "production"
+      "autonomy"
      ]
     },
     {
@@ -472,111 +511,44 @@
      ]
     },
     {
-     "link": "https://electrek.co/2026/11/07/tesla-solar-roof-fraud-liable-experiment-lawsuit/",
-     "published": "2026-11-07T16:01:23+00:00",
-     "score": 1.2,
-     "source": "Electrek",
-     "title": "Tesla deemed liable for fraud after Solar Roof \u2018experiment\u2019 on a home",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNbURLdjV4S3NfYzdVR2Nyc25uT2dpLWhNMEpOQS1JSlMtdm5idlZTczhPY1pDbXN4UVZ2YVpzcmNOY0NlelZMNzR4SDEyUk42WmJ2ekxIVEZXX1VHbG1zRFpWdllKZ0VhdThmbkNwa1ljd0p5cEdaV2YwVkxSbWVJb3EyNmJsbmtScW9ZZFgxaDRiX0FvOUtN?oc=5",
+     "published": "2026-11-18T11:24:19+00:00",
+     "score": 1.201,
+     "source": "Production",
+     "title": "Elon Musk Makes Major Tesla Production Shift After Cybertruck Sales Collapse - Yahoo Finance",
      "topics": [
-      "regulatory"
-     ]
-    },
-    {
-     "link": "https://electrek.co/2026/11/06/tesla-raises-cybertruck-prices-after-ending-production/",
-     "published": "2026-11-06T14:03:57+00:00",
-     "score": 1.05,
-     "source": "Electrek",
-     "title": "Tesla hikes Cybertruck prices up to 10% after announcing it will kill production",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://www.notateslaapp.com/news/4979/tesla-ends-cybertruck-premium-orders-hikes-cyberbeast-price",
-     "published": "2026-11-10T12:40:00+00:00",
-     "score": 1.05,
-     "source": "Not a Tesla App",
-     "title": "Tesla Hikes Cyberbeast Price Again, Ends Cybertruck Premium Ordering",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://www.notateslaapp.com/news/5030/tesla-launches-its-first-fsd-ad-in-times-square",
-     "published": "2026-11-17T20:53:00+00:00",
-     "score": 0.987,
-     "source": "Not a Tesla App",
-     "title": "Tesla Launches Its First FSD Ad in Times Square",
-     "topics": [
-      "autonomy",
-      "ai"
-     ]
-    },
-    {
-     "link": "https://insideevs.com/news/815960/tesla-model-y-steering-wheel-remove/",
-     "published": "2026-11-19T02:08:25+00:00",
-     "score": 0.977,
-     "source": "InsideEVs",
-     "title": "A Tesla Model Y Without A Steering Wheel Is Coming: Musk",
-     "topics": [
-      "autonomy",
       "production"
      ]
     }
    ],
    "ventures": [
     {
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUnFPOTV5QU1IOEZXcGltMGM2VDJMYksxcHpONW03N3AzTl9DRDZyc1RXeUlnU1JSdGdRWkVJdll0LUl0VTlLVGNHR3ctYTZnRWtsdGppNzBlSWRVdUlIX1pZVEZGWm1hY0N0T2RRQi1ncmYyZFcwVU0zQWNoZUF1ZWNUVV83Wk9aT2E0dHR4YlptZw?oc=5",
-     "published": "2026-11-19T01:25:41+00:00",
-     "score": 0.957,
-     "source": "X",
-     "title": "South Africa settles with X Corp. and X.AI to boost publisher revenue and curb AI scraping - Briefs Finance",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPX2RwSzVMZ1ZmcEVXdDFkMGN1TDVPVlNONHZJckxxN2F1LUlCT0ZySjhTd2p3NVdJZ192UW04aGxrR3lKWW94NDFtMm1ETlZzemNsV3BmckhnaThrNU5TS3A4VWJ4WkNxRm13Q3FmSndjcm1HZS1hVEN4a1U0cjZpT1JhTy16ZGJpaWtYeFdIMVZXcnoxU1E?oc=5",
+     "published": "2026-11-19T06:24:11+00:00",
+     "score": 3.312,
+     "source": "xAI",
+     "title": "Grok Hijab Lawsuit: Reported Claims Against xAI - NeoTeo",
      "topics": [
-      "money"
+      "ai",
+      "regulatory"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QRGhzV21weS1QMTd5em01czJkSG5tYUFueWwxNHQzVi1sMzJvSDF3T3dsY2w3SDZWZTdhS1dBcURnc084cFBEMGkwR2pHQk5KbER3eWxnRjI0bFNyYXlwX3VGVWc0NVc2UXc?oc=5",
-     "published": "2026-11-19T00:42:44+00:00",
-     "score": 0.938,
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYVRVNDc0VDhpT1AwSS05Zk9USUFLamlhaW94WTFhUnl0VG5NYUF6RWdCZ1NfZFZYeFQydXkyMkFMdDNCUXpLdHJfamRJWk4wSExRMGhRMEZkaFEzdmpUVWYzOWNIbWd4enhROEo5MU9qOGo2VjVWd1pCZUQtUFFrTFo2NGZGUHhzTEV3VVVMQVVZVUNoU1E?oc=5",
+     "published": "2026-11-19T09:45:47+00:00",
+     "score": 0.921,
      "source": "Grok",
-     "title": "Claude Opus 5.5 vs Grok 4.8: Musk Already Answered - OrcaRouter",
+     "title": "Grok Bot Was Told \u2018No\u2019 Four Times, Then Tried to Access Gmail and Slack With Laptop Shut - www.techtimes.co.uk",
      "topics": [
       "ai"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNHNhQW1McW5HdHJ0UWNBN09taE0yZEd5RkdlQkNocHE4MHBkMjhOY1pmU3Y1VWZNSFQ2WVctdXBMNHdacERTQmZzdkZKcTUzeWVqRjcwU2FPamVGOXZzdnJ0ZWtkUWFrcWU2dU9UUEJhSFh0Y0ZRRF92blZYUTYwdA?oc=5",
-     "published": "2026-11-19T00:36:14+00:00",
-     "score": 0.935,
-     "source": "X",
-     "title": "South African regulator settles with X Corp and x.AI - Digital Watch Observatory",
-     "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE54amdHU0FNcWFjbl9aaTJ5aG5kVkpHT256a0RWSXNIYlpkb01mem9wa19memFybjgyTmU2cWRvTE9aMjR2eEduSUJuT2N5Q0V3b0JzaFZHQ1Y?oc=5",
-     "published": "2026-11-19T00:37:00+00:00",
-     "score": 0.935,
-     "source": "X",
-     "title": "X Money Opens International Wire Beta in 27 Destinations With $15,000 Caps - www.tokenpost.com",
-     "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRjdoRzlJZlMwaWM2SWd3eXNOSzZ4TXFodTY0emxFQ0FYNHNQTlZNM0J1OER6ZGN4aHlQT1pLTzRJZ1dzY1QwUUkzNVNjXzM3cWgyV1hTNE52N0VrOWRKSGZuMUFOajdKd1FYYTlhWnRNZWVxdTl2dEVDUXJQZWs1ZVZFV05mM1lHa2Zj?oc=5",
-     "published": "2026-11-19T00:05:19+00:00",
-     "score": 0.92,
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPM2lickFrQmJFTDdNcEJoQWVBc3ZqbFdMMk1WVjhKZ2dhZ0VWdVAyWUxNNGtrRWc2T0hzZWw0Q1RxNW9tVC1Dd2VyNWMxQ01zdE5RcjZObDBINy1zVEE0M1BKSU5QVWRQWnpHRGQwRTdwRFF5a0ZpOTNiNGthOWh0WWFn0gGHAUFVX3lxTE9pOEN0VVEydlpOSHljMzNic0x5cjl2a05xb0FjRTJuTmtuUnJkSzJBeEtVRkVhOVhQQ3JMXzZzZ1pmSjNtdVBLMEluRkIyUExyQ0Q0RnNRbEhqZVBtMmVYaHNLWEpMcG5aWnc4WnhEWGVuZ3NqM0x5NGNkUldOZ1Ftd1E0bXlZaw?oc=5",
+     "published": "2026-11-19T09:01:58+00:00",
+     "score": 0.901,
      "source": "xAI",
-     "title": "Muslim Girl Founder Sues Elon Musk\u2019s xAI Over Deepfakes Violating Her Hijab - Muslim Girl",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeUstaGZQdnFxOEI0S3NCcUZzYmRMZG95aE9ROU9RMGI4VVV6LTZPNUVWem02OVNCVDhVZUtoRTA4OXg4ZktXenhjVW5RY3UxUmZjNmZkdEpDWGtTR0ZlNm15bmZEMDdsS3RzX3cyOEZHNVFLM2JIWVJaVGUxSzVLcHNnWkVKbnpMa1pLa18zM00wNU1STm05SUdFWGNaTE1wVVUxbzZacjdzTl94TTlQQjlWb0JvNjVvQkxrbA?oc=5",
-     "published": "2026-11-18T23:48:15+00:00",
-     "score": 0.912,
-     "source": "xAI",
-     "title": "Musk's xAI urges US appeals court to block California AI disclosure law - Reuters",
+     "title": "US Muslim author sues xAI after Grok creates showed her without hijab - ThePrint",
      "topics": [
       "ai"
      ]
@@ -592,9 +564,103 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWjBHeWc4N2p1Q09nNWdyZlJ1RHlFUHh1eTVYTU9YYWtFdWRXNkY1aFdqMjhBeGNmb3lwcUM2SklxU3BudnNWUkZaWmxsMEdHbFFQSzFLamp4U3hHeEVhN0xnOXhyeUN1VXJwNzZuRjZ4NEZwaXBHMldwQ2wycXRJWE15ZVhONFQyTkE?oc=5",
+     "published": "2026-11-19T08:26:43+00:00",
+     "score": 0.885,
+     "source": "xAI",
+     "title": "Author sues xAI, alleging Grok stripped her hijab - streamlinefeed.co.ke",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzbDZ4b3pxN29oQlg5cUJkZzlDZ1ExYnFXNUM4eUExRzNDcnM5SHkxTTRTYUluTTBQZU5mUzRSVGtFZ3ZuUFZFb1JWT1FNZ1pVeHkxR2hPNWVXQ3lkYXdSMlJxVjhzY2g0bVdUbg?oc=5",
+     "published": "2026-11-19T07:00:01+00:00",
+     "score": 0.845,
+     "source": "X",
+     "title": "No driver. No wallet. No problem. You can now link X Money to the Robotaxi app and set it as your default payment. The everything app is becoming everything. @robotaxi @XMoney @Tesla / Writer: Annette, Designer: Jann\u00e9 - X",
+     "topics": [
+      "autonomy"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcTZWZEdHaWRObEk5ZC12U2RzM3NmQlp5czN3VWN4SC0xdFRXVDNpWXZtcFIzWldQSVRuVVBhSkZkb0JTQnYyN3l3eVczYklmX3JWMXAwWHVtdWg2NUp5UnNuaExFN3pqeGVtS3pxdFV0ckJkWnpHd2xjNDFDMWNELVRpSldMYWtpRW04R3VYWDRsWUlhQ3FQd1FTcFc3Y0JmWEJvSjYxcHBoa2JTZDE1Sm45NndWcW5YbG5MUGNFTFRabk93Q1FrbzlwbEtlcFoxUUJRaVVYTQ?oc=5",
+     "published": "2026-11-19T05:00:00+00:00",
+     "score": 0.789,
+     "source": "Grok",
+     "title": "Elon Musk\u2019s X drops South Africa media inquiry appeal and agrees to 2-year publisher programme as Grok adds AI-content training - Business Insider Africa",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUnFPOTV5QU1IOEZXcGltMGM2VDJMYksxcHpONW03N3AzTl9DRDZyc1RXeUlnU1JSdGdRWkVJdll0LUl0VTlLVGNHR3ctYTZnRWtsdGppNzBlSWRVdUlIX1pZVEZGWm1hY0N0T2RRQi1ncmYyZFcwVU0zQWNoZUF1ZWNUVV83Wk9aT2E0dHR4YlptZw?oc=5",
+     "published": "2026-11-19T01:25:41+00:00",
+     "score": 0.69,
+     "source": "X",
+     "title": "South Africa settles with X Corp. and X.AI to boost publisher revenue and curb AI scraping - Briefs Finance",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1QRGhzV21weS1QMTd5em01czJkSG5tYUFueWwxNHQzVi1sMzJvSDF3T3dsY2w3SDZWZTdhS1dBcURnc084cFBEMGkwR2pHQk5KbER3eWxnRjI0bFNyYXlwX3VGVWc0NVc2UXc?oc=5",
+     "published": "2026-11-19T00:42:44+00:00",
+     "score": 0.67,
+     "source": "Grok",
+     "title": "Claude Opus 5.5 vs Grok 4.8: Musk Already Answered - OrcaRouter",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNHNhQW1McW5HdHJ0UWNBN09taE0yZEd5RkdlQkNocHE4MHBkMjhOY1pmU3Y1VWZNSFQ2WVctdXBMNHdacERTQmZzdkZKcTUzeWVqRjcwU2FPamVGOXZzdnJ0ZWtkUWFrcWU2dU9UUEJhSFh0Y0ZRRF92blZYUTYwdA?oc=5",
+     "published": "2026-11-19T00:36:14+00:00",
+     "score": 0.667,
+     "source": "X",
+     "title": "South Africa Competition Commission settles with X Corp and X.AI - Digital Watch Observatory",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE54amdHU0FNcWFjbl9aaTJ5aG5kVkpHT256a0RWSXNIYlpkb01mem9wa19memFybjgyTmU2cWRvTE9aMjR2eEduSUJuT2N5Q0V3b0JzaFZHQ1Y?oc=5",
+     "published": "2026-11-19T00:37:00+00:00",
+     "score": 0.667,
+     "source": "X",
+     "title": "X Money Opens International Wire Beta in 27 Destinations With $15,000 Caps - www.tokenpost.com",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRjdoRzlJZlMwaWM2SWd3eXNOSzZ4TXFodTY0emxFQ0FYNHNQTlZNM0J1OER6ZGN4aHlQT1pLTzRJZ1dzY1QwUUkzNVNjXzM3cWgyV1hTNE52N0VrOWRKSGZuMUFOajdKd1FYYTlhWnRNZWVxdTl2dEVDUXJQZWs1ZVZFV05mM1lHa2Zj?oc=5",
+     "published": "2026-11-19T00:05:19+00:00",
+     "score": 0.653,
+     "source": "xAI",
+     "title": "Muslim Girl Founder Sues Elon Musk\u2019s xAI Over Deepfakes Violating Her Hijab - Muslim Girl",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeUstaGZQdnFxOEI0S3NCcUZzYmRMZG95aE9ROU9RMGI4VVV6LTZPNUVWem02OVNCVDhVZUtoRTA4OXg4ZktXenhjVW5RY3UxUmZjNmZkdEpDWGtTR0ZlNm15bmZEMDdsS3RzX3cyOEZHNVFLM2JIWVJaVGUxSzVLcHNnWkVKbnpMa1pLa18zM00wNU1STm05SUdFWGNaTE1wVVUxbzZacjdzTl94TTlQQjlWb0JvNjVvQkxrbA?oc=5",
+     "published": "2026-11-18T23:48:15+00:00",
+     "score": 0.645,
+     "source": "xAI",
+     "title": "Musk's xAI urges US appeals court to block California AI disclosure law - Reuters",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdGUtRGVUZWszQ2NNS0ZVaU1Gc2lkNHBRTmFjT0Njek5hcWlYWWNGemxYVUJOVmhFNFRkYll2R0dPeTlibVA1UkxaZTdobWItclQxTlVSMzVFdThiY052MkM2SEJLX2dlYmJMNWFNdjltZGdwRVA5TTQ4ellJcm02bzZ3?oc=5",
+     "published": "2026-11-18T23:06:27+00:00",
+     "score": 0.625,
+     "source": "Grok",
+     "title": "Elon Musk Short Circuits After Grimes Calls Out His Obsession With AI Waifus - Futurism",
+     "topics": []
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcGlxQ1JhYW80Q19IYjc0N1hzdHlvRWFBc2l4YUlhdzlxMFZoeHprYUwzN2VKOXJQMjFhT0otRUR5RVpFbkJONFFUcDlySWtZS3Q2c2JHdnZZdjNueWtsX1cwRk1FVktFaUF5Qk9nQjBsTHFoTVg0aXFwTC02bnY5bDZuX01iYmJ2bDVuaWxZaW9GYjhzWVVOY0U3UmhoZw?oc=5",
      "published": "2026-11-18T23:05:46+00:00",
-     "score": 0.893,
+     "score": 0.625,
      "source": "Boring",
      "title": "Boring Company Drops $8.7M on SoBro Lot for Music City Loop Dig Site - Hoodline",
      "topics": [
@@ -603,8 +669,8 @@
     },
     {
      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTVFCbkZpN3gxNG1TUzJCRWJpYWlVOEl6NDkwalhRbGEyaHhyNE1Jal9vVEg1TVhHclZlY3VNWDIzZzNXMnhOZnJWYVBnTjk1clNERzFFZnR2YWRHVWhjelEwOVVsaVFVekk2NUV2VjdmMVN3Y2pIYVBQTVRUUkt4N215d1pfN3JRdW9nMmd3cVMyWVFKeXc0NlRhTTFUTW9Dc2tPSHcweGtDcDRZcWJJTmR2bGhBX3ZiY3c0bFQ4M1Y1NTBtUDZFaThMUEdZdmM?oc=5",
-     "published": "2026-11-18T21:15:00+00:00",
-     "score": 0.841,
+     "published": "2026-11-18T21:18:00+00:00",
+     "score": 0.575,
      "source": "Boring",
      "title": "Boring Company signs Nashville airport deal, ending 9 months in limbo - The Tennessean",
      "topics": [
@@ -614,7 +680,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSVJPZk9FcGg1RDRPYmxkMTJhd1ZKVmtnaFRzRUp1ZlNwWk5FVkx2SFVmYkM5WHUyaGh2anlDSjhIZFhNSkg3S21mWE1pTjlyTDhoU2U5MFJxeGQ0bEV5NkZ5b0ZxWGV3TUdkY3MwVUJ4WDVVTVB1dzRlbmJmWmo1TFNab3JMVzV0V0E?oc=5",
      "published": "2026-11-18T18:40:01+00:00",
-     "score": 0.77,
+     "score": 0.502,
      "source": "X",
      "title": "X Money Adds Transfers to 27 Countries, Including Canada - TeslaNorth.com",
      "topics": []
@@ -622,77 +688,9 @@
     {
      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRVdWTzgtOGR1TVBFMkJVeEMzRFNKem5NUERwb2htaWVyZXZLeWY0WGJBV0l6dWRGaHREMFA3VkZ2RW9XUHpXamhmVDFlX21OM2Y1WkhZOVRlRWxUdFJORnJvU1QzdDNDaVRSUXhGb2JpMkZScTR5RkRBSElSMGFIdHd5UHNIM0l2WGF4Sjk5U0ZGLVcweGFnZktfR1VtWFRn?oc=5",
      "published": "2026-11-18T17:30:54+00:00",
-     "score": 0.738,
+     "score": 0.47,
      "source": "xAI",
      "title": "A Muslim Author Is Suing xAI After People Used Grok to Strip Her Hijab - WIRED",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbHhWTnl5NnlBX0RVVUhTY2QzajExSThhWWFZeUxSMzZ2ZHZTMnMySm1QTE5mMFhKTWp6ak1fYkM3cTU5RFo4UTZMYm53ZTlTaXNMdk1kM3RVNGozS3dLRDRFcnB1cDVNM0h1OUpIMFpCQmJXNk8xMmZKVU1XNDhCeU5LWTlvd0pPMVE?oc=5",
-     "published": "2026-11-18T16:41:05+00:00",
-     "score": 0.715,
-     "source": "Boring",
-     "title": "Boring Company Adds Third Nashville Tunnel Machine, With a Fourth Coming - TeslaNorth.com",
-     "topics": [
-      "tunnels"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNN0VBSmNOS3ZicklfMnNJZVpmYTJRYlFSTndyQUJOVVdyTzZUa2NYajI1LXJlT0k1MV9FNng0dkhFN2licnZFbGpYZmdSWkFuT2prRWJ3b3NVQ2N0VjJtSnliUFZ2NnRpeEc3NjgyY2FvNkRoZmlZYkNOYWNIaTh5WnNVRVBDUGQ3al9XNHB3eUszOUsyMFA0cHhzY3JTSGhFcy1qTVFfZE5sSk5jQmQySUZvNUJsR0tYeXdVNGZ3cFNaWWtlcy1xVFZwTkdSV0JXYVA1c3p5NktWeWlX?oc=5",
-     "published": "2026-11-18T14:05:38+00:00",
-     "score": 0.643,
-     "source": "Boring",
-     "title": "Boring Company pays $8.7M for SoBro property - Nashville Post",
-     "topics": [
-      "tunnels"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9xWWIyMkRvZFR0ajVXbTZTZ19acXI2N1dEVS0zU1VYNDg0TGFQNWdONThyTF9YLWd4ZWhQOFhaaDlENEtWTUhob3Z6SS1TU3dRak56WkR6U3Y?oc=5",
-     "published": "2026-11-18T12:20:56+00:00",
-     "score": 0.594,
-     "source": "Boring",
-     "title": "The Boring Company brings tunneling costs below $10 million per mile - www.tokenpost.com",
-     "topics": [
-      "tunnels"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxORlo1N2tUZktXZjJlQnlxVHBzNENDVXRob2tnMXV3UnZaZmt5bk10N29JY2VJTVdOVEZ1Y0lRVW1QQ1Q5VF8xSzgyT3ZvRDVUSTUtcElXODFhSjlfZjNBVVVVRERkekdwRTJVZ09LRTZEYUtxLWVzOW9JZ1FTQzh4c2RqeVdmUzVHNWFJMWVqZE04SkNOem1uRFVEOTRTOXFLNXJWczdsa0tyU0l3QlJveEFjYzNvZnVQdnk1R0xzQU1iYi10OTFpLVhWUzRlTV9Ddk5xYkV6S1duMDZLdzRfNUlWcmZlQlRKRE5LRVktY2k?oc=5",
-     "published": "2026-11-18T11:49:32+00:00",
-     "score": 0.58,
-     "source": "X",
-     "title": "SA's Competition Commission Settles With X Corp. & Concludes Voluntary Undertaking With X.AI - TradingView",
-     "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNMHF5aGl6dndNTF92WThzM1JnVzhILThGWnNlWVdtTzBxUXppQ1BuTWZwU1A3OHdLQW5OQmhSTGo1bmpNTnptUkY4UEJjZFpRSFlyS0tHYWhsYXI5ZkgyTlBIVkg5UFQ0VGlhVVZFSWVrVjkyZG5uZF9kcERlM3hTNmVxcWs2djk1eDFaU28wN1FidEtYclA1aVBrUEZLRlhwbFJpc2wyLWRZeXJBbEZ4TDFONGpCbWJ4aDR6SF9jLVJESDVvbFZ3eUdmZF94ckNUWEdVS0Q4dkotRDllVDY0d215V1JxbmtjcDBOOEpXNnBrbmhQVVJRU0pLLS1YUlI1RzlJNGZjaklnRHRGUml2bWZmNl95UQ?oc=5",
-     "published": "2026-11-18T11:44:19+00:00",
-     "score": 0.577,
-     "source": "Grok",
-     "title": "Elon Musk Says Grok Can \u2018Do Your Accounting\u2019 as SpaceXSI Adds Five Full-Time AI Bots, Cutting Invoice Pro - Benzinga",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9pWDhldXJ5dl9uVXdaRE1leVVwTzF0YmU1NnRiVTZ6WHZ0Zk5oeWdXSzNsV05IUm1aRzJjWlMyZktRT3ZXRmRQMW5zQ2tjNjhKelYyQ2xqZlpLMXFRWEZ6ZUFvaF93RUFrME9sVnVpQQ?oc=5",
-     "published": "2026-11-18T11:30:28+00:00",
-     "score": 0.571,
-     "source": "Grok",
-     "title": "Grok Bot Attempted to Access Corporate Data 31 Times Despite Instructions to Stop - The 420.in",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1SY2p4T2lGRmkybXdfRWVYM2lzN3lTZFVCTGx4SThkbTZOekRGQklFWGdlSTZKQUwzR19TcVl2Q2E2MlkwOTZXUVlSODdxZXZaQXBId3B0bE9DWV90MG9iYUVtb3k4REY4UVJ3VGR3bEhLWVFFdEI2bQ?oc=5",
-     "published": "2026-11-18T10:20:14+00:00",
-     "score": 0.538,
-     "source": "Grok",
-     "title": "Told four times to stop, Grok tried to open Gmail and Slack anyway - Cybernews",
      "topics": [
       "ai"
      ]
@@ -700,5 +698,5 @@
    ]
   }
  },
- "fetched_at": "2026-11-19T02:57:42.728954+00:00"
+ "fetched_at": "2026-11-19T12:35:42.411620+00:00"
 }
