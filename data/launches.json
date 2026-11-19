@@ -93,7 +93,6 @@
   "astronauts_count": 11,
   "cadence": {
    "labels": [
-    "2026-04",
     "2026-05",
     "2026-06",
     "2026-07",
@@ -104,17 +103,15 @@
    ],
    "note": "Current month is incomplete; earliest sampled month omitted.",
    "other": [
-    21,
     11,
     15,
     14,
     12,
     19,
     10,
-    10
+    11
    ],
    "partial": [
-    false,
     false,
     false,
     false,
@@ -124,7 +121,6 @@
     true
    ],
    "spacex": [
-    12,
     12,
     14,
     13,
@@ -136,26 +132,32 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "Details TBD.",
-   "id": "e0a11eb1-0bda-4872-b36b-140247fd5c60",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
-   "lat": 38.863128,
-   "lon": 111.589567,
-   "mission": "Unknown Payload",
-   "mission_type": "Unknown",
-   "name": "Long March 2D | Unknown Payload",
-   "net": "2026-11-18T22:50:00Z",
-   "net_precision": "HR",
-   "orbit": "N/A",
-   "pad": "Launch Complex 9",
-   "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "rocket": "Long March 2D",
+   "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
+   "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
+   "lat": 34.632,
+   "lon": -120.611,
+   "mission": "USSF-317",
+   "mission_type": "Government/Top Secret",
+   "name": "Falcon 9 Block 5 | USSF-317",
+   "net": "2026-11-20T02:46:00Z",
+   "net_precision": "MIN",
+   "orbit": "LEO",
+   "pad": "Space Launch Complex 4E",
+   "pad_location": "Vandenberg SFB, CA, USA",
+   "provider": "SpaceX",
+   "rocket": "Falcon 9 Block 5",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/e0a11eb1-0bda-4872-b36b-140247fd5c60",
+   "url": "https://nextspaceflight.com/launches/details/76617033-4dc0-4448-b50c-e5b0d5a18539",
    "webcast_live": false,
-   "webcasts": []
+   "webcasts": [
+    {
+     "official": true,
+     "publisher": "X",
+     "url": "https://x.com/i/broadcasts/2lgkMvaRVPMdYR"
+    }
+   ]
   },
   "pads": [
    {
@@ -169,7 +171,7 @@
     "top_provider": "SpaceX"
    },
    {
-    "count": 31,
+    "count": 30,
     "last_net": "2026-11-29T15:47:00Z",
     "lat": 28.56194122,
     "location": "Cape Canaveral SFS, FL, USA",
@@ -265,6 +267,16 @@
     "location": "Wenchang Space Launch Site, People's Republic of China",
     "lon": 110.955356,
     "name": "201",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 4,
+    "last_net": "2026-11-18T22:51:00Z",
+    "lat": 38.863128,
+    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "lon": 111.589567,
+    "name": "Launch Complex 9",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
@@ -367,16 +379,6 @@
     "name": "Launch Complex 39A",
     "spacex": true,
     "top_provider": "SpaceX"
-   },
-   {
-    "count": 3,
-    "last_net": "2026-11-18T22:50:00Z",
-    "lat": 38.863128,
-    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
-    "lon": 111.589567,
-    "name": "Launch Complex 9",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 2,
@@ -670,6 +672,28 @@
    }
   ],
   "previous": [
+   {
+    "description": "Experimental Chinese satellite of unknown purposes.",
+    "id": "e0a11eb1-0bda-4872-b36b-140247fd5c60",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
+    "lat": 38.863128,
+    "lon": 111.589567,
+    "mission": "Shijian 24",
+    "mission_type": "Government/Top Secret",
+    "name": "Long March 2D | Shijian 24",
+    "net": "2026-11-18T22:51:00Z",
+    "net_precision": "MIN",
+    "orbit": "SSO",
+    "pad": "Launch Complex 9",
+    "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 2D",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/e0a11eb1-0bda-4872-b36b-140247fd5c60",
+    "webcast_live": false,
+    "webcasts": []
+   },
    {
     "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
     "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
@@ -1967,59 +1991,37 @@
     "url": "https://nextspaceflight.com/launches/details/9f5a4cb6-63f9-47e1-9512-b468bae2a8e6",
     "webcast_live": false,
     "webcasts": []
-   },
-   {
-    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "63181269-b125-4c36-951c-c9bd9bbc4b55",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Starlink Group 15-23",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-23",
-    "net": "2026-09-02T08:42:12Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/63181269-b125-4c36-951c-c9bd9bbc4b55",
-    "webcast_live": false,
-    "webcasts": []
    }
   ],
   "totals": {
    "previous_sampled": 200,
    "share_caveat": "Share of the most recent orbital launches fetched, over the window shown. Not a share of all launches, and not a fixed calendar period - the window moves with every refresh.",
-   "spacex_sampled": 88,
-   "spacex_share": 0.44,
+   "spacex_sampled": 87,
+   "spacex_share": 0.435,
    "window": {
-    "from": "2026-03-30",
-    "to": "2026-11-15"
+    "from": "2026-04-01",
+    "to": "2026-11-18"
    }
   },
   "upcoming": [
    {
-    "description": "Details TBD.",
+    "description": "Experimental Chinese satellite of unknown purposes.",
     "id": "e0a11eb1-0bda-4872-b36b-140247fd5c60",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
     "lat": 38.863128,
     "lon": 111.589567,
-    "mission": "Unknown Payload",
-    "mission_type": "Unknown",
-    "name": "Long March 2D | Unknown Payload",
-    "net": "2026-11-18T22:50:00Z",
-    "net_precision": "HR",
-    "orbit": "N/A",
+    "mission": "Shijian 24",
+    "mission_type": "Government/Top Secret",
+    "name": "Long March 2D | Shijian 24",
+    "net": "2026-11-18T22:51:00Z",
+    "net_precision": "MIN",
+    "orbit": "SSO",
     "pad": "Launch Complex 9",
     "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "rocket": "Long March 2D",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/e0a11eb1-0bda-4872-b36b-140247fd5c60",
     "webcast_live": false,
     "webcasts": []
@@ -2495,5 +2497,5 @@
    }
   ]
  },
- "fetched_at": "2026-11-18T21:44:09.610791+00:00"
+ "fetched_at": "2026-11-19T02:57:57.636216+00:00"
 }
