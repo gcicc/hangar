@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 164,
+  "times_seen": 165,
   "outlets": [
    "Neuralink"
   ]
@@ -98,7 +98,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 45,
+  "times_seen": 46,
   "outlets": [
    "Autonomy",
    "Production"
@@ -161,7 +161,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 51,
+  "times_seen": 52,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -182,7 +182,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 121,
+  "times_seen": 122,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -202,7 +202,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 101,
+  "times_seen": 102,
   "outlets": [
    "X"
   ]
@@ -240,7 +240,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 8,
+  "times_seen": 9,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -263,6 +263,28 @@
   "times_seen": 43,
   "outlets": [
    "Optimus"
+  ]
+ },
+ {
+  "statement": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year - WSJ",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09OVGpVM3FDM3I4RzJVTnVHcDk5c0Z5aHVEVS1BZ2RDRnVpQU13Yld0VTdWS0xBb3JGbWVzSHhZU0J0cVVUWjBlZWVNM3FDTGJOOWtFN2EwMTlkN1VmcjJSTDhiVnpYMFByX2c4RFhfd3pRSU0tSEhtcnlldGx1NU9GWGo3aVctSFRvTg?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-20",
+  "times_seen": 50,
+  "outlets": [
+   "Humanoids",
+   "Optimus",
+   "TSLA"
   ]
  },
  {
@@ -1032,28 +1054,6 @@
   "outlets": [
    "Optimus",
    "Optimus Features"
-  ]
- },
- {
-  "statement": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year - WSJ",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09OVGpVM3FDM3I4RzJVTnVHcDk5c0Z5aHVEVS1BZ2RDRnVpQU13Yld0VTdWS0xBb3JGbWVzSHhZU0J0cVVUWjBlZWVNM3FDTGJOOWtFN2EwMTlkN1VmcjJSTDhiVnpYMFByX2c4RFhfd3pRSU0tSEhtcnlldGx1NU9GWGo3aVctSFRvTg?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-04",
-  "times_seen": 49,
-  "outlets": [
-   "Humanoids",
-   "Optimus",
-   "TSLA"
   ]
  },
  {
