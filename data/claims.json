@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 165,
+  "times_seen": 166,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 84,
+  "times_seen": 85,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -56,7 +56,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 61,
+  "times_seen": 62,
   "outlets": [
    "Humanoids"
   ]
@@ -76,7 +76,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 61,
+  "times_seen": 62,
   "outlets": [
    "Humanoids",
    "Optimus"
@@ -98,7 +98,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 46,
+  "times_seen": 47,
   "outlets": [
    "Autonomy",
    "Production"
@@ -119,7 +119,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 156,
+  "times_seen": 157,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -140,7 +140,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 62,
+  "times_seen": 63,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -161,7 +161,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 52,
+  "times_seen": 53,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -182,7 +182,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 122,
+  "times_seen": 123,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -202,7 +202,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 102,
+  "times_seen": 103,
   "outlets": [
    "X"
   ]
@@ -222,7 +222,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 75,
+  "times_seen": 76,
   "outlets": [
    "Optimus"
   ]
@@ -240,7 +240,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 9,
+  "times_seen": 10,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -260,7 +260,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-20",
-  "times_seen": 43,
+  "times_seen": 44,
   "outlets": [
    "Optimus"
   ]
@@ -285,6 +285,107 @@
    "Humanoids",
    "Optimus",
    "TSLA"
+  ]
+ },
+ {
+  "statement": "Musk says Tesla will end Cybertruck production in 2027 - CBS News",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NGswdEUycm1SMmlwV2dEZHpDQ1JzdUUxdnNJQWRnbEhxVzFHMjJmSS1jcVNwS1FLVHNZSzE1a3FTR21KRWNLb0xSYS02Z1NqSDBuZy1ra1BSNnowQ3VLeHBEUzVIYXM1TGNyMGFtamZPa3FLdWVqTkt6V19LS0E?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-20",
+  "times_seen": 15,
+  "outlets": [
+   "Autonomy",
+   "Production"
+  ]
+ },
+ {
+  "statement": "Musk Says Tesla Will Wind Down Cybertruck Production Next Year To Make Room For Cybercab - Forbes",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUZNLTVPQ29tNld4bHBMTXNQcFhjYmRMdmZEX1A1M3VfUVhiMFlLdlJBZjU2RTZmUTAyczdhcjB2VEFCbHBHV1FtV09NNzRJcHlzX1dOWXRfRTFqQ1FxV1h3NFdJWV93SmpySE5ZWktvQ21zWFR6MHBrT3pWM3N4X09jQXNyakVHVVJzcy1ibzB6ZF81d180X3o5OGM4SXJvM2RmQ3RVVkFvRlZ1NlNxci02bG12MGM?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "autonomy",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-20",
+  "times_seen": 14,
+  "outlets": [
+   "Production",
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Tesla to Wind Down Cybertruck Production in Texas Next Year, Elon Musk Says - Bloomberg.com",
+  "entity": "Tesla",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRGdvX0pvbXJYRDkwem1xU0pQQVpPaFZlemVSdUFkTFdQMU5iNDVGTDJOLVd6RzNDcmFvaG1ReXhobE5UbmFlTzYxNmt4bjJ2MDlaSEtZa181Q3dnb3BTSl9CdURSWWo2ODRiQzBGa2FnMURLTzV2Q09LRVRKVTUzb1NMV0ZtNk9vYjBGY0NMR2xnWWg0ajlVVjgxQ0xmU1hKdU85Y2JsTTg1UzhBVmpz?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-20",
+  "times_seen": 9,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Tesla will stop making Cybertrucks in 2027 - The National",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQXVYV21RRlo0WnE0YTBaQ3ZZT1Z1a3pPalFaVG5keklhNWZxQWdHbWMzQUlFSV9lQi1zbHpyZnpsRmxLTDNQMElWQnF0enFSeFFubVZqeU1VTF9iVS1VVnU3dHE2WnhKYmhsZ09ieTZkZmlFNVprbGhBY0lzU1Jkb3BydXJ6czNKN3Zwbk9HNG02dlU4bGJnWVNPWVFjM3M0d2o1ajhOa2h1RDRjT1VtaFpnSGJqUjdvSDF6MkhuNA?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-11-20",
+  "times_seen": 4,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Starlink Botswana: BTC plans satellite-to-phone in 2027 - DNE Africa",
+  "entity": "Starlink",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Starlink",
+  "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NdllFbVRCVEp6dDg4TFJMRXdCZkRaZVZ0NS1xNFZVVUNnMHdiZDR2Q3lpOUlrLXJLd3k0UkF4N2pjZ3dCQmZIVXBEX2hNOGdLaS1pTEsyQWNPNS1SWVJ2ZmZpdW5oUlMyV0Q2UTBNS29BN2xP?oc=5",
+  "first_seen": "2026-11-20",
+  "topics": [
+   "starlink"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-20",
+  "times_seen": 1,
+  "outlets": [
+   "Starlink"
   ]
  },
  {
@@ -503,27 +604,6 @@
   ]
  },
  {
-  "statement": "Musk says Tesla will end Cybertruck production in 2027 - CBS News",
-  "entity": "Musk",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NGswdEUycm1SMmlwV2dEZHpDQ1JzdUUxdnNJQWRnbEhxVzFHMjJmSS1jcVNwS1FLVHNZSzE1a3FTR21KRWNLb0xSYS02Z1NqSDBuZy1ra1BSNnowQ3VLeHBEUzVIYXM1TGNyMGFtamZPa3FLdWVqTkt6V19LS0E?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-10",
-  "times_seen": 14,
-  "outlets": [
-   "Autonomy",
-   "Production"
-  ]
- },
- {
   "statement": "SpaceX surges 9% as Musk says Q4 revenue is expected to grow 70%, with a target of $500 billion next year. - \u5bcc\u9014\u725b\u725b",
   "entity": "SpaceX",
   "horizon_phrase": "next year",
@@ -561,28 +641,6 @@
   "times_seen": 1,
   "outlets": [
    "Production"
-  ]
- },
- {
-  "statement": "Musk Says Tesla Will Wind Down Cybertruck Production Next Year To Make Room For Cybercab - Forbes",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUZNLTVPQ29tNld4bHBMTXNQcFhjYmRMdmZEX1A1M3VfUVhiMFlLdlJBZjU2RTZmUTAyczdhcjB2VEFCbHBHV1FtV09NNzRJcHlzX1dOWXRfRTFqQ1FxV1h3NFdJWV93SmpySE5ZWktvQ21zWFR6MHBrT3pWM3N4X09jQXNyakVHVVJzcy1ibzB6ZF81d180X3o5OGM4SXJvM2RmQ3RVVkFvRlZ1NlNxci02bG12MGM?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "autonomy",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 13,
-  "outlets": [
-   "Production",
-   "Autonomy"
   ]
  },
  {
@@ -669,26 +727,6 @@
   ]
  },
  {
-  "statement": "Tesla to Wind Down Cybertruck Production in Texas Next Year, Elon Musk Says - Bloomberg.com",
-  "entity": "Tesla",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRGdvX0pvbXJYRDkwem1xU0pQQVpPaFZlemVSdUFkTFdQMU5iNDVGTDJOLVd6RzNDcmFvaG1ReXhobE5UbmFlTzYxNmt4bjJ2MDlaSEtZa181Q3dnb3BTSl9CdURSWWo2ODRiQzBGa2FnMURLTzV2Q09LRVRKVTUzb1NMV0ZtNk9vYjBGY0NMR2xnWWg0ajlVVjgxQ0xmU1hKdU85Y2JsTTg1UzhBVmpz?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 8,
-  "outlets": [
-   "Production"
-  ]
- },
- {
   "statement": "Musk Says SpaceX Government Revenue Will Shrivel Next Year - Gizmodo",
   "entity": "Musk",
   "horizon_phrase": "Next Year",
@@ -747,24 +785,6 @@
   "times_seen": 4,
   "outlets": [
    "Autonomy"
-  ]
- },
- {
-  "statement": "Elon Musk says Tesla will stop making Cybertrucks in 2027 - The National",
-  "entity": "Musk",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQXVYV21RRlo0WnE0YTBaQ3ZZT1Z1a3pPalFaVG5keklhNWZxQWdHbWMzQUlFSV9lQi1zbHpyZnpsRmxLTDNQMElWQnF0enFSeFFubVZqeU1VTF9iVS1VVnU3dHE2WnhKYmhsZ09ieTZkZmlFNVprbGhBY0lzU1Jkb3BydXJ6czNKN3Zwbk9HNG02dlU4bGJnWVNPWVFjM3M0d2o1ajhOa2h1RDRjT1VtaFpnSGJqUjdvSDF6MkhuNA?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-11-07",
-  "times_seen": 3,
-  "outlets": [
-   "Production"
   ]
  },
  {
@@ -2394,26 +2414,6 @@
   "times_seen": 1,
   "outlets": [
    "Grok"
-  ]
- },
- {
-  "statement": "Tesla unveils new Roadster with flight capabilities; set for production in 2028 - Investing.com",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2028",
-  "horizon": "2028-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPMTVBZFQ5b3NjSDA5ZnNqajhfWnRFSXlEUkpiUEtqYXVHM29xOVNhci0ybHFMMTM0UWVtdk9xQVRxQUdQTWFMSTJidFAyTlpaTjZjS1pUOTVkNjN0RU8tRC0zS2REWWdTNjlUMFZnZnFOcXdyT2hNMFc0dEFXQ0thWi1xa3AzMW5lMUtEam52RHdvdHp2V29lM01DRUtjbjVyZENNazh0XzVjZXEwcEVCcU9NMGJVVkRJS0sxbjVJMktXVXpzT3lyazJIaHF4QzJ2?oc=5",
-  "first_seen": "2026-10-16",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-16",
-  "times_seen": 1,
-  "outlets": [
-   "Production"
   ]
  }
 ]
