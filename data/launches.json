@@ -140,7 +140,7 @@
    "mission": "USSF-317",
    "mission_type": "Government/Top Secret",
    "name": "Falcon 9 Block 5 | USSF-317",
-   "net": "2026-11-20T04:32:55Z",
+   "net": "2026-11-20T06:43:59Z",
    "net_precision": "SEC",
    "orbit": "LEO",
    "pad": "Space Launch Complex 4E",
@@ -222,7 +222,7 @@
    },
    {
     "count": 7,
-    "last_net": "2026-11-24T07:00:00Z",
+    "last_net": "2026-12-10T07:00:00Z",
     "lat": 19.59755,
     "location": "Wenchang Space Launch Site, People's Republic of China",
     "lon": 110.936481,
@@ -272,21 +272,21 @@
    },
    {
     "count": 5,
+    "last_net": "2026-12-17T00:00:00Z",
+    "lat": 5.256319,
+    "location": "Guiana Space Centre, French Guiana",
+    "lon": -52.786838,
+    "name": "Ariane Launch Area 4",
+    "spacex": false,
+    "top_provider": "Arianespace"
+   },
+   {
+    "count": 5,
     "last_net": "2026-08-10T12:02:00Z",
     "lat": 19.618452,
     "location": "Wenchang Space Launch Site, People's Republic of China",
     "lon": 110.955356,
     "name": "201",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 4,
-    "last_net": "2026-11-18T22:51:00Z",
-    "lat": 38.863128,
-    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
-    "lon": 111.589567,
-    "name": "Launch Complex 9",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
@@ -341,14 +341,14 @@
     "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
    },
    {
-    "count": 4,
-    "last_net": "2026-11-23T11:09:00Z",
-    "lat": 5.256319,
-    "location": "Guiana Space Centre, French Guiana",
-    "lon": -52.786838,
-    "name": "Ariane Launch Area 4",
+    "count": 3,
+    "last_net": "2026-11-18T22:51:00Z",
+    "lat": 38.863128,
+    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "lon": 111.589567,
+    "name": "Launch Complex 9",
     "spacex": false,
-    "top_provider": "Arianespace"
+    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 3,
@@ -359,16 +359,6 @@
     "name": "Launch Complex 3 (LC-3/LA-1)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 3,
-    "last_net": "2026-11-30T00:00:00Z",
-    "lat": 13.7199,
-    "location": "Satish Dhawan Space Centre, India",
-    "lon": 80.2304,
-    "name": "Satish Dhawan Space Centre Second Launch Pad",
-    "spacex": false,
-    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 3,
@@ -389,6 +379,16 @@
     "name": "Launch Complex 39A",
     "spacex": true,
     "top_provider": "SpaceX"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-10-30T18:21:00Z",
+    "lat": 13.7199,
+    "location": "Satish Dhawan Space Centre, India",
+    "lon": 80.2304,
+    "name": "Satish Dhawan Space Centre Second Launch Pad",
+    "spacex": false,
+    "top_provider": "Indian Space Research Organization"
    },
    {
     "count": 2,
@@ -459,6 +459,16 @@
     "name": "Launch Area 91 (SLS-1 / 921)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-11-29T01:00:00Z",
+    "lat": 21.366667,
+    "location": "Haiyang Oriental Spaceport",
+    "lon": 112.116667,
+    "name": "South China Sea (launch location 3)",
+    "spacex": false,
+    "top_provider": "China Rocket Co. Ltd."
    },
    {
     "count": 1,
@@ -612,16 +622,6 @@
    },
    {
     "count": 1,
-    "last_net": "2026-04-11T11:32:00Z",
-    "lat": 21.366667,
-    "location": "Haiyang Oriental Spaceport",
-    "lon": 112.116667,
-    "name": "South China Sea (launch location 3)",
-    "spacex": false,
-    "top_provider": "China Rocket Co. Ltd."
-   },
-   {
-    "count": 1,
     "last_net": "2026-04-07T11:33:00Z",
     "lat": 34.57635,
     "location": "Vandenberg SFB, CA, USA",
@@ -652,7 +652,7 @@
    },
    {
     "count": 1,
-    "last_net": "2026-11-30T00:00:00Z",
+    "last_net": "2026-11-27T00:00:00Z",
     "lat": -39.260881,
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "lon": 177.865826,
@@ -2015,28 +2015,6 @@
   },
   "upcoming": [
    {
-    "description": "Experimental Chinese satellite of unknown purposes.",
-    "id": "e0a11eb1-0bda-4872-b36b-140247fd5c60",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
-    "lat": 38.863128,
-    "lon": 111.589567,
-    "mission": "Shijian 24",
-    "mission_type": "Government/Top Secret",
-    "name": "Long March 2D | Shijian 24",
-    "net": "2026-11-18T22:51:00Z",
-    "net_precision": "MIN",
-    "orbit": "SSO",
-    "pad": "Launch Complex 9",
-    "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "rocket": "Long March 2D",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/e0a11eb1-0bda-4872-b36b-140247fd5c60",
-    "webcast_live": false,
-    "webcasts": []
-   },
-   {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
     "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
@@ -2045,7 +2023,7 @@
     "mission": "USSF-317",
     "mission_type": "Government/Top Secret",
     "name": "Falcon 9 Block 5 | USSF-317",
-    "net": "2026-11-20T04:32:55Z",
+    "net": "2026-11-20T06:43:59Z",
     "net_precision": "SEC",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
@@ -2235,28 +2213,6 @@
     "webcasts": []
    },
    {
-    "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
-    "id": "5ce59e3a-c343-430f-ae4e-e608ba536754",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
-    "lat": 19.59755,
-    "lon": 110.936481,
-    "mission": "SatNet LEO Group TBD?",
-    "mission_type": "Communications",
-    "name": "Long March 12 | SatNet LEO Group TBD?",
-    "net": "2026-11-24T07:00:00Z",
-    "net_precision": "HR",
-    "orbit": "LEO",
-    "pad": "Commercial LC-2",
-    "pad_location": "Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "rocket": "Long March 12",
-    "status": "TBC",
-    "status_name": "To Be Confirmed",
-    "url": "https://nextspaceflight.com/launches/details/5ce59e3a-c343-430f-ae4e-e608ba536754",
-    "webcast_live": false,
-    "webcasts": []
-   },
-   {
     "description": "Shenzhou 24 will be the 24th flight of the Shenzhou program.\r\n\r\nThe first astronaut from Pakistan is expected to fly on this on a short duration mission, with another Chinese astronaut to undergo a year long expedition.",
     "id": "c9605b67-8a53-4239-a8ae-577fe3b79799",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_22_lau_image_thumbnail_20251129175823.jpeg",
@@ -2301,6 +2257,28 @@
     "webcasts": []
    },
    {
+    "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
+    "id": "2093e4fc-ac8c-4296-a1b5-deececee6a72",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+    "lat": -39.260881,
+    "lon": 177.865826,
+    "mission": "Night Owls Never Sleep (StriX Launch 14)",
+    "mission_type": "Earth Science",
+    "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
+    "net": "2026-11-27T00:00:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Unknown Pad",
+    "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "rocket": "Electron",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/2093e4fc-ac8c-4296-a1b5-deececee6a72",
+    "webcast_live": false,
+    "webcasts": []
+   },
+   {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
     "id": "b0d27def-0a88-44c3-a947-1fd5b8503e2c",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
@@ -2329,6 +2307,28 @@
     ]
    },
    {
+    "description": "Details TBD.",
+    "id": "8b46d360-6b3b-423f-9036-d5568e485624",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
+    "lat": 21.366667,
+    "lon": 112.116667,
+    "mission": "Unknown Payload",
+    "mission_type": "Unknown",
+    "name": "Kinetica 1 | Unknown Payload",
+    "net": "2026-11-29T01:00:00Z",
+    "net_precision": "HR",
+    "orbit": "N/A",
+    "pad": "South China Sea (launch location 3)",
+    "pad_location": "Haiyang Oriental Spaceport",
+    "provider": "CAS Space",
+    "rocket": "Kinetica 1",
+    "status": "TBC",
+    "status_name": "To Be Confirmed",
+    "url": "https://nextspaceflight.com/launches/details/8b46d360-6b3b-423f-9036-d5568e485624",
+    "webcast_live": false,
+    "webcasts": []
+   },
+   {
     "description": "This is the 25th flight of the Orbital ATK's uncrewed resupply spacecraft Cygnus and its 24th flight to the International Space Station under the Commercial Resupply Services contract with NASA.",
     "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
@@ -2355,28 +2355,6 @@
       "url": "https://plus.nasa.gov/scheduled-video/nasas-northrop-grumman-commercial-resupply-services-25-launch/"
      }
     ]
-   },
-   {
-    "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
-    "id": "2093e4fc-ac8c-4296-a1b5-deececee6a72",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
-    "lat": -39.260881,
-    "lon": 177.865826,
-    "mission": "StriX Launch 14",
-    "mission_type": "Earth Science",
-    "name": "Electron | StriX Launch 14",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "SSO",
-    "pad": "Unknown Pad",
-    "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "rocket": "Electron",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/2093e4fc-ac8c-4296-a1b5-deececee6a72",
-    "webcast_live": false,
-    "webcasts": []
    },
    {
     "description": "Sixteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
@@ -2478,28 +2456,6 @@
     "webcasts": []
    },
    {
-    "description": "First uncrewed orbital test flight of the Gaganyaan capsule.",
-    "id": "dfac5ab7-7017-454f-b6cf-eeed277a97b5",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg",
-    "lat": 13.7199,
-    "lon": 80.2304,
-    "mission": "Gaganyaan-1",
-    "mission_type": "Test Flight",
-    "name": "LVM-3 | Gaganyaan-1",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad",
-    "pad_location": "Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "rocket": "Launch Vehicle Mark-3 (GSLV Mk III)",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/dfac5ab7-7017-454f-b6cf-eeed277a97b5",
-    "webcast_live": false,
-    "webcasts": []
-   },
-   {
     "description": "Note: Launch vehicle name is provisional.\r\n\r\nFirst orbital full version launch of the South Korean military small satellite launch vehicle, after 2 sub-orbital tests of individual stages on 30 March and 30 December 2022, and 1 orbital test flight without the 2nd stage on 4 December 2023. Details TBD.",
     "id": "9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192440.png",
@@ -2520,8 +2476,52 @@
     "url": "https://nextspaceflight.com/launches/details/9e27a1ed-e81a-4918-b32b-0380cf3a9f8f",
     "webcast_live": false,
     "webcasts": []
+   },
+   {
+    "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
+    "id": "5ce59e3a-c343-430f-ae4e-e608ba536754",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
+    "lat": 19.59755,
+    "lon": 110.936481,
+    "mission": "SatNet LEO Group TBD?",
+    "mission_type": "Communications",
+    "name": "Long March 12 | SatNet LEO Group TBD?",
+    "net": "2026-12-10T07:00:00Z",
+    "net_precision": "HR",
+    "orbit": "LEO",
+    "pad": "Commercial LC-2",
+    "pad_location": "Wenchang Space Launch Site, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 12",
+    "status": "TBC",
+    "status_name": "To Be Confirmed",
+    "url": "https://nextspaceflight.com/launches/details/5ce59e3a-c343-430f-ae4e-e608ba536754",
+    "webcast_live": false,
+    "webcasts": []
+   },
+   {
+    "description": "Second of EUMETSAT's second generation of Metop weather satellites.",
+    "id": "22e117bf-041c-49d5-9d09-7b180036e143",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg",
+    "lat": 5.256319,
+    "lon": -52.786838,
+    "mission": "Metop-SG B1",
+    "mission_type": "Earth Science",
+    "name": "Ariane 62 | Metop-SG B1",
+    "net": "2026-12-17T00:00:00Z",
+    "net_precision": "DAY",
+    "orbit": "SSO",
+    "pad": "Ariane Launch Area 4",
+    "pad_location": "Guiana Space Centre, French Guiana",
+    "provider": "Arianespace",
+    "rocket": "Ariane 62",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/22e117bf-041c-49d5-9d09-7b180036e143",
+    "webcast_live": false,
+    "webcasts": []
    }
   ]
  },
- "fetched_at": "2026-11-19T21:59:42.379236+00:00"
+ "fetched_at": "2026-11-20T02:59:39.984496+00:00"
 }
