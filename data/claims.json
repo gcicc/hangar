@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 168,
+  "times_seen": 169,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 87,
+  "times_seen": 88,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -56,7 +56,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 64,
+  "times_seen": 65,
   "outlets": [
    "Humanoids"
   ]
@@ -76,7 +76,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 64,
+  "times_seen": 65,
   "outlets": [
    "Humanoids",
    "Optimus"
@@ -98,7 +98,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 49,
+  "times_seen": 50,
   "outlets": [
    "Autonomy",
    "Production"
@@ -119,7 +119,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 159,
+  "times_seen": 160,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -140,7 +140,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 65,
+  "times_seen": 66,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -161,7 +161,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 55,
+  "times_seen": 56,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -182,7 +182,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 125,
+  "times_seen": 126,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -204,7 +204,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 78,
+  "times_seen": 79,
   "outlets": [
    "Optimus"
   ]
@@ -222,7 +222,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 12,
+  "times_seen": 13,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -242,7 +242,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 46,
+  "times_seen": 47,
   "outlets": [
    "Optimus"
   ]
@@ -260,7 +260,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 104,
+  "times_seen": 105,
   "outlets": [
    "X"
   ]
@@ -280,9 +280,190 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 2,
+  "times_seen": 3,
   "outlets": [
    "Starlink"
+  ]
+ },
+ {
+  "statement": "Musk says Tesla will end Cybertruck production in 2027 - CBS News",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NGswdEUycm1SMmlwV2dEZHpDQ1JzdUUxdnNJQWRnbEhxVzFHMjJmSS1jcVNwS1FLVHNZSzE1a3FTR21KRWNLb0xSYS02Z1NqSDBuZy1ra1BSNnowQ3VLeHBEUzVIYXM1TGNyMGFtamZPa3FLdWVqTkt6V19LS0E?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-21",
+  "times_seen": 16,
+  "outlets": [
+   "Autonomy",
+   "Production"
+  ]
+ },
+ {
+  "statement": "Musk Says Tesla Will Wind Down Cybertruck Production Next Year To Make Room For Cybercab - Forbes",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUZNLTVPQ29tNld4bHBMTXNQcFhjYmRMdmZEX1A1M3VfUVhiMFlLdlJBZjU2RTZmUTAyczdhcjB2VEFCbHBHV1FtV09NNzRJcHlzX1dOWXRfRTFqQ1FxV1h3NFdJWV93SmpySE5ZWktvQ21zWFR6MHBrT3pWM3N4X09jQXNyakVHVVJzcy1ibzB6ZF81d180X3o5OGM4SXJvM2RmQ3RVVkFvRlZ1NlNxci02bG12MGM?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "autonomy",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-21",
+  "times_seen": 15,
+  "outlets": [
+   "Production",
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Tesla will stop making Cybertrucks in 2027 - The National",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQXVYV21RRlo0WnE0YTBaQ3ZZT1Z1a3pPalFaVG5keklhNWZxQWdHbWMzQUlFSV9lQi1zbHpyZnpsRmxLTDNQMElWQnF0enFSeFFubVZqeU1VTF9iVS1VVnU3dHE2WnhKYmhsZ09ieTZkZmlFNVprbGhBY0lzU1Jkb3BydXJ6czNKN3Zwbk9HNG02dlU4bGJnWVNPWVFjM3M0d2o1ajhOa2h1RDRjT1VtaFpnSGJqUjdvSDF6MkhuNA?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-11-21",
+  "times_seen": 5,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Tesla will phase out Cybertruck production next year, Musk says - Los Angeles Times",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU3MwNzZJT3k1V09xNUxodERwTXlmcGlKNWFJSzV5T1BlZGxkb1drTjVIZnNRY0RxU001cjBnZ0hTXzJoMlZnSlA3Mm8xQVBhWEliX0NabW5FOVAyR0ROckJVX2YzV2diLWV6bFVKMWFsVC1xM2N4SWU5bUtmYnFMbTNyYXFxNjRWaDhrYjBXQ1Q2YzBZUnpxVGhCc2g0LUtQNUxUUmdjR3FBUHo5eDI2aFlR?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-21",
+  "times_seen": 12,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Tesla\u2019s FSD V15 Goes to Wide Release Next Month, Musk Says - Electric Vehicles",
+  "entity": "Tesla",
+  "horizon_phrase": "Next Month",
+  "horizon": "2026-12-31",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaklHcHNZeDJBTUZHSWQ4ZFNtTmpNYVlCRFp3dEtmbXlIR0xOWm9UcU1UTE01ZlFPcDBveVBsZ0VOMGlLSjBzeERDVGR2WF9MNzM5TlVsS01ITWtoaFNWVktHTzh2MXpGeURQRDlnaU5qbHZfNlVVVTBfTGJyUTg4VDk3dURxSmV6TnVXdVlFVVhOVVNDa1lJ?oc=5",
+  "first_seen": "2026-11-21",
+  "topics": [
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-21",
+  "times_seen": 1,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Tesla FSD V15 Coming Next Month, Elon Musk Says: 'Something Special' - Investor's Business Daily",
+  "entity": "Tesla",
+  "horizon_phrase": "Next Month",
+  "horizon": "2026-12-31",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSHBJTzhIWktwYTl2TWhrbkRMOXBJeWhyNjhHYzRHYi1aeXhjT1JTZExZT3ZYNFV5Y1VwVmtTSWxZZUZzaXpKU1o3anBsUF9lYmNuZkFDSFpkX1BTQnVWYU5tMXBvVEwxSDIxc2FlVG55NWJiWTRPdW5QZzRFYlB6QUVWazVCd1d6VkZ3Ql9pUUtfRm8yTHBnYnRQMG8?oc=5",
+  "first_seen": "2026-11-21",
+  "topics": [
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-21",
+  "times_seen": 1,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Tesla FSD v15 to go wide release with the 2026 Holiday Update and mind-bending reality renders in December, says Musk - Tesla Oracle",
+  "entity": "Tesla",
+  "horizon_phrase": "in December",
+  "horizon": "2026-12-31",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNbkp2TDdraUVjbUVzcmdFRnU0LXAtai1rNmJtTW1sYmtyWkY4aXBuZXBRLVFON0RDSERidnRvTzFRcXoxdnF5UHZSX21FcGJNUnBwbW5kMTB2R2l6Z0c3NzBzUHl1RzBmTjhsY3cxRXZVZjZhZ0xOblhiZWtQSWlaSDl5Sk56N3hZdjBDWjJLNTdZQW12VGo1aXB6MnhlRDdpY0JWN3h2WkJkMWMwdjNwRm40YjVYT2dpbEIycDNhYTNMQl94d2otV2xCSXZEOUNUdjE1RFdRZzhDdl9PdlJrZGx4UDhzbk91SGItNA?oc=5",
+  "first_seen": "2026-11-21",
+  "topics": [
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-21",
+  "times_seen": 1,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Tesla FSD V15 Set for Wide Release in December, Musk Says - Drive Tesla Canada",
+  "entity": "Tesla",
+  "horizon_phrase": "in December",
+  "horizon": "2026-12-31",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBfb1NiZWZENm9ReVlUTzA0eHA2ZFloTEJ1SVZEYnhFaS0xdDVDUERDOUphaGc4MVhBaTdDTEZ4UGFaR25ZWDFMMUdJa21IVzZvN0Z6M2lIUkdlLXdkN1U4Yk56bzd4Z2VKRk5mdg?oc=5",
+  "first_seen": "2026-11-21",
+  "topics": [
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-21",
+  "times_seen": 1,
+  "outlets": [
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Musk says Tesla FSD v15 will go wide in December with the holiday update - MLQ.ai",
+  "entity": "Musk",
+  "horizon_phrase": "in December",
+  "horizon": "2026-12-31",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNR3dhWVZkdXpnUkF6MkZObmctbVdOVVktdzktaC13ME1xVnNPOHF0SDV0V2xDYmw1b2hGY3pXS0JNUFllZDhXcDhtT2RaTlRvMm1jdmdTcE9zOUNfWkxGcWRqRFBsaEhJZGdCYjNnOWpZU3ZYcGxzR1R3TlFYSERhZHUyZnIyUXRDTVlkZTh3clRwazJCWVJoOA?oc=5",
+  "first_seen": "2026-11-21",
+  "topics": [
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-21",
+  "times_seen": 1,
+  "outlets": [
+   "Autonomy"
   ]
  },
  {
@@ -308,49 +489,6 @@
   ]
  },
  {
-  "statement": "Musk says Tesla will end Cybertruck production in 2027 - CBS News",
-  "entity": "Musk",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NGswdEUycm1SMmlwV2dEZHpDQ1JzdUUxdnNJQWRnbEhxVzFHMjJmSS1jcVNwS1FLVHNZSzE1a3FTR21KRWNLb0xSYS02Z1NqSDBuZy1ra1BSNnowQ3VLeHBEUzVIYXM1TGNyMGFtamZPa3FLdWVqTkt6V19LS0E?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-20",
-  "times_seen": 15,
-  "outlets": [
-   "Autonomy",
-   "Production"
-  ]
- },
- {
-  "statement": "Musk Says Tesla Will Wind Down Cybertruck Production Next Year To Make Room For Cybercab - Forbes",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUZNLTVPQ29tNld4bHBMTXNQcFhjYmRMdmZEX1A1M3VfUVhiMFlLdlJBZjU2RTZmUTAyczdhcjB2VEFCbHBHV1FtV09NNzRJcHlzX1dOWXRfRTFqQ1FxV1h3NFdJWV93SmpySE5ZWktvQ21zWFR6MHBrT3pWM3N4X09jQXNyakVHVVJzcy1ibzB6ZF81d180X3o5OGM4SXJvM2RmQ3RVVkFvRlZ1NlNxci02bG12MGM?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "autonomy",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-20",
-  "times_seen": 14,
-  "outlets": [
-   "Production",
-   "Autonomy"
-  ]
- },
- {
   "statement": "Tesla to Wind Down Cybertruck Production in Texas Next Year, Elon Musk Says - Bloomberg.com",
   "entity": "Tesla",
   "horizon_phrase": "Next Year",
@@ -366,24 +504,6 @@
   "primary": false,
   "last_seen": "2026-11-20",
   "times_seen": 9,
-  "outlets": [
-   "Production"
-  ]
- },
- {
-  "statement": "Elon Musk says Tesla will stop making Cybertrucks in 2027 - The National",
-  "entity": "Musk",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQXVYV21RRlo0WnE0YTBaQ3ZZT1Z1a3pPalFaVG5keklhNWZxQWdHbWMzQUlFSV9lQi1zbHpyZnpsRmxLTDNQMElWQnF0enFSeFFubVZqeU1VTF9iVS1VVnU3dHE2WnhKYmhsZ09ieTZkZmlFNVprbGhBY0lzU1Jkb3BydXJ6czNKN3Zwbk9HNG02dlU4bGJnWVNPWVFjM3M0d2o1ajhOa2h1RDRjT1VtaFpnSGJqUjdvSDF6MkhuNA?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-11-20",
-  "times_seen": 4,
   "outlets": [
    "Production"
   ]
@@ -662,26 +782,6 @@
   "times_seen": 10,
   "outlets": [
    "Autonomy"
-  ]
- },
- {
-  "statement": "Tesla will phase out Cybertruck production next year, Musk says - Los Angeles Times",
-  "entity": "Tesla",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU3MwNzZJT3k1V09xNUxodERwTXlmcGlKNWFJSzV5T1BlZGxkb1drTjVIZnNRY0RxU001cjBnZ0hTXzJoMlZnSlA3Mm8xQVBhWEliX0NabW5FOVAyR0ROckJVX2YzV2diLWV6bFVKMWFsVC1xM2N4SWU5bUtmYnFMbTNyYXFxNjRWaDhrYjBXQ1Q2YzBZUnpxVGhCc2g0LUtQNUxUUmdjR3FBUHo5eDI2aFlR?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-09",
-  "times_seen": 11,
-  "outlets": [
-   "Production"
   ]
  },
  {
@@ -2316,104 +2416,6 @@
   "times_seen": 2,
   "outlets": [
    "SPCX"
-  ]
- },
- {
-  "statement": "Musk pledges a SpaceX share to every American child next year - The Tech Portal",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQczdobGR5cmg5dFVkQVRTUkNIS0Q1akd1b1JQVWVLX3htWU0wQkgxR2s1MkFkZnJGSWZuazFKR1hQVEppeHpSRHNxRDNvNWlNSGhRYlIwOWdJd2pZal8xRFVKVS0zNmhpZll3by10cXk4SlhwTFYtRTlrcVFFejg4Z05uM1JLUzJxNkI2MUtkT2NUWnRvX2dBNEFyT0lJSnVr?oc=5",
-  "first_seen": "2026-10-19",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-19",
-  "times_seen": 1,
-  "outlets": [
-   "SPCX"
-  ]
- },
- {
-  "statement": "Tesla Roadster Re-Reveal Promises New Design, Flight, Production In 2028 - Jalopnik",
-  "entity": "Tesla",
-  "horizon_phrase": "In 2028",
-  "horizon": "2028-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVzc4d1pPa2twaG5tRTU2c0s3SnZ4eDVUQ1VKWUZRUGQ1N195eUZuVjFhblVUdnVua19JR1BLRS0zdUtidXFUUVlmd1VRVW4yYkVqdE1sWnlFeXMwTnhkMzYwakdTYlhPclRxT1pUQ0JDZDFGcDNQYXFSbFpNWFF3ZGhtb3BydUlvMzUzNlkzSlBFWUpTNDZYM2hqUlhXMnVGZGc?oc=5",
-  "first_seen": "2026-10-16",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-18",
-  "times_seen": 13,
-  "outlets": [
-   "Production"
-  ]
- },
- {
-  "statement": "Tesla showcases flying car prototype while robotics market projected to reach $5 trillion by 2050 - Global Sources",
-  "entity": "Tesla",
-  "horizon_phrase": "by 2050",
-  "horizon": "2050-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPWFoxMTZmeV9QWDE5VktXSWJVS1FsODFMM3NvQ1ZzbGdGVVVsQzZleFNnZzVJN245bXB1RjhxUXJKalcwOWZzUTNGbEFBdUdYb01vNEZQNzJfUVRDQnZuU3dwWUlxQWtOalgxU3lrc0Z3QThIWTVDZWhqY2NLdlZ5Y1g0STktR2VSbW10VlhWLVFyRWl1bDlUNVRUcUV3dTVKSG5yaFlIUnV1UEdRd09KSmNfOE90b1I5aFV6SHhfcmQzNGhaZXBvWG1RVkpIQ2hFUHhMQW9CMFBXS3ZWbVVKdldiNGY1cWdmR0RtRHluVjR4VjhLUWc?oc=5",
-  "first_seen": "2026-10-17",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-10-18",
-  "times_seen": 6,
-  "outlets": [
-   "Humanoids"
-  ]
- },
- {
-  "statement": "Elon Musk promises production of Revamped Tesla Roadster in 2028 | Morning in America - NewsNation",
-  "entity": "Musk",
-  "horizon_phrase": "in 2028",
-  "horizon": "2028-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPQW5CNVg2Q2ltbjJsbXJBSWg5YnJ2X2k2V2JSN1RqZHp0b01vbjF4QkNfUE1DZW5KYUd2Rzh6XzZHOGdGNHZRU0lqM3p6ekw4S0MxQW5vQ1BtMGI5S05KeVdzM3JoT1RzdHhNNzR5UkhmX2lLRVFCamw2blBSQzBkTlotU21MeG5tVGphZGQ1ZGg4ekVDTWFpTTdXb0d2WUJSRjE4bEhEMzM3MEN3eGdGMHJRR2pFZnhrcDcybHVFdzU4YTgxSFE3Yg?oc=5",
-  "first_seen": "2026-10-17",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-18",
-  "times_seen": 6,
-  "outlets": [
-   "Production"
-  ]
- },
- {
-  "statement": "Elon Musk Says Grok Will Make an AI \u2018Odyssey\u2019 Film That Is \u2018Historically Accurate\u2019 by the End of the Year - Variety",
-  "entity": "Musk",
-  "horizon_phrase": "by the End of the Year",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Grok",
-  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYXhhYkFvMzFseUd0Q3JIamVQaGZ4bUxmM2poM3RHX2N5Y1JiSTNYTTdsWWZLZ0RZQ25lSmpYYlNQUzhzVU5OVWhYazlVdl9seTB3bFUyVTZIVldkUUtmbzR0Q05MX2xoczJ2dkloMmQzVzZqc0F6djVFSzhDMXF1NU83cE1NYTRxMG5qdVkzX0JwYzhGa3RCa1Z4dlVQRjFHYUJr?oc=5",
-  "first_seen": "2026-10-17",
-  "topics": [
-   "ai"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-17",
-  "times_seen": 1,
-  "outlets": [
-   "Grok"
   ]
  }
 ]
