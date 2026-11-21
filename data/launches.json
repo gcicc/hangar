@@ -140,8 +140,8 @@
    "mission": "USSF-317",
    "mission_type": "Government/Top Secret",
    "name": "Falcon 9 Block 5 | USSF-317",
-   "net": "2026-11-21T02:32:00Z",
-   "net_precision": "MIN",
+   "net": "2026-11-21T04:20:35Z",
+   "net_precision": "SEC",
    "orbit": "LEO",
    "pad": "Space Launch Complex 4E",
    "pad_location": "Vandenberg SFB, CA, USA",
@@ -171,8 +171,8 @@
   },
   "pads": [
    {
-    "count": 58,
-    "last_net": "2026-11-30T00:00:00Z",
+    "count": 55,
+    "last_net": "2026-11-29T04:39:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
     "lon": -120.611,
@@ -182,7 +182,7 @@
    },
    {
     "count": 30,
-    "last_net": "2026-11-29T15:47:00Z",
+    "last_net": "2026-11-29T15:50:00Z",
     "lat": 28.56194122,
     "location": "Cape Canaveral SFS, FL, USA",
     "lon": -80.57735736,
@@ -191,22 +191,22 @@
     "top_provider": "SpaceX"
    },
    {
+    "count": 10,
+    "last_net": "2026-11-29T03:50:00Z",
+    "lat": 38.8583,
+    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "lon": 111.5802,
+    "name": "Launch Complex 9A",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
     "count": 9,
     "last_net": "2026-11-20T11:59:00Z",
     "lat": 19.597275,
     "location": "Wenchang Space Launch Site, People's Republic of China",
     "lon": 110.930753,
     "name": "Commercial LC-1",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 9,
-    "last_net": "2026-11-21T03:50:00Z",
-    "lat": 38.8583,
-    "location": "Taiyuan Satellite Launch Center, People's Republic of China",
-    "lon": 111.5802,
-    "name": "Launch Complex 9A",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
@@ -269,6 +269,16 @@
     "name": "Launch Area 130",
     "spacex": false,
     "top_provider": "CAS Space"
+   },
+   {
+    "count": 5,
+    "last_net": "2026-12-17T00:00:00Z",
+    "lat": 5.256319,
+    "location": "Guiana Space Centre, French Guiana",
+    "lon": -52.786838,
+    "name": "Ariane Launch Area 4",
+    "spacex": false,
+    "top_provider": "Arianespace"
    },
    {
     "count": 5,
@@ -339,16 +349,6 @@
     "name": "31/6",
     "spacex": false,
     "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
-   },
-   {
-    "count": 4,
-    "last_net": "2026-11-23T11:09:00Z",
-    "lat": 5.256319,
-    "location": "Guiana Space Centre, French Guiana",
-    "lon": -52.786838,
-    "name": "Ariane Launch Area 4",
-    "spacex": false,
-    "top_provider": "Arianespace"
    },
    {
     "count": 3,
@@ -659,6 +659,16 @@
     "name": "ADD Offshore launch platform",
     "spacex": false,
     "top_provider": "Agency for Defense Development"
+   },
+   {
+    "count": 1,
+    "last_net": "2026-12-31T00:00:00Z",
+    "lat": 28.458,
+    "location": "Cape Canaveral SFS, FL, USA",
+    "lon": -80.528,
+    "name": "Unknown Pad",
+    "spacex": true,
+    "top_provider": "SpaceX"
    }
   ],
   "passengers": [
@@ -678,18 +688,18 @@
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
     "lat": 19.597275,
     "lon": 110.930753,
-    "mission": "SatNet LEO Group TBD?",
+    "mission": "SatNet LEO Group 30",
     "mission_type": "Communications",
-    "name": "Long March 8A | SatNet LEO Group TBD?",
+    "name": "Long March 8A | SatNet LEO Group 30",
     "net": "2026-11-20T11:59:00Z",
-    "net_precision": "HR",
+    "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Commercial LC-1",
     "pad_location": "Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "rocket": "Long March 8A",
-    "status": "In Flight",
-    "status_name": "Launch in Flight",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/a2975167-7c6f-4403-99e1-b40df17c8140",
     "webcast_live": false,
     "webcasts": []
@@ -2010,18 +2020,18 @@
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
     "lat": 19.597275,
     "lon": 110.930753,
-    "mission": "SatNet LEO Group TBD?",
+    "mission": "SatNet LEO Group 30",
     "mission_type": "Communications",
-    "name": "Long March 8A | SatNet LEO Group TBD?",
+    "name": "Long March 8A | SatNet LEO Group 30",
     "net": "2026-11-20T11:59:00Z",
-    "net_precision": "HR",
+    "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Commercial LC-1",
     "pad_location": "Wenchang Space Launch Site, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "rocket": "Long March 8A",
-    "status": "In Flight",
-    "status_name": "Launch in Flight",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/a2975167-7c6f-4403-99e1-b40df17c8140",
     "webcast_live": false,
     "webcasts": [
@@ -2041,8 +2051,8 @@
     "mission": "USSF-317",
     "mission_type": "Government/Top Secret",
     "name": "Falcon 9 Block 5 | USSF-317",
-    "net": "2026-11-21T02:32:00Z",
-    "net_precision": "MIN",
+    "net": "2026-11-21T04:20:35Z",
+    "net_precision": "SEC",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
     "pad_location": "Vandenberg SFB, CA, USA",
@@ -2071,28 +2081,6 @@
     ]
    },
    {
-    "description": "Details TBD.",
-    "id": "13270554-4bdb-42ae-916f-1bb54492204f",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-6c_on_the_la_image_thumbnail_20240507065153.jpeg",
-    "lat": 38.8583,
-    "lon": 111.5802,
-    "mission": "Unknown Payload",
-    "mission_type": "Unknown",
-    "name": "Long March 6C | Unknown Payload",
-    "net": "2026-11-21T03:50:00Z",
-    "net_precision": "HR",
-    "orbit": "N/A",
-    "pad": "Launch Complex 9A",
-    "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "rocket": "Long March 6C",
-    "status": "Go",
-    "status_name": "Go for Launch",
-    "url": "https://nextspaceflight.com/launches/details/13270554-4bdb-42ae-916f-1bb54492204f",
-    "webcast_live": false,
-    "webcasts": []
-   },
-   {
     "description": "Fifteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
     "id": "951a341f-236b-42fe-a667-4ab2fcf36eac",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241024165957.jpeg",
@@ -2101,7 +2089,7 @@
     "mission": "NROL-136",
     "mission_type": "Government/Top Secret",
     "name": "Falcon 9 Block 5 | NROL-136",
-    "net": "2026-11-21T12:30:00Z",
+    "net": "2026-11-22T12:16:00Z",
     "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Space Launch Complex 4E",
@@ -2117,6 +2105,11 @@
       "official": true,
       "publisher": "X",
       "url": "https://x.com/i/broadcasts/2yboJapzrmYNbe"
+     },
+     {
+      "official": false,
+      "publisher": "SPACE AFFAIRS",
+      "url": "https://www.youtube.com/watch?v=CjN4lPx7mD8"
      }
     ]
    },
@@ -2159,34 +2152,6 @@
     ]
    },
    {
-    "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
-    "id": "460d9db7-eaf6-4cd9-b095-cff433534c09",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "USSF-266",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | USSF-266",
-    "net": "2026-11-23T16:04:00Z",
-    "net_precision": "MIN",
-    "orbit": "PO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
-    "url": "https://nextspaceflight.com/launches/details/460d9db7-eaf6-4cd9-b095-cff433534c09",
-    "webcast_live": false,
-    "webcasts": [
-     {
-      "official": true,
-      "publisher": "X",
-      "url": "https://x.com/i/broadcasts/2JQXBjLyYOQrpX"
-     }
-    ]
-   },
-   {
     "description": "Progress resupply mission to the International Space Station.",
     "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
@@ -2207,6 +2172,34 @@
     "url": "https://nextspaceflight.com/launches/details/8dd5de11-831b-445f-86f0-bffefe0550d9",
     "webcast_live": false,
     "webcasts": []
+   },
+   {
+    "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of ascent rocket stage drop zones being fits with previous SDA Transport Layer launches.",
+    "id": "460d9db7-eaf6-4cd9-b095-cff433534c09",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "USSF-266",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | USSF-266",
+    "net": "2026-11-24T15:55:00Z",
+    "net_precision": "MIN",
+    "orbit": "PO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/460d9db7-eaf6-4cd9-b095-cff433534c09",
+    "webcast_live": false,
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "X",
+      "url": "https://x.com/i/broadcasts/2JQXBjLyYOQrpX"
+     }
+    ]
    },
    {
     "description": "Shenzhou 24 will be the 24th flight of the Shenzhou program.\r\n\r\nThe first astronaut from Pakistan is expected to fly on this on a short duration mission, with another Chinese astronaut to undergo a year long expedition.",
@@ -2297,32 +2290,26 @@
     "webcasts": []
    },
    {
-    "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
-    "id": "b0d27def-0a88-44c3-a947-1fd5b8503e2c",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "USSF-380",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | USSF-380",
-    "net": "2026-11-28T04:53:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
+    "description": "Details TBD.",
+    "id": "a6421db3-7c8a-4cf7-a659-cec195140f7f",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
+    "lat": 38.8583,
+    "lon": 111.5802,
+    "mission": "Unknown Payload",
+    "mission_type": "Unknown",
+    "name": "Long March 6A | Unknown Payload",
+    "net": "2026-11-27T13:00:00Z",
+    "net_precision": "HR",
+    "orbit": "N/A",
+    "pad": "Launch Complex 9A",
+    "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 6A",
     "status": "Go",
     "status_name": "Go for Launch",
-    "url": "https://nextspaceflight.com/launches/details/b0d27def-0a88-44c3-a947-1fd5b8503e2c",
+    "url": "https://nextspaceflight.com/launches/details/a6421db3-7c8a-4cf7-a659-cec195140f7f",
     "webcast_live": false,
-    "webcasts": [
-     {
-      "official": true,
-      "publisher": "X",
-      "url": "https://x.com/i/broadcasts/2ybQqgpAAEJmBB"
-     }
-    ]
+    "webcasts": []
    },
    {
     "description": "Details TBD.",
@@ -2347,6 +2334,56 @@
     "webcasts": []
    },
    {
+    "description": "Details TBD.",
+    "id": "13270554-4bdb-42ae-916f-1bb54492204f",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-6c_on_the_la_image_thumbnail_20240507065153.jpeg",
+    "lat": 38.8583,
+    "lon": 111.5802,
+    "mission": "Unknown Payload",
+    "mission_type": "Unknown",
+    "name": "Long March 6C | Unknown Payload",
+    "net": "2026-11-29T03:50:00Z",
+    "net_precision": "HR",
+    "orbit": "N/A",
+    "pad": "Launch Complex 9A",
+    "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 6C",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/13270554-4bdb-42ae-916f-1bb54492204f",
+    "webcast_live": false,
+    "webcasts": []
+   },
+   {
+    "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
+    "id": "b0d27def-0a88-44c3-a947-1fd5b8503e2c",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "USSF-380",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | USSF-380",
+    "net": "2026-11-29T04:39:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Go",
+    "status_name": "Go for Launch",
+    "url": "https://nextspaceflight.com/launches/details/b0d27def-0a88-44c3-a947-1fd5b8503e2c",
+    "webcast_live": false,
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "X",
+      "url": "https://x.com/i/broadcasts/2ybQqgpAAEJmBB"
+     }
+    ]
+   },
+   {
     "description": "This is the 25th flight of the Orbital ATK's uncrewed resupply spacecraft Cygnus and its 24th flight to the International Space Station under the Commercial Resupply Services contract with NASA.",
     "id": "d74afbc7-0de5-491c-be05-4e9c31f736ac",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
@@ -2355,7 +2392,7 @@
     "mission": "Cygnus CRS-2 NG-25",
     "mission_type": "Resupply",
     "name": "Falcon 9 Block 5 | Cygnus CRS-2 NG-25",
-    "net": "2026-11-29T15:47:00Z",
+    "net": "2026-11-29T15:50:00Z",
     "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "Space Launch Complex 40",
@@ -2371,83 +2408,11 @@
       "official": true,
       "publisher": "NASA",
       "url": "https://plus.nasa.gov/scheduled-video/nasas-northrop-grumman-commercial-resupply-services-25-launch/"
-     }
-    ]
-   },
-   {
-    "description": "Sixteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
-    "id": "56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241024165957.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "NROL-195",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | NROL-195",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
-    "webcast_live": false,
-    "webcasts": []
-   },
-   {
-    "description": "A batch of 32 satellites for the OneWeb satellite constellation, which is intended to provide global Internet broadband service for individual consumers. The constellation is planned to have around 648 microsatellites (of which 60 are spares), around 150 kg each, operating in Ku-band from low Earth orbit.",
-    "id": "b0dc988c-ea4a-423f-81b6-6b0fbe7cc17c",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20241020164114.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "OneWeb 21",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | OneWeb 21",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "PO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/b0dc988c-ea4a-423f-81b6-6b0fbe7cc17c",
-    "webcast_live": false,
-    "webcasts": []
-   },
-   {
-    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
-    "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "Starlink Group 15-21",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-21",
-    "net": "2026-11-30T00:00:00Z",
-    "net_precision": "M",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "TBD",
-    "status_name": "To Be Determined",
-    "url": "https://nextspaceflight.com/launches/details/3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
-    "webcast_live": false,
-    "webcasts": [
-     {
-      "official": true,
-      "publisher": "SpaceX",
-      "url": "https://x.com/i/broadcasts/1aJbdEgvmWaKX"
      },
      {
-      "official": false,
-      "publisher": "SPACE AFFAIRS",
-      "url": "https://www.youtube.com/watch?v=z9uME3O2xHk"
+      "official": true,
+      "publisher": "X",
+      "url": "https://x.com/i/broadcasts/2gqOaJVRyzQolq"
      }
     ]
    },
@@ -2516,8 +2481,52 @@
     "url": "https://nextspaceflight.com/launches/details/5ce59e3a-c343-430f-ae4e-e608ba536754",
     "webcast_live": false,
     "webcasts": []
+   },
+   {
+    "description": "Second of EUMETSAT's second generation of Metop weather satellites.",
+    "id": "22e117bf-041c-49d5-9d09-7b180036e143",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg",
+    "lat": 5.256319,
+    "lon": -52.786838,
+    "mission": "Metop-SG B1",
+    "mission_type": "Earth Science",
+    "name": "Ariane 62 | Metop-SG B1",
+    "net": "2026-12-17T00:00:00Z",
+    "net_precision": "DAY",
+    "orbit": "SSO",
+    "pad": "Ariane Launch Area 4",
+    "pad_location": "Guiana Space Centre, French Guiana",
+    "provider": "Arianespace",
+    "rocket": "Ariane 62",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/22e117bf-041c-49d5-9d09-7b180036e143",
+    "webcast_live": false,
+    "webcasts": []
+   },
+   {
+    "description": "CHORUS is MDA's next generation Earth observation constellation, consisting of 2 radar satellites (C-band SAR and X-band SAR), in a 53.5 degree 600 km altitude LEO, with the X-band trailing the C-band by 60 minutes. A collaborative multi-sensor constellation, CHORUS will bring together diverse and unique imagery and data sources and provide a new level of near real-time insight and innovative Eart",
+    "id": "8bf5f61e-a7e1-41e6-aede-7b87e4beebab",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+    "lat": 28.458,
+    "lon": -80.528,
+    "mission": "CHORUS",
+    "mission_type": "Earth Science",
+    "name": "Falcon 9 Block 5 | CHORUS",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Unknown Pad",
+    "pad_location": "Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/8bf5f61e-a7e1-41e6-aede-7b87e4beebab",
+    "webcast_live": false,
+    "webcasts": []
    }
   ]
  },
- "fetched_at": "2026-11-20T12:35:34.447630+00:00"
+ "fetched_at": "2026-11-21T03:01:15.384336+00:00"
 }
