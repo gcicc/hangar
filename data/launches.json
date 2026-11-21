@@ -127,21 +127,21 @@
     14,
     8,
     11,
-    3
+    4
    ]
   },
   "calls_used": 4,
   "next": {
-   "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
-   "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
+   "description": "Fifteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
+   "id": "951a341f-236b-42fe-a667-4ab2fcf36eac",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241024165957.jpeg",
    "lat": 34.632,
    "lon": -120.611,
-   "mission": "USSF-317",
+   "mission": "NROL-136",
    "mission_type": "Government/Top Secret",
-   "name": "Falcon 9 Block 5 | USSF-317",
-   "net": "2026-11-21T04:20:35Z",
-   "net_precision": "SEC",
+   "name": "Falcon 9 Block 5 | NROL-136",
+   "net": "2026-11-22T12:16:00Z",
+   "net_precision": "MIN",
    "orbit": "LEO",
    "pad": "Space Launch Complex 4E",
    "pad_location": "Vandenberg SFB, CA, USA",
@@ -149,29 +149,24 @@
    "rocket": "Falcon 9 Block 5",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/76617033-4dc0-4448-b50c-e5b0d5a18539",
+   "url": "https://nextspaceflight.com/launches/details/951a341f-236b-42fe-a667-4ab2fcf36eac",
    "webcast_live": false,
    "webcasts": [
     {
      "official": true,
      "publisher": "X",
-     "url": "https://x.com/i/broadcasts/2lgkMvaRVPMdYR"
+     "url": "https://x.com/i/broadcasts/2yboJapzrmYNbe"
     },
     {
      "official": false,
      "publisher": "SPACE AFFAIRS",
-     "url": "https://www.youtube.com/watch?v=Zi7vbfr5FPI"
-    },
-    {
-     "official": false,
-     "publisher": "Spaceflight Now",
-     "url": "https://www.youtube.com/watch?v=fk84K7QVWgw"
+     "url": "https://www.youtube.com/watch?v=CjN4lPx7mD8"
     }
    ]
   },
   "pads": [
    {
-    "count": 55,
+    "count": 56,
     "last_net": "2026-11-29T04:39:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -182,7 +177,7 @@
    },
    {
     "count": 30,
-    "last_net": "2026-11-29T15:50:00Z",
+    "last_net": "2026-12-31T00:00:00Z",
     "lat": 28.56194122,
     "location": "Cape Canaveral SFS, FL, USA",
     "lon": -80.57735736,
@@ -201,7 +196,7 @@
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
-    "count": 9,
+    "count": 8,
     "last_net": "2026-11-20T11:59:00Z",
     "lat": 19.597275,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -682,6 +677,28 @@
    }
   ],
   "previous": [
+   {
+    "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
+    "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "USSF-317",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | USSF-317",
+    "net": "2026-11-21T04:20:35Z",
+    "net_precision": "SEC",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/76617033-4dc0-4448-b50c-e5b0d5a18539",
+    "webcast_live": false,
+    "webcasts": []
+   },
    {
     "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
     "id": "a2975167-7c6f-4403-99e1-b40df17c8140",
@@ -1979,28 +1996,6 @@
     "url": "https://nextspaceflight.com/launches/details/1b23eb18-e06e-4058-9b42-e95ca0980511",
     "webcast_live": false,
     "webcasts": []
-   },
-   {
-    "description": "GISAT-1A (GEO Imaging Satellite) is an Indian earth observing satellite operating from geostationary orbit to facilitate continuous observation of Indian sub-continent, quick monitoring of natural hazards and disaster.\r\n\r\nEOS-05/GISAT-1A will replace EOS-03/GISAT-1 lost in launch failure in 2021.",
-    "id": "17d0ec68-f466-4916-9dc5-16123eda6484",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193640.jpeg",
-    "lat": 13.7199,
-    "lon": 80.2304,
-    "mission": "GISAT-1A (EOS-05)",
-    "mission_type": "Earth Science",
-    "name": "GSLV Mk II | GISAT-1A (EOS-05)",
-    "net": "2026-09-03T21:25:00Z",
-    "net_precision": "SEC",
-    "orbit": "GTO",
-    "pad": "Satish Dhawan Space Centre Second Launch Pad",
-    "pad_location": "Satish Dhawan Space Centre, India",
-    "provider": "Indian Space Research Organization",
-    "rocket": "GSLV Mk. II",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/17d0ec68-f466-4916-9dc5-16123eda6484",
-    "webcast_live": false,
-    "webcasts": []
    }
   ],
   "totals": {
@@ -2009,39 +2004,11 @@
    "spacex_sampled": 87,
    "spacex_share": 0.435,
    "window": {
-    "from": "2026-04-02",
-    "to": "2026-11-20"
+    "from": "2026-04-03",
+    "to": "2026-11-21"
    }
   },
   "upcoming": [
-   {
-    "description": "A batch of 9 Low Earth Orbit communication satellites for the Chinese state owned SatNet constellation operated by the China Satellite Network Group.\r\n\r\nThe constellation will eventually consists of 13000 satellites.",
-    "id": "a2975167-7c6f-4403-99e1-b40df17c8140",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
-    "lat": 19.597275,
-    "lon": 110.930753,
-    "mission": "SatNet LEO Group 30",
-    "mission_type": "Communications",
-    "name": "Long March 8A | SatNet LEO Group 30",
-    "net": "2026-11-20T11:59:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Commercial LC-1",
-    "pad_location": "Wenchang Space Launch Site, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "rocket": "Long March 8A",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/a2975167-7c6f-4403-99e1-b40df17c8140",
-    "webcast_live": false,
-    "webcasts": [
-     {
-      "official": false,
-      "publisher": "International Rocket Launches",
-      "url": "https://www.youtube.com/watch?v=dUxmQvNnQEI"
-     }
-    ]
-   },
    {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
     "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
@@ -2058,8 +2025,8 @@
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/76617033-4dc0-4448-b50c-e5b0d5a18539",
     "webcast_live": false,
     "webcasts": [
@@ -2070,8 +2037,8 @@
      },
      {
       "official": false,
-      "publisher": "SPACE AFFAIRS",
-      "url": "https://www.youtube.com/watch?v=Zi7vbfr5FPI"
+      "publisher": "The Space Devs",
+      "url": "https://www.youtube.com/watch?v=NejEgXnJzBM"
      },
      {
       "official": false,
@@ -2525,8 +2492,30 @@
     "url": "https://nextspaceflight.com/launches/details/8bf5f61e-a7e1-41e6-aede-7b87e4beebab",
     "webcast_live": false,
     "webcasts": []
+   },
+   {
+    "description": "The Globalstar global mobile communications network offers global, digital real time voice, data and fax services via its Low Earth Orbit satellite constellation. The constellation operates in a 1410 km orbit inclined at 52 degrees.\r\n\r\nIn early 2022, Globalstar contracted with MDA for the construction of 17 new 2nd generation refresh satellites to replenish the existing constellation. Rocket Lab i",
+    "id": "e61d353c-db55-4a57-8184-0fab187231e6",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+    "lat": 28.56194122,
+    "lon": -80.57735736,
+    "mission": "Globalstar 2-R Mission 2 (x 9)",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 2 (x 9)",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 40",
+    "pad_location": "Cape Canaveral SFS, FL, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/e61d353c-db55-4a57-8184-0fab187231e6",
+    "webcast_live": false,
+    "webcasts": []
    }
   ]
  },
- "fetched_at": "2026-11-21T03:01:15.384336+00:00"
+ "fetched_at": "2026-11-21T12:14:48.706498+00:00"
 }

@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 167,
+  "times_seen": 168,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 86,
+  "times_seen": 87,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -56,7 +56,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 63,
+  "times_seen": 64,
   "outlets": [
    "Humanoids"
   ]
@@ -76,7 +76,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 63,
+  "times_seen": 64,
   "outlets": [
    "Humanoids",
    "Optimus"
@@ -98,7 +98,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 48,
+  "times_seen": 49,
   "outlets": [
    "Autonomy",
    "Production"
@@ -119,7 +119,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 158,
+  "times_seen": 159,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -140,7 +140,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 64,
+  "times_seen": 65,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -161,7 +161,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 54,
+  "times_seen": 55,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -182,7 +182,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 124,
+  "times_seen": 125,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -204,7 +204,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 77,
+  "times_seen": 78,
   "outlets": [
    "Optimus"
   ]
@@ -222,7 +222,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 11,
+  "times_seen": 12,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -242,7 +242,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-21",
-  "times_seen": 45,
+  "times_seen": 46,
   "outlets": [
    "Optimus"
   ]
@@ -259,10 +259,30 @@
   "first_seen": "2026-10-14",
   "topics": [],
   "primary": false,
-  "last_seen": "2026-11-20",
-  "times_seen": 103,
+  "last_seen": "2026-11-21",
+  "times_seen": 104,
   "outlets": [
    "X"
+  ]
+ },
+ {
+  "statement": "\u200bReliance Plans 1,600-Satellite Broadband Network by 2035 to Rival Starlink in India - The 420.in",
+  "entity": "Starlink",
+  "horizon_phrase": "by 2035",
+  "horizon": "2035-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Starlink",
+  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa2NuR0hUbkprTmRSdmtVaVZ0WVNqZjZUcks4eVVTYlpmOEt6RExVRV9NbUpVV2czOTQ5TTdQNFdEN1pmWTUyRHhVUU9lUHM2bTBIUFJ1aXdKeDdjZDQtTUZBam9kTk5ydm1JZExLVUtKSDBqYlNTNk5Gcm5MVVEwRzBvVkpuOF96N0RxcDZMS3VEZ21vTi1QV1Jqd2xXUUhJMS1r?oc=5",
+  "first_seen": "2026-11-18",
+  "topics": [
+   "starlink"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-21",
+  "times_seen": 2,
+  "outlets": [
+   "Starlink"
   ]
  },
  {
@@ -444,26 +464,6 @@
   "times_seen": 6,
   "outlets": [
    "SPCX"
-  ]
- },
- {
-  "statement": "\u200bReliance Plans 1,600-Satellite Broadband Network by 2035 to Rival Starlink in India - The 420.in",
-  "entity": "Starlink",
-  "horizon_phrase": "by 2035",
-  "horizon": "2035-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Starlink",
-  "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa2NuR0hUbkprTmRSdmtVaVZ0WVNqZjZUcks4eVVTYlpmOEt6RExVRV9NbUpVV2czOTQ5TTdQNFdEN1pmWTUyRHhVUU9lUHM2bTBIUFJ1aXdKeDdjZDQtTUZBam9kTk5ydm1JZExLVUtKSDBqYlNTNk5Gcm5MVVEwRzBvVkpuOF96N0RxcDZMS3VEZ21vTi1QV1Jqd2xXUUhJMS1r?oc=5",
-  "first_seen": "2026-11-18",
-  "topics": [
-   "starlink"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-18",
-  "times_seen": 1,
-  "outlets": [
-   "Starlink"
   ]
  },
  {
