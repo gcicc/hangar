@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 171,
+  "times_seen": 172,
   "outlets": [
    "Neuralink"
   ]
@@ -35,7 +35,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 90,
+  "times_seen": 91,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -56,7 +56,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 67,
+  "times_seen": 68,
   "outlets": [
    "Humanoids"
   ]
@@ -76,7 +76,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 67,
+  "times_seen": 68,
   "outlets": [
    "Humanoids",
    "Optimus"
@@ -98,7 +98,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 52,
+  "times_seen": 53,
   "outlets": [
    "Autonomy",
    "Production"
@@ -119,7 +119,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 162,
+  "times_seen": 163,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -140,7 +140,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 68,
+  "times_seen": 69,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -161,7 +161,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 58,
+  "times_seen": 59,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -182,7 +182,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 128,
+  "times_seen": 129,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -204,7 +204,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 80,
+  "times_seen": 81,
   "outlets": [
    "Optimus"
   ]
@@ -222,7 +222,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 15,
+  "times_seen": 16,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -242,7 +242,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 49,
+  "times_seen": 50,
   "outlets": [
    "Optimus"
   ]
@@ -260,7 +260,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 107,
+  "times_seen": 108,
   "outlets": [
    "X"
   ]
@@ -300,7 +300,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "Autonomy"
   ]
@@ -320,7 +320,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "Autonomy"
   ]
@@ -340,7 +340,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 3,
+  "times_seen": 4,
   "outlets": [
    "Autonomy"
   ]
@@ -425,7 +425,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 2,
+  "times_seen": 3,
   "outlets": [
    "Autonomy"
   ]
@@ -445,7 +445,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-22",
-  "times_seen": 2,
+  "times_seen": 3,
   "outlets": [
    "Autonomy"
   ]
@@ -469,6 +469,48 @@
   "times_seen": 26,
   "outlets": [
    "Optimus"
+  ]
+ },
+ {
+  "statement": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year - WSJ",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09OVGpVM3FDM3I4RzJVTnVHcDk5c0Z5aHVEVS1BZ2RDRnVpQU13Yld0VTdWS0xBb3JGbWVzSHhZU0J0cVVUWjBlZWVNM3FDTGJOOWtFN2EwMTlkN1VmcjJSTDhiVnpYMFByX2c4RFhfd3pRSU0tSEhtcnlldGx1NU9GWGo3aVctSFRvTg?oc=5",
+  "first_seen": "2026-10-22",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-22",
+  "times_seen": 51,
+  "outlets": [
+   "Humanoids",
+   "Optimus",
+   "TSLA"
+  ]
+ },
+ {
+  "statement": "Musk pledges to give a share of his SpaceX company to 'every kid in America' next year - PBS",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "TSLA",
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMzNoSnpDZlNJZTkxRXctLVhNZmVfclVCdWNjRnd4YU9uVU4wblNxRFE4ai10UlRMaTBtbVRQWTZFbVh2bTFDeU9vSmZ4NHY5N2dGc0VfaHFjRFVia3FucURwN2NEYnFnckhuLXBkRU03Q25VckpybWtVazRXUnFLdkxuR2s0V3U4M2I2ZFVkMEN1bmNzQnV4OUNfWXVBenVmQ3NMOExQenBRQnB4Sks1djR1dmVLRW5iWVM3dA?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-22",
+  "times_seen": 22,
+  "outlets": [
+   "TSLA"
   ]
  },
  {
@@ -590,28 +632,6 @@
   "times_seen": 1,
   "outlets": [
    "Autonomy"
-  ]
- },
- {
-  "statement": "Musk Says Tesla Aims to Begin Humanoid Robot Sales Next Year - WSJ",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOb09OVGpVM3FDM3I4RzJVTnVHcDk5c0Z5aHVEVS1BZ2RDRnVpQU13Yld0VTdWS0xBb3JGbWVzSHhZU0J0cVVUWjBlZWVNM3FDTGJOOWtFN2EwMTlkN1VmcjJSTDhiVnpYMFByX2c4RFhfd3pRSU0tSEhtcnlldGx1NU9GWGo3aVctSFRvTg?oc=5",
-  "first_seen": "2026-10-22",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-20",
-  "times_seen": 50,
-  "outlets": [
-   "Humanoids",
-   "Optimus",
-   "TSLA"
   ]
  },
  {
@@ -1319,26 +1339,6 @@
   "outlets": [
    "SPCX",
    "Musk"
-  ]
- },
- {
-  "statement": "Musk pledges to give a share of his SpaceX company to 'every kid in America' next year - PBS",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "TSLA",
-  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMzNoSnpDZlNJZTkxRXctLVhNZmVfclVCdWNjRnd4YU9uVU4wblNxRFE4ai10UlRMaTBtbVRQWTZFbVh2bTFDeU9vSmZ4NHY5N2dGc0VfaHFjRFVia3FucURwN2NEYnFnckhuLXBkRU03Q25VckpybWtVazRXUnFLdkxuR2s0V3U4M2I2ZFVkMEN1bmNzQnV4OUNfWXVBenVmQ3NMOExQenBRQnB4Sks1djR1dmVLRW5iWVM3dA?oc=5",
-  "first_seen": "2026-10-19",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-01",
-  "times_seen": 21,
-  "outlets": [
-   "TSLA"
   ]
  },
  {

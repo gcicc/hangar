@@ -127,51 +127,51 @@
     14,
     8,
     11,
-    4
+    5
    ]
   },
   "calls_used": 4,
   "next": {
-   "description": "Fifteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
-   "id": "951a341f-236b-42fe-a667-4ab2fcf36eac",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241024165957.jpeg",
-   "lat": 34.632,
-   "lon": -120.611,
-   "mission": "NROL-136",
-   "mission_type": "Government/Top Secret",
-   "name": "Falcon 9 Block 5 | NROL-136",
-   "net": "2026-11-22T12:23:56Z",
-   "net_precision": "SEC",
+   "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
+   "id": "7bdc412b-c965-4517-a131-f57a01189803",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_thumbnail_20260618063419.jpeg",
+   "lat": 5.256319,
+   "lon": -52.786838,
+   "mission": "Amazon Leo (LE-04)",
+   "mission_type": "Communications",
+   "name": "Ariane 64 Block 2 | Amazon Leo (LE-04)",
+   "net": "2026-11-23T11:09:00Z",
+   "net_precision": "MIN",
    "orbit": "LEO",
-   "pad": "Space Launch Complex 4E",
-   "pad_location": "Vandenberg SFB, CA, USA",
-   "provider": "SpaceX",
-   "rocket": "Falcon 9 Block 5",
+   "pad": "Ariane Launch Area 4",
+   "pad_location": "Guiana Space Centre, French Guiana",
+   "provider": "Arianespace",
+   "rocket": "Ariane 64 Block 2",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/951a341f-236b-42fe-a667-4ab2fcf36eac",
+   "url": "https://nextspaceflight.com/launches/details/7bdc412b-c965-4517-a131-f57a01189803",
    "webcast_live": false,
    "webcasts": [
     {
      "official": true,
-     "publisher": "X",
-     "url": "https://x.com/i/broadcasts/2yboJapzrmYNbe"
+     "publisher": "Arianespace",
+     "url": "https://www.youtube.com/watch?v=k2adMyxSoJE"
     },
     {
-     "official": false,
-     "publisher": "SPACE AFFAIRS",
-     "url": "https://www.youtube.com/watch?v=CjN4lPx7mD8"
+     "official": true,
+     "publisher": "Arianespace",
+     "url": "https://www.youtube.com/watch?v=w9Wokj3rBH4"
     },
     {
-     "official": false,
-     "publisher": "Spaceflight Now",
-     "url": "https://www.youtube.com/watch?v=um48_-sSFrE"
+     "official": true,
+     "publisher": "CNES",
+     "url": "https://www.youtube.com/watch?v=F4xjWb4OEs4"
     }
    ]
   },
   "pads": [
    {
-    "count": 56,
+    "count": 58,
     "last_net": "2026-12-31T00:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -412,16 +412,6 @@
    },
    {
     "count": 2,
-    "last_net": "2026-11-26T20:00:00Z",
-    "lat": 69.1084,
-    "location": "And\u00f8ya Spaceport",
-    "lon": 15.5895,
-    "name": "Orbital Launch Pad",
-    "spacex": false,
-    "top_provider": "Isar Aerospace"
-   },
-   {
-    "count": 2,
     "last_net": "2026-07-23T12:00:00Z",
     "lat": 28.245504,
     "location": "Xichang Satellite Launch Center, People's Republic of China",
@@ -509,6 +499,16 @@
     "name": "LC-2",
     "spacex": false,
     "top_provider": "Korea Aerospace Research Institute"
+   },
+   {
+    "count": 1,
+    "last_net": "2026-09-05T20:12:00Z",
+    "lat": 69.1084,
+    "location": "And\u00f8ya Spaceport",
+    "lon": 15.5895,
+    "name": "Orbital Launch Pad",
+    "spacex": false,
+    "top_provider": "Isar Aerospace"
    },
    {
     "count": 1,
@@ -632,16 +632,6 @@
    },
    {
     "count": 1,
-    "last_net": "2026-04-03T04:17:00Z",
-    "lat": 40.8072,
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.13644,
-    "name": "Tianlong-3 Launch Pad",
-    "spacex": false,
-    "top_provider": "Space Pioneer"
-   },
-   {
-    "count": 1,
     "last_net": "2026-11-27T00:05:00Z",
     "lat": -39.260881,
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -683,9 +673,31 @@
   ],
   "previous": [
    {
+    "description": "Fifteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
+    "id": "951a341f-236b-42fe-a667-4ab2fcf36eac",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241024165957.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "NROL-136",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | NROL-136",
+    "net": "2026-11-22T12:23:56Z",
+    "net_precision": "SEC",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/951a341f-236b-42fe-a667-4ab2fcf36eac",
+    "webcast_live": false,
+    "webcasts": []
+   },
+   {
     "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
     "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20261122120903.jpeg",
     "lat": 34.632,
     "lon": -120.611,
     "mission": "USSF-317",
@@ -1979,38 +1991,16 @@
     "url": "https://nextspaceflight.com/launches/details/153ef8ef-b12b-43f4-a4bf-05b225c0cd37",
     "webcast_live": false,
     "webcasts": []
-   },
-   {
-    "description": "Second test flight of the Isar Spectrum launch vehicle. This launch will carry 5 cubesats and 1 non-separable experiment as part of European Space Agency (ESA)'s \u201cBoost!\u201d program:\r\n\r\n* CyBEEsat (TU Berlin)\r\n* TriSat-S (University of Maribor)\r\n* Platform 6 (EnduroSat)\r\n* FramSat-1 (NTNU)\r\n* SpaceTeamSat1 (TU Wien Space Team)\r\n* Let It Go (Dcubed, non-separable experiment)",
-    "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_thumbnail_20250321072643.jpeg",
-    "lat": 69.1084,
-    "lon": 15.5895,
-    "mission": "Onward and Upward",
-    "mission_type": "Test Flight",
-    "name": "Spectrum | Onward and Upward",
-    "net": "2026-09-05T20:12:00Z",
-    "net_precision": "MIN",
-    "orbit": "SSO",
-    "pad": "Orbital Launch Pad",
-    "pad_location": "And\u00f8ya Spaceport",
-    "provider": "Isar Aerospace",
-    "rocket": "Spectrum",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/1b23eb18-e06e-4058-9b42-e95ca0980511",
-    "webcast_live": false,
-    "webcasts": []
    }
   ],
   "totals": {
    "previous_sampled": 200,
    "share_caveat": "Share of the most recent orbital launches fetched, over the window shown. Not a share of all launches, and not a fixed calendar period - the window moves with every refresh.",
-   "spacex_sampled": 87,
-   "spacex_share": 0.435,
+   "spacex_sampled": 88,
+   "spacex_share": 0.44,
    "window": {
     "from": "2026-04-03",
-    "to": "2026-11-21"
+    "to": "2026-11-22"
    }
   },
   "upcoming": [
@@ -2030,8 +2020,8 @@
     "pad_location": "Vandenberg SFB, CA, USA",
     "provider": "SpaceX",
     "rocket": "Falcon 9 Block 5",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/951a341f-236b-42fe-a667-4ab2fcf36eac",
     "webcast_live": false,
     "webcasts": [
@@ -2042,8 +2032,8 @@
      },
      {
       "official": false,
-      "publisher": "SPACE AFFAIRS",
-      "url": "https://www.youtube.com/watch?v=CjN4lPx7mD8"
+      "publisher": "The Space Devs",
+      "url": "https://www.youtube.com/watch?v=NFIjyRFTPao"
      },
      {
       "official": false,
@@ -2181,28 +2171,6 @@
     "status": "Go",
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
-    "webcast_live": false,
-    "webcasts": []
-   },
-   {
-    "description": "Third test flight of the Isar Spectrum launch vehicle. This launch will carry various satellites including R-Space\u2019s AT-Astra/IOD-01, which will perform in-orbit demonstrations for ENPULSION, SUNBOOSTER GmbH, and Synopsis Planet.",
-    "id": "dff42a2e-f047-48d7-b260-3888d3a4fe33",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_thumbnail_20250321072643.jpeg",
-    "lat": 69.1084,
-    "lon": 15.5895,
-    "mission": "AT-Astra and Others (Spectrum Flight 3)",
-    "mission_type": "Technology",
-    "name": "Spectrum | AT-Astra and Others (Spectrum Flight 3)",
-    "net": "2026-11-26T20:00:00Z",
-    "net_precision": "HR",
-    "orbit": "SSO",
-    "pad": "Orbital Launch Pad",
-    "pad_location": "And\u00f8ya Spaceport",
-    "provider": "Isar Aerospace",
-    "rocket": "Spectrum",
-    "status": "TBC",
-    "status_name": "To Be Confirmed",
-    "url": "https://nextspaceflight.com/launches/details/dff42a2e-f047-48d7-b260-3888d3a4fe33",
     "webcast_live": false,
     "webcasts": []
    },
@@ -2508,8 +2476,30 @@
     "url": "https://nextspaceflight.com/launches/details/56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
     "webcast_live": false,
     "webcasts": []
+   },
+   {
+    "description": "A batch of 32 satellites for the OneWeb satellite constellation, which is intended to provide global Internet broadband service for individual consumers. The constellation is planned to have around 648 microsatellites (of which 60 are spares), around 150 kg each, operating in Ku-band from low Earth orbit.",
+    "id": "b0dc988c-ea4a-423f-81b6-6b0fbe7cc17c",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20241020164114.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "OneWeb 21",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | OneWeb 21",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "PO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/b0dc988c-ea4a-423f-81b6-6b0fbe7cc17c",
+    "webcast_live": false,
+    "webcasts": []
    }
   ]
  },
- "fetched_at": "2026-11-22T09:34:55.261946+00:00"
+ "fetched_at": "2026-11-22T17:39:49.974830+00:00"
 }
