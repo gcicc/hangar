@@ -161,13 +161,18 @@
      "official": false,
      "publisher": "SPACE AFFAIRS",
      "url": "https://www.youtube.com/watch?v=CjN4lPx7mD8"
+    },
+    {
+     "official": false,
+     "publisher": "Spaceflight Now",
+     "url": "https://www.youtube.com/watch?v=um48_-sSFrE"
     }
    ]
   },
   "pads": [
    {
     "count": 56,
-    "last_net": "2026-11-29T04:39:00Z",
+    "last_net": "2026-12-31T00:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
     "lon": -120.611,
@@ -2010,44 +2015,6 @@
   },
   "upcoming": [
    {
-    "description": "A classified mission for the United States Space Force. It is possibly a batch of classified LEO satellites based on SpaceX\u2019s Starshield satellite bus, based on locations of rocket stage drop zones being exact fits with previous Starlink Group 15 launches.",
-    "id": "76617033-4dc0-4448-b50c-e5b0d5a18539",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
-    "lat": 34.632,
-    "lon": -120.611,
-    "mission": "USSF-317",
-    "mission_type": "Government/Top Secret",
-    "name": "Falcon 9 Block 5 | USSF-317",
-    "net": "2026-11-21T04:20:35Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Space Launch Complex 4E",
-    "pad_location": "Vandenberg SFB, CA, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/76617033-4dc0-4448-b50c-e5b0d5a18539",
-    "webcast_live": false,
-    "webcasts": [
-     {
-      "official": true,
-      "publisher": "X",
-      "url": "https://x.com/i/broadcasts/2lgkMvaRVPMdYR"
-     },
-     {
-      "official": false,
-      "publisher": "The Space Devs",
-      "url": "https://www.youtube.com/watch?v=NejEgXnJzBM"
-     },
-     {
-      "official": false,
-      "publisher": "Spaceflight Now",
-      "url": "https://www.youtube.com/watch?v=fk84K7QVWgw"
-     }
-    ]
-   },
-   {
     "description": "Fifteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
     "id": "951a341f-236b-42fe-a667-4ab2fcf36eac",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241024165957.jpeg",
@@ -2077,6 +2044,11 @@
       "official": false,
       "publisher": "SPACE AFFAIRS",
       "url": "https://www.youtube.com/watch?v=CjN4lPx7mD8"
+     },
+     {
+      "official": false,
+      "publisher": "Spaceflight Now",
+      "url": "https://www.youtube.com/watch?v=um48_-sSFrE"
      }
     ]
    },
@@ -2514,8 +2486,30 @@
     "url": "https://nextspaceflight.com/launches/details/e61d353c-db55-4a57-8184-0fab187231e6",
     "webcast_live": false,
     "webcasts": []
+   },
+   {
+    "description": "Sixteenth batch of satellites for a reconnaissance satellite constellation built by SpaceX and Northrop Grumman for the National Reconnaissance Office to provide imaging and other reconnaissance capabilities.",
+    "id": "56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241024165957.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "NROL-195",
+    "mission_type": "Government/Top Secret",
+    "name": "Falcon 9 Block 5 | NROL-195",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
+    "webcast_live": false,
+    "webcasts": []
    }
   ]
  },
- "fetched_at": "2026-11-22T01:57:03.426214+00:00"
+ "fetched_at": "2026-11-22T09:34:55.261946+00:00"
 }
