@@ -1,6 +1,6 @@
 {
  "data": {
-  "corpus_size": 1436,
+  "corpus_size": 1483,
   "labels": {
    "market": "Markets & Filings",
    "spacex": "SpaceX",
@@ -16,9 +16,19 @@
   "sections": {
    "market": [
     {
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT1RsTFBlMWZGejNqWjVvdVlYX2lRTGpZZXhoYXFXN2RuV3lHZ09ra0ctdnZqc3hiVENXSlc2ZTBIbDRyTmpTS1Nhdk1kdU5HLW5FNGdNRTNoeXVBeEc5cDl5VGx3c3dUSzNDYkVVTHVfenVQbHFUQ0hQS2NfalhuNDczWFdUS0FWQS1iZ1ZhVnNYMy1FOHVSUmlBMmI3NTdVTGY1X0JxTFRmYnptV3huQQ?oc=5",
+     "published": "2026-11-22T13:29:02+00:00",
+     "score": 3.627,
+     "source": "SPCX",
+     "title": "EXCLUSIVE: Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers - Reuters",
+     "topics": [
+      "money"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZTRUMGFnWjVJZF9BbzF5RnMwbVRPT3F0Q0RvdXFZUnVHMmZaemtiZzAyNzBJRUh4Vk1kOWpHUVA2TjREWG9wTkU3ZDdPbEhJYk9ReEd3eVF0dERhc09ncnVLaHlCZEh0QlRmTDVmM01TdmpSUjJhWlVseTZHQ1NhX2lER2dPcC1CX0QtZ1pBenluTXJQV2pMR2RCWFUtMEhjLW5IM0xyNTAxR2lsaHJST1NoOWRjUQ?oc=5",
      "published": "2026-11-22T12:54:42+00:00",
-     "score": 4.34,
+     "score": 3.548,
      "source": "SPCX",
      "title": "Exclusive-Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers - Euronext Markets: Real-time Stock Market Data | live",
      "topics": [
@@ -28,7 +38,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeUtIbzZ0NWI4UjZLLXFLR3MyYUVCVlFiaUR2TWFnRU1iVDlXcFROdnpKRTFBQk81VWUwSGZ6WkthOFVOQzMtbkstQXcyLVNoUTFFNWs2WEZ3aC1YTUVYVERNOTNZNjQzVE5scGlOS2g3YzZXbUVSZUFwLUpMOTlCU1JiQjFia3ZnN3l5Y041a1ZkMnpuUkVISE5aMFltb0lWS1dzRFM4TkUweU5V?oc=5",
      "published": "2026-11-22T11:48:00+00:00",
-     "score": 4.186,
+     "score": 3.394,
      "source": "SPCX",
      "title": "Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers - The Business Times",
      "topics": [
@@ -38,7 +48,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1aQWhnd0hEbXRNdDBtVF9nd3hyMlVVbDNYZEF5MXppdjNQbThXSHhOTU9DeDFhYllTU3lSNUlFU0FXNE9zWlp3U0hyTklRTXFVMGtaWjJSZFIwNUVxWDRR?oc=5",
      "published": "2026-11-22T11:26:24+00:00",
-     "score": 4.136,
+     "score": 3.344,
      "source": "SPCX",
      "title": "Steve Jurvetson: $450M SpaceX Bet, OpenAI\u2019s \u201cSafety Ate My IPO,\u201d & Voyager\u2019s 1 Light Day| EP #314 - BigGo Finance",
      "topics": [
@@ -46,67 +56,11 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQUdQTXhYQnhCdWRYZTh2MzN2Y2xuU3Rwa2VuaDdKcWRrcFBVXzV4MFdFN2xYOWlQX2s0dk44SXE2LXlsbndvdlExakh2dkdiLUJNUFcyQmE1Sm1pSDBLamZHVXhNaDhCTVQzVnhFTjRJZDNqcEVBQm9BUE9lcDZ5WDdtRG5DLWI2RmxNRnowNUFGN1Bqd3gxVWtiZDRndm1oRjdNcDVORFJyb2JHTGk1OTkwc2xPOEQ0bnNWa1BFR2ktdldtQkh6ZXNERHJrTktM?oc=5",
-     "published": "2026-11-22T11:10:09+00:00",
-     "score": 4.098,
-     "source": "SPCX",
-     "title": "Exclusive-Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers By Reuters - Investing.com",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQNUZiancxV1MzclhEUmZSLWdhVmFLOHJfZFFOTzJSb1JZZkpYT0paV2NQRS1NVUV4SUl1bzdqclhiRXZmWGQyOXczZGNfMVFvUnBVNEY5TlVWTE5qcGhJczNua0NRQ3pjRm5kWmdZQXZCZTVGRjhRT3JoNk9ZYzRZMGN5Um0yREkzcmxlTHBnV3BsdkMxTVFpZUtmNUNBSXdkN3U0aXBKY2k0ajc0UEtqakdQWUppVi01TkxoNGhRd0tXYjk1YlB1WkV5OU44SndObVctVzVXSk1LMDBXZjBTOEJERzBLQ1l1TEFiWkVBbHpzY3ZUS0dWYzdoc2NCWUdlMy0yYkJ0QnF5V28?oc=5",
-     "published": "2026-11-22T11:02:52+00:00",
-     "score": 4.081,
-     "source": "SPCX",
-     "title": "Exclusive-Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers - The Lufkin Daily News",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVNDVJQ3pDUW5OcnJTRmFTSllvQzQzaXpvai1aVi1OSlhBb0dnVmF6Qkl1SkxYaEJfOEMzbmh0WThxVG1qdnJnMHFLTW9VblkyalRnSnFMclJWeFRXbTI3NVFCOEdVLTE1MzR2cVFXcXZTSk5CM214UWI4MA?oc=5",
-     "published": "2026-11-22T14:30:35+00:00",
-     "score": 3.65,
-     "source": "TSLA",
-     "title": "Pony AI Results Show Just How Big Tesla\u2019s Robo-Taxi Fleet Needs to Get - Barron's",
-     "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ0Rzajhsb3JPelN2UDlqUFhjLU1SS0lpVWRZSi1Qa0U1MXFhUFAzMURYVGNXNEdYNUhSbFZvMmRZclJRNUZVR21DOXlnbWNIOElQbzRiLXpWMnlBd25KZWtIcGcwM3RnTXJEZjdhREV4alZQRjl0RkFIdUEyZGNfZ0xGWjQ2NDJJUDlYVlhIcUhYWWxOM2cwYmxwOTRIMDBETHhicndpdnNFTmJ0UHo3UWFuZ0FGSDB1UmJaNWxKY1ZqV1FSX0R6VlpFMkYwaVNM?oc=5",
-     "published": "2026-11-22T07:27:00+00:00",
-     "score": 3.582,
-     "source": "SPCX",
-     "title": "Wall Street banks set for banner year as Anthropic, SpaceX IPOs generate US$1 billion in fees - The Business Times",
-     "topics": []
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZzVaREJuQjVjbFE4dmVrTmZvS1ZpVWFkMjhUTm1hU0V5YlJ2Vnd4aDZJTlpwNHAyVzRtVkF2QnFGV0oyV3hyOFgyTjlLclNGR09JRGthcU9rMmItdmdZX0xGeTZqNzhvQUZ4ZkIzYkhVRUNBTDZLdlM1UVNwdkNWNndCVmZESTF2RnY3Sl9IeC1KRHlxYkV3eW1YMEp0LTlfYVVfVTc4dw?oc=5",
      "published": "2026-11-22T01:19:02+00:00",
-     "score": 2.184,
+     "score": 1.55,
      "source": "SPCX",
      "title": "Filtronic: Record SpaceX Orders Justify An Upgrade, But Not A Buy - Seeking Alpha",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVGdrN0g3ektYMzVVZDg5TktpcUlTOXZLc3NuYVlCQXpvb0pGME9RX2toUzNEeHd0eXJmWkdtYmM4NGIta3JWa2J6UWxMQ3gzbzl4NDVtbkNBNjdzclppNzAtS3RnVUhPOFliWXdIb3hSS3R5Q1BRNThneEJTanNrdFlzNC00WGVjOXZCLV9JOFVMQi1SRXdydldha2p0RUFaZTdZaTNJa3BOZUhwNFphdmpyXy1HQTEyal9HOE9lMA?oc=5",
-     "published": "2026-11-21T20:37:30+00:00",
-     "score": 2.078,
-     "source": "TSLA",
-     "title": "Musk Won\u2019t Take Stock Awards \u201cSimply for Merging With SpaceX.\u201d Tesla Shareholders Still Have to Vote - TIKR.com",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcmtPV2l5SllyQlNBS004dC1MNlpJcG9ZcGtYcjFMZE0yMnNEZGkyX2xzczB4VkNkTXRCSFNaOXVPTnE0Z3NOaEhCdHpjSzd3ZjNETjV5WnRoWWczMWlBa09BendIRWZXRGhqdXNnZTdUS2Uxai02d3RROGFNdlN2MF8zMUh4Qms?oc=5",
-     "published": "2026-11-21T19:15:02+00:00",
-     "score": 1.887,
-     "source": "SPCX",
-     "title": "Better Recent IPO: SpaceX or Anthropic? - The Motley Fool",
      "topics": [
       "money"
      ]
@@ -122,11 +76,57 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZkYza0NkQ2lYRFhiRE5JRVdicWU5dGk0MGphRVpvVW9udXZvY0FrYkN2WV9oTHBnU3BjZHlWa01rY1ZnamRzX1owQlhrSnN2TDNBV25lelJJTkJOQlMwbXFNd2oyVENDRkpBQ2ZWOW9rSlJCY2t5WkdMNWhndmNkdUZOYy1icTBaT1ZiakhkTUxXR3FJeFpSaW5kUQ?oc=5",
-     "published": "2026-11-21T13:30:00+00:00",
-     "score": 1.089,
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcmtPV2l5SllyQlNBS004dC1MNlpJcG9ZcGtYcjFMZE0yMnNEZGkyX2xzczB4VkNkTXRCSFNaOXVPTnE0Z3NOaEhCdHpjSzd3ZjNETjV5WnRoWWczMWlBa09BendIRWZXRGhqdXNnZTdUS2Uxai02d3RROGFNdlN2MF8zMUh4Qms?oc=5",
+     "published": "2026-11-21T19:15:02+00:00",
+     "score": 1.095,
      "source": "SPCX",
-     "title": "Anthropic co-founder Tom Brown to donate to Trump Accounts after company\u2019s $93.5B IPO, following SpaceX president\u2019s lead - Yahoo Finance",
+     "title": "Better Recent IPO: SpaceX or Anthropic? - The Motley Fool",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVGdrN0g3ektYMzVVZDg5TktpcUlTOXZLc3NuYVlCQXpvb0pGME9RX2toUzNEeHd0eXJmWkdtYmM4NGIta3JWa2J6UWxMQ3gzbzl4NDVtbkNBNjdzclppNzAtS3RnVUhPOFliWXdIb3hSS3R5Q1BRNThneEJTanNrdFlzNC00WGVjOXZCLV9JOFVMQi1SRXdydldha2p0RUFaZTdZaTNJa3BOZUhwNFphdmpyXy1HQTEyal9HOE9lMA?oc=5",
+     "published": "2026-11-21T18:52:54+00:00",
+     "score": 1.044,
+     "source": "TSLA",
+     "title": "Musk Won\u2019t Take Stock Awards \u201cSimply for Merging With SpaceX.\u201d Tesla Shareholders Still Have to Vote - TIKR.com",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNjJvNXFhaHRBaEhwRFNpemhjdnJ1MWFyZmRtNWsyb1dNb2FJT0s4M2phNXFmeXFqd0hjcGt5MDdqVzRrQzhIZjBUanBBcHJrdTJsczg5SHY5ckFPaWRCeHJrSndwel9ZaWVpY3VGMGVfQ3hWWXo2MzlvV09QaVlrSFFPdTJDdkRiRFhRQVd1WnIwYWhIcGE4VA?oc=5",
+     "published": "2026-11-22T22:01:02+00:00",
+     "score": 0.963,
+     "source": "TSLA",
+     "title": "Should You Buy Tesla or SpaceX Stock Before Their Potential Merger? - The Motley Fool",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPTEhIT04zVmVvSkJRWG9EQ1QzZERTLUJ1QmZNSl9lOFdvc1IyUkx2YVo5V2IwREkyYUttQVJhOTd4ZlcyN1lnTEsxWmJiSFpTa3ZHV3R0S083ZXoyRE04Y0U0eU45eWI5THlPemdTWVhBNW1jcDl6VjVxVmlyZk1YdTVnV1BiNEJYSkJJZ0xkWmNxOUpvSTk0dTZGV04yOVhXTjgtVHAxZ1FiTm5nNXpvbmJ4Rll6QS1nVGFSaHJYbEk5Rml0bDdvdUdrWGxBUjdHRWdlVVhwRGRWSWxYMnhRUmNkSkN3eGhwb3cxbXZXZE00YWxvYURn?oc=5",
+     "published": "2026-11-22T20:40:00+00:00",
+     "score": 0.925,
+     "source": "TSLA",
+     "title": "Tesla (NASDAQ: TSLA) Shareholders Face A High Bar On Any SpaceX Merger As Vote Mechanics And Exchange Ratio Loom Large - Foreign Policy Journal",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQalRINDhzd1FOaXhPMEdyQ0pkMlNhSm00dXlQbUpLV3VlV3VXVHRia243Z0U5N19NUzFMMExBMkxzSVhPRlYtNE1KeUxvTGkxR21jWWlpdXNxcHlrNTNoS0cxb2pMN3FzTWxRUGVoMl93VXBRQ3Yxa0M1VVpaWXNwMXMyTXhVdWFJY0NpQUVIeU9wRUQ4NE9tekpFR2FzM19IRG9MeTNMbEtCazR5OFE4Um9Fc211RlhNeEwwbk92X1Etcnh6VmIyeFBB?oc=5",
+     "published": "2026-11-22T20:08:24+00:00",
+     "score": 0.91,
+     "source": "SPCX",
+     "title": "Cathie Wood Just Bought $22 Million of SpaceX Across 2 ARK Funds - TIKR.com",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10bHZoMGZTZldjN0ZQcU56dzBzbmlfbEc2QTdrMnF5UW5CVGJkQTdfM0Jyd1d4dlFEczFBa0ZSZU1aMUpQSGFkMzU5ZTQzLXZRRUVkUmRnbzhjUzlUUXJ1X1RyWjdvNXdoUTlaRlVRcnk?oc=5",
+     "published": "2026-11-22T20:04:46+00:00",
+     "score": 0.909,
+     "source": "SPCX",
+     "title": "SpaceX (NASDAQ:SPCX) Stock Gets $210 Price Target After 7.7% Crash: Is 64% Upside Possible - Stocks Down Under",
      "topics": [
       "money"
      ]
@@ -134,9 +134,17 @@
    ],
    "spacex": [
     {
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQRkJtM3RzVHdpNXBzZWZwakNJbENvSlEzdEZiRmVvVmlXckdSSjQySlZWNkRZTDRNQXpqUUJSWVE5OVVyUzJrMGowVTNwb0lnR2NoeElDdk5JQlU0Qlg0MWNEbEZvRzE0Nkx0XzJLRUl0aHozSHpZWEYwQS02Q0lBcW1WbjhHb1I5dGE5UEIwS1VkWm5RNFppT3hTenYzUDg0Yk1YYkUyemh5Zw?oc=5",
+     "published": "2026-11-22T22:27:53+00:00",
+     "score": 7.8,
+     "source": "Falcon",
+     "title": "SpaceX West Coast Team Sets Record with Quick Turnaround Between Falcon Liftoffs - Noozhawk",
+     "topics": []
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZUdyQ21PbHoxRi1za2VfOXd2OV80NmFRbk1uY21qcndYTl92enUxdHdQSGEzOTVtOFIxSUc1eE9uZDBNUVQzQ201N0RuUmcxb0R0a1AtZUo5aGk2UHJtX08tRXNCZWFiVGx0MG8tSmJ2Z0tOTUUyeFByUHNfVDhqZWN1NTJPcE84OUJ2dkxMRlAwS1Z3ZnRGcUFHMVdvc184VkJWTDNnLW5KUQ?oc=5",
      "published": "2026-11-22T13:05:29+00:00",
-     "score": 7.858,
+     "score": 6.432,
      "source": "Falcon",
      "title": "SpaceX Falcon 9 Smashes Vandenberg Turnaround Record on NROL-136 Launch - BASENOR - Tesla Accessories",
      "topics": [
@@ -144,9 +152,30 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPLTc3MEVvQlJXUnM5RVpYY0JqT1FaejRya25UUVYxME5ZMjhSakVnMkJQLW8zcktZYWRqME96TzA3OVY4UHdQdF8wZzh4OVZTMXdqRXZpSW5vWFY0M2FOZVZUWjZrMHlveG96eG03ZVFZSWQtZ0lwa2tVeC1OTmJzMGJ2eER6VEIwajllLVpMWlU1a2cyNjRMV0t1aW9odWxURWlsX3FPVVdxeDFXdG5FMTZFd25HNUE?oc=5",
+     "published": "2026-11-22T19:23:24+00:00",
+     "score": 5.338,
+     "source": "Falcon",
+     "title": "SpaceX launches NROL-136, the 15th mission for the NRO's proliferated spy satellite constellation - MLQ.ai",
+     "topics": [
+      "starlink",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mX3lxRmp0Z3FxMHQyOXBWOWRtY3hKaFI3WEtIUUtaQUZpeVJKRmlSUU1LVmtXUXlLM1hRdDd1YmJybVJBeVZrVjZVQUVXRlFzLTFsNFlTRlJPbGVlcjdzc1h2Uk1mdVk?oc=5",
+     "published": "2026-11-22T16:18:22+00:00",
+     "score": 4.824,
+     "source": "SpaceX",
+     "title": "SpaceX - Launches - SpaceX",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
      "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-spy-satellite-launch-nrol-136-proliferated-architecture",
      "published": "2026-11-22T16:05:33+00:00",
-     "score": 5.739,
+     "score": 4.788,
      "source": "Space.com",
      "title": "SpaceX sends classified US spy satellites to orbit in early-morning launch from California coast (video)",
      "topics": [
@@ -156,7 +185,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNR2EzQWlic3R5OV9nd1F2UDVRSFBXMUd6dnlRQmxOdGZDejl0UHR3UWFTR1h6WlZKLUtiMWhvUHhzdFFiOUxsbXR4LTAwcGlUcWtKUklBb1pucVUwTkV6bVNab2t1V3hlWkl0QU9NcHYtVnVfRDIxNlN3bk9WVXlJTjVPS3pEOTFaNHZGUkxfNHBJdXpMVjlobEpkdnJnMDVkRVE5Q0V3?oc=5",
      "published": "2026-11-22T12:24:00+00:00",
-     "score": 5.124,
+     "score": 4.173,
      "source": "Falcon",
      "title": "SpaceX launches Falcon 9 with satellites for US spy agency - Breakingthenews.net",
      "topics": [
@@ -166,7 +195,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPaTZUazlISHpKTjRWSGZOV1B1ZFZMTzV4dmJvb0JHdVZGNTVmc2w4MDJEamo1eHBKMU81TWhlSG85X2JLdksyd282VTIzeTc2Mi1JcXVDcUxPakJkWXk0SlB1MUlEdU15dmlILVZJakRVRmFoQWMtbTdhUXdrRVJNMEJlbzQyOW9yWnUxQVZZZWw?oc=5",
      "published": "2026-11-22T10:04:24+00:00",
-     "score": 4.736,
+     "score": 3.785,
      "source": "Falcon",
      "title": "SpaceX USSF-317 Launch: Classified Falcon 9 Mission - shattered.io",
      "topics": [
@@ -174,19 +203,9 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mX3lxRmp0Z3FxMHQyOXBWOWRtY3hKaFI3WEtIUUtaQUZpeVJKRmlSUU1LVmtXUXlLM1hRdDd1YmJybVJBeVZrVjZVQUVXRlFzLTFsNFlTRlJPbGVlcjdzc1h2Uk1mdVk?oc=5",
-     "published": "2026-11-22T04:59:26+00:00",
-     "score": 3.889,
-     "source": "SpaceX",
-     "title": "SpaceX - Launches - SpaceX",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9OTFlJcXRsQnd1dW9mRTdEQk1sUjhmYktQaC1RVVZqVUtma2JlbkR2Ui1yYjNCOS03TUFySkZqMDlzakxJakNMNg?oc=5",
      "published": "2026-11-22T04:17:51+00:00",
-     "score": 3.144,
+     "score": 2.352,
      "source": "Falcon",
      "title": "Dragon clocks out: SpaceX confirms CRS-35 splashdown - Digg",
      "topics": [
@@ -194,20 +213,9 @@
      ]
     },
     {
-     "link": "https://spaceflightnow.com/2026/11/21/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-3/",
-     "published": "2026-11-21T16:50:51+00:00",
-     "score": 3.108,
-     "source": "Spaceflight Now",
-     "title": "SpaceX launches intelligence-gathering satellites for the National Reconnaissance Office",
-     "topics": [
-      "starlink",
-      "launch"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQVkMyd2dydHNJdUdpbHRJMzRkWm9YLVJ4S0xxRTgwQjN1ekdNRUxTcXY1QkJWRUpLRm40ZGl3WXg4bGVlQ0wtOVJKRkJEX2p1dEM2XzBuS1pUTndNVGkyMTFCQWV3aW11LWxfblI0amd0RTE5a243dGtFc195Nmw3Qk1kemNLZTNBa0NwalJDOFJTWXF5dGhBb0ZXWUdCeVRjNEJhYlRCc09Kck1QM2RUTVdBczhZZlFqQ3BaS1J2WFM5QU9aNHJTd1hMeTRGWTJOVlBWX2pZWnoyM0pu?oc=5",
      "published": "2026-11-21T21:12:40+00:00",
-     "score": 2.592,
+     "score": 1.641,
      "source": "Falcon",
      "title": "SpaceX Classified Launch Extends Series Where Space Force Logged 23 Satellites Per Flight - Tech Times",
      "topics": [
@@ -215,12 +223,13 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zcFJpTThtdTJVWW9ONnVCRlluYzNhU0xVbXhWY0VxYU82dnRhU0sxb3VFQ2lIS3pmbjN2eWszQnFuVXF3d3dzcEtsZzhjdU1YQ1kyV3ZidFdPT2RpYjhqRW9Ba2Q2SXlNUG04UlItQWFZLXluX0E?oc=5",
-     "published": "2026-11-21T18:15:00+00:00",
-     "score": 1.749,
-     "source": "Falcon",
-     "title": "SpaceX Cargo Dragon Heads Home With Research Samples, Splashdown Off California Imminent - BigGo Finance",
+     "link": "https://spaceflightnow.com/2026/11/21/live-coverage-spacex-to-launch-intelligence-gathering-satellites-for-the-national-reconnaissance-office-3/",
+     "published": "2026-11-21T16:50:51+00:00",
+     "score": 1.523,
+     "source": "Spaceflight Now",
+     "title": "SpaceX launches intelligence-gathering satellites for the National Reconnaissance Office",
      "topics": [
+      "starlink",
       "launch"
      ]
     },
@@ -257,69 +266,70 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMnVFa3d4TE9aU1ZGbHNHbFlqYUdNZnRnUi1zTFFnT3RKNmhOTWJHQmd0QTBPemJQSVhBSFB0TVo3SGh2OUc2TFpJTE82d0k5VEJYajVFQkZGbTJTb1loNmJfamQyU1J6WTR5SV8zOXczT0NWN0x5NnZjY2FkUk1pS3NTSHIySHNUY1RUbW0xcHJoQ2kwQnVobi1SS05EX2pidlFJSnY2YldSZU9tUVlIQjBCeXFWSFJLcEl3TWdfM3FwNmtTSFpHaw?oc=5",
-     "published": "2026-11-21T14:01:00+00:00",
-     "score": 1.393,
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNYkd2eTExSDQ4azV1c25TQ282dC1Ta0R3d1JBd1ZBaENDNVJSNWd6NWwwVURBTHQ5T1ppakVGTjFIQ3hJenVvay1ES1k3Zmdyank5dHpXS2VxMjZwWFZCZkJWYUtqeUd3OC1oOFNkUTlRcERDNzVSS1JFdW1aaEVHcWtGN19BYTRvbEVZZElDWGg4N3N0MXRz?oc=5",
+     "published": "2026-11-22T22:09:44+00:00",
+     "score": 0.967,
      "source": "Falcon",
-     "title": "Watch as SpaceX lands Falcon 9 booster in California on next launch - The Desert Sun",
+     "title": "SpaceX Booster 24 Begins First Cryo Proof Test at Massey's - BASENOR - Tesla Accessories",
      "topics": [
       "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPczdNTW85UVhDNlNobXNyZjV6aU0wd1NyUS1PaVkyb2g1MGc0aDFDZkxFMkpTRGxjVkRCcTF0bDlNN3FRSlVreXBZN1N6Q05JaUV4dnFYRzhjdjNUWTZEYk1kdFRMUHo1aXAtYXpTTjl2cy1MVGp4elVfT1NpS1BUT2hXeUdLbDZiTDZNLUdvSUhWZVBlYU41dXg4SXJVTDg2RWZWdTd4ekRHTHAzLXhpQjk3aWRIdGox?oc=5",
-     "published": "2026-11-21T14:01:00+00:00",
-     "score": 1.393,
-     "source": "Falcon",
-     "title": "SpaceX booster to return to California after next rocket launch - Ventura County Star",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQYzl0bXFBZkpzMzhNcmthaldxaXl4WHBOODdlQzRwZDJZYV9RWlBvUTZwaEMwQ3FFVEtKMS1sMDJWRHBLYXNZM3pJWWVsM205cm13SWtLMkFTSDFKS2RLNGNwdmhjMlo1VGJTS0RiWFhPM2hYODQ1bHhVczNPWkxRaXBpaFJxdlZPTDVOb2c2bnQzRkxXWE84M0pHc0dZYU1QOTdpRFdKbi0yZUw4VGx3YmRZSkl0d19ndm8tQUFBajlxblZEWEF4NEJzLWVtYkw2QW9jT0U2WlJwWlJGa05LMGtNTmZxd3ctd0VYamh6Ui1nUDNy?oc=5",
-     "published": "2026-11-21T11:55:12+00:00",
-     "score": 1.044,
-     "source": "Starship",
-     "title": "Prediction: Where Will SpaceX Stock Be in 2030 Now That Flight 15 Has Launched? - The Globe and Mail",
-     "topics": [
-      "starship",
-      "launch",
-      "money"
      ]
     },
     {
      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBkUUh0cUxWZWp0UjJtQTBpZ0NudTh3OWRHUTdLaGNJdmZtOEUtSjcyZlJiZ0dfNUVkbUo0eE41VGhJdFhZZkNaRHJQamoyOUlr?oc=5",
-     "published": "2026-11-22T16:03:43+00:00",
-     "score": 0.956,
+     "published": "2026-11-22T22:06:50+00:00",
+     "score": 0.965,
      "source": "SpaceX",
      "title": "NROL-136 Mission - SpaceX",
      "topics": []
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeUsxT28xUUxPNTlOUzljaXdZblBxQzk1WG1UbU9hLXE2cDVXOGtBY2VPRHhhNHI0QTUtcmVWckhIMm5ZdEFNaVV4TGxtM1UwVl82anBzVjNIU1ZHektRTTZCajBNa3l0S2JkWl93Q1gtaXhWQk9vbVBmVEE2VkxUUW5n0gGHAUFVX3lxTE1ZMkNzWkQyYnhiNGhTcGNIdUNIVEx4bE9vYVFQa2VJN3pNb1JuejhGUUJ1LVBLTkxEdmZsaUpibld6R1VxejBFSnpIVkNRWDRFV18xTko1cl9NbTNEQkdwTExTdWpLRW5pMkFyeUM3MjJJMWZidkNFRDFwQzA3UGZUcXJrVExJTQ?oc=5",
-     "published": "2026-11-22T15:00:00+00:00",
-     "score": 0.926,
-     "source": "Starship",
-     "title": "SpaceX Starship flight test 15 takes us one step closer to the moon - The Hill",
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zcFJpTThtdTJVWW9ONnVCRlluYzNhU0xVbXhWY0VxYU82dnRhU0sxb3VFQ2lIS3pmbjN2eWszQnFuVXF3d3dzcEtsZzhjdU1YQ1kyV3ZidFdPT2RpYjhqRW9Ba2Q2SXlNUG04UlItQWFZLXluX0E?oc=5",
+     "published": "2026-11-21T18:15:00+00:00",
+     "score": 0.956,
+     "source": "Falcon",
+     "title": "SpaceX Cargo Dragon Heads Home With Research Samples, Splashdown Off California Imminent - BigGo Finance",
      "topics": [
-      "starship"
+      "launch"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9JQndWX3ZDVzdxMWNad0pfZnBZZlZWQXloc3lJUU9xRzN0YW81UzlldjhTekhjMXN3NlRtY1luaTlQcmZsaU9WSjFR?oc=5",
-     "published": "2026-11-22T14:27:37+00:00",
-     "score": 0.911,
-     "source": "Falcon",
-     "title": "SpaceX Dragon Returns to Earth With a Treasure Trove of Scientific Secrets - SciTechDaily",
-     "topics": []
+     "link": "https://www.nasaspaceflight.com/2026/11/launch-preview-111626/",
+     "published": "2026-11-16T21:57:02+00:00",
+     "score": 0.9,
+     "source": "NASASpaceflight",
+     "title": "Launch Preview: Ariane 6 to launch Amazon satellites, Falcon 9 to launch government missions",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
+     "link": "https://www.nasaspaceflight.com/2026/11/launch-preview-11092026/",
+     "published": "2026-11-09T22:37:05+00:00",
+     "score": 0.9,
+     "source": "NASASpaceflight",
+     "title": "Launch Preview: Starship, Vulcan, and Electron launches scheduled for busy week",
+     "topics": [
+      "starship",
+      "launch"
+     ]
     }
    ],
    "tesla": [
     {
+     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPOHQ4ODdzSXFkV0dQLUhST1oydWd4bHNrYVFxNmNkdHBQcDZJZEZqTWE1aHhBNnItM19EeUJ6TzRkbnBoOThFalZEUkJmM0ZDbHBXcWttYW9rX1A2amlSUVJlaWtPUDBkWFdLYjBEQmw1V214S2hFZUUyWVhlQTRLOTBmN3VTTHlOUk04dl9WUl94UTlXTG1rd011TTV4UFpXM3lNUUoyY2xHZks0T0E?oc=5",
+     "published": "2026-11-22T20:29:00+00:00",
+     "score": 8.279,
+     "source": "Production",
+     "title": "Tesla Competitor \u2014 China Launches Mass Production of Flying Cars - \u0421\u0443\u0434\u043e\u0432\u043e-\u044e\u0440\u0438\u0434\u0438\u0447\u043d\u0430 \u0433\u0430\u0437\u0435\u0442\u0430",
+     "topics": [
+      "production"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUHVFcFNZWlpkVy1zQ283RzJzLWFyajVKNmkzUlZXSzJNZFFpMXFDckI5cEFvTjctMk1DcWNzVkJtaEtlNVdrWDZVcDlxTnJfcUhLUVkxdVBFN0t1bXJ2RnBWdjl3NmRFRnhnUi1zQkxLVjkwcFpHbjJzUllUSlNDbURpa1VuenFuemJwLUxQUFVwcjBYYUFXWE1kcnZBSkdrcmxSQWFRUS1WaG5NLWJCUUNkc3RGMzFHMFhEVUlRcHNYNTVON2xid3hMWUk4Z19vdHY4UmxnNS1PQ0F4dVpRaEJ1SUNid2NFaEhwbw?oc=5",
      "published": "2026-11-22T13:50:28+00:00",
-     "score": 5.364,
+     "score": 4.413,
      "source": "Autonomy",
      "title": "This Week in TSLA: Cybercab's Deliveries, SpaceX-Tesla Merger Talk, Model Y Without Steering Wheel and More - Benzinga",
      "topics": [
@@ -330,7 +340,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQM2dDM1VwMzlOTzRhUEc2YkxiV0p1YW9MS2FWUXhNRGp1NVZLQm1xNHNMd1hacW1ySXVKOGNVSGNqdEgxeGMwTTBzNnVCRF9uZGt5Rzl4aVVFSkpkNWtGNHM0OThZZVpDekpoOXBEWEI1WnlOUE1yOGdwYllxMDdlN0diYWJNWEQwVFgyMEREbTh6b2x1cE9FZw?oc=5",
      "published": "2026-11-22T13:04:28+00:00",
-     "score": 3.491,
+     "score": 2.857,
      "source": "Production",
      "title": "Tesla ends Cybertruck production, boosting Rivi... - Pluang",
      "topics": [
@@ -339,8 +349,8 @@
     },
     {
      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQX2NCMGcxaDBrc2NCT2MzSmtwc0FrTVNLN1R1Tk01MXZwRE1HLXFFVWUzODRTN2FhaWozaUVXQnhGSk9wNE1KVV85UFgxTGx6U0Y3c0JRUFN4el9GMDJPaTNSUkRHX204TkRoalI2WUFqWUczRFVsV3FzOEo2cW5PY2JRdE1ycDdYcVM1U1BwdzVVRUNiVUs5dG44N1JYRlVBc1A2YVlOZGpCLUw0Mnc?oc=5",
-     "published": "2026-11-22T03:49:08+00:00",
-     "score": 3.078,
+     "published": "2026-11-22T03:49:00+00:00",
+     "score": 2.285,
      "source": "Autonomy",
      "title": "Will the EU approve Tesla FSD in December? What the vote needs and where countries stand - Nacionale",
      "topics": [
@@ -348,41 +358,12 @@
      ]
     },
     {
-     "link": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
-     "published": "2026-11-21T19:56:56+00:00",
-     "score": 2.382,
-     "source": "Electrek",
-     "title": "Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes",
-     "topics": [
-      "autonomy"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZks5dVFhUWd1c1AwLWlaaE00QXlHblFaMTJUT1VTNTB2UEl1UEtuWkxkV3dQbUFQLV9Tbng5VUttS0p4TE4za2NzbkUzOUJTUUl3OG42cUY0MnluMldDd0pzY3lBVk51ajlOaHVIaUVaenFiVlhXaEhZUXMwcTRsZVBfRFNkN1BUWVA4Q2ZWNGdhWEFzeHpBUmhRZnVjeTUtZDRBWXYwN2ZrUlBqcmFnM3M2UkjSAboBQVVfeXFMT1JPWUM1ejdscGgydXpyMU1UNF9FOEFXdHhnWTJIaGdBbDlRWm5XUkQ5SDJXdGlaVTJVaTZZVEx6aHBuWkFOVlpiMWx6c2gzYUlVb2hidjdnWnJmaGgzWWVxX0tZZlF5M1Z6T2ZkUDRHMHNCYmd4a2wzUmhOMDJVWUtSLVZ5X0JtSVB3MEFqY1BpX2JZZWo2M3U1SFgzcmZjdHZtbGc5QXc0QWw5X05veXdPVXhjc1JDQlp3?oc=5",
      "published": "2026-11-22T03:01:02+00:00",
-     "score": 2.373,
+     "score": 1.739,
      "source": "Production",
      "title": "Korea's car trade deficit with China hits record on Tesla EV imports - The Korea Times",
      "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16VXJuMUs2TFdOMzk2aElKMi1JOWpRYmdJMUJPa09xSmU1Nk5vaXNHUlhpdUR3aGVpbEN0ejUweklrUGI1bUl3V2lRMl8wRUtJQ2k1Y2FpUGlBd242SHd5UzFQR2NYV2NSNGZoMU1n?oc=5",
-     "published": "2026-11-22T00:18:59+00:00",
-     "score": 2.073,
-     "source": "Production",
-     "title": "Tesla Boom Drives South Korea's Trade Deficit with China to Record KRW 6 Trillion - news.sbs.co.kr",
-     "topics": []
-    },
-    {
-     "link": "https://electrek.co/2026/11/21/elon-musk-tesla-argentina-launch-awkward-video-milei/",
-     "published": "2026-11-21T15:11:17+00:00",
-     "score": 1.588,
-     "source": "Electrek",
-     "title": "Elon Musk freezes at awkward Tesla Argentina launch: \u2018I don\u2019t know what to say\u2019",
-     "topics": [
-      "launch",
-      "production"
-     ]
     },
     {
      "link": "https://www.teslarati.com/tesla-assisted-driving-tad-lands-approval-italy-12th-eu-country/",
@@ -396,13 +377,20 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNkJGLWJpTEtpZ2ptWHF6OWNkbmF1UW9jSUgtYmt0SkhsMG1NQXVHZE5MSzNGLTczUzV0NFhXNUx4VmRmSDZaeFJNY2IwWVpPT3gtRF80Z2JzY0FTcFduSm5oRzhCVWl6SDQ4b21lbnJmM29udjlmdnFfRlFpTkcxNVhzdzR0MENQenpDUGE1OXRrZw?oc=5",
-     "published": "2026-11-22T07:08:50+00:00",
-     "score": 1.487,
-     "source": "Autonomy",
-     "title": "Tesla launches Cybercab, fueling speculation of SpaceX merger - Crypto Briefing",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16VXJuMUs2TFdOMzk2aElKMi1JOWpRYmdJMUJPa09xSmU1Nk5vaXNHUlhpdUR3aGVpbEN0ejUweklrUGI1bUl3V2lRMl8wRUtJQ2k1Y2FpUGlBd242SHd5UzFQR2NYV2NSNGZoMU1n?oc=5",
+     "published": "2026-11-22T00:18:59+00:00",
+     "score": 1.439,
+     "source": "Production",
+     "title": "Tesla Boom Drives South Korea's Trade Deficit with China to Record KRW 6 Trillion - news.sbs.co.kr",
+     "topics": []
+    },
+    {
+     "link": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
+     "published": "2026-11-21T19:56:56+00:00",
+     "score": 1.431,
+     "source": "Electrek",
+     "title": "Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes",
      "topics": [
-      "launch",
       "autonomy"
      ]
     },
@@ -418,6 +406,17 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNkJGLWJpTEtpZ2ptWHF6OWNkbmF1UW9jSUgtYmt0SkhsMG1NQXVHZE5MSzNGLTczUzV0NFhXNUx4VmRmSDZaeFJNY2IwWVpPT3gtRF80Z2JzY0FTcFduSm5oRzhCVWl6SDQ4b21lbnJmM29udjlmdnFfRlFpTkcxNVhzdzR0MENQenpDUGE1OXRrZw?oc=5",
+     "published": "2026-11-22T07:08:50+00:00",
+     "score": 1.154,
+     "source": "Autonomy",
+     "title": "Tesla launches Cybercab, fueling speculation of SpaceX merger - Crypto Briefing",
+     "topics": [
+      "launch",
+      "autonomy"
+     ]
+    },
+    {
      "link": "https://www.notateslaapp.com/news/5043/musk-says-tesla-should-move-all-model-y-production-to-y-l",
      "published": "2026-11-19T18:35:00+00:00",
      "score": 1.012,
@@ -428,71 +427,73 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNkdIRkR5VEtMMHJBZE1lanRfWjlsaGRrM1dncnA2eXE5bEFoQ0p6eFNOeGJWQ09ZNlpicmVWNC1LMG1oZ3QwTG5tRl8wck9fNkNuRXlTWWZ0RHR0NzBHTUtMOEs1R1NyY09QSnZwY1JNVWV6c2otekQyVFBqR05kT3ZfREI2YXJ0SEVycV9veGhUQVZXZXJQZHRVSDJtRUQt?oc=5",
-     "published": "2026-11-22T17:04:00+00:00",
-     "score": 0.984,
-     "source": "Optimus",
-     "title": "Tesla Cars to Stay on AI4 Chip as AI5 Goes to Optimus, Musk Says - Electric Vehicles",
-     "topics": [
-      "optimus"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlOENtbmtFb0tpbE5HU3FqYzZfZ1NhN1BackpEVEpMUDZZTTBNQ3h2SFk1V0cxUFZncUt2cExFNnYwTjhnYXdyd2NlczFINjNVV3Zka0lKdW1wdw?oc=5",
-     "published": "2026-11-22T16:19:30+00:00",
-     "score": 0.963,
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWGFxWjVXTGVuSlEtaFBMcmxTT25GdUhxdjB4WEpEeWRjazk5V2FZV0JEUFRBWWJ1SkJScWVJVWNjNDV4dk9OMTFUR0RHYTNOMTV5eVFKalQxM3VsQjBfUS11OXgzbEZGVFFlV05CNXNFSnk0MTZOeDI4ZE4wd2xQaA?oc=5",
+     "published": "2026-11-22T22:38:52+00:00",
+     "score": 0.98,
      "source": "Autonomy",
-     "title": "Tesla FSD v15.0.1 looks like GTA VI. Here\u2019s what changed - Kingy AI",
+     "title": "Tesla passes Waymo in Texas robotaxi registrations - Crypto Briefing",
      "topics": [
       "autonomy"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOU21DcWdLR21ueWZ4X3Nvd1RNa1ltR3hUMkRDV3hMaVEtaUJENEl1Uzk3QkgwazNBVUNRQnF4QXJBVGV2ZXh6NlRtVWtnd2c0ekhoNVJSUENzRHA3YmQzUXVON2s2RFBVWkVEaV9PenJmaFdNTVAwNGJ0aGVFWFBIZzV6TlI3ZDdQLXNLTjZmQlBwS0U4SUlMZ2dhQmZZdTdHbV84?oc=5",
-     "published": "2026-11-22T16:15:00+00:00",
-     "score": 0.961,
-     "source": "Autonomy",
-     "title": "Elon Musk Says Tesla\u2019s New FSD V15 Interface Makes Driving Look Like GTA - Autoblog",
-     "topics": [
-      "autonomy"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5sbGROQnI2TDdES1VYeGtqaHBrTk1oYTlYOElxZVBGN2xjWnRCQ0xST0N4NFE2Si1xTnZ4dDhZY3M0QmZmN081dTJ5YlpZTHhNVzdVVHRzaV9XTTJEOEFFVlFiZDdIM0lQS1hJ?oc=5",
-     "published": "2026-11-22T15:47:38+00:00",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdlc4TmNiei12NXpkczRjUEZROWhtU0NBa3EzOUVyRVJvRUg0QW5qd0ttVVpUSW9DeWFzV3FJU1JadHIyeERMT3djVXlwX2x3UlFZUHlRdlFsT2tOR2J4cnVhZTRON1NhWTNwb18tQlpJUm5rOXZ5MDQ3ZDh2d0tRVkxoUTl2UkYtUlBDUjNlV011RXZZYXpB?oc=5",
+     "published": "2026-11-22T21:30:07+00:00",
      "score": 0.948,
-     "source": "Tesla",
-     "title": "Try FSD (Supervised) with Katsuhiro's Referral - Tesla",
-     "topics": [
-      "autonomy"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOamp4TlViamVIcWU3WWNzOE5paFZ4RnFTLVhtYTg1Um9ORHpRbFNHVEJpOGlaTmZwQTdxUGZfY3RhRjVFcFQxdUlLRWNrSjZQYnJYSnMwMml1bWxEOXU4djd6cTVQME5uY2JVVEthMFFVS05fWjlRTW9HSFhUVWJOOUYxb1dIVkxPTHlrTzRZNFBYN0piU0J1aHhwMHAxaGtsbkVzNS1MeWtQR0MyME1BakwzcUdCMkNvQzZJOHdR?oc=5",
-     "published": "2026-11-22T15:41:36+00:00",
-     "score": 0.945,
      "source": "Autonomy",
-     "title": "Tesla FSD v15 (2026.38.6.11): Rollout Begins, Official Release Notes and New Features - Tesla Oracle",
+     "title": "Elon Musk Doubles Down On Autonomy: Tesla Plans Wheel-Less, Pedal-Less Model Y To Sit Alongside Two-Seat Cybercab - Yahoo Finance",
+     "topics": [
+      "autonomy",
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRmdfVEVvQWdMcUMtMWpMOEdrZ0lXQmRGMzJWV1J1MlljbVdYaS1QZ3pVSG5xUXI4VTJBT1VSQm9OMGtaZGNyTFJaUktQQXU0OVVFMWo3Q1pXZUpTN19tQl9WekdrN0w1Zks1WlFvV2RTUVd3bG53Ni1iQ19NdjVXM2RzTQ?oc=5",
+     "published": "2026-11-22T20:39:00+00:00",
+     "score": 0.925,
+     "source": "Autonomy",
+     "title": "Tesla skeptic praises 'Full Self-Driving,' then takes over to avoid a parking lot crash - The Cool Down",
      "topics": [
       "autonomy"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ncE5jcmJ0b0xQVW5GSW5jeXEzOHBvVWY2M2RoZUJMTnAta25tQUo0ak5fVEktcl9pT3NrdnVfdlBsNE9KU2dHdDcyQzVPd1hZTGZ2NkZEZDhoYWMzcVhKa3YyMGtYUlZ1WUZza1BIVXh2Nms?oc=5",
-     "published": "2026-11-22T15:34:46+00:00",
-     "score": 0.942,
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbkMtS0s3WUk4czhUQTFkUFpfSEdTVDItRndTYXR5QW80eUxmck9EZTBIWlJmUXYxNlhKdm4zaFhlQy1Sa1k2Mk1FbDdFQUVfQ3ZsRnpDY0RiZUUyWHZHeDZRQk9WOTV6UWhVaTVsbWt4Y0ZyV3V1dVZBQTBqd1ZkWUNrMVpyOFZrYjFseU5PVXlqQWNGQ2xVbVY1MUpuYnlfLTJLT2tKZ2Z4R0l5YTl6MmUxdTNVR1dKcldfOUdfNA?oc=5",
+     "published": "2026-11-22T20:32:17+00:00",
+     "score": 0.921,
+     "source": "Autonomy",
+     "title": "Tesla FSD V15 Offers Stunning Visualizations That Distract From \u201c25x\u201d - Forbes",
+     "topics": [
+      "autonomy"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kM0ZnSzRzMjh1S2haZ1l6WWJmVDl2T09qZmZDWkpUQzRrM2RoTHVXYTNfTENYem5mNERBTzJHc0dmN1JzZVFoR2hIWlcwb0dXQlZIbEZQNm9lU0tGYm5xQ0N5UE03S1NMXzBZM3lMd0NwODZC?oc=5",
+     "published": "2026-11-22T20:14:47+00:00",
+     "score": 0.913,
      "source": "Optimus",
-     "title": "Musk says Tesla\u2019s AI5 chip will power Optimus while cars stay on AI4 - Crypto Briefing",
+     "title": "Optimus Will Be Tesla\u2019s Best Product Yet, Musk Says - TeslaNorth.com",
      "topics": [
       "optimus"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRHhjbEZGaUp3VzIweWh3Q3ByeVB5aTdiZm50ZE9RUGNWRS1ycFQwZVgyX2xjSFRSYlBNR0YxbFg2cHJEd0gxUVRjUnYxemt3bHVYVk1pY21NcE93d3Z3SUtVXzF0QXlwcm94eUNkZnVoYXNNYVlPSTFwWWE0bDFFaTdYYXNFTGRZeER6aVVpWHpZRDRMeWlWTg?oc=5",
-     "published": "2026-11-22T15:29:24+00:00",
-     "score": 0.94,
-     "source": "Autonomy",
-     "title": "Tesla Robotaxi Costs: Cybercab $0.30 vs Rival $0.25 - shattered.io",
+     "link": "https://electrek.co/2026/11/21/elon-musk-tesla-argentina-launch-awkward-video-milei/",
+     "published": "2026-11-21T15:11:17+00:00",
+     "score": 0.9,
+     "source": "Electrek",
+     "title": "Elon Musk freezes at awkward Tesla Argentina launch: \u2018I don\u2019t know what to say\u2019",
+     "topics": [
+      "launch",
+      "production"
+     ]
+    },
+    {
+     "link": "https://electrek.co/2026/11/20/podcast-teslas-personal-cybercab-fords-lfp-for-fathom-aptera-delivers-and-more/",
+     "published": "2026-11-20T19:56:11+00:00",
+     "score": 0.9,
+     "source": "Electrek",
+     "title": "Podcast: Tesla\u2019s \u2018personal\u2019 Cybercab, Ford\u2019s LFP for Fathom, Aptera delivers, and more",
      "topics": [
       "autonomy"
      ]
@@ -502,49 +503,9 @@
     {
      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQ0t5ZW9wbGxxUVZWYU5VOGJCT09VMG9iSzJHVHl0Y0R4QzF4YVg2X3o2eEFEdTBfVVd5VkZYbGIzZHhremx3VHBLWVZBUk85VFVmazVtX0xqN3dYTm1UQkx5eE5rYnpsMW1Bc3gtYlo2aTZCYlRIWjFaMnJ0OHhxS1ZUc1kzN01scVA0cFJKMFUwM1JxdG01ZHVCOFJzUE9XUzZvTUVBN2Y2MW9wQ19YWkExNXRHT3dOblFkRzR5dFQwSHp0cFE2N2dXcFVvWGJtSzBfOXc5d2wyUFdwRWFGMtIB5gFBVV95cUxQdmE0WFBFQXpXSDdRM3JEVl96SC15dGVRM210aW1pRjFpeS1nb0V5YnhkQWw1RUZOY0dHclNiSF9FWWdMXzRIUzg3QW5mRS1TZTI1LTVrZkxtSGFwN0ctNVpGNUozaW1CMVR5aW1lbXhUeWdKSElVR0txM1ZRZWVnUUMwYXdrLWd0aDY3MUxkTWlhWHZDQXoxY1VraVRBSV9CN01CNkJfMkdZWXlnM2ZHaXkyV21mdk9JZjhTMmFzYm5FUHRSeTVHQnJSN1NvSzY2TjJNZ0JfUGFyYkxVWF9IdDU4ejlFZw?oc=5",
      "published": "2026-11-22T06:44:58+00:00",
-     "score": 4.181,
+     "score": 3.231,
      "source": "Neuralink",
      "title": "Elon Musk's Neuralink participant plays GTA VI using brain implant a day after launch - Moneycontrol.com",
-     "topics": [
-      "neurotech"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE96ODNoN2pES0RIT1F5RWRhNVJRNG1VME9CT3NmYjdPLVNveTJBVGdHTUYzcHY1ZjNCcmNPN0hQUG1TVEhfM3Zna3l0c0NPRkU5UEl3dktUNXJqWXRWZnIwS2tQRVR6SXZfYWNCX0ZwT053bC15N0QxRC1B?oc=5",
-     "published": "2026-11-22T16:49:20+00:00",
-     "score": 0.977,
-     "source": "Neuralink",
-     "title": "Neuralink Lets Man Play GTA 6 With His Mind - PCMag",
-     "topics": [
-      "neurotech"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTUowRnA4cnRHVnFWYnQyRG5mY3lKZmpMdVVpdlNPTFpiQVl4cG5sRXJXeFh1SUdOUk1qZ05vMEdCRWdmLWxtODIwUmk3S1UyMVlFWVJrQXh6cGRMMzFsblFSNFVrb1l4YU55N0xYcFFERmlYeUN5a2w3S0Nzb2xXSTQ0MDhHaFVuRUVFd2pUdU5JUW16bnEzTkdvQlR6bzMxOVd4T09Zc0EwYkhpVFNSel9DUW5oM2pFVDBia01DRkwxUEE?oc=5",
-     "published": "2026-11-22T16:14:52+00:00",
-     "score": 0.961,
-     "source": "Neuralink",
-     "title": "GTA VI Neuralink Gameplay: Participant Plays by Thought on PS5 - stupidDOPE",
-     "topics": [
-      "neurotech"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbnYxTExsQXpBTkhLTnEzRnZzQ3VJSF8zSjZNaC1MQlFZUklQRHluMUxYTUpLTFMzZ3pwMWVSRkxvLWtRTVkyS2c2MDY2X3BibmpIQW9BSzZXc2tpY3dzMkl6RWJHckpvOTJpWl8ybUNpSUlRX2NNTENlR0Vna3JqMEtB?oc=5",
-     "published": "2026-11-22T14:57:00+00:00",
-     "score": 0.925,
-     "source": "Neuralink",
-     "title": "Inside US firm Neuralink\u2019s brain chip and its three potential uses - Interesting Engineering",
-     "topics": [
-      "neurotech"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQSl9zYzZLM0ZNSVVvUk1HdWlYaU9ITG9ZT04tQ0NKYmRtWjNBdWJCWmE3Nk00YTE1aVNrWFVLZ3Y5RXVyVF9kbzRtdVltYU1yNV9tWHZvbW5pR0cwb0tTbTdFU3c4bmhKSXZpNDZUbjY3VkRYZmZWVDNHQlV5SjNYTjJPOENENmtZYmxJZGJfRXdZNlBMWXFBVkhKWDlfemFLS21jaWxEbXROTjA0ZDhwZGt1REV0YVRkUVNfazhvNU1OT08ySGdxMy1sNDNUcmNYVWlrbXdlcjg3ajZ3R3lSOW1uNzlGb09qa1RSS3N0ZEFpdmJyWWJuVm1qdnU1NmtEMHRMWXN6S1N4NmhibTg1VkZPeHlUMUR2aE1BdnpFTmkxNjVMR2lRZ2QtbjFfM09palBWdURyTzlpMzFiRTlkbUlHc2l6VzJKQi1hMzB4WS16QQ?oc=5",
-     "published": "2026-11-22T14:49:48+00:00",
-     "score": 0.921,
-     "source": "Neuralink",
-     "title": "Neuralink trial participant ditches mouth stick to play GTA 6 with his mind \u2014 brain-computer interface maps imagined ring-finger taps and hand slides to a PlayStation 5 controller - Tom's Hardware",
      "topics": [
       "neurotech"
      ]
@@ -570,11 +531,101 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUnUyWEhKdzNWVXdlcGY3Q1NsZjVYMlh2cjl1cTRRM2ROTDZ3YlhTaWFzMHczeTlTZzZ3QVJGc1UtdzFLX0xBMThNbzljMHpFNFJLQUpWZ25meDJqX0xyTUpsVGtFZWI3TXBTYzZkQ2otaWhFVVdnVlZPb3c3NjlPcjJWcUNZVzlVSDVZ?oc=5",
-     "published": "2026-11-22T13:36:55+00:00",
-     "score": 0.888,
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTVkyS296TnZKQkJEYVhrSVZyakxYc3FOLWwyc3RidTFEZ1NkVnlpbUtKaWVmcU5WSldXMnBlMmE0NThUNjdIeHZFeUFTLU5lZld3SUxCaHpoVjBxUVk5U3YzSV9mVDJaazhsRmtpbklfdGV2T2JlRUlxTHZ3R3JYaWg4Z1BtclV0?oc=5",
+     "published": "2026-11-22T19:44:34+00:00",
+     "score": 0.899,
      "source": "Neuralink",
-     "title": "Neuralink Participant Who Once Played With a Mouth Stick Now Takes On 'GTA 6' - AOL.com",
+     "title": "Neuralink Patient Plays GTA VI With Thoughts - Wisevoter",
+     "topics": [
+      "neurotech"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeVBEaEF6WEV6RGRBV2hCLTZQV0FteEN3NVBjc0dnWXVFdk9laThtWVhyRHk5RmtKU3dwb25kNndhNV9mWm5VSFFKb2JncDFiakRmbld2WTNweTFadkZoRE13UG9NU2pDU241eUpTeXNReU5TZ3dzVURMR1M2UmUwd3ltdXhIWTlua3ZNeUVhOFZtY2l1aXp5VElyeHVSTERXckdHX1ZSM0pWSkpJQ2tWa0FR?oc=5",
+     "published": "2026-11-22T19:09:12+00:00",
+     "score": 0.883,
+     "source": "Neuralink",
+     "title": "Neuralink GTA VI Demo Has a Trial Participant Flying Planes by Imagining Finger Taps - Hardware Busters",
+     "topics": [
+      "neurotech"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQd3VxVWJlZWJ0emM3OW9DZ2g2eUFnaXM2cFVJSzJ1bVd3Nm9tR1Jnd2lVeWZmZ2JyM25WQkRSdVZVREp3dmNJWFJkcTI0UlpoaWpwYlRhSEdFMGJCcVlhV3NqRlVBSXRzbkhMelNxTGctODB3eUdxTWF5Si00cUZ4NVJvYlJjLWRTb1dKNnBrQWFFdFNYNmhtQmw5aWtLVTBKRy12S2U5djNvcXp1YXRkVmlBYzVOUndScU4zNTBZQUIwQ0lyZnp2TmlwVHhORzhlak1VcVBJQmdCNlJ1VC1NWXp2Vjd5V09RZHBpV0M5Ym1DSlE1RlJrakxYMGs1bC10eG1zcTliYi1nTTB3VHNkMjVMSDLSAZoCQVVfeXFMUFp0VUVzT0xJSVNNSHVYeDNDcnZ5X05NUDhrRWNtWjBKdTBqb3FHZk9BTHZid0pnMDU3MlVlVTlhMHppeGFVNGlmT1ZNWk1OamlkeFhSU0NFYlJlbWJSczRERGdDSmJFbi1qWktXbnd4U2xzTzdvUFlFVjlCaDlfeTIyMVVsY213am9Wc010OF8xczZrYlIwY3ZqLWJKRmJudHR2LWFUUWwtUWNiTWZmZDNvOFBJZkVIaWxGUHRwcmF0ZnItUzRlVmJRbTFzWjd0azE1RVdLMkVUb29WZGxwaHhIb0pQM2VmdTE1b3lfX25HVlpfN0E1T0lXWlFTc0t3ZGVQWVkyUkF0ZGswNWlHdDg4ZEdGZ2dJdG1n?oc=5",
+     "published": "2026-11-22T18:49:09+00:00",
+     "score": 0.874,
+     "source": "Neuralink",
+     "title": "GTA 6 can be played with Neuralink, claims Elon Musk's brain chip designing company as Grand Theft Auto VI - The Economic Times",
+     "topics": [
+      "neurotech"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORzI2N25CU2loZy1OSU5CRmI4UEw0R1E4bXcxQ0dPQzFON2k1UGVMN0dIbTFWOTRmZnBiOUZUUzFxNTlFelh4S1RWYlAxQmxkSVBiS201akZFRUQ0ZWR6RFZiMmF5U3AtMk56Q2toRjBnRnp6UWl4OG8xdkM4aTJBVFFVMA?oc=5",
+     "published": "2026-11-22T16:48:53+00:00",
+     "score": 0.818,
+     "source": "Neuralink",
+     "title": "Neuralink Lets Man Play GTA 6 With His Mind - PCMag UK",
+     "topics": [
+      "neurotech"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOTUowRnA4cnRHVnFWYnQyRG5mY3lKZmpMdVVpdlNPTFpiQVl4cG5sRXJXeFh1SUdOUk1qZ05vMEdCRWdmLWxtODIwUmk3S1UyMVlFWVJrQXh6cGRMMzFsblFSNFVrb1l4YU55N0xYcFFERmlYeUN5a2w3S0Nzb2xXSTQ0MDhHaFVuRUVFd2pUdU5JUW16bnEzTkdvQlR6bzMxOVd4T09Zc0EwYkhpVFNSel9DUW5oM2pFVDBia01DRkwxUEE?oc=5",
+     "published": "2026-11-22T16:14:52+00:00",
+     "score": 0.802,
+     "source": "Neuralink",
+     "title": "GTA VI Played With a Neuralink Implant: A Trial Participant Drives, Flies and Fights by Thought - stupidDOPE",
+     "topics": [
+      "neurotech"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5YWEpXbnN3Vl8yeDliZ1B5dDU5NEpmekdPbU9uTWk1a1MtQ0ZDVHZiNXVjYlFPN3ZmdURucXNMV1ZYdw?oc=5",
+     "published": "2026-11-22T15:15:01+00:00",
+     "score": 0.775,
+     "source": "Grok",
+     "title": "Grok found $892 in possible Amazon claims, a user says. Musk hit repost. - Digg",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbnYxTExsQXpBTkhLTnEzRnZzQ3VJSF8zSjZNaC1MQlFZUklQRHluMUxYTUpLTFMzZ3pwMWVSRkxvLWtRTVkyS2c2MDY2X3BibmpIQW9BSzZXc2tpY3dzMkl6RWJHckpvOTJpWl8ybUNpSUlRX2NNTENlR0Vna3JqMEtB?oc=5",
+     "published": "2026-11-22T14:57:00+00:00",
+     "score": 0.766,
+     "source": "Neuralink",
+     "title": "Neuralink N1 explained: How the US brain chip turns intent into action - Interesting Engineering",
+     "topics": [
+      "neurotech"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPT2VnN3llVFJhS3Q0Rm83emdQQUJ5RmctQXZpbFgxbHN2UTRhOTBVUEV5QU8wUGplbnNqb08yS0xKalRaT2RVNG1jZnVFYnZIX1FaQlJDNjQ5Mi15azJhM1A4WVlkZ1lzTkY1SmZDNkRVQS1YREk4dk1IZTVVem5Xc3NR?oc=5",
+     "published": "2026-11-22T14:51:00+00:00",
+     "score": 0.763,
+     "source": "Grok",
+     "title": "Tesla Plans Real-Time Navigation Updates Using Vehicle Data and Grok - Drive Tesla Canada",
+     "topics": [
+      "ai"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQSl9zYzZLM0ZNSVVvUk1HdWlYaU9ITG9ZT04tQ0NKYmRtWjNBdWJCWmE3Nk00YTE1aVNrWFVLZ3Y5RXVyVF9kbzRtdVltYU1yNV9tWHZvbW5pR0cwb0tTbTdFU3c4bmhKSXZpNDZUbjY3VkRYZmZWVDNHQlV5SjNYTjJPOENENmtZYmxJZGJfRXdZNlBMWXFBVkhKWDlfemFLS21jaWxEbXROTjA0ZDhwZGt1REV0YVRkUVNfazhvNU1OT08ySGdxMy1sNDNUcmNYVWlrbXdlcjg3ajZ3R3lSOW1uNzlGb09qa1RSS3N0ZEFpdmJyWWJuVm1qdnU1NmtEMHRMWXN6S1N4NmhibTg1VkZPeHlUMUR2aE1BdnpFTmkxNjVMR2lRZ2QtbjFfM09palBWdURyTzlpMzFiRTlkbUlHc2l6VzJKQi1hMzB4WS16QQ?oc=5",
+     "published": "2026-11-22T14:49:48+00:00",
+     "score": 0.763,
+     "source": "Neuralink",
+     "title": "Neuralink trial participant ditches mouth stick to play GTA 6 with his mind \u2014 brain-computer interface maps imagined ring-finger taps and hand slides to a PlayStation 5 controller - Tom's Hardware",
+     "topics": [
+      "neurotech"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNGRIQjBUNUtkdjJMZnpXVkduQ1FGd01UZUhCeTlhZDhjZlJLMzhXQWhWa3U4dG54SXZTWXBZSkYxNE9VMlVfRDN1Qk1xNkJjNWhuQ0dHWkpsMTdnRC01dWhwZHVEZGNzWnNyMXlxaXJrRjIxZ0xoS2ZFeE1kNzBzeVY4UUV1MG5CSXRNelU5TTRuM0xDbFh3VzhhUFJWeV9xa0NlV3M0aVhudWxk?oc=5",
+     "published": "2026-11-22T13:36:55+00:00",
+     "score": 0.729,
+     "source": "Neuralink",
+     "title": "Neuralink Participant Who Once Played With a Mouth Stick Now Takes On \u2018GTA 6\u2019 - Men's Journal",
      "topics": [
       "neurotech"
      ]
@@ -582,19 +633,9 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8zeTNOTWkwU1JDVmhaYTBXWERVXzk3dFM5VXlZME1RM2FmYUNvY19BNzZRZUNtM2NaeVQwSlQ1SVlLS284TVFkMENfTHZQaGZxSTlWMg?oc=5",
      "published": "2026-11-22T11:58:40+00:00",
-     "score": 0.842,
+     "score": 0.684,
      "source": "Neuralink",
      "title": "Neuralink patient plays GTA 6 with his mind - mobidevices.com",
-     "topics": [
-      "neurotech"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RNVQ4VWxJWk9PSU9aZ1FDV2JfbkFua09rVEs4VURQcTY0SXl4ZUpXeGxpckI2WGhyV2Rjc3NCLXFTZk1MXzUtOXpuUHRRbTFMUnBBamJMcmRidDIyNmZZX1ZJaHBKVGM?oc=5",
-     "published": "2026-11-22T05:01:42+00:00",
-     "score": 0.649,
-     "source": "Neuralink",
-     "title": "Neuralink Shows a Trial Participant Playing GTA 6 With His Mind - ShiftDelete.Net",
      "topics": [
       "neurotech"
      ]
@@ -621,16 +662,6 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdm1yRHFHNHdKVnl2a3lpZ0FxMlJicFE0QXpkcUlmdUstVWxTV29oZ00ydlI1VVFRcEpNQTIwUjA3YjNtQ0FhNTYySlhQOWwzemFQQkx2NTc5X0JlYk44bWRiemJrbVg5VjZ4OEJiOVNla2ZtOGdJUzdjZ1ZlZHpUWnRKbFozWnZlMUs4OG9UVEVQNU9aZ1ZOaEFISWVGOXVWcnpYTUt5ZmhMRWZvejA2WF9QZkFwa1I2ZU15VUkyd3pOTjBEZXc?oc=5",
-     "published": "2026-11-20T01:08:13+00:00",
-     "score": 0.6,
-     "source": "xAI",
-     "title": "Muslim Girl Founder Amani Al-Khatahtbeh Sues xAI Over Deepfakes - Bergen Record",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeEZFMV9VUDR5aHlZQWdCZXNFYmNUUmJzbUlnaWhIRVl2cTRWclNTZWc1NW83aEJfeDl0N2Zqa21CWTNxeFZaOWdKUW9hTUJWaUE3cmxua2F3TzJ0M3FJNTFHWkh5OTNvbDZFWHZ0cF9GQkdMRFplaHVDeWtjVVZrSmlmVXNucDZLdjA5dnZESDNtekg5SEhYS3lMRE9vTXN3aGNMcHlNaGlhenFYVnh6MmZoUmJ3T2V2R0hPUXR4Z1E?oc=5",
      "published": "2026-11-20T02:15:00+00:00",
      "score": 0.6,
@@ -650,42 +681,9 @@
       "ai",
       "regulatory"
      ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZkN0OXZwWF96MGxKVFZfMmh5THo4YkZpMS04SlBlUUwyNUR1U0Nqb2kzSTFsQ2FyeDlNMVowdmVTb1p5TVJrdHJlRGowUTJaaklQaFh4Y0xrR0pwYWNoSzVLU0VKeDJ4ZW9WT1VQd2otZEFPUUstUVEzVzVVMklsOHpZRWpoZGNxS05oUkRKWQ?oc=5",
-     "published": "2026-11-20T10:35:32+00:00",
-     "score": 0.6,
-     "source": "Grok",
-     "title": "SpaceXSI denies liability in MP Jess Asato's Grok lawsuit - Resultsense",
-     "topics": [
-      "ai",
-      "regulatory"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMy16WTRIOFNWSk8yRW55NHNEVUxEekpfNGtEWkFFQkJmT1Z4OEJFdjhSRG1EWmRvaHd0RHRabzlQbXVnZG9TenZUTlc1SG4teVpaWnBEeUtFdFJZOXp5R1FFYUdDWEdobklUbW04YjFTQzdFOVNYYl90YWFacnhkQjJLNmE?oc=5",
-     "published": "2026-11-22T03:08:11+00:00",
-     "score": 0.597,
-     "source": "Grok",
-     "title": "Tesla Wants Its Cars to Share Traffic Updates With Grok - TeslaNorth.com",
-     "topics": [
-      "ai",
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQjNsVDVfWjlIMWhIaGlpMGpEM3BmMURxVG95dklrR3VqSnVhRGhCSjJpR3NfUUhqcEdPSGN5a1N2bUJPSVhhVWQtNldEZ0xRSnZqbFcxMnhQV0FUazVUQjNvNmh0V2o2Sk44aURsVlA5WC01bVVDcWFqbWxTbEZYNDRpUUkxQVJmeFRr?oc=5",
-     "published": "2026-11-22T02:12:02+00:00",
-     "score": 0.571,
-     "source": "Neuralink",
-     "title": "Elon Musk Shares Video of Paralysed Man Playing GTA 6 With His Mind Using Neuralink Brain Implant - www.techtimes.co.uk",
-     "topics": [
-      "neurotech",
-      "money"
-     ]
     }
    ]
   }
  },
- "fetched_at": "2026-11-22T17:39:40.523304+00:00"
+ "fetched_at": "2026-11-22T23:22:00.247984+00:00"
 }
