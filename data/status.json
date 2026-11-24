@@ -1,40 +1,40 @@
 {
  "constellation": {
-  "last_attempt": "2026-11-24T04:41:56.154882+00:00",
-  "last_error": "ConnectTimeout: HTTPSConnectionPool(host='celestrak.org', port=443): Max retries exceeded with url: /NORAD/elements/gp.php?GROUP=starlink&FORMAT=json (Caused by ConnectTimeoutError(<HTTPSConnection(host='celestrak.org', port=443) at 0x7372a3c7a4d0>, 'Connection to celestrak.org timed out. (connect timeout=60)'))",
+  "last_attempt": "2026-11-24T17:08:45.744848+00:00",
+  "last_error": null,
   "last_error_at": "2026-11-24T04:41:56.154899+00:00",
-  "last_success": "2026-11-23T19:56:22.891689+00:00"
+  "last_success": "2026-11-24T17:08:45.744854+00:00"
  },
  "financials": {
-  "last_attempt": "2026-11-24T04:41:56.821753+00:00",
+  "last_attempt": "2026-11-24T17:09:08.840095+00:00",
   "last_error": null,
-  "last_success": "2026-11-24T04:41:56.821759+00:00"
+  "last_success": "2026-11-24T17:09:08.840101+00:00"
  },
  "fleet": {
-  "last_attempt": "2026-11-24T04:41:56.219178+00:00",
+  "last_attempt": "2026-11-24T17:09:08.315065+00:00",
   "last_error": null,
   "last_error_at": "2026-11-17T00:03:22.754308+00:00",
-  "last_success": "2026-11-17T10:20:27.419353+00:00"
+  "last_success": "2026-11-24T17:09:08.315076+00:00"
  },
  "launches": {
-  "last_attempt": "2026-11-24T04:40:56.041258+00:00",
+  "last_attempt": "2026-11-24T17:08:17.784164+00:00",
   "last_error": null,
   "last_error_at": "2026-11-20T21:42:52.164041+00:00",
-  "last_success": "2026-11-24T04:40:56.041266+00:00"
+  "last_success": "2026-11-24T17:08:17.784171+00:00"
  },
  "news": {
-  "last_attempt": "2026-11-24T04:40:20.024825+00:00",
+  "last_attempt": "2026-11-24T17:07:49.842657+00:00",
   "last_error": null,
-  "last_success": "2026-11-24T04:40:20.024831+00:00"
+  "last_success": "2026-11-24T17:07:49.842664+00:00"
  },
  "orbits": {
-  "last_attempt": "2026-11-24T04:41:56.194300+00:00",
+  "last_attempt": "2026-11-24T17:08:49.210594+00:00",
   "last_error": null,
   "last_error_at": "2026-11-17T00:03:22.503414+00:00",
-  "last_success": "2026-11-17T10:20:25.696148+00:00"
+  "last_success": "2026-11-24T17:08:49.210606+00:00"
  },
  "sites": {
-  "last_attempt": "2026-11-24T04:41:57.449647+00:00",
+  "last_attempt": "2026-11-24T17:09:08.841571+00:00",
   "last_error": null,
   "last_success": "2026-11-24T04:41:57.449675+00:00"
  }
