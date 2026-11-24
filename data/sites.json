@@ -241,33 +241,33 @@
   ],
   "superchargers": {
    "by_status": {
-    "CLOSED_PERM": 352,
+    "CLOSED_PERM": 355,
     "CLOSED_TEMP": 39,
-    "CONSTRUCTION": 358,
-    "EXPANDING": 28,
-    "OPEN": 9126,
-    "PERMIT": 187,
-    "PLAN": 1221,
-    "VOTING": 148
+    "CONSTRUCTION": 355,
+    "EXPANDING": 27,
+    "OPEN": 9161,
+    "PERMIT": 186,
+    "PLAN": 1220,
+    "VOTING": 149
    },
    "clusters": [
     {
-     "lat": 30.641,
+     "lat": 30.642,
      "lon": 120.613,
      "regions": [
       "Asia Pacific"
      ],
-     "sites": 863,
-     "stalls": 4493
+     "sites": 867,
+     "stalls": 4505
     },
     {
-     "lat": 40.208,
-     "lon": -75.116,
+     "lat": 40.205,
+     "lon": -75.125,
      "regions": [
       "North America"
      ],
-     "sites": 448,
-     "stalls": 4851
+     "sites": 450,
+     "stalls": 4875
     },
     {
      "lat": 35.121,
@@ -279,13 +279,13 @@
      "stalls": 6389
     },
     {
-     "lat": 23.137,
-     "lon": 113.835,
+     "lat": 23.136,
+     "lon": 113.833,
      "regions": [
       "Asia Pacific"
      ],
-     "sites": 279,
-     "stalls": 1610
+     "sites": 280,
+     "stalls": 1613
     },
     {
      "lat": 39.456,
@@ -297,13 +297,13 @@
      "stalls": 1463
     },
     {
-     "lat": 38.507,
-     "lon": -121.454,
+     "lat": 38.502,
+     "lon": -121.46,
      "regions": [
       "North America"
      ],
-     "sites": 226,
-     "stalls": 3121
+     "sites": 228,
+     "stalls": 3161
     },
     {
      "lat": 49.699,
@@ -315,40 +315,40 @@
      "stalls": 2747
     },
     {
-     "lat": 24.626,
-     "lon": 119.939,
+     "lat": 24.625,
+     "lon": 119.93,
      "regions": [
       "Asia Pacific"
      ],
-     "sites": 208,
-     "stalls": 1120
+     "sites": 209,
+     "stalls": 1123
     },
     {
-     "lat": 30.079,
-     "lon": 105.267,
+     "lat": 30.075,
+     "lon": 105.273,
      "regions": [
       "Asia Pacific"
      ],
-     "sites": 190,
-     "stalls": 926
+     "sites": 191,
+     "stalls": 929
     },
     {
-     "lat": 30.036,
-     "lon": 114.808,
+     "lat": 30.008,
+     "lon": 114.793,
      "regions": [
       "Asia Pacific"
      ],
-     "sites": 180,
-     "stalls": 788
+     "sites": 183,
+     "stalls": 797
     },
     {
-     "lat": 34.291,
-     "lon": -116.07,
+     "lat": 34.294,
+     "lon": -116.075,
      "regions": [
       "North America"
      ],
-     "sites": 179,
-     "stalls": 3270
+     "sites": 180,
+     "stalls": 3286
     },
     {
      "lat": 50.755,
@@ -369,22 +369,22 @@
      "stalls": 2375
     },
     {
-     "lat": 35.277,
-     "lon": -80.065,
-     "regions": [
-      "North America"
-     ],
-     "sites": 146,
-     "stalls": 1742
-    },
-    {
-     "lat": 34.556,
-     "lon": -84.965,
+     "lat": 35.285,
+     "lon": -80.059,
      "regions": [
       "North America"
      ],
      "sites": 145,
-     "stalls": 1946
+     "stalls": 1734
+    },
+    {
+     "lat": 34.563,
+     "lon": -84.952,
+     "regions": [
+      "North America"
+     ],
+     "sites": 144,
+     "stalls": 1938
     },
     {
      "lat": 35.014,
@@ -405,13 +405,22 @@
      "stalls": 1427
     },
     {
-     "lat": 39.912,
-     "lon": -79.627,
+     "lat": 35.342,
+     "lon": 119.411,
+     "regions": [
+      "Asia Pacific"
+     ],
+     "sites": 124,
+     "stalls": 501
+    },
+    {
+     "lat": 39.899,
+     "lon": -79.621,
      "regions": [
       "North America"
      ],
-     "sites": 122,
-     "stalls": 1089
+     "sites": 123,
+     "stalls": 1105
     },
     {
      "lat": 22.311,
@@ -423,15 +432,6 @@
      "stalls": 643
     },
     {
-     "lat": 35.329,
-     "lon": 119.43,
-     "regions": [
-      "Asia Pacific"
-     ],
-     "sites": 122,
-     "stalls": 494
-    },
-    {
      "lat": 40.449,
      "lon": -85.04,
      "regions": [
@@ -441,13 +441,13 @@
      "stalls": 1222
     },
     {
-     "lat": 45.702,
-     "lon": 9.805,
+     "lat": 45.722,
+     "lon": 9.832,
      "regions": [
       "Europe"
      ],
      "sites": 112,
-     "stalls": 1351
+     "stalls": 1349
     },
     {
      "lat": 45.201,
@@ -459,13 +459,13 @@
      "stalls": 1737
     },
     {
-     "lat": 40.792,
-     "lon": -89.104,
+     "lat": 40.772,
+     "lon": -89.116,
      "regions": [
       "North America"
      ],
-     "sites": 109,
-     "stalls": 1253
+     "sites": 110,
+     "stalls": 1261
     },
     {
      "lat": 26.284,
@@ -477,13 +477,13 @@
      "stalls": 1352
     },
     {
-     "lat": 34.06,
-     "lon": -96.274,
+     "lat": 34.065,
+     "lon": -96.238,
      "regions": [
       "North America"
      ],
-     "sites": 100,
-     "stalls": 1091
+     "sites": 101,
+     "stalls": 1107
     },
     {
      "lat": 59.969,
@@ -495,13 +495,22 @@
      "stalls": 1737
     },
     {
-     "lat": 30.412,
-     "lon": -95.78,
+     "lat": 30.418,
+     "lon": -95.782,
      "regions": [
       "North America"
      ],
-     "sites": 91,
-     "stalls": 1304
+     "sites": 90,
+     "stalls": 1288
+    },
+    {
+     "lat": 34.463,
+     "lon": 109.437,
+     "regions": [
+      "Asia Pacific"
+     ],
+     "sites": 84,
+     "stalls": 390
     },
     {
      "lat": 54.877,
@@ -522,13 +531,13 @@
      "stalls": 419
     },
     {
-     "lat": 34.467,
-     "lon": 109.443,
+     "lat": 43.817,
+     "lon": -79.663,
      "regions": [
-      "Asia Pacific"
+      "North America"
      ],
-     "sites": 83,
-     "stalls": 386
+     "sites": 79,
+     "stalls": 1018
     },
     {
      "lat": 36.791,
@@ -538,15 +547,6 @@
      ],
      "sites": 79,
      "stalls": 543
-    },
-    {
-     "lat": 43.825,
-     "lon": -79.66,
-     "regions": [
-      "North America"
-     ],
-     "sites": 78,
-     "stalls": 1002
     },
     {
      "lat": 44.414,
@@ -567,13 +567,22 @@
      "stalls": 432
     },
     {
-     "lat": 48.867,
-     "lon": -121.1,
+     "lat": 48.853,
+     "lon": -121.114,
+     "regions": [
+      "North America"
+     ],
+     "sites": 73,
+     "stalls": 768
+    },
+    {
+     "lat": 44.128,
+     "lon": -70.796,
      "regions": [
       "North America"
      ],
      "sites": 72,
-     "stalls": 764
+     "stalls": 700
     },
     {
      "lat": 45.27,
@@ -592,15 +601,6 @@
      ],
      "sites": 71,
      "stalls": 258
-    },
-    {
-     "lat": 44.15,
-     "lon": -70.786,
-     "regions": [
-      "North America"
-     ],
-     "sites": 70,
-     "stalls": 672
     },
     {
      "lat": 30.111,
@@ -675,15 +675,6 @@
      "stalls": 370
     },
     {
-     "lat": 45.808,
-     "lon": 14.741,
-     "regions": [
-      "Europe"
-     ],
-     "sites": 55,
-     "stalls": 547
-    },
-    {
      "lat": 45.42,
      "lon": -123.104,
      "regions": [
@@ -691,6 +682,24 @@
      ],
      "sites": 54,
      "stalls": 621
+    },
+    {
+     "lat": 39.556,
+     "lon": 119.576,
+     "regions": [
+      "Asia Pacific"
+     ],
+     "sites": 53,
+     "stalls": 220
+    },
+    {
+     "lat": 45.755,
+     "lon": 14.751,
+     "regions": [
+      "Europe"
+     ],
+     "sites": 53,
+     "stalls": 517
     },
     {
      "lat": 23.972,
@@ -702,15 +711,6 @@
      "stalls": 212
     },
     {
-     "lat": 39.554,
-     "lon": 119.604,
-     "regions": [
-      "Asia Pacific"
-     ],
-     "sites": 52,
-     "stalls": 217
-    },
-    {
      "lat": 46.35,
      "lon": -120.843,
      "regions": [
@@ -718,6 +718,15 @@
      ],
      "sites": 52,
      "stalls": 534
+    },
+    {
+     "lat": 34.19,
+     "lon": -111.442,
+     "regions": [
+      "North America"
+     ],
+     "sites": 51,
+     "stalls": 682
     },
     {
      "lat": 49.134,
@@ -729,31 +738,22 @@
      "stalls": 680
     },
     {
-     "lat": 34.208,
-     "lon": -111.432,
-     "regions": [
-      "North America"
-     ],
-     "sites": 50,
-     "stalls": 674
-    },
-    {
-     "lat": 34.915,
-     "lon": 135.747,
-     "regions": [
-      "Asia Pacific"
-     ],
-     "sites": 49,
-     "stalls": 250
-    },
-    {
-     "lat": 54.534,
-     "lon": -3.887,
+     "lat": 54.535,
+     "lon": -3.854,
      "regions": [
       "Europe"
      ],
-     "sites": 47,
-     "stalls": 427
+     "sites": 49,
+     "stalls": 451
+    },
+    {
+     "lat": 34.913,
+     "lon": 135.746,
+     "regions": [
+      "Asia Pacific"
+     ],
+     "sites": 48,
+     "stalls": 246
     },
     {
      "lat": 39.989,
@@ -774,13 +774,13 @@
      "stalls": 210
     },
     {
-     "lat": 43.85,
-     "lon": -89.42,
+     "lat": -34.301,
+     "lon": 150.374,
      "regions": [
-      "North America"
+      "Asia Pacific"
      ],
-     "sites": 42,
-     "stalls": 373
+     "sites": 41,
+     "stalls": 339
     },
     {
      "lat": 45.037,
@@ -792,13 +792,13 @@
      "stalls": 376
     },
     {
-     "lat": -34.311,
-     "lon": 150.353,
+     "lat": 43.846,
+     "lon": -89.44,
      "regions": [
-      "Asia Pacific"
+      "North America"
      ],
-     "sites": 40,
-     "stalls": 323
+     "sites": 41,
+     "stalls": 367
     },
     {
      "lat": 39.783,
@@ -819,13 +819,13 @@
      "stalls": 213
     },
     {
-     "lat": 59.851,
-     "lon": 15.16,
+     "lat": 59.869,
+     "lon": 15.135,
      "regions": [
       "Europe"
      ],
-     "sites": 36,
-     "stalls": 610
+     "sites": 37,
+     "stalls": 626
     },
     {
      "lat": 60.437,
@@ -837,6 +837,15 @@
      "stalls": 523
     },
     {
+     "lat": 39.586,
+     "lon": -123.02,
+     "regions": [
+      "North America"
+     ],
+     "sites": 36,
+     "stalls": 416
+    },
+    {
      "lat": 40.065,
      "lon": -4.403,
      "regions": [
@@ -844,15 +853,6 @@
      ],
      "sites": 36,
      "stalls": 402
-    },
-    {
-     "lat": 39.608,
-     "lon": -123.02,
-     "regions": [
-      "North America"
-     ],
-     "sites": 35,
-     "stalls": 408
     },
     {
      "lat": 36.589,
@@ -882,15 +882,6 @@
      "stalls": 125
     },
     {
-     "lat": 40.189,
-     "lon": -0.095,
-     "regions": [
-      "Europe"
-     ],
-     "sites": 32,
-     "stalls": 380
-    },
-    {
      "lat": 35.166,
      "lon": 104.795,
      "regions": [
@@ -898,6 +889,15 @@
      ],
      "sites": 32,
      "stalls": 108
+    },
+    {
+     "lat": 40.209,
+     "lon": -0.084,
+     "regions": [
+      "Europe"
+     ],
+     "sites": 31,
+     "stalls": 372
     },
     {
      "lat": 34.764,
@@ -945,6 +945,15 @@
      "stalls": 299
     },
     {
+     "lat": 30.87,
+     "lon": -89.883,
+     "regions": [
+      "North America"
+     ],
+     "sites": 27,
+     "stalls": 321
+    },
+    {
      "lat": 60.806,
      "lon": 24.656,
      "regions": [
@@ -954,13 +963,13 @@
      "stalls": 249
     },
     {
-     "lat": 30.878,
-     "lon": -89.961,
+     "lat": 49.613,
+     "lon": 19.817,
      "regions": [
-      "North America"
+      "Europe"
      ],
      "sites": 26,
-     "stalls": 313
+     "stalls": 244
     },
     {
      "lat": 24.924,
@@ -972,13 +981,22 @@
      "stalls": 78
     },
     {
-     "lat": 49.696,
-     "lon": 19.745,
+     "lat": 50.241,
+     "lon": -115.201,
      "regions": [
-      "Europe"
+      "North America"
      ],
      "sites": 25,
-     "stalls": 236
+     "stalls": 210
+    },
+    {
+     "lat": 1.355,
+     "lon": 103.825,
+     "regions": [
+      "Asia Pacific"
+     ],
+     "sites": 25,
+     "stalls": 90
     },
     {
      "lat": -37.969,
@@ -1008,24 +1026,6 @@
      "stalls": 192
     },
     {
-     "lat": 50.348,
-     "lon": -115.118,
-     "regions": [
-      "North America"
-     ],
-     "sites": 24,
-     "stalls": 202
-    },
-    {
-     "lat": 1.357,
-     "lon": 103.824,
-     "regions": [
-      "Asia Pacific"
-     ],
-     "sites": 24,
-     "stalls": 86
-    },
-    {
      "lat": 31.48,
      "lon": 35.027,
      "regions": [
@@ -1044,13 +1044,13 @@
      "stalls": 319
     },
     {
-     "lat": 39.793,
-     "lon": 110.519,
+     "lat": 39.839,
+     "lon": 110.574,
      "regions": [
       "Asia Pacific"
      ],
-     "sites": 21,
-     "stalls": 81
+     "sites": 22,
+     "stalls": 84
     },
     {
      "lat": -36.207,
@@ -1060,6 +1060,15 @@
      ],
      "sites": 19,
      "stalls": 135
+    },
+    {
+     "lat": 65.285,
+     "lon": 14.51,
+     "regions": [
+      "Europe"
+     ],
+     "sites": 18,
+     "stalls": 169
     },
     {
      "lat": 35.51,
@@ -1107,15 +1116,6 @@
      "stalls": 88
     },
     {
-     "lat": 65.22,
-     "lon": 14.365,
-     "regions": [
-      "Europe"
-     ],
-     "sites": 17,
-     "stalls": 161
-    },
-    {
      "lat": 3.791,
      "lon": 101.31,
      "regions": [
@@ -1134,6 +1134,15 @@
      "stalls": 56
     },
     {
+     "lat": -29.047,
+     "lon": 153.233,
+     "regions": [
+      "Asia Pacific"
+     ],
+     "sites": 16,
+     "stalls": 139
+    },
+    {
      "lat": 44.88,
      "lon": -110.521,
      "regions": [
@@ -1150,15 +1159,6 @@
      ],
      "sites": 16,
      "stalls": 170
-    },
-    {
-     "lat": -29.04,
-     "lon": 153.229,
-     "regions": [
-      "Asia Pacific"
-     ],
-     "sites": 15,
-     "stalls": 123
     },
     {
      "lat": 29.272,
@@ -1314,6 +1314,15 @@
      "stalls": 64
     },
     {
+     "lat": 39.138,
+     "lon": 140.433,
+     "regions": [
+      "Asia Pacific"
+     ],
+     "sites": 10,
+     "stalls": 41
+    },
+    {
      "lat": 59.826,
      "lon": 19.013,
      "regions": [
@@ -1339,15 +1348,6 @@
      ],
      "sites": 9,
      "stalls": 92
-    },
-    {
-     "lat": 39.283,
-     "lon": 140.424,
-     "regions": [
-      "Asia Pacific"
-     ],
-     "sites": 9,
-     "stalls": 37
     },
     {
      "lat": 40.429,
@@ -1782,6 +1782,15 @@
      "stalls": 17
     },
     {
+     "lat": 64.64,
+     "lon": -22.682,
+     "regions": [
+      "Europe"
+     ],
+     "sites": 3,
+     "stalls": 30
+    },
+    {
      "lat": 37.016,
      "lon": 29.822,
      "regions": [
@@ -1870,6 +1879,15 @@
      ],
      "sites": 3,
      "stalls": 6
+    },
+    {
+     "lat": 35.945,
+     "lon": -8.0,
+     "regions": [
+      "Europe"
+     ],
+     "sites": 3,
+     "stalls": 48
     },
     {
      "lat": 62.627,
@@ -2052,15 +2070,6 @@
      "stalls": 10
     },
     {
-     "lat": 35.369,
-     "lon": -8.002,
-     "regions": [
-      "Europe"
-     ],
-     "sites": 2,
-     "stalls": 24
-    },
-    {
      "lat": -43.535,
      "lon": 172.576,
      "regions": [
@@ -2149,15 +2158,6 @@
      ],
      "sites": 1,
      "stalls": 4
-    },
-    {
-     "lat": 63.997,
-     "lon": -22.584,
-     "regions": [
-      "Europe"
-     ],
-     "sites": 1,
-     "stalls": 20
     },
     {
      "lat": 42.921,
@@ -2391,17 +2391,17 @@
      53,
      200,
      200,
-     179,
-     318,
-     281,
-     316,
-     348,
+     177,
+     317,
+     278,
+     317,
+     349,
      1030,
-     1462,
-     1301,
+     1461,
+     1302,
      1095,
-     1315,
-     1021
+     1317,
+     1058
     ],
     "caveat": "Sites open today, by the year each opened. A site that has since closed is not counted, so earlier years are slightly understated.",
     "cumulative": [
@@ -2409,34 +2409,34 @@
      60,
      260,
      460,
-     639,
-     957,
-     1238,
-     1554,
-     1902,
-     2932,
-     4394,
-     5695,
-     6790,
-     8105,
-     9126
+     637,
+     954,
+     1232,
+     1549,
+     1898,
+     2928,
+     4389,
+     5691,
+     6786,
+     8103,
+     9161
     ],
     "cumulative_stalls": [
      82,
      673,
      2770,
      4671,
-     6389,
-     9691,
-     13007,
-     16538,
-     20440,
-     29754,
-     42557,
-     54949,
-     65575,
-     77779,
-     85977
+     6377,
+     9663,
+     12953,
+     16492,
+     20418,
+     29732,
+     42519,
+     54927,
+     65549,
+     77785,
+     86272
     ],
     "years": [
      "2012",
@@ -2457,9 +2457,9 @@
     ]
    },
    "note": "Open sites only, aggregated into ~5-degree cells for the map. Counts are exact; circle positions are the mean of the sites in a cell.",
-   "open_sites": 9126,
-   "total_stalls": 85977
+   "open_sites": 9161,
+   "total_stalls": 86272
   }
  },
- "fetched_at": "2026-11-17T00:03:23.910856+00:00"
+ "fetched_at": "2026-11-24T04:41:57.447720+00:00"
 }

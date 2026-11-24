@@ -140,7 +140,7 @@
    "mission": "Progress MS-36 (97P)",
    "mission_type": "Resupply",
    "name": "Soyuz 2.1b | Progress MS-36 (97P)",
-   "net": "2026-11-24T10:13:00Z",
+   "net": "2026-11-24T10:17:00Z",
    "net_precision": "MIN",
    "orbit": "LEO",
    "pad": "31/6",
@@ -326,7 +326,7 @@
    },
    {
     "count": 4,
-    "last_net": "2026-11-24T10:13:00Z",
+    "last_net": "2026-11-24T10:17:00Z",
     "lat": 45.996034,
     "location": "Baikonur Cosmodrome, Republic of Kazakhstan",
     "lon": 63.564003,
@@ -2007,7 +2007,7 @@
     "mission": "Progress MS-36 (97P)",
     "mission_type": "Resupply",
     "name": "Soyuz 2.1b | Progress MS-36 (97P)",
-    "net": "2026-11-24T10:13:00Z",
+    "net": "2026-11-24T10:17:00Z",
     "net_precision": "MIN",
     "orbit": "LEO",
     "pad": "31/6",
@@ -2067,8 +2067,8 @@
     "mission": "USSF-266",
     "mission_type": "Government/Top Secret",
     "name": "Falcon 9 Block 5 | USSF-266",
-    "net": "2026-11-24T15:55:00Z",
-    "net_precision": "MIN",
+    "net": "2026-11-24T16:08:59Z",
+    "net_precision": "SEC",
     "orbit": "PO",
     "pad": "Space Launch Complex 4E",
     "pad_location": "Vandenberg SFB, CA, USA",
@@ -2091,8 +2091,8 @@
      },
      {
       "official": false,
-      "publisher": "NASASpaceflight",
-      "url": "https://www.youtube.com/watch?v=0HG7obl5IAo"
+      "publisher": "Spaceflight Now",
+      "url": "https://www.youtube.com/watch?v=Mx26fq3CcnQ"
      }
     ]
    },
@@ -2489,5 +2489,5 @@
    }
   ]
  },
- "fetched_at": "2026-11-23T19:56:22.202075+00:00"
+ "fetched_at": "2026-11-24T04:40:56.039083+00:00"
 }
