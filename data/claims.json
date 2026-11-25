@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-25",
-  "times_seen": 59,
+  "times_seen": 60,
   "outlets": [
    "Autonomy",
    "Production"
@@ -36,7 +36,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-25",
-  "times_seen": 65,
+  "times_seen": 66,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -57,7 +57,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-25",
-  "times_seen": 135,
+  "times_seen": 136,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -77,7 +77,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-25",
-  "times_seen": 22,
+  "times_seen": 23,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -97,7 +97,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-25",
-  "times_seen": 9,
+  "times_seen": 10,
   "outlets": [
    "Autonomy"
   ]
@@ -117,7 +117,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-25",
-  "times_seen": 9,
+  "times_seen": 10,
   "outlets": [
    "Autonomy"
   ]
@@ -138,7 +138,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-25",
-  "times_seen": 4,
+  "times_seen": 5,
   "outlets": [
    "Autonomy"
   ]
@@ -159,7 +159,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-25",
-  "times_seen": 118,
+  "times_seen": 119,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -180,7 +180,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-25",
-  "times_seen": 144,
+  "times_seen": 145,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -264,7 +264,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-25",
-  "times_seen": 52,
+  "times_seen": 53,
   "outlets": [
    "Humanoids",
    "Optimus",
@@ -285,11 +285,136 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-24",
-  "times_seen": 96,
+  "last_seen": "2026-11-25",
+  "times_seen": 97,
   "outlets": [
    "Optimus",
    "Humanoids"
+  ]
+ },
+ {
+  "statement": "Tesla to Sell Optimus Robots to Public Next Year, Musk Says - Bloomberg.com",
+  "entity": "Tesla",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdWtJUlpwc203WU9nUFhveXJVQkYxRWdab2ctSHlxSDRCUzRFY1dGVmpMbjFDdFRRakkxalU1eW9SOVZXNE5IT2N5aGVoaUZzWXk5WXp4NkN0b20zVHJPaWMzeTdXajhneFZzOXJjdlYyQTNxWFNlcTh5eE9PTlkyMlVRV05UZ3JhcnVYUUdrUUhjb0lvbGRhaTQzS0h6bk1wRFcxMng4QnFCQ2dnSEVoNEtJQ20?oc=5",
+  "first_seen": "2026-10-25",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-25",
+  "times_seen": 86,
+  "outlets": [
+   "Optimus"
+  ]
+ },
+ {
+  "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHpreThLR3FVa1J6bWtuNmg3MXNHVUFqT1BaSzJMdTJvVTlPdHVKTHBpOUtKUklMTlA2ak9YbklTaTZRZUZ6NDdCS3llSlN2MWNXWmgtbmY2Yy1ydmlVRVRRWmxXWlhrbVNaUzF3TjUyTGZMVmprQVctbzlLZl9XY0JIZWdvUQ?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "optimus",
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-25",
+  "times_seen": 221,
+  "outlets": [
+   "Optimus",
+   "Optimus Features"
+  ]
+ },
+ {
+  "statement": "Musk pledges to give a share of his SpaceX company to 'every kid in America' next year - PBS",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "TSLA",
+  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMzNoSnpDZlNJZTkxRXctLVhNZmVfclVCdWNjRnd4YU9uVU4wblNxRFE4ai10UlRMaTBtbVRQWTZFbVh2bTFDeU9vSmZ4NHY5N2dGc0VfaHFjRFVia3FucURwN2NEYnFnckhuLXBkRU03Q25VckpybWtVazRXUnFLdkxuR2s0V3U4M2I2ZFVkMEN1bmNzQnV4OUNfWXVBenVmQ3NMOExQenBRQnB4Sks1djR1dmVLRW5iWVM3dA?oc=5",
+  "first_seen": "2026-10-19",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-25",
+  "times_seen": 24,
+  "outlets": [
+   "TSLA"
+  ]
+ },
+ {
+  "statement": "Musk Says Tesla Will Wind Down Cybertruck Production Next Year To Make Room For Cybercab - Forbes",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUZNLTVPQ29tNld4bHBMTXNQcFhjYmRMdmZEX1A1M3VfUVhiMFlLdlJBZjU2RTZmUTAyczdhcjB2VEFCbHBHV1FtV09NNzRJcHlzX1dOWXRfRTFqQ1FxV1h3NFdJWV93SmpySE5ZWktvQ21zWFR6MHBrT3pWM3N4X09jQXNyakVHVVJzcy1ibzB6ZF81d180X3o5OGM4SXJvM2RmQ3RVVkFvRlZ1NlNxci02bG12MGM?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "autonomy",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-25",
+  "times_seen": 18,
+  "outlets": [
+   "Production",
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Neuralink plans 'high-volume' brain implant production by 2026, Musk says - Reuters",
+  "entity": "Neuralink",
+  "horizon_phrase": "by 2026",
+  "horizon": "2026-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Neuralink",
+  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMWEwLU1QOHU2WjNFeUM2MEVqSDU3Ujh1UnVFYW5jd0ZqelRCcGR5dlpMZ3pCd0UxaVVPYlRMN0ZQc0lDQ1RfNTJFaG5saTNHcE4ydDNrbEhxNjduWTBkenJiUjhvdnhKc2tRVTg1UXV4QzNiZGF3ZEQxZllLZV9OQ3BuMEtFcS1CMWI1TkZtS2pIZWRvUE1JTVdWSzhVellKQ3c2dkxCWUJGNnNQcjAtX3RqMlhLNVBxOGxjSExUN0tkbjJXSWlHRkJZX0R6ZzRLUkt0WTQ5UGdnQTBvemJJ?oc=5",
+  "first_seen": "2026-10-09",
+  "topics": [
+   "production",
+   "neurotech"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-25",
+  "times_seen": 177,
+  "outlets": [
+   "Neuralink"
+  ]
+ },
+ {
+  "statement": "Tesla\u2019s FSD V15 Goes to Wide Release Next Month, Musk Says - Electric Vehicles",
+  "entity": "Tesla",
+  "horizon_phrase": "Next Month",
+  "horizon": "2026-12-31",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaklHcHNZeDJBTUZHSWQ4ZFNtTmpNYVlCRFp3dEtmbXlIR0xOWm9UcU1UTE01ZlFPcDBveVBsZ0VOMGlLSjBzeERDVGR2WF9MNzM5TlVsS01ITWtoaFNWVktHTzh2MXpGeURQRDlnaU5qbHZfNlVVVTBfTGJyUTg4VDk3dURxSmV6TnVXdVlFVVhOVVNDa1lJ?oc=5",
+  "first_seen": "2026-11-21",
+  "topics": [
+   "autonomy"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-25",
+  "times_seen": 8,
+  "outlets": [
+   "Autonomy"
   ]
  },
  {
@@ -376,26 +501,6 @@
   ]
  },
  {
-  "statement": "Tesla to Sell Optimus Robots to Public Next Year, Musk Says - Bloomberg.com",
-  "entity": "Tesla",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdWtJUlpwc203WU9nUFhveXJVQkYxRWdab2ctSHlxSDRCUzRFY1dGVmpMbjFDdFRRakkxalU1eW9SOVZXNE5IT2N5aGVoaUZzWXk5WXp4NkN0b20zVHJPaWMzeTdXajhneFZzOXJjdlYyQTNxWFNlcTh5eE9PTlkyMlVRV05UZ3JhcnVYUUdrUUhjb0lvbGRhaTQzS0h6bk1wRFcxMng4QnFCQ2dnSEVoNEtJQ20?oc=5",
-  "first_seen": "2026-10-25",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-24",
-  "times_seen": 85,
-  "outlets": [
-   "Optimus"
-  ]
- },
- {
   "statement": "Starlink awaits spectrum allocation as Jio plans satellite constellation by 2029 - MillenniumPost",
   "entity": "Starlink",
   "horizon_phrase": "by 2029",
@@ -436,48 +541,6 @@
   ]
  },
  {
-  "statement": "Tesla says FSD v15 is a \u2018step-change,\u2019 Optimus sells in 2027 - Electrek",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNWHpreThLR3FVa1J6bWtuNmg3MXNHVUFqT1BaSzJMdTJvVTlPdHVKTHBpOUtKUklMTlA2ak9YbklTaTZRZUZ6NDdCS3llSlN2MWNXWmgtbmY2Yy1ydmlVRVRRWmxXWlhrbVNaUzF3TjUyTGZMVmprQVctbzlLZl9XY0JIZWdvUQ?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "optimus",
-   "autonomy"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-24",
-  "times_seen": 220,
-  "outlets": [
-   "Optimus",
-   "Optimus Features"
-  ]
- },
- {
-  "statement": "Musk pledges to give a share of his SpaceX company to 'every kid in America' next year - PBS",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "TSLA",
-  "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMzNoSnpDZlNJZTkxRXctLVhNZmVfclVCdWNjRnd4YU9uVU4wblNxRFE4ai10UlRMaTBtbVRQWTZFbVh2bTFDeU9vSmZ4NHY5N2dGc0VfaHFjRFVia3FucURwN2NEYnFnckhuLXBkRU03Q25VckpybWtVazRXUnFLdkxuR2s0V3U4M2I2ZFVkMEN1bmNzQnV4OUNfWXVBenVmQ3NMOExQenBRQnB4Sks1djR1dmVLRW5iWVM3dA?oc=5",
-  "first_seen": "2026-10-19",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-24",
-  "times_seen": 23,
-  "outlets": [
-   "TSLA"
-  ]
- },
- {
   "statement": "Musk says Tesla will end Cybertruck production in 2027 - CBS News",
   "entity": "Musk",
   "horizon_phrase": "in 2027",
@@ -496,28 +559,6 @@
   "outlets": [
    "Autonomy",
    "Production"
-  ]
- },
- {
-  "statement": "Musk Says Tesla Will Wind Down Cybertruck Production Next Year To Make Room For Cybercab - Forbes",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUZNLTVPQ29tNld4bHBMTXNQcFhjYmRMdmZEX1A1M3VfUVhiMFlLdlJBZjU2RTZmUTAyczdhcjB2VEFCbHBHV1FtV09NNzRJcHlzX1dOWXRfRTFqQ1FxV1h3NFdJWV93SmpySE5ZWktvQ21zWFR6MHBrT3pWM3N4X09jQXNyakVHVVJzcy1ibzB6ZF81d180X3o5OGM4SXJvM2RmQ3RVVkFvRlZ1NlNxci02bG12MGM?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "autonomy",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-24",
-  "times_seen": 17,
-  "outlets": [
-   "Production",
-   "Autonomy"
   ]
  },
  {
@@ -579,27 +620,6 @@
   ]
  },
  {
-  "statement": "Neuralink plans 'high-volume' brain implant production by 2026, Musk says - Reuters",
-  "entity": "Neuralink",
-  "horizon_phrase": "by 2026",
-  "horizon": "2026-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Neuralink",
-  "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPMWEwLU1QOHU2WjNFeUM2MEVqSDU3Ujh1UnVFYW5jd0ZqelRCcGR5dlpMZ3pCd0UxaVVPYlRMN0ZQc0lDQ1RfNTJFaG5saTNHcE4ydDNrbEhxNjduWTBkenJiUjhvdnhKc2tRVTg1UXV4QzNiZGF3ZEQxZllLZV9OQ3BuMEtFcS1CMWI1TkZtS2pIZWRvUE1JTVdWSzhVellKQ3c2dkxCWUJGNnNQcjAtX3RqMlhLNVBxOGxjSExUN0tkbjJXSWlHRkJZX0R6ZzRLUkt0WTQ5UGdnQTBvemJJ?oc=5",
-  "first_seen": "2026-10-09",
-  "topics": [
-   "production",
-   "neurotech"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-24",
-  "times_seen": 176,
-  "outlets": [
-   "Neuralink"
-  ]
- },
- {
   "statement": "Elon Musk says X Money to enter early public access next month - Reuters",
   "entity": "Musk",
   "horizon_phrase": "next month",
@@ -615,26 +635,6 @@
   "times_seen": 112,
   "outlets": [
    "X"
-  ]
- },
- {
-  "statement": "Tesla\u2019s FSD V15 Goes to Wide Release Next Month, Musk Says - Electric Vehicles",
-  "entity": "Tesla",
-  "horizon_phrase": "Next Month",
-  "horizon": "2026-12-31",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaklHcHNZeDJBTUZHSWQ4ZFNtTmpNYVlCRFp3dEtmbXlIR0xOWm9UcU1UTE01ZlFPcDBveVBsZ0VOMGlLSjBzeERDVGR2WF9MNzM5TlVsS01ITWtoaFNWVktHTzh2MXpGeURQRDlnaU5qbHZfNlVVVTBfTGJyUTg4VDk3dURxSmV6TnVXdVlFVVhOVVNDa1lJ?oc=5",
-  "first_seen": "2026-11-21",
-  "topics": [
-   "autonomy"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-23",
-  "times_seen": 7,
-  "outlets": [
-   "Autonomy"
   ]
  },
  {

@@ -34,6 +34,14 @@
     "type": "Government"
    },
    {
+    "agency": "CNSA",
+    "flights": 3,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305185459.jpeg",
+    "name": "Tang Hongbo",
+    "status": "Active",
+    "type": "Government"
+   },
+   {
     "agency": "NASA",
     "flights": 1,
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305190723.jpeg",
@@ -88,9 +96,25 @@
     "name": "Laika",
     "status": "Deceased",
     "type": "Non-Human"
+   },
+   {
+    "agency": "CNSA",
+    "flights": 1,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/wu_yi_official__image_thumbnail_20261124223451.jpeg",
+    "name": "Wu Yi",
+    "status": "Active",
+    "type": "Government"
+   },
+   {
+    "agency": "SUPARCO",
+    "flights": 1,
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/muhammad_zeesha_image_thumbnail_20261124223937.jpeg",
+    "name": "Muhammad Zeeshan Ali",
+    "status": "Active",
+    "type": "Government"
    }
   ],
-  "astronauts_count": 11,
+  "astronauts_count": 14,
   "cadence": {
    "labels": [
     "2026-05",
@@ -155,7 +179,7 @@
   },
   "pads": [
    {
-    "count": 57,
+    "count": 58,
     "last_net": "2026-12-31T00:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -216,7 +240,7 @@
    },
    {
     "count": 6,
-    "last_net": "2026-12-17T00:00:00Z",
+    "last_net": "2026-12-18T00:36:00Z",
     "lat": 5.256319,
     "location": "Guiana Space Centre, French Guiana",
     "lon": -52.786838,
@@ -233,16 +257,6 @@
     "name": "Rocket Lab Launch Complex 1B",
     "spacex": false,
     "top_provider": "Rocket Lab"
-   },
-   {
-    "count": 5,
-    "last_net": "2026-11-24T10:17:46Z",
-    "lat": 45.996034,
-    "location": "Baikonur Cosmodrome, Republic of Kazakhstan",
-    "lon": 63.564003,
-    "name": "31/6",
-    "spacex": false,
-    "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
    },
    {
     "count": 5,
@@ -273,6 +287,16 @@
     "name": "201",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 4,
+    "last_net": "2026-11-24T10:17:46Z",
+    "lat": 45.996034,
+    "location": "Baikonur Cosmodrome, Republic of Kazakhstan",
+    "lon": 63.564003,
+    "name": "31/6",
+    "spacex": false,
+    "top_provider": "Russian Federal Space Agency (ROSCOSMOS)"
    },
    {
     "count": 4,
@@ -1989,44 +2013,6 @@
   },
   "upcoming": [
    {
-    "description": "Progress resupply mission to the International Space Station.",
-    "id": "8dd5de11-831b-445f-86f0-bffefe0550d9",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
-    "lat": 45.996034,
-    "lon": 63.564003,
-    "mission": "Progress MS-36 (97P)",
-    "mission_type": "Resupply",
-    "name": "Soyuz 2.1b | Progress MS-36 (97P)",
-    "net": "2026-11-24T10:17:46Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "31/6",
-    "pad_location": "Baikonur Cosmodrome, Republic of Kazakhstan",
-    "provider": "Russian Federal Space Agency (ROSCOSMOS)",
-    "rocket": "Soyuz 2.1b",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/8dd5de11-831b-445f-86f0-bffefe0550d9",
-    "webcast_live": false,
-    "webcasts": [
-     {
-      "official": true,
-      "publisher": "NASA",
-      "url": "https://www.youtube.com/watch?v=LwQMevphh10"
-     },
-     {
-      "official": true,
-      "publisher": "NASA",
-      "url": "https://plus.nasa.gov/scheduled-video/progress-97-cargo-ship-launch/"
-     },
-     {
-      "official": true,
-      "publisher": "\u0420\u043e\u0441\u043a\u043e\u0441\u043c\u043e\u0441 \u0422\u0412",
-      "url": "https://www.youtube.com/watch?v=-UddWcF9BTM"
-     }
-    ]
-   },
-   {
     "description": "Amazon Leo, formerly known as Project Kuiper, is a mega constellation of satellites in Low Earth Orbit that will offer broadband internet access, this constellation will be managed by Kuiper Systems LLC, a subsidiary of Amazon. This constellation is planned to be composed of 3,276 satellites. The satellites are projected to be placed in 98 orbital planes in three orbital layers, one at 590 km, 610",
     "id": "7bdc412b-c965-4517-a131-f57a01189803",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_thumbnail_20260618063419.jpeg",
@@ -2403,15 +2389,15 @@
     "mission": "Metop-SG B1",
     "mission_type": "Earth Science",
     "name": "Ariane 62 | Metop-SG B1",
-    "net": "2026-12-17T00:00:00Z",
-    "net_precision": "DAY",
+    "net": "2026-12-18T00:36:00Z",
+    "net_precision": "MIN",
     "orbit": "SSO",
     "pad": "Ariane Launch Area 4",
     "pad_location": "Guiana Space Centre, French Guiana",
     "provider": "Arianespace",
     "rocket": "Ariane 62",
-    "status": "TBD",
-    "status_name": "To Be Determined",
+    "status": "Go",
+    "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/22e117bf-041c-49d5-9d09-7b180036e143",
     "webcast_live": false,
     "webcasts": []
@@ -2503,8 +2489,30 @@
     "url": "https://nextspaceflight.com/launches/details/56ca6058-7ccc-4ec0-b1b0-fb49f3bfee49",
     "webcast_live": false,
     "webcasts": []
+   },
+   {
+    "description": "A batch of 32 satellites for the OneWeb satellite constellation, which is intended to provide global Internet broadband service for individual consumers. The constellation is planned to have around 648 microsatellites (of which 60 are spares), around 150 kg each, operating in Ku-band from low Earth orbit.",
+    "id": "b0dc988c-ea4a-423f-81b6-6b0fbe7cc17c",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20241020164114.jpeg",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "OneWeb 21",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | OneWeb 21",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "PO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/b0dc988c-ea4a-423f-81b6-6b0fbe7cc17c",
+    "webcast_live": false,
+    "webcasts": []
    }
   ]
  },
- "fetched_at": "2026-11-25T01:59:04.989762+00:00"
+ "fetched_at": "2026-11-25T11:08:19.751473+00:00"
 }
