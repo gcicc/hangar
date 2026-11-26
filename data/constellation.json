@@ -38,11 +38,11 @@
   "in_orbit": 11194,
   "shells": [
    {
-    "count": 4169,
+    "count": 4163,
     "shell": "~450 km / 53\u00b0"
    },
    {
-    "count": 3230,
+    "count": 3226,
     "shell": "~500 km / 43\u00b0"
    },
    {
@@ -50,11 +50,11 @@
     "shell": "~450 km / 97\u00b0"
    },
    {
-    "count": 565,
+    "count": 567,
     "shell": "~450 km / 70\u00b0"
    },
    {
-    "count": 527,
+    "count": 526,
     "shell": "~350 km / 53\u00b0"
    },
    {
@@ -62,15 +62,15 @@
     "shell": "~350 km / 43\u00b0"
    },
    {
-    "count": 219,
+    "count": 225,
     "shell": "~400 km / 53\u00b0"
    },
    {
-    "count": 202,
+    "count": 204,
     "shell": "~500 km / 70\u00b0"
    }
   ],
   "shells_caveat": "Altitude is derived from mean motion assuming a circular orbit, good to about +/-10 km, and grouped into 50 km bands. Counts are of the current fleet, not of any historical shell population."
  },
- "fetched_at": "2026-11-25T21:15:02.314318+00:00"
+ "fetched_at": "2026-11-26T03:59:43.225234+00:00"
 }

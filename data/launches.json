@@ -179,7 +179,7 @@
   },
   "pads": [
    {
-    "count": 58,
+    "count": 59,
     "last_net": "2026-12-31T00:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -239,8 +239,8 @@
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
-    "count": 6,
-    "last_net": "2026-09-26T00:39:00Z",
+    "count": 7,
+    "last_net": "2026-11-27T00:05:00Z",
     "lat": -39.262833,
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "lon": 177.864469,
@@ -350,16 +350,6 @@
    },
    {
     "count": 3,
-    "last_net": "2026-11-25T00:18:52Z",
-    "lat": 40.957893,
-    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "lon": 100.290944,
-    "name": "Launch Area 91 (SLS-1 / 921)",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 3,
     "last_net": "2026-11-18T22:51:00Z",
     "lat": 38.863128,
     "location": "Taiyuan Satellite Launch Center, People's Republic of China",
@@ -397,6 +387,16 @@
     "name": "Launch Complex 39A",
     "spacex": true,
     "top_provider": "SpaceX"
+   },
+   {
+    "count": 2,
+    "last_net": "2026-11-25T00:18:52Z",
+    "lat": 40.957893,
+    "location": "Jiuquan Satellite Launch Center, People's Republic of China",
+    "lon": 100.290944,
+    "name": "Launch Area 91 (SLS-1 / 921)",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 2,
@@ -637,16 +637,6 @@
     "name": "South China Sea (launch location 3)",
     "spacex": false,
     "top_provider": "China Rocket Co. Ltd."
-   },
-   {
-    "count": 1,
-    "last_net": "2026-11-27T00:05:00Z",
-    "lat": -39.260881,
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "lon": 177.865826,
-    "name": "Unknown Pad",
-    "spacex": false,
-    "top_provider": "Rocket Lab"
    },
    {
     "count": 1,
@@ -2013,39 +2003,6 @@
   },
   "upcoming": [
    {
-    "description": "Shenzhou 24 will be the 24th flight of the Shenzhou program.\r\n\r\nThe first astronaut from Pakistan, Muhammad Zeeshan Ali, will fly on this on a short duration mission, with Chinese astronaut Zhu Yangzhu of Shenzhou 23 to undergo a year long expedition and stay on the CSS in exchange.",
-    "id": "c9605b67-8a53-4239-a8ae-577fe3b79799",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_22_lau_image_thumbnail_20251129175823.jpeg",
-    "lat": 40.957893,
-    "lon": 100.290944,
-    "mission": "Shenzhou 24",
-    "mission_type": "Human Exploration",
-    "name": "Long March 2F/G | Shenzhou 24",
-    "net": "2026-11-25T00:18:52Z",
-    "net_precision": "SEC",
-    "orbit": "LEO",
-    "pad": "Launch Area 91 (SLS-1 / 921)",
-    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "rocket": "Long March 2F/G",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/c9605b67-8a53-4239-a8ae-577fe3b79799",
-    "webcast_live": false,
-    "webcasts": [
-     {
-      "official": true,
-      "publisher": "CGTN",
-      "url": "https://www.youtube.com/watch?v=SeWm3kfVx20"
-     },
-     {
-      "official": true,
-      "publisher": "\u4e2d\u56fd\u65b0\u95fb\u793e",
-      "url": "https://www.youtube.com/watch?v=Jd_rM2JlOi4"
-     }
-    ]
-   },
-   {
     "description": "Details TBD.",
     "id": "b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
@@ -2071,15 +2028,15 @@
     "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
     "id": "2093e4fc-ac8c-4296-a1b5-deececee6a72",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
-    "lat": -39.260881,
-    "lon": 177.865826,
+    "lat": -39.262833,
+    "lon": 177.864469,
     "mission": "Night Owls Never Sleep (StriX Launch 14)",
     "mission_type": "Earth Science",
     "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
     "net": "2026-11-27T00:05:00Z",
     "net_precision": "MIN",
     "orbit": "LEO",
-    "pad": "Unknown Pad",
+    "pad": "Rocket Lab Launch Complex 1B",
     "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
     "provider": "Rocket Lab",
     "rocket": "Electron",
@@ -2490,8 +2447,41 @@
     "url": "https://nextspaceflight.com/launches/details/71ed4649-8d71-42e8-8548-d42ffa2c5a6e",
     "webcast_live": false,
     "webcasts": []
+   },
+   {
+    "description": "A batch of 27 satellites for the Starlink mega-constellation - SpaceX's project for space-based Internet communication system.",
+    "id": "3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+    "lat": 34.632,
+    "lon": -120.611,
+    "mission": "Starlink Group 15-21",
+    "mission_type": "Communications",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-21",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "M",
+    "orbit": "LEO",
+    "pad": "Space Launch Complex 4E",
+    "pad_location": "Vandenberg SFB, CA, USA",
+    "provider": "SpaceX",
+    "rocket": "Falcon 9 Block 5",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/3cdb9dee-b5cb-406c-bbd1-06a219930fb7",
+    "webcast_live": false,
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "SpaceX",
+      "url": "https://x.com/i/broadcasts/1aJbdEgvmWaKX"
+     },
+     {
+      "official": false,
+      "publisher": "SPACE AFFAIRS",
+      "url": "https://www.youtube.com/watch?v=z9uME3O2xHk"
+     }
+    ]
    }
   ]
  },
- "fetched_at": "2026-11-25T21:15:01.054818+00:00"
+ "fetched_at": "2026-11-26T03:59:42.578763+00:00"
 }
