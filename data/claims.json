@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 63,
+  "times_seen": 64,
   "outlets": [
    "Autonomy",
    "Production"
@@ -36,7 +36,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 69,
+  "times_seen": 70,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -57,7 +57,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 139,
+  "times_seen": 140,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -77,7 +77,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 26,
+  "times_seen": 27,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -97,7 +97,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 13,
+  "times_seen": 14,
   "outlets": [
    "Autonomy"
   ]
@@ -117,7 +117,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 13,
+  "times_seen": 14,
   "outlets": [
    "Autonomy"
   ]
@@ -138,7 +138,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 8,
+  "times_seen": 9,
   "outlets": [
    "Autonomy"
   ]
@@ -159,7 +159,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 121,
+  "times_seen": 122,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -180,7 +180,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 147,
+  "times_seen": 148,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -201,7 +201,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 55,
+  "times_seen": 56,
   "outlets": [
    "Optimus"
   ]
@@ -221,7 +221,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 56,
+  "times_seen": 57,
   "outlets": [
    "Humanoids",
    "Optimus",
@@ -244,7 +244,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 223,
+  "times_seen": 224,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -265,7 +265,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 27,
+  "times_seen": 28,
   "outlets": [
    "TSLA"
   ]
@@ -369,7 +369,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 99,
+  "times_seen": 100,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -428,7 +428,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 113,
+  "times_seen": 114,
   "outlets": [
    "X"
   ]
@@ -448,9 +448,92 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 1,
+  "times_seen": 2,
   "outlets": [
    "SPCX"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Tesla will start using humanoid robots next year - BBC",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wSHpGMGtYMVlPRzVVN2xJTnd6bVIxeVF0SG1JcExTV2pWaEloNk5wTWdYMmZGeHByVjg4NGQyZGxxX1NWdE44U0h1R2JWVHVNOWFSWWZYRm5ydw?oc=5",
+  "first_seen": "2026-10-27",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-26",
+  "times_seen": 74,
+  "outlets": [
+   "Humanoids"
+  ]
+ },
+ {
+  "statement": "Elon Musk reveals massive plans for Tesla and Optimus\u2014\u2018Things are really going to go ballistic next year\u2019 - Fortune",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Humanoids",
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcDRnVzdvTjFSc3dsTlFSWUtJeGhpZGEwaFdXNl82YWVMMmI2ZzlwRWhld1ZpRWRUUnNKM1VCbjRUR2JQaXVGMTZFLXNCeGpLaWtORGhfNVlqZjJET09fZ3Y4QTBNdjhlbFFucVB3NHBhdUNuYTZhLVZaMmdkR3lFR2kyaEkzYlZ0LXBTSkVzN0U5MmlqR0V3TGVFYXE3cE1lZ25XUmtfWnJWSlRUSlIyWQ?oc=5",
+  "first_seen": "2026-10-27",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-26",
+  "times_seen": 74,
+  "outlets": [
+   "Humanoids",
+   "Optimus"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-26",
+  "times_seen": 169,
+  "outlets": [
+   "Optimus",
+   "Humanoids"
+  ]
+ },
+ {
+  "statement": "Tesla to have humanoid robots for internal use next year, Musk says - Reuters",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX3VhaFFjX1JKRVVyMkthamlLanJFZ1Jzb0k1bGZTME82R21aYWxmVzRLV1NaWjBPSWpmNlFKZmNsNjZ4LUtPZFVZUno3WnAyNEZHdmJBajFqSF9CWnFONW41S3B3bHYwUE1iRlZkeDBqem9WV2pRSXROc0RNUFZVaVJDTVkxTnVjOHVPRDY4WHV2YWRVZm15bXhvQjVtbW5ieFA5elBOQm5kel9MdE5jQlJQbkEzblhmUktrVWVaTWJiUzA?oc=5",
+  "first_seen": "2026-10-27",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-26",
+  "times_seen": 75,
+  "outlets": [
+   "Optimus",
+   "Humanoids"
   ]
  },
  {
@@ -534,89 +617,6 @@
   "times_seen": 3,
   "outlets": [
    "Starlink"
-  ]
- },
- {
-  "statement": "Elon Musk says Tesla will start using humanoid robots next year - BBC",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wSHpGMGtYMVlPRzVVN2xJTnd6bVIxeVF0SG1JcExTV2pWaEloNk5wTWdYMmZGeHByVjg4NGQyZGxxX1NWdE44U0h1R2JWVHVNOWFSWWZYRm5ydw?oc=5",
-  "first_seen": "2026-10-27",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-24",
-  "times_seen": 73,
-  "outlets": [
-   "Humanoids"
-  ]
- },
- {
-  "statement": "Elon Musk reveals massive plans for Tesla and Optimus\u2014\u2018Things are really going to go ballistic next year\u2019 - Fortune",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Humanoids",
-  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcDRnVzdvTjFSc3dsTlFSWUtJeGhpZGEwaFdXNl82YWVMMmI2ZzlwRWhld1ZpRWRUUnNKM1VCbjRUR2JQaXVGMTZFLXNCeGpLaWtORGhfNVlqZjJET09fZ3Y4QTBNdjhlbFFucVB3NHBhdUNuYTZhLVZaMmdkR3lFR2kyaEkzYlZ0LXBTSkVzN0U5MmlqR0V3TGVFYXE3cE1lZ25XUmtfWnJWSlRUSlIyWQ?oc=5",
-  "first_seen": "2026-10-27",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-24",
-  "times_seen": 73,
-  "outlets": [
-   "Humanoids",
-   "Optimus"
-  ]
- },
- {
-  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-24",
-  "times_seen": 168,
-  "outlets": [
-   "Optimus",
-   "Humanoids"
-  ]
- },
- {
-  "statement": "Tesla to have humanoid robots for internal use next year, Musk says - Reuters",
-  "entity": "Tesla",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOX3VhaFFjX1JKRVVyMkthamlLanJFZ1Jzb0k1bGZTME82R21aYWxmVzRLV1NaWjBPSWpmNlFKZmNsNjZ4LUtPZFVZUno3WnAyNEZHdmJBajFqSF9CWnFONW41S3B3bHYwUE1iRlZkeDBqem9WV2pRSXROc0RNUFZVaVJDTVkxTnVjOHVPRDY4WHV2YWRVZm15bXhvQjVtbW5ieFA5elBOQm5kel9MdE5jQlJQbkEzblhmUktrVWVaTWJiUzA?oc=5",
-  "first_seen": "2026-10-27",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-24",
-  "times_seen": 74,
-  "outlets": [
-   "Optimus",
-   "Humanoids"
   ]
  },
  {

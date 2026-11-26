@@ -175,7 +175,13 @@
    "status_name": "Go for Launch",
    "url": "https://nextspaceflight.com/launches/details/2093e4fc-ac8c-4296-a1b5-deececee6a72",
    "webcast_live": false,
-   "webcasts": []
+   "webcasts": [
+    {
+     "official": true,
+     "publisher": "Rocket Lab",
+     "url": "https://www.youtube.com/watch?v=p75NOkFoyXs"
+    }
+   ]
   },
   "pads": [
    {
@@ -2044,7 +2050,13 @@
     "status_name": "Go for Launch",
     "url": "https://nextspaceflight.com/launches/details/2093e4fc-ac8c-4296-a1b5-deececee6a72",
     "webcast_live": false,
-    "webcasts": []
+    "webcasts": [
+     {
+      "official": true,
+      "publisher": "Rocket Lab",
+      "url": "https://www.youtube.com/watch?v=p75NOkFoyXs"
+     }
+    ]
    },
    {
     "description": "Details TBD.",
@@ -2493,5 +2505,5 @@
    }
   ]
  },
- "fetched_at": "2026-11-26T13:45:48.156397+00:00"
+ "fetched_at": "2026-11-26T22:51:44.079889+00:00"
 }
