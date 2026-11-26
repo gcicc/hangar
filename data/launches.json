@@ -133,7 +133,7 @@
     12,
     19,
     10,
-    15
+    16
    ],
    "partial": [
     false,
@@ -156,24 +156,24 @@
   },
   "calls_used": 4,
   "next": {
-   "description": "Details TBD.",
-   "id": "b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
-   "lat": 28.247059,
-   "lon": 102.029008,
-   "mission": "Unknown Payload",
-   "mission_type": "Unknown",
-   "name": "Long March 2D | Unknown Payload",
-   "net": "2026-11-26T09:35:00Z",
-   "net_precision": "HR",
-   "orbit": "N/A",
-   "pad": "Launch Complex 3 (LC-3/LA-1)",
-   "pad_location": "Xichang Satellite Launch Center, People's Republic of China",
-   "provider": "China Aerospace Science and Technology Corporation",
-   "rocket": "Long March 2D",
+   "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
+   "id": "2093e4fc-ac8c-4296-a1b5-deececee6a72",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+   "lat": -39.262833,
+   "lon": 177.864469,
+   "mission": "Night Owls Never Sleep (StriX Launch 14)",
+   "mission_type": "Earth Science",
+   "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
+   "net": "2026-11-27T00:05:00Z",
+   "net_precision": "MIN",
+   "orbit": "LEO",
+   "pad": "Rocket Lab Launch Complex 1B",
+   "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+   "provider": "Rocket Lab",
+   "rocket": "Electron",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
+   "url": "https://nextspaceflight.com/launches/details/2093e4fc-ac8c-4296-a1b5-deececee6a72",
    "webcast_live": false,
    "webcasts": []
   },
@@ -209,7 +209,7 @@
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
-    "count": 8,
+    "count": 7,
     "last_net": "2026-11-20T11:59:00Z",
     "lat": 19.597275,
     "location": "Wenchang Space Launch Site, People's Republic of China",
@@ -247,6 +247,16 @@
     "name": "Rocket Lab Launch Complex 1B",
     "spacex": false,
     "top_provider": "Rocket Lab"
+   },
+   {
+    "count": 5,
+    "last_net": "2026-11-26T09:38:00Z",
+    "lat": 28.247059,
+    "location": "Xichang Satellite Launch Center, People's Republic of China",
+    "lon": 102.029008,
+    "name": "Launch Complex 3 (LC-3/LA-1)",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 5,
@@ -327,16 +337,6 @@
     "name": "Launch Area 95A",
     "spacex": false,
     "top_provider": "ExPace"
-   },
-   {
-    "count": 4,
-    "last_net": "2026-11-26T09:35:00Z",
-    "lat": 28.247059,
-    "location": "Xichang Satellite Launch Center, People's Republic of China",
-    "lon": 102.029008,
-    "name": "Launch Complex 3 (LC-3/LA-1)",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
     "count": 4,
@@ -670,6 +670,28 @@
    }
   ],
   "previous": [
+   {
+    "description": "Chinese reconnaissance satellites of unknown functions.",
+    "id": "b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
+    "lat": 28.247059,
+    "lon": 102.029008,
+    "mission": "Yaogan 49 Group 01",
+    "mission_type": "Government/Top Secret",
+    "name": "Long March 2D | Yaogan 49 Group 01",
+    "net": "2026-11-26T09:38:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Launch Complex 3 (LC-3/LA-1)",
+    "pad_location": "Xichang Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 2D",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
+    "webcast_live": false,
+    "webcasts": []
+   },
    {
     "description": "Shenzhou 24 will be the 24th flight of the Shenzhou program.\r\n\r\nThe first astronaut from Pakistan, Muhammad Zeeshan Ali, will fly on this on a short duration mission, with Chinese astronaut Zhu Yangzhu of Shenzhou 23 to undergo a year long expedition and stay on the CSS in exchange.",
     "id": "c9605b67-8a53-4239-a8ae-577fe3b79799",
@@ -1967,28 +1989,6 @@
     "url": "https://nextspaceflight.com/launches/details/8effc13a-c658-4d2e-9f15-8dba4d7fe2dd",
     "webcast_live": false,
     "webcasts": []
-   },
-   {
-    "description": "3 high-throughput communications satellites in Medium Earth Orbit (MEO) built by Boeing and operated by SES.",
-    "id": "ad358a4d-c541-409b-9366-9c2f2da4aeb9",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-    "lat": 28.56194122,
-    "lon": -80.57735736,
-    "mission": "O3b mPower 11-13",
-    "mission_type": "Communications",
-    "name": "Falcon 9 Block 5 | O3b mPower 11-13",
-    "net": "2026-09-13T18:49:00Z",
-    "net_precision": "MIN",
-    "orbit": "MEO",
-    "pad": "Space Launch Complex 40",
-    "pad_location": "Cape Canaveral SFS, FL, USA",
-    "provider": "SpaceX",
-    "rocket": "Falcon 9 Block 5",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/ad358a4d-c541-409b-9366-9c2f2da4aeb9",
-    "webcast_live": false,
-    "webcasts": []
    }
   ],
   "totals": {
@@ -1997,29 +1997,29 @@
    "spacex_sampled": 88,
    "spacex_share": 0.44,
    "window": {
-    "from": "2026-04-07",
-    "to": "2026-11-25"
+    "from": "2026-04-08",
+    "to": "2026-11-26"
    }
   },
   "upcoming": [
    {
-    "description": "Details TBD.",
+    "description": "Chinese reconnaissance satellites of unknown functions.",
     "id": "b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
     "lat": 28.247059,
     "lon": 102.029008,
-    "mission": "Unknown Payload",
-    "mission_type": "Unknown",
-    "name": "Long March 2D | Unknown Payload",
-    "net": "2026-11-26T09:35:00Z",
-    "net_precision": "HR",
-    "orbit": "N/A",
+    "mission": "Yaogan 49 Group 01",
+    "mission_type": "Government/Top Secret",
+    "name": "Long March 2D | Yaogan 49 Group 01",
+    "net": "2026-11-26T09:38:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
     "pad": "Launch Complex 3 (LC-3/LA-1)",
     "pad_location": "Xichang Satellite Launch Center, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "rocket": "Long March 2D",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
     "webcast_live": false,
     "webcasts": []
@@ -2115,6 +2115,16 @@
       "official": true,
       "publisher": "X",
       "url": "https://x.com/i/broadcasts/2ybQqgpAAEJmBB"
+     },
+     {
+      "official": false,
+      "publisher": "SPACE AFFAIRS",
+      "url": "https://www.youtube.com/watch?v=xpfmP-4EGIw"
+     },
+     {
+      "official": false,
+      "publisher": "NASASpaceflight",
+      "url": "https://www.youtube.com/watch?v=CLULlErcxF4"
      }
     ]
    },
@@ -2483,5 +2493,5 @@
    }
   ]
  },
- "fetched_at": "2026-11-26T03:59:42.578763+00:00"
+ "fetched_at": "2026-11-26T13:45:48.156397+00:00"
 }

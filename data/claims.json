@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 62,
+  "times_seen": 63,
   "outlets": [
    "Autonomy",
    "Production"
@@ -36,7 +36,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 68,
+  "times_seen": 69,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -57,7 +57,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 138,
+  "times_seen": 139,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -77,7 +77,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 25,
+  "times_seen": 26,
   "outlets": [
    "Not a Tesla App"
   ]
@@ -97,7 +97,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 12,
+  "times_seen": 13,
   "outlets": [
    "Autonomy"
   ]
@@ -117,7 +117,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 12,
+  "times_seen": 13,
   "outlets": [
    "Autonomy"
   ]
@@ -138,7 +138,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 7,
+  "times_seen": 8,
   "outlets": [
    "Autonomy"
   ]
@@ -221,7 +221,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 55,
+  "times_seen": 56,
   "outlets": [
    "Humanoids",
    "Optimus",
@@ -265,7 +265,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 26,
+  "times_seen": 27,
   "outlets": [
    "TSLA"
   ]
@@ -286,7 +286,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 20,
+  "times_seen": 21,
   "outlets": [
    "Production",
    "Autonomy"
@@ -328,7 +328,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 19,
+  "times_seen": 20,
   "outlets": [
    "Autonomy",
    "Production"
@@ -349,9 +349,108 @@
   ],
   "primary": false,
   "last_seen": "2026-11-26",
-  "times_seen": 12,
+  "times_seen": 13,
   "outlets": [
    "Production"
+  ]
+ },
+ {
+  "statement": "Elon Musk claims Tesla will start using humanoid robots next year - The Guardian",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxON1JRck5ZbmdqbGttdVE0X1ppNWZhbEZSUFJWbVZkQ1BmY0drNXM0bkdVWGFjODZjcklHcTlxYTBjQzJoaS0tSk9SYTNaclh1bEFQOU0yM2V2dVV3bVNLblBGZ3p1LVM3alo3VUpPM0hNNVM0ZFlKMUNORkh5S1c0ZWFtOFJBZmQtZlphcFVUcmdFRDNWWmVMeTZLZG95REk?oc=5",
+  "first_seen": "2026-10-18",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-26",
+  "times_seen": 99,
+  "outlets": [
+   "Optimus",
+   "Humanoids"
+  ]
+ },
+ {
+  "statement": "Tesla to Sell Optimus Robots to Public Next Year, Musk Says - Bloomberg.com",
+  "entity": "Tesla",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdWtJUlpwc203WU9nUFhveXJVQkYxRWdab2ctSHlxSDRCUzRFY1dGVmpMbjFDdFRRakkxalU1eW9SOVZXNE5IT2N5aGVoaUZzWXk5WXp4NkN0b20zVHJPaWMzeTdXajhneFZzOXJjdlYyQTNxWFNlcTh5eE9PTlkyMlVRV05UZ3JhcnVYUUdrUUhjb0lvbGRhaTQzS0h6bk1wRFcxMng4QnFCQ2dnSEVoNEtJQ20?oc=5",
+  "first_seen": "2026-10-25",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-26",
+  "times_seen": 88,
+  "outlets": [
+   "Optimus"
+  ]
+ },
+ {
+  "statement": "Tesla will phase out Cybertruck production next year, Musk says - Los Angeles Times",
+  "entity": "Tesla",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU3MwNzZJT3k1V09xNUxodERwTXlmcGlKNWFJSzV5T1BlZGxkb1drTjVIZnNRY0RxU001cjBnZ0hTXzJoMlZnSlA3Mm8xQVBhWEliX0NabW5FOVAyR0ROckJVX2YzV2diLWV6bFVKMWFsVC1xM2N4SWU5bUtmYnFMbTNyYXFxNjRWaDhrYjBXQ1Q2YzBZUnpxVGhCc2g0LUtQNUxUUmdjR3FBUHo5eDI2aFlR?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-26",
+  "times_seen": 15,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Elon Musk says X Money to enter early public access next month - Reuters",
+  "entity": "Musk",
+  "horizon_phrase": "next month",
+  "horizon": "2026-11-30",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "X",
+  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNTY2ZTFEem9zbWtocFR3WGlVR296enhUS0VKdy1VNi1TQnNWbGhuWnM4ZExJa29BaS1IVWQ0TUtZbTZzMFZfVG85NW15WEQzV19oMEZXSEZQZVVYaTN0Ujdkb3dHZFZlR2UtYVh6SUxtSTlMVFZfOUZkYzFkbk1JVjdGM2ZueUNUaldkUGtra0JzMWpEU0ZTNTNTQm1tVWhnMTRsaTRHY2U2NzhUNl9QQ2RsUlNYMlpHMGYzQWtFSjJSYjg?oc=5",
+  "first_seen": "2026-10-14",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-11-26",
+  "times_seen": 113,
+  "outlets": [
+   "X"
+  ]
+ },
+ {
+  "statement": "SpaceX to transfer first shares to \u2018every child in US\u2019 next month, says Elon Musk - The Indian Express",
+  "entity": "SpaceX",
+  "horizon_phrase": "next month",
+  "horizon": "2026-12-31",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZFNfbm9xYUstUUdEZUk4UVdMRWJFQ25DX0phak81Mm1LcndtSmVzU2hfUmN0MFhEbWhnR1hvNnVxRUF2b3NuV0l3cF9RaVVXc2hUSTU2M1U1djhmZ1FvUC12SmptalMyREExZGVHVjJRQnhGYko0RzdoLURjY0Z1RnFMaGFySlhROHgwMGI2TmhJMnd0LVRRX3dkNFd0TnNOMEtYYjN0akRQY05ITlM1VUtFZ0VCcHhPUXV2X1ZR0gHEAUFVX3lxTE5SZHdzUTl5d1p4SENsdG94dEFIVDdCRVlYYTJsVENXMzFOX0RYSGVkNjBQYWxLQUdpTkpnRkFESFFySWNqYU1MNW1BX0w2VUJEcFlJSkg2WEFiYU5ic05WLWRCQ0pESE5KYU0zQU5mTzNRRl9PS29id1djNzFDblZ1Y3RmNmVzb1k5NUl3U0RMMHRIZWx3TDhmWjF3WVdHYmhJZHJJaFhIZ2NGMFh2c1pqN2MtXzFUaVdaYkhNSlVpR3Z6NG0?oc=5",
+  "first_seen": "2026-11-26",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-26",
+  "times_seen": 1,
+  "outlets": [
+   "SPCX"
   ]
  },
  {
@@ -393,47 +492,6 @@
   "primary": false,
   "last_seen": "2026-11-25",
   "times_seen": 28,
-  "outlets": [
-   "Optimus"
-  ]
- },
- {
-  "statement": "Elon Musk claims Tesla will start using humanoid robots next year - The Guardian",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxON1JRck5ZbmdqbGttdVE0X1ppNWZhbEZSUFJWbVZkQ1BmY0drNXM0bkdVWGFjODZjcklHcTlxYTBjQzJoaS0tSk9SYTNaclh1bEFQOU0yM2V2dVV3bVNLblBGZ3p1LVM3alo3VUpPM0hNNVM0ZFlKMUNORkh5S1c0ZWFtOFJBZmQtZlphcFVUcmdFRDNWWmVMeTZLZG95REk?oc=5",
-  "first_seen": "2026-10-18",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-25",
-  "times_seen": 98,
-  "outlets": [
-   "Optimus",
-   "Humanoids"
-  ]
- },
- {
-  "statement": "Tesla to Sell Optimus Robots to Public Next Year, Musk Says - Bloomberg.com",
-  "entity": "Tesla",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdWtJUlpwc203WU9nUFhveXJVQkYxRWdab2ctSHlxSDRCUzRFY1dGVmpMbjFDdFRRakkxalU1eW9SOVZXNE5IT2N5aGVoaUZzWXk5WXp4NkN0b20zVHJPaWMzeTdXajhneFZzOXJjdlYyQTNxWFNlcTh5eE9PTlkyMlVRV05UZ3JhcnVYUUdrUUhjb0lvbGRhaTQzS0h6bk1wRFcxMng4QnFCQ2dnSEVoNEtJQ20?oc=5",
-  "first_seen": "2026-10-25",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-25",
-  "times_seen": 87,
   "outlets": [
    "Optimus"
   ]
@@ -597,44 +655,6 @@
   "times_seen": 6,
   "outlets": [
    "Production"
-  ]
- },
- {
-  "statement": "Tesla will phase out Cybertruck production next year, Musk says - Los Angeles Times",
-  "entity": "Tesla",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU3MwNzZJT3k1V09xNUxodERwTXlmcGlKNWFJSzV5T1BlZGxkb1drTjVIZnNRY0RxU001cjBnZ0hTXzJoMlZnSlA3Mm8xQVBhWEliX0NabW5FOVAyR0ROckJVX2YzV2diLWV6bFVKMWFsVC1xM2N4SWU5bUtmYnFMbTNyYXFxNjRWaDhrYjBXQ1Q2YzBZUnpxVGhCc2g0LUtQNUxUUmdjR3FBUHo5eDI2aFlR?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-24",
-  "times_seen": 14,
-  "outlets": [
-   "Production"
-  ]
- },
- {
-  "statement": "Elon Musk says X Money to enter early public access next month - Reuters",
-  "entity": "Musk",
-  "horizon_phrase": "next month",
-  "horizon": "2026-11-30",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "X",
-  "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNTY2ZTFEem9zbWtocFR3WGlVR296enhUS0VKdy1VNi1TQnNWbGhuWnM4ZExJa29BaS1IVWQ0TUtZbTZzMFZfVG85NW15WEQzV19oMEZXSEZQZVVYaTN0Ujdkb3dHZFZlR2UtYVh6SUxtSTlMVFZfOUZkYzFkbk1JVjdGM2ZueUNUaldkUGtra0JzMWpEU0ZTNTNTQm1tVWhnMTRsaTRHY2U2NzhUNl9QQ2RsUlNYMlpHMGYzQWtFSjJSYjg?oc=5",
-  "first_seen": "2026-10-14",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-11-24",
-  "times_seen": 112,
-  "outlets": [
-   "X"
   ]
  },
  {
@@ -2390,26 +2410,6 @@
   "quantity": null,
   "source": "SPCX",
   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQVGdaa3ZWOENiN3ZQY0dyRUlwbGJNOEFuYkJWX1hfVzFzbFhpM09xOHAzYUZRVVphdG9od0JPaHlKV0tRUVNmQVdtQXByNDR1THVLUGxITzNXNlNseHRkNHdNZXdYSEw2YXZUMVgxc2s3bzJsdUhJWHR4QXFLQkVJbkx3SVFMbVlFR1ZjT1VLb0pLbkJXbWhOYUp1eFMxVEtFWWNHRG5sN1NUYXNGOXVyZUliSzh1MjZvRjFjWXpKcHo3dDB3a0VvMDhrTW9jNUdPaVpMcThCZWcyRlI5amFBTzY5cDLSAeoBQVVfeXFMUF8xdE9XOUNhU25uUjZaNlpHRklJWG5kd181VXVmQk1sNWpGREhpc3lSTDlUQzNQWU1nNlM1bmdweThNWFlBMGVTRFJGczh0VzR2c0xaR191ZUlqTllxV2RlM01HdXUyWkNWT2lFNkJheS10TUU2NGRWM2RWS1JGNlVsVV9DODZxYnR3aDRuaHFMQzJocWstcjdFVTIxc2VzZlJtVld4emt2WXlyZ2Y2bDBJYUM3WWE2bWNqeXRWT2tIZURzVjB4ZXZZUWNjZ3dvWklLdjVXVWNDTnJmMkd1Y0VNajdRY2pyMjRB?oc=5",
-  "first_seen": "2026-10-19",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-19",
-  "times_seen": 1,
-  "outlets": [
-   "SPCX"
-  ]
- },
- {
-  "statement": "Elon Musk Pledges SpaceX Shares for Every US Child in 2027 - Khaama Press",
-  "entity": "Musk",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5IenVfZWRpTEJqMzN4c0hScE5vVGRUZl9UYmt6MmR5MDhjaFJNQVVObzlrUzdJREJEcEg1UTdwNG5nYjhTcHM0NV9qcVZyZUlBc1pvV1oxSjVCUTdDeGc?oc=5",
   "first_seen": "2026-10-19",
   "topics": [
    "money"
