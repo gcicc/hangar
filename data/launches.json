@@ -133,7 +133,7 @@
     12,
     19,
     10,
-    17
+    18
    ],
    "partial": [
     false,
@@ -157,29 +157,29 @@
   "calls_used": 4,
   "next": {
    "description": "Details TBD.",
-   "id": "a6421db3-7c8a-4cf7-a659-cec195140f7f",
-   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
+   "id": "13270554-4bdb-42ae-916f-1bb54492204f",
+   "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-6c_on_the_la_image_thumbnail_20240507065153.jpeg",
    "lat": 38.8583,
    "lon": 111.5802,
    "mission": "Unknown Payload",
    "mission_type": "Unknown",
-   "name": "Long March 6A | Unknown Payload",
-   "net": "2026-11-27T13:00:00Z",
+   "name": "Long March 6C | Unknown Payload",
+   "net": "2026-11-29T03:50:00Z",
    "net_precision": "HR",
    "orbit": "N/A",
    "pad": "Launch Complex 9A",
    "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
    "provider": "China Aerospace Science and Technology Corporation",
-   "rocket": "Long March 6A",
+   "rocket": "Long March 6C",
    "status": "Go",
    "status_name": "Go for Launch",
-   "url": "https://nextspaceflight.com/launches/details/a6421db3-7c8a-4cf7-a659-cec195140f7f",
+   "url": "https://nextspaceflight.com/launches/details/13270554-4bdb-42ae-916f-1bb54492204f",
    "webcast_live": false,
    "webcasts": []
   },
   "pads": [
    {
-    "count": 59,
+    "count": 58,
     "last_net": "2026-12-31T00:00:00Z",
     "lat": 34.632,
     "location": "Vandenberg SFB, CA, USA",
@@ -199,7 +199,7 @@
     "top_provider": "SpaceX"
    },
    {
-    "count": 9,
+    "count": 10,
     "last_net": "2026-11-29T03:50:00Z",
     "lat": 38.8583,
     "location": "Taiyuan Satellite Launch Center, People's Republic of China",
@@ -250,16 +250,6 @@
    },
    {
     "count": 5,
-    "last_net": "2026-11-26T09:38:00Z",
-    "lat": 28.247059,
-    "location": "Xichang Satellite Launch Center, People's Republic of China",
-    "lon": 102.029008,
-    "name": "Launch Complex 3 (LC-3/LA-1)",
-    "spacex": false,
-    "top_provider": "China Aerospace Science and Technology Corporation"
-   },
-   {
-    "count": 5,
     "last_net": "2026-12-18T00:36:00Z",
     "lat": 5.256319,
     "location": "Guiana Space Centre, French Guiana",
@@ -295,6 +285,16 @@
     "location": "Wenchang Space Launch Site, People's Republic of China",
     "lon": 110.955356,
     "name": "201",
+    "spacex": false,
+    "top_provider": "China Aerospace Science and Technology Corporation"
+   },
+   {
+    "count": 4,
+    "last_net": "2026-11-26T09:38:00Z",
+    "lat": 28.247059,
+    "location": "Xichang Satellite Launch Center, People's Republic of China",
+    "lon": 102.029008,
+    "name": "Launch Complex 3 (LC-3/LA-1)",
     "spacex": false,
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
@@ -647,6 +647,16 @@
     "name": "South China Sea (launch location 4)",
     "spacex": false,
     "top_provider": "CAS Space"
+   },
+   {
+    "count": 1,
+    "last_net": "2026-12-31T00:00:00Z",
+    "lat": -39.260881,
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "lon": 177.865826,
+    "name": "Unknown Pad",
+    "spacex": false,
+    "top_provider": "Rocket Lab"
    }
   ],
   "passengers": [
@@ -660,6 +670,28 @@
    }
   ],
   "previous": [
+   {
+    "description": "The Yaogan 50-04 is a Chinese military \u201cremote sensing\u201d satellite of unknown purposes.",
+    "id": "a6421db3-7c8a-4cf7-a659-cec195140f7f",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
+    "lat": 38.8583,
+    "lon": 111.5802,
+    "mission": "Yaogan 50-04",
+    "mission_type": "Government/Top Secret",
+    "name": "Long March 6A | Yaogan 50-04",
+    "net": "2026-11-27T13:05:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
+    "pad": "Launch Complex 9A",
+    "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
+    "provider": "China Aerospace Science and Technology Corporation",
+    "rocket": "Long March 6A",
+    "status": "Success",
+    "status_name": "Launch Successful",
+    "url": "https://nextspaceflight.com/launches/details/a6421db3-7c8a-4cf7-a659-cec195140f7f",
+    "webcast_live": false,
+    "webcasts": []
+   },
    {
     "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
     "id": "2093e4fc-ac8c-4296-a1b5-deececee6a72",
@@ -1957,63 +1989,19 @@
     "url": "https://nextspaceflight.com/launches/details/767f7827-53d8-4621-803b-f456a1e6b512",
     "webcast_live": false,
     "webcasts": []
-   },
-   {
-    "description": "10 Low Earth Orbit communication satellites with Ku, Q and V band payloads for the G60 constellation operated by Shanghai Spacesail Technologies with funding backed by the Shanghai local government.\r\n\r\nInitial constellation will consist of 1296 satellites by 2027 with long term plans to expand it to 12000 satellites.",
-    "id": "de446468-057f-4c9d-a6a1-af99c93b541e",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-2e_y6_la_image_thumbnail_20260609122826.jpeg",
-    "lat": 40.91491,
-    "lon": 100.245488,
-    "mission": "SpaceSail Polar Group #15",
-    "mission_type": "Communications",
-    "name": "Zhuque-2E Block 2 | SpaceSail Polar Group #15",
-    "net": "2026-09-15T06:26:00Z",
-    "net_precision": "MIN",
-    "orbit": "PO",
-    "pad": "Launch Area 96A",
-    "pad_location": "Jiuquan Satellite Launch Center, People's Republic of China",
-    "provider": "LandSpace",
-    "rocket": "Zhuque-2E Block 2",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/de446468-057f-4c9d-a6a1-af99c93b541e",
-    "webcast_live": false,
-    "webcasts": []
    }
   ],
   "totals": {
    "previous_sampled": 200,
    "share_caveat": "Share of the most recent orbital launches fetched, over the window shown. Not a share of all launches, and not a fixed calendar period - the window moves with every refresh.",
-   "spacex_sampled": 88,
-   "spacex_share": 0.44,
+   "spacex_sampled": 87,
+   "spacex_share": 0.435,
    "window": {
     "from": "2026-04-11",
     "to": "2026-11-27"
    }
   },
   "upcoming": [
-   {
-    "description": "Chinese reconnaissance satellites of unknown functions.",
-    "id": "b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
-    "lat": 28.247059,
-    "lon": 102.029008,
-    "mission": "Yaogan 49 Group 01",
-    "mission_type": "Government/Top Secret",
-    "name": "Long March 2D | Yaogan 49 Group 01",
-    "net": "2026-11-26T09:38:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Launch Complex 3 (LC-3/LA-1)",
-    "pad_location": "Xichang Satellite Launch Center, People's Republic of China",
-    "provider": "China Aerospace Science and Technology Corporation",
-    "rocket": "Long March 2D",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/b00f0e9a-48d6-4f26-9cb5-7d19169ff7c4",
-    "webcast_live": false,
-    "webcasts": []
-   },
    {
     "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
     "id": "2093e4fc-ac8c-4296-a1b5-deececee6a72",
@@ -2043,23 +2031,23 @@
     ]
    },
    {
-    "description": "Details TBD.",
+    "description": "The Yaogan 50-04 is a Chinese military \u201cremote sensing\u201d satellite of unknown purposes.",
     "id": "a6421db3-7c8a-4cf7-a659-cec195140f7f",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
     "lat": 38.8583,
     "lon": 111.5802,
-    "mission": "Unknown Payload",
-    "mission_type": "Unknown",
-    "name": "Long March 6A | Unknown Payload",
-    "net": "2026-11-27T13:00:00Z",
-    "net_precision": "HR",
-    "orbit": "N/A",
+    "mission": "Yaogan 50-04",
+    "mission_type": "Government/Top Secret",
+    "name": "Long March 6A | Yaogan 50-04",
+    "net": "2026-11-27T13:05:00Z",
+    "net_precision": "MIN",
+    "orbit": "LEO",
     "pad": "Launch Complex 9A",
     "pad_location": "Taiyuan Satellite Launch Center, People's Republic of China",
     "provider": "China Aerospace Science and Technology Corporation",
     "rocket": "Long March 6A",
-    "status": "Go",
-    "status_name": "Go for Launch",
+    "status": "Success",
+    "status_name": "Launch Successful",
     "url": "https://nextspaceflight.com/launches/details/a6421db3-7c8a-4cf7-a659-cec195140f7f",
     "webcast_live": false,
     "webcasts": []
@@ -2486,8 +2474,30 @@
     "url": "https://nextspaceflight.com/launches/details/912a8aee-8fc2-47b4-81a5-040fa0e0a36f",
     "webcast_live": false,
     "webcasts": []
+   },
+   {
+    "description": "BlackSky Gen-3 Earth-imaging satellites",
+    "id": "548df42c-ae26-4cc9-921a-f0042941911a",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+    "lat": -39.260881,
+    "lon": 177.865826,
+    "mission": "BlackSky Gen-3 6",
+    "mission_type": "Earth Science",
+    "name": "Electron | BlackSky Gen-3 6",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "Q4",
+    "orbit": "LEO",
+    "pad": "Unknown Pad",
+    "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "rocket": "Electron",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/548df42c-ae26-4cc9-921a-f0042941911a",
+    "webcast_live": false,
+    "webcasts": []
    }
   ]
  },
- "fetched_at": "2026-11-27T07:16:17.029836+00:00"
+ "fetched_at": "2026-11-27T17:55:10.552780+00:00"
 }

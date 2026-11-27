@@ -1,6 +1,6 @@
 {
  "data": {
-  "corpus_size": 1346,
+  "corpus_size": 1571,
   "labels": {
    "market": "Markets & Filings",
    "spacex": "SpaceX",
@@ -16,9 +16,67 @@
   "sections": {
    "market": [
     {
+     "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOOC1zNmVRWElMYnhnWEJXVHF6a0ppZkdmTkNsWVg1aktnUmc0UkV3bWxaY1NDUEJnNkdpdHczS3R0UGZ4bWVUOHpPcndCcTdkZTRRU0hEQTB1UHpMQXQyYlZ2NGFqLVNiWTJkejNwQzBza0o3cFZlSVlJVzBxa1FXeVlTQXRsV01FbGxfb1pFeWpPLXM5clBaYlAtbWoxTkJGRW5tdEhHWi1YNm8zcWZIZVdZWlhNdnRhR1p2bjZEeXlpRWxhRGRsOXNKMEMwMWRydW9UdlhsazNLSHVRX2lsUGNyai1HamhwcXp0OVpyVlRSRG9LZGY0bTBQQmFKTlB4Qy1yVUEyTXFCdkM0RHlsaVhCaw?oc=5",
+     "published": "2026-11-27T14:04:00+00:00",
+     "score": 5.359,
+     "source": "SPCX",
+     "title": "AST SpaceMobile Gains 2% Despite Berenberg's Price Target Cut to $30, Rocket Lab Climbs 5% After Electron Launch; Cathie Wood-Backed SpaceX Rises 3% - 24/7 Wall St.",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYmsyMWFPLW9MN2laRmdNS0t0Qm9vN2wwbmpuaGt4c2VwcUwzR1NOUlJMbm42TjNjZFR5ckl5UUZNREZFVVFPVkRYblFLWldDd21FWEgwajFoYnlNcC1JN2VqRHQzQ0swUzd4S19VUTdUc0xoRWQ3X05TX3NBRmM2QTZ0dHRjREk1REgxa1ZFdlZDMjBoMUtxYm1jbmJJYzg3TzdJVFpuZDNqM2pzQXhTMHd5YjBuQ2JoUmVPVXdadTQtdzhwMjQydEcyQUFDWEI0YXlWajE0TQ?oc=5",
+     "published": "2026-11-27T15:49:46+00:00",
+     "score": 4.71,
+     "source": "TSLA",
+     "title": "Tesla Stock Rises After Filing Reveals EMAG Acquisition Pursuit: What's Happening? - Benzinga",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQOWltOVNZcVpNRmpsam1SaGZ6empfTlU3TUxsS0VhSFVRZG5aUWZMb1p6aGJXVnpsVlNBTVNFd0I4SVRwVDF5cEp3cDktek5JTzRDZmsweXlGUDN6VGRqdzVUYXBVUGF0Vjg3QXV4ZzYtUWpaZlkwQVRyUmZBV0dIb3JMd25HcXFqWG5LV0tWU2pqaUtPWmVkMnZ3Smo?oc=5",
+     "published": "2026-11-27T15:05:01+00:00",
+     "score": 4.607,
+     "source": "SPCX",
+     "title": "Anthropic vs. SpaceX: Which Is the Better Giant IPO Buy? - The Motley Fool",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOYkpEeFIxeTNkMFdGVDFQaEg3NWFmN3FBWVpSS0F1dzdwbFUzNnNMWHBNUnJld2NScENBbnJDSTFaRU5lcnVRRW9KNEpnMm5jdVJaQnZobGs3amhmTV81VkxERFRSRmVXeDNfbDN3bk5kME5rZjExWG8ydGZXY0RDUVFQODlIN2c4dkhVZ2RWU1NwaDQwX3J3Q3c1cDY1VThDX1paX2dCZk4zSUlyWURxODBWVTR4aTcwcnlqZ2szM0VwQnVaWUZfblMtUkoxQ011NjdPUmEyaTU1RG1ZbUhnX2hTOVB6bnZw?oc=5",
+     "published": "2026-11-27T15:02:00+00:00",
+     "score": 4.6,
+     "source": "SPCX",
+     "title": "Anthropic Gains 4%, Climbs Back Above $83 IPO Price as Cathie Wood Keeps Buying; SpaceX Rises 3%, Nebius Advances 2% - 24/7 Wall St.",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE15VERVd3N5Z3JFY3VNejlIb0RPTllSZk9vUU5wdmxJWXdobkgyazZrc000ZlJFTFJZWGFB?oc=5",
+     "published": "2026-11-27T14:00:00+00:00",
+     "score": 4.456,
+     "source": "SPCX",
+     "title": "SpaceX Stock Climbs Toward IPO Price As Musk Floats $128 Quintillion Value - TalkMarkets - Howl.Link",
+     "topics": [
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPUlJxVnk0UXhSWFgwcFdhTDduTjd1aXF6V1NwLWwyUlNaclZkQVFRSldTNG9XNmI0SWo2ZXhQVWM1M3pvdkFyY3Zlc3FRMU5JUUp2WUhsdGt2dXdNeFlsbVJGcGJlRXp2UU82VjJ6RFJqeDdLMndhUWZZLTZvY1JsaGFjYkg1RzZJalRuMzNBTWk4MTgxRnIyYVA0VUxZZGZRQm42M05LeVBLRnFnb0tkM1YxR05pMTVJbUtEZE1jWUZXM2dDQ0liUHRBQnNBZnZwa2U3TnF6cVJHbFpDOHNZWHlWanNzTm9LNUNFVTVVVXBHRHhLZ0Z5MXVR?oc=5",
+     "published": "2026-11-27T12:04:28+00:00",
+     "score": 2.513,
+     "source": "TSLA",
+     "title": "Tesla Recovers From a 7% Drop as SpaceX Merger Talks and an EU Delay Keep TSLA Below $388.93 - TradingKey",
+     "topics": []
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcF95VDVfWEJCUU9RTm0tQzA4Rmt2TVpFYVVBQmd1QS1MNVh0Q3Z2aEtmV09tU0RpU0daRlBzQzFiczhHbWdMdkxxSkdNalYzcjlEb292bWlnUV9vNDliSzNZaFYydjJPU3NieVotLUs2ZHJ6RTg2UUZSeVVWdVBkOVVoWFRBMC1YYklhMGJsMA?oc=5",
      "published": "2026-11-26T17:00:00+00:00",
-     "score": 4.829,
+     "score": 2.463,
      "source": "SPCX",
      "title": "Elon Musk didn\u2019t sell a single share in SpaceX\u2019s record $85.7B IPO. Anthropic\u2019s 7 cofounders cashed out $1.96B in theirs - Yahoo Finance",
      "topics": [
@@ -26,20 +84,9 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOTy1NODBibUEyZFdnaTRJT1l1OHgxWEtNSG1tMEllN3FseHg1cGFaaGdrZDJsZHhJMzFHZEMzU3I0Z3dsRmQxRkdWa3BLODFOMEtVcEhHS2d5TzV6YVk0ZGU4U3p6c29icU5Ndl9hQWtpZFV4QmV3Q0drMndwS29PekR2ekhuMXJFSjFEUmJ1OW9PaXRwUDdpZFNVeE9oTmpkYjJmTFpSUzVnck9LZENBT0p2NGd2eXM3VmZBT0ZsTWpRUVJFeUpZNFRPSG54NzhrTEo3aGlvNGNYajJMeno2ZHVaa3VOX3licEpoekhoYjVsOXJidkpCVg?oc=5",
-     "published": "2026-11-26T15:08:00+00:00",
-     "score": 2.759,
-     "source": "SPCX",
-     "title": "SpaceX Just Slid 11% in a Week. Can Elon Musk's FCC Win for 1 Million Satellites Get SPCX Stock Back Above Its $135 IPO Price? - 24/7 Wall St.",
-     "topics": [
-      "regulatory",
-      "money"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPeURyQjB4VEdiXzVtVDFONG9nVmF3YTM0ellFUjdNb1gwQ0tHQ2syXzRhT25oSVRMbnlNcXhfMFJpQXoxbUN3RktVb3NmWnNwdVdEWGhQWlNCV2IyXzhvdzI5emNhbEtOcm1vcVJjSXJWWkNnVlJucFUzdzhMcTJ2OUcyVEwycHFYS0hvZGg1eGpKX2pHdE1rSHR1TnNCZlhEd1FrWG5qQy11bHRoZUxyRTVkTkFxUVpKVHZndTN2V1RsQlYyd1NkeFJnamp2QzZsOUpLb1Z0cEI2Rkx2VlYyRnM4UnJrbzR5TTVpTjUtT2dWTVIwczlSUw?oc=5",
      "published": "2026-11-26T19:30:03+00:00",
-     "score": 2.692,
+     "score": 1.51,
      "source": "SPCX",
      "title": "Nvidia Cut Its Intel Stake and Bought More SpaceX. Cathie Wood Is Buying Too. Why SPCX Stock Faces a Big Test on December 8. - Barchart.com",
      "topics": [
@@ -47,23 +94,14 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQi1fYVdrQ2tFTlgxSHd0RE1pTnlDTDhEWk5kc0E4TGlCLThlVEhqNmhBbktyRXd0R1A1c2t3NVFMQjl2Ri02Y1Ytd1o3NS1jU1kycmtCT0dZdEZyNUlLTUd0dEtFdmdHRXhGS1ZMdW1BcFN1QUdLbU1NQXBQUnJ0X0lyT0xSZHNRZ04wb1BWRzdqSjBGazhkN1BSZFNRaVkxXzRuR3ZjMDVBUjVsRGFpTllYTjBIb295RXR0LW01OTRLcUp1MVRrcUlDZHJqVTB0YzgzWkhpMHZNZw?oc=5",
-     "published": "2026-11-26T19:18:21+00:00",
-     "score": 2.671,
-     "source": "SPCX",
-     "title": "SpaceX and Musk pledge two SpaceX shares per child in Trump Accounts, an ~$18bn gift that triples Dell's record - Dealroom",
+     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOTy1NODBibUEyZFdnaTRJT1l1OHgxWEtNSG1tMEllN3FseHg1cGFaaGdrZDJsZHhJMzFHZEMzU3I0Z3dsRmQxRkdWa3BLODFOMEtVcEhHS2d5TzV6YVk0ZGU4U3p6c29icU5Ndl9hQWtpZFV4QmV3Q0drMndwS29PekR2ekhuMXJFSjFEUmJ1OW9PaXRwUDdpZFNVeE9oTmpkYjJmTFpSUzVnck9LZENBT0p2NGd2eXM3VmZBT0ZsTWpRUVJFeUpZNFRPSG54NzhrTEo3aGlvNGNYajJMeno2ZHVaa3VOX3licEpoekhoYjVsOXJidkpCVg?oc=5",
+     "published": "2026-11-26T15:08:00+00:00",
+     "score": 1.28,
+     "source": "Musk",
+     "title": "SpaceX Just Slid 11% in a Week. Can Elon Musk's FCC Win for 1 Million Satellites Get SPCX Stock Back Above Its $135 IPO Price? - 24/7 Wall St.",
      "topics": [
+      "regulatory",
       "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNVGxvV2RPV3Uyc3BnOHF6QzlYdGxjM3RCSmJucDR1WFNvZldoSWNwTGp1X0RlZF9jU09uQUpTZHRISUlmNlJ4Vnpsb2dXQWVFbV9QX21id2plQndUSVc3SXlvMDVKbWVUZkIyVV9KSVRpUmFKWnFkNzR0LUF5U0JNb013?oc=5",
-     "published": "2026-11-26T10:36:00+00:00",
-     "score": 2.129,
-     "source": "SPCX",
-     "title": "Why SpaceX\u2019s Approval for Data Centers Is Impossible for Rivals to Copy - Barron's",
-     "topics": [
-      "regulatory"
      ]
     },
     {
@@ -77,61 +115,21 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQnhyTjlTZUU2cThqdENEcVFHaGN0LUpfQnNlWVhjNWx2ajRMbUpPc3N1WEpoMXVrTGVsOU00TnFRUXgyWmVPcVRrVGl5TnUyQVREOUVoT29xbGVNa1lTczdUN0NScERIU2lkWGVZT3BWVnA0YmRjU0lhN01rcUNfWWVXZlVFOXhoZGxEalVGWlhJOWNUWHc0bXBJU1BFVU9VRkhIenFDVnNPMW5BaG5vQw?oc=5",
-     "published": "2026-11-27T06:28:40+00:00",
-     "score": 0.978,
-     "source": "SPCX",
-     "title": "SpaceX Shares Jump 5% on Musk Donation Plan, Seen Rising Over 30% by 2027 - TradingKey",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZE1mYk8xa3ZuNmwtZFJSbjQ4YTBWdUo1dmZyNFNUTExiZnpVZXpUaVJNNlFCdkpOaUQxUGx4SGhKcE5zdHdJaFdxNmlrR1pKLVpuTEpSZGxvQi1Bd3RwbFNoMU1keC1JSF9aNC1BVllkclVUWS16Y2tlUlp0S3pSZEpFUlFieUpTRDh0Y2JRelJrT1RhVmpsVkNMY1NkcEhaLUg5aGNTZEdYdE9DWXVxLTBCNzMxRTNXTFVyeg?oc=5",
+     "published": "2026-11-26T16:32:40+00:00",
+     "score": 1.181,
+     "source": "TSLA",
+     "title": "XPeng Raises Stakes for Tesla Stock Investors' Big Growth Bet - TradingView",
      "topics": [
       "money"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPbFliNGcyU3hnTFB5T2YxMW14a0w4N1c5Nm5YN1B3T01tZUZlYWwtTjRqNnk0dXpvdkMwZDBja0N1VlBfTTF0dHlOUHFRZWI4N3FJdXVJNWdsME5WaWdmNGR2YTdWSGtSeHdTdVZVSzZpZkZqSHNPOGY1Y2hWN0RQdXNqRWQzUmdLU2lKWXY3eEx1T0w1QUJfN1VSNEtPUlRDLWx4Ujh5aUlHU1lJc0hV?oc=5",
-     "published": "2026-11-27T06:23:33+00:00",
-     "score": 0.976,
+     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZUVmV3NnU20xUVVuTDBFSkhtUXRpWVE5OUVtNV9aMGdZeS1OWDZvY2pNc1R5TjM0OHI2ZmlRaV9mM0N0VkRrRDRDRFNIVWlZenVYeDlRZW9VNmxSMFcyNjlwdzh5TzljYUM2TDhPV2I2NndNS0VRc2x5MGFib2ltdWpOYlhtc1ZVOWxDWFpzS000NVNFNDI0MWl5eTJSU1JOdFM3ZWJxSUhabHNKSFc0cmp3RFlvQkhUOE9sWHczT3ZtWFNra3ROeHJMS1hkNW9a?oc=5",
+     "published": "2026-11-27T17:46:54+00:00",
+     "score": 0.996,
      "source": "SPCX",
-     "title": "Musk to give two SpaceX shares to every American child - Electronics Weekly",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQTnR0T0luNE5Wd1BSdGI0UHktcW9QTmJlVEk1UzVtWjlfNnlOME1BaU9BOVZwRjktLVBXbzROOEI2QmRWQUs5YnNYZGhIU29sOXpPSlN1aEVKM1l3VXN5YXgtcEhncE0zWGFSeWs4b25YUU1iSkZQdVMwenhyR3pEOGdtQWhzekc4M0tXUWp5c1hPY0dOMGVCZGJ1aUtpbHdEcnRUV3NWblBsM2Q5VnM1elRSbmZHeVJMcVZ0NThPVVZIVXpYZmhtYy0tcGdGbmNCVUVpOGc1aDU2UTRMa1R5RQ?oc=5",
-     "published": "2026-11-27T05:00:36+00:00",
-     "score": 0.937,
-     "source": "SPCX",
-     "title": "Two SpaceX shares for every child in America \u2014 that's the pledge made by the world's richest man amid public pressure to share AI spoils. With around 72 million children under 18 in the US, Elon Musk's promise is worth about $18 billion. #DWNews - Facebook",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQkNRSFFkeEhtZWJnZVBxNF9Qa2diaWhkT1pwcG9ScGdBbDlqd0dfeE94WnJaUFNHQV9ESHd4Smx6bnFxS1FjcnNCejZtWlJ0ckp0V25QbjFabGc5UDE2R3JhWXRpV2JQY3BubnBrbENoUFAtSWtzR3RhNFFoR09Ud2lpb2hJTnhuM1JNY0lqdUc4TGM?oc=5",
-     "published": "2026-11-27T04:39:22+00:00",
-     "score": 0.927,
-     "source": "SPCX",
-     "title": "SpaceX shares rise in overnight trading after Musk expands annual donation plan - Traders Union",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRmRsSDNMSFZwNFBSS0h6bDRHRlNMeGFzR2FnZDd2cXpjT094Q3Z1SUFMNXRUQVQySHYyMlY4bVNvZEdpWGp2VkZLbWt2eUw5RTBIMjF2T3VnNFh2R05ZeUxVWUFPNTg3TkNIWXFhNjRGTkFGVFBNUG94dUszWDNrQnFuajZRWGZtQ19TWnAzazdIVjMzYmtGYlE0ck1meUl4Q2dWc2g4QmQyNWRIZXVfclh1RkdVaHdzQWl5YVhzYngyRVU?oc=5",
-     "published": "2026-11-27T04:31:05+00:00",
-     "score": 0.924,
-     "source": "Musk",
-     "title": "Elon Musk Pledges Annual SpaceX Share Giveaway to Every American Child After $18 Billion Trump Accounts D - Benzinga",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9iX2dPZU9nMG94cXpkbmdGX1U0UERabDlfcGxmd2t1TlZZM0JTNmdpNnhJLTFFYU5UQkJ4Xy1wakExQ1owb3I4VkVkTFRlUHhJZllZaDQxTzMxY0hwN2tzczc1cFdpNjdGQjI0cVRWMlh1c2vSAXhBVV95cUxPdU9oSTZCWkhiWEZEVUowaXJkSDlvalBJQ3Q4dGlydDFCYWhxYmpnejFJTXhkN1g4SzNEYjVoeVloWTQwODdNVnhGZW9yMUJmLWh1cDRCTThYd2NIcmItSTdLV3JrQmR2Z1lfZ2MtaVdSMjVHc0pubEU?oc=5",
-     "published": "2026-11-27T04:20:00+00:00",
-     "score": 0.918,
-     "source": "SPCX",
-     "title": "SpaceX shares jump on alternative trading platform after Musk says he will expand share donations - CNBC",
+     "title": "SpaceX Stock Rises: Baron Sees AI Opportunity, Moffett Challenges Wireless Narrative - Benzinga",
      "topics": [
       "money"
      ]
@@ -139,9 +137,61 @@
    ],
    "spacex": [
     {
+     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSW8xaVA0bDNvaTJaS2UzRU9WUlBySUNnT0pCM0ZNZ0Ftd0VoVm5lVHJoNVl2dkdFc3E5VTZ4dHVFSXlfM1ZQZjZrdHgyaXFxamlpNmFTcFpYRi1KcDNEQWhBbUlZenBDN1FDNVRwTEduRC04SElZSUVGMW9lcXhEdkVhTXNyQVc2Si1UOUJFd1Y0aFFPSHZ3RU5wZjh0WkprQ2l4SmVrTHZHR1RwYVhCWnlGeWZnS2dLQ0ZzQmhTcVo?oc=5",
+     "published": "2026-11-27T14:00:00+00:00",
+     "score": 5.348,
+     "source": "Falcon",
+     "title": "SpaceX to launch classified satellites after Thanksgiving in California - Ventura County Star",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNc09KREZyZHN1VXBsYVI1TWVGY2VfTHdHVE1tbW8yZUNJZHZsVWIyd1JQV3ZMU3h1eHlsN19TXy13bGFnNW9sS1I1UFg0X1Z5VWZhS05vb0JLV1Q0YXU2X2JIcnBGTXUzMlplOHBJNDU3Y0NWREcwcmhLZEwzVUVRekdQZEdlam1sTmhKcVNSSjFhb3BTM2REblJGR3NYelY4UHdCUHlsdXBacXowaU1DbFliMGZGMkJBNmVOckVaZ1drYW1sYTUzRTRQNF82VmhWYjdXR21LSkk?oc=5",
+     "published": "2026-11-26T23:39:50+00:00",
+     "score": 4.931,
+     "source": "Starlink",
+     "title": "Elon Musk has approval to launch 1 million satellites. An astronomer explains how this would impact the sky - The Conversation",
+     "topics": [
+      "regulatory"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQcUotMjBVTUdDZWppandIYjNJN2JBNmgxcUtEcDdCcDNHNEprM1NJWkp3S0hOMlktN1ZIcXRRWVJwUV9sM25lZzE0aTRFMTV5YXpEeWQzV0d5eGtwemdXaVN6Y2Zqa1hrTVFpSEtWaUdLQ2dfVnBfLUtrdm1jUjV2eXctX1VZS3VaSHVN?oc=5",
+     "published": "2026-11-27T09:23:02+00:00",
+     "score": 4.579,
+     "source": "Starship",
+     "title": "SpaceX Mexico Sanctions Warning: 456 Launches a Year - shattered.io",
+     "topics": [
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWjAzUlg4WlFKejJvQmc1TERBZEcwVzNKT1NvSEtmdFhWb3ItSVRkX2tHbXU5QUduN1d3RWZ4b1EyQnV2UGVwLWNWQk5tb1ZhYll6NWZXMmdKN3RfLUdRR0xjdGJqQUVGaDdCQWRMZVR6ZDdwNXJXTFdLX21palBra1dYcGc3UDVMblE3ZHloYXBJYi1RekJz?oc=5",
+     "published": "2026-11-27T07:10:00+00:00",
+     "score": 4.209,
+     "source": "Starlink",
+     "title": "Viettel launches Starlink satellite internet services in Vietnam - Vietnam Economic Times",
+     "topics": [
+      "starlink",
+      "launch"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbThsVkItSkNiXzM0R1Z2OV9pNUVvTGR3bl9KbGVRWGpXZlhqbDFiS3VsZVRPcU9PX1Z2YXhmTVB1bHJoQ2kxN1EweVpTMmJyQlhVSjdpNUZneG1yR2FlR19GWVNXSmcwcmw2LUtxQ0Y1STQ3cm1NcHdXMHNGc1V6SGZnSjgxX19JTUl6cmtrU1lUQ3p6QjZsTzF2MnIzbjhiX0xEQVppRFk?oc=5",
+     "published": "2026-11-27T03:09:18+00:00",
+     "score": 3.541,
+     "source": "Starlink",
+     "title": "Vietnam's Viettel Telecom launches Starlink satellite Internet service - TNGlobal",
+     "topics": [
+      "starlink",
+      "launch"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd2dCVXlqM2NBMjNPNmcxTTU5bjlDTVR3ZGpQWnFJcFhPQWhJSzc1OURZS3I5SHF5RlJBZmNOUVdQeUdBdVB6SjBtZU5yTHI1WEpFZF9tSE1MaWJHQ3hRZHNsM0NaRXpWR2cxcmRTZ3hfbkpZR2Z2WjRMQTNWbU5LZENUUjVObnJCTXJEbF9jV2RrUHluNkttSXFR?oc=5",
      "published": "2026-11-27T01:01:20+00:00",
-     "score": 4.959,
+     "score": 3.185,
      "source": "Starship",
      "title": "Mexico Presses U.S. Over SpaceX Starship Launches From Texas - TeslaNorth.com",
      "topics": [
@@ -152,7 +202,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTkJEbXVReC1iM1h3WVYxUzM0c0VIanR4eHBGank3dTZNUVVzSnFxaHAzamlFYklWM2Q0VTF0aG1uUmtDcUFTYUwyWEVwT2EwSEJOWDluMkZWa1JFbGNGay1PMFZJRE9paGY4dmxyVWpUd1k1cDhOVE5vMTJUV3QwUC1tMXNxZzZMU3hN?oc=5",
      "published": "2026-11-27T00:28:04+00:00",
-     "score": 4.867,
+     "score": 3.093,
      "source": "Starship",
      "title": "Mexico seeks US talks on SpaceX launches crossing its airspace - MLQ.ai",
      "topics": [
@@ -160,21 +210,23 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZTA2d2ZEY0JkNFlHV2hGNXJBbjctdWVsU0xMNXBmWVhGbWR5UEF0RlZ1RmlOWVN6NGtvLTlrZ1RLNW9yOVIxQjU4amVVVGMyVXlGbDRzd2ZOaW5CSGxZUVVWOEdaZjMwaS1aR2xwdGhUdGt1b3MzUl9yVkNDcGZ3QQ?oc=5",
-     "published": "2026-11-26T18:28:41+00:00",
-     "score": 3.224,
-     "source": "Starship",
-     "title": "SpaceX gets FCC approval for 1 million AI satellites: What it means for Memphis - Rolling Out",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdHh3ZTE1dml3dHpwdkRBQUVKdV9yV0QtdDBPN2VjblpwWUNxZXNkWGdLVGJiOWxXci1ueUREOE9jR1J4YkFMSDNEbXJBd05YZmJVYmNwZGdVcGVxOFVvZmRRNjBBd1EySml3SU5IbU5TbzUwa1ZCdzJscExnMGtMbVZnamtpcjRYcUtZbGhjUkF2bXl2cVVieTJXUllNTGpxZVd3SExzY0tld3Q5N2Z3Sw?oc=5",
+     "published": "2026-11-26T13:38:02+00:00",
+     "score": 2.145,
+     "source": "Starlink",
+     "title": "Starlink approved for launch of one million satellites into Earth orbit to create data centres in space - BBC Sky at Night Magazine",
      "topics": [
+      "starlink",
+      "launch",
       "regulatory"
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1KMGNuQ0YwUmpnNHZpaThEbUQzVEhfZXB3ZnNpRk9Renc0bkVxQm9CbFNRU3lXTzlfYmlOT0R2aW1Bdkl2YmtsUXpETGs2bnZQNmtlSlMtdnRpamc?oc=5",
-     "published": "2026-11-26T09:27:44+00:00",
-     "score": 1.972,
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZTA2d2ZEY0JkNFlHV2hGNXJBbjctdWVsU0xMNXBmWVhGbWR5UEF0RlZ1RmlOWVN6NGtvLTlrZ1RLNW9yOVIxQjU4amVVVGMyVXlGbDRzd2ZOaW5CSGxZUVVWOEdaZjMwaS1aR2xwdGhUdGt1b3MzUl9yVkNDcGZ3QQ?oc=5",
+     "published": "2026-11-26T18:28:41+00:00",
+     "score": 1.745,
      "source": "Starship",
-     "title": "US approves SpaceX plan to send a million data satellites to space - BBC",
+     "title": "SpaceX gets FCC approval for 1 million AI satellites: What it means for Memphis - Rolling Out",
      "topics": [
       "regulatory"
      ]
@@ -222,16 +274,6 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQOGxNbkMwWHhOZ3JUSXI2RXlOdXhMcWxlNWo1aGFFZXc0R2laODRRRUdmNE9hc0JqN1JfUl9VcWNwZDFWVE9zLVNEU1F1MmNVQm8tazVEbWxJeFhJcXJHNEc3NW9nOXZJSmhZV1d3N3d6c0puR3dRZDdWam5zZTZYMm9TU3Bva1dQcnlHQUlTZVRYTTFVUlJZdE0yb29aTDR2VFZHU24zVmpqNXI5YUt6Um1uNnhLRGxO?oc=5",
-     "published": "2026-11-23T23:11:35+00:00",
-     "score": 1.5,
-     "source": "Falcon",
-     "title": "SpaceX plans California rocket launch today. How to see liftoff live - The Desert Sun",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTHdDclBtM25LY1VQbmVyd2NMVW0takVMSlU4ZDJ3THBjZmQzX015UFNVcDhCVEdSdHY3cjlzR3JiSWlVNG1pVFhPdkt4Vm1KX3ZZdUhnZHhFbllpbHA5M3R2dGFaRzNMNTEyZEFkc1UtbU5WQUR4S09MY2I0YU4yMktsVC1ZM0NiVGdTbXN2OWNhZHZkUFdtVWZ2cFozbVU3S0VWWDB3OFplOUNKZlltLTNWR19ILVNwOWs0OEZB?oc=5",
      "published": "2026-11-24T13:13:00+00:00",
      "score": 1.5,
@@ -252,84 +294,169 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxORzdZb3N0cE5IblRYQ2ptQ09tMEsxVk1PRERPb2p6aUlLQnF0aFRNdGgxSzVpcjJVZHRTTHM0RlNBRzJVdzdtYWdZczBYR1hfWko1TlFGSExmRjNBTmo4TDVuV01fcjNLM0syT21uTVFtUGtSUmtjVmxhSGs3UlpudE9Wd3hfUlgzSmJnNUJ1cHBKaTUzRjBXRzRLUUtWUGE1eFl0cElZdDFtT3o4Z3pWd09UYWczc2tmZ0VYSzZtVUpCSlRJT0pwUnpZU1E?oc=5",
-     "published": "2026-11-26T03:02:37+00:00",
-     "score": 1.296,
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdnhDajNTQkRWX2FnQzhGa2NPc2VnZjRIZ0tfX09zTVRhekIxYkg4YjQ4b1VJVnphMko2VkR1VVE0MEh0aGJBY2plN0ZIQW9FUDd2aW5ROVJEOFBHVDc5dFlqT3hkakNqZ0lhZlZrMFMwaEZMN0Z2bWVVRDNGdFI4bE1rRHp3MnR4R01qclRTcFQ3Y0d6c2FjNjA1LXNST2pYQ1lqRnRjSHY0N2NjMklJbElOUXR2eUxacmtr?oc=5",
+     "published": "2026-11-27T17:00:00+00:00",
+     "score": 0.975,
+     "source": "Falcon",
+     "title": "How to watch SpaceX watch classified satellites after Thanksgiving - The Desert Sun",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSWFWNUxlX0lvLUFWZXVkd2J0emdESS15UUZwc0gyclVQZVZ0S05LbHVadUNfdnE1X3BicG1ncm81bnVNWFZBQUxibkp0NklabUxhM0hsaGl0QnJDWWVBVzVHNzdRVzZpQXhZMzl1TmFsX2dJR1pyV1dwOXUyOEtJanJ4UVpZM25lOEFBSUZMY1lRR1RCWEx2cG1ILWtnZEZvQnlZMVdR?oc=5",
+     "published": "2026-11-27T15:21:40+00:00",
+     "score": 0.929,
      "source": "Starship",
-     "title": "US authorises SpaceX to launch up to one million satellites for orbital data centres - France 24",
+     "title": "SpaceX shares for Trump Accounts kids and what parents must do first - Rolling Out",
      "topics": [
-      "launch"
+      "money"
      ]
     },
     {
-     "link": "https://spaceflightnow.com/2026/11/26/fcc-green-lights-spacexs-plan-to-launch-1-million-starmind-data-center-satellites/",
-     "published": "2026-11-26T01:27:58+00:00",
-     "score": 1.033,
-     "source": "Spaceflight Now",
-     "title": "FCC green lights SpaceX\u2019s plan to launch 1 million \u2018Starmind\u2019 data center satellites",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbGx5SzYwS0pZMnRlcjM2cHFObDZxbXdFTmpuN2pxenB4cTZ4cURtZUE5Y1hGZUhmVUV2aVJnNEEwVUlhaUpCaGVqNm82cDA1YjlJUXhZcUlEZF9kREMwWG9XNDAxXzFDdUF0YUw4WWJvSHhNZVJoQ1JlZUFEMHFWb3RB?oc=5",
+     "published": "2026-11-27T14:29:03+00:00",
+     "score": 0.905,
+     "source": "Starlink",
+     "title": "What does Starlink add to Viettel's network? - Vietnam.vn",
      "topics": [
-      "starlink",
-      "launch",
-      "ai",
-      "regulatory"
-     ]
-    },
-    {
-     "link": "https://www.nasaspaceflight.com/2026/11/launch-preview-112426/",
-     "published": "2026-11-25T01:06:02+00:00",
-     "score": 0.9,
-     "source": "NASASpaceflight",
-     "title": "Launch Preview: Russian, Chinese, and SpaceX rockets to launch space station missions",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
-     "link": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
-     "published": "2026-11-20T14:15:21+00:00",
-     "score": 0.9,
-     "source": "Ars Technica Space",
-     "title": "SpaceX lenders don\u2019t want Elon Musk launching their collateral into space",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
-     "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
-     "published": "2026-11-15T23:11:54+00:00",
-     "score": 0.9,
-     "source": "Ars Technica Space",
-     "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors",
-     "topics": [
-      "launch"
-     ]
-    },
-    {
-     "link": "https://www.space.com/entertainment/spacex-starship-debris-becomes-art-in-ashley-zelinskies-the-weight-of-space-video-photos",
-     "published": "2026-11-25T19:00:00+00:00",
-     "score": 0.9,
-     "source": "Space.com",
-     "title": "SpaceX Starship debris becomes art in Ashley Zelinskie's 'The Weight of Space' (video, photos)",
-     "topics": [
-      "starship"
-     ]
-    },
-    {
-     "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-secretive-spy-satellites-from-california-for-us-space-force-video",
-     "published": "2026-11-24T22:37:19+00:00",
-     "score": 0.9,
-     "source": "Space.com",
-     "title": "SpaceX launches secretive spy satellites from California for US Space Force (video)",
-     "topics": [
-      "launch"
+      "starlink"
      ]
     }
    ],
    "tesla": [
     {
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1vWkJKWkhQTE1sSlpDd3c0MmZnRDJZbHJuSVFod1luNktPQm1NUmRjdk5JNGVhVlNfMnI5MS1LTXZpdkZUVV8tZEJNOUxrTGJ5Z2tZTGdHVkRFN25vNHNoQUNlM2JPdlo1MUxaTlVUNWtjcUFNNWc?oc=5",
+     "published": "2026-11-27T13:55:00+00:00",
+     "score": 7.112,
+     "source": "Optimus",
+     "title": "Tesla Pursues Acquisition of Germany's EMAG to Secure Production Network for Musk's 20,000-Optimus Goal - BigGo Finance",
+     "topics": [
+      "optimus",
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaXI2Y1FCZ0pfRlYxZWFQc2FhbFYyVUx2Sll4bzE1NzNxSzF3b2VOWU9CR1d2WkQwNXBic01raEk0MDNIZDNJLURsdXhhRnFVS1FuVjVHUUYxZlpqXzJ6YkNRV0VvNmJYU2pIUTR5RUxLbzgwLWxOMF9DYXM5cFZfWF9rUXZ1UjNjREluTQ?oc=5",
+     "published": "2026-11-27T17:00:34+00:00",
+     "score": 4.874,
+     "source": "Humanoids",
+     "title": "Tesla seeks regulatory approval to acquire German machine-tool maker EMAG - Drive Tesla Canada",
+     "topics": [
+      "regulatory"
+     ]
+    },
+    {
+     "link": "https://www.teslarati.com/tesla-bolster-optimus-company-acquisition-emag-germany/",
+     "published": "2026-11-27T16:37:01+00:00",
+     "score": 4.82,
+     "source": "Teslarati",
+     "title": "Tesla aims to bolster Optimus with newest company acquisition",
+     "topics": [
+      "optimus"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTXoxNDRPU0NLUXo4bUVEaVZLZmMwN05BZ3RrS1FlVUxsQjhLUkttRTUycVhjaXJvQlBFeGN3UzV5TUNmMk16TEdWTzFfTzN6Z21Ra2JNZkcwbm5iRFIwZXAya296c29aQXp4U25ha1ljYWh2R2JCcENsRERiUlYteFBZcEFnZEFhWXZKaTJmTGxxbDZxaU5OdWN1X2szZw?oc=5",
+     "published": "2026-11-27T16:08:03+00:00",
+     "score": 4.753,
+     "source": "Humanoids",
+     "title": "Tesla is pursuing the acquisition of a German machine manufacturer, aiming to develop robotics. - Vietnam.vn",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQm9xaXdlSHF5ZzVYZ2Y1VVo2MndUcGgxeGZ5cGppNmloYjVFdE9iNVRIZ1NuVWdQLUdwZ3lLUDJIcHFIWWZKNkwxUnMtUUdaa0wzT3RfcEFiLTRrQm5EYURTVk5RRV9lZ0VwVkEyWnRpNm9yOGlpcE1PY1lvMEhJdlhheVU3YmJEcXNGYU9ia3ZhbGFGLVNjZUpLZVhJSjJfSGk2S1Azc3Q3RlBQck5tQWw2M3M?oc=5",
+     "published": "2026-11-27T15:40:27+00:00",
+     "score": 4.689,
+     "source": "Autonomy",
+     "title": "Tesla stock rises on EMAG acquisition filing and EU FSD vote - StreetInsider",
+     "topics": [
+      "autonomy",
+      "money"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQ0tBa0J0NklHZ2Z4dEtJaXFwUHYzdTBqdHgwMjlUSjRjUUREU2ZqUDY3WXM0VUNuWThISHc4MmZyclU4M1BsTS1NLVoyRU8zdm1SNlVkZ2dGR3dLeXBRbno1Ukh2RkhTQ0EzN21HMVhCYmc4cG04ZGZaSEdtVkFfeTFmOXBmTTBx?oc=5",
+     "published": "2026-11-27T17:12:01+00:00",
+     "score": 3.921,
+     "source": "Production",
+     "title": "Used Cybertruck prices rise after Tesla announces production wind-down; one listed at $150,790 - Mezha.net",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://electrek.co/2026/11/27/used-cybertruck-prices-jump-after-tesla-kills-it/",
+     "published": "2026-11-27T17:06:53+00:00",
+     "score": 3.911,
+     "source": "Electrek",
+     "title": "Used Tesla Cybertruck prices jump after Musk kills it, one asks $150K",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9KOFdSaXcxUGtiejA3ZFM5dXhlbFdQYWxlU0txalVrOC1YVFVZRlg3SFZLcjkzNS0zX1lZZVFLWWI5cFBmaXVyNWNmZTBtVDhheG5HWDA5Y1dsWnUzbGRmLXk1NkQ3Y2hHS3BxZEQ0M0xld0hKZVE?oc=5",
+     "published": "2026-11-27T09:35:00+00:00",
+     "score": 3.843,
+     "source": "Optimus",
+     "title": "Tesla Weighs Acquisition of German Machine Tool Maker EMAG to Build In-House Precision Gear Capacity for Optimus - BigGo Finance",
+     "topics": [
+      "optimus"
+     ]
+    },
+    {
+     "link": "https://electrek.co/2026/11/27/ego-power-nexus-1400w-portable-inverter-generator-matter-outdoor-smart-plug-more/",
+     "published": "2026-11-27T16:16:03+00:00",
+     "score": 3.817,
+     "source": "Electrek",
+     "title": "EGO Power+ Nexus 1,400W portable inverter + generator hits new $579 low, Matter Outdoor Smart Plug new $22 low, more",
+     "topics": []
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPblhOZDZCMTJwVUlUNHRtWXNXSWVaMkdUSWhKdFFFSGd2N2piNWZaQk1lSUNMU251QzVEM21NTnowTWJ1bE9BN3hyemNqT2RoQjJlZ2NKbi03aVFsclBHa1g4TU82QjZjVnkzRUg3TnJhOVlTY0EtMUh6cjlmU1phMWxpRHlEdm00ZDNWNEV2TE1vcGpRaXN2Y0NfclBaQkRBMS1Wag?oc=5",
+     "published": "2026-11-27T14:24:50+00:00",
+     "score": 3.611,
+     "source": "Production",
+     "title": "Even Though Production Is Ending, Tesla Has Increased the Price of the Cyberbeast Version of the Cybertruck - Yahoo Autos",
+     "topics": [
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lczdWSXpXUk9tbHYzc0E4S3l4eS1VR18zSEhaUE1pVUFLWTZIeDhaZUUwZFFkZmprcldzaTVBWEY5UUV5S2tiXzJCNXVoZm9aVFZIUjlGU1Y3ZEw4RUdPUFZHcndOQk9hc200TTJaYUkyUFNZc1dCR1l4eURRZw?oc=5",
+     "published": "2026-11-27T14:14:09+00:00",
+     "score": 3.591,
+     "source": "Optimus",
+     "title": "Tesla Moves to Buy EMAG Assets as Optimus Production Ramps - TeslaNorth.com",
+     "topics": [
+      "optimus",
+      "production"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONDUtNFJTbDZsVnBSV0NPTUh4Zmdic2NqVlRkdGMzYkkzUDlfeUR4eWhQN1B2SXRPazVuWDh2RHF4RjZvMVktTHlvMWRLV0Jwd0dDcTJwdFByWlZ2TzQ4YVRrZnh6ZEN3ekdiUy1WNXNvQ1BaTmxsZFFqRUo4OVJaT2Iyc2g?oc=5",
+     "published": "2026-11-27T14:07:00+00:00",
+     "score": 3.578,
+     "source": "Autonomy",
+     "title": "Tesla Surpasses 1,000 Cybercab Registrations in Texas After Record Jump - Drive Tesla Canada",
+     "topics": [
+      "autonomy"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa3NGdGp0Wi1RRVNUYTlvNmtwY2pKVUtLTDFTNkhpSTFjNmVnbHBUdkJ2MXRNT3o4Q0s2WVU2UzN5QjZyeWtFQVFWc3Rub21HdG9CcEs0SXNWbHZ1bU1YTG5zd3IzbEZEU3VBSmMtNHRQdk1ESnU4QUMxVDM2ZXpwT1hGTXRlUHRPQUx4Q0ZDMURMODU4NVZQTXFOWjdoT2JsV3BxRFBOcXNJWkVGY1RVNGppNTFUUQ?oc=5",
+     "published": "2026-11-27T12:53:14+00:00",
+     "score": 3.441,
+     "source": "Autonomy",
+     "title": "Tesla (TSLA) lays Giga Press foundations for Optimus robot production at Giga Texas - Tesla Oracle",
+     "topics": [
+      "optimus",
+      "production"
+     ]
+    },
+    {
      "link": "https://www.notateslaapp.com/news/5095/teslas-cybercab-fleet-tops-1000-vehicles-in-texas",
      "published": "2026-11-26T22:10:00+00:00",
-     "score": 2.989,
+     "score": 1.806,
      "source": "Not a Tesla App",
      "title": "Tesla\u2019s Cybercab Fleet Tops 1,000 Vehicles in Texas",
      "topics": [
@@ -339,32 +466,11 @@
     {
      "link": "https://www.notateslaapp.com/news/5094/tesla-owner-adds-massaging-seats-with-custom-ui",
      "published": "2026-11-26T21:40:00+00:00",
-     "score": 2.933,
+     "score": 1.75,
      "source": "Not a Tesla App",
      "title": "Tesla Owner Adds Massaging Seats With Custom UI",
      "topics": [
       "production"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZE1mYk8xa3ZuNmwtZFJSbjQ4YTBWdUo1dmZyNFNUTExiZnpVZXpUaVJNNlFCdkpOaUQxUGx4SGhKcE5zdHdJaFdxNmlrR1pKLVpuTEpSZGxvQi1Bd3RwbFNoMU1keC1JSF9aNC1BVllkclVUWS16Y2tlUlp0S3pSZEpFUlFieUpTRDh0Y2JRelJrT1RhVmpsVkNMY1NkcEhaLUg5aGNTZEdYdE9DWXVxLTBCNzMxRTNXTFVyeg?oc=5",
-     "published": "2026-11-26T16:32:40+00:00",
-     "score": 2.364,
-     "source": "Humanoids",
-     "title": "XPeng Raises Stakes for Tesla Stock Investors' Big Growth Bet - TradingView",
-     "topics": [
-      "money"
-     ]
-    },
-    {
-     "link": "https://www.teslarati.com/tesla-assisted-driving-tad-lands-approval-italy-12th-eu-country/",
-     "published": "2026-11-20T15:14:17+00:00",
-     "score": 1.5,
-     "source": "Teslarati",
-     "title": "Tesla Assisted Driving (TAD) lands approval in Italy, its 12th EU country",
-     "topics": [
-      "autonomy",
-      "regulatory"
      ]
     },
     {
@@ -379,17 +485,6 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaUZiYzVTd0JBQ0NwYlMyVW9maDZ1MWhuNDZlX2lENENnYXJkVUdsa1Rpa3dNZlRoejBwNVJ6RFpHTUxzLUhzMThEZ3cxbVFKV3NMQ01va2lIdXJncXhMUlE4WlE3ZF9Obkh1d1Q0U1pkS2JLdE5nc1lpR3FPZ3g2eHE1MjJGWWlMREpDS01JOWpjU0o0djljMGFnYl9YTjVFN2V1WU5hYWExLW5vVktNaXNIeC12MEs0V0RBbTVmWGdYa0YySC1aT3ZR?oc=5",
-     "published": "2026-11-26T06:19:47+00:00",
-     "score": 1.229,
-     "source": "Humanoids",
-     "title": "Tesla registers new entity in Germany as Optimus mass production gear issue in focus - \ub514\uc9c0\ud138\ud22c\ub370\uc774",
-     "topics": [
-      "optimus",
-      "production"
-     ]
-    },
-    {
      "link": "https://www.notateslaapp.com/news/5043/musk-says-tesla-should-move-all-model-y-production-to-y-l",
      "published": "2026-11-19T18:35:00+00:00",
      "score": 1.012,
@@ -400,113 +495,11 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE04N1A2cVN4ZmRkb1RGMmgxWDM2ak1aSFZfOEZfdVJMYjY3WmdidjBfODBlOGNQb0luVFVGYjJJRTluUDhCdi04WmVjejBKTVc2WlpUZV9FajE4VXJ6ZU5kTjJEVFR1eW5yLUY0?oc=5",
-     "published": "2026-11-27T07:06:56+00:00",
-     "score": 0.996,
-     "source": "Autonomy",
-     "title": "Tesla 2026.44.3.1 Rolls Out With FSD v14.3, Battery Preconditioning - BASENOR - Tesla Accessories",
-     "topics": [
-      "autonomy"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE5tbkJzcEhvTlRyMW9uNnpkQmJFcUs3MEEycV9XMkVYaGZYM1RKMmFsQ3gwV2xuek9CLWFN?oc=5",
-     "published": "2026-11-27T05:41:16+00:00",
-     "score": 0.956,
-     "source": "Autonomy",
-     "title": "2026.44.3.1 Official Tesla Release Notes - Software Updates - Howl.Link",
-     "topics": []
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQX1V5c2oxN3ZicjBFaVhQYzRrc1B4QVV1TUdlQXJNMXNRdGVnMEhlX1Byc25BTkZxUGNZOHE3M0hRWlFqNExLY0pyMUlwd0RzV19JTHo3dlBWTGpINUgzMmE4d01WVkZxaFpwM2Jfd25Nck5MNTJMMnhKaDFleWtKeUZ0VHliRmJQdXpkaHpGdllJT2NHRmFSc1NR?oc=5",
-     "published": "2026-11-27T05:17:31+00:00",
-     "score": 0.945,
-     "source": "Autonomy",
-     "title": "\u2018FSD Is GTA\u2019: Elon Musk Says Teslas Have \u2018Superhuman Vision\u2019 - Tesla (NASDAQ:TSLA) - Benzinga",
-     "topics": [
-      "autonomy"
-     ]
-    },
-    {
-     "link": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
-     "published": "2026-11-21T19:56:56+00:00",
-     "score": 0.9,
-     "source": "Electrek",
-     "title": "Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes",
-     "topics": [
-      "autonomy"
-     ]
-    },
-    {
-     "link": "https://electrek.co/2026/11/21/elon-musk-tesla-argentina-launch-awkward-video-milei/",
-     "published": "2026-11-21T15:11:17+00:00",
-     "score": 0.9,
-     "source": "Electrek",
-     "title": "Elon Musk freezes at awkward Tesla Argentina launch: \u2018I don\u2019t know what to say\u2019",
-     "topics": [
-      "launch",
-      "production"
-     ]
-    },
-    {
-     "link": "https://electrek.co/2026/11/20/podcast-teslas-personal-cybercab-fords-lfp-for-fathom-aptera-delivers-and-more/",
-     "published": "2026-11-20T19:56:11+00:00",
-     "score": 0.9,
-     "source": "Electrek",
-     "title": "Podcast: Tesla\u2019s \u2018personal\u2019 Cybercab, Ford\u2019s LFP for Fathom, Aptera delivers, and more",
-     "topics": [
-      "autonomy"
-     ]
-    },
-    {
-     "link": "https://electrek.co/2026/11/17/e-quipment-highlight-110-hp-greenworks-optimus-electric-utv-video/",
-     "published": "2026-11-18T01:28:03+00:00",
-     "score": 0.9,
-     "source": "Electrek",
-     "title": "E-quipment highlight: 110 hp Greenworks OPTIMUS electric UTV [video]",
-     "topics": [
-      "optimus"
-     ]
-    },
-    {
-     "link": "https://electrek.co/2026/11/17/tesla-cybercab-home-charging-wireless-problem/",
-     "published": "2026-11-17T14:19:41+00:00",
-     "score": 0.9,
-     "source": "Electrek",
-     "title": "Tesla needs wireless charging fast, or its $30,000 Cybercab can\u2019t charge at home",
-     "topics": [
-      "autonomy",
-      "production"
-     ]
-    },
-    {
-     "link": "https://electrek.co/2026/11/16/tesla-autopilot-fsd-overturned-truck-naples-i75/",
-     "published": "2026-11-16T15:13:45+00:00",
-     "score": 0.9,
-     "source": "Electrek",
-     "title": "Tesla on Autopilot/FSD hit an overturned truck at 71 mph, killing 3",
-     "topics": [
-      "autonomy",
-      "production",
-      "regulatory"
-     ]
-    },
-    {
-     "link": "https://electrek.co/2026/11/13/tesla-kills-41990-model-y-awd-configurator/",
-     "published": "2026-11-13T15:32:28+00:00",
-     "score": 0.9,
-     "source": "Electrek",
-     "title": "Tesla kills $41,990 Model Y AWD: all-wheel drive now costs $8,000 more",
-     "topics": [
-      "production"
-     ]
-    },
-    {
-     "link": "https://www.notateslaapp.com/news/5079/tesla-raises-cyberbeast-price-again-ends-cybertruck-leases",
-     "published": "2026-11-25T12:00:00+00:00",
-     "score": 0.9,
-     "source": "Not a Tesla App",
-     "title": "Tesla Raises Cyberbeast Price Again, Ends Cybertruck Leases",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOUVVFYmRfX0x0QnN6QU00LUxkMEw4M1JXT3VtRjYtem1sZFc5YW81b3M1UGt5ZWtaYk9FM0RpTnR3djM2VkM5QTA0R3Z6cnFXcW1JMDY1RFJFRGZLdjBNRXZWejh4elYtekd1QkdJOV9qczJmemRyTHZQZFl1TTVabXdXRzZxc1owZjlZ?oc=5",
+     "published": "2026-11-27T17:35:06+00:00",
+     "score": 0.991,
+     "source": "Production",
+     "title": "Used Cybertruck $150K Ask: Price Jump Still Unconfirmed - shattered.io",
      "topics": [
       "production"
      ]
@@ -514,9 +507,30 @@
    ],
    "ventures": [
     {
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQSk5tZjJ2VXVZWFFtUkNGYmp6bHBBeXo5blZzdWJiX0htaXZTaWJ6US1Wbk9LYkEwZnRFTFNMVUNfN19VY2VZRlJQSGNPSi1TQ1pxdW8tTzc4UFU1b0d3cWZGem9KelFqM0g0TVh4cmhnbGZINDFOejBLQ1R6NFdyQUFwVDE?oc=5",
+     "published": "2026-11-27T14:02:42+00:00",
+     "score": 5.355,
+     "source": "Neuralink",
+     "title": "Neuralink launches the final trial of its implant ahead of going on sale - Korben",
+     "topics": [
+      "neurotech"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQWEtrWF9UNmhWVXVwRGlGdjd1QVQtaHJKYm0xV3ZMbXVMYzZYZzlnR3ZyVHhKX19PZWpIY2RqVlVRVXNDOEhaaG5zQTVyV2JzT0h2YkdMSmkyNS1lczl6cHNaRlZJYjdmeUhQamxWNXZXUFRtTTRBNDBKN3pIWmt0Xw?oc=5",
+     "published": "2026-11-27T13:00:00+00:00",
+     "score": 4.317,
+     "source": "Neuralink",
+     "title": "Investing in Neuralink | How to Buy Pre-IPO Shares - Securities.io",
+     "topics": [
+      "neurotech",
+      "money"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQeWNoM3BCbGMxLUpWaDBUcWhqdTYwd28zZDExaDhMbkN1SGdMcEVXOUlRMTZPZlRTQm5GZFgyUGV4VDdOSzVjU1oyb1VlaWt6REFZaGJDc0h0Nk9KQ3BNOXY4QjRMdDQ0ZVN5UFJTb0xfeHRYRzgxcEM3ODFFdHc4Z3ZoSDJvaXZPbldILVI3MTlpTDktbHFwVVJDNW1CZ182QlRwZC1pTUZVN1RyUGpkdGg0c3Qydjk1MHRqQ1AtMDRPX05TNG82cVpEekU1c2RWanAzUG9fUmU1UE5tVlYw?oc=5",
      "published": "2026-11-27T06:20:43+00:00",
-     "score": 4.872,
+     "score": 3.393,
      "source": "Neuralink",
      "title": "Neuralink FDA Approval: ALS-Only Pivotal Trial Leaves Enrollment, Endpoints, Sites Undisclosed - Tech Times",
      "topics": [
@@ -527,9 +541,9 @@
     {
      "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNQVZLeVVZWndydm8wNXFCSmRfYWZyRWtWNmlOMW8yMzk0Y0xoZEJCeENfbDNaXzJCdE4ydHJYWG1YLU9CcGpBUzhFQjlMYllMZlhZNDhVb2hQbWNSaVBjcXU1VnZoUHhtV0kwdFBKU2YzM2hucktydThQV0ZacV85SVppSVVkZnFCSTIxZUViOEJmcm9UblR0NE5fRUVXaDR0TWVKYXQ2dFhmSTdQTGFsTHhLdGRLX201T2RXSy14cDJhQkJBb1o1X1N3b3AzckZMNHNFZ3Izd29KM3pURWlURElQUzNLaXNWUEc2czViLW8xTXFOV1ZJLUYzRHl0TkhXTWZxYm9mdXNvV0JoRVM1YdIBlgJBVV95cUxNN2h3dmJpUm0tVUhwbE5hd0lQTXdIcTE4RTZRVndLQ2RENWdJeVhkcF9OTjZiYUx0bnpDWEl3UGhBRkQyUTFaNDFETXBPV2Ywd3JTendUWWpYeVdSZnRnb3dYTnFudXB2N3Bxc25sbS1vdUw5emc4WjJ6RXRfRjdCU3JQWW5DeDBLRmJOMlVYaVlYOVlrMEhhbkppbGNMRHZvcXloTTg3YTIyeHVaX1NacEZDa05iM1AtSEUxYjRodHhyVk0tM2FQVDVhSDFsX0ZGR3RFa2g0d3AyTkF4NFNaQnQwMlItUEFBVjRtUnVYOEVjUWpoQmppTmRDNmtPbi12a3VLTG9aOWZ1SFlCNkRfYThZTy1GUQ?oc=5",
      "published": "2026-11-27T05:35:00+00:00",
-     "score": 4.766,
+     "score": 3.287,
      "source": "Neuralink",
-     "title": "Elon Musk's Jesus-level brain chip technology earns new approval; says can be tested on patients with ... - The Times of India",
+     "title": "Elon Musk'a Jesus-level brain chip technology earns new approval; says can be tested on patients with ... - The Times of India",
      "topics": [
       "neurotech",
       "regulatory"
@@ -538,7 +552,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcEtrekl5Z05PTVhnQkVDQ1Q0Rl94TmxKV21HVWlmbWVSOU8xZHVsQ2g0dThsdkxzS05qS0JoMFY4dEt3TVpscU5JWXFhczJxOUZLQTdyQk5tUUUwa2tLc3h5eFZET1ZZdWpsU25KVXM0NHZoQUdJTnlZY0t4YUxZcER2QkRZNUFiSVlvUEsyMTNMdw?oc=5",
      "published": "2026-11-27T04:48:26+00:00",
-     "score": 4.658,
+     "score": 3.18,
      "source": "Neuralink",
      "title": "Neuralink Wins U.S. Approval for Pivotal Trial - Briefs Finance",
      "topics": [
@@ -547,11 +561,22 @@
      ]
     },
     {
-     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB0NmJnUzFzTEE3ekpCc1kyYk9aOGVzbTdrZGlfel9SeUk0bGxkcHg4NjFNNHhCR0ZDTHBheFRrT0s0bG5Xd2s0ZllYdVRqaExZRkJR?oc=5",
-     "published": "2026-11-26T11:24:59+00:00",
-     "score": 4.485,
+     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wQmxiM21ON29kVlhscXktV3VZSlV1NzM5c2tmSjdIaDV6QUQ3RkdZVm94X2RrV0ZQWkxaQWJGR3Nfb2JBSTYzdksyYTVpeXJ0Ny1hYw?oc=5",
+     "published": "2026-11-27T04:45:00+00:00",
+     "score": 3.172,
      "source": "Neuralink",
-     "title": "Elon Musk's Brain-Computer Interface Nears Market Launch: Key Clinical Trials Approved, Controlling GTA 6 With Thought Power Becomes a Reality - 36\u6c2a",
+     "title": "Neuralink wins FDA approval for pivotal implantable BCI trial - DongA Science",
+     "topics": [
+      "neurotech",
+      "regulatory"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3UUg3NGlrTnFrbTY2cnI3ZGx3ZHp0YlJxcm40MTVMUmF3cHphc00tTVdkXy1nMXdsd20yUV9XT0JvV3Bvb1VpZ1o0VVVITmhQTVJmRmpQanhhbHl1M09KOE1wQ0xldkNoeS14Mw?oc=5",
+     "published": "2026-11-27T08:00:04+00:00",
+     "score": 2.174,
+     "source": "Neuralink",
+     "title": "The FDA just approved Neuralink's new LINK trial. This is the BIG test that could take its brain implant from EXPERIMENTAL technology to something doctors can eventually offer patients. Neuralink has already implanted more than 30 people in earlier studies. - X",
      "topics": [
       "neurotech",
       "regulatory"
@@ -560,7 +585,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUVhpODBYNmtDNWNkaTVwcDRPQTk0TmdGR25NMUtmV3dKQjZJM1VMS3ZqdlhqbjE3YWVJU1ljdnAyZTRVYUNGVUppRVd3b1luRUo1SENvbGFzOFZFZmVEdFBMdFo3bHdCTGkxM00wVVE0WnZmQW44SkI2eG5nV05sNGNZTXhDQnBxRlZGQnRBNi1xaHBOdUExTGhNUWc?oc=5",
      "published": "2026-11-26T21:27:15+00:00",
-     "score": 3.637,
+     "score": 2.158,
      "source": "Neuralink",
      "title": "Neuralink Wins First U.S. Approval for Brain Implant Trial - Seoul Economic Daily",
      "topics": [
@@ -571,7 +596,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNbDkxbXkwTnRoYU1lN0hoNThHaTZnZkFIcGRpNm04MUFJd3VBNVNnbUFnek43ZVl3eE5DVm85SnhDekhYZjgxLWpxWUhvclZnQWFLTy1zZzdHTk90VEFRTDVIeTRNSmY0SERWQ296cGE0ZTVXTzQ1YVk5NlEzZ0hybXFfQnh1dWtMRWtnc1h0WnBpX0E3Z1AxNUJyczlKZHZoUEw3RnhFLS1hQ04tTzZkbEc2QXA4V3ZxMUlIT0poNGdLY284MkFDc3BiOVlId0p6SHEzOWwyd0t0NWpNbWc?oc=5",
      "published": "2026-11-26T19:51:24+00:00",
-     "score": 3.415,
+     "score": 1.936,
      "source": "Neuralink",
      "title": "FDA approves Neuralink\u2019s LINK Pivotal Study, the first US pivotal trial of an implantable brain-computer interface - 2 Minute Medicine",
      "topics": [
@@ -582,7 +607,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNZjlxbGRsWU9Ia05BZlJINjFYNDFfZ0V4LUJCSHdWNnN2T2l5SUNxUm1ZdTVkeVplbzNzalVYZXVGQnNLaU94YkxXYy0yREI4SDM2eG1seXZJXzZJOVFMVlRuQWwxMjctamRwREJoMUFYRXBOc1BJV3VJc0JKZ0hsMFI4NjBlWVl5XzRiSHNTTzN5c2d0eTRzSUFnMjgySTA?oc=5",
      "published": "2026-11-26T17:25:05+00:00",
-     "score": 3.076,
+     "score": 1.598,
      "source": "Neuralink",
      "title": "Neuralink receives FDA approval to implant a chip in the brain for connection to a computer - Informat.ro",
      "topics": [
@@ -591,9 +616,53 @@
      ]
     },
     {
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPWHRPbnJXWmYxWUZSNlBDTElZQlhhLWcxZUVHaVdkU3ZjSGpQVjBxdWNvWUZKV1FRRUh1MkVWLTNYRklyeTRqTjJRLXVnREZiZmlWWTQwMUs4UmUtczJpNV8ycFZ6TFVNOVhuQVNPbE9oRTJLazlxZlBvTTFRRWhRaUZIQ3AyOXVhUFI0MDBuZ3M4c052NFE?oc=5",
+     "published": "2026-11-25T22:19:31+00:00",
+     "score": 1.5,
+     "source": "Neuralink",
+     "title": "Neuralink Receives FDA Approval to Launch LINK Pivotal Study - Neuralink",
+     "topics": [
+      "neurotech",
+      "regulatory"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNV3c3N252YjdzdTZpR3hXWkN6WnpuVUJ3Q0pmOHRnWjAxT1dXRUZCeC0wbnFpNEY5MWZHc3JPcTdDMUx4UHpVZWk5WmU2YUYyRzR6a2FsQldiSW5fUjlBU3VuTXI5WkJQNHBBN2JXUjlRT1pjUnROckNoRkFvZ1JoaDBsdnpGT3RjU210M0RYSjd0VlFiNWtuSHVYanhvYlNRcTQwbUdxY3BDdw?oc=5",
+     "published": "2026-11-26T00:18:12+00:00",
+     "score": 1.5,
+     "source": "Neuralink",
+     "title": "Neuralink receives FDA approval to launch pivotal brain implant trial for ALS - MobiHealthNews",
+     "topics": [
+      "neurotech",
+      "regulatory"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1RaS1CelVSYWtxYU9RVk45eDl6emJScEpicWo1cWNzUzlBWFBEVVpXb3JWa0FFQjFYOVFNYTFvYVV2bVhoU0J0RDgxU2N2ZWZDV1psd1p2Z3lqM2pTd2xZaEQwQ2NGR0h1aEwwV3c2Sk85bC1FY3c?oc=5",
+     "published": "2026-11-26T00:25:00+00:00",
+     "score": 1.5,
+     "source": "Neuralink",
+     "title": "Neuralink Wins FDA Approval to Launch Pivotal Brain Implant Trial in ALS Patients - BigGo Finance",
+     "topics": [
+      "neurotech",
+      "regulatory"
+     ]
+    },
+    {
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8yUjhYSzBlR2sxNW1RWlItUF95Y1BDcmxwV01fWm9ReE1GUFdlWEpGZjVmcnZzR0ZLUl9SaDYwYTR5OXFsQmJxd1FQekFGZGJiMlE0bnl6Rnh3NHZsLWlfYTR6Z01xZ2hfMnhhejl4UDE3QXZW?oc=5",
+     "published": "2026-11-25T23:47:15+00:00",
+     "score": 1.5,
+     "source": "Neuralink",
+     "title": "Neuralink Receives FDA Approval to Launch First Pivotal BCI Trial - Drive Tesla Canada",
+     "topics": [
+      "neurotech",
+      "regulatory"
+     ]
+    },
+    {
      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaXFVOEVfT0hJMEpQQm8wZmJrSVdCWlhDZ2hPRmpIVFVVRjdVOXBSZUZPYldKbjBRbkZjcTRNd2pIczY3YVVvRXVjZGF3ZjVLd1dvMVFidVRUTlRkWVhqeHhoTzBXYnBuSlNKa3Z5ZUM3bnNLMHlNMkw3aFVYaGJlbVJxbEViWEQzR2RZOXNR0gGTAUFVX3lxTFBJY1A2QV82QnlLYXl3bE8yOEJDajAxT3h4QXhKeENMbno1NUZ1UUNZVGV6ck9ORWJORWtIQ0lISzZyUlAzeVVNTmtFTThjRk5HdUZRaFF3RHNDMmtVZFI3d0dmQjhUUkN3YnpfMmZmZFRTX1FkZDNGZzUyMFM2SFJvYU1HTTRCNUZsVXpqdm92WDNQWQ?oc=5",
      "published": "2026-11-26T15:49:00+00:00",
-     "score": 2.854,
+     "score": 1.375,
      "source": "Neuralink",
      "title": "Musk's Neuralink receives approval for its first pivotal brain implant trial in the US - Mezha",
      "topics": [
@@ -604,7 +673,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaFJ2NzlDdW9rWDBKRUwtUEg1SXB3NzR0TlBZZU5zeWpoTzlraVhLaFhqLUtKUmpXb1N3c0Vqb3VKbHBWdXVuM2xRZWNYckFFUlRjUzlINnpOc3ZEZXRiV201WUZqUzc2LU5pclhONk9EZnd0Uk5wSHNLaEpJWW1icVN6SWlvMkM1eTRLUQ?oc=5",
      "published": "2026-11-26T15:31:00+00:00",
-     "score": 2.812,
+     "score": 1.334,
      "source": "Neuralink",
      "title": "Neuralink Receives FDA Approval for Key Brain Implant Trials - ForkLog",
      "topics": [
@@ -615,7 +684,7 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeDNMVnJDTHd5NEY4YURSZWdjYjFGNXFTaWp1TDJpRUtKTzcwek9ra2ZOaXE5cDFkT2o0NnN3S0J1NW9ibXBERnU3THJETy1YUW9kVURYcnRRbVhIX1VteXFza0luX0JjdTExTVBUYmFlblAyMHdTR2tDeEVZQWhWSjFiLTJFX3lvbjZPM2lSbzA2QUpwS0lmVGFaRlNOOVVfd1EtLVR1bElEUHdHUzA4emZyLUlFb3U5NXVhN0llTWpuZw?oc=5",
      "published": "2026-11-26T14:53:31+00:00",
-     "score": 2.725,
+     "score": 1.247,
      "source": "Neuralink",
      "title": "FDA approves Neuralink\u2019s brain implant trial for ALS patients \u2014 Engadget - UA.NEWS",
      "topics": [
@@ -626,85 +695,9 @@
     {
      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MdDJ1YWVrd2xBcFJQNFpNMWlycEZRWVZscEpKN2t6Y0M5ZmE1dFg5OEpCZ3h6dkpzQ3loaXYzODA5N213TUVaNTRaazJ1RzBzNGxQeVlKNzZ0c3F4ZnRqZg?oc=5",
      "published": "2026-11-26T14:52:00+00:00",
-     "score": 2.722,
+     "score": 1.243,
      "source": "Neuralink",
      "title": "Neuralink receives approval to conduct key clinical trials of brain implant in the US - dev.ua",
-     "topics": [
-      "neurotech",
-      "regulatory"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdlJBWm1ydFBna1U5X0Jvc0p6NURrU0NXRHg3cUo4Sl8yX0k3a05PQ0E2UlRBUGRiWFZabVBhUl9KSC11dmY3WlBMLUg4eUhNRTdXZ2R3dnRiRDNTNkdreWdTcUdjaG1YWk5TU25BUWxxZXJxbmRoR0lUMWpOUXYyZ25ZNi1pQQ?oc=5",
-     "published": "2026-11-26T14:44:56+00:00",
-     "score": 2.706,
-     "source": "Neuralink",
-     "title": "Neuralink's brain chip just got FDA approval for its biggest trial yet - Yahoo",
-     "topics": [
-      "neurotech",
-      "regulatory"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4zWkF1SHBENFU3VS03M0NKbUJ0eVduMlpJcDJxZjlTU3Njb0xSM1NNSU5PNUhwemtlRVJLS1NxTFpwTUdnQkhvN1lRbGZZcGtqeWtacVhWUUxTZVdyWS1OWWxpU1JzWmNJOHVza0RXYVZDcC1Xb2hDZ2VMMFd3Zw?oc=5",
-     "published": "2026-11-26T14:23:15+00:00",
-     "score": 2.655,
-     "source": "Neuralink",
-     "title": "Neuralink gets FDA approval for a late-stage brain implant trial in ALS - The Next Web",
-     "topics": [
-      "neurotech",
-      "regulatory"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa0duWXoyQ0FtelFYYjR6Y1hVakk4a1JVaE81WFJQUGJBb2JoY1JHM3hlYjZNclp2TEx2SFlpaGNIcl9KMFgxRHdYLVhNMnF4WHlKRkFXNWFQdC1jaGZjdUpWOVc0alJrYzJEclBBajVtZVFuVTdnQ1R0NFB0dFY4Z3VUWXNIbEI3eE0yZmFVOEJQRVdDZkdYcmVOc1FYeDd5SVV0cld4dG9vV1NE?oc=5",
-     "published": "2026-11-26T10:17:00+00:00",
-     "score": 2.502,
-     "source": "xAI",
-     "title": "Former xAI employees launch AI startup to help predict the future - Zamin.uz",
-     "topics": [
-      "ai"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPYkQ2dThTZjFPaXI2RmZVZmlNckdCZjdtUVJyS3E2OEZFY0huTDY5N19Sc01zRDNfQmR4bkJNOE56NFBuWGVhOHBUcmwxUFJ6VzJyZTR3WEdESXlFY1htbURscTdOblY2ZFlSY3dnNmZjbVhab19fRl9ZNkJWWnRWTFJSTHVrWHUxV28wVnJZVTJlZHk0NE9XMU5R?oc=5",
-     "published": "2026-11-26T13:07:54+00:00",
-     "score": 2.481,
-     "source": "Neuralink",
-     "title": "Neuralink Wins FDA Approval For Pivotal Brain Implant Trial - Dataconomy",
-     "topics": [
-      "neurotech",
-      "regulatory"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9ya0VZTUloV3V2bEFqR1hLVkZybDNHYU4xSFF2Qm1PaWpQZndNQktiQkJiODJyS3Y5RGx2Mk81T1l4eGdwXzlBVnhoNHREak1kdVFjakotcVBfVTNoTWdRNldyUQ?oc=5",
-     "published": "2026-11-26T12:22:48+00:00",
-     "score": 2.377,
-     "source": "Neuralink",
-     "title": "Musk's Neuralink gets FDA approval for brain implant trial - MedWatch",
-     "topics": [
-      "neurotech",
-      "regulatory"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTDNnbFd1bWRYSHpTSEtJeXJWRnJ2WmpHVlEwem1SMWFWXzBRMzhjanBMLWs1bTk3cEdDTTVmZW1QMmRQVXRUYzVDdTl2WlUtS2I1N3d1eElnZEdxTUkyOTh4TnhMZVpyMV8ycWRpN0ktV1pXQ0NNc3JzSFh5NDBTaA?oc=5",
-     "published": "2026-11-26T12:16:13+00:00",
-     "score": 2.361,
-     "source": "Neuralink",
-     "title": "Neuralink receives FDA approval for ALS study - NR Times",
-     "topics": [
-      "neurotech",
-      "regulatory"
-     ]
-    },
-    {
-     "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPQnFHeDdDRFM0OTBDYS1CZVBldExORnYydlNieTlCbTJFWXJMMWxORVZCNGY5OUtTVklVaGNNdjZRRFFwQzg2djZ4dkpmVXlEMXNBaWdjZEh1R2lhQmw5WUVSUlJ0aDBCSl9jeV9tVzQ2Vkx4MFNJdkthaDJqcTJoLURHR3o2MDRqZmdEd2VidHNxTEY1UkhwZWNTTndsM3UxTGxOaWU2OUlEYlRwaGgzd2JkTTJLOFN2bEdQN2pPSjdMYkk0Y09iejk5NGQ2eVA3SE8xbVhVeGQ5Zzk4aGFJb0R2TlE5SEluRGNjblVSUW1hQWFRODlaVjB3Z2RCOUpGMDlJdWVhTkNlTi1WX3I1VTVyVldhX2t5U1E3dWdMeUUyYnBfblE?oc=5",
-     "published": "2026-11-26T11:41:53+00:00",
-     "score": 2.282,
-     "source": "Neuralink",
-     "title": "Neuralink's brain-computer interface chip is progressing to an FDA-approved trial, but China is catching up - TechRadar",
      "topics": [
       "neurotech",
       "regulatory"
@@ -713,5 +706,5 @@
    ]
   }
  },
- "fetched_at": "2026-11-27T07:16:09.844506+00:00"
+ "fetched_at": "2026-11-27T17:54:54.768930+00:00"
 }
