@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-28",
-  "times_seen": 67,
+  "times_seen": 68,
   "outlets": [
    "Autonomy",
    "Production"
@@ -36,7 +36,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-28",
-  "times_seen": 143,
+  "times_seen": 144,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-28",
-  "times_seen": 124,
+  "times_seen": 125,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -80,7 +80,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-28",
-  "times_seen": 150,
+  "times_seen": 151,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -121,7 +121,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-28",
-  "times_seen": 103,
+  "times_seen": 104,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -140,7 +140,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-28",
-  "times_seen": 117,
+  "times_seen": 118,
   "outlets": [
    "X"
   ]
@@ -161,10 +161,30 @@
   ],
   "primary": false,
   "last_seen": "2026-11-28",
-  "times_seen": 225,
+  "times_seen": 226,
   "outlets": [
    "Optimus",
    "Optimus Features"
+  ]
+ },
+ {
+  "statement": "Tesla to Sell Optimus Robots to Public Next Year, Musk Says - Bloomberg.com",
+  "entity": "Tesla",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdWtJUlpwc203WU9nUFhveXJVQkYxRWdab2ctSHlxSDRCUzRFY1dGVmpMbjFDdFRRakkxalU1eW9SOVZXNE5IT2N5aGVoaUZzWXk5WXp4NkN0b20zVHJPaWMzeTdXajhneFZzOXJjdlYyQTNxWFNlcTh5eE9PTlkyMlVRV05UZ3JhcnVYUUdrUUhjb0lvbGRhaTQzS0h6bk1wRFcxMng4QnFCQ2dnSEVoNEtJQ20?oc=5",
+  "first_seen": "2026-10-25",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-28",
+  "times_seen": 89,
+  "outlets": [
+   "Optimus"
   ]
  },
  {
@@ -532,26 +552,6 @@
   "times_seen": 179,
   "outlets": [
    "Neuralink"
-  ]
- },
- {
-  "statement": "Tesla to Sell Optimus Robots to Public Next Year, Musk Says - Bloomberg.com",
-  "entity": "Tesla",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdWtJUlpwc203WU9nUFhveXJVQkYxRWdab2ctSHlxSDRCUzRFY1dGVmpMbjFDdFRRakkxalU1eW9SOVZXNE5IT2N5aGVoaUZzWXk5WXp4NkN0b20zVHJPaWMzeTdXajhneFZzOXJjdlYyQTNxWFNlcTh5eE9PTlkyMlVRV05UZ3JhcnVYUUdrUUhjb0lvbGRhaTQzS0h6bk1wRFcxMng4QnFCQ2dnSEVoNEtJQ20?oc=5",
-  "first_seen": "2026-10-25",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-26",
-  "times_seen": 88,
-  "outlets": [
-   "Optimus"
   ]
  },
  {
