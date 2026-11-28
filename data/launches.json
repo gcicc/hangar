@@ -209,7 +209,7 @@
     "top_provider": "China Aerospace Science and Technology Corporation"
    },
    {
-    "count": 8,
+    "count": 7,
     "last_net": "2026-11-27T00:15:00Z",
     "lat": -39.262833,
     "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
@@ -469,6 +469,16 @@
     "top_provider": "SpaceX"
    },
    {
+    "count": 2,
+    "last_net": "2026-12-31T00:00:00Z",
+    "lat": -39.260881,
+    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "lon": 177.865826,
+    "name": "Unknown Pad",
+    "spacex": false,
+    "top_provider": "Rocket Lab"
+   },
+   {
     "count": 1,
     "last_net": "2026-11-14T01:16:00Z",
     "lat": 51.884395,
@@ -647,16 +657,6 @@
     "name": "South China Sea (launch location 4)",
     "spacex": false,
     "top_provider": "CAS Space"
-   },
-   {
-    "count": 1,
-    "last_net": "2026-12-31T00:00:00Z",
-    "lat": -39.260881,
-    "location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "lon": 177.865826,
-    "name": "Unknown Pad",
-    "spacex": false,
-    "top_provider": "Rocket Lab"
    }
   ],
   "passengers": [
@@ -2003,34 +2003,6 @@
   },
   "upcoming": [
    {
-    "description": "Synthetic aperture radar satellite for Japanese Earth imaging company Synspective.",
-    "id": "2093e4fc-ac8c-4296-a1b5-deececee6a72",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
-    "lat": -39.262833,
-    "lon": 177.864469,
-    "mission": "Night Owls Never Sleep (StriX Launch 14)",
-    "mission_type": "Earth Science",
-    "name": "Electron | Night Owls Never Sleep (StriX Launch 14)",
-    "net": "2026-11-27T00:15:00Z",
-    "net_precision": "MIN",
-    "orbit": "LEO",
-    "pad": "Rocket Lab Launch Complex 1B",
-    "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
-    "provider": "Rocket Lab",
-    "rocket": "Electron",
-    "status": "Success",
-    "status_name": "Launch Successful",
-    "url": "https://nextspaceflight.com/launches/details/2093e4fc-ac8c-4296-a1b5-deececee6a72",
-    "webcast_live": false,
-    "webcasts": [
-     {
-      "official": true,
-      "publisher": "Rocket Lab",
-      "url": "https://www.youtube.com/watch?v=p75NOkFoyXs"
-     }
-    ]
-   },
-   {
     "description": "The Yaogan 50-04 is a Chinese military \u201cremote sensing\u201d satellite of unknown purposes.",
     "id": "a6421db3-7c8a-4cf7-a659-cec195140f7f",
     "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
@@ -2107,8 +2079,8 @@
      },
      {
       "official": false,
-      "publisher": "NASASpaceflight",
-      "url": "https://www.youtube.com/watch?v=CLULlErcxF4"
+      "publisher": "Spaceflight Now",
+      "url": "https://www.youtube.com/watch?v=IwYSJ4ne7GM"
      }
     ]
    },
@@ -2496,8 +2468,30 @@
     "url": "https://nextspaceflight.com/launches/details/548df42c-ae26-4cc9-921a-f0042941911a",
     "webcast_live": false,
     "webcasts": []
+   },
+   {
+    "description": "BlackSky Gen-3 Earth-imaging satellites",
+    "id": "5aa3575e-f3ff-48ec-969f-e7e4c669f866",
+    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+    "lat": -39.260881,
+    "lon": 177.865826,
+    "mission": "BlackSky Gen-3 7",
+    "mission_type": "Earth Science",
+    "name": "Electron | BlackSky Gen-3 7",
+    "net": "2026-12-31T00:00:00Z",
+    "net_precision": "Q4",
+    "orbit": "LEO",
+    "pad": "Unknown Pad",
+    "pad_location": "Rocket Lab Launch Complex 1, Mahia Peninsula, New Zealand",
+    "provider": "Rocket Lab",
+    "rocket": "Electron",
+    "status": "TBD",
+    "status_name": "To Be Determined",
+    "url": "https://nextspaceflight.com/launches/details/5aa3575e-f3ff-48ec-969f-e7e4c669f866",
+    "webcast_live": false,
+    "webcasts": []
    }
   ]
  },
- "fetched_at": "2026-11-27T17:55:10.552780+00:00"
+ "fetched_at": "2026-11-28T01:13:52.072032+00:00"
 }
