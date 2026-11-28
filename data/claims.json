@@ -15,7 +15,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-28",
-  "times_seen": 68,
+  "times_seen": 69,
   "outlets": [
    "Autonomy",
    "Production"
@@ -36,7 +36,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-28",
-  "times_seen": 144,
+  "times_seen": 145,
   "outlets": [
    "SPCX",
    "TSLA",
@@ -59,7 +59,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-28",
-  "times_seen": 125,
+  "times_seen": 126,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -80,7 +80,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-28",
-  "times_seen": 151,
+  "times_seen": 152,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -101,7 +101,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-28",
-  "times_seen": 31,
+  "times_seen": 32,
   "outlets": [
    "TSLA"
   ]
@@ -121,7 +121,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-28",
-  "times_seen": 104,
+  "times_seen": 105,
   "outlets": [
    "Optimus",
    "Humanoids"
@@ -140,7 +140,7 @@
   "topics": [],
   "primary": false,
   "last_seen": "2026-11-28",
-  "times_seen": 118,
+  "times_seen": 119,
   "outlets": [
    "X"
   ]
@@ -161,7 +161,7 @@
   ],
   "primary": false,
   "last_seen": "2026-11-28",
-  "times_seen": 226,
+  "times_seen": 227,
   "outlets": [
    "Optimus",
    "Optimus Features"
@@ -201,29 +201,11 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-27",
-  "times_seen": 71,
+  "last_seen": "2026-11-28",
+  "times_seen": 72,
   "outlets": [
    "Optimus",
    "Humanoids"
-  ]
- },
- {
-  "statement": "Tesla Unveils Powercore, a New 7.4 MW Solid-State Transformer Coming in 2027",
-  "entity": "Tesla",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": "7.4 MW",
-  "source": "Not a Tesla App",
-  "link": "https://www.notateslaapp.com/news/5026/tesla-unveils-powercore-a-new-74-mw-solid-state-transformer-coming-in-2027",
-  "first_seen": "2026-11-17",
-  "topics": [],
-  "primary": false,
-  "last_seen": "2026-11-27",
-  "times_seen": 28,
-  "outlets": [
-   "Not a Tesla App"
   ]
  },
  {
@@ -240,8 +222,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-11-27",
-  "times_seen": 16,
+  "last_seen": "2026-11-28",
+  "times_seen": 17,
   "outlets": [
    "Autonomy"
   ]
@@ -260,8 +242,8 @@
    "autonomy"
   ],
   "primary": false,
-  "last_seen": "2026-11-27",
-  "times_seen": 16,
+  "last_seen": "2026-11-28",
+  "times_seen": 17,
   "outlets": [
    "Autonomy"
   ]
@@ -280,10 +262,172 @@
    "optimus"
   ],
   "primary": false,
-  "last_seen": "2026-11-27",
-  "times_seen": 57,
+  "last_seen": "2026-11-28",
+  "times_seen": 58,
   "outlets": [
    "Optimus"
+  ]
+ },
+ {
+  "statement": "Musk Says Tesla Will Wind Down Cybertruck Production Next Year To Make Room For Cybercab - Forbes",
+  "entity": "Musk",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUZNLTVPQ29tNld4bHBMTXNQcFhjYmRMdmZEX1A1M3VfUVhiMFlLdlJBZjU2RTZmUTAyczdhcjB2VEFCbHBHV1FtV09NNzRJcHlzX1dOWXRfRTFqQ1FxV1h3NFdJWV93SmpySE5ZWktvQ21zWFR6MHBrT3pWM3N4X09jQXNyakVHVVJzcy1ibzB6ZF81d180X3o5OGM4SXJvM2RmQ3RVVkFvRlZ1NlNxci02bG12MGM?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "autonomy",
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-28",
+  "times_seen": 24,
+  "outlets": [
+   "Production",
+   "Autonomy"
+  ]
+ },
+ {
+  "statement": "Musk says Tesla will end Cybertruck production in 2027 - CBS News",
+  "entity": "Musk",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Autonomy",
+  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NGswdEUycm1SMmlwV2dEZHpDQ1JzdUUxdnNJQWRnbEhxVzFHMjJmSS1jcVNwS1FLVHNZSzE1a3FTR21KRWNLb0xSYS02Z1NqSDBuZy1ra1BSNnowQ3VLeHBEUzVIYXM1TGNyMGFtamZPa3FLdWVqTkt6V19LS0E?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-28",
+  "times_seen": 23,
+  "outlets": [
+   "Autonomy",
+   "Production"
+  ]
+ },
+ {
+  "statement": "Tesla to Wind Down Cybertruck Production in Texas Next Year, Elon Musk Says - Bloomberg.com",
+  "entity": "Tesla",
+  "horizon_phrase": "Next Year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Production",
+  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRGdvX0pvbXJYRDkwem1xU0pQQVpPaFZlemVSdUFkTFdQMU5iNDVGTDJOLVd6RzNDcmFvaG1ReXhobE5UbmFlTzYxNmt4bjJ2MDlaSEtZa181Q3dnb3BTSl9CdURSWWo2ODRiQzBGa2FnMURLTzV2Q09LRVRKVTUzb1NMV0ZtNk9vYjBGY0NMR2xnWWg0ajlVVjgxQ0xmU1hKdU85Y2JsTTg1UzhBVmpz?oc=5",
+  "first_seen": "2026-11-06",
+  "topics": [
+   "production"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-28",
+  "times_seen": 16,
+  "outlets": [
+   "Production"
+  ]
+ },
+ {
+  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
+  "entity": "Musk",
+  "horizon_phrase": "next year",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "Optimus",
+  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
+  "first_seen": "2026-09-06",
+  "topics": [
+   "optimus"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-28",
+  "times_seen": 172,
+  "outlets": [
+   "Optimus",
+   "Humanoids"
+  ]
+ },
+ {
+  "statement": "SpaceX Shares Jump 5% on Musk Donation Plan, Seen Rising Over 30% by 2027 - TradingKey",
+  "entity": "SpaceX",
+  "horizon_phrase": "by 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQnhyTjlTZUU2cThqdENEcVFHaGN0LUpfQnNlWVhjNWx2ajRMbUpPc3N1WEpoMXVrTGVsOU00TnFRUXgyWmVPcVRrVGl5TnUyQVREOUVoT29xbGVNa1lTczdUN0NScERIU2lkWGVZT3BWVnA0YmRjU0lhN01rcUNfWWVXZlVFOXhoZGxEalVGWlhJOWNUWHc0bXBJU1BFVU9VRkhIenFDVnNPMW5BaG5vQw?oc=5",
+  "first_seen": "2026-11-27",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-28",
+  "times_seen": 3,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "SpaceX to transfer first shares to \u2018every child in US\u2019 next month, says Elon Musk - The Indian Express",
+  "entity": "SpaceX",
+  "horizon_phrase": "next month",
+  "horizon": "2026-12-31",
+  "horizon_precision": "month",
+  "quantity": null,
+  "source": "SPCX",
+  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZFNfbm9xYUstUUdEZUk4UVdMRWJFQ25DX0phak81Mm1LcndtSmVzU2hfUmN0MFhEbWhnR1hvNnVxRUF2b3NuV0l3cF9RaVVXc2hUSTU2M1U1djhmZ1FvUC12SmptalMyREExZGVHVjJRQnhGYko0RzdoLURjY0Z1RnFMaGFySlhROHgwMGI2TmhJMnd0LVRRX3dkNFd0TnNOMEtYYjN0akRQY05ITlM1VUtFZ0VCcHhPUXV2X1ZR0gHEAUFVX3lxTE5SZHdzUTl5d1p4SENsdG94dEFIVDdCRVlYYTJsVENXMzFOX0RYSGVkNjBQYWxLQUdpTkpnRkFESFFySWNqYU1MNW1BX0w2VUJEcFlJSkg2WEFiYU5ic05WLWRCQ0pESE5KYU0zQU5mTzNRRl9PS29id1djNzFDblZ1Y3RmNmVzb1k5NUl3U0RMMHRIZWx3TDhmWjF3WVdHYmhJZHJJaFhIZ2NGMFh2c1pqN2MtXzFUaVdaYkhNSlVpR3Z6NG0?oc=5",
+  "first_seen": "2026-11-26",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-28",
+  "times_seen": 3,
+  "outlets": [
+   "SPCX"
+  ]
+ },
+ {
+  "statement": "Tesla aims for a 30% stock rally by 2027, drive... - Pluang",
+  "entity": "Tesla",
+  "horizon_phrase": "by 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": null,
+  "source": "TSLA",
+  "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWjVsUHRxWHdWTkFVdERqSVhwaTNlaXhkOGVneWV3RHF4TVh2NkZaQVp6MFl3SE1PZzVmWEdVU3MtMjV3MXF6RWVweFF3dUQ3c3NCbUQwdmUxT1dOT2V4NVluZVJjbExJTk9QV1dET1BybXNDeENkOEkxZC1VbUFldHZHRVl3WDBvMEE?oc=5",
+  "first_seen": "2026-11-28",
+  "topics": [
+   "money"
+  ],
+  "primary": false,
+  "last_seen": "2026-11-28",
+  "times_seen": 1,
+  "outlets": [
+   "TSLA"
+  ]
+ },
+ {
+  "statement": "Tesla Unveils Powercore, a New 7.4 MW Solid-State Transformer Coming in 2027",
+  "entity": "Tesla",
+  "horizon_phrase": "in 2027",
+  "horizon": "2027-12-31",
+  "horizon_precision": "year",
+  "quantity": "7.4 MW",
+  "source": "Not a Tesla App",
+  "link": "https://www.notateslaapp.com/news/5026/tesla-unveils-powercore-a-new-74-mw-solid-state-transformer-coming-in-2027",
+  "first_seen": "2026-11-17",
+  "topics": [],
+  "primary": false,
+  "last_seen": "2026-11-27",
+  "times_seen": 28,
+  "outlets": [
+   "Not a Tesla App"
   ]
  },
  {
@@ -306,69 +450,6 @@
    "Humanoids",
    "Optimus",
    "TSLA"
-  ]
- },
- {
-  "statement": "Musk Says Tesla Will Wind Down Cybertruck Production Next Year To Make Room For Cybercab - Forbes",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUZNLTVPQ29tNld4bHBMTXNQcFhjYmRMdmZEX1A1M3VfUVhiMFlLdlJBZjU2RTZmUTAyczdhcjB2VEFCbHBHV1FtV09NNzRJcHlzX1dOWXRfRTFqQ1FxV1h3NFdJWV93SmpySE5ZWktvQ21zWFR6MHBrT3pWM3N4X09jQXNyakVHVVJzcy1ibzB6ZF81d180X3o5OGM4SXJvM2RmQ3RVVkFvRlZ1NlNxci02bG12MGM?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "autonomy",
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-27",
-  "times_seen": 23,
-  "outlets": [
-   "Production",
-   "Autonomy"
-  ]
- },
- {
-  "statement": "Musk says Tesla will end Cybertruck production in 2027 - CBS News",
-  "entity": "Musk",
-  "horizon_phrase": "in 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Autonomy",
-  "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB2NGswdEUycm1SMmlwV2dEZHpDQ1JzdUUxdnNJQWRnbEhxVzFHMjJmSS1jcVNwS1FLVHNZSzE1a3FTR21KRWNLb0xSYS02Z1NqSDBuZy1ra1BSNnowQ3VLeHBEUzVIYXM1TGNyMGFtamZPa3FLdWVqTkt6V19LS0E?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-27",
-  "times_seen": 22,
-  "outlets": [
-   "Autonomy",
-   "Production"
-  ]
- },
- {
-  "statement": "Tesla to Wind Down Cybertruck Production in Texas Next Year, Elon Musk Says - Bloomberg.com",
-  "entity": "Tesla",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Production",
-  "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRGdvX0pvbXJYRDkwem1xU0pQQVpPaFZlemVSdUFkTFdQMU5iNDVGTDJOLVd6RzNDcmFvaG1ReXhobE5UbmFlTzYxNmt4bjJ2MDlaSEtZa181Q3dnb3BTSl9CdURSWWo2ODRiQzBGa2FnMURLTzV2Q09LRVRKVTUzb1NMV0ZtNk9vYjBGY0NMR2xnWWg0ajlVVjgxQ0xmU1hKdU85Y2JsTTg1UzhBVmpz?oc=5",
-  "first_seen": "2026-11-06",
-  "topics": [
-   "production"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-27",
-  "times_seen": 15,
-  "outlets": [
-   "Production"
   ]
  },
  {
@@ -410,27 +491,6 @@
   "outlets": [
    "Humanoids",
    "Optimus"
-  ]
- },
- {
-  "statement": "Elon Musk says Tesla will likely sell humanoid robots by end of next year - Fox Business",
-  "entity": "Musk",
-  "horizon_phrase": "next year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "Optimus",
-  "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVWkzaGJvU0MtT1J2VTRQdU92RU9wZGMzMFI2WmVUalpjMmtiamw3UDJPQ2NBczBVSGlLOFdnM3hremNUZzJLem00T2NNRWdIRlI2XzZXbnlVc1ZpdTd4ek9QSnJ3MmMtX0R1Q0d4SnBLNzF4aS0xZWd2eGhzWnEtWThsYUtJVERGdTJyRE4yazdFUVBldDZRZkI3QjBMczDSAaQBQVVfeXFMT1RCcXd4dlVzVGJRZXNDS1Z3b0tQX0E4RVJQSDR3dHkwQ3hHaTlUYlNMVTFPeXlxV19SNE42NVM0UmVzaUNxSXY4Z2twTTVMM1hOZ1YwbHRzVG5aMmFqYWdVV29IUDJFaGNYTlJiVmFMZFFncV9GNWNuVnNJaUctUkctdUZyVGdrY2p2VzF6RjRVY3JFMU5GVjNHNmY2QVduTUlGb0I?oc=5",
-  "first_seen": "2026-09-06",
-  "topics": [
-   "optimus"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-27",
-  "times_seen": 171,
-  "outlets": [
-   "Optimus",
-   "Humanoids"
   ]
  },
  {
@@ -493,26 +553,6 @@
   ]
  },
  {
-  "statement": "SpaceX Shares Jump 5% on Musk Donation Plan, Seen Rising Over 30% by 2027 - TradingKey",
-  "entity": "SpaceX",
-  "horizon_phrase": "by 2027",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQnhyTjlTZUU2cThqdENEcVFHaGN0LUpfQnNlWVhjNWx2ajRMbUpPc3N1WEpoMXVrTGVsOU00TnFRUXgyWmVPcVRrVGl5TnUyQVREOUVoT29xbGVNa1lTczdUN0NScERIU2lkWGVZT3BWVnA0YmRjU0lhN01rcUNfWWVXZlVFOXhoZGxEalVGWlhJOWNUWHc0bXBJU1BFVU9VRkhIenFDVnNPMW5BaG5vQw?oc=5",
-  "first_seen": "2026-11-27",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-27",
-  "times_seen": 2,
-  "outlets": [
-   "SPCX"
-  ]
- },
- {
   "statement": "Musk Says Tesla Hopes to Offer Built-In Starlink Beyond Cybercab by Late 2027 - Electric Vehicles",
   "entity": "Musk",
   "horizon_phrase": "by Late 2027",
@@ -572,26 +612,6 @@
   "times_seen": 15,
   "outlets": [
    "Production"
-  ]
- },
- {
-  "statement": "SpaceX to transfer first shares to \u2018every child in US\u2019 next month, says Elon Musk - The Indian Express",
-  "entity": "SpaceX",
-  "horizon_phrase": "next month",
-  "horizon": "2026-12-31",
-  "horizon_precision": "month",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZFNfbm9xYUstUUdEZUk4UVdMRWJFQ25DX0phak81Mm1LcndtSmVzU2hfUmN0MFhEbWhnR1hvNnVxRUF2b3NuV0l3cF9RaVVXc2hUSTU2M1U1djhmZ1FvUC12SmptalMyREExZGVHVjJRQnhGYko0RzdoLURjY0Z1RnFMaGFySlhROHgwMGI2TmhJMnd0LVRRX3dkNFd0TnNOMEtYYjN0akRQY05ITlM1VUtFZ0VCcHhPUXV2X1ZR0gHEAUFVX3lxTE5SZHdzUTl5d1p4SENsdG94dEFIVDdCRVlYYTJsVENXMzFOX0RYSGVkNjBQYWxLQUdpTkpnRkFESFFySWNqYU1MNW1BX0w2VUJEcFlJSkg2WEFiYU5ic05WLWRCQ0pESE5KYU0zQU5mTzNRRl9PS29id1djNzFDblZ1Y3RmNmVzb1k5NUl3U0RMMHRIZWx3TDhmWjF3WVdHYmhJZHJJaFhIZ2NGMFh2c1pqN2MtXzFUaVdaYkhNSlVpR3Z6NG0?oc=5",
-  "first_seen": "2026-11-26",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-11-26",
-  "times_seen": 2,
-  "outlets": [
-   "SPCX"
   ]
  },
  {
@@ -2390,26 +2410,6 @@
   "quantity": null,
   "source": "SPCX",
   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaXVsQS04T2NwX0t6T0tWZUFzdHhyRTdLX1BERTFTZ1l2SkZZNEVoMlc3NUtCU3hmSmx5Z240NkNNb2JiRm4wYVdXQkNkWExyM1NCYjFHaVpoMmp2RUhSZlJuMjc3Q1VqeW5IWU4zQ2hyeW1vT2xQelVWWEMyU21OUXQ1UXpKZVE?oc=5",
-  "first_seen": "2026-10-19",
-  "topics": [
-   "money"
-  ],
-  "primary": false,
-  "last_seen": "2026-10-19",
-  "times_seen": 1,
-  "outlets": [
-   "SPCX"
-  ]
- },
- {
-  "statement": "Elon Musk Pledges a SpaceX Share to Every American Kid Next Year - Startup Fortune",
-  "entity": "Musk",
-  "horizon_phrase": "Next Year",
-  "horizon": "2027-12-31",
-  "horizon_precision": "year",
-  "quantity": null,
-  "source": "SPCX",
-  "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUmdwd2hnd0JOYjIwdWJ5YlM0a1lfU29NR3BWbVNYbzhDckpfMHpWb3VTbVdWcjItZjBDWUpIMGw2OWVsMEVVSzVDc0p4REZpREFUWXBRcTgzbnZsWldlM3hiYnY4RFVrZGxNZVAwR1RfdXZaT2c4TC10VFFnQUNHQTZpLWlxY09RZ0JoUnp2UG5tVC1DV2Qw?oc=5",
   "first_seen": "2026-10-19",
   "topics": [
    "money"
